@@ -1,0 +1,17 @@
+{
+  "name": "factbook-crawler",
+  "description": "Extracts structured data from the HTML of the CIA World Factbook",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twigkit/worldfactbook-dataset.git"
+  },
+  "author": "Richard Marr <richard.marr@gmail.com>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "0.4.*"
+  }
+}
