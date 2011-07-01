@@ -1,0 +1,438 @@
+#cssdropdown {
+	list-style: none;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 0px;
+	margin: 0px;
+	/* IE Fix */
+	left: 39px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	z-index: auto;}
+#cssdropdown ul {
+	margin-left: -39px;
+ 	margin-top: 0px;
+	/* IE Fix */
+	left: 39px;
+	top: 22px;
+	padding: 0px 0px 0px 0px;
+	line-height: 23px
+	display: block;
+}
+#cssdropdown li {
+	float: left;
+	position: relative;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+}
+#cssdropdown #home {
+	background-image: url(../graphics/home_off.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 23px;
+	/* IE Fix */
+	_height: 23px;
+	_width: 33px;
+	display: block;
+}
+
+#cssdropdown #home:hover, #home a:hover {
+	background-image: url(../graphics/home_on.gif);
+	width: 33px;
+	height: 23px;
+	/* IE Fix */
+	_height: 23px;
+	_width: 33px;
+	display: block;
+}
+
+#cssdropdown a:link, #cssdropdown a:active, #cssdropdown a:visited {
+	color: #999999;
+	display: block;
+}
+
+#cssdropdown a:hover {
+	color: #666666;
+	display: block;
+}
+
+.mainitems /* mainitems  -----  ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	background: url(../graphics/navback.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	display: block;
+	color: #666666;
+	letter-spacing: .05em;
+}
+
+.mainitems_long /* mainitems  ---- APPENDICES -- REFERENCES */{
+	width: 80px;
+	background: url(../graphics/navback_long.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	display: block;
+	color: #666666;
+	letter-spacing: .05em;
+}
+.mainitems a:link, .mainitems a:active, .mainitems a:visited,.mainitems_long a:link, .mainitems_long a:active, .mainitems_long a:visited /* mainitems on navigation LINK:ACTIVE:VISITED ---- ALL */{
+	text-decoration: none;
+	color: #999999;
+	display: block;
+}
+
+.mainitems:hover, .mainitems a:hover /* mainitems navigation hovers    -----  ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+	height: 23px;
+}
+.mainitems_long:hover, .mainitems_long a:hover /* mainitems navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_long_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+	height: 23px;
+}
+
+.mainitems_active /* mainitems navigation hovers    -----  ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	background: url(../graphics/navback_over.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.mainitems_long_active /* mainitems navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	background: url(../graphics/navback_long_over.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.mainitems_active a:link, .mainitems_active a:active, .mainitems_active a:visited,.mainitems_long_active a:link, .mainitems_long_active a:active, .mainitems_long_active a:visited /* mainitems on navigation LINK:ACTIVE:VISITED*/{
+	text-decoration: none;
+	color: #999999;
+}
+
+.mainitems_active:hover, .mainitems_active a:hover /* mainitems navigation hovers ---- ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+	height: 23px;
+}
+
+.mainitems_long_active:hover, .mainitems_long_active a:hover /* mainitems navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_long_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+	height: 23px;
+}
+
+
+#current /* Current selection on navigation */{
+	background-image: url(../graphics/navback_over.gif);
+}
+
+/* dropdowns for ABOUT - REFERENCE - FAQS - CONTACT  made width shorter*/
+.subuls {
+	display: none;
+	position: absolute;
+	width: 220px;
+	padding-left: 0px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+
+.subuls li{
+	width: 220px;
+	height: 20px;
+	border: 1px solid #bfbfbf;
+	background-color: #F8F8E7;
+	text-decoration: none;
+	margin: 0px;
+	vertical-align: middle;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.subuls li a{
+	width: 220px;
+	height: 20px;
+	color: #999999;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.subuls li a:hover{
+	width: 220px;
+	height: 20px;
+	color: #666666;
+	background-color: #F0EECF;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+
+/* dropdowns for APPENDIX - made width longer */
+.subuls_long  {
+	display: none;
+	position: absolute;
+	width: 380px;
+	padding-left: 0px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	line-height: 20px;
+	_width: 350px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+
+.subuls_long li{
+	width: 400px;
+	height: 20px;
+	border: 1px solid #bfbfbf;
+	background-color: #F8F8E7;
+	text-decoration: none;
+	margin: 0px;
+	vertical-align: middle;
+	line-height: 20px;
+	_width: 400px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.subuls_long  li a{
+	width: 400px;
+	height: 20px;
+	color: #999999;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 400px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.subuls_long li a:hover{
+	width: 400px;
+	height: 20px;
+	color: #666666;
+	background-color: #F0EECF;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 400px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+
+
+#cssdropdown li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: 22px;
+	left: 39px;
+}
+#cssdropdown .subuls_long li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: 22px;
+	left: 39px;
+}
+#cssdropdown li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	background-image: none; 
+	line-height: 20px;
+	width: 220px;
+	height: 20px;
+}
+#cssdropdown .subuls_long li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	background-image: none; 
+	line-height: 20px;
+	width: 400px;
+	height: 20px;
+}
+#restofcontent { /*wrap rest of content of the page inside this div*/
+clear: left;
+}
+/*--------------------------------------------------------------------------------------------*/
+#admin_dropdown {
+	list-style: none;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 0px;
+	margin: 0px;
+	/* IE Fix */
+	left: 39px;
+	padding: 0px 0px 0px 0px;
+	background: none;
+}
+#admin_dropdown ul {
+	margin-left: -39px;
+ 	margin-top: 0px;
+	/* IE Fix */
+	left: 39px;
+	top: 22px;
+	padding: 0px 0px 0px 0px;
+	line-height: 23px
+	background: none;
+}
+#admin_dropdown li {
+	float: left;
+	position: relative;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background: none;
+}
+#admin_dropdown li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: 1px;
+	left: 95px;
+}
+
+#admin_dropdown li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	background-image: none; 
+	line-height: 20px;
+	height: 20px;
+}
+
+.admin_mainitems /* mainitems */{
+	width: 73px;
+	background: url(../graphics/navback.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+}
+.admin_subuls {
+	display: none;
+	position: absolute;
+	width: 220px;
+	padding-left: 0px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.admin_subulsli{
+	width: 220px;
+	height: 20px;
+	border: 1px solid #bfbfbf;
+	background-color: #F8F8E7;
+	text-decoration: none;
+	margin: 0px;
+	vertical-align: middle;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.admin_subuls li a{
+	width: 220px;
+	height: 20px;
+	color: #999999;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+.admin_subuls li a:hover{
+	width: 220px;
+	height: 20px;
+	color: #666666;
+	background-color: #F0EECF;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 220px;
+	_height: 20px;
+	letter-spacing: .09em;
+}
+a:link, a:hover, a:active, a:visited {
+	color: #666666;
+}

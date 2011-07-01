@@ -1,0 +1,2497 @@
+/* ----- base.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/base.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+
+}
+
+
+/* ----- public.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/public.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+
+}
+
+
+/* ----- columns.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/columns.css?original=1 */
+/* */
+#portal-columns {
+width: 100% !important;
+border-collapse: collapse;
+border-spacing: 0;
+}
+#portal-column-one {
+vertical-align: top;
+width: 16em;
+}
+#portal-column-content {
+vertical-align: top;
+margin: 0;
+padding: 0;
+}
+#portal-column-two {
+vertical-align: top;
+width: 16em;
+}
+/* */
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+display: none;
+}
+body.fullscreen #portal-column-content {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+/* */
+
+}
+
+
+
+/* ----- portlets.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/portlets.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+
+}
+
+
+/* ----- presentation.css ----- */
+@media projection {
+/* http://localhost:8081/CIAgov/portal_css/presentation.css?original=1 */
+/* */
+/* */
+body {
+/*background: White url(http://localhost:8081/CIAgov/logo.jpg) no-repeat fixed 95% 95%;*/
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px !important;
+color: Black;
+margin: 0;
+padding: 0;
+min-width: 0px !important;
+}
+#visual-portal-wrapper {
+width: 100% !important;
+min-width: 0 !important;
+}
+#portal-column-content {
+margin: 0 !important;
+}
+#portal-column-content #content {
+padding: 1em;
+margin: 0 !important;
+}
+h1, h2 {
+font-size: 50px !important;
+background-color: #dee7ec;
+border-color: #8cacbb;
+border-style: solid;
+border-width: 1px;
+padding-top: 0em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+margin: 1em 0 0 0;
+page-break-before: always;
+font-weight: normal;
+}
+h1.documentFirstHeading {
+/* */
+page-break-before: avoid;
+}
+dl, ol, ul {
+font-size: 40px !important;
+text-align: left;
+margin-top: 0.5em;
+}
+dt {
+background-color: #dee7ec;
+border-color: #8cacbb;
+border-style: solid;
+border-width: 1px;
+display: inline;
+padding-right: 0.5em;
+}
+dd {
+margin-bottom: 0.25em;
+}
+li {
+margin: 0 0 0.5em 0;
+}
+p {
+/* */
+display: none;
+}
+.documentDescription {
+font-size: 40px !important;
+font-weight: normal;
+margin-top: 4em;
+text-align: center !important;
+}
+ul {
+/*list-style-image: url(http://localhost:8081/CIAgov/bulletBig.gif);*/
+}
+pre {
+font-size: 25px;
+padding: 0.5em;
+font-weight: bold;
+background-color: #dee7ec;
+border: 1px dashed #8cacbb;
+}
+code {
+background-color: #dee7ec;
+border-color: #8cacbb;
+border-style: dashed;
+border-width: 1px;
+padding: 0.1em 0.25em;
+}
+a {
+color: #436976 !important;
+}
+div.top,
+#portal-logo,
+.hiddenStructure,
+#portal-searchbox,
+#portal-siteactions,
+#portal-globalnav,
+#portal-personaltools,
+#portal-breadcrumbs,
+#portal-column-one,
+#portal-column-two,
+.contentViews,
+.contentActions,
+.help,
+.legend,
+div.portalMessage,
+div.documentActions,
+.documentByLine,
+.netscape4,
+#portal-footer,
+#portal-colophon,
+input,
+.skipnav {
+/* */
+display: none;
+}
+div#portal-columns div#visual-column-wrapper,
+div#portal-columns div#visual-column-wrapper div#portal-column-content {
+width: 100%;
+}
+div#portal-columns div#visual-column-wrapper div#portal-column-content {
+padding: 0;
+margin: 0;
+}
+div#portal-columns div#visual-column-wrapper div#portal-column-content * {
+text-align: left;
+}
+#content,
+.group {
+background: transparent;
+border: none;
+padding: 0;
+margin: 0 0 0 20;
+margin-left: 5px;
+}
+#content {
+margin: 0 1em;
+}
+table.listing,
+table.listing td {
+border: 1pt solid black;
+border-collapse: collapse;
+}
+a, a:link, a:visited {
+color: #520;
+background: transparent;
+}
+/* */
+
+}
+
+
+/* ----- print.css ----- */
+@media print {
+/* http://localhost:8081/CIAgov/portal_css/print.css?original=1 */
+div.top,
+#portal-logo,
+#portal-siteactions,
+.hiddenStructure,
+#portal-searchbox,
+#portal-globalnav,
+#portal-personaltools,
+#portal-breadcrumbs,
+#portal-column-one,
+#portal-column-two,
+.contentViews,
+.contentActions,
+.help,
+.legend,
+div.portalMessage,
+div.portalWarningMessage,
+div.portalStopMessage,
+div.documentActions,
+.documentByLine,
+.netscape4,
+#portal-footer,
+#portal-colophon,
+.skipnav,
+.visualNoPrint {
+/* */
+display: none;
+}
+body {
+font-family: Baskerville, Georgia, Garamond, Times, serif;
+font-size: 11pt !important;
+}
+h1, h2, h3, h4, h5, h6
+{
+border: none;
+font-family: Baskerville, Georgia, Garamond, Times, serif;
+}
+div, p, ul, dl, ol {
+width: auto !important;
+}
+ul, ol, dl {
+padding-right: 0.5em;
+}
+ul {
+list-style-type: square;
+}
+.documentDescription {
+font-weight: bold;
+}
+pre {
+border: 1pt dotted black;
+white-space: pre;
+font-size: 8pt;
+overflow: auto;
+padding: 1em 0;
+}
+table.listing,
+table.listing td {
+border: 1pt solid black;
+border-collapse: collapse;
+}
+a {
+color: Black !important;
+padding: 0 !important;
+text-decoration: none !important;
+}
+a:link, a:visited {
+color: #520;
+background: transparent;
+}
+
+}
+
+
+/* ----- mobile.css ----- */
+@media handheld {
+/* http://localhost:8081/CIAgov/portal_css/mobile.css?original=1 */
+/* */
+/* */
+body {
+font: 69% Arial, Helvetica, sans-serif;
+background-color: White;
+color: #707070;
+margin: 0;
+padding: 0;
+}
+table {
+font-size: 100%;
+}
+a {
+color: #436976;
+background-color: transparent;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+p {
+margin: 0.5em 0em 1em 0em;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+border-bottom: 1px solid #8cacbb;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+color: #707070 ! important;
+}
+h1 {
+font-size: 160%;
+}
+h2 {
+font-size: 150%;
+}
+h3 {
+font-size: 140%;
+border-bottom: none;
+font-weight: bold;
+}
+h4 {
+font-size: 120%;
+border-bottom: none;
+font-weight: bold;
+}
+h5 {
+font-size: 100%;
+border-bottom: none;
+font-weight: bold;
+}
+h6 {
+font-size: 85%;
+border-bottom: none;
+font-weight: bold;
+}
+label {
+font-weight: bold;
+}
+/* */
+#portal-searchbox {
+font-size: 10px;
+}
+#portal-globalnav {
+/* */
+background-color: transparent;
+border-collapse: collapse;
+padding: 0;
+padding-left: 0.2em;
+list-style: none;
+margin: 0;
+height: auto;
+line-height: normal;
+}
+#portal-globalnav li {
+display: inline;
+}
+#portal-globalnav li a {
+/* */
+background-color: transparent;
+border-color: #8cacbb;
+border-width: 1px;
+border-style: solid solid none solid;
+color: #436976;
+height: auto;
+margin-right: 0.1em;
+padding: 0em 0.2em;
+text-decoration: none;
+text-transform: lowercase;
+}
+#portal-globalnav li.selected a {
+/* */
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+border-bottom: #dee7ec 1px solid;
+color: #436976;
+}
+#portal-personaltools {
+/* */
+background-color: #dee7ec;
+border-top-color: #8cacbb;
+border-top-style: solid;
+border-top-width: 1px;
+border-bottom-color: #8cacbb;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: #707070;
+margin: 0;
+text-align: right;
+text-transform: lowercase;
+list-style: none;
+}
+#portal-personaltools li {
+margin-left: 0.2em;
+display: inline;
+}
+#portal-personaltools li a {
+text-decoration: none;
+color: #436976;
+}
+.visualCaseSensitive {
+text-transform: none;
+}
+#portal-breadcrumbs {
+/* */
+border-bottom-color: #8cacbb;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+padding-left: 0.2em;
+padding-right: 0.2em;
+text-transform: lowercase;
+}
+.contentViews {
+background-color: transparent;
+border-collapse: collapse;
+padding-left: 0.1em;
+line-height: normal;
+margin: 0.2em 0 0 0;
+/* */
+list-style: none;
+border: 1px solid #74ae0b;
+border-top-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+}
+.contentViews li {
+display: inline;
+}
+.contentViews li a {
+background-color: transparent;
+border: 1px solid #74ae0b;
+border-style: solid;
+color: #578308;
+height: auto;
+margin-right: 0.2em;
+padding: 0;
+line-height: normal;
+text-decoration: none;
+text-transform: lowercase;
+z-index: 1;
+}
+.contentViews .selected a {
+background-color: #cde2a7;
+border-bottom: #cde2a7 1px solid;
+color: #578308;
+}
+.contentActions {
+border-collapse: collapse;
+background-color: #cde2a7;
+border-left: 1px solid #74ae0b;
+border-right: 1px solid #74ae0b;
+color: #578308;
+text-align: right;
+text-transform: lowercase;
+padding: 0 0 0 0.2em;
+z-index: 2;
+height: 1.2em;
+}
+.contentActions ul,
+.contentActions li {
+margin: 0;
+list-style: none;
+list-style-image: none;
+display: inline;
+color: #707070;
+text-align: left;
+}
+.contentActions ul {
+padding: 0;
+margin: 0;
+}
+.contentActions li {
+float: right;
+/*background-image: url(http://localhost:8081/CIAgov/arrowDownAlternative.gif);*/
+background-repeat: no-repeat;
+background-position: center right;
+z-index: 4;
+border-left: 1px solid #74ae0b;
+padding: 0 0 0 0.2em;
+margin: 0 0.2em 0 0;
+}
+.actionItems li {
+background-image: none;
+}
+.contentActions a {
+text-decoration: none;
+color: #578308;
+padding: 0 0.6em 0 0;
+}
+.contentActions .actionMenu .actionMenuContent {
+display: none;
+z-index: 5;
+position: absolute;
+top: 0;
+right: -1px;
+height: auto;
+padding: 0;
+margin: 0;
+cursor: pointer;
+}
+.contentActions .actionMenu .actionMenuContent ul {
+display: block;
+background: #cde2a7;
+border: 1px #74ae0b;
+border-style: none solid solid solid;
+margin: 0.2em 0 0 0;
+padding: 0;
+cursor: pointer;
+}
+.actionMenu .actionMenuContent li {
+font-size: 10px !important;
+float: none;
+background: transparent;
+display: inline;
+padding: 0;
+margin: 0;
+border: 0;
+}
+.actionMenu .actionMenuContent li a {
+display: block;
+white-space: nowrap;
+padding: 0 0.2em;
+margin: 0.2em 0;
+}
+.actionMenu .actionMenuContent .actionSeparator a {
+margin-top: 0.2em;
+padding-top: 0.2em;
+border-top: 1px solid #74ae0b;
+}
+.documentEditable .documentContent {
+border: 1px solid #74ae0b;
+padding: 0.5em;
+}
+/* */
+.portalMessage,
+.portalWarningMessage,
+.portalStopMessage,
+.system-message,
+#error-handling {
+background-color: #ffce7b;
+border: 1px solid #ffa500;
+color: #707070;
+font-size: 85%;
+font-weight: bold;
+margin: 2em 0em 1em 0em;
+padding: 0.5em 1em;
+vertical-align: middle;
+}
+.portalMessage a,
+.portalWarningMessage a,
+.portalStopMessage a {
+color: #707070;
+}
+.documentDescription {
+/* */
+font-weight: bold;
+display: block;
+margin: 0.5em 0em;
+}
+.documentByLine {
+text-align: right;
+font-size: 85%;
+clear: both;
+font-weight: normal;
+color: #76797c;
+}
+#portal-footer {
+background-color: #dee7ec;
+border-top: 1px solid #8cacbb;
+border-bottom: 1px solid #8cacbb;
+float: none;
+margin: 2em 0em 1em 0em;
+padding: 0.5em 0em 1em 0em;
+text-align: center;
+}
+.hiddenStructure,
+#portal-logo,
+#portal-searchbox,
+#portal-siteactions,
+#portal-column-one,
+#portal-column-two,
+.addFavorite,
+.documentActions,
+#portal-colophon,
+.netscape4
+{
+display: none;
+}
+/* */
+
+}
+
+
+/* ----- deprecated.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/deprecated.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+.portletItemSingle {
+margin: 0;
+padding: 1em;
+border: 1px solid #8cacbb;
+border-top: none;
+}
+dd.portletItemLast {
+margin: 0;
+padding: 0.25em 1em;
+border: 1px solid #8cacbb;
+border-style: none solid;
+}
+/* */
+div.portlet {
+border: none;
+margin-bottom: 1em;
+padding: 0;
+}
+div.portlet a {
+text-decoration: none;
+}
+/* */
+#region-content .portlet {
+font-size: 94%;
+}
+div.portlet h4 { /* */
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+padding: 0em 0.3em 0em 1em;
+text-transform: lowercase;
+display: block;
+font-size: 1em;
+font-weight: normal;
+}
+div.portlet h5 {
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+padding: 0em 1em 0em 1em;
+text-transform: lowercase;
+display: inline;
+
+font-size: 1em;
+font-weight: normal;
+white-space: nowrap;
+position: relative;
+top: -1px;
+}
+div.portlet h6 {
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+padding: 0em 0.3em 0em 1em;
+text-transform: lowercase;
+display: block;
+font-size: 1em;
+font-weight: normal;
+}
+div.portletBody {
+position: relative;
+top: -1px;
+background: transparent;
+border: 1px solid #8cacbb;
+}
+div.portletDetails {
+text-align: right;
+}
+div.portletContent {
+padding: 1em;
+}
+div.portletAction {
+float: right;
+width: 0.8em;
+text-align: center;
+display: block;
+text-transform: none;
+border-left: 1px solid #8cacbb;
+padding-left: 0.3em;
+}
+div.portlet h1,
+div.portlet h2,
+div.portlet h3,
+div.portlet h4 {
+margin: 0;
+padding: 0;
+}
+div.portlet input {
+font-size: 100%;
+}
+div.portletSyndication {
+display: block;
+float: left;
+border: 1px solid #8cacbb;
+background-color: #dee7ec;
+font-size: 85%;
+}
+a.portletMore {
+display: block;
+text-align: right;
+}
+div.portletFooter {
+padding: 0.5em 1em 1em 1em;
+}
+/* */
+.navIcon,
+.navIconRoot {
+position: relative;
+right: 20px;
+}
+.navItemText {
+margin-left: -20px;
+}
+.navRootItem,
+.navItem {
+margin: 0 0 0.2em 0;
+border: 1px solid White;
+display: block;
+background-repeat: no-repeat;
+background-position: 0 1px;
+padding: 0.1em 0.25em 0.2em 20px;
+margin: 1px 0;
+}
+.currentNavItem {
+background-color: #dee7ec;
+color: #436976;
+border: 1px solid #8cacbb;
+}
+.portletNavigationTreeItem {
+margin: 0;
+}
+.portletNavigationTreeItem a {
+display: block;
+text-decoration: none;
+padding: 0.5em 0 0.5em 1.75em;
+background-repeat: no-repeat;
+background-position: 0 3px;
+border: 1px solid White;
+}
+.portletNavigationTreeItem a:hover,
+.currentNavItem {
+background-color: #dee7ec;
+color: #436976;
+border: 1px solid #8cacbb !important;
+}
+/* */
+.portletNavigationLevel0 {
+margin: 0;
+}
+/* */
+.navLevel1 { margin-left: 0em; }
+.navLevel2 { margin-left: 1em; }
+.navLevel3 { margin-left: 2em; }
+.navLevel4 { margin-left: 3em; }
+.navLevel5 { margin-left: 4em; }
+.navLevel6 { margin-left: 4.5em; }
+.navLevel7 { margin-left: 5em;   }
+.navLevel8 { margin-left: 5.5em; }
+/* */
+
+}
+
+/* ----- generated.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/generated.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+
+}
+
+/* ----- textSmall.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/textSmall.css?original=1 */
+body {
+font-size: 60% !important;
+}
+
+}
+
+/* ----- textLarge.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/textLarge.css?original=1 */
+body {
+font-size: 95% !important;
+}
+
+}
+
+/* ----- ciatheme.css ----- */
+@media screen {
+/* http://localhost:8081/CIAgov/portal_css/ciatheme.css?original=1 */
+/* */
+/* **********************************/
+body {
+/* */
+font-family: Arial, Helvetica, sans-serif; /* */
+font-size: small; /* */
+background-color: White;
+color: #707070;
+margin: 0;
+padding: 0;
+}
+table {
+font-size: 100%;
+}
+a {
+color: #436976;
+background-color: transparent;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+p {
+margin: 0 0 0.75em 0;
+line-height: 1.5em;
+}
+p img {
+border: none;
+margin: 0;
+}
+hr {
+border: 0;
+height: 1px;
+color: #8cacbb;
+background-color: #8cacbb;
+margin: 0.5em 0 1em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+ color: #707070;
+ background-color: transparent;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-weight: normal;
+ /* */
+margin: 0 0 0 0; /**/
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+color: #707070 ! important;
+text-decoration: none;
+}
+h1 {
+font-size: 160%;
+}
+h2 {
+font-size: 150%;
+}
+h3 {
+font-size: 125%;
+border-bottom: none;
+font-weight: bold;
+}
+h4 {
+font-size: 110%;
+border-bottom: none;
+font-weight: bold;
+}
+h5 {
+font-size: 100%;
+border-bottom: none;
+font-weight: bold;
+}
+h6 {
+font-size: 85%;
+border-bottom: none;
+font-weight: bold;
+}
+.section-offices-of-cia h1.documentFirstHeading {
+margin: 0 0 0 0;
+}
+h1.documentFirstHeading {margin:0; padding:0;line-height: 1em;} /* */
+ul {
+line-height: 1.5em;
+margin: 0.5em 0 0 1.5em;
+padding: 0;
+/* */
+list-style-type: disc;
+}
+ol {
+line-height: 1.5em;
+margin: 0.5em 0 0 2.5em;
+padding: 0;
+list-style-image: none;
+}
+li {
+margin-bottom: 0.5em;
+}
+dt {
+font-weight: bold;
+}
+dd {
+line-height: 1.5em;
+margin-bottom: 1em;
+}
+fieldset {
+border: 1px solid #8cacbb;
+margin: 1em 0em 1em 0em;
+padding: 0em 1em 1em 1em;
+line-height: 1.5em;
+width: auto;
+}
+legend {
+background: White;
+padding: 0.5em;
+font-size: 90%;
+}
+form {
+border: none;
+margin: 0;
+}
+label {
+font-weight: bold;
+}
+textarea {
+
+font: 100% Arial;
+border: 1px solid #8cacbb;
+color: Black;
+/*background: White url(http://localhost:8081/CIAgov/input_background.gif) repeat-x;*/
+width: 100%;
+}
+input {
+font-family: Arial, Helvetica, sans-serif;
+visibility: visible;
+border: 1px solid #8cacbb;
+color: Black;
+vertical-align: middle;
+/*background: White url(http://localhost:8081/CIAgov/input_background.gif) repeat-x;*/
+}
+select {
+border: 1px solid #8cacbb;
+color: Black;
+background-color: White;
+vertical-align: top;
+}
+abbr, acronym, .explain {
+border-bottom: 1px dotted #707070;
+color: #707070;
+background-color: transparent;
+cursor: help;
+}
+q {
+font-family: Baskerville, Georgia, serif;
+font-style: italic;
+font-size: 120%;
+}
+blockquote {
+padding-left: 0.5em;
+margin-left: 0;
+color: #76797c;
+}
+code {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 120%;
+color: #707070;
+background-color: #dee7ec;
+padding: 0 0.1em;
+}
+pre {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+padding: 1em;
+border: 1px solid #8cacbb;
+color: #707070;
+background-color: #dee7ec;
+overflow: auto;
+}
+ins {
+color: green;
+text-decoration: none;
+}
+del {
+color: red;
+text-decoration: line-through;
+}
+
+.visualClear {
+display: block;
+clear: both;
+}
+
+.netscape4 {
+display: none;
+}
+
+.hiddenStructure {
+display: block;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+position: absolute;
+top: -200px;
+left: -200px;
+}
+.hiddenLabel {
+display: block;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+
+#portal-column-one .visualPadding {
+padding: 0px;
+}
+#portal-column-two .visualPadding {
+padding: 4px 0px 0px 0px;
+/*background:transparent url(../graphics_wfbook_shell/subBlueTop2.gif) no-repeat top right;
+*/}
+/* */
+.documentContent {
+/* */
+font-size: 100%;
+/* */
+padding: 2px 10px 2px 10px !important;  /**/
+background: White; /* */
+}
+/* */
+.documentContent p a {
+text-decoration: none;
+border-bottom: 1px #cccccc solid;
+}
+.documentContent p a:visited {
+color: Purple;
+background-color: transparent;
+}
+.documentContent p a:active {
+color: Red;
+background-color: transparent;
+}
+.documentContent li a {
+}
+.documentContent li a:visited {
+color: Purple;
+}
+.documentContent li a:active {
+color: Red;
+}
+.documentContent dd a {
+}
+.documentContent dd a:visited {
+color: Purple;
+background-color: transparent;
+}
+.documentContent dd a:active {
+color: Red;
+background-color: transparent;
+}
+
+.field {
+top: 0;
+left: 0;
+margin: 0 1em 1em 0;
+}
+.field .field {
+margin: 1em 0 0 0;
+}
+.fieldRequired {
+/*background: url(http://localhost:8081/CIAgov/required.gif) center left no-repeat;*/
+padding: 0 0 0 8px;
+color: White;
+}
+.fieldUploadFile {
+text-align: right;
+margin-right: 0.75em;
+display: none;
+}
+.fieldTextFormat {
+text-align: right;
+margin-right: 0.75em
+}
+.formHelp {
+font-size: 90%;
+color: #76797c;
+margin: 0 0 0.2em 0;
+}
+.formHelp:hover {
+color: #707070;
+cursor: default;
+}
+.formControls {
+margin: 1em 0;
+}
+.error {
+
+background-color: #ffce7b;
+border: 1px solid #ffa500;
+padding: 1em;
+margin: 0 0 1em 0;
+width: 95%;
+}
+.error .fieldRequired {
+color: #ffce7b;
+}
+
+.noborder,
+.documentEditable * .noborder {
+border: none;
+margin: 0;
+background: none;
+background-color: transparent;
+}
+
+#visual-portal-wrapper {
+margin: 0;
+padding: 0;
+}
+
+#portal-logo {
+background: #FFFFFF url(../graphics_wfbook_shell/ciaseal.gif) no-repeat top left;
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+* html #portal-logo {height:111px; he\ight: auto;}
+
+#portal-logo a {
+display: block;
+text-decoration: none;
+overflow: hidden;
+border: 0;
+margin: 0;
+padding: 0;
+padding-top: 111px;
+height: 0px !important;
+width: 157px;
+cursor: pointer;
+}
+
+* html #portal-logo a {height:111px !important; he\ight: 0px !important;}
+
+#portal-top {
+
+margin: 0;
+padding: 0;
+background-color: transparent;
+}
+
+#portal-searchbox {
+float: right;
+clear: right;
+background-color: transparent;
+margin: 1.5em 0 0 0;
+padding: 0 2em 0 0;
+text-align: right;
+text-transform: lowercase;
+white-space: nowrap;
+z-index: 2;
+}
+#portal-advanced-search {
+margin-top: 0.2em;
+clear: both;
+}
+#portal-advanced-search a {
+color: #76797c;
+text-decoration: none;
+text-transform: lowercase;
+}
+
+.LSRes {
+font-family:  Arial, Helvetica, sans-serif;
+visibility: visible;
+color: #436976;
+background-color: White;
+vertical-align: middle;
+display:block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1.1em;
+}
+#LSHighlight {
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+color: #436976;
+}
+.LSRow {
+border: 1px solid White;
+white-space: normal;
+padding:0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight:bold;
+white-space:nowrap
+}
+.LSDescr {
+color: #76797c;
+text-transform: lowercase;
+padding-left:2.1em;
+margin-top:-0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 5px;
+margin: 0;
+left: 3px;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+text-align: right;
+}
+.livesearchContainer {
+background-color: White;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+right: 0px;
+top: 0;
+white-space: normal;
+font-family:  Arial, Helvetica, sans-serif;
+visibility: visible;
+text-align: left;
+color: #436976;
+border: 1px solid #8cacbb;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: #8cacbb;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 1px solid #8cacbb;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+/* */
+.LSIEFix {
+background-color: White;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+float: left;
+text-align: right;
+padding-right: 1px;
+display:block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+
+#portal-personaltools {
+background-color: #dee7ec;
+line-height: 1.6em;
+color: #707070;
+margin: 0;
+text-align: right;
+text-transform: lowercase;
+list-style: none;
+font: 12px Arial;
+color: Black;
+padding: 2px 10px 2px 10px;
+}
+#portal-personaltools .portalUser {
+/*background: transparent url(http://localhost:8081/CIAgov/user.gif) center left no-repeat;*/
+padding-left: 18px;
+}
+#portal-personaltools .portalNotLoggedIn {
+/* */
+color: #707070;
+padding: 0;
+background: transparent;
+background-image: none;
+}
+#portal-personaltools li {
+color: #436976;
+margin-left: 1em;
+display: inline;
+}
+#portal-personaltools li a {
+text-decoration: none;
+color: #436976;
+}
+#portal-personaltools li a:hover {
+text-decoration: underline;
+color: Black;
+}
+#portal-personaltools .visualIconPadding {
+padding-left: 10px;
+}
+.visualCaseSensitive {
+text-transform: none;
+}
+#portal-breadcrumbs {
+background:White url(../graphics_wfbook_shell/rtBreadAreaImgBlue.jpg) no-repeat top right;
+padding-left:8px;
+padding-right:190px;
+width:auto; height:auto;
+min-height:52px;
+font: normal 11px Arial;
+margin: 0px 15px 0px 15px;
+}
+
+* html #portal-breadcrumbs {
+height:52px;
+}
+.section-kids-page #portal-breadcrumbs {background:White url(../graphics_wfbook_shell/rtBreadAreaImgKids.jpg) no-repeat top right;}
+#portal-breadcrumbs a {
+font: 11px Arial; 
+text-decoration: none;
+color:#3E5579; 
+}
+
+#portal-breadcrumbs a:hover {
+font: normal 11px Arial;
+text-decoration: underline;
+color:#000000;
+}
+/* */
+ul#breadCrumb li, ul#breadCrumb li a {font: normal 11px Arial; color:#3E5579; text-decoration:none;}
+ul#breadCrumb li a:hover {color:#000000; text-decoration:underline;}
+.breadcrumbSeparator {
+font-size: 120%;
+}
+.addFavorite {
+vertical-align: bottom;
+}
+#content {
+padding: 5px 5px 5px 5px !important;
+margin: 0px 0px 2px 0px;
+}
+.documentEditable {  /* */
+padding: 20em 22em 21em 22em !important;     /* */
+}
+#content-news h1 {
+margin-bottom: 1em;
+}
+/* */
+#content h5,
+#content h6 {
+color: #76797c;
+}
+.newsItem {
+margin-bottom: 1em;
+border-bottom: 1px solid #8cacbb;
+}
+.newsImage {
+border: 1px solid black;
+}
+.newsImageContainer {
+float:right;
+margin: 0 0 0.5em 1em;
+width: 202px;
+}
+.newsContent {
+padding: 0 1em 1em 1em;
+}
+.newsContent ul,
+.newsContent li {
+display: block;
+list-style: none;
+list-style-image: none;
+margin: 0;
+padding: 0;
+}
+.newsAbout {
+display: block;
+color: #76797c;
+font-size: 85%;
+padding: 0;
+margin-top: 0;
+list-style: none;
+list-style-image: none;
+float: right;
+text-align: right;
+}
+.newsAbout li {
+display: inline;
+}
+.newsFooter {
+}
+.newsFooter li {
+display: inline;
+margin: 0 1em 0 0;
+}
+.documentActions {
+float: right;
+margin: 0.4em 0 0 0.5em;
+padding: 0;
+text-align: right;
+}
+.documentActions ul {
+margin: 1px 0 2px 0;
+padding: 0;
+display: block;
+}
+.documentActions li {
+display: inline;
+list-style: none;
+list-style-image: none;
+margin: 0;
+padding: 0;
+}
+.documentActions a {
+border: none !important;
+text-decoration: none;
+}
+
+.portalMessage,
+.portalWarningMessage,
+.portalStopMessage,
+.system-message,
+#error-handling {
+background-color: #ffce7b;
+border: 1px solid #ffa500;
+color: #707070;
+font-size: 85%;
+font-weight: bold;
+margin: 1em 0em;
+padding: 0.5em 1em 0.5em 3em;
+vertical-align: middle;
+/*background-image: url(http://localhost:8081/CIAgov/info_icon.gif);*/
+background-repeat: no-repeat;
+background-position: 5px 50%;
+}
+
+.portalMessage a,
+.portalWarningMessage a,
+.portalStopMessage a {
+color: #707070;
+}
+.documentDescription {
+
+display: block;
+margin: 0em 0em 0.5em 0em;
+line-height: 1.5em;
+}
+.documentByLine {
+font-size: 85%;
+font-weight: normal;
+color: #76797c;
+margin: 0em 0em 0.5em 0em;
+}
+.discussion {
+margin-top: 1em;
+}
+.even {
+background-color: #eef3f5;
+}
+.odd {
+background-color: transparent;
+}
+.visualHighlight {
+background-color: #eef3f5;
+}
+.discreet {
+color: #76797c;
+font-size: 85%;
+font-weight: normal;
+}
+.pullquote {
+padding: 0 1em 0 1em;
+margin: 0 0 1em 1em;
+font-weight: bold;
+color: #CC9933;
+/*float: right;*/
+width: 35%;
+clear: right;
+background-color: White;
+}
+.callout {
+font-weight: bold;
+color: #CC9933;
+padding: 0px 1em;
+}
+
+.listingBar {
+background-color: #dee7ec;
+border-color: #8cacbb;
+border-style: solid;
+border-width: 1px;
+padding: 0em 1em;
+text-align: center;
+text-transform: lowercase;
+vertical-align: top;
+margin: 1em 0em;
+font-size: 94%;
+clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+text-align: left;
+float: left;
+margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+text-align: right;
+float: right;
+margin-left: 1em;
+
+}
+.listingBar img {
+vertical-align: middle;
+}
+.listingBar a {
+text-decoration: none;
+}
+.tileItem {
+border-top: 1px solid #8cacbb;
+padding-top: 0.5em;
+margin-top: 0.5em;
+}
+.tileHeadline {
+border: none;
+font-size: 110%;
+font-weight: bold;
+}
+.tileHeadline a {
+text-decoration: none;
+}
+.tileBody {
+margin-bottom: 0.5em;
+}
+.tileImage {
+float: right;
+margin: 0 0 0.5em 0.5em;
+border: 1px solid black;
+}
+.eventDetails {
+float: right;
+width: 20em;
+clear: right;
+}
+
+ul.visualNoMarker,
+ol.visualNoMarker {
+list-style-type: none;
+list-style-image: none;
+margin: 0.5em 0 0 0;
+line-height: 1em;
+}
+textarea.proportional {
+font: 100% Arial, Helvetica, sans-serif;
+}
+.productCredits {
+text-align: right;
+font-size: 85%;
+clear: both;
+font-weight: normal;
+color: #76797c;
+}
+
+#footerBlock {
+width:auto; height:auto;
+min-height:14px;
+background:transparent url(../graphics_wfbook_shell/lnav_greybarBot.gif) no-repeat top left;
+padding-left:157px;
+}
+#footerBlock .footerBlockBGR {
+width:auto; height:auto;
+min-height:14px;
+background:transparent url(../graphics_wfbook_shell/rnav_greybarBotSub.gif) no-repeat top right;
+}
+/* */
+* html #footerBlock .footerBlockBGR, * html #footerBlock {height:14px;}   /* makes the footer flush right  --- USED BY MPG ONLY */
+#footerBlock .footerBlockBGC {
+width:auto; height:auto;
+border:1px solid #D1D1D1; border-width:1px 0px 0px 0px;
+margin-right:0px;
+text-align: right;
+}
+#footerLinks-L, #portal-siteactions {
+margin: 0;
+padding: 0;
+list-style: none;
+list-style-image: none;
+}
+#footerLinks-L {
+float:left;
+padding:0px;
+margin-left:120px;
+}
+#portal-siteactions {
+float:right;
+padding:0px;
+margin: 0px;
+}
+#footerLinks-L li, #portal-siteactions li {
+display: inline;
+}
+#footerLinks-L li {
+margin-right:6px;
+}
+#portal-siteactions li {
+margin-left:6px;
+}
+#footerLinks-L li a, #portal-siteactions li a {
+font: normal 11px Arial; color:#636363;
+text-decoration:none;
+text-transform: capitalize;
+}
+#footerLinks-L li a:hover, #portal-siteactions li a:hover {
+text-decoration:underline;
+color:#000000;
+}
+
+#portal-siteactions {
+}
+#portal-siteactions li {
+}
+#portal-siteactions li a {
+}
+#portal-siteactions li.selected a {
+}
+#portal-siteactions li a:hover {
+}
+
+#portal-footer {clear: both; float: none;  width:100%; height:21px; background: url(../graphics_wfbook_shell/footerBarBG.gif) repeat-x top left;}
+#portal-footer #colL {float:left; width:290px; height:21px; background: url(../graphics_wfbook_shell/footerBarL.gif) repeat-x top left;}
+#portal-footer #colR {float:right; width:193px; height:21px; background: url(../graphics_wfbook_shell/footerBarR.gif) repeat-x top left;}
+
+#portal-sitemap {
+list-style: none;
+list-style-image: none;
+margin: 0;
+font-size: 90%;
+border: none;
+}
+#portal-sitemap a {
+}
+#portal-sitemap a:hover {
+}
+
+#portal-sitemap .navTreeItem a:hover {border: 0px;}
+
+#portal-sitemap .navTreeLevel1 {
+padding-left: 1em;
+border-left: 0.5em solid #8cacbb;
+margin: 0 0 0 0.5em;
+}
+#portal-sitemap .navTreeLevel2 {
+padding-left: 1em;
+border-left: 0.5em solid #dee7ec;
+margin: 0 0 0 0.6em;
+}
+
+.link-plain {
+background-image: none;
+padding: 0;
+}
+.link-parent {
+display: block;
+/*background: transparent url(http://localhost:8081/CIAgov/arrowUp.gif) 4px 5px no-repeat;*/
+padding: 1px 0px 10px 16px;
+font-size: 85%;
+text-decoration: none;
+}
+.link-user {
+/*background: transparent url(http://localhost:8081/CIAgov/user.gif) 0 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-external {
+/*background: transparent url(http://localhost:8081/CIAgov/link_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-https {
+/*background: transparent url(http://localhost:8081/CIAgov/lock_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-mailto {
+/*background: transparent url(http://localhost:8081/CIAgov/mail_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-news {
+/*background: transparent url(http://localhost:8081/CIAgov/topic_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-ftp {
+/*background: transparent url(http://localhost:8081/CIAgov/file_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-irc {
+/*background: transparent url(http://localhost:8081/CIAgov/discussionitem_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-callto {
+/*background: transparent url(http://localhost:8081/CIAgov/phone_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-webcal {
+/*background: transparent url(http://localhost:8081/CIAgov/event_icon.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 16px;
+}
+.link-feed {
+/*background: transparent url(http://localhost:8081/CIAgov/rss.gif) 0px 1px no-repeat;*/
+padding: 1px 0px 1px 18px;
+}
+.link-comment {
+/*background: transparent url(http://localhost:8081/CIAgov/discussionitem_icon.gif) center left no-repeat;*/
+padding: 1px 0px 1px 16px !important; 
+}
+.link-anchor {
+color: #76797c;
+text-decoration: none;
+font-weight: normal;
+}
+
+.visualGhosted {
+opacity: 0.2;
+-moz-opacity: 0.2;
+-khtml-opacity: 0.2;
+}
+
+body.fullscreen #footerBlock .footerBlockBGR {background-image:none;}
+body.fullscreen #footerBlock .footerBlockBGC { margin-right:15px; }
+body.fullscreen #footerBlock {
+background-image:none;
+padding-left:15px;
+}
+body.fullscreen #portal-logo { /**/
+display: none;
+}
+
+.image-left {
+float: left;
+clear: both;
+margin: 0.5em 1em 0.5em 0;
+border: 1px solid Black;
+}
+.image-inline {
+float: none;
+}
+.image-right {
+float: right;
+clear: both;
+margin: 0.5em;
+border: 1px solid Black;
+}
+
+dl.portlet {
+
+margin: 0;
+border-bottom: 1px solid #8cacbb;
+background-color: White;
+}
+
+dl#portlet-navigation-tree {
+margin: 0;
+border-bottom: 0;
+}
+
+dl.portlet a {
+text-decoration: none;
+}
+.portlet a.tile {
+display: block;
+}
+
+dd.portletItem a,
+dd.portletFooter a {
+border-bottom: none;
+}
+dd.portletItem a:visited,
+dd.portletFooter a:visited {
+color: #436976;
+}
+.portletHeader {
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+padding: 0em 1em;
+text-transform: lowercase;
+font-weight: normal;
+line-height: 1.6em;
+}
+.portletHeader a {
+color: #707070;
+}
+
+#portlet-navigation-tree .portletHeader {
+display:none;
+}
+
+.portletItem {
+margin: 0;
+padding: 1em;
+border-left: 1px solid #8cacbb;
+border-right: 1px solid #8cacbb;
+}
+
+#portlet-navigation-tree .portletItem {
+padding: 0px;
+border:1px solid #A9B4C4; border-width:1px 0px 0px 0px;
+}
+
+.portletItemDetails {
+text-align: right;
+display: block;
+color: #707070;
+}
+dd.portletFooter {
+background-color: #eef3f5;
+margin: 0;
+padding: 0.25em 1em;
+border: 1px solid #8cacbb;
+border-style: dotted solid none solid;
+text-align: right;
+}
+
+.portletTopLeft {}
+.portletTopRight {}
+.portletBottomLeft {}
+.portletBottomRight {}
+
+.portletNavigationTree {
+margin: 0 0 0 9px;
+/*margin: 0 0 0 0.75em; --------------------------------------------- NN7 patch */
+padding: 0;
+list-style: none;
+list-style-image: none;
+/*line-height: 1em; --------------------------------------------- NN7 patch */
+line-height: 12px;
+}
+
+#portlet-navigation-tree .portletNavigationTree {
+margin: 0;
+margin-top: 0px; /* added --------------------------------------------- NN7 patch */
+}
+.navTree {
+list-style: none;
+list-style-image: none;
+margin-top: 1px;
+}
+#portlet-navigation-tree .navTree {
+margin-top: 0px;
+}
+.navTreeLocal {
+/* margin: 0 0 0 0.75em;  --------------------------------------------- NN7 patch */
+margin: 0 0 0 9px;
+}
+.navTree li {
+margin-bottom: 1px;
+}
+/* */
+#portlet-navigation-tree .navTree li {
+margin-bottom: 0px;
+}
+/* */
+.navTreeItem {
+display: block;
+padding: 0;
+margin: 0;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
+/* */
+border:0;
+display: block;
+text-decoration: none;
+/*padding-top: 0.25em;  --------------------------------------------- NN7 patch */       
+padding-top: 3px;
+padding-bottom: 0;
+}
+#portlet-navigation-tree .navTreeLevel0 div{
+background-color: #3E5579;
+border-bottom:1px solid #A9B4C4;
+}
+#portlet-navigation-tree .navTreeLevel1 div{
+background-color: #E1E1E1;
+border-bottom:1px solid #9C9C9C;
+}
+#portlet-navigation-tree .navTreeLevel2 div{
+background-color: #E1E1E1;
+border-bottom:1px solid #9C9C9C;
+}
+#portlet-navigation-tree .navTreeLevel3 div{
+background-color: #ACACAC;
+border-bottom:1px solid #9C9C9C;
+}
+#portlet-navigation-tree .navTreeLevel4 div{
+background-color: #7D7D7D;
+border-bottom:1px solid #9C9C9C;
+}
+#portlet-navigation-tree .navTreeLevel5 div{
+background-color: #7D7D7D;
+border-bottom:1px solid #9C9C9C;
+}
+#portlet-navigation-tree .navTreeLevel5,
+#portlet-navigation-tree .navTreeLevel6,
+#portlet-navigation-tree .navTreeLevel7,
+#portlet-navigation-tree .navTreeLevel8,
+#portlet-navigation-tree .navTreeLevel9,
+#portlet-navigation-tree .navTreeLevel10 {
+display:none;
+}
+.state-private {
+color: Red !important;
+}
+.state-visible {
+color: #74AE0B !important;
+}
+.state-published {
+color: #436976 !important;
+}
+.state-pending {
+color: #FFA500 !important;
+}
+.state-expired {
+color: #76797c !important;
+}
+.syndicated {
+color: #008000 !important;
+}
+#portlet-navigation-tree .navTreeLevel0 div a,
+#portlet-navigation-tree .navTreeLevel0 div a.state-published,
+#portlet-navigation-tree .navTreeLevel0 div a.state-visible {
+padding-left: 10px;
+font:12px Arial;
+color:#FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel1 div a,
+#portlet-navigation-tree .navTreeLevel1 div a.state-published,
+#portlet-navigation-tree .navTreeLevel1 div a.state-visible {
+padding-left: 16px;
+font:11px Arial;
+color:#636363 !important;
+}
+#portlet-navigation-tree .navTreeLevel2 div a,
+#portlet-navigation-tree .navTreeLevel2 div a.state-published,
+#portlet-navigation-tree .navTreeLevel2 div a.state-visible {
+padding-left: 16px;
+font:11px Arial;
+color:#636363 !important;
+}
+#portlet-navigation-tree .navTreeLevel3 div a,
+#portlet-navigation-tree .navTreeLevel3 div a.state-published,
+#portlet-navigation-tree .navTreeLevel3 div a.state-visible {
+padding-left: 21px;
+font:11px Arial;
+color:#464646 !important;
+}
+#portlet-navigation-tree .navTreeLevel4 div a,
+#portlet-navigation-tree .navTreeLevel4 div a.state-published,
+#portlet-navigation-tree .navTreeLevel4 div a.state-visible {
+padding-left: 27px;
+font:11px Arial;
+color:#E1E1E1 !important;
+}
+#portlet-navigation-tree .navTreeLevel5 div a,
+#portlet-navigation-tree .navTreeLevel5 div a.state-published,
+#portlet-navigation-tree .navTreeLevel5 div a.state-visible {
+padding-left: 31px;
+font:11px Arial;
+color:#E1E1E1 !important;
+}
+#portlet-navigation-tree .navTreeLevel0 .navTreeItem a:hover {
+background-color: #501D1D;
+color: #FFFFFF;
+}
+#portlet-navigation-tree .navTreeLevel1 .navTreeItem a:hover {
+background-color: #E1E1E1;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel2 .navTreeItem a:hover {
+background-color: #E1E1E1;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel3 .navTreeItem a:hover {
+background-color: #ACACAC;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel4 .navTreeItem a:hover {
+background-color: #7D7D7D;
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel5 .navTreeItem a:hover {
+background-color: #7D7D7D;
+color: #FFFFFF !important;
+}
+li.navTreeCurrentItem {
+display: block;
+padding: 0 0 0 100px;
+margin: 0 0 2px -1px;
+}
+li.navTreeCurrentItem a,
+li.navTreeCurrentItem a:hover {
+display: block;
+height: auto;
+}
+/* */
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
+/*height: 1.6em;  --------------------------------------------- NN7 patch */ 
+height: 19px;
+}
+.navTreeCurrentItem {
+border: 0px;
+}
+
+#portlet-navigation-tree .navTreeLevel0 div a.navTreeCurrentFolder {
+background: #501D1D url(../graphics_wfbook_shell/navDwnArrowFFF_501D1D.gif) no-repeat 2px center;
+background-color: #501D1D; /**/
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel1 div a.navTreeCurrentFolder {
+background: #E1E1E1 url(../graphics_wfbook_shell/navDwnArrow787878_E1E1E1.gif) no-repeat 5px center;
+background-color: #E1E1E1; /**/
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel2 div a.navTreeCurrentFolder {
+background: #E1E1E1 url(../graphics_wfbook_shell/navDwnArrow787878_E1E1E1.gif) no-repeat 5px center;
+background-color: #E1E1E1; /**/
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel3 div a.navTreeCurrentFolder {
+background: #ACACAC url(../graphics_wfbook_shell/navDwnArrow787878_ACACAC.gif) no-repeat 10px center;
+background-color: #ACACAC; /**/
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel4 div a.navTreeCurrentFolder {
+background: #7D7D7D url(../graphics_wfbook_shell/navRtArrowFFF_7D7D7D.gif) no-repeat 19px center ;
+background-color: #7D7D7D; /**/
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel5 div a.navTreeCurrentFolder {
+background: #7D7D7D url(../graphics_wfbook_shell/navRtArrowFFF_7D7D7D.gif) no-repeat 21px center;
+background-color: #7D7D7D; /**/
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel0 div a.navTreeCurrentItem {
+background: #501D1D url(../graphics_wfbook_shell/navRtArrowFFF_501D1D.gif) no-repeat 3px center ;
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel1 div a.navTreeCurrentItem {
+background: #E1E1E1 url(../graphics_wfbook_shell/navRtArrow787878_E1E1E1.gif) no-repeat 7px center ;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel2 div a.navTreeCurrentItem {
+background: #E1E1E1 url(../graphics_wfbook_shell/navRtArrow787878_E1E1E1.gif) no-repeat 7px center ;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel3 div a.navTreeCurrentItem {
+background: #ACACAC url(../graphics_wfbook_shell/navRtArrow787878_ACACAC.gif) no-repeat 13px center ;
+color: #000000 !important;
+}
+#portlet-navigation-tree .navTreeLevel4 div a.navTreeCurrentItem {
+background: #7D7D7D url(../graphics_wfbook_shell/navRtArrowFFF_7D7D7D.gif) no-repeat 19px center ;
+color: #FFFFFF !important;
+}
+#portlet-navigation-tree .navTreeLevel5 div a.navTreeCurrentItem {
+background: #7D7D7D url(../graphics_wfbook_shell/navRtArrowFFF_7D7D7D.gif) no-repeat 21px center ;
+color: #FFFFFF !important;
+}
+
+.actionMenu .actionMenuContent .visualIconPadding {
+/* padding-left: 0.5em; --------------------------------------------- NN7 patch */ 
+padding-left: 6px
+/* */
+margin-bottom: 0px;
+/*min-height: 1.6em; --------------------------------------------- NN7 patch */ 
+min-height: 19px;
+height: auto;
+/*line-height: 1.6em; --------------------------------------------- NN7 patch */ 
+line-height: 19px;
+}
+.visualIconPadding {
+margin-bottom: 0px;
+/*min-height: 1.6em; --------------------------------------------- NN7 patch */ 
+min-height: 19px;
+height: auto;
+/*line-height: 1.6em; --------------------------------------------- NN7 patch */ 
+line-height: 19px;
+}
+
+* html .visualIconPadding {
+/* height: 1.6em;--------------------------------------------- NN7 patch */ 
+height: 19px; 
+}
+
+#portlet-navigation-tree .navTreeLevel0 { margin: 0; padding:0;}
+#portlet-navigation-tree .navTreeLevel1 { margin-left: 0; padding:0; margin-top:0px;}
+#portlet-navigation-tree .navTreeLevel2 { margin-left: 0; padding:0; margin-top:0px;}
+#portlet-navigation-tree .navTreeLevel3 { margin-left: 0; padding:0; margin-top:0px;}
+#portlet-navigation-tree .navTreeLevel4 { margin-left: 0; padding:0; margin-top:0px;}
+#portlet-navigation-tree .navTreeLevel5 { margin-left: 0; padding:0; margin-top:0px;}
+
+html, body {
+margin:0;
+padding:0;
+height:100%;
+border:none;
+}
+
+#mnBG {width:100%; height:100%; padding:0px; margin:0px; border-collapse:collapse;}
+#mnBGL, #mnBGR, #mnBGC {vertical-align:top; width:33%; height:auto; padding:0px; margin:0px;}
+#mnBGL {background:#F6F6F6 url(../graphics_wfbook_shell/mnBGL.gif) repeat-y top right; padding-top:48px;}
+#mnBGR {background:#F6F6F6 url(../graphics_wfbook_shell/mnBGR.gif) repeat-y top left; padding-top:48px;}
+#mnBGLStripe {width:100%; height:25px; background:#EAEAEA url(../graphics_wfbook_shell/mnBGLStripe.gif) no-repeat top right;}
+#mnBGRStripe {width:100%; height:25px; background:#EAEAEA url(../graphics_wfbook_shell/mnBGRStripe.gif) no-repeat top left;}
+
+#ciaUtilityBlock {width:auto; height:20px;}
+
+#lColBG, #rColBG {width:774px; height:auto; padding:0px; margin:0px;}
+#lColBG {background:transparent url(../graphics_wfbook_shell/lColGreyBG.gif) repeat-y top left;}
+#rColBG {background:transparent url(../graphics_wfbook_shell/rtColBGplain.gif) repeat-y top right;}
+
+#portal-columns {
+width: 100% !important;
+height:auto;
+margin:0px; padding:0px;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+#portal-column-one {
+width:157px; height:auto;
+padding:0px; margin:0px;
+vertical-align:top;
+}
+#contentColsA-R {
+width:617px; height:auto;
+padding:0px; margin:0px;
+vertical-align:top;
+}
+#contentColsB {width:100%; height:auto; padding:0px; margin:0px; border-collapse:collapse;}
+
+#portal-column-content {
+padding: 0;
+margin: 0;
+vertical-align:top;
+/*background:#FFFFFF url(../graphics_wfbook_shell/subBlueTop2.gif) no-repeat top right;
+*/}
+
+#portal-column-two {
+width:112px; height:auto;
+padding:0px; margin:0px;
+vertical-align:top;
+}
+
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+display: none;
+}
+body.fullscreen #lColBG,
+body.fullscreen #rColBG {background-image:none;}
+body.fullscreen #portal-column-content, body.fullscreen #contentColsA-R {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#ciaTitle {text-indent:-9999px; overflow:hidden; width:100%; height:25px; background:#FFFFFF url(../graphics_wfbook_shell/txt_cia.gif) no-repeat top left;}
+#flashArea2 {width:100%; height:25px; background-color:#FFFFFF;}
+#flashArea2 span {
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+width:100%; height:100%;
+background:#FFFFFF url(../graphics_wfbook_shell/txt_cia.gif) no-repeat top left;}
+
+#ciaWorkSearchBar {width:617px; height:32px; background:#FFFFFF url(../graphics_wfbook_shell/searchMnBG.gif) repeat-x top left;}
+#ciaWork {text-indent:-9999px; overflow:hidden; float:left; width:379px; height:32px; background:#FFFFFF url(../graphics_wfbook_shell/txt_work.gif) no-repeat top left;}
+form#ciaSearchForm {display:block; float:right; padding: 7px 0px 0px 55px; margin:0px; width:183px; height:25px; background:#FFFFFF url(../graphics_wfbook_shell/searchBG.gif) no-repeat top left;}
+input#searchBox {display:block; float:left; padding:0px 2px 0px 2px; width:148px; height:15px; font:11px Arial; color:#000000; border:1px solid #DEDEDE; background-image:none;}
+input#searchBtn {display:block; float:left; padding:0px 0px 0px 2px; margin:0px; border:none; width:23px; height:17px; background-image:none; background-color:transparent;}
+
+* html form#ciaSearchForm {width: 238px; w\idth: 183px; height:32px; he\ight: 25px;}
+
+#ciaMission {width:127px; height:auto; padding:20px 20px 10px 10px; background: url(../graphics_wfbook_shell/lnav_greybarMid.gif) no-repeat top left; font:11px Arial; color:#707070;}
+#ciaMission a:link {text-decoration: underline;}
+#ciaMission a:hover {text-decoration: none; color: #333333;}
+
+#ciaMission h3 {font: bold 13px Arial; color:#484747; text-align:left; padding:0px; margin:0px;}
+
+* html #ciaMission {width: 157px; w\idth: 127px;}
+
+#sectionHeadBar {
+width:auto; height:28px;
+padding:0px; margin:15px 15px 0px 15px;
+background:White url(../graphics_wfbook_shell/sectionBar_greyR.gif) no-repeat top right;
+}
+
+* html #sectionHeadBar {height:33px; he\ight:28px;}
+#sectionHeadBar h1 {
+width:270px; height:auto;
+padding:4px 0px 0px 6px;
+margin:0 0 0 0;
+font: normal 18px Arial;
+color:#FFFFFF;
+border:0px;
+line-height:18px;
+background:White url(../graphics_wfbook_shell/sectionBar_greyL.gif) no-repeat top right;
+}
+
+* html #sectionHeadBar h1 {
+width: 276px; w\idth: 270px;
+}
+.section-about-cia #sectionHeadBar,
+.section-offices-of-cia #sectionHeadBar,
+.section-news-information #sectionHeadBar,
+.section-library #sectionHeadBar,
+.section-contact-cia #sectionHeadBar {
+background-image: url(../graphics_wfbook_shell/sectionBar_greyR.gif);
+}
+.section-about-cia #sectionHeadBar h1,
+.section-offices-of-cia #sectionHeadBar h1,
+.section-news-information #sectionHeadBar h1,
+.section-library #sectionHeadBar h1,
+.section-contact-cia #sectionHeadBar h1 {
+background-image: url(../graphics_wfbook_shell/sectionBar_greyL.gif);
+}
+.section-careers #sectionHeadBar {
+background-image: url(../graphics_wfbook_shell/sectionBar_orangeR.gif);
+}
+.section-careers #sectionHeadBar h1 {
+background-image: url(../graphics_wfbook_shell/sectionBar_orangeL.gif);
+}
+.section-kids-page #sectionHeadBar {
+background-image: url(../graphics_wfbook_shell/sectionBar_redR.gif);
+}
+.section-kids-page #sectionHeadBar h1 {
+background-image: url(../graphics_wfbook_shell/sectionBar_redL.gif);
+}
+#officesSectionImg {
+width:auto; height:148px;
+overflow:hidden;
+text-indent:-9999px;
+margin: 0px 15px 0px 15px;
+}
+
+#iraqiRewardsContainer {padding-top:0px; background-color:#E7EEF4;}
+#iraqiRewards {width:104px; height:31px; padding:2px 4px 0px 4px; text-align:center;  background: #D9DEE2 url(../graphics_wfbook_shell/txt_rewardsBG.gif) no-repeat top left;}
+
+* html #iraqiRewards {width: 112px; w\idth: 104px;}
+#iraqiRewards a {font: normal 11px Arial; color:#3E5579; font-weight:normal; text-decoration:none;}
+#iraqiRewards a:hover {text-decoration:underline;}
+#iraqiRewardsArabic {width:112px; height:27px; background: #D9DEE2 url(../graphics_wfbook_shell/txt_arabic.gif) no-repeat top left;}
+#iraqiRewardsArabic a {display:block; width:100%; height:100%; text-indent:-9999px; overflow:hidden;}
+#worldFactBook {
+display:block; width:112px; height:105px;
+overflow:hidden;
+text-indent:-9999px;
+background: White url(../graphics_wfbook_shell/worldfactbooklogo.gif) no-repeat;
+}
+#kidsColTwoContent {text-indent:-9999px; width:112px; height:150px; background: #D9DEE2 url(../graphics_wfbook_shell/kidRtCol.jpg) no-repeat;}
+
+#quickLinks {width:112px; height:auto; min-height:138px; padding:0px 0px 10px 0px; margin:0px; background-color:#3E5579;}
+
+* html #quickLinks {height:138px;}
+
+#quickLinks div {margin-bottom:10px; background:#3E5579 url(../graphics_wfbook_shell/quicklink_TR.gif) no-repeat top right; border:1px solid #929DAF; border-width:0px 0px 1px 0px; font: bold 13px Arial; color:#FFFFFF; padding:2px 2px 2px 10px;}
+#quickLinks ul {padding:0px; margin:0px; list-style-type: none; list-style-image:none;}
+#quickLinks ul li {padding: 1px 1px 3px 20px; margin:0px; background: #3E5579 url(../graphics_wfbook_shell/bullet_FFFFFF.gif) no-repeat 11px 6px; line-height:11px;}
+#quickLinks ul li a {display:block; padding:0px; margin:0px; font: 11px Arial; color:#FFFFFF; text-decoration:none;}
+#quickLinks ul li a:hover {text-decoration:underline;}
+
+#threatLevel {width:90px; height:auto; background-color:#D9DEE2; font: 11px Arial; color:#929DAF; padding:2px 6px 2px 16px; border:1px solid #959799; border-width:1px 0px 1px 0px;}
+#threatLevel a {font: normal 11px Arial; color:#3E5579;text-decoration:none; font-weight:normal;}
+#threatLevel a:hover {text-decoration:underline;}
+
+* html #threatLevel {width: 112px; w\idth: 90px;}
+
+#ciaNotice  {width:88px; height:auto; padding:20px 4px 10px 20px; background: url(../graphics_wfbook_shell/rnav_greybarMid.gif) no-repeat top left; font:11px Arial; color:#707070;}
+#ciaNotice h3 {font: bold 13px Arial; color:#484747; text-align:left; padding:0px; margin:0px;}
+
+* html #ciaNotice {width: 112px; w\idth: 88px;}
+
+#careerSpecialFeatures {
+width:112px; height:auto; min-height:165px;
+padding:0px; margin:0px;
+background-color:#DA8704;
+}
+/* */
+* html #careerSpecialFeatures {height:165px;}
+#careerSpecialFeatures div {
+width:auto; height:auto;
+margin-bottom:10px;
+background:#DA8704 url(../graphics_wfbook_shell/orangePortletTR.gif) no-repeat top right;
+border:1px solid #929DAF;
+border-width:0px 0px 1px 0px;
+font: bold 12px Arial; color:#FFFFFF;
+padding:4px 2px 2px 4px;
+}
+#careerSpecialFeatures ul {
+padding-left:8px;  margin:0;
+list-style-image: none;
+list-style-type: none;
+}
+#careerSpecialFeatures ul li {
+width:96px; height:73px;
+display:block;
+padding:0px; margin-bottom:0px;
+}
+#careerSpecialFeatures ul li a {
+display:block;
+width:96px; height:35px;
+padding:38px 0px 0px 0px; margin:0px;
+font: 11px Arial;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+* html #careerSpecialFeatures ul li a {height:73px; he\ight: 35px;}
+#careerSpecialFeatures ul li.people a {
+background:transparent url(../graphics_wfbook_shell/carFeature_meet.jpg) no-repeat top left;
+}
+#careerSpecialFeatures ul li.quiz a {
+background:transparent url(../graphics_wfbook_shell/carFeature_quiz.jpg) no-repeat top left;
+}
+#careerSpecialFeatures ul li a:hover {text-decoration:underline;}
+#careerSpecialJobs {
+width:112px; height:auto;
+min-height: 125px;
+background:#F6F7F8 url(../graphics_wfbook_shell/careersSpecialJobsBG.jpg) repeat-x bottom left;
+padding:0px; margin:0px;
+}
+/* */
+* html #careerSpecialJobs {height:125px;}
+#careerSpecialJobs h1 {
+width:auto; height:auto;
+padding:8px 2px 4px 6px; margin:0px;
+font:  bold 12px Arial;
+color:#3E5376;
+}
+#careerSpecialJobs ul {
+width:auto; height:auto;
+list-style-type: none; list-style-image:none;
+padding:0px; margin:0px;
+}
+#careerSpecialJobs ul li {
+padding: 1px 1px 3px 20px; margin:0px;
+background: transparent url(../graphics_wfbook_shell/bullet_3E5376.gif) no-repeat 11px 6px;
+line-height:11px;
+}
+#careerSpecialJobs ul li a {display:block; padding:0px; margin:0px; font: 11px Arial; color:#3E5376; text-decoration:none;}
+#careerSpecialJobs ul li a:hover {text-decoration:underline;}
+#careersLife {
+width:112px; height:auto; min-height:181px;
+margin-bottom:20px;
+background: #ACACAC url(../graphics_wfbook_shell/careersLifeBG.jpg) no-repeat;
+}
+#careersLife2 {
+width:112px; height:auto; min-height:20px;
+background: #ACACAC url(../graphics_wfbook_shell/careersLifeBG2.jpg) no-repeat;
+}
+*html #careersLife {height:181px;}
+*html #careersLife2 {height:20px;}
+#careersLife h1, #careersLife2 h1 {
+padding:2px 10px 70px 8px; margin:0;
+font:  bold 12px Arial;
+color:#FFFFFF;
+}
+.carLifeContent{
+padding:0px 10px 10px 8px;
+font:  normal 11px Arial;
+color:#000000;
+}
+#careersLife .carLifePlay {
+display:block;
+width:112px; height:19px;
+background: #ACACAC url(../graphics_wfbook_shell/careersLife_play.gif) no-repeat;
+text-indent:-9999px;
+overflow:hidden;
+}
+#careersLife .carLifeTxt {
+display:block;
+width:112px; height:13px;
+background: #ACACAC url(../graphics_wfbook_shell/careersLife_txt.gif) no-repeat;
+text-indent:-9999px;
+overflow:hidden;
+}
+#careersLife2 .carLifeFooter{
+width:112px; height:28px;
+background: #ACACAC url(../graphics_wfbook_shell/careersLife_bot.gif) no-repeat;
+}
+
+#ciaSealFlash {
+width:auto; height:auto;
+}
+#ciaSealFlash .ciasealflash {
+float:left; clear:left;
+background:White url(../graphics_wfbook_shell/ciaSeal_272x281.jpg) no-repeat top left;
+width:272px; height:281px;
+overflow:hidden;
+text-indent:-9999px;
+}
+#ciaSealFlash h1 {
+margin:0; padding:0;
+padding-top:50px;
+font: bold 108% Arial;
+color:#790000;
+}
+#ciaSealFlash p {
+margin:0; padding:0;
+font: 100% Arial;
+}
+
+#portal-colophon {
+display: none;
+}
+
+.floatClear {clear:both;}
+#portletEditTab {
+display:block;
+padding-bottom:4px;
+background-color:#CDE2A7;
+}
+#portletEditTab span {
+display:block;
+padding-left:10px; padding-top:2px;
+background-color:White;
+}
+#portletEditTab span a {
+display:block;
+width:26px; height:auto;
+text-align:center;
+padding-top:1px;
+background-color:#CDE2A7;
+color:#578308;
+text-decoration:none;
+border: 1px solid #74AE0B;
+border-width:1px 1px 0px 1px;
+font: 10px Arial;
+}
+#portletEditTab span a:hover {
+background-color:White;
+}
+#portletRightColumnContent {
+width:112px; height:auto;
+padding:0; margin: 0;
+}
+#portletRightColumnContent p {
+font: 90% Arial;
+padding:4px 4px 4px 4px;
+}
+}
+
+/* Overrides for staticTemplates */
+
+.documentContent {font-size: 85%;}

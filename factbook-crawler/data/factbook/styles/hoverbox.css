@@ -1,0 +1,189 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/* =Basic HTML, Non-essential
+----------------------------------------------------------------------*/
+
+a {
+	text-decoration: none;
+}
+.gallerycontent {/*	background: #fff;color: #777;*/
+	position: relative;
+	width: 800px;
+}
+
+h1 {
+	background: inherit;
+	border-bottom: 1px dashed #ccc;
+	color: #933;
+	font: 17px Georgia, serif;
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+	text-align: center;
+}
+
+p {
+	clear: both;
+	font: 10px Verdana, sans-serif;
+	padding: 10px 0;
+	text-align: center;
+}
+
+p a {
+	background: inherit;
+	color: #777;
+}
+
+p a:hover {
+	background: inherit;
+	color: #000;
+}
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+#pictureboxa1_notext {
+	height: 497px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	}
+#pictureboxa1_text {
+	height:490px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	}
+#pictureboxb1_notext {
+	height:522px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	}
+#pictureboxb1_text {
+	height:515px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.hoverbox {
+	cursor: pointer;
+	list-style: none;
+	width: 855px;
+	padding-left: -35px;
+	vertical-align: top;
+}
+
+.hoverbox a {
+	cursor: pointer;
+}
+
+.hoverbox a .previewportraita {
+	display: none;
+}
+
+.hoverbox a:hover .previewportraita
+ {
+	display: block;
+	position: absolute;
+	top: -43px;
+	left: -16px;
+	z-index: 1;
+	}
+.hoverbox .previewportraita {
+	border-color: #000;/*	width: 200px;	height: 150px;*/
+}
+
+
+/*  portrait setup STATIC---*/
+.hoverbox a .previewportrait_static {
+	display: none;
+}
+
+.hoverbox a:hover .previewportrait_static{
+	display: block;
+	position: absolute;
+	top: -43px;
+	left: -32px;
+	z-index: 1;
+}
+
+.hoverbox .previewportrait_static {
+	border-color: #000;/*	width: 200px;	height: 150px;*/
+}
+
+/*  landscape setup ---*/
+.hoverbox a .previewlandscape {
+	display: none;
+}
+
+.hoverbox a:hover .previewlandscape {
+	display: block;
+	position: absolute;
+	top: -20px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox .previewlandscape {
+	border-color: #000;/*	width: 200px;height: 150px;*/
+}
+
+
+/*--STATIC----------------------------------*/
+.hoverbox a .previewlandscape_static {
+	display: none;
+}
+
+.hoverbox a:hover .previewlandscape_static {
+	display: block;
+	position: absolute;
+	top: -20px;
+	left: -48px;
+	z-index: 1;
+}
+
+.hoverbox .previewlandscape_static {
+	border-color: #000;/*	width: 200px;height: 150px;*/
+}
+/*------------------------------------*/
+
+/*  portrait panoramic ---*/
+.hoverbox a .previewpanoramic {
+	display: none;
+}
+
+.hoverbox a:hover .previewpanoramic {
+	display: block;
+	position: absolute;
+	top: -43px;
+	left: -30px;
+	z-index: 1;
+}
+
+.hoverbox .previewpanoramic {
+	border-color: #000;/*	width: 200px;	height: 150px;*/
+}
+
+.hoverbox img {/*	background: #fff;*/
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;/*	vertical-align: top;width: 100px;height: 75px;*/
+}
+
+.hoverbox li {/*	background: #eee;*/
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+	width: 95px;
+	height: 95px;
+}

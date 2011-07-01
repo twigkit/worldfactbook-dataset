@@ -1,0 +1,308 @@
+#wfb_navigation, #wfb_navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	vertical-align: bottom;
+     letter-spacing: .05em;
+}
+#wfb_navigation li {
+	float: left;
+	position: relative;
+	padding: 0px;
+	margin-bottom: 0px;
+    letter-spacing: .05em;
+}
+
+#wfb_navigation #home {
+	background-image: url(../graphics/home_off.gif);
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 23px;
+	/* IE Fix */
+	_height: 23px;
+	_width: 33px;
+	display: block;
+	padding:0px;
+}
+
+#wfb_navigation #home:hover, #home a:hover {
+	background-image: url(../graphics/home_on.gif);
+	width: 33px;
+	height: 23px;
+	/* IE Fix */
+	_height: 23px;
+	_width: 33px;
+	display: block;
+}
+
+#wfb_navigation a:link, #wfb_navigation a:active, #wfb_navigation a:visited {
+	color: #999999;
+	display: block;
+}
+
+#wfb_navigation a:hover {
+	color: #666666;
+	display: block;
+}
+
+.level1 /* level1  -----  ABOUT - FAQS - CONTACT */{
+	display: block;
+	background: url(../graphics/navback.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: #666666;
+	letter-spacing: .05em;
+	padding: 0px;
+	}
+
+.level1_long /* level1  ---- APPENDICES -- REFERENCES */{
+	background: url(../graphics/navback_long.gif);
+	background-position: bottom;
+	line-height: 23px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	display: block;
+	color: #666666;
+	letter-spacing: .05em;
+}
+.level1 a:link, .level1 a:active, .level1 a:visited,.level1_long a:link, .level1_long a:active, .level1_long a:visited /* level1 on wfb_navigation LINK:ACTIVE:VISITED ---- ALL */{
+	text-decoration: none;
+	color: #999999;
+	display: block;
+}
+
+.level1:hover, .level1 a:hover /* level1 wfb_navigation hovers    -----  ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+}
+.level1_long:hover, .level1_long a:hover /* level1 wfb_navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_long_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.level1_active /* level1 wfb_navigation active    -----  ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	background: url(../graphics/navback_over.gif);
+	background-position: bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	letter-spacing: .05em;
+	line-height: 23px;
+	}
+
+.level1_long_active /* level1 wfb_navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	background: url(../graphics/navback_long_over.gif);
+	background-position: bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 23px;
+}
+
+.level1_active a:link, .level1_active a:active, .level1_active a:visited,.level1_long_active a:link, .level1_long_active a:active, .level1_long_active a:visited /* level1 on wfb_navigation LINK:ACTIVE:VISITED*/{
+	text-decoration: none;
+	color: #999999;
+}
+
+.level1_active:hover, .level1_active a:hover /* level1 wfb_navigation hovers ---- ABOUT - FAQS - CONTACT */{
+	width: 73px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.level1_long_active:hover, .level1_long_active a:hover /* level1 wfb_navigation hovers ---- APPENDICES -- REFRENCES */{
+	width: 80px;
+	float: left;
+	position: relative;
+	color: #999999;
+	background-image: url(../graphics/navback_long_over.gif);
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+#current /* Current selection on wfb_navigation */{
+	background-image: url(../graphics/navback_over.gif);
+}
+
+/* dropdowns for ABOUT - REFERENCE - FAQS - CONTACT  made width shorter*/
+.subuls {
+	display: none;
+	position: absolute;
+	width: 260px;
+	padding-left: 0px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	line-height: 20px;
+	_width: 260px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+
+.subuls li{
+	width: 260px;
+	height: 20px;
+	border: 1px solid #bfbfbf;
+	background-color: #F8F8E7;
+	text-decoration: none;
+	margin: 0px;
+	vertical-align: middle;
+	line-height: 20px;
+	_width: 260px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+.subuls li a{
+	width: 260px;
+	height: 20px;
+	color: #999999;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 260px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+.subuls li a:hover{
+	width: 260px;
+	height: 20px;
+	color: #666666;
+	background-color: #F0EECF;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 260px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+
+/* dropdowns for APPENDIX - made width longer */
+.subuls_long  {
+	display: none;
+	position: absolute;
+	width: 350px;
+	padding-left: 0px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	line-height: 20px;
+	_width: 350px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+
+.subuls_long li{
+	width: 350px;
+	height: 20px;
+	border: 1px solid #bfbfbf;
+	background-color: #F8F8E7;
+	text-decoration: none;
+	margin: 0px;
+	vertical-align: middle;
+	line-height: 20px;
+	_width: 350px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+.subuls_long  li a{
+	width: 350px;
+	height: 20px;
+	color: #999999;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 350px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+.subuls_long li a:hover{
+	width: 350px;
+	height: 20px;
+	color: #666666;
+	background-color: #F0EECF;
+	text-decoration: none;
+	background-image: none; 
+	margin: 0px;
+	line-height: 20px;
+	_width: 350px;
+	_height: 20px;
+     letter-spacing: .05em;
+}
+
+
+#wfb_navigation li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: 23px;
+	left: 0px;
+}
+#wfb_navigation .subuls_long li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: 23px;
+	left: -120px;
+}
+#wfb_navigation li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	background-image: none; 
+	line-height: 20px;
+	width: 220px;
+	height: 20px;
+	top: 23px;
+	left: 0px;
+     letter-spacing: .05em;
+}
+#wfb_navigation .subuls_long li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	background-image: none; 
+	line-height: 20px;
+	width: 400px;
+	height: 20px;
+     letter-spacing: .05em;
+}
+#restofcontent { /*wrap rest of content of the page inside this div*/
+clear: left;
+}

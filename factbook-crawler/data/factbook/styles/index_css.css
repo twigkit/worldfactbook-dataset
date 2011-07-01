@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0px; }
+
+.title
+{
+     height: 25px;
+     background: url(graphics/home_title_bkg.jpg) repeat-x;
+<!--
+- padding-bottom:2px;
+-
+-->
+}
+
+.header
+{
+     height: 23px;
+     background: url(graphics/home_header_bkg.jpg) repeat-x;
+}
+
+.home-date
+{
+     font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+     color: #0E5783; /*blue*//*padding-bottom: 50px;*/
+	}
+
+.header img
+{
+     font: 9px normal Verdana, Arial, Helvetica, sans-serif;
+     color: #0B4075;
+     vertical-align:text-bottom;
+}
+
+.intro
+{
+     font: 11px/18px Arial, Helvetica, sans-serif;
+     color: #666;
+     letter-spacing: .02em;
+     text-align: left;
+     padding: 8px 35px 10px 10px;
+     background: url(graphics/home_intro_bkg.jpg) repeat-x;
+}
+
+.whats-new-text
+{
+     font: 10px Verdana, Arial, Helvetica, sans-serif;
+     letter-spacing: 0.01em;
+     padding: 3px 5px 3px 5px;
+     background: url(graphics/home_whatsnew_bkg.jpg) repeat-x;
+}
+
+.cover-text
+{
+     font-size: 11px;
+     font-family: Geneva, Arial, Helvetica, sans-serif;
+     color: #666666;
+     letter-spacing: 0.01em;
+     padding: 7px 5px 10px 10px;
+     background-image: url(graphics/whatsnew_gradiant.jpg);
+     background-repeat: repeat-x;
+     background-position: top;
+}
+
+.map
+{
+     background: url(graphics/home_title_map_bkg.jpg) repeat-x;
+     text-align: right;
+     padding: 4px 0px;
+}
+
+#buttons td { padding-bottom: 5px; }
+
+.bottom-text
+{
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 9px;
+     letter-spacing: 0.02em;
+     line-height: 15px;
+     text-align: left;
+     color: #666666;
+     background: url(graphics/home_footer_bkg.jpg) repeat-x;
+     text-align: right;
+     vertical-align: bottom;
+     height: 65px;
+     padding: 0px 5px 3px 0px;
+}
+
+iframe
+{
+     overflow-x: hidden;
+     overflow-y: auto;
+     margin-top: 3px;
+     border-bottom: 1px dotted #CCC;
+     background-color: transparent;
+}
+
+/*----- VIEW-ALL -----*/
+.view-all
+{
+     font: 10px Verdana, Arial, Helvetica, sans-serif;
+     color:#0055AA;
+     padding-left: 5px;
+}
+
+.view-all a:link, .view-all a:visited
+{
+     color: #0055AA;
+     text-decoration: underline;
+}
+
+.view-all a:hover { text-decoration: none; }
+
+/*----- RSS-TEXT -----*/
+.rss-text
+{
+     font: bold 11px/16px Arial, Helvetica, sans-serif;
+     letter-spacing: .02em;
+     text-align: right;
+     padding-right: 5px;
+}
+
+.rss-text a:link, .rss-text a:visited
+{
+     color:#996600;
+     text-decoration: none;
+}
+
+.rss-text a:hover
+{
+     color:#CC6600;
+     text-decoration: none;
+}
+
+.rss-text img
+{
+     vertical-align:text-bottom;
+     padding-right: 2px;
+}
+
+

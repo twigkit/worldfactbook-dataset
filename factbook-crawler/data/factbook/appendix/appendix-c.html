@@ -1,0 +1,3252 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/wfbext_template.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- <base href="/" /> -->
+<!-- factbook style sheet -->
+
+
+<title>CIA - The World Factbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="IL.secur.classif" CONTENT="UNCLASSIFIED" />
+<META NAME="IL.secur.ctrl" CONTENT="" />
+<META NAME="IL.secur.dissem" CONTENT="" />
+<META NAME="IL.secur.relto" CONTENT="" />
+<META NAME="IL.secur.declasson" CONTENT="" />
+<META NAME="IL.title" CONTENT="(U) CIA The World Factbook" />
+<META NAME="IL.docid" CONTENT="" />
+<META NAME="IL.summary" CONTENT="CIA - The World Factbook" />
+<META NAME="IL.keyword" CONTENT="World Factbook, Oceania" />
+<META NAME="IL.country" CONTENT="" />
+<META NAME="IL.agency" CONTENT="Central Intelligence Agency" />
+<META NAME="IL.poc" CONTENT="World Factbook Staff" />
+<META NAME="IL.pubdate" CONTENT="20040101" />
+<META NAME="IL.postdate" CONTENT="20040501" />
+<META NAME="IL.cutdate" CONTENT="20040101" /> <!-- Code from script_head.cfm -->
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+
+startList = function() {
+							if (document.all&&document.getElementById) {
+								wfb_navigationRoot = document.getElementById("wfb_navigation");
+								for (x=0; x<wfb_navigationRoot.childNodes.length; x++) {
+									node = wfb_navigationRoot.childNodes[x];
+									if (node.nodeName=="LI") {
+										node.onmouseover=function() {
+																		this.className+=" over";
+																	}
+										node.onmouseout = function()	{
+																			this.className=this.className.replace(" over", "");
+																		}
+									}
+								}
+							}
+						}
+	window.onload=startList;
+
+	faq = null;
+	function collapseCountryInfo()
+	{
+		faq = new switchicon("icongroup2", "div") //Limit scanning of switch contents to just "div" elements
+		faq.setHeader('<img src="../graphics/close.jpg" alt="Close" title="Close"/>', '<img src="../graphics/open.jpg" alt="Open" title="Open" />')  //Set header HTML
+		faq.collapsePrevious(false) //Allow more than 1 content to be open simultanously
+		faq.setPersist(true, 7) //Enable persistence to remember last switch content states for 7 days
+		faq.init()
+	}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	if (selObj.selectedIndex > 0)
+	{
+		
+		eval(targ + ".location='" + "../geos/" + selObj.options[selObj.selectedIndex].value + ".html" + "'");
+		
+	}
+	if (restore) 
+		selObj.selectedIndex=0;
+}
+function onChange(dropdown)
+{
+ 	var myindex = dropdown.selectedIndex
+	var cntryCode = selObj.options[selObj.selectedIndex].value;
+	var baseURL = selObj.options[selObj.selectedIndex].value;
+	top.location.href = baseURL;
+	
+	return true;
+}
+
+var statusmsg = "";
+function hidestatus() {
+ 	window.status = statusmsg
+	return true
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 3600; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+			keynum = e.which;
+		} 
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selectControl.options.length; i++)
+			{
+				var selectLabel = selectControl.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selectControl.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selectControl.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="../styles/factbook_1024.css" />
+<script src="../scripts/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="../scripts/mm_menu.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../styles/SpryCollapsiblePanel2.css"/>
+<link rel="stylesheet" type="text/css" href="../styles/print.css" media="print"/>
+<!-- Internet Explorer CSS Fixes -->
+<!--[if lt IE 7]>
+        <style type="text/css" media="all">@import url(../styles/IEFixes.css);</style>
+    <![endif]-->
+<!-- Disable IE6 image toolbar -->
+<meta http-equiv="imagetoolbar" content="no" />
+<script language="JavaScript" type="text/javascript">
+function clearSearch(myForm) {if (myForm.defaultValue==myForm.value) myForm.value = "";}
+		function showSearch(myForm) {if (myForm.value=="") myForm.value = myForm.defaultValue;}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+</script>
+<style type="text/css">
+body {
+	background-image: url(../graphics/1024_background_top.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+	background-color: #f1f1f1;
+}
+#right_shadow {
+	background-image:url(../graphics/1024_right_shadow.jpg);
+	background-repeat:repeat-y;
+	background-position:top left;
+	background-color: #f1f1f1;
+}
+#right_shadow_top {
+	background-image:url(../graphics/1024_right_shadow_top.jpg);
+	background-repeat: repeat-y;
+	background-position:top left;
+	background-color: #f1f1f1;
+}
+#left_shadow {
+	background-image:url(../graphics/1024_left_shadow.jpg);
+	background-repeat:repeat-y;
+	background-position: top right;
+	background-color: #f1f1f1;
+}
+#left_shadow_top {
+	background-image:url(../graphics/1024_left_shadow_top.jpg);
+	background-repeat: repeat-y;
+	background-position: top right;
+	background-color: #f1f1f1;
+}
+.title {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	line-height: 15px;
+	padding-left: 5px;
+}
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #666666;
+	margin-top: 5px;
+}
+.intro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 10px 0px 10px 5px;
+	letter-spacing: .02em;
+	line-height: 16px;
+	text-align: left;
+}
+.whats-new-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 3px 5px 3px 5px;
+	letter-spacing: 0.01em;
+}
+.wf-cover-text {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	letter-spacing: 0.01em;
+	padding: 7px 5px 10px 10px;
+}
+.classification {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #7F7F7F;
+	vertical-align: middle;
+	line-height: 22px;
+	letter-spacing: 3px;
+}
+.bottom-text1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	letter-spacing: 0.02em;
+	line-height: 15px;
+	text-align: left;
+	color: #666666;
+	background: url(../graphics/home_footer_bkg.jpg) repeat-x;
+	text-align: right;
+	vertical-align: bottom;
+	height: 65px;
+	padding: 0px 5px 0px 0px;
+}
+-->
+</style>
+</head>
+<body class="section-library" dir="ltr" onload="MM_preloadImages('graphics/bandwidth_btn_on.gif','graphics/download_btn_on.gif')">
+<table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:0px; height: 100%;">
+  <tr>
+    <td rowspan="2" valign="top" style="background-color: #fff;" id="left_shadow"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 100%;" >
+        <tr>
+          <td align="right" valign="top" style="background-image:url(../graphics/1024_background_top.jpg); background-position: top; background-repeat: repeat-x;"><img src="../graphics/1024_lefttop_background.jpg" width="54" height="73" /></td>
+        </tr>
+      </table></td>
+    <td valign="top">
+      <p class="hiddenStructure"><a accesskey="2" href="#documentContent">Skip to content.</a> | <a accesskey="6" href="#portlet-navigation-tree">Skip
+        to navigation</a></p>
+      <table border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff;">
+        <tr>
+          
+          <td id="mnBGC" ><!-- Login/Top Margin Block --> 
+            <div id="ciaUtilityBlock" style="background-color:#FFF;">&nbsp;</div>
+            <div id="lColBG">
+              <div>
+                <table border="0" cellpadding="0" cellspacing="0" id="portal-columns">
+                  <tr>
+                    <td valign="top" id="portal-column-one" ><!-- *** Left Col Slot *** -->
+                      <div class="visualPadding">
+                        <h1 id="portal-logo"><a href="/index.html" accesskey="1">Central Intelligence Agency</a></h1>
+                        <dl class="portlet" id="portlet-navigation-tree">
+                          <dt class="portletHeader"> <span class="portletTopLeft"></span> <a href="/sitemap" class="tile">Navigation</a> <span class="portletTopRight"></span> </dt>
+                          <dd class="portletItem lastItem">
+                            <ul class="portletNavigationTree navTreeLevel0">
+                              <li class="navTreeItem">
+                                <div class="visualIcon contenttype-plone-site"><a class="visualIconPadding" href="/index.html" title="">CIA
+                                  Home</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/about-cia/index.html" class="state-published visualIconPadding" title="About CIA">About
+                                  CIA</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-agencyfolder"><a href="/careers/index.html" class="state-published visualIconPadding" title="Careers">Careers</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/offices-of-cia/index.html" class="state-published visualIconPadding" title="Offices of CIA">Offices
+                                  of CIA</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/news-information/index.html" class="state-published visualIconPadding" title="News &amp; Information">News &amp; Information</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/library/index.html" class="state-published visualIconPadding navTreeCurrentFolder" title="Library">Library</a></div>
+                                <ul class="navTree navTreeLevel2">
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/publications/index.html" class="state-published visualIconPadding navTreeCurrentFolder" title="Publications">Publications</a></div>
+                                    <ul class="navTree navTreeLevel3">
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-agencyfolder"><a href="/library/publications/the-world-factbook/index.html" class="state-published visualIconPadding navTreeCurrentItem" title="The World Factbook">The
+                                          World Factbook</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-agencyfolder"><a href="/library/publications/world-leaders-1/index.html" class="state-published visualIconPadding" title="World Leaders">World
+                                          Leaders</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-folder"><a href="/library/publications/cia-maps-publications/index.html" class="state-published visualIconPadding" title="CIA Maps &amp; Publications">CIA
+                                          Maps &amp; Publications</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-folder"><a href="/library/publications/additional-publications/index.html" class="state-published visualIconPadding" title="Additional Publications">Additional
+                                          Publications</a></div>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/center-for-the-study-of-intelligence/index.html" class="state-published visualIconPadding" title="Center for the Study of Intelligence">Center
+                                      for the Study of Intelligence</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/foia/index.html" class="state-published visualIconPadding" title="Freedom of Information Act Electronic Reading Room">Freedom
+                                      of Information Act Electronic Reading Room</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/kent-center-occasional-papers/index.html" class="state-published visualIconPadding" title="Kent Center Occasional Papers">Kent
+                                      Center Occasional Papers</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-agencyfolder"><a href="/library/intelligence-literature/index.html" class="state-published visualIconPadding" title="Intelligence Literature">Intelligence
+                                      Literature</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/reports/index.html" class="state-published visualIconPadding" title="Reports">Reports</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-agencypage"><a href="/library/related-links.html" class="state-published visualIconPadding" title="Related Links">Related
+                                      Links</a></div>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/kids-page/index.html" class="state-published visualIconPadding" title="Kids' Page">Kids'
+                                  Page</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/contact-cia/index.html" class="state-published visualIconPadding" title="Contact CIA">Contact
+                                  CIA</a></div>
+                              </li>
+                            </ul>
+                            <span class="portletBottomLeft"></span> <span class="portletBottomRight"></span> </dd>
+                        </dl>
+                        <div id="ciaMission">
+                          <h3>Mission</h3>
+                          <p>The Central Intelligence Agency (CIA) is an independent US
+                            Government agency responsible for providing national security
+                            intelligence to senior US policymakers. </p>
+                          <p>To learn more, visit <a href="https://www.cia.gov/about-cia/cia-vision-mission-values/index.html">CIA Vision, Mission &amp; Values</a>.</p>
+                        </div>
+                      </div>
+                      <!-- *** / Left Col Slot *** --></td>
+                    <td valign="top" id="contentColsA-R"  style="background-color: #FFF;"> <!-- *** Top Head and Search Area *** -->
+                      <div id="topHeadContainer" style="background-color: #FFF;">
+                        <div id="flashArea2" title="Central Intelligence Agency"  style="background-color: #FFF;"><span>Central Intelligence Agency</span></div>
+                      </div>
+                      <div id="ciaWorkSearchBar" style="width: 829px;">
+                        <div id="ciaWork">The Work of a Nation. The Center of Intelligence</div>
+                        <form id="ciaSearchForm" method="get" action="/search">
+                          <label class="hiddenStructure" for="searchBox">Search Field</label>
+                          <input id="searchBox" name="q" type="text" maxlength="2047" value="Search" onfocus="clearSearch(this);" onblur="showSearch(this)" />
+                          <label class="hiddenStructure" for="searchBtn">Search Button</label>
+                          <input id="searchBtn" type="image" alt="Search" src="../worldfactbook_shell/images/searchBtn.gif " />
+                          <input type="hidden" name="site" value="CIA" />
+                          <input type="hidden" name="output" value="xml_no_dtd" />
+                          <input type="hidden" name="client" value="CIA" />
+                          <input type="hidden" name="myAction" value="/search" />
+                          <input type="hidden" name="proxystylesheet" value="CIA" />
+                          <input type="hidden" name="submitMethod" value="get" />
+                        </form>
+                      </div>
+                     
+ 					<!-- *** / Top Head and Search Area *** -->
+                      <table id="contentColsB" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td id="portal-column-content" ><div id="region-content"> <a name="documentContent"></a>
+                              <table cellpadding="0" cellspacing="0" border="0" style="padding-left: 15px;">
+                                <tr>
+                                  <td style=" z-index:99999;"><!-- includes/pickcountryform_index.cfm starts here ... -->
+<!-- Code from script_head.cfm -->
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+
+startList = function() {
+							if (document.all&&document.getElementById) {
+								wfb_navigationRoot = document.getElementById("wfb_navigation");
+								for (x=0; x<wfb_navigationRoot.childNodes.length; x++) {
+									node = wfb_navigationRoot.childNodes[x];
+									if (node.nodeName=="LI") {
+										node.onmouseover=function() {
+																		this.className+=" over";
+																	}
+										node.onmouseout = function()	{
+																			this.className=this.className.replace(" over", "");
+																		}
+									}
+								}
+							}
+						}
+	window.onload=startList;
+
+	faq = null;
+	function collapseCountryInfo()
+	{
+		faq = new switchicon("icongroup2", "div") //Limit scanning of switch contents to just "div" elements
+		faq.setHeader('<img src="../graphics/close.jpg" alt="Close" title="Close"/>', '<img src="../graphics/open.jpg" alt="Open" title="Open" />')  //Set header HTML
+		faq.collapsePrevious(false) //Allow more than 1 content to be open simultanously
+		faq.setPersist(true, 7) //Enable persistence to remember last switch content states for 7 days
+		faq.init()
+	}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	if (selObj.selectedIndex > 0)
+	{
+		
+		eval(targ + ".location='" + "../geos/" + selObj.options[selObj.selectedIndex].value + ".html" + "'");
+		
+	}
+	if (restore) 
+		selObj.selectedIndex=0;
+}
+function onChange(dropdown)
+{
+ 	var myindex = dropdown.selectedIndex
+	var cntryCode = selObj.options[selObj.selectedIndex].value;
+	var baseURL = selObj.options[selObj.selectedIndex].value;
+	top.location.href = baseURL;
+	
+	return true;
+}
+
+var statusmsg = "";
+function hidestatus() {
+ 	window.status = statusmsg
+	return true
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 3600; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+			keynum = e.which;
+		} 
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selectControl.options.length; i++)
+			{
+				var selectLabel = selectControl.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selectControl.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selectControl.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<!-- Internet Explorer CSS Fixes -->
+<!--[if lt IE 7]>
+        <style type="text/css" media="all">@import url(../stylesIEFixes.css);</style>
+    <![endif]-->
+<script language="javascript" type="text/javascript">
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 2.5; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+//			keynum = e.which;
+				return false;
+		}
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selcon.options.length; i++)
+			{
+				var selectLabel = selcon.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selcon.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selcon.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		else if (keynum == 13) // The ENTER key
+			MM_jumpMenu('parent', selectControl, 0);
+
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<a name="top" id="top"></a>
+<table width="814"  border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><table border="0" align="left" cellpadding="0" cellspacing="0" style="position:relative; z-index:999;" >
+			<tr>
+				<td style="height:70px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 10px;height:80px;">
+		<tr>
+			
+				<td><img src="../graphics/banner.gif"  alt="World Factbook Title"  border="0" usemap="#Map" title="World Factbook Title" width="638" style="padding-bottom: 5px;"/></td>
+				
+			</td>
+		</tr>
+	</table>
+	</td>
+			</tr>
+			
+				<tr>
+					<td width="638"><table style="height:32px;background-image: url(../graphics/country_gradiant_back.jpg)" id="country_select2"  border="0" cellpadding="0" cellspacing="0" >
+							<tr>
+								<td width="290" align="right" valign="top"><img src="../graphics/nav_arrows.gif" style="padding-top: 6px;" alt="navigation arrows" title="navigation arrows"/></td>
+								<td width="347" align="right" valign="middle"><div id="parent" style="position: relative; left: 0px; top: 0px; z-index: 1;">
+										<table width="90%" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+												<td valign="top"><form id="SelectCountry" name="SelectCountry" method="get" action="../geos/wfbext_countrydata_holder.cfm">
+														<Label for="countryCode"> </Label>
+														<select name="countryCode" id="countryCode" class="country_select" onkeypress="return FindSelectEntry(event, this)" onChange="MM_jumpMenu('parent',this,0)" >
+															<option selected value="" >--- Select a Country or Location ---</option>
+															
+																	<option value="xx"> World </option>
+																
+																	<option value="af"> Afghanistan </option>
+																
+																	<option value="ax"> Akrotiri </option>
+																
+																	<option value="al"> Albania </option>
+																
+																	<option value="ag"> Algeria </option>
+																
+																	<option value="aq"> American Samoa </option>
+																
+																	<option value="an"> Andorra </option>
+																
+																	<option value="ao"> Angola </option>
+																
+																	<option value="av"> Anguilla </option>
+																
+																	<option value="ay"> Antarctica </option>
+																
+																	<option value="ac"> Antigua and Barbuda </option>
+																
+																	<option value="xq"> Arctic Ocean </option>
+																
+																	<option value="ar"> Argentina </option>
+																
+																	<option value="am"> Armenia </option>
+																
+																	<option value="aa"> Aruba </option>
+																
+																	<option value="at"> Ashmore and Cartier Islands </option>
+																
+																	<option value="zh"> Atlantic Ocean </option>
+																
+																	<option value="as"> Australia </option>
+																
+																	<option value="au"> Austria </option>
+																
+																	<option value="aj"> Azerbaijan </option>
+																
+																	<option value="bf"> Bahamas, The </option>
+																
+																	<option value="ba"> Bahrain </option>
+																
+																	<option value="bg"> Bangladesh </option>
+																
+																	<option value="bb"> Barbados </option>
+																
+																	<option value="bo"> Belarus </option>
+																
+																	<option value="be"> Belgium </option>
+																
+																	<option value="bh"> Belize </option>
+																
+																	<option value="bn"> Benin </option>
+																
+																	<option value="bd"> Bermuda </option>
+																
+																	<option value="bt"> Bhutan </option>
+																
+																	<option value="bl"> Bolivia </option>
+																
+																	<option value="bk"> Bosnia and Herzegovina </option>
+																
+																	<option value="bc"> Botswana </option>
+																
+																	<option value="bv"> Bouvet Island </option>
+																
+																	<option value="br"> Brazil </option>
+																
+																	<option value="io"> British Indian Ocean Territory </option>
+																
+																	<option value="vi"> British Virgin Islands </option>
+																
+																	<option value="bx"> Brunei </option>
+																
+																	<option value="bu"> Bulgaria </option>
+																
+																	<option value="uv"> Burkina Faso </option>
+																
+																	<option value="bm"> Burma </option>
+																
+																	<option value="by"> Burundi </option>
+																
+																	<option value="cb"> Cambodia </option>
+																
+																	<option value="cm"> Cameroon </option>
+																
+																	<option value="ca"> Canada </option>
+																
+																	<option value="cv"> Cape Verde </option>
+																
+																	<option value="cj"> Cayman Islands </option>
+																
+																	<option value="ct"> Central African Republic </option>
+																
+																	<option value="cd"> Chad </option>
+																
+																	<option value="ci"> Chile </option>
+																
+																	<option value="ch"> China </option>
+																
+																	<option value="kt"> Christmas Island </option>
+																
+																	<option value="ip"> Clipperton Island </option>
+																
+																	<option value="ck"> Cocos (Keeling) Islands </option>
+																
+																	<option value="co"> Colombia </option>
+																
+																	<option value="cn"> Comoros </option>
+																
+																	<option value="cg"> Congo, Democratic Republic of the </option>
+																
+																	<option value="cf"> Congo, Republic of the </option>
+																
+																	<option value="cw"> Cook Islands </option>
+																
+																	<option value="cr"> Coral Sea Islands </option>
+																
+																	<option value="cs"> Costa Rica </option>
+																
+																	<option value="iv"> Cote d'Ivoire </option>
+																
+																	<option value="hr"> Croatia </option>
+																
+																	<option value="cu"> Cuba </option>
+																
+																	<option value="cc"> Curacao </option>
+																
+																	<option value="cy"> Cyprus </option>
+																
+																	<option value="ez"> Czech Republic </option>
+																
+																	<option value="da"> Denmark </option>
+																
+																	<option value="dx"> Dhekelia </option>
+																
+																	<option value="dj"> Djibouti </option>
+																
+																	<option value="do"> Dominica </option>
+																
+																	<option value="dr"> Dominican Republic </option>
+																
+																	<option value="ec"> Ecuador </option>
+																
+																	<option value="eg"> Egypt </option>
+																
+																	<option value="es"> El Salvador </option>
+																
+																	<option value="ek"> Equatorial Guinea </option>
+																
+																	<option value="er"> Eritrea </option>
+																
+																	<option value="en"> Estonia </option>
+																
+																	<option value="et"> Ethiopia </option>
+																
+																	<option value="fk"> Falkland Islands (Islas Malvinas) </option>
+																
+																	<option value="fo"> Faroe Islands </option>
+																
+																	<option value="fj"> Fiji </option>
+																
+																	<option value="fi"> Finland </option>
+																
+																	<option value="fr"> France </option>
+																
+																	<option value="fp"> French Polynesia </option>
+																
+																	<option value="fs"> French Southern and Antarctic Lands </option>
+																
+																	<option value="gb"> Gabon </option>
+																
+																	<option value="ga"> Gambia, The </option>
+																
+																	<option value="gz"> Gaza Strip </option>
+																
+																	<option value="gg"> Georgia </option>
+																
+																	<option value="gm"> Germany </option>
+																
+																	<option value="gh"> Ghana </option>
+																
+																	<option value="gi"> Gibraltar </option>
+																
+																	<option value="gr"> Greece </option>
+																
+																	<option value="gl"> Greenland </option>
+																
+																	<option value="gj"> Grenada </option>
+																
+																	<option value="gq"> Guam </option>
+																
+																	<option value="gt"> Guatemala </option>
+																
+																	<option value="gk"> Guernsey </option>
+																
+																	<option value="gv"> Guinea </option>
+																
+																	<option value="pu"> Guinea-Bissau </option>
+																
+																	<option value="gy"> Guyana </option>
+																
+																	<option value="ha"> Haiti </option>
+																
+																	<option value="hm"> Heard Island and McDonald Islands </option>
+																
+																	<option value="vt"> Holy See (Vatican City) </option>
+																
+																	<option value="ho"> Honduras </option>
+																
+																	<option value="hk"> Hong Kong </option>
+																
+																	<option value="hu"> Hungary </option>
+																
+																	<option value="ic"> Iceland </option>
+																
+																	<option value="in"> India </option>
+																
+																	<option value="xo"> Indian Ocean </option>
+																
+																	<option value="id"> Indonesia </option>
+																
+																	<option value="ir"> Iran </option>
+																
+																	<option value="iz"> Iraq </option>
+																
+																	<option value="ei"> Ireland </option>
+																
+																	<option value="im"> Isle of Man </option>
+																
+																	<option value="is"> Israel </option>
+																
+																	<option value="it"> Italy </option>
+																
+																	<option value="jm"> Jamaica </option>
+																
+																	<option value="jn"> Jan Mayen </option>
+																
+																	<option value="ja"> Japan </option>
+																
+																	<option value="je"> Jersey </option>
+																
+																	<option value="jo"> Jordan </option>
+																
+																	<option value="kz"> Kazakhstan </option>
+																
+																	<option value="ke"> Kenya </option>
+																
+																	<option value="kr"> Kiribati </option>
+																
+																	<option value="kn"> Korea, North </option>
+																
+																	<option value="ks"> Korea, South </option>
+																
+																	<option value="kv"> Kosovo </option>
+																
+																	<option value="ku"> Kuwait </option>
+																
+																	<option value="kg"> Kyrgyzstan </option>
+																
+																	<option value="la"> Laos </option>
+																
+																	<option value="lg"> Latvia </option>
+																
+																	<option value="le"> Lebanon </option>
+																
+																	<option value="lt"> Lesotho </option>
+																
+																	<option value="li"> Liberia </option>
+																
+																	<option value="ly"> Libya </option>
+																
+																	<option value="ls"> Liechtenstein </option>
+																
+																	<option value="lh"> Lithuania </option>
+																
+																	<option value="lu"> Luxembourg </option>
+																
+																	<option value="mc"> Macau </option>
+																
+																	<option value="mk"> Macedonia </option>
+																
+																	<option value="ma"> Madagascar </option>
+																
+																	<option value="mi"> Malawi </option>
+																
+																	<option value="my"> Malaysia </option>
+																
+																	<option value="mv"> Maldives </option>
+																
+																	<option value="ml"> Mali </option>
+																
+																	<option value="mt"> Malta </option>
+																
+																	<option value="rm"> Marshall Islands </option>
+																
+																	<option value="mr"> Mauritania </option>
+																
+																	<option value="mp"> Mauritius </option>
+																
+																	<option value="mx"> Mexico </option>
+																
+																	<option value="fm"> Micronesia, Federated States of </option>
+																
+																	<option value="md"> Moldova </option>
+																
+																	<option value="mn"> Monaco </option>
+																
+																	<option value="mg"> Mongolia </option>
+																
+																	<option value="mj"> Montenegro </option>
+																
+																	<option value="mh"> Montserrat </option>
+																
+																	<option value="mo"> Morocco </option>
+																
+																	<option value="mz"> Mozambique </option>
+																
+																	<option value="wa"> Namibia </option>
+																
+																	<option value="nr"> Nauru </option>
+																
+																	<option value="bq"> Navassa Island </option>
+																
+																	<option value="np"> Nepal </option>
+																
+																	<option value="nl"> Netherlands </option>
+																
+																	<option value="nc"> New Caledonia </option>
+																
+																	<option value="nz"> New Zealand </option>
+																
+																	<option value="nu"> Nicaragua </option>
+																
+																	<option value="ng"> Niger </option>
+																
+																	<option value="ni"> Nigeria </option>
+																
+																	<option value="ne"> Niue </option>
+																
+																	<option value="nf"> Norfolk Island </option>
+																
+																	<option value="cq"> Northern Mariana Islands </option>
+																
+																	<option value="no"> Norway </option>
+																
+																	<option value="mu"> Oman </option>
+																
+																	<option value="zn"> Pacific Ocean </option>
+																
+																	<option value="pk"> Pakistan </option>
+																
+																	<option value="ps"> Palau </option>
+																
+																	<option value="pm"> Panama </option>
+																
+																	<option value="pp"> Papua New Guinea </option>
+																
+																	<option value="pf"> Paracel Islands </option>
+																
+																	<option value="pa"> Paraguay </option>
+																
+																	<option value="pe"> Peru </option>
+																
+																	<option value="rp"> Philippines </option>
+																
+																	<option value="pc"> Pitcairn Islands </option>
+																
+																	<option value="pl"> Poland </option>
+																
+																	<option value="po"> Portugal </option>
+																
+																	<option value="rq"> Puerto Rico </option>
+																
+																	<option value="qa"> Qatar </option>
+																
+																	<option value="ro"> Romania </option>
+																
+																	<option value="rs"> Russia </option>
+																
+																	<option value="rw"> Rwanda </option>
+																
+																	<option value="tb"> Saint Barthelemy </option>
+																
+																	<option value="sh"> Saint Helena, Ascension, and Tristan da Cunha </option>
+																
+																	<option value="sc"> Saint Kitts and Nevis </option>
+																
+																	<option value="st"> Saint Lucia </option>
+																
+																	<option value="rn"> Saint Martin </option>
+																
+																	<option value="sb"> Saint Pierre and Miquelon </option>
+																
+																	<option value="vc"> Saint Vincent and the Grenadines </option>
+																
+																	<option value="ws"> Samoa </option>
+																
+																	<option value="sm"> San Marino </option>
+																
+																	<option value="tp"> Sao Tome and Principe </option>
+																
+																	<option value="sa"> Saudi Arabia </option>
+																
+																	<option value="sg"> Senegal </option>
+																
+																	<option value="ri"> Serbia </option>
+																
+																	<option value="se"> Seychelles </option>
+																
+																	<option value="sl"> Sierra Leone </option>
+																
+																	<option value="sn"> Singapore </option>
+																
+																	<option value="sk"> Sint Maarten </option>
+																
+																	<option value="lo"> Slovakia </option>
+																
+																	<option value="si"> Slovenia </option>
+																
+																	<option value="bp"> Solomon Islands </option>
+																
+																	<option value="so"> Somalia </option>
+																
+																	<option value="sf"> South Africa </option>
+																
+																	<option value="sx"> South Georgia and South Sandwich Islands </option>
+																
+																	<option value="oo"> Southern Ocean </option>
+																
+																	<option value="sp"> Spain </option>
+																
+																	<option value="pg"> Spratly Islands </option>
+																
+																	<option value="ce"> Sri Lanka </option>
+																
+																	<option value="su"> Sudan </option>
+																
+																	<option value="ns"> Suriname </option>
+																
+																	<option value="sv"> Svalbard </option>
+																
+																	<option value="wz"> Swaziland </option>
+																
+																	<option value="sw"> Sweden </option>
+																
+																	<option value="sz"> Switzerland </option>
+																
+																	<option value="sy"> Syria </option>
+																
+																	<option value="tw"> Taiwan </option>
+																
+																	<option value="ti"> Tajikistan </option>
+																
+																	<option value="tz"> Tanzania </option>
+																
+																	<option value="th"> Thailand </option>
+																
+																	<option value="tt"> Timor-Leste </option>
+																
+																	<option value="to"> Togo </option>
+																
+																	<option value="tl"> Tokelau </option>
+																
+																	<option value="tn"> Tonga </option>
+																
+																	<option value="td"> Trinidad and Tobago </option>
+																
+																	<option value="ts"> Tunisia </option>
+																
+																	<option value="tu"> Turkey </option>
+																
+																	<option value="tx"> Turkmenistan </option>
+																
+																	<option value="tk"> Turks and Caicos Islands </option>
+																
+																	<option value="tv"> Tuvalu </option>
+																
+																	<option value="ug"> Uganda </option>
+																
+																	<option value="up"> Ukraine </option>
+																
+																	<option value="ae"> United Arab Emirates </option>
+																
+																	<option value="uk"> United Kingdom </option>
+																
+																	<option value="us"> United States </option>
+																
+																	<option value="um"> United States Pacific Island Wildlife Refuges </option>
+																
+																	<option value="uy"> Uruguay </option>
+																
+																	<option value="uz"> Uzbekistan </option>
+																
+																	<option value="nh"> Vanuatu </option>
+																
+																	<option value="ve"> Venezuela </option>
+																
+																	<option value="vm"> Vietnam </option>
+																
+																	<option value="vq"> Virgin Islands </option>
+																
+																	<option value="wq"> Wake Island </option>
+																
+																	<option value="wf"> Wallis and Futuna </option>
+																
+																	<option value="we"> West Bank </option>
+																
+																	<option value="wi"> Western Sahara </option>
+																
+																	<option value="ym"> Yemen </option>
+																
+																	<option value="za"> Zambia </option>
+																
+																	<option value="zi"> Zimbabwe </option>
+																
+																	<option value="ee"> European Union </option>
+																
+														</select>
+													</form></td>
+											</tr>
+										</table>
+										<noscript>
+										<div id="flashAd" style="position: absolute; left: 0px; top: -2px; height: 0px; z-index: 2; width: 337px;">
+											<table width="90%" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<td><div id="multi-level">
+															<ul class="menu">
+																<li style="padding-top: 3px;"><a href="##" class="top_link">select a country or location
+																	<!--[if IE 7]><!--></a><!--<![endif]-->
+																	<!--[if lte IE 6]><table><tr><td><![endif]-->
+																	<ul class="af">
+																		
+																				<li><a href="xx.html">World</a></li>
+																				
+																				<li><a href="af.html">Afghanistan</a></li>
+																				
+																				<li><a href="ax.html">Akrotiri</a></li>
+																				
+																				<li><a href="al.html">Albania</a></li>
+																				
+																				<li><a href="ag.html">Algeria</a></li>
+																				
+																				<li><a href="aq.html">American Samoa</a></li>
+																				
+																				<li><a href="an.html">Andorra</a></li>
+																				
+																				<li><a href="ao.html">Angola</a></li>
+																				
+																				<li><a href="av.html">Anguilla</a></li>
+																				
+																				<li><a href="ay.html">Antarctica</a></li>
+																				
+																				<li><a href="ac.html">Antigua and Barbuda</a></li>
+																				
+																				<li><a href="xq.html">Arctic Ocean</a></li>
+																				
+																				<li><a href="ar.html">Argentina</a></li>
+																				
+																				<li><a href="am.html">Armenia</a></li>
+																				
+																				<li><a href="aa.html">Aruba</a></li>
+																				
+																				<li><a href="at.html">Ashmore and Cartier Islands</a></li>
+																				
+																				<li><a href="zh.html">Atlantic Ocean</a></li>
+																				
+																				<li><a href="as.html">Australia</a></li>
+																				
+																				<li><a href="au.html">Austria</a></li>
+																				
+																				<li><a href="aj.html">Azerbaijan</a></li>
+																				
+																				<li><a href="bf.html">Bahamas, The</a></li>
+																				
+																				<li><a href="ba.html">Bahrain</a></li>
+																				
+																				<li><a href="bg.html">Bangladesh</a></li>
+																				
+																				<li><a href="bb.html">Barbados</a></li>
+																				
+																				<li><a href="bo.html">Belarus</a></li>
+																				
+																				<li><a href="be.html">Belgium</a></li>
+																				
+																				<li><a href="bh.html">Belize</a></li>
+																				
+																				<li><a href="bn.html">Benin</a></li>
+																				
+																				<li><a href="bd.html">Bermuda</a></li>
+																				
+																				<li><a href="bt.html">Bhutan</a></li>
+																				
+																				<li><a href="bl.html">Bolivia</a></li>
+																				
+																				<li><a href="bk.html">Bosnia and Herzegovina</a></li>
+																				
+																				<li><a href="bc.html">Botswana</a></li>
+																				
+																				<li><a href="bv.html">Bouvet Island</a></li>
+																				
+																				<li><a href="br.html">Brazil</a></li>
+																				
+																				<li><a href="io.html">British Indian Ocean Territory</a></li>
+																				
+																				<li><a href="vi.html">British Virgin Islands</a></li>
+																				
+																				<li><a href="bx.html">Brunei</a></li>
+																				
+																				<li><a href="bu.html">Bulgaria</a></li>
+																				
+																				<li><a href="uv.html">Burkina Faso</a></li>
+																				
+																				<li><a href="bm.html">Burma</a></li>
+																				
+																				<li><a href="by.html">Burundi</a></li>
+																				
+																				<li><a href="cb.html">Cambodia</a></li>
+																				
+																				<li><a href="cm.html">Cameroon</a></li>
+																				
+																				<li><a href="ca.html">Canada</a></li>
+																				
+																				<li><a href="cv.html">Cape Verde</a></li>
+																				
+																				<li><a href="cj.html">Cayman Islands</a></li>
+																				
+																				<li><a href="ct.html">Central African Republic</a></li>
+																				
+																				<li><a href="cd.html">Chad</a></li>
+																				
+																				<li><a href="ci.html">Chile</a></li>
+																				
+																				<li><a href="ch.html">China</a></li>
+																				
+																				<li><a href="kt.html">Christmas Island</a></li>
+																				
+																				<li><a href="ip.html">Clipperton Island</a></li>
+																				
+																				<li><a href="ck.html">Cocos (Keeling) Islands</a></li>
+																				
+																				<li><a href="co.html">Colombia</a></li>
+																				
+																				<li><a href="cn.html">Comoros</a></li>
+																				
+																				<li><a href="cg.html">Congo, Democratic Republic of the</a></li>
+																				
+																				<li><a href="cf.html">Congo, Republic of the</a></li>
+																				
+																				<li><a href="cw.html">Cook Islands</a></li>
+																				
+																				<li><a href="cr.html">Coral Sea Islands</a></li>
+																				
+																				<li><a href="cs.html">Costa Rica</a></li>
+																				
+																				<li><a href="iv.html">Cote d'Ivoire</a></li>
+																				
+																				<li><a href="hr.html">Croatia</a></li>
+																				
+																				<li><a href="cu.html">Cuba</a></li>
+																				
+																				<li><a href="cc.html">Curacao</a></li>
+																				
+																				<li><a href="cy.html">Cyprus</a></li>
+																				
+																				<li><a href="ez.html">Czech Republic</a></li>
+																				
+																				<li><a href="da.html">Denmark</a></li>
+																				
+																				<li><a href="dx.html">Dhekelia</a></li>
+																				
+																				<li><a href="dj.html">Djibouti</a></li>
+																				
+																				<li><a href="do.html">Dominica</a></li>
+																				
+																				<li><a href="dr.html">Dominican Republic</a></li>
+																				
+																				<li><a href="ec.html">Ecuador</a></li>
+																				
+																				<li><a href="eg.html">Egypt</a></li>
+																				
+																				<li><a href="es.html">El Salvador</a></li>
+																				
+																				<li><a href="ek.html">Equatorial Guinea</a></li>
+																				
+																				<li><a href="er.html">Eritrea</a></li>
+																				
+																				<li><a href="en.html">Estonia</a></li>
+																				
+																				<li><a href="et.html">Ethiopia</a></li>
+																				
+																				<li><a href="fk.html">Falkland Islands (Islas Malvinas)</a></li>
+																				
+																				<li><a href="fo.html">Faroe Islands</a></li>
+																				
+																				<li><a href="fj.html">Fiji</a></li>
+																				
+																				<li><a href="fi.html">Finland</a></li>
+																				
+																				<li><a href="fr.html">France</a></li>
+																				
+																				<li><a href="fp.html">French Polynesia</a></li>
+																				
+																				<li><a href="fs.html">French Southern and Antarctic Lands</a></li>
+																				
+																				<li><a href="gb.html">Gabon</a></li>
+																				
+																				<li><a href="ga.html">Gambia, The</a></li>
+																				
+																				<li><a href="gz.html">Gaza Strip</a></li>
+																				
+																				<li><a href="gg.html">Georgia</a></li>
+																				
+																				<li><a href="gm.html">Germany</a></li>
+																				
+																				<li><a href="gh.html">Ghana</a></li>
+																				
+																				<li><a href="gi.html">Gibraltar</a></li>
+																				
+																				<li><a href="gr.html">Greece</a></li>
+																				
+																				<li><a href="gl.html">Greenland</a></li>
+																				
+																				<li><a href="gj.html">Grenada</a></li>
+																				
+																				<li><a href="gq.html">Guam</a></li>
+																				
+																				<li><a href="gt.html">Guatemala</a></li>
+																				
+																				<li><a href="gk.html">Guernsey</a></li>
+																				
+																				<li><a href="gv.html">Guinea</a></li>
+																				
+																				<li><a href="pu.html">Guinea-Bissau</a></li>
+																				
+																				<li><a href="gy.html">Guyana</a></li>
+																				
+																				<li><a href="ha.html">Haiti</a></li>
+																				
+																				<li><a href="hm.html">Heard Island and McDonald Islands</a></li>
+																				
+																				<li><a href="vt.html">Holy See (Vatican City)</a></li>
+																				
+																				<li><a href="ho.html">Honduras</a></li>
+																				
+																				<li><a href="hk.html">Hong Kong</a></li>
+																				
+																				<li><a href="hu.html">Hungary</a></li>
+																				
+																				<li><a href="ic.html">Iceland</a></li>
+																				
+																				<li><a href="in.html">India</a></li>
+																				
+																				<li><a href="xo.html">Indian Ocean</a></li>
+																				
+																				<li><a href="id.html">Indonesia</a></li>
+																				
+																				<li><a href="ir.html">Iran</a></li>
+																				
+																				<li><a href="iz.html">Iraq</a></li>
+																				
+																				<li><a href="ei.html">Ireland</a></li>
+																				
+																				<li><a href="im.html">Isle of Man</a></li>
+																				
+																				<li><a href="is.html">Israel</a></li>
+																				
+																				<li><a href="it.html">Italy</a></li>
+																				
+																				<li><a href="jm.html">Jamaica</a></li>
+																				
+																				<li><a href="jn.html">Jan Mayen</a></li>
+																				
+																				<li><a href="ja.html">Japan</a></li>
+																				
+																				<li><a href="je.html">Jersey</a></li>
+																				
+																				<li><a href="jo.html">Jordan</a></li>
+																				
+																				<li><a href="kz.html">Kazakhstan</a></li>
+																				
+																				<li><a href="ke.html">Kenya</a></li>
+																				
+																				<li><a href="kr.html">Kiribati</a></li>
+																				
+																				<li><a href="kn.html">Korea, North</a></li>
+																				
+																				<li><a href="ks.html">Korea, South</a></li>
+																				
+																				<li><a href="kv.html">Kosovo</a></li>
+																				
+																				<li><a href="ku.html">Kuwait</a></li>
+																				
+																				<li><a href="kg.html">Kyrgyzstan</a></li>
+																				
+																				<li><a href="la.html">Laos</a></li>
+																				
+																				<li><a href="lg.html">Latvia</a></li>
+																				
+																				<li><a href="le.html">Lebanon</a></li>
+																				
+																				<li><a href="lt.html">Lesotho</a></li>
+																				
+																				<li><a href="li.html">Liberia</a></li>
+																				
+																				<li><a href="ly.html">Libya</a></li>
+																				
+																				<li><a href="ls.html">Liechtenstein</a></li>
+																				
+																				<li><a href="lh.html">Lithuania</a></li>
+																				
+																				<li><a href="lu.html">Luxembourg</a></li>
+																				
+																				<li><a href="mc.html">Macau</a></li>
+																				
+																				<li><a href="mk.html">Macedonia</a></li>
+																				
+																				<li><a href="ma.html">Madagascar</a></li>
+																				
+																				<li><a href="mi.html">Malawi</a></li>
+																				
+																				<li><a href="my.html">Malaysia</a></li>
+																				
+																				<li><a href="mv.html">Maldives</a></li>
+																				
+																				<li><a href="ml.html">Mali</a></li>
+																				
+																				<li><a href="mt.html">Malta</a></li>
+																				
+																				<li><a href="rm.html">Marshall Islands</a></li>
+																				
+																				<li><a href="mr.html">Mauritania</a></li>
+																				
+																				<li><a href="mp.html">Mauritius</a></li>
+																				
+																				<li><a href="mx.html">Mexico</a></li>
+																				
+																				<li><a href="fm.html">Micronesia, Federated States of</a></li>
+																				
+																				<li><a href="md.html">Moldova</a></li>
+																				
+																				<li><a href="mn.html">Monaco</a></li>
+																				
+																				<li><a href="mg.html">Mongolia</a></li>
+																				
+																				<li><a href="mj.html">Montenegro</a></li>
+																				
+																				<li><a href="mh.html">Montserrat</a></li>
+																				
+																				<li><a href="mo.html">Morocco</a></li>
+																				
+																				<li><a href="mz.html">Mozambique</a></li>
+																				
+																				<li><a href="wa.html">Namibia</a></li>
+																				
+																				<li><a href="nr.html">Nauru</a></li>
+																				
+																				<li><a href="bq.html">Navassa Island</a></li>
+																				
+																				<li><a href="np.html">Nepal</a></li>
+																				
+																				<li><a href="nl.html">Netherlands</a></li>
+																				
+																				<li><a href="nc.html">New Caledonia</a></li>
+																				
+																				<li><a href="nz.html">New Zealand</a></li>
+																				
+																				<li><a href="nu.html">Nicaragua</a></li>
+																				
+																				<li><a href="ng.html">Niger</a></li>
+																				
+																				<li><a href="ni.html">Nigeria</a></li>
+																				
+																				<li><a href="ne.html">Niue</a></li>
+																				
+																				<li><a href="nf.html">Norfolk Island</a></li>
+																				
+																				<li><a href="cq.html">Northern Mariana Islands</a></li>
+																				
+																				<li><a href="no.html">Norway</a></li>
+																				
+																				<li><a href="mu.html">Oman</a></li>
+																				
+																				<li><a href="zn.html">Pacific Ocean</a></li>
+																				
+																				<li><a href="pk.html">Pakistan</a></li>
+																				
+																				<li><a href="ps.html">Palau</a></li>
+																				
+																				<li><a href="pm.html">Panama</a></li>
+																				
+																				<li><a href="pp.html">Papua New Guinea</a></li>
+																				
+																				<li><a href="pf.html">Paracel Islands</a></li>
+																				
+																				<li><a href="pa.html">Paraguay</a></li>
+																				
+																				<li><a href="pe.html">Peru</a></li>
+																				
+																				<li><a href="rp.html">Philippines</a></li>
+																				
+																				<li><a href="pc.html">Pitcairn Islands</a></li>
+																				
+																				<li><a href="pl.html">Poland</a></li>
+																				
+																				<li><a href="po.html">Portugal</a></li>
+																				
+																				<li><a href="rq.html">Puerto Rico</a></li>
+																				
+																				<li><a href="qa.html">Qatar</a></li>
+																				
+																				<li><a href="ro.html">Romania</a></li>
+																				
+																				<li><a href="rs.html">Russia</a></li>
+																				
+																				<li><a href="rw.html">Rwanda</a></li>
+																				
+																				<li><a href="tb.html">Saint Barthelemy</a></li>
+																				
+																				<li><a href="sh.html">Saint Helena, Ascension, and Tristan da Cunha</a></li>
+																				
+																				<li><a href="sc.html">Saint Kitts and Nevis</a></li>
+																				
+																				<li><a href="st.html">Saint Lucia</a></li>
+																				
+																				<li><a href="rn.html">Saint Martin</a></li>
+																				
+																				<li><a href="sb.html">Saint Pierre and Miquelon</a></li>
+																				
+																				<li><a href="vc.html">Saint Vincent and the Grenadines</a></li>
+																				
+																				<li><a href="ws.html">Samoa</a></li>
+																				
+																				<li><a href="sm.html">San Marino</a></li>
+																				
+																				<li><a href="tp.html">Sao Tome and Principe</a></li>
+																				
+																				<li><a href="sa.html">Saudi Arabia</a></li>
+																				
+																				<li><a href="sg.html">Senegal</a></li>
+																				
+																				<li><a href="ri.html">Serbia</a></li>
+																				
+																				<li><a href="se.html">Seychelles</a></li>
+																				
+																				<li><a href="sl.html">Sierra Leone</a></li>
+																				
+																				<li><a href="sn.html">Singapore</a></li>
+																				
+																				<li><a href="sk.html">Sint Maarten</a></li>
+																				
+																				<li><a href="lo.html">Slovakia</a></li>
+																				
+																				<li><a href="si.html">Slovenia</a></li>
+																				
+																				<li><a href="bp.html">Solomon Islands</a></li>
+																				
+																				<li><a href="so.html">Somalia</a></li>
+																				
+																				<li><a href="sf.html">South Africa</a></li>
+																				
+																				<li><a href="sx.html">South Georgia and South Sandwich Islands</a></li>
+																				
+																				<li><a href="oo.html">Southern Ocean</a></li>
+																				
+																				<li><a href="sp.html">Spain</a></li>
+																				
+																				<li><a href="pg.html">Spratly Islands</a></li>
+																				
+																				<li><a href="ce.html">Sri Lanka</a></li>
+																				
+																				<li><a href="su.html">Sudan</a></li>
+																				
+																				<li><a href="ns.html">Suriname</a></li>
+																				
+																				<li><a href="sv.html">Svalbard</a></li>
+																				
+																				<li><a href="wz.html">Swaziland</a></li>
+																				
+																				<li><a href="sw.html">Sweden</a></li>
+																				
+																				<li><a href="sz.html">Switzerland</a></li>
+																				
+																				<li><a href="sy.html">Syria</a></li>
+																				
+																				<li><a href="tw.html">Taiwan</a></li>
+																				
+																				<li><a href="ti.html">Tajikistan</a></li>
+																				
+																				<li><a href="tz.html">Tanzania</a></li>
+																				
+																				<li><a href="th.html">Thailand</a></li>
+																				
+																				<li><a href="tt.html">Timor-Leste</a></li>
+																				
+																				<li><a href="to.html">Togo</a></li>
+																				
+																				<li><a href="tl.html">Tokelau</a></li>
+																				
+																				<li><a href="tn.html">Tonga</a></li>
+																				
+																				<li><a href="td.html">Trinidad and Tobago</a></li>
+																				
+																				<li><a href="ts.html">Tunisia</a></li>
+																				
+																				<li><a href="tu.html">Turkey</a></li>
+																				
+																				<li><a href="tx.html">Turkmenistan</a></li>
+																				
+																				<li><a href="tk.html">Turks and Caicos Islands</a></li>
+																				
+																				<li><a href="tv.html">Tuvalu</a></li>
+																				
+																				<li><a href="ug.html">Uganda</a></li>
+																				
+																				<li><a href="up.html">Ukraine</a></li>
+																				
+																				<li><a href="ae.html">United Arab Emirates</a></li>
+																				
+																				<li><a href="uk.html">United Kingdom</a></li>
+																				
+																				<li><a href="us.html">United States</a></li>
+																				
+																				<li><a href="um.html">United States Pacific Island Wildlife Refuges</a></li>
+																				
+																				<li><a href="uy.html">Uruguay</a></li>
+																				
+																				<li><a href="uz.html">Uzbekistan</a></li>
+																				
+																				<li><a href="nh.html">Vanuatu</a></li>
+																				
+																				<li><a href="ve.html">Venezuela</a></li>
+																				
+																				<li><a href="vm.html">Vietnam</a></li>
+																				
+																				<li><a href="vq.html">Virgin Islands</a></li>
+																				
+																				<li><a href="wq.html">Wake Island</a></li>
+																				
+																				<li><a href="wf.html">Wallis and Futuna</a></li>
+																				
+																				<li><a href="we.html">West Bank</a></li>
+																				
+																				<li><a href="wi.html">Western Sahara</a></li>
+																				
+																				<li><a href="ym.html">Yemen</a></li>
+																				
+																				<li><a href="za.html">Zambia</a></li>
+																				
+																				<li><a href="zi.html">Zimbabwe</a></li>
+																				
+																				<li><a href="ee.html">European Union</a></li>
+																				
+																	</ul>
+																	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+																</li>
+															</ul>
+														</div></td>
+												</tr>
+											</table>
+										</div>
+										</noscript>
+									</div></td>
+							</tr>
+						</table></td>
+				</tr>
+				<tr>
+					<td><table width="638" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td width="450" valign="bottom" style="border-bottom: 1px solid #CCCCCC;"><ul id="wfb_navigation">
+										
+											<li class="level1" id="home" accesskey="1"><a href="../index.html" title="The World Factbook Home"  >&nbsp;&nbsp;</a> </li>
+											
+											<li class="level1" id="about" style="cursor:default;">
+											<a href="#" title="About"  style="cursor:default;width:73px;">About</a>
+										
+										<ul class="subuls">
+											
+												<li><a href="../docs/history.html" title="History ">&nbsp;&nbsp;History</a></li>
+												<li><a href="../docs/contributor_copyright.html" title="Copyright and Contributors" >&nbsp;&nbsp;Copyright
+														and Contributors</a></li>
+												<li><a href="../docs/purchase_info.html" title="Purchasing" >&nbsp;&nbsp;Purchasing</a></li>
+												<li><a href="../docs/didyouknow.html" title="Did You Know?" >&nbsp;&nbsp;Did
+														You Know?</a></li>
+												
+										</ul>
+										</li>
+										
+											<li class="level1_long" id="reference">
+											<a href="#" title="References"  style="cursor:default;width:80px;">References</a>
+										
+										<ul class="subuls">
+											
+												<li><a href="../docs/refmaps.html" title="Regional Maps" >&nbsp;&nbsp;Regional
+														Maps</a></li>
+												<li><a href="../docs/flagsoftheworld.html" title="Flags of the World" >&nbsp;&nbsp;Flags
+														of the World</a></li>
+												<li><a href="../docs/gallery.html" title="Gallery of Covers"  >&nbsp;&nbsp;Gallery
+														of Covers</a></li>
+												<li><a href="../docs/notesanddefs.html" title="Definitions and Notes" >&nbsp;&nbsp;Definitions
+														and Notes</a></li>
+												<li><a href="../docs/profileguide.html" title="Guide to Country Profiles" >&nbsp;&nbsp;Guide
+														to Country Profiles</a></li>
+												<li><a href="../rankorder/rankorderguide.html" title="Guide to Country Comparisons"  >&nbsp;&nbsp;Guide
+														to Country Comparisons</a></li>
+												
+												
+												
+										</ul>
+										</li>
+										
+											<li class="level1_long" id="appendix">
+											<a href="#"  title="Appendices"  style="cursor:default;width:80px;">Appendices</a>
+										
+										<ul class="subuls_long">
+											
+												<li><a href="../appendix/appendix-a.html" title="Appendix A :" >&nbsp;&nbsp;A:
+														abbreviations</a></li>
+												<li><a href="../appendix/appendix-b.html" title="Appendix B :" >&nbsp;&nbsp;B:
+														international organizations and groups</a></li>
+												<li><a href="../appendix/appendix-c.html" title="Appendix C :" >&nbsp;&nbsp;C:
+														selected international environmental agreements</a></li>
+												<li><a href="../appendix/appendix-d.html" title="Appendix D :" >&nbsp;&nbsp;D:
+														cross-reference list of country data codes</a></li>
+												<li><a href="../appendix/appendix-e.html" title="Appendix E :" >&nbsp;&nbsp;E:
+														cross-reference list of hydrographic data codes</a></li>
+												<li><a href="../appendix/appendix-f.html" title="Appendix F :" >&nbsp;&nbsp;F:
+														cross-reference list of geographic names</a></li>
+												<li><a href="../appendix/appendix-g.html" title="Appendix G :" >&nbsp;&nbsp;G:
+														weights and measures</a></li>
+												
+										</ul>
+										</li>
+										
+												<li class="level1" id="faqs"><a href="../docs/faqs.html" title="Frequently Asked Questions"  style="cursor:pointer;width:73px;">FAQ<span style="text-transform:lowercase;">s</span></a></li>
+												
+												<li class="level1" id="contact"> <a href="../../contact-cia/index.html" title="Contact" alt="Contact" style="cursor:pointer;width:73px;"> Contact </a> </li>
+											
+									</ul></td>
+								<td class="smalltext_nav" align="right" valign="bottom" style="border-bottom: 1px solid #CCCCCC;">
+										<a href="../print/textversion.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('View Text Low Bandwidth Version','','../graphics/bandwidth_btn_on.gif',1)"><img src="../graphics/bandwidth_btn_off.gif" alt="View Text Low Bandwidth Version" title="View Text Low Bandwidth Version" width="173" height="8" border="0" style="padding: 1px;"/></a>
+										
+										<a href="https://www.cia.gov/library/publications/download/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Download Publication','','../graphics/download_btn_on.gif',1)"><img src="../graphics/download_btn_off.gif" alt="Download Publication" title="Download Publication" width="120" height="8" border="0" id="Download Publication" style="padding: 1px;" /></a>
+									</td>
+							</tr>
+						</table></td>
+				</tr>
+				</table>
+			<td width="160" valign="top" style="background-image: url(../graphics_wfbook_shell/grey_right_gutter_angle.jpg); background-position: right bottom; background-repeat: no-repeat;"><ul style="margin-left: 25px;list-style-type: disc; width: 130px; height: 80px;" id="quicklinks">
+<li style="padding: 0px; margin-left: 0px; margin-right: 0px;"><a title="Open Government Initiative" class="internal-link" href="/open/index.html">CIA  Open Initiative</a></li>
+<li style="list-style-image: none;"><a title="World Leaders" href="/library/publications/world-leaders-1/index.html">World Leaders</a></li>
+<li style="list-style-image: none;"><a title="Today's CIA" href="/about-cia/todays-cia/index.html">Today's CIA</a></li>
+<li style="list-style-image: none;"><a title="Studies in Intelligence" href="/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/index.html">Studies in Intelligence</a></li>
+<li style="list-style-image: none;"><a title="Diversity" class="internal-link" href="/careers/diversity/index.html">Diversity</a></li>
+</ul>
+
+
+</td>
+	</tr>
+</table>
+<map name="Map" id="Map">
+	
+		<area shape="rect" coords="1,33,301,72" href="../index.html"   title="The World Factbook Home"/>
+		
+</map>
+<!-- includes/pickcountryform.cfm ends here ... -->
+</td>
+                                </tr>
+                                <tr>
+                                  <td><!-- InstanceBeginEditable name="content" -->
+                                <title>the World Factbook- Appendix C :: Selected Environmental Agreements</title>
+
+
+<table width="638" border="0" cellpadding="0" cellspacing="0">
+  <tr style="height:25px;" >
+    <td  style="background-image: url(../graphics/gold_gradiant.gif); background-repeat: repeat-x;"><div class="region">appendix c<strong> :: </strong><span class="region_name">selected international environmental agreements</span></div></td>
+    <td align="right" valign="middle" style="background-image: url(../graphics/gold_gradiant.gif); background-repeat: repeat-x;">
+      
+<script language="javascript" type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+			<div id="print">
+				
+					<a href="print_appendix-c.html" target="_blank"><img src="../graphics/print.gif" alt="Print Page" width="25" height="18" border="0" title="Print Page" style="color:#999999" /> PRINT</a>
+				
+			</div>
+		</td>
+  </tr>
+  <tr style="height:10px;" >
+    <td colspan="2" align="left" valign="top" class="smalltext_nav" style="padding-left:7px;margin-top: 0px;"></td>
+  </tr>
+</table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="A">A</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on Long-Range Transboundary Air Pollution
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution-Nitrogen Oxides</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution Concerning the Control of Emissions of Nitrogen Oxides or Their Transboundary Fluxes
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution-Persistent Organic Pollutants</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on Persistent Organic Pollutants
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution-Sulphur 85</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on the Reduction of Sulphur Emissions or Their Transboundary Fluxes by at least 30%
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution-Sulphur 94</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on Further Reduction of Sulphur Emissions
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Air Pollution-Volatile Organic Compounds</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution Concerning the Control of Emissions of Volatile Organic Compounds or Their Transboundary Fluxes
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Antarctic - Environmental Protocol</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol on Environmental Protection to the Antarctic Treaty
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Antarctic Treaty</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <span style="font-weight: bold;">opened for signature - </span>1 December 1959
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>23 June 1961
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to ensure that Antarctica is used for peaceful purposes only (such as international cooperation in scientific research); to defer the question of territorial claims asserted by some nations and not recognized by others; to provide an international forum for management of the region; applies to land and ice shelves south of 60 degrees south latitude
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(46) Argentina, Australia, Austria, Belarus, Belgium, Brazil, Bulgaria, Canada, Chile, China, Colombia, Cuba, Czech Republic, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Guatemala, Hungary, India, Italy, Japan, North Korea, South Korea, Netherlands, NZ, Norway, Papua New Guinea, Peru, Poland, Romania, Russia, Slovakia, South Africa, Spain, Sweden, Switzerland, Turkey, Ukraine, UK, US, Uruguay, Venezuela
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="B">B</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Hazardous Wastes
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>22 March 1989
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>5 May 1992
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to reduce transboundary movements of wastes subject to the Convention to a minimum consistent with the environmentally sound and efficient management of such wastes; to minimize the amount and toxicity of wastes generated and ensure their environmentally sound management as closely as possible to the source of  generation; and to assist LDCs in environmentally sound management of the hazardous and other wastes they generate
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(172) Albania, Algeria, Andorra, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, EU, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Guatemala, Guinea, Guinea-Bissau, Guyana, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Norway, Oman, Pakistan, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Saudi Arabia, Senegal, Serbia, Seychelles, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sudan, Swaziland, Sweden, Switzerland, Syria, Tanzania, Thailand, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, UAE, UK, Uruguay, Uzbekistan, Venezuela, Vietnam, Yemen, Zambia
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(3) Afghanistan, Haiti, US
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Biodiversity</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on Biological Diversity
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="C">C</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Climate Change</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see United Nations Framework Convention on Climate Change
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Climate Change-Kyoto Protocol</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Kyoto Protocol to the United Nations Framework Convention on Climate Change
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention for the Conservation of Antarctic Seals</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Antarctic Seals
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>1 June 1972
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>11 March 1978
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to promote and achieve the protection, scientific study, and rational use of Antarctic seals, and to maintain a satisfactory balance within the ecological system of Antarctica
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(16) Argentina, Australia, Belgium, Brazil, Canada, Chile, France, Germany, Italy, Japan, Norway, Poland, Russia, South Africa, UK, US
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(1) NZ
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on Biological Diversity</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Biodiversity
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>5 June 1992
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>29 December 1993
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to develop national strategies for the conservation and sustainable use of biological diversity
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(191) Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, UAE, UK, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(1) US
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on Fishing and Conservation of Living Resources of the High Seas</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Marine Life Conservation
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>29 April 1958
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>20 March 1966
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to solve through international cooperation the problems involved in the conservation of living resources of the high seas, considering that because of the development of modern technology some of these resources are in danger of being overexploited
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(38) Australia, Belgium, Bosnia and Herzegovina, Burkina Faso, Cambodia, Colombia, Denmark, Dominican Republic, Fiji, Finland, France, Haiti, Jamaica, Kenya, Lesotho, Madagascar, Malawi, Malaysia, Mauritius, Mexico, Montenegro, Netherlands, Nigeria, Portugal, Senegal, Serbia, Sierra Leone, Solomon Islands, South Africa, Spain, Switzerland, Thailand, Tonga, Trinidad and Tobago, Uganda, UK, US, Venezuela
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(21) Afghanistan, Argentina, Bolivia, Canada, Costa Rica, Cuba, Ghana, Iceland, Indonesia, Iran, Ireland, Israel, Lebanon, Liberia, Nepal, NZ, Pakistan, Panama, Sri Lanka, Tunisia, Uruguay
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on Long-Range Transboundary Air Pollution</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>13 November 1979
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>16 March 1983
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to protect the human environment against air pollution and to gradually reduce and prevent air pollution, including long-range transboundary air pollution
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(51) Albania, Armenia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, EU, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kazakhstan, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malta, Moldova, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, UK, US
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(2) Holy See, San Marino
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on Wetlands of International Importance Especially as Waterfowl Habitat (Ramsar)</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Wetlands
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>2 February 1971
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>21 December 1975
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to stem the progressive encroachment on and loss of wetlands now and in the future, recognizing the fundamental ecological functions of wetlands and their economic, cultural, scientific, and recreational value
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(154) Albania, Algeria, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Estonia, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Guatemala, Guinea, Guinea-Bissau, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, South Korea, Kyrgyzstan, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Mali, Malta, Marshall Islands, Mauritania,  Mauritius, Mexico, Moldova, Monaco, Mongolia, Morocco, Mozambique, Namibia, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Norway, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Romania, Russia, Rwanda, Saint Lucia, Samoa, Sao Tome and Principe, Senegal, Serbia, Seychelles, Sierra Leone, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Sweden, Switzerland, Syria, Tanzania, Tajikistan, Thailand, Togo, Trinidad and Tobago, Tunisia, Turkey, Uganda, Ukraine, UK, US, Uruguay, Uzbekistan, Venezuela, Vietnam, Zambia
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on the Conservation of Antarctic Marine Living Resources</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Antarctic-Marine Living Resources
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>5 May 1980
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>7 April 1982
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to safeguard the environment and protect the integrity of the ecosystem of the seas surrounding Antarctica, and to conserve Antarctic marine living resources
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(31) Argentina, Australia, Belgium, Brazil, Bulgaria, Canada, Chile, EU, Finland, France, Germany, Greece, India, Italy, Japan, South Korea, Mauritius, Namibia, Netherlands, NZ, Norway, Peru, Poland, Russia, South Africa, Spain, Sweden, Ukraine, UK, US, Uruguay, Vanuatu
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on the International Trade in Endangered Species of Wild Flora and Fauna (CITES)</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Endangered Species
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>3 March 1973
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>1 July 1975
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to protect certain endangered species from overexploitation by means of a system of import/export permits
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(170) Afghanistan, Albania, Algeria, Antigua and Barbuda, Argentina, Australia, Austria, Azerbaijan, The Bahamas, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, South Korea, Kuwait, Laos, Latvia, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg,  Macedonia, Madagascar, Malawi, Malaysia, Mali, Malta, Mauritania, Mauritius, Mexico, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Norway, Palau, Pakistan, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Somalia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tanzania, Thailand, Togo, Trinidad and Tobago, Tunisia, Turkey, Uganda, Ukraine, UAE, UK, US, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on the Prevention of Marine Pollution by Dumping Wastes and Other Matter (London Convention)</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Marine Dumping
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>29 December 1972
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>30 August 1975
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to control pollution of the sea by dumping and to encourage regional agreements supplementary to the Convention; the London Convention came into force in 1996
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(88) Afghanistan, Angola, Antigua and Barbuda, Argentina, Australia, Azerbaijan, Barbados, Belarus, Belgium, Bolivia, Brazil, Bulgaria, Canada, Cape Verde, Chile, China, Democratic Republic of the Congo, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Denmark, Dominican Republic, Egypt, Equatorial Guinea, Finland, France, Gabon, Germany, Greece, Guatemala, Haiti, Honduras, Hong Kong (associate member), Hungary, Iceland, Iran, Ireland, Italy, Jamaica, Japan, Jordan, Kenya, Kiribati, South Korea, Libya, Luxembourg, Malta, Mexico, Monaco, Montenegro, Morocco, Nauru, Netherlands, NZ, Nigeria, Norway, Oman, Pakistan, Panama, Papua New Guinea, Peru, Philippines, Poland, Portugal, Russia, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Saudi Arabia, Serbia, Seychelles, Slovenia, Solomon Islands, South Africa, Spain, Suriname, Sweden, Switzerland, Tonga, Trinidad and Tobago, Tunisia, Ukraine, UAE, UK, US, Vanuatu
+          <div id="return">&nbsp;</div>
+        <i>associate members to the London Convention - </i>(2) Faroe Islands, Macau<br>
+<i>countries that have signed, but not yet ratified - </i>(3) Chad, Kuwait, Uruguay
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Convention on the Prohibition of Military or Any Other Hostile Use of Environmental Modification Techniques</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Environmental Modification
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>10 December 1976
+          <div id="return">&nbsp;</div>
+        <I>entered into force</I> - 5 October 1978
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to prohibit the military or other hostile use of environmental modification techniques in order to further world peace and trust among nations
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(73) Afghanistan, Algeria, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Bangladesh, Belarus, Belgium, Benin, Brazil, Bulgaria, Canada, Cape Verde, Chile, China, Costa Rica, Cuba, Cyprus, Czech Republic, Denmark, Dominica, Egypt, Finland, Germany, Ghana, Greece, Guatemala, Hungary, India, Ireland, Italy, Japan, Kazakhstan, North Korea, South Korea, Kuwait, Laos, Lithuania, Malawi, Mauritius, Mongolia, Netherlands, NZ, Nicaragua, Niger, Norway, Pakistan, Panama, Papua New Guinea, Poland, Romania, Russia, Saint Lucia, Saint Vincent and the Grenadines, Sao Tome and Principe, Slovakia, Slovenia, Solomon Islands, Spain, Sri Lanka, Sweden, Switzerland, Tajikistan, Tunisia, Ukraine, UK, US, Uruguay, Uzbekistan, Vietnam, Yemen
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(16) Bolivia, Democratic Republic of the Congo, Ethiopia, Holy See, Iceland, Iran, Iraq, Lebanon, Liberia, Luxembourg, Morocco, Portugal, Sierra Leone, Syria, Turkey, Uganda
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="D">D</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Desertification</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see United Nations Convention to Combat Desertification in those Countries Experiencing Serious Drought and/or Desertification, Particularly in Africa
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="E">E</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Endangered Species</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on the International Trade in Endangered Species of Wild Flora and Fauna (CITES)
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Environmental Modification</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on the Prohibition of Military or Any Other Hostile Use of Environmental Modification Techniques
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="H">H</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Hazardous Wastes</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="I">I</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">International Convention for the Regulation of Whaling</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Whaling
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>2 December 1946
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>10 November 1948
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to protect all species of whales from overhunting; to establish a system of international regulation for the whale fisheries to ensure proper conservation and development of whale stocks; and to safeguard for future generations the great natural resources represented by whale stocks
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(84) Antigua and Barbuda, Argentina, Australia, Austria, Belgium, Belize, Benin, Brazil, Cambodia, Cameroon, Chile, China, Republic of the Congo, Costa Rica, Cote D'Ivoire, Croatia, Cyprus, Czech Republic, Denmark, Dominica, Ecuador, Eritrea, Estonia, Finland, France, Gabon, The Gambia, Germany, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Hungary, Iceland, India, Ireland, Israel, Italy, Japan, Kenya, Kiribati, South Korea, Laos, Lithuania, Luxembourg, Mali, Marshall Islands, Mauritania, Mexico, Monaco, Mongolia,  Morocco, Nauru, Netherlands, NZ, Nicaragua,  Norway, Oman, Palau, Panama, Peru, Portugal, Romania, Russia, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, San Marino, Senegal, Slovakia, Slovenia, Solomon Islands, South Africa, Spain, Suriname, Sweden, Switzerland, Tanzania, Togo, Tuvalu, UK, US, Uruguay
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">International Tropical Timber Agreement, 1983</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Tropical Timber 83
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>18 November 1983
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>1 April 1985; this agreement expired when the International Tropical Timber Agreement, 1994, went into force
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide an effective framework for cooperation between tropical timber producers and consumers and to encourage the development of national policies aimed at sustainable utilization and conservation of tropical forests and their genetic resources
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(59) Australia, Austria, Belgium, Bolivia, Brazil, Burma, Cambodia, Cameroon, Canada, Central African Republic, China, Colombia, Democratic Republic of the Congo, Republic of the Congo, Cote d'Ivoire, Denmark, Ecuador, Egypt, EU, Fiji, Finland, France, Gabon, Germany, Ghana, Greece, Guatemala, Guyana, Honduras, India, Indonesia, Ireland, Italy, Japan, South Korea, Liberia, Luxembourg, Malaysia, Mexico, Nepal, Netherlands, NZ, Nigeria, Norway, Panama, Papua New Guinea, Peru, Philippines, Portugal, Russia, Spain, Suriname, Sweden, Switzerland, Thailand, Togo, Trinidad and Tobago, UK, US, Vanuatu, Venezuela
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">International Tropical Timber Agreement, 1994</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Tropical Timber 94
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>26 January 1994
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>1 January 1997
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to ensure that by the year 2000 exports of tropical timber originate from sustainably managed sources; to establish a fund to assist tropical timber producers in obtaining the resources necessary to reach this objective
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(61) Australia, Austria, Belgium, Bolivia, Brazil, Burma, Cambodia, Cameroon, Canada, Central African Republic, China, Colombia, Democratic Republic of the Congo, Republic of the Congo, Cote d'Ivoire, Denmark, Ecuador, Egypt, EU, Fiji, Finland, France, Gabon, Germany, Ghana, Greece, Guatemala, Guyana, Honduras, India, Indonesia, Ireland, Italy, Japan, South Korea, Liberia, Luxembourg, Malaysia, Mexico, Nepal, Netherlands, NZ, Nigeria, Norway, Panama, Papua New Guinea, Peru, Philippines, Poland, Portugal, Spain, Suriname, Sweden, Switzerland, Thailand, Togo, Trinidad and Tobago, UK, US, Vanuatu, Venezuela
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="K">K</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Kyoto Protocol to the United Nations Framework Convention on Climate Change</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Climate Change-Kyoto Protocol
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>16 March 1998
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>23 February 2005
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to further reduce greenhouse gas emissions by enhancing the national programs of developed countries aimed at this goal and by establishing percentage reduction targets for the developed countries
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(184) Albania, Algeria, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Island, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkmenistan, Tuvalu, Uganda, Ukraine, UAE, UK, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia
+          <div id="return">&nbsp;</div>
+        <b>countries that have signed, but not yet ratified - </b>(2) Kazakhstan, US
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="L">L</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Law of the Sea</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see United Nations Convention on the Law of the Sea (LOS)
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="M">M</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Marine Dumping</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on the Prevention of Marine Pollution by Dumping Wastes and Other Matter (London Convention)
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Marine Life Conservation</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on Fishing and Conservation of Living Resources of the High Seas
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Montreal Protocol on Substances That Deplete the Ozone Layer</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <i>note</i> - abbreviated as Ozone Layer Protection
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>16 September 1987
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>1 January 1989
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to protect the ozone layer by controlling emissions of substances that deplete it
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(194) Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Holy See, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, UAE, UK, US, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="N">N</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Nuclear Test Ban</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Treaty Banning Nuclear Weapons Tests in the Atmosphere, in Outer Space, and Under Water
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="O">O</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Ozone Layer Protection</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Montreal Protocol on Substances That Deplete the Ozone Layer
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="P">P</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol of 1978 Relating to the International Convention for the Prevention of Pollution From Ships, 1973 (MARPOL)</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Ship Pollution
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>17 February 1978
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>2 October 1983
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to preserve the marine environment through the complete elimination of pollution by oil and other harmful substances and the minimization of accidental discharge of such substances
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(139) Algeria, Angola, Antigua and Barbuda, Argentina, Australia, Austria, Azerbaijan, The Bahamas, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bolivia, Brazil, Brunei, Bulgaria, Burma, Cambodia, Canada, Cape Verde, Chile, China, Colombia, Comoros, Republic of Congo, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, Equatorial Guinea, Estonia, Faroe Islands, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Guatemala, Guinea, Guyana, Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Kazakhstan, Kenya, North Korea, South Korea, Latvia, Lebanon, Liberia, Lithuania, Luxembourg, Libya, Macau, Madagascar, Malawi, Malaysia, Maldives, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Netherlands, NZ, Nicaragua, Nigeria, Norway, Oman, Pakistan, Panama, Papua New Guinea, Peru, Philippines, Poland, Portugal, Qatar Romania, Russia, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Tuvalu, Ukraine, UK, US, Uruguay, Vanuatu, Venezuela, Vietnam
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol on Environmental Protection to the Antarctic Treaty</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Antarctic-Environmental Protocol
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>4 October 1991
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>14 January 1998
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for comprehensive protection of the Antarctic environment and dependent and associated ecosystems; applies to the area covered by the Antarctic Treaty
+          <div id="return">&nbsp;</div>
+        <i>consultative parties - </i>(31) Argentina, Australia, Belgium, Brazil, Bulgaria, Canada, Chile, China, Czech Republic, Ecuador, Finland, France, Germany, India, Italy, Japan, South Korea, Netherlands, NZ, Norway, Peru, Poland, Romania, Russia, South Africa, Spain, Sweden, Ukraine, UK, US, Uruguay
+          <div id="return">&nbsp;</div>
+        <b>non consultative parties - </b>(12) Austria, Colombia, Cuba, Denmark, Greece, Guatemala, Hungary, North Korea, Papua New Guinea, Slovakia, Switzerland, Turkey
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution Concerning the Control of Emissions of Nitrogen Oxides or Their Transboundary Fluxes</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution-Nitrogen Oxides
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>31 October 1988
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>14 February 1991
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for the control or reduction of nitrogen oxides and their transboundary fluxes
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(32) Austria, Belarus, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, EU, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Netherlands, Norway, Russia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, UK, US
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(1) Poland
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution Concerning the Control of Emissions of Volatile Organic Compounds or Their Transboundary Fluxes</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution-Volatile Organic Compounds
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>18 November 1991
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>29 September 1997
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for the control and reduction of emissions of volatile organic compounds in order to reduce their transboundary fluxes so as to protect human health and the environment from adverse effects
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(23) Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Liechtenstein, Lithuania, Luxembourg, Monaco, Netherlands, Norway, Slovakia, Spain, Sweden, Switzerland, UK
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(6) Canada, EU, Greece, Portugal, Ukraine, US
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on Further Reduction of Sulphur Emissions</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution-Sulphur 94
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>14 June 1994
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>5 August 1998
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for a further reduction in sulfur emissions or transboundary fluxes
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(28) Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, EU, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Monaco, Netherlands, Norway, Slovakia, Slovenia, Spain, Sweden, Switzerland, UK
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(3) Poland, Russia, Ukraine
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on Persistent Organic Pollutants</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution-Persistent Organic Pollutants
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>24 June 1998
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>23 October 2003
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for the control and reduction of emissions of persistent organic pollutants in order to reduce their transboundary fluxes so as to protect human health and the environment from adverse effects
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(29) Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, EU, Finland, France, Germany, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Moldova, Netherlands, Norway, Romania, Slovakia, Slovenia, Sweden, Switzerland, UK
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(8) Armenia, Greece, Ireland, Poland, Portugal, Spain, Ukraine, US
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Protocol to the 1979 Convention on Long-Range Transboundary Air Pollution on the Reduction of Sulphur Emissions or Their Transboundary Fluxes by at Least 30%</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Air Pollution-Sulphur 85
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>8 July 1985
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>2 September 1987
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to provide for a 30% reduction in sulfur emissions or transboundary fluxes by 1993
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(23) Austria, Belarus, Belgium, Bulgaria, Canada, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Liechtenstein, Lithuania, Luxembourg, Netherlands, Norway, Russia, Slovakia, Sweden, Switzerland, Ukraine
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="S">S</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Ship Pollution</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Protocol of 1978 Relating to the International Convention for the Prevention of Pollution From Ships, 1973 (MARPOL)
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="T">T</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space, and Under Water</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Nuclear Test Ban
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>5 August 1963
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>10 October 1963
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to obtain an agreement on general and complete disarmament under strict international control in accordance with the objectives of the United Nations; to put an end to the armaments race and eliminate incentives for the production and testing of all kinds of weapons, including nuclear weapons
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(113) Afghanistan, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, The Bahamas, Bangladesh, Belgium, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Bulgaria, Burma, Canada, Central African Republic, Chad, China, Colombia, Democratic Republic of the Congo, Costa Rica, Cote d'Ivoire, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Egypt, El Salvador, Fiji, Finland, Gabon, The Gambia, Germany, Ghana, Greece, Guatemala, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kenya, South Korea, Kuwait, Laos, Lebanon, Liberia, Luxembourg, Madagascar, Malawi, Malaysia, Malta, Mauritania, Mauritius, Mexico, Morocco, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Norway, Panama, Papua New Guinea, Peru, Philippines, Poland, Romania, Russia, Rwanda, Samoa, San Marino, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Thailand, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Uganda, UK, US, Venezuela, Zambia
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(17) Algeria, Burkina Faso, Burundi, Cameroon, Chile, Ethiopia, Haiti, Libya, Mali, Pakistan, Paraguay, Portugal, Somalia, Tanzania, Uruguay, Vietnam, Yemen
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Tropical Timber 83</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see International Tropical Timber Agreement, 1983
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Tropical Timber 94</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see International Tropical Timber Agreement, 1994
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="U">U</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">United Nations Convention on the Law of the Sea (LOS)</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Law of the Sea
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>10 December 1982
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>16 November 1994
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to set up a comprehensive new legal regime for the sea and oceans; to include rules concerning environmental standards as well as enforcement provisions dealing with pollution of the marine environment
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(157) Albania, Algeria, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Cameroon, Canada, Cape Verde, Chile, China, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Egypt, Equatorial Guinea, Estonia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Italy, Jamaica, Japan, Jordan, Kenya, Kiribati, South Korea, Kuwait, Laos, Latvia, Lebanon, Lesotho, Liberia, Lithuania, Luxembourg, Macedonia, Madagascar, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Qatar, Romania, Russia, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Sweden, Tanzania, Togo, Tonga, Trinidad and Tobago, Tunisia, Tuvalu, Uganda, Ukraine, UK, Uruguay, Vanuatu, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        <i>countries that have signed, but not yet ratified - </i>(21) Afghanistan, Bhutan, Burundi, Cambodia, Central African Republic, Chad, Colombia, Dominican Republic, El Salvador, Ethiopia, Iran, North Korea, Libya, Liechtenstein, Malawi, Niger, Rwanda, Swaziland, Switzerland, Thailand, UAE
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">United Nations Convention to Combat Desertification in Those Countries Experiencing Serious Drought and/or Desertification, Particularly in Africa</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Desertification
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>14 October 1994
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>26 December 1996
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to combat desertification and mitigate the effects of drought through national action programs that incorporate long-term strategies supported by international cooperation and partnership arrangements
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(193) Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Ethiopia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Thailand, Tanzania, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, UAE, UK, US, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">United Nations Framework Convention on Climate Change</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> <b>note</b> - abbreviated as Climate Change
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">opened for signature - </span>9 May 1992
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">entered into force -  </span>21 March 1994
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">objective - </span>to achieve stabilization of greenhouse gas concentrations in the atmosphere at a low enough level to prevent dangerous anthropogenic interference with the climate system
+          <div id="return">&nbsp;</div>
+        <span style="font-weight: bold;">parties - </span>(192) Afghanistan, Albania, Algeria, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, The Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burma, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, EU, Fiji, Finland, France, Gabon, The Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Federated States of Micronesia, Moldova, Monaco, Mongolia, Montenegro,  Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, NZ, Nicaragua, Niger, Nigeria, Niue, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, UAE, UK, US, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+      <tr>
+        <td style="height:30px;" colspan="3" align="right" valign="top" class="dashed_top_grey_line"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back To Top" width="16" height="16" border="0"  title="Back To Top" /></a></td>
+      </tr>
+    
+      <tr>
+        <td width="25" style="height:25px;"  align="left" valign="bottom" class="alpha"><a name="W">W</a></td>
+        <td valign="bottom" class="solid_btm_grey_line"><table border="0" align="right" cellpadding="0" cellspacing="0" style="height:25px;">
+            <tr>
+              <td><div id="colAlpha">
+                  
+                    <div align="right" class="colAlphaByLetter"><a id="letter_A" class = "colAlpha" href = "#A">A</a><a id="letter_B" class = "colAlpha" href = "#B">B</a><a id="letter_C" class = "colAlpha" href = "#C">C</a><a id="letter_D" class = "colAlpha" href = "#D">D</a><a id="letter_E" class = "colAlpha" href = "#E">E</a><a id="letter_F" class = "colAlpha_none">F</a><a id="letter_G" class = "colAlpha_none">G</a><a id="letter_H" class = "colAlpha" href = "#H">H</a><a id="letter_I" class = "colAlpha" href = "#I">I</a><a id="letter_J" class = "colAlpha_none">J</a><a id="letter_K" class = "colAlpha" href = "#K">K</a><a id="letter_L" class = "colAlpha" href = "#L">L</a><a id="letter_M" class = "colAlpha" href = "#M">M</a><a id="letter_N" class = "colAlpha" href = "#N">N</a><a id="letter_O" class = "colAlpha" href = "#O">O</a><a id="letter_P" class = "colAlpha" href = "#P">P</a><a id="letter_Q" class = "colAlpha_none" >Q</a><a id="letter_R" class = "colAlpha_none">R</a><a id="letter_S" class = "colAlpha" href = "#S">S</a><a id="letter_T" class = "colAlpha" href = "#T">T</a><a id="letter_U" class = "colAlpha" href = "#U">U</a><a id="letter_V" class = "colAlpha_none">V</a><a id="letter_W" class = "colAlpha" href = "#W">W</a><a id="letter_X" class = "colAlpha_none">X</a><a id="letter_Y" class = "colAlpha_none">Y</a><a id="letter_Z" class = "colAlpha_none">Z</a></div>
+                  
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Wetlands</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see Convention on Wetlands of International Importance Especially As Waterfowl Habitat (Ramsar)
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+  <table width="638" border="0" cellspacing="0" cellpadding="0">
+  
+    <tr>
+      <td bgcolor="#F8f8e7" colspan="2" class="category_titles" style="text-transform:none;height:20px;">Whaling</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="data" class="category_data" style="text-transform:none; padding-bottom: 5px;"> see International Convention for the Regulation of Whaling
+          <div id="return">&nbsp;</div>
+        </td>
+    </tr>
+  </table>
+
+        <table border="0" cellspacing="0" cellpadding="0" width="638">
+          <tr>
+            <td style="height:18px;" class="dashed_top_grey_line"><div align="right"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back to Top" width="16" height="16" border="0" style="padding:2px; cursor: pointer;" title="Back to Top"/></a></div></td>
+          </tr>
+        </table>
+  
+                                <!-- InstanceEndEditable --></td>
+                                </tr>
+                              </table>
+                            </div></td>
+                        </tr>
+                      </table>
+                      <div class="floatClear"></div></td>
+                  </tr>
+                  <tr>
+                    <td align="right"></td>
+                    <td align="left" style="background-image: url(../graphics_wfbook_shell/grey_right_gutter.gif); background-position: 675px; background-repeat: repeat-y; background-color: #ffffff;"><table width="650" border="0" cellpadding="0" cellspacing="0">
+                        <tr  style="background-color: #ffffff;">
+                          <td width="15">&nbsp;</td>
+                          <td align="right" class="bottom-text" style="border-bottom: 1px solid #CCCCCC; margin-right: 0px; width: 650px;">The online Factbook is updated weekly. ISSN 1553-8133<br />
+                            For additional information on government leaders in selected foreign countries, go to World Leaders.</td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <!-- *** Footer *** -->
+
+            <!-- *** / Footer *** -->
+           <div id="footerBlock" align="left" style=" margin-left: 0px; padding-left: 0px;">
+           
+			<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+            	<tr>
+                  <td style=" width:auto; font-size: 9px;"><ul id="footerLinks-L" style="padding-left: 70px; vertical-align:top; font-size: 9px; width: 638px; padding-right: 0px; padding-top: 5px; padding-bottom: 5px;">
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html#privacy-notice" style="font-size: 9px;">Privacy</a></li>
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html#copy" style="font-size: 9px;">Copyright</a></li>
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html" style="font-size: 9px;">Site Policies</a></li>
+                  	<li><a title="NoFEAR Act" href="/about-cia/no-fear-act/index.html" style="font-size: 9px;">NoFEAR Act</a></li>
+                  	<li><a href="http://www.foia.cia.gov/" style="font-size: 9px;">FOIA</a></li>
+                  	<li><a href="http://www.usa.gov/" style="font-size: 9px;">USA.gov</a></li>
+                  	<li><a href="http://www.dni.gov/" style="font-size: 9px;">DNI.gov</a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+                  	
+					<li><img src="../graphics/5_spacer.jpg" width="160" height="5" />&nbsp;</li>
+                  	<li><a href="/contact-cia" accesskey="9" title="Contact CIA" style="font-size: 9px;">Contact CIA</a></li>
+					<li style="margin-right: 0px;"><a href="/sitemap.html" accesskey="3" title="Site Map" style="font-size: 9px;">Site Map</a></li>
+                  	</ul></td>
+                  <td align="right" width="160" valign="top" style="background-image:url(graphics_wfbook_shell/grey_right_gutter_a.gif); background-position: top right; background-repeat: no-repeat;"><img src="../graphics_wfbook_shell/lnav_greybarBot1.gif" width="155" height="11"  style="margin-top: 0px;"/></td>
+                </tr>
+             </table> </div>
+            <div id="portal-footer">
+          <div id="colR" style="background-color: ##fff;"></div>    
+            </div>
+            <!-- *** / Footer *** -->
+        </tr>
+      </table></td>
+    <td valign="top" id="right_shadow" rowspan="2" ><table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 100%;">
+        <tr>
+          <td align="left" valign="top" style="background-image:url(../graphics/1024_background_top.jpg); background-position: top; background-repeat: repeat-x;"><img src="../graphics/1024_righttop_background.jpg" width="54" height="73" /></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="bottom-text1" valign="top" width="638"></td>
+  </tr>
+
+</table>
+</body>
+<!-- Code from script_head.cfm -->
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+
+startList = function() {
+							if (document.all&&document.getElementById) {
+								wfb_navigationRoot = document.getElementById("wfb_navigation");
+								for (x=0; x<wfb_navigationRoot.childNodes.length; x++) {
+									node = wfb_navigationRoot.childNodes[x];
+									if (node.nodeName=="LI") {
+										node.onmouseover=function() {
+																		this.className+=" over";
+																	}
+										node.onmouseout = function()	{
+																			this.className=this.className.replace(" over", "");
+																		}
+									}
+								}
+							}
+						}
+	window.onload=startList;
+
+	faq = null;
+	function collapseCountryInfo()
+	{
+		faq = new switchicon("icongroup2", "div") //Limit scanning of switch contents to just "div" elements
+		faq.setHeader('<img src="../graphics/close.jpg" alt="Close" title="Close"/>', '<img src="../graphics/open.jpg" alt="Open" title="Open" />')  //Set header HTML
+		faq.collapsePrevious(false) //Allow more than 1 content to be open simultanously
+		faq.setPersist(true, 7) //Enable persistence to remember last switch content states for 7 days
+		faq.init()
+	}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	if (selObj.selectedIndex > 0)
+	{
+		
+		eval(targ + ".location='" + "../geos/" + selObj.options[selObj.selectedIndex].value + ".html" + "'");
+		
+	}
+	if (restore) 
+		selObj.selectedIndex=0;
+}
+function onChange(dropdown)
+{
+ 	var myindex = dropdown.selectedIndex
+	var cntryCode = selObj.options[selObj.selectedIndex].value;
+	var baseURL = selObj.options[selObj.selectedIndex].value;
+	top.location.href = baseURL;
+	
+	return true;
+}
+
+var statusmsg = "";
+function hidestatus() {
+ 	window.status = statusmsg
+	return true
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 3600; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+			keynum = e.which;
+		} 
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selectControl.options.length; i++)
+			{
+				var selectLabel = selectControl.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selectControl.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selectControl.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<script language="javascript" src="../scripts/AJAXLibrary.js" type="text/javascript"></script>
+<script language="javascript" src="../scripts/DataEntryLibrary.js" type="text/javascript"></script>
+<script language="javascript" src="../scripts/findDOM.js" type="text/javascript"></script>
+
+
+<!-- InstanceEnd --></html>
+

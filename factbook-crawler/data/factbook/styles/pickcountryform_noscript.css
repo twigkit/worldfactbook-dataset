@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#multi-level {height:25px;position:relative; z-index:99999; font-family: Verdana;font-size: 10px; font-weight: bold;background-image: url(../graphics/dropdown_background.gif); background-position:right middle; background-repeat: no-repeat;  text-align: left; text-decoration: none; padding-bottom: 1px;}
+#multi-level a:link {text-decoration: none; }
+
+/* The menu styling */
+/* Remove the padding, margins and bullets from the lists */
+.menu, .menu ul {list-style-type:none; margin:0; font-family: Verdana; text-transform: uppercase; font-size: 10px; z-index:99999; padding-left:5px;padding-bottom:2px;  text-decoration: none; width: 350px; }
+
+/* Set up the top level list items and float left to place inline */
+.menu li.top {display:block; float:left; position:relative;font-size: 10px; text-decoration: none;}
+
+/* Style and position the table so it takes no part in the menu function. The font size is necessary for IE5.5 */
+.menu table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;font-size: 10px;}
+
+/* Default top link link styling */
+.menu li.top a.top_link {display:block; float:left; height:20px;font-size: 10px; margin-top: 2px; }
+.menu li.top a span {position:absolute; left:-99910px; top:0; z-index:0; font-size:10px; } /* move the link text off screen */
+
+/* Style the list OR link hover. Depends on which browser is used */
+.menu a:hover {visibility:visible;} /* for IE6 */
+.menu li:hover { position:relative; z-index:200;} /* for IE7 */
+
+/* keep the 'next' level invisible by placing it off screen. */
+.menu ul, 
+.menu :hover ul ul, 
+.menu :hover ul :hover ul ul,
+.menu :hover ul :hover ul :hover ul ul,
+.menu :hover ul :hover ul :hover ul :hover ul ul {position:absolute; left:-99910px; top:-99910px; width:0; height:10; padding:0; line-height: 10px; text-decoration: none; }
+
+/* set up the first drop down sub level */
+.menu :hover ul.af {left:-5px; top:18px; width:343px; overflow:scroll; height: 249px; background-color: #F2F2E6; text-decoration: none; border: #8CACBB 1px solid; }
+.menu :hover ul.af li {display:block;  position:relative; float:left; width:345px;  text-decoration: none; height: 8px;}
+.menu :hover ul.af li a {display:block; font-size:10px; width:345px;  text-indent:5px; color:#000; text-decoration: none;  line-height:11px;}
+.menu :hover ul.af li a:hover {background-color: #3366CC; color: white; text-decoration: none; line-height:13px;}
+.menu :hover ul.af li a.fly:hover {background:#3366CC; color: #000;}
+.menu :hover ul li:hover > a.fly {background:#3366CC; color: #000;} 
+
+

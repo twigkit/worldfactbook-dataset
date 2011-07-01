@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	border:none;
+}
+#search form {
+	margin:0px;
+}
+#search input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin:0px;
+	color:#333;
+	height: 14px;
+	width: 130px;
+	padding-left:2px;
+	margin-right: 3px;
+}
+
+.title {
+	height: 25px;
+	background: url(../graphics/home_title_bkg.jpg) repeat-x;
+}
+.header {
+	height: 23px;
+	background: url(../graphics/home_header_bkg.jpg) repeat-x;
+	}
+.home-date {
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	color: #0E5783; /*blue*/
+	/*padding-bottom: 50px;*/
+	}
+.header img {
+	font: 9px normal Verdana, Arial, Helvetica, sans-serif;
+	color: #0B4075;
+	vertical-align:text-bottom;
+	}
+.intro {
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #666;
+	letter-spacing: .02em;
+	text-align: left;
+	padding: 8px 35px 10px 10px;
+	background: url(../graphics/home_intro_bkg.jpg) no-repeat;
+	}
+.whats-new-text {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 0.01em;
+	padding: 3px 5px 3px 5px;
+	background: url(../graphics/home_whatsnew_bkg.jpg) repeat-x;
+	}
+.cover-text {
+	font-size: 11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #666666;
+	letter-spacing: 0.01em;
+	padding: 7px 5px 10px 10px;
+	background-image: url(../graphics/whatsnew_gradiant.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+	}
+.map {
+	background: url(../graphics/home_title_map_bkg.jpg) repeat-x;
+	text-align: right;
+	padding: 4px 0px;
+	}
+#buttons td {
+	padding-bottom: 5px;
+	}
+.bottom-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	letter-spacing: 0.02em;
+	line-height: 15px;
+	text-align: left;
+	color: #666666;
+	background: url(../graphics/home_footer_bkg.jpg) repeat-x;
+	text-align: right;
+	vertical-align: bottom;
+	height: 65px;
+	padding: 0px 5px 0px 0px;
+	}
+iframe { 
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-top: 3px;
+	border-bottom: 1px dotted #CCC;
+	}
+/*----- VIEW-ALL -----*/
+.view-all {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#0055AA;
+	padding-left: 5px;
+	}
+.view-all a:link, .view-all a:visited {
+	color: #0055AA;
+	text-decoration: underline;
+	}
+.view-all a:hover {
+	text-decoration: none;
+	}
+/*----- RSS-TEXT -----*/
+.rss-text {
+	font: bold 11px/16px Arial, Helvetica, sans-serif;
+	letter-spacing: .02em; 
+	text-align: right;
+	padding-right: 5px;
+	}
+.rss-text a:link, .rss-text a:visited {
+	color:#996600;
+	text-decoration: none;
+	}
+.rss-text a:hover {
+	color:#CC6600;
+	text-decoration: none; 
+	}
+.rss-text img {
+	vertical-align:text-bottom; 
+	padding-right: 2px;
+	}
+.bottom-text1 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	letter-spacing: 0.02em;
+	line-height: 15px;
+	text-align: left;
+	color: #666666;
+	background: url(../graphics/home_footer_bkg.jpg) repeat-x;
+	text-align: right;
+	vertical-align: bottom;
+	height: 65px;
+	padding: 0px 5px 0px 0px;
+}
+.header1 {	height: 23px;
+	background: url(../graphics/home_header_bkg.jpg) repeat-x;
+}
+.intro1 {	font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #666;
+	letter-spacing: .02em;
+	text-align: left;
+	padding: 8px 35px 10px 10px;
+	background: url(../graphics/home_intro_bkg.jpg) no-repeat;
+}
+.map1 {	background: url(../graphics/home_title_map_bkg.jpg) repeat-x;
+	text-align: right;
+	padding: 4px 0px;
+}
+.title1 {	height: 25px;
+	background: url(../graphics/home_title_bkg.jpg) repeat-x;
+<!---	padding-bottom:2px;
+--->	}
+.whats-new-text1 {	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 0.01em;
+	padding: 3px 5px 3px 5px;
+	background: url(../graphics/home_whatsnew_bkg.jpg) repeat-x;
+}
+
+#mnBG {
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	border-collapse:collapse;
+}
+#mnBGL, #mnBGR, #mnBGC {
+	vertical-align:top;
+	width:33%;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	height: 20px;
+}
+
+#mnBGC {
+	width:630px;
+	vertical-align: top;
+}
+
+#mnBGLbottom, #mnBGRbottom, #mnBGCbottom {
+	vertical-align:bottom;
+	width:33%;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	height: 20px;
+}
+#mnBGL {
+	background:#EEEEEE url(../graphics/mnBGL1.jpg) repeat-y top right;
+	background-image:
+	padding-top:0px;
+}
+#mnBGR {
+	background:#EEEEEE url(../graphics/mnBGR1.jpg) repeat-y top left;
+	padding-top:0px;
+}
+#mnBGLMiddle {
+	background:#EEEEEE url(../graphics/mnBGL1.jpg) repeat-y top right;
+	padding-top:0px;
+	height: auto;}
+#mnBGRMiddle {
+	background:#EEEEEE url(../graphics/mnBGR1.jpg) repeat-y top left;
+	padding-top:0px;
+	height: auto;
+}
+#mnBGLStripe {
+	width:100%;
+	height:25px;
+	background:#E4E4E4 url(../graphics/mnBGLStripe1.jpg) no-repeat top right;
+}
+#mnBGRStripe {
+	width:100%;
+	height:25px;
+	background:#E4E4E4 url(../graphics/mnBGRStripe1.jpg) no-repeat top left;
+}
+#mnBGCStripe {
+	width:100%;
+	height:25px;
+	background:#EEEEEE;
+	text-align: center;
+}
+.classification {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#666666;
+	vertical-align: middle;
+	line-height: 25px;
+}
+.bottom-text1 {font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	letter-spacing: 0.02em;
+	line-height: 15px;
+	text-align: left;
+	color: #666666;
+	background: url(../graphics/home_footer_bkg.jpg) repeat-x;
+	text-align: right;
+	vertical-align: bottom;
+	height: 65px;
+	padding: 0px 5px 0px 0px;
+}
+.header1 {height: 23px;
+	background: url(../graphics/home_header_bkg.jpg) repeat-x;
+}
+.home-date {	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	color: #0E5783; /*blue*/
+}
+.intro1 {font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #666;
+	letter-spacing: .02em;
+	text-align: left;
+	padding: 8px 35px 10px 10px;
+	background: url(../graphics/home_intro_bkg.jpg) no-repeat;
+}
+.map1 {background: url(../graphics/home_title_map_bkg.jpg) repeat-x;
+	text-align: right;
+	padding: 4px 0px;
+}
+.rss-text {	font: bold 11px/16px Arial, Helvetica, sans-serif;
+	letter-spacing: .02em; 
+	text-align: right;
+	padding-right: 5px;
+}
+.title1 {height: 25px;
+	background: url(../graphics/home_title_bkg.jpg) repeat-x;
+	}
+.view-all {	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#0055AA;
+	padding-left: 5px;
+}
+.whats-new-text1 {font: 10px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 0.01em;
+	padding: 3px 5px 3px 5px;
+	background: url(../graphics/home_whatsnew_bkg.jpg) repeat-x;
+}
+
+

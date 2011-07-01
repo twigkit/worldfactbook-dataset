@@ -1,0 +1,2956 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/wfbext_template.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- <base href="/" /> -->
+<!-- factbook style sheet -->
+<!-- Code from script_head.cfm -->
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+
+startList = function() {
+							if (document.all&&document.getElementById) {
+								wfb_navigationRoot = document.getElementById("wfb_navigation");
+								for (x=0; x<wfb_navigationRoot.childNodes.length; x++) {
+									node = wfb_navigationRoot.childNodes[x];
+									if (node.nodeName=="LI") {
+										node.onmouseover=function() {
+																		this.className+=" over";
+																	}
+										node.onmouseout = function()	{
+																			this.className=this.className.replace(" over", "");
+																		}
+									}
+								}
+							}
+						}
+	window.onload=startList;
+
+	faq = null;
+	function collapseCountryInfo()
+	{
+		faq = new switchicon("icongroup2", "div") //Limit scanning of switch contents to just "div" elements
+		faq.setHeader('<img src="../graphics/close.jpg" alt="Close" title="Close"/>', '<img src="../graphics/open.jpg" alt="Open" title="Open" />')  //Set header HTML
+		faq.collapsePrevious(false) //Allow more than 1 content to be open simultanously
+		faq.setPersist(true, 7) //Enable persistence to remember last switch content states for 7 days
+		faq.init()
+	}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	if (selObj.selectedIndex > 0)
+	{
+		
+		eval(targ + ".location='" + "../geos/" + selObj.options[selObj.selectedIndex].value + ".html" + "'");
+		
+	}
+	if (restore) 
+		selObj.selectedIndex=0;
+}
+function onChange(dropdown)
+{
+ 	var myindex = dropdown.selectedIndex
+	var cntryCode = selObj.options[selObj.selectedIndex].value;
+	var baseURL = selObj.options[selObj.selectedIndex].value;
+	top.location.href = baseURL;
+	
+	return true;
+}
+
+var statusmsg = "";
+function hidestatus() {
+ 	window.status = statusmsg
+	return true
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 3600; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+			keynum = e.which;
+		} 
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selectControl.options.length; i++)
+			{
+				var selectLabel = selectControl.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selectControl.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selectControl.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../styles/pickcountryform_noscript.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../styles/flagsoftheworld.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../styles/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="../styles/ciatheme-pub-sub.css" />
+<link rel="stylesheet" type="text/css" href="../styles/worldfactbook_style.css" />
+<link rel="stylesheet" type="text/css" href="../styles/pickcountryform_noscript.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../styles/SpryCollapsiblePanel2.css"/>
+<link rel="stylesheet" type="text/css" href="../styles/factbook_1024.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../styles/style_1024.css" />
+<link rel="stylesheet" type="text/css" href="../styles/nav_style.css" />
+
+<!-- Internet Explorer CSS Fixes -->
+<!--[if lt IE 7]>
+        <style type="text/css" media="all">@import url(../styles/IEFixes.css);</style>
+    <![endif]-->
+<!-- Disable IE6 image toolbar -->
+<meta http-equiv="imagetoolbar" content="no" />
+<script language="JavaScript" type="text/javascript">
+function clearSearch(myForm) {if (myForm.defaultValue==myForm.value) myForm.value = "";}
+		function showSearch(myForm) {if (myForm.value=="") myForm.value = myForm.defaultValue;}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+</script>
+<script src="../scripts/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<style type="text/css">
+body {
+	background-image: url(../graphics/1024_background_top.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+	background-color: #f1f1f1;
+}
+#right_shadow {
+	background-image:url(../graphics/1024_right_shadow.jpg);
+	background-repeat:repeat-y;
+	background-position:top left;
+	background-color: #f1f1f1;
+}
+#right_shadow_top {
+	background-image:url(../graphics/1024_right_shadow_top.jpg);
+	background-repeat: repeat-y;
+	background-position:top left;
+	background-color: #f1f1f1;
+}
+#left_shadow {
+	background-image:url(../graphics/1024_left_shadow.jpg);
+	background-repeat:repeat-y;
+	background-position: top right;
+	background-color: #f1f1f1;
+}
+#left_shadow_top {
+	background-image:url(../graphics/1024_left_shadow_top.jpg);
+	background-repeat: repeat-y;
+	background-position: top right;
+	background-color: #f1f1f1;
+}
+.title {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	line-height: 15px;
+	padding-left: 5px;
+}
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #666666;
+	margin-top: 5px;
+}
+.intro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 10px 0px 10px 5px;
+	letter-spacing: .02em;
+	line-height: 16px;
+	text-align: left;
+}
+.whats-new-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 3px 5px 3px 5px;
+	letter-spacing: 0.01em;
+}
+.wf-cover-text {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	letter-spacing: 0.01em;
+	padding: 7px 5px 10px 10px;
+}
+.classification {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #7F7F7F;
+	vertical-align: middle;
+	line-height: 22px;
+	letter-spacing: 3px;
+}
+.bottom-text1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	letter-spacing: 0.02em;
+	line-height: 15px;
+	text-align: left;
+	color: #666666;
+	background: url(../graphics/home_footer_bkg.jpg) repeat-x;
+	text-align: right;
+	vertical-align: bottom;
+	height: 65px;
+	padding: 0px 5px 0px 0px;
+}
+-->
+</style>
+
+</head>
+<body class="section-library" dir="ltr" onload="MM_preloadImages('graphics/bandwidth_btn_on.gif','graphics/download_btn_on.gif')">
+<table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:0px; height: 100%;">
+  <tr>
+    <td rowspan="2" valign="top" bgcolor="#fff" id="left_shadow"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 100%;" >
+        <tr>
+          <td align="right" valign="top" style="background-image:url(../graphics/1024_background_top.jpg); background-position: top; background-repeat: repeat-x;"><img src="../graphics/1024_lefttop_background.jpg" width="54" height="73" /></td>
+        </tr>
+      </table></td>
+    <td valign="top">
+      <p class="hiddenStructure"><a accesskey="2" href="#documentContent">Skip to content.</a> | <a accesskey="6" href="#portlet-navigation-tree">Skip
+        to navigation</a></p>
+      <table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          
+          <td id="mnBGC" ><!-- Login/Top Margin Block --> 
+            <div id="ciaUtilityBlock" style="background-color:#FFF;">&nbsp;</div>
+            <div id="lColBG">
+              <div>
+                <table border="0" cellpadding="0" cellspacing="0" id="portal-columns">
+                  <tr>
+                    <td valign="top" id="portal-column-one" ><!-- *** Left Col Slot *** -->
+                      <div class="visualPadding">
+                        <h1 id="portal-logo"><a href="/index.html" accesskey="1">Central Intelligence Agency</a></h1>
+                        <dl class="portlet" id="portlet-navigation-tree">
+                          <dt class="portletHeader"> <span class="portletTopLeft"></span> <a href="/sitemap" class="tile">Navigation</a> <span class="portletTopRight"></span> </dt>
+                          <dd class="portletItem lastItem">
+                            <ul class="portletNavigationTree navTreeLevel0">
+                              <li class="navTreeItem">
+                                <div class="visualIcon contenttype-plone-site"><a class="visualIconPadding" href="/index.html" title="">CIA
+                                  Home</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/about-cia/index.html" class="state-published visualIconPadding" title="About CIA">About
+                                  CIA</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-agencyfolder"><a href="/careers/index.html" class="state-published visualIconPadding" title="Careers">Careers</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/offices-of-cia/index.html" class="state-published visualIconPadding" title="Offices of CIA">Offices
+                                  of CIA</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/news-information/index.html" class="state-published visualIconPadding" title="News &amp; Information">News &amp; Information</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/library/index.html" class="state-published visualIconPadding navTreeCurrentFolder" title="Library">Library</a></div>
+                                <ul class="navTree navTreeLevel2">
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/publications/index.html" class="state-published visualIconPadding navTreeCurrentFolder" title="Publications">Publications</a></div>
+                                    <ul class="navTree navTreeLevel3">
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-agencyfolder"><a href="/library/publications/the-world-factbook/index.html" class="state-published visualIconPadding navTreeCurrentItem" title="The World Factbook">The
+                                          World Factbook</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-agencyfolder"><a href="/library/publications/world-leaders-1/index.html" class="state-published visualIconPadding" title="World Leaders">World
+                                          Leaders</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-folder"><a href="/library/publications/cia-maps-publications/index.html" class="state-published visualIconPadding" title="CIA Maps &amp; Publications">CIA
+                                          Maps &amp; Publications</a></div>
+                                      </li>
+                                      <li class="navTreeItem visualNoMarker">
+                                        <div class="visualIcon contenttype-folder"><a href="/library/publications/additional-publications/index.html" class="state-published visualIconPadding" title="Additional Publications">Additional
+                                          Publications</a></div>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/center-for-the-study-of-intelligence/index.html" class="state-published visualIconPadding" title="Center for the Study of Intelligence">Center
+                                      for the Study of Intelligence</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/foia/index.html" class="state-published visualIconPadding" title="Freedom of Information Act Electronic Reading Room">Freedom
+                                      of Information Act Electronic Reading Room</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/kent-center-occasional-papers/index.html" class="state-published visualIconPadding" title="Kent Center Occasional Papers">Kent
+                                      Center Occasional Papers</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-agencyfolder"><a href="/library/intelligence-literature/index.html" class="state-published visualIconPadding" title="Intelligence Literature">Intelligence
+                                      Literature</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-folder"><a href="/library/reports/index.html" class="state-published visualIconPadding" title="Reports">Reports</a></div>
+                                  </li>
+                                  <li class="navTreeItem visualNoMarker">
+                                    <div class="visualIcon contenttype-agencypage"><a href="/library/related-links.html" class="state-published visualIconPadding" title="Related Links">Related
+                                      Links</a></div>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/kids-page/index.html" class="state-published visualIconPadding" title="Kids' Page">Kids'
+                                  Page</a></div>
+                              </li>
+                              <li class="navTreeItem visualNoMarker">
+                                <div class="visualIcon contenttype-folder"><a href="/contact-cia/index.html" class="state-published visualIconPadding" title="Contact CIA">Contact
+                                  CIA</a></div>
+                              </li>
+                            </ul>
+                            <span class="portletBottomLeft"></span> <span class="portletBottomRight"></span> </dd>
+                        </dl>
+                        <div id="ciaMission">
+                          <h3>Mission</h3>
+                          <p>The Central Intelligence Agency (CIA) is an independent US
+                            Government agency responsible for providing national security
+                            intelligence to senior US policymakers. </p>
+                          <p>To learn more, visit <a href="https://www.cia.gov/about-cia/cia-vision-mission-values/index.html">CIA Vision, Mission &amp; Values</a>.</p>
+                        </div>
+                      </div>
+                      <!-- *** / Left Col Slot *** --></td>
+                    <td valign="top" id="contentColsA-R"  style="background-color: #FFF;"> <!-- *** Top Head and Search Area *** -->
+                      <div id="topHeadContainer" style="background-color: #FFF;">
+                        <div id="flashArea2" title="Central Intelligence Agency"  style="background-color: #FFF;"><span>Central Intelligence Agency</span></div>
+                      </div>
+                      <div id="ciaWorkSearchBar" style="width: 829px;">
+                        <div id="ciaWork">The Work of a Nation. The Center of Intelligence</div>
+                        <form id="ciaSearchForm" method="get" action="/search">
+                          <label class="hiddenStructure" for="searchBox">Search Field</label>
+                          <input id="searchBox" name="q" type="text" maxlength="2047" value="Search" onfocus="clearSearch(this);" onblur="showSearch(this)" />
+                          <label class="hiddenStructure" for="searchBtn">Search Button</label>
+                          <input id="searchBtn" type="image" alt="Search" src="../worldfactbook_shell/images/searchBtn.gif " />
+                          <input type="hidden" name="site" value="CIA" />
+                          <input type="hidden" name="output" value="xml_no_dtd" />
+                          <input type="hidden" name="client" value="CIA" />
+                          <input type="hidden" name="myAction" value="/search" />
+                          <input type="hidden" name="proxystylesheet" value="CIA" />
+                          <input type="hidden" name="submitMethod" value="get" />
+                        </form>
+                      </div>
+                     
+ 					<!-- *** / Top Head and Search Area *** -->
+                      <table id="contentColsB" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td id="portal-column-content" ><div id="region-content"> <a name="documentContent"></a>
+                              <table cellpadding="0" cellspacing="0" border="0" style="padding-left: 15px;">
+                                <tr>
+                                  <td style=" z-index:99999;"><!-- includes/pickcountryform_index.cfm starts here ... -->
+<!-- Code from script_head.cfm -->
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+
+startList = function() {
+							if (document.all&&document.getElementById) {
+								wfb_navigationRoot = document.getElementById("wfb_navigation");
+								for (x=0; x<wfb_navigationRoot.childNodes.length; x++) {
+									node = wfb_navigationRoot.childNodes[x];
+									if (node.nodeName=="LI") {
+										node.onmouseover=function() {
+																		this.className+=" over";
+																	}
+										node.onmouseout = function()	{
+																			this.className=this.className.replace(" over", "");
+																		}
+									}
+								}
+							}
+						}
+	window.onload=startList;
+
+	faq = null;
+	function collapseCountryInfo()
+	{
+		faq = new switchicon("icongroup2", "div") //Limit scanning of switch contents to just "div" elements
+		faq.setHeader('<img src="../graphics/close.jpg" alt="Close" title="Close"/>', '<img src="../graphics/open.jpg" alt="Open" title="Open" />')  //Set header HTML
+		faq.collapsePrevious(false) //Allow more than 1 content to be open simultanously
+		faq.setPersist(true, 7) //Enable persistence to remember last switch content states for 7 days
+		faq.init()
+	}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	if (selObj.selectedIndex > 0)
+	{
+		
+		eval(targ + ".location='" + "../geos/" + selObj.options[selObj.selectedIndex].value + ".html" + "'");
+		
+	}
+	if (restore) 
+		selObj.selectedIndex=0;
+}
+function onChange(dropdown)
+{
+ 	var myindex = dropdown.selectedIndex
+	var cntryCode = selObj.options[selObj.selectedIndex].value;
+	var baseURL = selObj.options[selObj.selectedIndex].value;
+	top.location.href = baseURL;
+	
+	return true;
+}
+
+var statusmsg = "";
+function hidestatus() {
+ 	window.status = statusmsg
+	return true
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 3600; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+			keynum = e.which;
+		} 
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selectControl.options.length; i++)
+			{
+				var selectLabel = selectControl.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selectControl.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selectControl.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<!-- Internet Explorer CSS Fixes -->
+<!--[if lt IE 7]>
+        <style type="text/css" media="all">@import url(../stylesIEFixes.css);</style>
+    <![endif]-->
+<script language="javascript" type="text/javascript">
+	var globalCntryNameSearchBuffer = '';
+	var globalTimer = null;
+	var selcon = null;
+	
+	function FindSelectEntry(e, selectControl) /* In script_head_index.cfm */
+	{
+		var timeLimitBetweenKeyPresses = 2.5; //seconds
+		var keynum, keychar, numcheck;
+		
+		
+		if (window.event) // IE
+		{
+			keynum = e.keyCode;
+		}
+		else if (e.which) // Netscape/Firefox/Opera
+		{
+//			keynum = e.which;
+				return false;
+		}
+		
+		keychar = String.fromCharCode(keynum);
+		if ((keynum >= 65 && keynum <= 122) || keynum == 32)  // Only accept alphanumerics A-Z and a-z
+		{
+			clearTimeout(globalTimer);
+			globalCntryNameSearchBuffer += keychar;
+			selcon = selectControl;
+			globalTimer = setTimeout('globalCntryNameSearchBuffer = ""', (timeLimitBetweenKeyPresses*1000));
+			for (var i = 0; i < selcon.options.length; i++)
+			{
+				var selectLabel = selcon.options[i].text.toLowerCase();
+				if (selectLabel.indexOf(globalCntryNameSearchBuffer.toLowerCase()) == 0)
+				{
+					selcon.selectedIndex = i;
+					
+					// After this method concludes, Firefox moves the selection index one additional place.  This compensates for that
+					if (e.which)
+						--selcon.selectedIndex;
+						
+					break;
+				}
+			}
+		}
+		else if (keynum == 13) // The ENTER key
+			MM_jumpMenu('parent', selectControl, 0);
+
+		return false;
+	}
+
+
+	function Clear_globalCntryNameSearchBuffer()
+	{
+		globalCntryNameSearchBuffer = "";
+	}
+
+</script>
+
+
+<a name="top" id="top"></a>
+<table width="814"  border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><table border="0" align="left" cellpadding="0" cellspacing="0" style="position:relative; z-index:999;" >
+			<tr>
+				<td style="height:70px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 10px;height:80px;">
+		<tr>
+			
+				<td><img src="../graphics/banner.gif"  alt="World Factbook Title"  border="0" usemap="#Map" title="World Factbook Title" width="638" style="padding-bottom: 5px;"/></td>
+				
+			</td>
+		</tr>
+	</table>
+	</td>
+			</tr>
+			
+				<tr>
+					<td width="638"><table style="height:32px;background-image: url(../graphics/country_gradiant_back.jpg)" id="country_select2"  border="0" cellpadding="0" cellspacing="0" >
+							<tr>
+								<td width="290" align="right" valign="top"><img src="../graphics/nav_arrows.gif" style="padding-top: 6px;" alt="navigation arrows" title="navigation arrows"/></td>
+								<td width="347" align="right" valign="middle"><div id="parent" style="position: relative; left: 0px; top: 0px; z-index: 1;">
+										<table width="90%" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+												<td valign="top"><form id="SelectCountry" name="SelectCountry" method="get" action="../geos/wfbext_countrydata_holder.cfm">
+														<Label for="countryCode"> </Label>
+														<select name="countryCode" id="countryCode" class="country_select" onkeypress="return FindSelectEntry(event, this)" onChange="MM_jumpMenu('parent',this,0)" >
+															<option selected value="" >--- Select a Country or Location ---</option>
+															
+																	<option value="xx"> World </option>
+																
+																	<option value="af"> Afghanistan </option>
+																
+																	<option value="ax"> Akrotiri </option>
+																
+																	<option value="al"> Albania </option>
+																
+																	<option value="ag"> Algeria </option>
+																
+																	<option value="aq"> American Samoa </option>
+																
+																	<option value="an"> Andorra </option>
+																
+																	<option value="ao"> Angola </option>
+																
+																	<option value="av"> Anguilla </option>
+																
+																	<option value="ay"> Antarctica </option>
+																
+																	<option value="ac"> Antigua and Barbuda </option>
+																
+																	<option value="xq"> Arctic Ocean </option>
+																
+																	<option value="ar"> Argentina </option>
+																
+																	<option value="am"> Armenia </option>
+																
+																	<option value="aa"> Aruba </option>
+																
+																	<option value="at"> Ashmore and Cartier Islands </option>
+																
+																	<option value="zh"> Atlantic Ocean </option>
+																
+																	<option value="as"> Australia </option>
+																
+																	<option value="au"> Austria </option>
+																
+																	<option value="aj"> Azerbaijan </option>
+																
+																	<option value="bf"> Bahamas, The </option>
+																
+																	<option value="ba"> Bahrain </option>
+																
+																	<option value="bg"> Bangladesh </option>
+																
+																	<option value="bb"> Barbados </option>
+																
+																	<option value="bo"> Belarus </option>
+																
+																	<option value="be"> Belgium </option>
+																
+																	<option value="bh"> Belize </option>
+																
+																	<option value="bn"> Benin </option>
+																
+																	<option value="bd"> Bermuda </option>
+																
+																	<option value="bt"> Bhutan </option>
+																
+																	<option value="bl"> Bolivia </option>
+																
+																	<option value="bk"> Bosnia and Herzegovina </option>
+																
+																	<option value="bc"> Botswana </option>
+																
+																	<option value="bv"> Bouvet Island </option>
+																
+																	<option value="br"> Brazil </option>
+																
+																	<option value="io"> British Indian Ocean Territory </option>
+																
+																	<option value="vi"> British Virgin Islands </option>
+																
+																	<option value="bx"> Brunei </option>
+																
+																	<option value="bu"> Bulgaria </option>
+																
+																	<option value="uv"> Burkina Faso </option>
+																
+																	<option value="bm"> Burma </option>
+																
+																	<option value="by"> Burundi </option>
+																
+																	<option value="cb"> Cambodia </option>
+																
+																	<option value="cm"> Cameroon </option>
+																
+																	<option value="ca"> Canada </option>
+																
+																	<option value="cv"> Cape Verde </option>
+																
+																	<option value="cj"> Cayman Islands </option>
+																
+																	<option value="ct"> Central African Republic </option>
+																
+																	<option value="cd"> Chad </option>
+																
+																	<option value="ci"> Chile </option>
+																
+																	<option value="ch"> China </option>
+																
+																	<option value="kt"> Christmas Island </option>
+																
+																	<option value="ip"> Clipperton Island </option>
+																
+																	<option value="ck"> Cocos (Keeling) Islands </option>
+																
+																	<option value="co"> Colombia </option>
+																
+																	<option value="cn"> Comoros </option>
+																
+																	<option value="cg"> Congo, Democratic Republic of the </option>
+																
+																	<option value="cf"> Congo, Republic of the </option>
+																
+																	<option value="cw"> Cook Islands </option>
+																
+																	<option value="cr"> Coral Sea Islands </option>
+																
+																	<option value="cs"> Costa Rica </option>
+																
+																	<option value="iv"> Cote d'Ivoire </option>
+																
+																	<option value="hr"> Croatia </option>
+																
+																	<option value="cu"> Cuba </option>
+																
+																	<option value="cc"> Curacao </option>
+																
+																	<option value="cy"> Cyprus </option>
+																
+																	<option value="ez"> Czech Republic </option>
+																
+																	<option value="da"> Denmark </option>
+																
+																	<option value="dx"> Dhekelia </option>
+																
+																	<option value="dj"> Djibouti </option>
+																
+																	<option value="do"> Dominica </option>
+																
+																	<option value="dr"> Dominican Republic </option>
+																
+																	<option value="ec"> Ecuador </option>
+																
+																	<option value="eg"> Egypt </option>
+																
+																	<option value="es"> El Salvador </option>
+																
+																	<option value="ek"> Equatorial Guinea </option>
+																
+																	<option value="er"> Eritrea </option>
+																
+																	<option value="en"> Estonia </option>
+																
+																	<option value="et"> Ethiopia </option>
+																
+																	<option value="fk"> Falkland Islands (Islas Malvinas) </option>
+																
+																	<option value="fo"> Faroe Islands </option>
+																
+																	<option value="fj"> Fiji </option>
+																
+																	<option value="fi"> Finland </option>
+																
+																	<option value="fr"> France </option>
+																
+																	<option value="fp"> French Polynesia </option>
+																
+																	<option value="fs"> French Southern and Antarctic Lands </option>
+																
+																	<option value="gb"> Gabon </option>
+																
+																	<option value="ga"> Gambia, The </option>
+																
+																	<option value="gz"> Gaza Strip </option>
+																
+																	<option value="gg"> Georgia </option>
+																
+																	<option value="gm"> Germany </option>
+																
+																	<option value="gh"> Ghana </option>
+																
+																	<option value="gi"> Gibraltar </option>
+																
+																	<option value="gr"> Greece </option>
+																
+																	<option value="gl"> Greenland </option>
+																
+																	<option value="gj"> Grenada </option>
+																
+																	<option value="gq"> Guam </option>
+																
+																	<option value="gt"> Guatemala </option>
+																
+																	<option value="gk"> Guernsey </option>
+																
+																	<option value="gv"> Guinea </option>
+																
+																	<option value="pu"> Guinea-Bissau </option>
+																
+																	<option value="gy"> Guyana </option>
+																
+																	<option value="ha"> Haiti </option>
+																
+																	<option value="hm"> Heard Island and McDonald Islands </option>
+																
+																	<option value="vt"> Holy See (Vatican City) </option>
+																
+																	<option value="ho"> Honduras </option>
+																
+																	<option value="hk"> Hong Kong </option>
+																
+																	<option value="hu"> Hungary </option>
+																
+																	<option value="ic"> Iceland </option>
+																
+																	<option value="in"> India </option>
+																
+																	<option value="xo"> Indian Ocean </option>
+																
+																	<option value="id"> Indonesia </option>
+																
+																	<option value="ir"> Iran </option>
+																
+																	<option value="iz"> Iraq </option>
+																
+																	<option value="ei"> Ireland </option>
+																
+																	<option value="im"> Isle of Man </option>
+																
+																	<option value="is"> Israel </option>
+																
+																	<option value="it"> Italy </option>
+																
+																	<option value="jm"> Jamaica </option>
+																
+																	<option value="jn"> Jan Mayen </option>
+																
+																	<option value="ja"> Japan </option>
+																
+																	<option value="je"> Jersey </option>
+																
+																	<option value="jo"> Jordan </option>
+																
+																	<option value="kz"> Kazakhstan </option>
+																
+																	<option value="ke"> Kenya </option>
+																
+																	<option value="kr"> Kiribati </option>
+																
+																	<option value="kn"> Korea, North </option>
+																
+																	<option value="ks"> Korea, South </option>
+																
+																	<option value="kv"> Kosovo </option>
+																
+																	<option value="ku"> Kuwait </option>
+																
+																	<option value="kg"> Kyrgyzstan </option>
+																
+																	<option value="la"> Laos </option>
+																
+																	<option value="lg"> Latvia </option>
+																
+																	<option value="le"> Lebanon </option>
+																
+																	<option value="lt"> Lesotho </option>
+																
+																	<option value="li"> Liberia </option>
+																
+																	<option value="ly"> Libya </option>
+																
+																	<option value="ls"> Liechtenstein </option>
+																
+																	<option value="lh"> Lithuania </option>
+																
+																	<option value="lu"> Luxembourg </option>
+																
+																	<option value="mc"> Macau </option>
+																
+																	<option value="mk"> Macedonia </option>
+																
+																	<option value="ma"> Madagascar </option>
+																
+																	<option value="mi"> Malawi </option>
+																
+																	<option value="my"> Malaysia </option>
+																
+																	<option value="mv"> Maldives </option>
+																
+																	<option value="ml"> Mali </option>
+																
+																	<option value="mt"> Malta </option>
+																
+																	<option value="rm"> Marshall Islands </option>
+																
+																	<option value="mr"> Mauritania </option>
+																
+																	<option value="mp"> Mauritius </option>
+																
+																	<option value="mx"> Mexico </option>
+																
+																	<option value="fm"> Micronesia, Federated States of </option>
+																
+																	<option value="md"> Moldova </option>
+																
+																	<option value="mn"> Monaco </option>
+																
+																	<option value="mg"> Mongolia </option>
+																
+																	<option value="mj"> Montenegro </option>
+																
+																	<option value="mh"> Montserrat </option>
+																
+																	<option value="mo"> Morocco </option>
+																
+																	<option value="mz"> Mozambique </option>
+																
+																	<option value="wa"> Namibia </option>
+																
+																	<option value="nr"> Nauru </option>
+																
+																	<option value="bq"> Navassa Island </option>
+																
+																	<option value="np"> Nepal </option>
+																
+																	<option value="nl"> Netherlands </option>
+																
+																	<option value="nc"> New Caledonia </option>
+																
+																	<option value="nz"> New Zealand </option>
+																
+																	<option value="nu"> Nicaragua </option>
+																
+																	<option value="ng"> Niger </option>
+																
+																	<option value="ni"> Nigeria </option>
+																
+																	<option value="ne"> Niue </option>
+																
+																	<option value="nf"> Norfolk Island </option>
+																
+																	<option value="cq"> Northern Mariana Islands </option>
+																
+																	<option value="no"> Norway </option>
+																
+																	<option value="mu"> Oman </option>
+																
+																	<option value="zn"> Pacific Ocean </option>
+																
+																	<option value="pk"> Pakistan </option>
+																
+																	<option value="ps"> Palau </option>
+																
+																	<option value="pm"> Panama </option>
+																
+																	<option value="pp"> Papua New Guinea </option>
+																
+																	<option value="pf"> Paracel Islands </option>
+																
+																	<option value="pa"> Paraguay </option>
+																
+																	<option value="pe"> Peru </option>
+																
+																	<option value="rp"> Philippines </option>
+																
+																	<option value="pc"> Pitcairn Islands </option>
+																
+																	<option value="pl"> Poland </option>
+																
+																	<option value="po"> Portugal </option>
+																
+																	<option value="rq"> Puerto Rico </option>
+																
+																	<option value="qa"> Qatar </option>
+																
+																	<option value="ro"> Romania </option>
+																
+																	<option value="rs"> Russia </option>
+																
+																	<option value="rw"> Rwanda </option>
+																
+																	<option value="tb"> Saint Barthelemy </option>
+																
+																	<option value="sh"> Saint Helena, Ascension, and Tristan da Cunha </option>
+																
+																	<option value="sc"> Saint Kitts and Nevis </option>
+																
+																	<option value="st"> Saint Lucia </option>
+																
+																	<option value="rn"> Saint Martin </option>
+																
+																	<option value="sb"> Saint Pierre and Miquelon </option>
+																
+																	<option value="vc"> Saint Vincent and the Grenadines </option>
+																
+																	<option value="ws"> Samoa </option>
+																
+																	<option value="sm"> San Marino </option>
+																
+																	<option value="tp"> Sao Tome and Principe </option>
+																
+																	<option value="sa"> Saudi Arabia </option>
+																
+																	<option value="sg"> Senegal </option>
+																
+																	<option value="ri"> Serbia </option>
+																
+																	<option value="se"> Seychelles </option>
+																
+																	<option value="sl"> Sierra Leone </option>
+																
+																	<option value="sn"> Singapore </option>
+																
+																	<option value="sk"> Sint Maarten </option>
+																
+																	<option value="lo"> Slovakia </option>
+																
+																	<option value="si"> Slovenia </option>
+																
+																	<option value="bp"> Solomon Islands </option>
+																
+																	<option value="so"> Somalia </option>
+																
+																	<option value="sf"> South Africa </option>
+																
+																	<option value="sx"> South Georgia and South Sandwich Islands </option>
+																
+																	<option value="oo"> Southern Ocean </option>
+																
+																	<option value="sp"> Spain </option>
+																
+																	<option value="pg"> Spratly Islands </option>
+																
+																	<option value="ce"> Sri Lanka </option>
+																
+																	<option value="su"> Sudan </option>
+																
+																	<option value="ns"> Suriname </option>
+																
+																	<option value="sv"> Svalbard </option>
+																
+																	<option value="wz"> Swaziland </option>
+																
+																	<option value="sw"> Sweden </option>
+																
+																	<option value="sz"> Switzerland </option>
+																
+																	<option value="sy"> Syria </option>
+																
+																	<option value="tw"> Taiwan </option>
+																
+																	<option value="ti"> Tajikistan </option>
+																
+																	<option value="tz"> Tanzania </option>
+																
+																	<option value="th"> Thailand </option>
+																
+																	<option value="tt"> Timor-Leste </option>
+																
+																	<option value="to"> Togo </option>
+																
+																	<option value="tl"> Tokelau </option>
+																
+																	<option value="tn"> Tonga </option>
+																
+																	<option value="td"> Trinidad and Tobago </option>
+																
+																	<option value="ts"> Tunisia </option>
+																
+																	<option value="tu"> Turkey </option>
+																
+																	<option value="tx"> Turkmenistan </option>
+																
+																	<option value="tk"> Turks and Caicos Islands </option>
+																
+																	<option value="tv"> Tuvalu </option>
+																
+																	<option value="ug"> Uganda </option>
+																
+																	<option value="up"> Ukraine </option>
+																
+																	<option value="ae"> United Arab Emirates </option>
+																
+																	<option value="uk"> United Kingdom </option>
+																
+																	<option value="us"> United States </option>
+																
+																	<option value="um"> United States Pacific Island Wildlife Refuges </option>
+																
+																	<option value="uy"> Uruguay </option>
+																
+																	<option value="uz"> Uzbekistan </option>
+																
+																	<option value="nh"> Vanuatu </option>
+																
+																	<option value="ve"> Venezuela </option>
+																
+																	<option value="vm"> Vietnam </option>
+																
+																	<option value="vq"> Virgin Islands </option>
+																
+																	<option value="wq"> Wake Island </option>
+																
+																	<option value="wf"> Wallis and Futuna </option>
+																
+																	<option value="we"> West Bank </option>
+																
+																	<option value="wi"> Western Sahara </option>
+																
+																	<option value="ym"> Yemen </option>
+																
+																	<option value="za"> Zambia </option>
+																
+																	<option value="zi"> Zimbabwe </option>
+																
+																	<option value="ee"> European Union </option>
+																
+														</select>
+													</form></td>
+											</tr>
+										</table>
+										<noscript>
+										<div id="flashAd" style="position: absolute; left: 0px; top: -2px; height: 0px; z-index: 2; width: 337px;">
+											<table width="90%" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<td><div id="multi-level">
+															<ul class="menu">
+																<li style="padding-top: 3px;"><a href="##" class="top_link">select a country or location
+																	<!--[if IE 7]><!--></a><!--<![endif]-->
+																	<!--[if lte IE 6]><table><tr><td><![endif]-->
+																	<ul class="af">
+																		
+																				<li><a href="xx.html">World</a></li>
+																				
+																				<li><a href="af.html">Afghanistan</a></li>
+																				
+																				<li><a href="ax.html">Akrotiri</a></li>
+																				
+																				<li><a href="al.html">Albania</a></li>
+																				
+																				<li><a href="ag.html">Algeria</a></li>
+																				
+																				<li><a href="aq.html">American Samoa</a></li>
+																				
+																				<li><a href="an.html">Andorra</a></li>
+																				
+																				<li><a href="ao.html">Angola</a></li>
+																				
+																				<li><a href="av.html">Anguilla</a></li>
+																				
+																				<li><a href="ay.html">Antarctica</a></li>
+																				
+																				<li><a href="ac.html">Antigua and Barbuda</a></li>
+																				
+																				<li><a href="xq.html">Arctic Ocean</a></li>
+																				
+																				<li><a href="ar.html">Argentina</a></li>
+																				
+																				<li><a href="am.html">Armenia</a></li>
+																				
+																				<li><a href="aa.html">Aruba</a></li>
+																				
+																				<li><a href="at.html">Ashmore and Cartier Islands</a></li>
+																				
+																				<li><a href="zh.html">Atlantic Ocean</a></li>
+																				
+																				<li><a href="as.html">Australia</a></li>
+																				
+																				<li><a href="au.html">Austria</a></li>
+																				
+																				<li><a href="aj.html">Azerbaijan</a></li>
+																				
+																				<li><a href="bf.html">Bahamas, The</a></li>
+																				
+																				<li><a href="ba.html">Bahrain</a></li>
+																				
+																				<li><a href="bg.html">Bangladesh</a></li>
+																				
+																				<li><a href="bb.html">Barbados</a></li>
+																				
+																				<li><a href="bo.html">Belarus</a></li>
+																				
+																				<li><a href="be.html">Belgium</a></li>
+																				
+																				<li><a href="bh.html">Belize</a></li>
+																				
+																				<li><a href="bn.html">Benin</a></li>
+																				
+																				<li><a href="bd.html">Bermuda</a></li>
+																				
+																				<li><a href="bt.html">Bhutan</a></li>
+																				
+																				<li><a href="bl.html">Bolivia</a></li>
+																				
+																				<li><a href="bk.html">Bosnia and Herzegovina</a></li>
+																				
+																				<li><a href="bc.html">Botswana</a></li>
+																				
+																				<li><a href="bv.html">Bouvet Island</a></li>
+																				
+																				<li><a href="br.html">Brazil</a></li>
+																				
+																				<li><a href="io.html">British Indian Ocean Territory</a></li>
+																				
+																				<li><a href="vi.html">British Virgin Islands</a></li>
+																				
+																				<li><a href="bx.html">Brunei</a></li>
+																				
+																				<li><a href="bu.html">Bulgaria</a></li>
+																				
+																				<li><a href="uv.html">Burkina Faso</a></li>
+																				
+																				<li><a href="bm.html">Burma</a></li>
+																				
+																				<li><a href="by.html">Burundi</a></li>
+																				
+																				<li><a href="cb.html">Cambodia</a></li>
+																				
+																				<li><a href="cm.html">Cameroon</a></li>
+																				
+																				<li><a href="ca.html">Canada</a></li>
+																				
+																				<li><a href="cv.html">Cape Verde</a></li>
+																				
+																				<li><a href="cj.html">Cayman Islands</a></li>
+																				
+																				<li><a href="ct.html">Central African Republic</a></li>
+																				
+																				<li><a href="cd.html">Chad</a></li>
+																				
+																				<li><a href="ci.html">Chile</a></li>
+																				
+																				<li><a href="ch.html">China</a></li>
+																				
+																				<li><a href="kt.html">Christmas Island</a></li>
+																				
+																				<li><a href="ip.html">Clipperton Island</a></li>
+																				
+																				<li><a href="ck.html">Cocos (Keeling) Islands</a></li>
+																				
+																				<li><a href="co.html">Colombia</a></li>
+																				
+																				<li><a href="cn.html">Comoros</a></li>
+																				
+																				<li><a href="cg.html">Congo, Democratic Republic of the</a></li>
+																				
+																				<li><a href="cf.html">Congo, Republic of the</a></li>
+																				
+																				<li><a href="cw.html">Cook Islands</a></li>
+																				
+																				<li><a href="cr.html">Coral Sea Islands</a></li>
+																				
+																				<li><a href="cs.html">Costa Rica</a></li>
+																				
+																				<li><a href="iv.html">Cote d'Ivoire</a></li>
+																				
+																				<li><a href="hr.html">Croatia</a></li>
+																				
+																				<li><a href="cu.html">Cuba</a></li>
+																				
+																				<li><a href="cc.html">Curacao</a></li>
+																				
+																				<li><a href="cy.html">Cyprus</a></li>
+																				
+																				<li><a href="ez.html">Czech Republic</a></li>
+																				
+																				<li><a href="da.html">Denmark</a></li>
+																				
+																				<li><a href="dx.html">Dhekelia</a></li>
+																				
+																				<li><a href="dj.html">Djibouti</a></li>
+																				
+																				<li><a href="do.html">Dominica</a></li>
+																				
+																				<li><a href="dr.html">Dominican Republic</a></li>
+																				
+																				<li><a href="ec.html">Ecuador</a></li>
+																				
+																				<li><a href="eg.html">Egypt</a></li>
+																				
+																				<li><a href="es.html">El Salvador</a></li>
+																				
+																				<li><a href="ek.html">Equatorial Guinea</a></li>
+																				
+																				<li><a href="er.html">Eritrea</a></li>
+																				
+																				<li><a href="en.html">Estonia</a></li>
+																				
+																				<li><a href="et.html">Ethiopia</a></li>
+																				
+																				<li><a href="fk.html">Falkland Islands (Islas Malvinas)</a></li>
+																				
+																				<li><a href="fo.html">Faroe Islands</a></li>
+																				
+																				<li><a href="fj.html">Fiji</a></li>
+																				
+																				<li><a href="fi.html">Finland</a></li>
+																				
+																				<li><a href="fr.html">France</a></li>
+																				
+																				<li><a href="fp.html">French Polynesia</a></li>
+																				
+																				<li><a href="fs.html">French Southern and Antarctic Lands</a></li>
+																				
+																				<li><a href="gb.html">Gabon</a></li>
+																				
+																				<li><a href="ga.html">Gambia, The</a></li>
+																				
+																				<li><a href="gz.html">Gaza Strip</a></li>
+																				
+																				<li><a href="gg.html">Georgia</a></li>
+																				
+																				<li><a href="gm.html">Germany</a></li>
+																				
+																				<li><a href="gh.html">Ghana</a></li>
+																				
+																				<li><a href="gi.html">Gibraltar</a></li>
+																				
+																				<li><a href="gr.html">Greece</a></li>
+																				
+																				<li><a href="gl.html">Greenland</a></li>
+																				
+																				<li><a href="gj.html">Grenada</a></li>
+																				
+																				<li><a href="gq.html">Guam</a></li>
+																				
+																				<li><a href="gt.html">Guatemala</a></li>
+																				
+																				<li><a href="gk.html">Guernsey</a></li>
+																				
+																				<li><a href="gv.html">Guinea</a></li>
+																				
+																				<li><a href="pu.html">Guinea-Bissau</a></li>
+																				
+																				<li><a href="gy.html">Guyana</a></li>
+																				
+																				<li><a href="ha.html">Haiti</a></li>
+																				
+																				<li><a href="hm.html">Heard Island and McDonald Islands</a></li>
+																				
+																				<li><a href="vt.html">Holy See (Vatican City)</a></li>
+																				
+																				<li><a href="ho.html">Honduras</a></li>
+																				
+																				<li><a href="hk.html">Hong Kong</a></li>
+																				
+																				<li><a href="hu.html">Hungary</a></li>
+																				
+																				<li><a href="ic.html">Iceland</a></li>
+																				
+																				<li><a href="in.html">India</a></li>
+																				
+																				<li><a href="xo.html">Indian Ocean</a></li>
+																				
+																				<li><a href="id.html">Indonesia</a></li>
+																				
+																				<li><a href="ir.html">Iran</a></li>
+																				
+																				<li><a href="iz.html">Iraq</a></li>
+																				
+																				<li><a href="ei.html">Ireland</a></li>
+																				
+																				<li><a href="im.html">Isle of Man</a></li>
+																				
+																				<li><a href="is.html">Israel</a></li>
+																				
+																				<li><a href="it.html">Italy</a></li>
+																				
+																				<li><a href="jm.html">Jamaica</a></li>
+																				
+																				<li><a href="jn.html">Jan Mayen</a></li>
+																				
+																				<li><a href="ja.html">Japan</a></li>
+																				
+																				<li><a href="je.html">Jersey</a></li>
+																				
+																				<li><a href="jo.html">Jordan</a></li>
+																				
+																				<li><a href="kz.html">Kazakhstan</a></li>
+																				
+																				<li><a href="ke.html">Kenya</a></li>
+																				
+																				<li><a href="kr.html">Kiribati</a></li>
+																				
+																				<li><a href="kn.html">Korea, North</a></li>
+																				
+																				<li><a href="ks.html">Korea, South</a></li>
+																				
+																				<li><a href="kv.html">Kosovo</a></li>
+																				
+																				<li><a href="ku.html">Kuwait</a></li>
+																				
+																				<li><a href="kg.html">Kyrgyzstan</a></li>
+																				
+																				<li><a href="la.html">Laos</a></li>
+																				
+																				<li><a href="lg.html">Latvia</a></li>
+																				
+																				<li><a href="le.html">Lebanon</a></li>
+																				
+																				<li><a href="lt.html">Lesotho</a></li>
+																				
+																				<li><a href="li.html">Liberia</a></li>
+																				
+																				<li><a href="ly.html">Libya</a></li>
+																				
+																				<li><a href="ls.html">Liechtenstein</a></li>
+																				
+																				<li><a href="lh.html">Lithuania</a></li>
+																				
+																				<li><a href="lu.html">Luxembourg</a></li>
+																				
+																				<li><a href="mc.html">Macau</a></li>
+																				
+																				<li><a href="mk.html">Macedonia</a></li>
+																				
+																				<li><a href="ma.html">Madagascar</a></li>
+																				
+																				<li><a href="mi.html">Malawi</a></li>
+																				
+																				<li><a href="my.html">Malaysia</a></li>
+																				
+																				<li><a href="mv.html">Maldives</a></li>
+																				
+																				<li><a href="ml.html">Mali</a></li>
+																				
+																				<li><a href="mt.html">Malta</a></li>
+																				
+																				<li><a href="rm.html">Marshall Islands</a></li>
+																				
+																				<li><a href="mr.html">Mauritania</a></li>
+																				
+																				<li><a href="mp.html">Mauritius</a></li>
+																				
+																				<li><a href="mx.html">Mexico</a></li>
+																				
+																				<li><a href="fm.html">Micronesia, Federated States of</a></li>
+																				
+																				<li><a href="md.html">Moldova</a></li>
+																				
+																				<li><a href="mn.html">Monaco</a></li>
+																				
+																				<li><a href="mg.html">Mongolia</a></li>
+																				
+																				<li><a href="mj.html">Montenegro</a></li>
+																				
+																				<li><a href="mh.html">Montserrat</a></li>
+																				
+																				<li><a href="mo.html">Morocco</a></li>
+																				
+																				<li><a href="mz.html">Mozambique</a></li>
+																				
+																				<li><a href="wa.html">Namibia</a></li>
+																				
+																				<li><a href="nr.html">Nauru</a></li>
+																				
+																				<li><a href="bq.html">Navassa Island</a></li>
+																				
+																				<li><a href="np.html">Nepal</a></li>
+																				
+																				<li><a href="nl.html">Netherlands</a></li>
+																				
+																				<li><a href="nc.html">New Caledonia</a></li>
+																				
+																				<li><a href="nz.html">New Zealand</a></li>
+																				
+																				<li><a href="nu.html">Nicaragua</a></li>
+																				
+																				<li><a href="ng.html">Niger</a></li>
+																				
+																				<li><a href="ni.html">Nigeria</a></li>
+																				
+																				<li><a href="ne.html">Niue</a></li>
+																				
+																				<li><a href="nf.html">Norfolk Island</a></li>
+																				
+																				<li><a href="cq.html">Northern Mariana Islands</a></li>
+																				
+																				<li><a href="no.html">Norway</a></li>
+																				
+																				<li><a href="mu.html">Oman</a></li>
+																				
+																				<li><a href="zn.html">Pacific Ocean</a></li>
+																				
+																				<li><a href="pk.html">Pakistan</a></li>
+																				
+																				<li><a href="ps.html">Palau</a></li>
+																				
+																				<li><a href="pm.html">Panama</a></li>
+																				
+																				<li><a href="pp.html">Papua New Guinea</a></li>
+																				
+																				<li><a href="pf.html">Paracel Islands</a></li>
+																				
+																				<li><a href="pa.html">Paraguay</a></li>
+																				
+																				<li><a href="pe.html">Peru</a></li>
+																				
+																				<li><a href="rp.html">Philippines</a></li>
+																				
+																				<li><a href="pc.html">Pitcairn Islands</a></li>
+																				
+																				<li><a href="pl.html">Poland</a></li>
+																				
+																				<li><a href="po.html">Portugal</a></li>
+																				
+																				<li><a href="rq.html">Puerto Rico</a></li>
+																				
+																				<li><a href="qa.html">Qatar</a></li>
+																				
+																				<li><a href="ro.html">Romania</a></li>
+																				
+																				<li><a href="rs.html">Russia</a></li>
+																				
+																				<li><a href="rw.html">Rwanda</a></li>
+																				
+																				<li><a href="tb.html">Saint Barthelemy</a></li>
+																				
+																				<li><a href="sh.html">Saint Helena, Ascension, and Tristan da Cunha</a></li>
+																				
+																				<li><a href="sc.html">Saint Kitts and Nevis</a></li>
+																				
+																				<li><a href="st.html">Saint Lucia</a></li>
+																				
+																				<li><a href="rn.html">Saint Martin</a></li>
+																				
+																				<li><a href="sb.html">Saint Pierre and Miquelon</a></li>
+																				
+																				<li><a href="vc.html">Saint Vincent and the Grenadines</a></li>
+																				
+																				<li><a href="ws.html">Samoa</a></li>
+																				
+																				<li><a href="sm.html">San Marino</a></li>
+																				
+																				<li><a href="tp.html">Sao Tome and Principe</a></li>
+																				
+																				<li><a href="sa.html">Saudi Arabia</a></li>
+																				
+																				<li><a href="sg.html">Senegal</a></li>
+																				
+																				<li><a href="ri.html">Serbia</a></li>
+																				
+																				<li><a href="se.html">Seychelles</a></li>
+																				
+																				<li><a href="sl.html">Sierra Leone</a></li>
+																				
+																				<li><a href="sn.html">Singapore</a></li>
+																				
+																				<li><a href="sk.html">Sint Maarten</a></li>
+																				
+																				<li><a href="lo.html">Slovakia</a></li>
+																				
+																				<li><a href="si.html">Slovenia</a></li>
+																				
+																				<li><a href="bp.html">Solomon Islands</a></li>
+																				
+																				<li><a href="so.html">Somalia</a></li>
+																				
+																				<li><a href="sf.html">South Africa</a></li>
+																				
+																				<li><a href="sx.html">South Georgia and South Sandwich Islands</a></li>
+																				
+																				<li><a href="oo.html">Southern Ocean</a></li>
+																				
+																				<li><a href="sp.html">Spain</a></li>
+																				
+																				<li><a href="pg.html">Spratly Islands</a></li>
+																				
+																				<li><a href="ce.html">Sri Lanka</a></li>
+																				
+																				<li><a href="su.html">Sudan</a></li>
+																				
+																				<li><a href="ns.html">Suriname</a></li>
+																				
+																				<li><a href="sv.html">Svalbard</a></li>
+																				
+																				<li><a href="wz.html">Swaziland</a></li>
+																				
+																				<li><a href="sw.html">Sweden</a></li>
+																				
+																				<li><a href="sz.html">Switzerland</a></li>
+																				
+																				<li><a href="sy.html">Syria</a></li>
+																				
+																				<li><a href="tw.html">Taiwan</a></li>
+																				
+																				<li><a href="ti.html">Tajikistan</a></li>
+																				
+																				<li><a href="tz.html">Tanzania</a></li>
+																				
+																				<li><a href="th.html">Thailand</a></li>
+																				
+																				<li><a href="tt.html">Timor-Leste</a></li>
+																				
+																				<li><a href="to.html">Togo</a></li>
+																				
+																				<li><a href="tl.html">Tokelau</a></li>
+																				
+																				<li><a href="tn.html">Tonga</a></li>
+																				
+																				<li><a href="td.html">Trinidad and Tobago</a></li>
+																				
+																				<li><a href="ts.html">Tunisia</a></li>
+																				
+																				<li><a href="tu.html">Turkey</a></li>
+																				
+																				<li><a href="tx.html">Turkmenistan</a></li>
+																				
+																				<li><a href="tk.html">Turks and Caicos Islands</a></li>
+																				
+																				<li><a href="tv.html">Tuvalu</a></li>
+																				
+																				<li><a href="ug.html">Uganda</a></li>
+																				
+																				<li><a href="up.html">Ukraine</a></li>
+																				
+																				<li><a href="ae.html">United Arab Emirates</a></li>
+																				
+																				<li><a href="uk.html">United Kingdom</a></li>
+																				
+																				<li><a href="us.html">United States</a></li>
+																				
+																				<li><a href="um.html">United States Pacific Island Wildlife Refuges</a></li>
+																				
+																				<li><a href="uy.html">Uruguay</a></li>
+																				
+																				<li><a href="uz.html">Uzbekistan</a></li>
+																				
+																				<li><a href="nh.html">Vanuatu</a></li>
+																				
+																				<li><a href="ve.html">Venezuela</a></li>
+																				
+																				<li><a href="vm.html">Vietnam</a></li>
+																				
+																				<li><a href="vq.html">Virgin Islands</a></li>
+																				
+																				<li><a href="wq.html">Wake Island</a></li>
+																				
+																				<li><a href="wf.html">Wallis and Futuna</a></li>
+																				
+																				<li><a href="we.html">West Bank</a></li>
+																				
+																				<li><a href="wi.html">Western Sahara</a></li>
+																				
+																				<li><a href="ym.html">Yemen</a></li>
+																				
+																				<li><a href="za.html">Zambia</a></li>
+																				
+																				<li><a href="zi.html">Zimbabwe</a></li>
+																				
+																				<li><a href="ee.html">European Union</a></li>
+																				
+																	</ul>
+																	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+																</li>
+															</ul>
+														</div></td>
+												</tr>
+											</table>
+										</div>
+										</noscript>
+									</div></td>
+							</tr>
+						</table></td>
+				</tr>
+				<tr>
+					<td><table width="638" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td width="450" valign="bottom" style="border-bottom: 1px solid #CCCCCC;"><ul id="wfb_navigation">
+										
+											<li class="level1" id="home" accesskey="1"><a href="../index.html" title="The World Factbook Home"  >&nbsp;&nbsp;</a> </li>
+											
+											<li class="level1" id="about" style="cursor:default;">
+											<a href="#" title="About"  style="cursor:default;width:73px;">About</a>
+										
+										<ul class="subuls">
+											
+												<li><a href="../docs/history.html" title="History ">&nbsp;&nbsp;History</a></li>
+												<li><a href="../docs/contributor_copyright.html" title="Copyright and Contributors" >&nbsp;&nbsp;Copyright
+														and Contributors</a></li>
+												<li><a href="../docs/purchase_info.html" title="Purchasing" >&nbsp;&nbsp;Purchasing</a></li>
+												<li><a href="../docs/didyouknow.html" title="Did You Know?" >&nbsp;&nbsp;Did
+														You Know?</a></li>
+												
+										</ul>
+										</li>
+										
+											<li class="level1_long" id="reference">
+											<a href="#" title="References"  style="cursor:default;width:80px;">References</a>
+										
+										<ul class="subuls">
+											
+												<li><a href="../docs/refmaps.html" title="Regional Maps" >&nbsp;&nbsp;Regional
+														Maps</a></li>
+												<li><a href="../docs/flagsoftheworld.html" title="Flags of the World" >&nbsp;&nbsp;Flags
+														of the World</a></li>
+												<li><a href="../docs/gallery.html" title="Gallery of Covers"  >&nbsp;&nbsp;Gallery
+														of Covers</a></li>
+												<li><a href="../docs/notesanddefs.html" title="Definitions and Notes" >&nbsp;&nbsp;Definitions
+														and Notes</a></li>
+												<li><a href="../docs/profileguide.html" title="Guide to Country Profiles" >&nbsp;&nbsp;Guide
+														to Country Profiles</a></li>
+												<li><a href="../rankorder/rankorderguide.html" title="Guide to Country Comparisons"  >&nbsp;&nbsp;Guide
+														to Country Comparisons</a></li>
+												
+												
+												
+										</ul>
+										</li>
+										
+											<li class="level1_long" id="appendix">
+											<a href="#"  title="Appendices"  style="cursor:default;width:80px;">Appendices</a>
+										
+										<ul class="subuls_long">
+											
+												<li><a href="../appendix/appendix-a.html" title="Appendix A :" >&nbsp;&nbsp;A:
+														abbreviations</a></li>
+												<li><a href="../appendix/appendix-b.html" title="Appendix B :" >&nbsp;&nbsp;B:
+														international organizations and groups</a></li>
+												<li><a href="../appendix/appendix-c.html" title="Appendix C :" >&nbsp;&nbsp;C:
+														selected international environmental agreements</a></li>
+												<li><a href="../appendix/appendix-d.html" title="Appendix D :" >&nbsp;&nbsp;D:
+														cross-reference list of country data codes</a></li>
+												<li><a href="../appendix/appendix-e.html" title="Appendix E :" >&nbsp;&nbsp;E:
+														cross-reference list of hydrographic data codes</a></li>
+												<li><a href="../appendix/appendix-f.html" title="Appendix F :" >&nbsp;&nbsp;F:
+														cross-reference list of geographic names</a></li>
+												<li><a href="../appendix/appendix-g.html" title="Appendix G :" >&nbsp;&nbsp;G:
+														weights and measures</a></li>
+												
+										</ul>
+										</li>
+										
+												<li class="level1" id="faqs"><a href="../docs/faqs.html" title="Frequently Asked Questions"  style="cursor:pointer;width:73px;">FAQ<span style="text-transform:lowercase;">s</span></a></li>
+												
+												<li class="level1" id="contact"> <a href="../../contact-cia/index.html" title="Contact" alt="Contact" style="cursor:pointer;width:73px;"> Contact </a> </li>
+											
+									</ul></td>
+								<td class="smalltext_nav" align="right" valign="bottom" style="border-bottom: 1px solid #CCCCCC;">
+										<a href="../print/textversion.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('View Text Low Bandwidth Version','','../graphics/bandwidth_btn_on.gif',1)"><img src="../graphics/bandwidth_btn_off.gif" alt="View Text Low Bandwidth Version" title="View Text Low Bandwidth Version" width="173" height="8" border="0" style="padding: 1px;"/></a>
+										
+										<a href="https://www.cia.gov/library/publications/download/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Download Publication','','../graphics/download_btn_on.gif',1)"><img src="../graphics/download_btn_off.gif" alt="Download Publication" title="Download Publication" width="120" height="8" border="0" id="Download Publication" style="padding: 1px;" /></a>
+									</td>
+							</tr>
+						</table></td>
+				</tr>
+				</table>
+			<td width="160" valign="top" style="background-image: url(../graphics_wfbook_shell/grey_right_gutter_angle.jpg); background-position: right bottom; background-repeat: no-repeat;"><ul style="margin-left: 25px;list-style-type: disc; width: 130px; height: 80px;" id="quicklinks">
+<li style="padding: 0px; margin-left: 0px; margin-right: 0px;"><a title="Open Government Initiative" class="internal-link" href="/open/index.html">CIA  Open Initiative</a></li>
+<li style="list-style-image: none;"><a title="World Leaders" href="/library/publications/world-leaders-1/index.html">World Leaders</a></li>
+<li style="list-style-image: none;"><a title="Today's CIA" href="/about-cia/todays-cia/index.html">Today's CIA</a></li>
+<li style="list-style-image: none;"><a title="Studies in Intelligence" href="/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/index.html">Studies in Intelligence</a></li>
+<li style="list-style-image: none;"><a title="Diversity" class="internal-link" href="/careers/diversity/index.html">Diversity</a></li>
+</ul>
+
+
+</td>
+	</tr>
+</table>
+<map name="Map" id="Map">
+	
+		<area shape="rect" coords="1,33,301,72" href="../index.html"   title="The World Factbook Home"/>
+		
+</map>
+<!-- includes/pickcountryform.cfm ends here ... -->
+</td>
+                                </tr>
+                                <tr>
+                                  <td><!-- InstanceBeginEditable name="content" -->
+                      
+<link rel="stylesheet" type="text/css" href="../styles/factbook.css">
+<link rel="stylesheet" type="text/css" href="../styles/print.css">
+
+
+<script language="javascript" type="text/javascript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+<table width="638" border="0" cellspacing="0" cellpadding="0">
+  <tr height="25">
+    <td style="background-image: url(../graphics/gold_gradiant.gif); background-repeat: repeat-x;" class="region">Field Listing<strong> :: Trafficking in persons</strong></span></td>
+    <td align="right" valign="middle" style="background-image: url(../graphics/gold_gradiant.gif); background-repeat: repeat-x;"> 
+<script language="javascript" type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+			<div id="print">
+				
+					<a href="print_2196.html" target="_blank"><img src="../graphics/print.gif" alt="Print Page" width="25" height="18" border="0" title="Print Page" style="color:#999999" /> PRINT</a>
+				
+			</div>
+		</td>
+  </tr>
+</table>
+<table id="fieldlisting"  cellpadding="6" cellspacing="2" width="638">
+  <tr>
+    <td colspan="2">
+      <span class="category_data">Trafficking in persons is modern-day slavery, involving victims who are forced, defrauded, or coerced into labor or sexual exploitation. The International Labor Organization (ILO), the UN agency charged with addressing labor standards, employment, and social protection issues, estimates that 12.3 million people worldwide are enslaved in forced labor, bonded labor, forced child labor, sexual servitude, and involuntary servitude at any given time. Human trafficking is a multi-dimensional threat, depriving people of their human rights and freedoms, risking global health, promoting social breakdown, inhibiting development by depriving countries of their human capital, and helping fuel the growth of organized crime. In 2000, the US Congress passed the Trafficking Victims Protection Act (TVPA), reauthorized in 2003 and 2005, which provides tools for the US to combat trafficking in persons, both domestically and abroad. One of the law's key components is the creation of the US Department of State's annual <em>Trafficking in Persons Report</em>, which assesses the government response (i.e., the <em>current situation</em>) in some 150 countries with a significant number of victims trafficked across their borders who are recruited, harbored, transported, provided, or obtained for forced labor or sexual exploitation.
+Countries in the annual report are rated in three tiers, based on government efforts to combat trafficking. The countries identified in this entry are those listed in the <em>2010 Trafficking in Persons Report</em> as <em>Tier 2 Watch List</em> or <em>Tier 3</em> based on the following <em>tier rating</em> definitions:
+
+<br><b>Tier 2 Watch  List</b> <em>countries do not fully comply with the minimum standards for the elimination of trafficking but are making significant efforts to do so, and meet one of the following criteria:
+<br>1. 	they display high  or  significantly  increasing  number of  victims, 
+<br>2. 	they have failed to provide evidence of increasing efforts to combat trafficking in persons, or, 
+<br>3. they have committed to take action over the next year.</em>
+
+<br><b>Tier 3</b>  <em>countries neither satisfy the minimum standards for the elimination of trafficking nor demonstrate a significant effort to do so. Countries in this tier are subject to potential non-humanitarian and non-trade sanctions.</em></span></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+	
+	</td>
+  </tr>
+</table>
+<table width="638" border="0" cellspacing="2" cellpadding="2">
+  <tr bgcolor="#F8f8e7" valign="middle" height="25">
+    
+    <th scope="col"width="200" align="middle" style="padding-left: 5px;"><div class="smalltext"><strong>Country</strong></div></th>
+    
+    <th scope="col"align="middle" class="smalltext" style="padding-left: 5px;"> Trafficking in persons </th>
+  </tr>
+</table>
+
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ag" >
+        
+      <tr><td colspan="2"><a name="AG"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ag.html" style="font-weight: bold;" >Algeria</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Algeria is a transit country for men and women trafficked from sub-Saharan Africa to Europe for the purposes of commercial sexual exploitation and involuntary servitude; criminal networks of sub-Saharan nationals in southern Algeria facilitate transit by arranging transportation, forged documents, and promises of employment 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Algeria is placed on the Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking, however, it is making significant efforts to do so; in January 2009, the government approved new legislation that criminalizes trafficking in persons for the purposes of labor and sexual exploitation representing an important step toward complying with international standards; despite these efforts, the government did not show overall progress in punishing trafficking crimes and protecting trafficking victims and continued to lack adequate measures to protect victims and prevent trafficking (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="aj" >
+      
+      <tr><td colspan="2"><a name="AJ"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/aj.html" style="font-weight: bold;" >Azerbaijan</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Azerbaijan is primarily a source and transit country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; women and some children from Azerbaijan are trafficked to Turkey and the UAE for the purpose of sexual exploitation; men and boys are trafficked to Russia for the purpose of forced labor; Azerbaijan serves as a transit country for victims from Uzbekistan, Kyrgyzstan, Kazakhstan, and Moldova trafficked to Turkey and the UAE for sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Azerbaijan is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat trafficking in persons, particularly efforts to investigate, prosecute, and punish traffickers; to address complicity among law enforcement personnel; and to adequately identify and protect victims in Azerbaijan; the government has yet to develop a much-needed mechanism to identify potential trafficking victims and refer them to safety and care; poor treatment of trafficking victims in courtrooms continues to be a problem (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="bg" >
+        
+      <tr><td colspan="2"><a name="BG"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/bg.html" style="font-weight: bold;" >Bangladesh</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Bangladesh is a source and transit country for men, women, and children trafficked for the purposes of forced labor and commercial sexual exploitation; a significant share of Bangladesh's trafficking victims are men recruited for work overseas with fraudulent employment offers who are subsequently exploited under conditions of forced labor or debt bondage; children are trafficked within Bangladesh for commercial sexual exploitation, bonded labor, and forced labor; women and children from Bangladesh are also trafficked to India and Pakistan for sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Bangladesh is placed on Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so, including some progress in addressing sex trafficking; the government did not demonstrate sufficient progress in criminally prosecuting and convicting labor trafficking offenders, particularly those responsible for the recruitment of Bangladeshi workers for the purpose of labor trafficking (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="bh" >
+      
+      <tr><td colspan="2"><a name="BH"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/bh.html" style="font-weight: bold;" >Belize</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Belize is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; the most common form of trafficking in Belize is the internal sex trafficking of minors; some Central American men, women, and children, particularly from Guatemala, Honduras, and El Salvador, migrate voluntarily to Belize in search of work but are subsequently subjected to conditions of forced labor or forced prostitution 
+      <br />
+      
+        <strong>tier rating:</strong> Belize is placed on Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; despite efforts to raise public awareness of human trafficking and provide protection services for trafficking victims, the government did not show evidence of progress in convicting and sentencing trafficking offenders last year (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="bm" >
+        
+      <tr><td colspan="2"><a name="BM"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/bm.html" style="font-weight: bold;" >Burma</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Burma is a source country for women, children, and men trafficked for the purpose of forced labor and commercial sexual exploitation; Burmese women and children are trafficked to East and Southeast Asia for commercial sexual exploitation, domestic servitude, and forced labor; Burmese children are subjected to conditions of forced labor in Thailand as hawkers and beggars; women are trafficked for commercial sexual exploitation to Malaysia and China; some trafficking victims transit Burma from Bangladesh to Malaysia and from China to Thailand; Burma's internal trafficking remains the most serious concern occurring primarily from villages to urban centers and economic hubs for labor in industrial zones, agricultural estates, and commercial sexual exploitation; the Burmese military continues to engage in the unlawful conscription of child soldiers, and continues to be the main perpetrator of forced labor inside Burma; ethnic insurgent groups also used compulsory labor of adults and unlawful recruitment of children; the regime's widespread use of and lack of accountability in forced labor and recruitment of child soldiers is particularly worrying and represents the top causal factor for Burma's significant trafficking problem 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - serious problems remain in Burma, and in some areas, most notably in the area of forced labor, the Government of Burma is not making significant efforts to comply with the minimum standards for the elimination of trafficking, warranting a ranking of Tier 3; in other areas, particularly with regard to international sex trafficking of women and girls, the Government of Burma is making significant efforts (2010) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="cm" >
+      
+      <tr><td colspan="2"><a name="CM"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/cm.html" style="font-weight: bold;" >Cameroon</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Cameroon is a source, transit, and destination country for women and children trafficked for the purposes of forced labor and commercial sexual exploitation; most victims are children trafficked within country, with girls primarily trafficked for domestic servitude and sexual exploitation; both boys and girls are also trafficked within Cameroon for forced labor in sweatshops, bars, restaurants, and on tea and cocoa plantations; children are trafficked into Cameroon from neighboring states for forced labor in agriculture, fishing, street vending, and spare-parts shops; Cameroon is a transit country for children trafficked between Gabon and Nigeria, and from Nigeria to Saudi Arabia; it is a source country for women transported by sex-trafficking rings to Europe 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Cameroon is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat human trafficking in 2007, particularly in terms of efforts to prosecute and convict trafficking offenders; while Cameroon reported some arrests of traffickers, none of them were prosecuted or punished; the government does not identify trafficking victims among vulnerable populations nor does it monitor the number of victims it intercepts (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ct" >
+        
+      <tr><td colspan="2"><a name="CT"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ct.html" style="font-weight: bold;" >Central African Republic</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Central African Republic is a source, transit, and destination country for men, women, and children trafficked for the purposes of forced labor and sexual exploitation; the majority of victims are children trafficked within the country for sexual exploitation, domestic servitude, street vending, and forced agricultural, mine, market and restaurant labor; to a lesser extent, children are trafficked from the Central African Republic to Cameroon, Nigeria, and the Democratic Republic of Congo; rebels conscript children into armed forces within the country 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Central African Republic is on the Tier 2 Watch List for the third consecutive year for its failure to show evidence of increasing efforts to combat trafficking in 2007; efforts to address trafficking through vigorous law enforcement measures and victim protection efforts were minimal, though awareness about trafficking appeared to be increasing in the country; the government does not actively investigate cases, work to identify trafficking victims among vulnerable populations, or rescue and provide care to victims; the government has not taken measures to reduce demand for commercial sex acts (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="cd" >
+      
+      <tr><td colspan="2"><a name="CD"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/cd.html" style="font-weight: bold;" >Chad</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Chad is a source, transit, and destination country for children trafficked for the purposes of forced labor and commercial sexual exploitation; the majority of children are trafficked within Chad for involuntary domestic servitude, forced cattle herding, forced begging, forced labor in petty commerce or the fishing industry, or for commercial sexual exploitation; to a lesser extent, Chadian children are also trafficked to Cameroon, the Central African Republic, and Nigeria for cattle herding; children may also be trafficked from Cameroon and the Central African Republic to Chad's oil producing regions for sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - the Government of Chad does not fully comply with the minimum standards for the elimination of trafficking and is not making any significant efforts to do so; although facing resource constraints, the government has the capacity to conduct basic anti-trafficking law enforcement efforts, yet did not do so during the last year; it showed no results in enforcing government policy prohibiting the recruitment of child soldiers; Chad has not ratified the 2000 UN TIP Protocol (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ch" >
+        
+      <tr><td colspan="2"><a name="CH"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ch.html" style="font-weight: bold;" >China</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>China is a source, transit, and destination country for men, women, and children trafficked for the purposes of sexual exploitation and forced labor; the majority of trafficking in China occurs within the country's borders, but there is also considerable international trafficking of Chinese citizens to Africa, Asia, Europe, Latin America, the Middle East, and North America; Chinese women are lured abroad through false promises of legitimate employment, only to be forced into commercial sexual exploitation, largely in Taiwan, Thailand, Malaysia, and Japan; women and children are trafficked to China from Mongolia, Burma, North Korea, Russia, and Vietnam for forced labor, marriage, and prostitution; some North Korean women and children seeking to leave their country voluntarily cross the border into China and are then sold into prostitution, marriage, or forced labor 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - China is on the Tier 2 Watch List for the fourth consecutive year for its failure to provide evidence of increasing efforts to combat human trafficking, particularly in terms of punishment of trafficking crimes and the protection of Chinese and foreign victims of trafficking; victims are sometimes punished for unlawful acts that were committed as a direct result of their being trafficked, such as violations of prostitution or immigration/emigration controls; the Chinese Government continued to treat North Korean victims of trafficking solely as economic migrants, routinely deporting them back to horrendous conditions in North Korea; additional challenges facing the Chinese Government include the enormous size of its trafficking problem and the significant level of corruption and complicity in trafficking by some local government officials (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="cg" >
+      
+      <tr><td colspan="2"><a name="CG"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/cg.html" style="font-weight: bold;" >Congo, Democratic Republic of the</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Democratic Republic of the Congo is a source and destination country for men, women, and children subjected to trafficking for the purposes of forced labor and forced prostitution; the majority of this trafficking is internal, and much of it is perpetrated by armed groups and government forces outside government control within the country's unstable eastern provinces 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Government of the Democratic Republic of the Congo does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government did not show evidence of progress in prosecuting and punishing labor or sex trafficking offenders, including members of its own armed forces; providing protective services for the vast majority of trafficking victims; or raising public awareness of human trafficking; in addition, the government's anti-trafficking law enforcement efforts decreased during the reporting period (2010) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="cf" >
+        
+      <tr><td colspan="2"><a name="CF"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/cf.html" style="font-weight: bold;" >Congo, Republic of the</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Republic of the Congo is a source and destination country for children trafficked for the purposes of forced labor and commercial sexual exploitation; girls are trafficked from rural areas within the country for commercial sexual exploitation, forced street vending, and domestic servitude; children are trafficked from other African countries for domestic servitude, forced market vending, and forced labor in the fishing industry 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Republic of the Congo is on the Tier 2 Watch List for its failure to show evidence of increasing efforts to combat trafficking in persons in 2007; struggling to recover from six years of civil conflict that ended in 2003, the Republic of the Congo's capacity to address trafficking is handicapped; the government neither monitors its borders for trafficking activity nor provides specialized anti-trafficking training for law enforcement officials; the government does not encourage victims to assist in trafficking investigations or prosecutions, and has not taken measures to reduce demand for commercial sex acts in the Republic of the Congo (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="iv" >
+      
+      <tr><td colspan="2"><a name="IV"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/iv.html" style="font-weight: bold;" >Cote d'Ivoire</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      Cote d'Ivoire is a source, transit, and destination country for women and children trafficked for forced labor and commercial sexual exploitation; trafficking within the country is more prevalent than international trafficking and the majority of victims are children; women and girls are trafficked from northern areas to southern cities for domestic servitude, restaurant labor, and sexual exploitation; boys are trafficked internally for agricultural and service labor and transnationally for forced labor in agriculture, mining, construction, and in the fishing industry; women and girls are trafficked to and from other West and Central African countries for domestic servitude and forced street vending 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Cote d'Ivoire is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to eliminate trafficking in 2007, particularly with regard to its law enforcement efforts and protection of sex trafficking victims; in addition, Ivoirian law does not prohibit all forms of trafficking, and Cote d'Ivoire has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="cu" >
+        
+      <tr><td colspan="2"><a name="CU"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/cu.html" style="font-weight: bold;" >Cuba</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Cuba is principally a source country for children subjected to trafficking in persons, specifically commercial sexual exploitation within the country; the scope of trafficking within Cuba is difficult to gauge due to the closed nature of the government and sparse non-governmental or independent reporting 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Cuba does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; in a positive step, the Government of Cuba shared information about human trafficking and its efforts to address the issue; the government did not prohibit all forms of trafficking during the reporting period, nor did it provide specific evidence that it prosecuted and punished trafficking offenders, protected victims of all forms of trafficking, or implemented victim protection policies or programs to prevent human trafficking (2010) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="dr" >
+      
+      <tr><td colspan="2"><a name="DR"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/dr.html" style="font-weight: bold;" >Dominican Republic</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>the Dominican Republic is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; a large number of Dominican women are trafficked into prostitution and sexual exploitation in Western Europe, Australia, Central and South America, and Caribbean destinations; a significant number of women, boys, and girls are trafficked within the country for sexual exploitation and domestic servitude 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - for its failure to show evidence of increasing efforts to combat human trafficking, particularly in terms of not adequately investigating and prosecuting public officials who may be complicit with trafficking activity, and inadequate government efforts to protect trafficking victims; the government has taken measures to reduce demand for commercial sex acts with children through criminal prosecutions (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ek" >
+        
+      <tr><td colspan="2"><a name="EK"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ek.html" style="font-weight: bold;" >Equatorial Guinea</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Equatorial Guinea is primarily a destination country for children trafficked for the purpose of forced labor and possibly for the purpose of sexual exploitation; children have been trafficked from nearby countries for domestic servitude, market labor, ambulant vending, and possibly sexual exploitation; women may also be trafficked to Equatorial Guinea from Cameroon, Benin, other neighboring countries, and China for sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Equatorial Guinea is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to eliminate trafficking, particularly in the areas of prosecuting and convicting trafficking offenders and failing to formalize mechanisms to provide assistance to victims; although the government made some effort to enforce laws against child labor exploitation, it failed to report any trafficking prosecutions or convictions in 2007; the government continued to lack shelters or formal procedures for providing care to victims (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="er" >
+      
+      <tr><td colspan="2"><a name="ER"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/er.html" style="font-weight: bold;" >Eritrea</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Eritrea is a source country for men, women, and children trafficked for the purposes of forced labor and commercial sexual exploitation; each year, large numbers of migrant workers depart Eritrea in search of work, particularly in the Gulf States, where some likely become victims of forced labor, including in domestic servitude, or commercial sexual exploitation; thousands of Eritreans flee the country illegally, mostly to Sudan, Ethiopia, and Kenya where their illegal status makes them vulnerable to situations of human trafficking; the government remains complicit in conscripting children into military service 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - the Government of Eritrea does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the Eritrean government does not operate with transparency and published neither data nor statistics regarding its efforts to combat human trafficking; it did not respond to requests to provide information for this report; the government made no known progress in prosecuting and punishing trafficking crimes over the reporting period and did not appear to provide any significant assistance to victims of trafficking during the reporting period (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="fj" >
+        
+      <tr><td colspan="2"><a name="FJ"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/fj.html" style="font-weight: bold;" >Fiji</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Fiji is a source country for children trafficked for the purpose of commercial sexual exploitation and a destination country for a small number of women from China and India trafficked for the purposes of forced labor and commercial sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Fiji does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government has demonstrated no action to investigate or prosecute traffickers, assist victims, take steps to reduce the demand for commercial sex acts, or support any anti-trafficking information or education campaigns; Fiji has not ratified the 2000 UN TIP Protocol (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="gb" >
+      
+      <tr><td colspan="2"><a name="GB"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/gb.html" style="font-weight: bold;" >Gabon</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Gabon is predominantly a destination country for children trafficked from other African countries for the purpose of forced labor; girls are primarily trafficked for domestic servitude, forced market vending, forced restaurant labor, and sexual exploitation, while boys are trafficked for forced street hawking and forced labor in small workshops 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Gabon is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat human trafficking in 2007, particularly in terms of efforts to convict and punish trafficking offenders; the government has not reported the convictions or sentences of any trafficking offenders; the government did not take steps to reduce demand for commercial sex acts (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="gt" >
+        
+      <tr><td colspan="2"><a name="GT"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/gt.html" style="font-weight: bold;" >Guatemala</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Guatemala is a source, transit, and destination country for Guatemalans and Central Americans trafficked for the purposes of commercial sexual exploitation and forced labor; human trafficking is a significant and growing problem in the country; Guatemalan women and children are trafficked within the country for commercial sexual exploitation, primarily to Mexico and the United States; Guatemalan men, women, and children are also trafficked within the country, and to Mexico and the United States, for forced labor 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - for a second consecutive year, Guatemala is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat trafficking in persons, particularly with respect to ensuring that trafficking offenders are appropriately prosecuted for their crimes; while prosecutors initiated trafficking prosecutions, they continued to face problems in court with application of Guatemala's comprehensive anti-trafficking law; the government made modest improvements to its protection efforts, but assistance remained inadequate overall in 2007 (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="gv" >
+      
+      <tr><td colspan="2"><a name="GV"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/gv.html" style="font-weight: bold;" >Guinea</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Guinea is a source, transit, and destination country for men, women, and children trafficked for the purposes of forced labor and sexual exploitation; the majority of victims are children, and internal trafficking is more prevalent than transnational trafficking; within the country, girls are trafficked primarily for domestic servitude and sexual exploitation, while boys are trafficked for forced agricultural labor, and as forced beggars, street vendors, shoe shiners, and laborers in gold and diamond mines; some Guinean men are also trafficked for agricultural labor within Guinea; transnationally, girls are trafficked into Guinea for domestic servitude and likely also for sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Guinea is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to eliminate trafficking over 2006; Guinea demonstrated minimal law enforcement efforts for a second year in a row, while protection efforts diminished over efforts in 2006; the government did not report any trafficking convictions in 2007; due to a lack of resources, the government does not provide shelter services for trafficking victims; the government took no measures to reduce the demand for commercial sexual exploitation (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="pu" >
+        
+      <tr><td colspan="2"><a name="PU"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/pu.html" style="font-weight: bold;" >Guinea-Bissau</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Guinea-Bissau is a source country for children trafficked primarily for forced begging and forced agricultural labor to other West African countries 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - for the second year in a row, Guinea-Bissau is on the Tier 2 Watch List for its failure to combat severe forms of trafficking in persons, as evidenced by the continued failure to pass an anti-trafficking law and inadequate efforts to investigate or prosecute trafficking crimes or convict and punish trafficking offenders (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="gy" >
+      
+      <tr><td colspan="2"><a name="GY"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/gy.html" style="font-weight: bold;" >Guyana</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Guyana is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; most trafficking appears to take place in remote mining camps in the country's interior; some women and girls are trafficked from northern Brazil; reporting from other nations suggests Guyanese women and girls are trafficked for sexual exploitation to neighboring countries and Guyanese men and boys are subject to labor exploitation in construction and agriculture; trafficking victims from Suriname, Brazil, and Venezuela transit Guyana en route to Caribbean destinations 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - for a second consecutive year, Guyana is on the Tier 2 Watch List for failing to provide evidence of increasing efforts to combat trafficking, particularly in the area of law enforcement actions against trafficking offenders; the government has yet to produce an anti-trafficking conviction under the comprehensive Combating of Trafficking in Persons Act, which became law in 2005; the government operates no shelters for trafficking victims, but did include limited funding for anti-trafficking NGOs in its 2008 budget; the government did not make any effort to reduce demand for commercial sex acts during 2007 (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="in" >
+        
+      <tr><td colspan="2"><a name="IN"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/in.html" style="font-weight: bold;" >India</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>India is a source, destination, and transit country for men, women, and children trafficked for the purposes of forced labor and commercial sexual exploitation; internal forced labor may constitute India's largest trafficking problem; men, women, and children are held in debt bondage and face forced labor working in brick kilns, rice mills, agriculture, and embroidery factories; women and girls are trafficked within the country for the purposes of commercial sexual exploitation and forced marriage; children are subjected to forced labor as factory workers, domestic servants, beggars, and agriculture workers, and have been used as armed combatants by some terrorist and insurgent groups; India is also a destination for women and girls from Nepal and Bangladesh trafficked for the purpose of commercial sexual exploitation; Indian women are trafficked to the Middle East for commercial sexual exploitation; men and women from Bangladesh and Nepal are trafficked through India for forced labor and commercial sexual exploitation in the Middle East 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - India is on the Tier 2 Watch List for a fifth consecutive year for its failure to provide evidence of increasing efforts to combat human trafficking in 2007; despite the reported extent of the trafficking crisis in India, government authorities made uneven efforts to prosecute traffickers and protect trafficking victims; government authorities continued to rescue victims of commercial sexual exploitation and forced child labor and child armed combatants, and began to show progress in law enforcement against these forms of trafficking; a critical challenge overall is the lack of punishment for traffickers, effectively resulting in impunity for acts of human trafficking; India has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="ir" >
+      
+      <tr><td colspan="2"><a name="IR"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ir.html" style="font-weight: bold;" >Iran</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Iran is a source, transit, and destination country for men, women, and children trafficked for the purposes of sexual exploitation and involuntary servitude; Iranian women are trafficked internally for the purpose of forced prostitution and for forced marriages to settle debts; Iranian and Afghan children living in Iran are trafficked internally for the purpose of forced marriages, commercial sexual exploitation and involuntary servitude as beggars or laborers to pay debts, provide income or support drug addiction of their families; press reports indicate that criminal organizations play a significant role in human trafficking to and from Iran, in connection with smuggling of migrants, drugs, and arms 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Iran did not provide evidence of law enforcement activities against trafficking, and credible reports indicate that Iranian authorities' response is not sufficient to penalize offenders, protect victims, and eliminate trafficking; some aspects of Iranian law and policy hinder efforts to combat trafficking including punishment of victims and legal obstacles to punishing offenders; Iran has not ratified the 2000 UN TIP Protocol (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="kn" >
+        
+      <tr><td colspan="2"><a name="KN"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/kn.html" style="font-weight: bold;" >Korea, North</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>North Korea is a source country for men, women, and children trafficked for the purposes of forced labor and commercial sexual exploitation; the most common form of trafficking involves North Korean women and girls who cross the border into China voluntarily; additionally, North Korean women and girls are lured out of North Korea to escape poor social and economic conditions by the promise of food, jobs, and freedom, only to be forced into prostitution, marriage, or exploitative labor arrangements once in China 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - North Korea does not fully comply with minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government does not acknowledge the existence of human rights abuses in the country or recognize trafficking, either within the country or transnationally; North Korea has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="ku" >
+      
+      <tr><td colspan="2"><a name="KU"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ku.html" style="font-weight: bold;" >Kuwait</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Kuwait is a destination country for men and women who migrate legally from South and Southeast Asia for domestic or low-skilled labor, but are subjected to conditions of involuntary servitude by employers in Kuwait including conditions of physical and sexual abuse, non-payment of wages, confinement to the home, and withholding of passports to restrict their freedom of movement; Kuwait is reportedly a transit point for South and East Asian workers recruited for low-skilled work in Iraq; some of these workers are deceived as to the true location and nature of this work, and others are subjected to conditions of involuntary servitude in Iraq 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Kuwaiti government has shown an inability to define trafficking and has demonstrated insufficient political will to address human trafficking adequately; much of the human trafficking found in Kuwait involves domestic workers in private residences and the government is reluctant to prosecute Kuwaiti citizens; the government has not enacted legislation targeting human trafficking nor established a permanent shelter for victims of trafficking (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ly" >
+        
+      <tr><td colspan="2"><a name="LY"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ly.html" style="font-weight: bold;" >Libya</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Libya is a transit and destination country for men and women from sub-Saharan Africa and Asia trafficked for the purposes of forced labor and commercial sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Libya is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to address trafficking in persons in 2007 when compared to 2006, particularly in the area of investigating and prosecuting trafficking offenses; Libya did not publicly release any data on investigations or punishment of any trafficking offenses (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="my" >
+      
+      <tr><td colspan="2"><a name="MY"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/my.html" style="font-weight: bold;" >Malaysia</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Malaysia is a destination and, to a lesser extent, a source and transit country for women and children trafficked for the purpose of commercial sexual exploitation, and men, women, and children for forced labor; Malaysia is mainly a destination country for men, women, and children who migrate willingly from South and Southeast Asia to work, some of whom are subjected to conditions of involuntary servitude by Malaysian employers in the domestic, agricultural, construction, plantation, and industrial sectors; to a lesser extent, some Malaysian women, primarily of Chinese ethnicity, are trafficked abroad for commercial sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - the Government of Malaysia does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so, despite some progress in enforcing the 2007 comprehensive anti-trafficking law; it has yet to fully address labor trafficking in Malaysia; there are credible allegations of involvement of Malaysian immigration officials in trafficking and extorting Burmese refugees; the government did not develop mechanisms to effectively screen victims of trafficking in vulnerable groups and condones the confiscation of passports of migrant workers by employers (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="mr" >
+        
+      <tr><td colspan="2"><a name="MR"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/mr.html" style="font-weight: bold;" >Mauritania</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Mauritania is a source and destination country for children trafficked for forced labor and sexual exploitation; slavery-related practices, rooted in ancestral master-slave relationships, continue to exist in isolated parts of the country; Mauritanian boys called talibe are trafficked within the country by religious teachers for forced begging; children are also trafficked by street gangs within the country that force them to steal, beg, and sell drugs; girls are trafficked internally for domestic servitude and sexual exploitation; women and children from neighboring states are trafficked into Mauritania for purposes of forced begging, domestic servitude, and sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - the Government of Mauritania does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government did not show evidence of overall progress in prosecuting and punishing trafficking offenders, protecting trafficking victims, or preventing new incidents of trafficking during the past year; progress that the previous government demonstrated in 2007 through enactment of strengthened anti-slavery legislation and deepened political will to eliminate slavery and trafficking has stalled; law enforcement efforts to address human trafficking including traditional slavery practices decreased (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="md" >
+      
+      <tr><td colspan="2"><a name="MD"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/md.html" style="font-weight: bold;" >Moldova</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Moldova is a major source and, to a lesser extent, a transit country for women and girls trafficked for the purpose of commercial sexual exploitation; Moldovan women are trafficked to the Middle East, Eastern Europe, and Western Europe; girls and young women are trafficked within the country from rural areas to Chisinau; children are also trafficked to neighboring countries for forced labor and begging; labor trafficking of men to work in the construction, agriculture, and service sectors of Russia is increasingly a problem; according to an ILO report, Moldova's national Bureau of Statistics estimated that there were likely over 25,000 Moldovan victims of trafficking for forced labor in 2008 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - The Government of Moldova does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; despite initial efforts to combat trafficking-related complicity since the government's reassessment on the Tier 2 Watch List in September 2008, and increased victim assistance, the government did not demonstrate sufficiently meaningful efforts to curb trafficking-related corruption, which is a government-acknowledged problem in Moldova; the government improved victim protection efforts, deployed more law-enforcement officers in the effort and contributed direct financial assistance toward victim protection and assistance for the first time (2010) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="ng" >
+        
+      <tr><td colspan="2"><a name="NG"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ng.html" style="font-weight: bold;" >Niger</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Niger is a source, transit, and destination country for children and women trafficked for forced labor and sexual exploitation; caste-based slavery practices, rooted in ancestral master-slave relationships, continue in isolated areas of the country - an estimated 8,800 to 43,000 Nigeriens live under conditions of traditional slavery; children are trafficked within Niger for forced begging, forced labor in gold mines, domestic servitude, sexual exploitation, and possibly for forced labor in agriculture and stone quarries; women and children from neighboring states are trafficked to and through Niger for domestic servitude, sexual exploitation, forced labor in mines and on farms, and as mechanics and welders 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - the Government of Niger does not fully comply with the minimum standards for the elimination of trafficking and is not making any significant efforts to do so; the government demonstrated marginal efforts to combat human trafficking, including traditional slavery, during the last year (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="pp" >
+      
+      <tr><td colspan="2"><a name="PP"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/pp.html" style="font-weight: bold;" >Papua New Guinea</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Papua New Guinea is a country of destination for women and children from Malaysia, the Philippines, Thailand, and China trafficked for the purpose of commercial sexual exploitation; internal trafficking of women and children for the purposes of sexual exploitation and involuntary domestic servitude occurs as well 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Papua New Guinea does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the current legal framework does not contain elements of crimes that characterize trafficking; the government lacks victim protection services or a systematic procedure to identify victims of trafficking; the government did not prosecute anyone in 2007 for trafficking; Papua New Guinea has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="qa" >
+        
+      <tr><td colspan="2"><a name="QA"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/qa.html" style="font-weight: bold;" >Qatar</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Qatar is a destination country for men and women from South and Southeast Asia who migrate willingly, but are subsequently trafficked into involuntary servitude as domestic workers and laborers, and, to a lesser extent, commercial sexual exploitation; the most common offense was forcing workers to accept worse contract terms than those under which they were recruited; other conditions include bonded labor, withholding of pay, restrictions on movement, arbitrary detention, and physical, mental, and sexual abuse 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - the Government of Qatar does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; in February 2009, Qatar enacted a new migrant worker sponsorship law that criminalizes some practices commonly used by trafficking offenders, and it announced plans to use that law effectively to prevent human trafficking; punishment for offenses related to trafficking in persons remains lower than that for crimes such as rape and kidnapping, and the Qatari government has yet to take significant action to investigate, prosecute, and punish trafficking offenses; the government continues to lack formal victim identification procedures and, as a result, victims of trafficking are likely punished for acts committed as a direct result of being trafficked (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="rs" >
+      
+      <tr><td colspan="2"><a name="RS"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/rs.html" style="font-weight: bold;" >Russia</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Russia is a source, transit, and destination country for men, women, and children trafficked for various purposes; it remains a significant source of women trafficked to over 50 countries for commercial sexual exploitation; Russia is also a transit and destination country for men and women trafficked from Central Asia, Eastern Europe, and North Korea to Central and Western Europe and the Middle East for purposes of forced labor and sexual exploitation; internal trafficking remains a problem in Russia with women trafficked from rural areas to urban centers for commercial sexual exploitation, and men trafficked internally and from Central Asia for forced labor in the construction and agricultural industries; debt bondage is common among trafficking victims, and child sex tourism remains a concern 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Russia is on the Tier 2 Watch List for a fifth consecutive year for its failure to show evidence of increasing efforts to combat trafficking over the previous year, particularly in providing assistance to victims of trafficking; comprehensive trafficking victim assistance legislation, which would address key deficiencies, has been pending before the Duma since 2003 and was neither passed nor enacted in 2007 (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="sa" >
+        
+      <tr><td colspan="2"><a name="SA"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/sa.html" style="font-weight: bold;" >Saudi Arabia</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Saudi Arabia is a destination country for workers from South and Southeast Asia who are subjected to conditions that constitute involuntary servitude including being subjected to physical and sexual abuse, non-payment of wages, confinement, and withholding of passports as a restriction on their movement; domestic workers are particularly vulnerable because some are confined to the house in which they work unable to seek help; Saudi Arabia is also a destination country for Nigerian, Yemeni, Pakistani, Afghan, Somali, Malian, and Sudanese children trafficked for forced begging and involuntary servitude as street vendors; some Nigerian women were reportedly trafficked into Saudi Arabia for commercial sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Saudi Arabia does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government continues to lack adequate anti-trafficking laws and, despite evidence of widespread trafficking abuses, did not report any criminal prosecutions, convictions, or prison sentences for trafficking crimes committed against foreign domestic workers (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="ce" >
+      
+      <tr><td colspan="2"><a name="CE"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ce.html" style="font-weight: bold;" >Sri Lanka</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Sri Lanka is a source and destination country for men and women trafficked for the purposes of involuntary servitude and commercial sexual exploitation; Sri Lankan men and women migrate willingly to the Persian Gulf, Middle East, and East Asia to work as construction workers, domestic servants, or garment factory workers, where some find themselves in situations of involuntary servitude when faced with restrictions on movement, withholding of passports, threats, physical or sexual abuse, and debt bondage; children are trafficked internally for commercial sexual exploitation and, less frequently, for forced labor 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - for a fourth consecutive year, Sri Lanka is on the Tier 2 Watch List for failing to provide evidence of increasing efforts to combat severe forms of human trafficking, particularly in the area of law enforcement; the government failed to arrest, prosecute, or convict any person for trafficking offenses and continued to punish some victims of trafficking for crimes committed as a result of being trafficked; Sri Lanka has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="su" >
+        
+      <tr><td colspan="2"><a name="SU"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/su.html" style="font-weight: bold;" >Sudan</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Sudan is a source country for men, women, and children trafficked internally for the purposes of forced labor and sexual exploitation; Sudan is also a transit and destination country for Ethiopian women trafficked abroad for domestic servitude; Sudanese women and girls are trafficked within the country as well as possibly to Middle Eastern countries for domestic servitude; the terrorist rebel organization, Lord's Resistance Army, continues to harbor small numbers of Sudanese and Ugandan children in the southern part of the country for use as cooks, porters, and combatants; some of these children are also trafficked across borders into Uganda or the Democratic Republic of the Congo; militia groups in Darfur, some of which are linked to the government, abduct women for short periods of forced labor and to perpetrate sexual violence; during the two decades-long north-south civil war, thousands of Dinka women and children were abducted and subsequently enslaved by members of the Missiriya and Rezeigat tribes; while there have been no known new abductions of Dinka by members of Baggara tribes in the last few years, inter-tribal abductions continue in southern Sudan 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - Sudan does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; combating human trafficking through law enforcement or prevention measures was not a priority for the government in 2007 (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="wz" >
+      
+      <tr><td colspan="2"><a name="WZ"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/wz.html" style="font-weight: bold;" >Swaziland</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Swaziland is a source, destination, and transit country for women and children trafficked internally and transnationally for the purposes of commercial sexual exploitation, domestic servitude, and forced labor in agriculture; Swazi girls, particularly orphans, are trafficked internally for commercial sexual exploitation and domestic servitude, as well as to South Africa and Mozambique; Swazi boys are trafficked for forced labor in commercial agriculture and market vending; some Swazi women are forced into prostitution in South Africa and Mozambique after voluntarily migrating to these countries in search of work 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - the government of Swaziland does not comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government believes that trafficking probably does occur, but does not know the extent of the problem; the government does not judge trafficking to be an "important" problem and chooses to direct its limited resources towards other issues, a judgment which significantly limited the government's current efforts to eliminate human trafficking, or to plan anti-trafficking activities or initiatives for the future (2010) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="sy" >
+        
+      <tr><td colspan="2"><a name="SY"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/sy.html" style="font-weight: bold;" >Syria</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Syria is a destination and transit country for women and children trafficked for commercial sexual exploitation and forced labor; a significant number of women and children in the large and expanding Iraqi refugee community in Syria are reportedly forced into commercial sexual exploitation by Iraqi gangs or, in some cases, their families; women from Indonesia, Sri Lanka, the Philippines, Ethiopia, and Sierra Leone are recruited for work in Syria as domestic servants, but some face conditions of involuntary servitude, including long hours, non-payment of wages, withholding of passports, restrictions on movement, threats, and physical or sexual abuse 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Syria again failed to report any law enforcement efforts to punish trafficking offenses in 2007; in addition, the government did not offer protection services to victims of trafficking and may have arrested, prosecuted, or deported some victims for prostitution or immigration violations; Syria has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="ti" >
+      
+      <tr><td colspan="2"><a name="TI"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ti.html" style="font-weight: bold;" >Tajikistan</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Tajikistan is a source country for women trafficked through Kyrgyzstan and Russia to the UAE, Turkey, and Russia for the purpose of commercial sexual exploitation; men are trafficked to Russia and Kazakhstan for the purpose of forced labor, primarily in the construction and agricultural industries; boys and girls are trafficked internally for various purposes, including forced labor and forced begging 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Tajikistan is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat human trafficking, especially efforts to investigate, prosecute, convict, and sentence traffickers; despite evidence of low- and mid-level officials' complicity in trafficking, the government did not punish any public officials for trafficking complicity during 2007; lack of capacity and poor coordination between government institutions remained key obstacles to effective anti-trafficking efforts (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="uz" >
+        
+      <tr><td colspan="2"><a name="UZ"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/uz.html" style="font-weight: bold;" >Uzbekistan</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Uzbekistan is a source country for women and girls trafficked to Kazakhstan, Russia, Middle East, and Asia for the purpose of commercial sexual exploitation; men are trafficked to Kazakhstan and Russia for purposes of forced labor in the construction, cotton, and tobacco industries; men and women are also trafficked internally for the purposes of domestic servitude, forced labor in the agricultural and construction industries, and for commercial sexual exploitation 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Uzbekistan is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat severe forms of trafficking in 2007; the government did not amend its criminal code to increase penalties for convicted traffickers; in March 2008, Uzbekistan adopted ILO Conventions on minimum age of employment and on the elimination of the worst forms of child labor and is working with the ILO on implementation; the government also demonstrated its increasing commitment to combat trafficking in March 2008 by adopting a comprehensive anti-trafficking law; Uzbekistan has not ratified the 2000 UN TIP Protocol (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="ve" >
+      
+      <tr><td colspan="2"><a name="VE"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/ve.html" style="font-weight: bold;" >Venezuela</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Venezuela is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; Venezuelan women and girls are trafficked within the country for sexual exploitation, lured from the nation's interior to urban and tourist areas; child prostitution in urban areas and child sex tourism in resort destinations appear to be growing; Venezuelan women and girls are trafficked for commercial sexual exploitation to Western Europe, Mexico, and Caribbean destinations 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 2 Watch List - Venezuela is placed on the Tier 2 Watch List, up from Tier 3, as it showed greater resolve to address trafficking through law enforcement measures and prevention efforts in 2007, although stringent punishment of offenders and victim assistance remain lacking (2008) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#FFFFFF" id="xx" >
+        
+      <tr><td colspan="2"><a name="XX"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/xx.html" style="font-weight: bold;" >World</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>approximately 800,000 people, mostly women and children, are trafficked annually across national borders, not including millions trafficked within their own countries; at least 80% of the victims are female and up to 50% are minors; 75% of all victims are trafficked into commercial sexual exploitation; almost two-thirds of the global victims are trafficked intra-regionally within East Asia and the Pacific (260,000 to 280,000 people) and Europe and Eurasia (170,000 to 210,000 people) 
+      <br />
+      
+        <strong>Tier 2 Watch List:</strong> Algeria, Angola, Argentina, Azerbaijan, Bahrain, Bangladesh, Belize, Burundi, Cambodia, Cameroon, Central African Republic, China, Cote d'Ivoire, Democratic Republic of the Congo, Djibouti, Dominican Republic, Egypt, Equatorial Guinea, Federated States of Micronesia, Gabon, Ghana, Guatemala, Guinea, Guinea-Bissau, Guyana, India, Iraq, Latvia, Lebanon, Lesotho, Libya, Mali, Moldova, Montenegro, Nicaragua, Pakistan, Philippines, Qatar, Republic of the Congo, Russia, Saint Vincent and the Grenadines, Senegal, Sri Lanka, Tajikistan, Tunisia, Turkmenistan, Ukraine, United Arab Emirates, Uzbekistan, Venezuela, Yemen 
+      <br />
+      
+        <strong>Tier 3:</strong> Burma, Chad, Cuba, Eritrea, Fiji, Iran, Kuwait, Malaysia, Mauritania, Niger, North Korea, Papua New Guinea, Saudi Arabia, Sudan, Swaziland, Syria, Zimbabwe (2009) 
+        </td>
+        </tr>
+        </table>
+        
+
+        
+        <table width="638" cellspacing="4" cellpadding="0" border="0" style="padding-bottom:4px;"  bgcolor="#EEEEEE" id="zi" >
+      
+      <tr><td colspan="2"><a name="ZI"></a></td></tr>
+      <tr>
+      
+      
+      
+        <td valign="top" width="200" style="border-right:2px solid white; padding-left:4px;" class="fl_region"><a href="../geos/zi.html" style="font-weight: bold;" >Zimbabwe</a>
+          
+      
+      <td class="category_data"  valign="top" style="padding-left:5px;">
+      
+        <strong>current situation: </strong>Zimbabwe is a source, transit, and destination country for men, women, and children trafficked for the purposes of forced labor and sexual exploitation; large scale migration of Zimbabweans to surrounding countries - as they flee a progressively more desperate situation at home - has increased; rural Zimbabwean men, women, and children are trafficked internally to farms for agricultural labor and domestic servitude and to cities for domestic labor and commercial sexual exploitation; NGOs believe internal trafficking increased during the year, largely due to the closure of schools, worsening political violence, and a faltering economy; young men and boys are trafficked to South Africa for farm work, often laboring for months in South Africa without pay before "employers" have them arrested and deported as illegal immigrants; young women and girls are lured abroad with false employment offers that result in involuntary domestic servitude or commercial sexual exploitation; men, women, and children from neighboring states are trafficked through Zimbabwe en route to South Africa 
+      <br />
+      
+        <strong>tier rating:</strong> Tier 3 - the Government of Zimbabwe does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government made minimal progress in combating trafficking in 2008, and members of its military and the former ruling party's youth militias perpetrated acts of trafficking on local populations; anti-trafficking efforts were further weakened as it failed to address Zimbabwe's economic and social problems during the reporting period, thus increasing the population's vulnerability to trafficking within and outside of the country (2009) 
+</td>
+</tr>
+</table>
+
+        <table border="0" cellspacing="0" cellpadding="0" width="638">
+          <tr>
+            <td style="height:18px;" class="dashed_top_grey_line"><div align="right"><a href="#top"><img src="../graphics/backtotop_icon.gif" alt="Back to Top" width="16" height="16" border="0" style="padding:2px; cursor: pointer;" title="Back to Top"/></a></div></td>
+          </tr>
+        </table>
+  
+  <script src="../scripts/processAnchors.js" type="text/javascript"></script>
+  <script language="javascript" type="text/javascript">
+//		window.onload = setCountryData;
+		setCountryData();
+	</script>
+ 
+                      
+											<!-- InstanceEndEditable --></td>
+                                </tr>
+                              </table>
+                            </div></td>
+                        </tr>
+                      </table>
+                      <div class="floatClear"></div></td>
+                  </tr>
+                  <tr>
+                    <td align="right"></td>
+                    <td align="left" style="background-image: url(../graphics_wfbook_shell/grey_right_gutter.gif); background-position: 675px; background-repeat: repeat-y; background-color: #ffffff;"><table width="650" border="0" cellpadding="0" cellspacing="0">
+                        <tr  bgcolor="#FFFFFF">
+                          <td width="15">&nbsp;</td>
+                          <td align="right" class="bottom-text" style="border-bottom: 1px solid #CCCCCC; margin-right: 0px; width: 650px;">The online Factbook is updated weekly. ISSN 1553-8133<br />
+                            For additional information on government leaders in selected foreign countries, go to World Leaders.</td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <!-- *** Footer *** -->
+
+            <!-- *** / Footer *** -->
+           <div id="footerBlock" align="left" style=" margin-left: 0px; padding-left: 0px;">
+           
+			<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+            	<tr>
+                  <td style=" width:auto; font-size: 9px;"><ul id="footerLinks-L" style="padding-left: 70px; vertical-align:top; font-size: 9px; width: 638px; padding-right: 0px; padding-top: 5px; padding-bottom: 5px;">
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html#privacy-notice" style="font-size: 9px;">Privacy</a></li>
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html#copy" style="font-size: 9px;">Copyright</a></li>
+                  	<li><a title="Site Policies" href="/about-cia/site-policies/index.html" style="font-size: 9px;">Site Policies</a></li>
+                  	<li><a title="NoFEAR Act" href="/about-cia/no-fear-act/index.html" style="font-size: 9px;">NoFEAR Act</a></li>
+                  	<li><a href="http://www.foia.cia.gov/" style="font-size: 9px;">FOIA</a></li>
+                  	<li><a href="http://www.usa.gov/" style="font-size: 9px;">USA.gov</a></li>
+                  	<li><a href="http://www.dni.gov/" style="font-size: 9px;">DNI.gov</a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+                  	
+					<li><img src="../graphics/5_spacer.jpg" width="160" height="5" />&nbsp;</li>
+                  	<li><a href="/contact-cia" accesskey="9" title="Contact CIA" style="font-size: 9px;">Contact CIA</a></li>
+					<li style="margin-right: 0px;"><a href="/sitemap.html" accesskey="3" title="Site Map" style="font-size: 9px;">Site Map</a></li>
+                  	</ul></td>
+                  <td align="right" width="160" valign="top" style="background-image:url(graphics_wfbook_shell/grey_right_gutter_a.gif); background-position: top right; background-repeat: no-repeat;"><img src="../graphics_wfbook_shell/lnav_greybarBot1.gif" width="155" height="11"  style="margin-top: 0px;"/></td>
+                </tr>
+             </table> </div>
+            <div id="portal-footer">
+          <div id="colR" style="background-color: ##fff;"></div>    
+            </div>
+            <!-- *** / Footer *** -->
+        </tr>
+      </table></td>
+    <td valign="top" id="right_shadow" rowspan="2" ><table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 100%;">
+        <tr>
+          <td align="left" valign="top" style="background-image:url(../graphics/1024_background_top.jpg); background-position: top; background-repeat: repeat-x;"><img src="../graphics/1024_righttop_background.jpg" width="54" height="73" /></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="bottom-text1" valign="top" width="638"></td>
+  </tr>
+
+</table>
+</body>
+<!-- InstanceEnd --></html>
+

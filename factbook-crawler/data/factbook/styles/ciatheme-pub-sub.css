@@ -1,0 +1,36 @@
+
+/****** publication sub pages css only ***************/
+
+
+.section-library #sectionHeadBar {
+	background:White url(../../../images/sectionBar_pubR.gif) no-repeat top right; 
+}
+
+.section-library #sectionHeadBar h1 {
+	background:White url(../../../images/sectionBar_pubL.gif) no-repeat top right;
+}
+
+.section-library #portal-breadcrumbs {
+	background:White url(../../../images/rtBread_pub.jpg) no-repeat top right;
+	padding-left:8px;
+	padding-right:190px;
+	width:auto; height:auto;
+	min-height:52px;
+	font: normal 11px Arial;
+	margin: 0px 10px 0px 15px;
+	
+}
+
+/* IE fix */
+* html .section-library #portal-breadcrumbs {
+    height:52px;
+}
+
+#sectionHeadBar {
+width:auto; height:28px;
+padding:0px; margin:15px 5px 0px 12px;
+background:White url(../graphics_wfbook_shell/sectionBar_greyR.gif) no-repeat top right;
+}
+
+/* additonal code taken out from previous version */
+

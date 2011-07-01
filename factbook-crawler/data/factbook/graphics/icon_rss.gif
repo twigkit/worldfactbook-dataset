@@ -1,0 +1,1157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <title>
+        Rich Site Summary (RSS)
+        &mdash;
+        GCS
+    </title>
+
+    
+      
+        <base href="http://gcs.cia/rich-site-summary-rss" />
+      
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <meta content="RSS, Really Simple Syndication, Web 2.0, Subscribe"
+          name="description" />
+
+    <!-- Plone ECMAScripts -->
+    
+      
+        
+            
+                <script type="text/javascript"
+                        src="http://gcs.cia/portal_javascripts/MyTheme/ploneScripts2881.js">
+                </script>
+                
+            
+        
+    
+    
+
+    <script type="text/JavaScript">
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+            
+window.onload = function()  {
+if(document.layers){
+  var x = readCookie('browserDetected');
+  if (!x) {
+      if (navigator.appName == "Netscape") {
+          alert("You're using a browser not supported by GCS.  While you will still be able to view site content, your viewing experience will not be optimized.")
+      }
+      createCookie('browserDetected', 'yes', 1); 
+  }
+}
+var Tips2 = new Tips($$('.tagConnect'), {
+	initialize:function(){
+		this.fx = new Fx.Style(this.toolTip, 'opacity', {duration: 500, wait: false}).set(0);
+	},
+	onShow: function(toolTip) {
+		this.fx.start(.8);
+	},
+	onHide: function(toolTip) {
+		this.fx.start(0);
+	}
+});
+}
+</script>
+
+    
+	
+          
+        
+            
+                
+                    <!-- <link tal:condition="python: render == 'link'"
+                          rel="stylesheet"
+                          type="text/css"
+                          tal:attributes="href string:${portal_url}/portal_css/${skinname}/${stylesheet/getId};
+                                          media stylesheet/getMedia | nothing;
+                                          rel stylesheet/getRel | nothing;
+                                          title stylesheet/getTitle | nothing" /> -->
+                    
+                        <style type="text/css">@import url(http://gcs.cia/portal_css/MyTheme/ploneStyles5693.css);</style>
+                    
+                    
+                
+            
+            
+                
+                    <!-- <link tal:condition="python: render == 'link'"
+                          rel="stylesheet"
+                          type="text/css"
+                          tal:attributes="href string:${portal_url}/portal_css/${skinname}/${stylesheet/getId};
+                                          media stylesheet/getMedia | nothing;
+                                          rel stylesheet/getRel | nothing;
+                                          title stylesheet/getTitle | nothing" /> -->
+                    
+                    
+                
+            
+            
+                
+                    <!-- <link tal:condition="python: render == 'link'"
+                          rel="stylesheet"
+                          type="text/css"
+                          tal:attributes="href string:${portal_url}/portal_css/${skinname}/${stylesheet/getId};
+                                          media stylesheet/getMedia | nothing;
+                                          rel stylesheet/getRel | nothing;
+                                          title stylesheet/getTitle | nothing" /> -->
+                    
+                    
+                
+            
+            
+                
+                    <!-- <link tal:condition="python: render == 'link'"
+                          rel="stylesheet"
+                          type="text/css"
+                          tal:attributes="href string:${portal_url}/portal_css/${skinname}/${stylesheet/getId};
+                                          media stylesheet/getMedia | nothing;
+                                          rel stylesheet/getRel | nothing;
+                                          title stylesheet/getTitle | nothing" /> -->
+                    
+                        <style type="text/css"
+    media="screen">@import url(http://gcs.cia/portal_css/MyTheme/ploneStyles0590.css);</style>
+                    
+                    
+                
+            
+            
+                
+                    <!-- <link tal:condition="python: render == 'link'"
+                          rel="stylesheet"
+                          type="text/css"
+                          tal:attributes="href string:${portal_url}/portal_css/${skinname}/${stylesheet/getId};
+                                          media stylesheet/getMedia | nothing;
+                                          rel stylesheet/getRel | nothing;
+                                          title stylesheet/getTitle | nothing" /> -->
+                    
+                        <style type="text/css" media="all">@import url(http://gcs.cia/portal_css/MyTheme/ploneStyles3596.css);</style>
+                    
+                    
+                
+            
+        
+    
+        
+        
+    
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://gcs.cia/IEFixes.css);</style>
+    <![endif]-->
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://gcs.cia/favicon.ico" />
+
+    <link rel="home" href="http://gcs.cia"
+          title="Front page" />
+    <link rel="search" href="http://gcs.cia/search_form"
+          title="Search this site" />
+    <link rel="author" href="http://gcs.cia/author/admin"
+          title="Author information" />
+    <link rel="contents" href="http://gcs.cia/sitemap"
+          title="PTLookup" />
+
+    
+
+    
+
+    <link rel="up" href="http://gcs.cia"
+          title="Up one level" />
+
+    
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+  </head>
+
+  <body class="section-rich-site-summary-rss" dir="ltr">
+
+		<div id="classifiedTop">TOP SECRET//NOFORN</div>
+
+    <div id="wrapper" class="clearfix">
+
+        <!-- <img src="" id="logo" alt="GCS Logo" tal:attributes="src here/logo.jpg" /> -->
+
+        <!-- <div class="hiddenStructure">
+            <a accesskey="2"
+               tal:attributes="href string:${current_page_url}#documentContent"
+               i18n:translate="label_skiptocontent">Skip to Content</a> |
+
+            <a accesskey="6"
+               tal:attributes="href string:${current_page_url}#portlet-navigation-tree"
+               i18n:translate="label_skiptonavigation">Skip to Navigation</a>
+ 
+        </div> -->
+        <div id="header" class="clearfix">
+        <h1 id="logo">
+    <a href="http://gcs.cia" id="portal-logo" accesskey="1">GCS</a>
+</h1>
+
+        <div id="searchContainer">
+    <form name="searchform" id="search"
+          action="http://gcs.cia/search"
+          style="white-space:nowrap"
+          onsubmit="return liveSearchSubmit()">
+
+        <!-- <div class="LSBox"> -->
+					
+        <input id="searchGadget" name="SearchableText"
+               type="text" title="Search Site" accesskey="4"
+               class="visibility:visible" />
+			   
+		<input class="button" type="submit" value="Search" />
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        <!-- </div> -->
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://gcs.cia/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+        </div>
+        <div class="clearfix">
+        <ul id="global"> <li><a href="http://gcs.cia"
+    title="Home">Home</a></li>
+
+    <li id="siteaction-contact"><a
+    href="http://gcs.cia/contact-info" accesskey="9"
+    title="Contact">Contact</a></li>
+    <li id="siteaction-ptlookup"><a
+    href="https://ptlookup.cia/" accesskey=""
+    title="PTLookup">PTLookup</a></li>
+    <li id="siteaction-cialink"><a href="http://www.cia/"
+    accesskey="" title="CIALink">CIALink</a></li>
+
+</ul>
+        <ul id="tabs" class="clearfix">
+	   <li><a id="tabTag" class="tagConnect" title="What is OGI Planet? :: The Latest OGI News.  Click the tab to visit the OGI Planet." href="javascript:window.open('http://www.intelink.ic.gov/blogs/_ogi/');javascript:void(0);" title="Tag | Connect"><span>OGI Planet</span></a></li>
+	   <li><a id="tabRSS"
+           href="http://gcs.cia/rich-site-summary-rss"
+           title="Subscribe to RSS"><span>Subscribe (RSS)</span></a></li>
+	</ul>
+        </div>
+        <div class="clearfix">
+            <div id="sidebar" class="clearfix">
+            
+            <div>
+                
+                  
+
+    
+        
+
+        
+            
+
+        <ul id="nav">
+
+            
+            
+
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/our-mission"
+           class="state-published visualIconPadding"
+           title="Mission of GCS">Our Mission</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/about-gcs"
+           class="state-published visualIconPadding"
+           title="Information about GCS">About GCS</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/customer-connections"
+           class="state-published visualIconPadding"
+           title="Customer Information">Customer Connections</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/employee-connections"
+           class="state-published visualIconPadding"
+           title="Employee Information">Employee Connections</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/blue-badge-corner"
+           class="state-published visualIconPadding"
+           title="">Blue Badge Corner</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/organization-chart"
+           class="state-published visualIconPadding"
+           title="Organization Chart">Organization Chart</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/news"
+           class="state-published visualIconPadding"
+           title="GCS News">News</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="http://gcs.cia/collaboration-tools"
+           class="state-published visualIconPadding"
+           title="Agency Collaboration Tools">Collaboration Tools</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li>
+
+    
+
+    <div>
+        
+        <a href="about-gcs/group-listing"
+           class="state-published visualIconPadding"
+           title="Group Listings">GCS Groups</a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+<div id="navFooter">
+					<!-- <p><span tal:replace="python:here.mxm_counter.count(here)"/> Views</p> -->
+					<p>This site is best viewed using Firefox at 1024 x 768.</p>
+				</div>
+
+
+        
+
+        
+
+        
+    
+    
+        
+
+        
+            
+        
+
+        
+
+        
+    
+    
+        
+
+        
+            <div>
+
+  <dl class="portlet" id="portlet-popoll">
+  
+    <dt class="portletHeader">
+      <span class="portletBottomLeft"></span>
+      
+      <a href="http://gcs.cia/latest-poll-question">Latest Poll Question</a>
+      <span class="portletBottomRight"></span>
+    </dt>
+
+    
+      
+          <dd class="portletItem odd">
+            
+              
+
+              <h5>How Would You Characterize Your Learning Style?</h5>
+              <form action="http://gcs.cia/latest-poll-question/vote"
+                    name="results-latest-poll-question"
+                    method="post"
+                    enctype="multipart/form-data">
+                
+                  <input class="noborder"
+                         name="choices:list"
+                         id="popoll_cb_0_0" value="0"
+                         type="radio" />
+                  <label for="popoll_cb_0_0">
+                     Visual
+                     
+                  </label>
+                  <br />
+                
+                
+                  <input class="noborder"
+                         name="choices:list"
+                         id="popoll_cb_0_1" value="1"
+                         type="radio" />
+                  <label for="popoll_cb_0_1">
+                     Auditory
+                     
+                  </label>
+                  <br />
+                
+                
+                  <input class="noborder"
+                         name="choices:list"
+                         id="popoll_cb_0_2" value="2"
+                         type="radio" />
+                  <label for="popoll_cb_0_2">
+                     Hands-on
+                     
+                  </label>
+                  <br />
+                
+                
+                  <input class="noborder"
+                         name="choices:list"
+                         id="popoll_cb_0_3" value="3"
+                         type="radio" />
+                  <label for="popoll_cb_0_3">
+                     Textual
+                     
+                  </label>
+                  <br />
+                
+                <br />
+                <input class="context" type="submit"
+                       name="vote" value="Vote" />
+              </form>
+              
+              
+              
+              <div class="even">
+                <table width="100%" border="0" cellpadding=".5" cellspacing="0">  
+                   <tbody>
+                      <tr>
+                         <td>
+                            Votes :
+                            73
+                         </td>
+                         <td align="right">
+                            <a
+    href="http://gcs.cia/latest-poll-question/plonepopoll_results">Results</a>
+                         </td> 
+                      </tr>
+                   </tbody>
+                </table>  
+              </div>
+              
+            
+          </dd>
+    
+      
+      
+
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>    
+        <a href="http://gcs.cia/polls_list">Polls</a>
+        <span class="portletBottomRight"></span>
+    </dd>
+  </dl>
+
+</div>
+        
+
+        
+
+        
+    
+
+                
+                &nbsp;
+            </div>
+            </div>
+            
+
+            
+           <div id="mainColumn" class="clearfix">
+           <div id="container" class="clearfix">
+  
+              <div id="splash"></div>
+              
+
+              
+                <div id="content" class="">
+
+                  
+             
+
+                  
+
+                  <div class="documentContent clearfix" id="region-content">
+				  
+					 <div id="portal-breadcrumbs">
+
+    <a href="http://gcs.cia">Home</a>
+    <span class="breadcrumbSeparator">
+        &gt;
+        
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Rich Site Summary (RSS)</span>
+         
+    </span>
+
+</div>
+
+                    <a name="documentContent"></a>
+
+                    
+
+    
+
+
+
+                    
+
+                  
+
+                    
+    
+
+        <div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li>
+            <a href="javascript:this.print();">
+
+                <img src="http://gcs.cia/print_icon.gif"
+                     alt="Print this page"
+                     title="Print this page" id="icon-print" />
+            </a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+        <h1 class="documentFirstHeading">Rich Site Summary (RSS)</h1>
+    
+        
+
+        <!-- <p class="documentDescription"
+           tal:content="here/Description"
+           tal:condition="here/Description">
+            Description
+        </p> -->
+        
+    
+        <div class="plain">
+            
+<h2>What Is RSS?</h2>
+
+<br />
+<br />
+<p>Really Simple Syndication (<a title="RSS" href="http://www.ic.gov/wiki/RSS">RSS</a>) lets users subscribe to
+"feeds" provided by Web sites. At the time a site publishes a new
+article or page, the feed will alert the user of the new content. A
+program called an "RSS reader" or "RSS aggregator" lets users subscribe
+to feeds from various websites and allows users to view them all
+together. This allows users to keep up with new content on various
+websites by looking in one place.</p>
+
+<br />
+<p><br />
+</p>
+
+<p><br />
+</p>
+
+<p>The symbols <a href="http://www.ic.gov/wiki/Image:Rss_button_30x15.gif"><img class="image-inline" src="RSS%20Icon1.jpg" alt="RSS Icon1" /></a>or <a href="http://www.ic.gov/wiki/Image:Rssicon16x16.png"><img class="image-inline" src="RSS%20Icon2.jpg" alt="RSS Icon2" /></a>are
+used to signify the availability of RSS feeds on a web site.</p>
+
+<br />
+<p><br />
+</p>
+
+<p><br />
+</p>
+
+<h3>Why Should Users Subscribe to RSS?<br />
+</h3>
+
+<ul>
+<li>Allows users to collect and review information and content from
+multiple web sites without having to surf, search, and or browse
+through content they are not interested in</li>
+
+<li>Allows users to subscribe to published content (channel/feed) based
+on their interests</li>
+
+<li>Provides users a notification when new content is published. Users
+can set preferences for checking the subscribed feeds (Tool dependent,
+but typically 1 min to 24 hours in 5 min increments)</li>
+
+<li>Dynamic and current</li>
+</ul>
+
+<br />
+<br />
+<h3>How To Subscribe to Feeds</h3>
+
+<p>First, you need an RSS reader. If you are using <a href="http://www.ic.gov/wiki/Firefox">Firefox</a>, you can use the
+built-in reader called Sage (available in the Tools menu). Otherwise
+you can install a separate reader such as <a title="MyIntelink" href="http://www.ic.gov/wiki/MyIntelink">MyIntelink</a> subscriptions,
+<a title="IntelReader" href="http://www.ic.gov/wiki/IntelReader">IntelReader</a>, <a title="RSS Bandit" href="http://www.ic.gov/wiki/RSS_Bandit">RSS
+Bandit</a>, <a title="RSSOWL" href="http://www.ic.gov/wiki/RSSOWL">RSSOWL</a>, <a title="Feed Reader" href="http://www.ic.gov/wiki/Feed_Reader">Feed Reader</a>, <a title="SharpReader" href="http://www.ic.gov/w/index.php?title=SharpReader&amp;action=edit">SharpReader</a>,
+or <a title="Bottom Feeder" href="http://www.ic.gov/wiki/Bottom_Feeder">Bottom Feeder</a>,
+depending what is available at your location.</p>
+
+<br />
+<p><br />
+</p>
+
+<p><br />
+</p>
+
+<p>Whenever you see the symbol <a href="http://www.ic.gov/wiki/Image:Rss_button_30x15.gif"><img class="image-inline" src="RSS%20Icon1.jpg" alt="RSS Icon1" /></a>or <a href="http://www.ic.gov/wiki/Image:Rssicon16x16.png"><img class="image-inline" src="RSS%20Icon2.jpg" alt="RSS Icon2" /></a>on a
+Web page, you are usually able to subscribe to that feed by clicking on
+the image or clicking and dragging it into your RSS reader window. To
+subscribe to the below RSS feeds, first open Sage using Alt-S or by
+clicking Tools, Sage. With the Sage sidebar open, simply drag and drop
+the "Subscribe" link into Sage. Alternately, Agency users can also
+download <a href="http://www.ic.gov/wiki/Rss_bandit">RSS Bandit</a>.
+You can drag and drop RSS feeds into RSS Bandit as described with Sage
+above, but you can also use the RSS Bandit Setup Wizard.<br />
+</p>
+
+<p><br />
+</p>
+
+<div>
+<ol>
+<li>Find the button for the feed you are interested in using and click
+on it. As web page will open which contains a long list of XML code.
+Don't worry about this; all you really need is the URL. Highlight the
+URL and copy it to the clipboard.</li>
+
+<li>Open RSS Bandit and select 'New...'.</li>
+
+<li>Paste the URL into the URL field on the new subscription form and
+click 'Next'.</li>
+
+<li>The subscription title should automatically appear in the 'Title'
+field.</li>
+
+<li>Enter authentication information for SSL-enabled RSS Feeds.</li>
+
+<li>This screen is used to control certain behaviors for the feed.</li>
+
+<li>Click 'Finish'.</li>
+
+<li>Click 'Finish' again.</li>
+
+<li>Setup is complete.</li>
+</ol>
+</div>
+
+<p><br />
+</p>
+
+<p><br />
+</p>
+
+<p>Select an RSS to subscribe to from the listing below:<br />
+</p>
+
+<dl id="rss">
+<dt id="allNews">All News (<a href="news/latest-news/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest news and articles available from the
+entire GCS website.</dd>
+
+<dt>Briefing Archive (<a href="about-gcs/briefing-archive/briefing-archives/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest briefings available from the GCS
+website.</dd>
+
+<dt>Employee Connection (<a href="employee-connections/employee-corner/employee-corner/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Employee Connection submissions available
+from the GCS website.</dd>
+
+<dt>Points of Pride (<a href="news/points-of-pride/points-of-pride/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Points of Pride submissions available
+from the GCS website.</dd>
+
+<dt>Planet (<a href="news/planet/planet/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Planet submissions available from the GCS
+website.</dd>
+
+<dt>Weekly (<a href="news/weekly/weekly/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Weekly submissions available from the GCS
+website.</dd>
+
+<dt>Annual Report (<a href="news/annual-report/annual-report/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Annual Reports available from the GCS
+website.</dd>
+
+<dt>Annoucements (<a href="news/announcements/announcements/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Announcements available from the GCS
+website.</dd>
+
+<dt>Media Highlights (<a href="news/media-highlights/media-highlights/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Media Highlights available from the GCS
+website.</dd>
+
+<dt>All Hands (<a href="news/all-hands/all-hands/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest All Hands submissions available from the
+GCS website.</dd>
+
+<dt>Orientation (<a href="news/orientation/orientation/RSS">Subscribe</a>)</dt>
+
+<dd>An RSS feed of the latest Orientation submissions available from
+the GCS website.</dd>
+</dl>
+
+<p>Refer to the following resources for more information on RSS.</p>
+
+<p><a href="http://dstws01.cia/bb/dirnews.nsf/rss-help?OpenPage">DS&amp;T RSS
+Page</a></p>
+
+<p><a href="http://www.ic.gov/wiki/Rss">RSS on Intellipedia</a></p>
+
+<p><a href="http://whatsnews.cia/servlet/tsi.Traction?type=rss_help">RSS in
+What’s News</a></p>
+
+        </div>
+
+        <div id="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+    
+
+
+                    
+                      
+                 
+    
+        
+    
+
+                    
+
+                    
+
+                  </div>
+            
+            <div id="homepage">
+            <div id="news" class="module">
+                
+                  
+
+    
+        
+
+        
+            
+        
+
+        
+
+        
+    
+    
+        
+
+        
+            <div>
+
+     
+     <h2>Latest News</h2>
+     <div class="moduleContent">
+     <ul>
+     
+        <li>
+            
+                <a href="http://gcs.cia/news/weekly/archive/u-global-communications-services-gcs-01-13-2009-weekly-report"
+                   title="(U) Global Communications Services (GCS) 01/13/2009 Weekly Report">
+                <!-- <tal:block replace="structure here/newsitem_icon.gif" /> -->
+                (U) Global Communications Services (GCS) 01/13/2009 Weekly Report
+                </a>
+            
+        </li>
+     
+     
+        <li>
+            
+                <a href="http://gcs.cia/news/whats-news/archive/u-how-to-identify-mail-and-official-records-incorrectly-dated-on-jan-5"
+                   title="(U) How to Identify Mail and Official Records Incorrectly Dated on Jan. 5">
+                <!-- <tal:block replace="structure here/newsitem_icon.gif" /> -->
+                (U) How to Identify Mail and Official Records Incorrectly Dated on Jan. 5
+                </a>
+            
+        </li>
+     
+     
+        <li>
+            
+                <a href="http://gcs.cia/news/announcements/archive/gcs-publishes-2008-year-in-review"
+                   title="GCS Publishes 2008 Year in Review!">
+                <!-- <tal:block replace="structure here/newsitem_icon.gif" /> -->
+                (S) GCS Publishes 2008 Year in Review!
+                </a>
+            
+        </li>
+     
+     
+        <li>
+            
+                <a href="http://gcs.cia/news/weekly/archive/u-global-communications-services-gcs-12-16-08-weekly-report"
+                   title="(U) Global Communications Services (GCS) 12/16/08 Weekly Report">
+                <!-- <tal:block replace="structure here/newsitem_icon.gif" /> -->
+                (U) Global Communications Services (GCS) 12/16/08 Weekly Report
+                </a>
+            
+        </li>
+     
+     
+        <li>
+            
+                <a href="http://gcs.cia/news/whats-news/archive/u-cintelco-begins-headquarters-secure-recapitalization"
+                   title="December 11, 2008 - (C) Ledia Rivera, CINTELCO Enterprise Manager, had the honor of installing the first Voice over Internet Protocol (VoIP) telephone in Original Headquarters Building. The event took place on Monday, November 24...">
+                <!-- <tal:block replace="structure here/newsitem_icon.gif" /> -->
+                (U) CINTELCO Begins Headquarters Secure Recapitalization
+                </a>
+            
+        </li>
+       
+     </ul>
+     <span class="moduleActions">
+	<a href="http://gcs.cia/news">All Latest</a> | 
+        <a href="http://gcs.cia/rich-site-summary-rss"
+           class="rssLink" title="Subscribe to RSS">RSS</a> 
+     </span>
+     </div>
+
+     
+  
+
+</div>
+        
+
+        
+
+        
+    
+    
+        
+
+        
+            
+        
+
+        
+
+        
+    
+
+                
+                &nbsp;
+            </div>
+            
+            <div id="employee" class="module">
+<h2>Employee Connections</h2>
+
+<div class="moduleContent">
+<ul>
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/new-employee">New to GCS?</a></li>
+
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/hot-jobs">Hot Jobs</a></li>
+
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/manager-resources">Managers</a></li>
+
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/human-resources">Human Resources</a></li>
+
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/workforce-council-1">Workforce Council</a></li>
+
+<li><a title="View Link"
+       href="http://gcs.cia/employee-connections/employee-corner">Employee Corner</a></li>
+</ul>
+</div>
+</div>
+
+<div id="resources" class="module">
+<h2>Resources</h2>
+
+<div class="moduleContent">
+<ul>
+<li><a title="View Resource"
+       href="http://gcs.cia/employee-connections/manager-resources/weekly-report">Weekly Report</a></li>
+
+<li><a title="View Resource"
+       href="http://gcs.cia/news/media-highlights">Media Highlights</a></li>
+
+<li><a title="View Resource"
+       href="http://gcs.cia/about-gcs/directory">GCS Phone Directory</a></li>
+
+<li><a title="View Resource"
+       href="http://gcs.cia/employee-connections/communications-toolkit">Communication Toolkit</a></li>
+
+<li><a title="View Resource"
+       href="http://www.ic.gov/wiki/GCS">GCS Intellipedia Page</a></li>
+<li><a title="View Resource"
+       href="http://gcs.cia/employee-connections/it-policies">IT Policies</a></li>
+<li><a title="View Resource"
+       href="http://gcs.cia/gcs-acquisitions/">GCS Acquisitions</a></li>
+<li><a title="View Resource"
+       href="http://gcs.cia/about-gcs/briefing-archive/IT%20Infra%20Health%20Assess%20%20Final%20v6%2013%20Aug%202008-1.doc">Infrastructure Health Assessment</a></li>
+
+</ul>
+</div>
+</div>
+ <div class="push"></div>
+            </div>
+            
+                </div>
+
+              
+            </div>
+             
+
+        <div id="footer" il8n:domain="plone"
+             class="clearfix">
+				<p id="copy">&copy; 2007 Global Communications Services <br /> <a
+    href="http://gcs.cia/sitemap" title="sitemap"> sitemap</a> <a href="#wrapper" title="Back To Top">Back To Top</a></p>
+				<p id="standards">This site was developed using web standards:<br />
+				508 | XHTML | CSS</p>
+			</div>
+
+      
+            </div> 
+            
+
+             
+		</div>
+      
+    
+        <li>
+            <a href="javascript:this.print();">
+
+                <img src="http://www.ims.cia:8011/print_icon.gif" alt="Print this page" title="Print this page" id="icon-print" />
+            </a>
+        </li>
+
+
+      </div>
+
+      <hr class="netscape4" />
+      <div id="classificationBlock">
+      <p> CL By: 2361247</p>
+      <p> CL Reason: 1.4(c), (g)</p>
+      <p> Decl On: 20321217</p>
+      <p> DRV From: INF T-06</p>
+      </div>
+      <div id="classifiedBottom">TOP SECRET//NOFORN</div>
+     
+      <div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools">
+   
+
+    
+        <li>
+            <a href="http://gcs.cia/login_form">
+               Log in
+            </a>
+        </li>
+    
+
+</ul>
+</div>
+    
+
+
+</body>
+</html>
+
+
