@@ -1,5 +1,6 @@
 var async = require('async'),
-	analyser = require('./analyser'),
+	scraper = require('./scraper'),
+	processor = require('./processor'),
 	fs = require('fs');
 	
 var pattern = new RegExp("^[a-z]+\\.html$","i");
@@ -16,13 +17,15 @@ exports.run = function( originRoot, outputRoot, format ){
 	
 	async.forEachSeries( matchingFiles, function( item, callback ){
 		console.log("item",item);
-		fs.readFile( originRoot+item+'.html', "utf-8", function( err, data ){
+		fs.readFile( originRoot+item+'.html', "utf-8", function( err, rawData ){
 			if ( err ) throw err;
-			analyser.chew( item, data, function( err, data ){
+			scraper.bite( item, rawData, function( err, structuredData ){
 				if ( err ) throw err;
-				fs.writeFile( outputRoot+'/'+item+"."+format, formatter.spit( data ), function(err){
-					if ( err ) throw err;
-					callback();
+				processor.chew( structuredData, function( err, cleanedData ){
+					fs.writeFile( outputRoot+'/'+item+"."+format, formatter.spit( cleanedData ), function(err){
+						if ( err ) throw err;
+						callback(); // trigger next
+					});
 				});
 			});
 		});

@@ -1,5 +1,4 @@
-var Apricot = require('apricot').Apricot,
-	htmlparser = require("htmlparser"),
+var htmlparser = require("htmlparser"),
 	select = require('soupselect').select,
 	util = require('util'),
 	domUtils = htmlparser.DomUtils;
@@ -8,20 +7,20 @@ var map = {
 	xx : 'world'
 }
 
-exports.chew = function( code, html, callback ){
+// scrapes a given HTML file based on its type (according to its two letter code)
+exports.bite = function( code, html, callback ){
 	var type = map[code] || 'country';
 	exports[type]( code, html, callback );
 };
 
+// TO DO
 exports.world = function( code, html, callback ){
 	try {
 		parse( html, function(err, dom) {
 			if (err) throw err;
-			var country = {};
-			
-			country.name = 'World';
-			
-			callback( undefined, country );	
+			var world = {};
+			world.name = 'World';
+			callback( undefined, world );
 		});
 	}
 	catch(e) {
@@ -30,8 +29,7 @@ exports.world = function( code, html, callback ){
 	}
 }
 
-
-
+// TO DO
 exports.region = function( code, html, callback ){
 	
 }
