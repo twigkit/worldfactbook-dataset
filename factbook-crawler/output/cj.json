@@ -5,20 +5,50 @@
 	"background": "The Cayman Islands were colonized from Jamaica by the British during the 18th and 19th centuries and were administered by Jamaica after 1863. In 1959, the islands became a territory within the Federation of the West Indies. When the Federation dissolved in 1962, the Cayman Islands chose to remain a British dependency.",
 	"geo": {
 		"Location": "Caribbean, three-island group (Grand Cayman, Cayman Brac, Little Cayman) in Caribbean Sea, 240 km south of Cuba and 268 km northwest of Jamaica",
-		"Geographic coordinates": "19 30 N, 80 30 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 19,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 80,
+				"seconds": 30
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "264 sq km",
+			"total:": {
+				"quantity": 264,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "264 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 264,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "1.5 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "160 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 160,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)",
 		"Terrain": "low-lying limestone base surrounded by coral reefs",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "fish, climate and beaches that foster tourism",
 		"Land use": {
-			"arable land:": "3.85%",
-			"permanent crops:": "0%",
-			"other:": "96.15% (2005)"
+			"arable land:": {
+				"quantity": 3.85,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.15,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "hurricanes (July to November)",
@@ -39,61 +78,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "51,384 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "19% (male 4,924/female 4,858)",
-			"15-64 years:": "71.1% (male 17,766/female 18,743)",
+			"0-14 years:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71.1,
+				"unit": "%"
+			},
 			"65 years and over:": "9.9% (male 2,401/female 2,692) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "38.7 years",
-			"male:": "38.2 years",
-			"female:": "39.2 years (2011 est.)"
+			"total:": {
+				"quantity": 38.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 39.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.287% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.287,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.24 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.24,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.1 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.1,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "15.72 migrant(s)/1,000 population",
+			"Net migration rate": {
+				"quantity": 15.72,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "GEORGE TOWN (capital) 32,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.016 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.89 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.016,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.63 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.63,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.6 deaths/1,000 live births",
-			"female:": "5.65 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.6,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.65,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.68 years",
+			"total population:": {
+				"quantity": 80.68,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.02 years",
-			"female:": "83.39 years (2011 est.)"
+			"male:": {
+				"quantity": 78.02,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 83.39,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.87 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.87,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -110,14 +218,32 @@
 		"Languages": "English (official) 95%, Spanish 3.2%, other 1.8% (1999 census)",
 		"Literacy": {
 			"definition:": "age 15 and over has ever attended school",
-			"total population:": "98%",
-			"male:": "98%",
-			"female:": "98% (1970 est.)"
+			"total population:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "11 years",
-			"female:": "12 years (2008)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -130,7 +256,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "George Town (on Grand Cayman)",
-			"geographic coordinates:": "19 18 N, 81 23 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 19,
+					"seconds": 18
+				},
+				"W": {
+					"minutes": 81,
+					"seconds": 23
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "8 districts; Creek, Eastern, Midland, South Town, Spot Bay, Stake Bay, West End, Western",
@@ -165,34 +300,64 @@
 	"economy": {
 		"Economy - overview": "With no direct taxation, the islands are a thriving offshore financial center. More than 93,000 companies were registered in the Cayman Islands as of 2008, including almost 300 banks, 800 insurers, and 10,000 mutual funds. A stock exchange was opened in 1997. Tourism is also a mainstay, accounting for about 70% of GDP and 75% of foreign currency earnings. The tourist industry is aimed at the luxury market and caters mainly to visitors from North America. Total tourist arrivals exceeded 1.9 million in 2008, with about half from the US. About 90% of the islands' food and consumer goods must be imported. The Caymanians enjoy a standard of living roughly equal to that of Switzerland.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.25 billion (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2250000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.25 billion (2008 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2250000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.1% (2008 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$43,800 (2004 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.4%",
-			"industry:": "3.2%",
-			"services:": "95.4% (1994 est.)"
+			"agriculture:": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 95.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "39,000",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "1.9%",
-			"industry:": "19.1%",
-			"services:": "79% (2008 est.)"
+			"agriculture:": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 79,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "4% (2008)",
+			"Unemployment rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -201,19 +366,30 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$423.8 million",
-			"expenditures:": "$392.6 million (2004)"
+			"revenues:": {
+				"usd": 423800000
+			},
+			"expenditures:": {
+				"usd": 392600000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.1% (2008)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$334.3 million (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 334300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$5.564 billion (31 December 2008 est.)",
+			"Stock of broad money": {
+				"usd": 5564000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -224,67 +400,115 @@
 		"Industries": "tourism, banking, insurance and finance, construction, construction materials, furniture",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "546 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 546000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "507.8 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 507800000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "3,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 3000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "3,294 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 3294,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$13.8 million (2008)",
+			"Exports": {
+				"usd": 13800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "turtle products, manufactured consumer goods",
 		"Imports": {
-			"Imports": "$876.5 million (2008)",
+			"Imports": {
+				"usd": 876500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, manufactured goods, fuels",
 		"Debt - external": {
-			"Debt - external": "$70 million (1996)",
+			"Debt - external": {
+				"usd": 70000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -293,11 +517,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "38,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "33,800 (2004)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -308,31 +532,37 @@
 		"Broadcast media": "4 television stations; cable and satellite subscription services offer a variety of international programming; government-owned Radio Cayman operates 2 networks broadcasting on 5 stations; 10 privately-owned radio stations operate alongside Radio Cayman (2007)",
 		"Internet country code": ".ky",
 		"Internet hosts": {
-			"Internet hosts": "21,910 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "3 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"1,524 to 2,437 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
 		"Roadways": {
-			"total:": "785 km",
+			"total:": {
+				"quantity": 785,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "785 km (2007)"
+			"paved:": {
+				"quantity": 785,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "113",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 20, cargo 3, chemical tanker 56, liquefied gas 1, petroleum tanker 8, refrigerated cargo 10, vehicle carrier 15",
 			"foreign-owned:": "99 (Germany 6, Greece 11, Italy 6, Japan 19, Switzerland 1, UK 2, US 54) (2010)"
@@ -342,15 +572,15 @@
 	"military": {
 		"Military branches": "no regular military forces; Royal Cayman Islands Police Force (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "12,238 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "9,981",
-			"females age 16-49:": "10,417 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "333",
-			"female:": "342 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

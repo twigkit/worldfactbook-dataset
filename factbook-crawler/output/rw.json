@@ -5,20 +5,44 @@
 	"background": "In 1959, three years before independence from Belgium, the majority ethnic group, the Hutus, overthrew the ruling Tutsi king. Over the next several years, thousands of Tutsis were killed, and some 150,000 driven into exile in neighboring countries. The children of these exiles later formed a rebel group, the Rwandan Patriotic Front (RPF), and began a civil war in 1990. The war, along with several political and economic upheavals, exacerbated ethnic tensions, culminating in April 1994 in a state-orchestrated genocide, in which Rwandans killed up to a million of their fellow citizens, including approximately three-quarters of the Tutsi population. The genocide ended later that same year when the predominantly Tutsi RPF, operating out of Uganda and northern Rwanda, defeated the national army and Hutu militias, and established an RPF-led government of national unity. Approximately 2 million Hutu refugees - many fearing Tutsi retribution - fled to neighboring Burundi, Tanzania, Uganda, and Zaire. Since then, most of the refugees have returned to Rwanda, but several thousand remained in the neighboring Democratic Republic of the Congo (DRC; the former Zaire) and formed an extremist insurgency bent on retaking Rwanda, much as the RPF tried in 1990. Rwanda held its first local elections in 1999 and its first post-genocide presidential and legislative elections in 2003. Rwanda in 2009 staged a joint military operation with the Congolese Army in DRC to rout out the Hutu extremist insurgency there and Kigali and Kinshasa restored diplomatic relations. Rwanda also joined the Commonwealth in late 2009.",
 	"geo": {
 		"Location": "Central Africa, east of Democratic Republic of the Congo",
-		"Geographic coordinates": "2 00 S, 30 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 2,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 30,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "26,338 sq km",
+			"total:": {
+				"quantity": 26338,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "24,668 sq km",
-			"water:": "1,670 sq km"
+			"land:": {
+				"quantity": 24668,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1670,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "893 km",
+			"total:": {
+				"quantity": 893,
+				"unit": "km"
+			},
 			"border countries:": "Burundi 290 km, Democratic Republic of the Congo 217 km, Tanzania 217 km, Uganda 169 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate; two rainy seasons (February to April, November to January); mild in mountains with frost and snow possible",
 		"Terrain": "mostly grassy uplands and hills; relief is mountainous with altitude declining from west to east",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "gold, cassiterite (tin ore), wolframite (tungsten ore), methane, hydropower, arable land",
 		"Land use": {
-			"arable land:": "45.56%",
-			"permanent crops:": "10.25%",
-			"other:": "44.19% (2005)"
+			"arable land:": {
+				"quantity": 45.56,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 10.25,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 44.19,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "90 sq km (2008)",
-		"Total renewable water resources": "5.2 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 90,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 5.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.15  cu km/yr (24%/8%/68%)",
-			"per capita:": "17  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.15,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 17,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "periodic droughts; the volcanic Virunga mountains are in the northwest along the border with Democratic Republic of the Congo",
@@ -51,73 +96,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "11,370,425 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42.9% (male 2,454,924/female 2,418,504)",
-			"15-64 years:": "54.7% (male 3,097,956/female 3,123,910)",
+			"0-14 years:": {
+				"quantity": 42.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.7,
+				"unit": "%"
+			},
 			"65 years and over:": "2.4% (male 110,218/female 164,913) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.7 years",
-			"male:": "18.5 years",
-			"female:": "19 years (2011 est.)"
+			"total:": {
+				"quantity": 18.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.792% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.792,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "36.74 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 36.74,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.88 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.88,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "1.06 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 1.06,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "19% of total population (2010)",
-			"rate of urbanization:": "4.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 19,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "KIGALI (capital) 909,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "64.04 deaths/1,000 live births",
+			"total:": {
+				"quantity": 64.04,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "67.64 deaths/1,000 live births",
-			"female:": "60.32 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 67.64,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 60.32,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "58.02 years",
+			"total population:": {
+				"quantity": 58.02,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "56.57 years",
-			"female:": "59.52 years (2011 est.)"
+			"male:": {
+				"quantity": 56.57,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 59.52,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.9 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.9,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "2.9% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "170,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "4,100 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,17 +254,38 @@
 		"Languages": "Kinyarwanda (official, universal Bantu vernacular), French (official), English (official), Kiswahili (Swahili, used in commercial centers)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "70.4%",
-			"male:": "76.3%",
-			"female:": "64.7% (2003 est.)"
+			"total population:": {
+				"quantity": 70.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 76.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 64.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {
-			"Education expenditures": "4.1% of GDP (2008)",
+			"Education expenditures": {
+				"quantity": 4.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"People - note": {}
@@ -163,7 +301,16 @@
 		"Government type": "republic; presidential, multiparty system",
 		"Capital": {
 			"name:": "Kigali",
-			"geographic coordinates:": "1 57 S, 30 04 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 1,
+					"seconds": 57
+				},
+				"E": {
+					"minutes": 30,
+					"seconds": 4
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "4 provinces (in French - provinces, singular - province; in Kinyarwanda - intara for singular and plural) and 1 city* (in French - ville; in Kinyarwanda - umujyi); Est (Eastern), Kigali*, Nord (Northern), Ouest (Western), Sud (Southern)",
@@ -208,55 +355,101 @@
 	"economy": {
 		"Economy - overview": "Rwanda is a poor rural country with about 90% of the population engaged in (mainly subsistence) agriculture and some mineral and agro-processing. Tourism is now Rwanda's primary foreign exchange earner and in 2008, minerals overtook coffee and tea as Rwanda's primary export. Minerals exports declined 40% in 2009-10 due to the global economic downturn. The 1994 genocide decimated Rwanda's fragile economic base, severely impoverished the population, particularly women, and temporarily stalled the country's ability to attract private and external investment. However, Rwanda has made substantial progress in stabilizing and rehabilitating its economy to pre-1994 levels. GDP has rebounded with an average annual growth of 7-8% since 2003 and inflation has been reduced to single digits. Nonetheless, a significant percent of the population still live below the official poverty line. Despite Rwanda's fertile ecosystem, food production often does not keep pace with demand, requiring food imports. Agricultural production has increased significantly over the last three years and last year Rwanda was self sufficient in food production. Rwanda continues to receive substantial aid money and obtained IMF-World Bank Heavily Indebted Poor Country (HIPC) initiative debt relief in 2005-06. In recognition of Rwanda's successful management of its macro economy, in 2010, the IMF graduated Rwanda to a Policy Support Instrument (PSI). Rwanda also received a Millennium Challenge Threshold Program in 2008. Africa's most densely populated country is trying to overcome the limitations of its small, landlocked economy by leveraging regional trade. Rwanda joined the East African Community and is aligning its budget, trade, and immigration policies with its regional partners. The government has embraced an expansionary fiscal policy to reduce poverty by improving education, infrastructure, and foreign and domestic investment and pursuing market-oriented reforms. Energy shortages, instability in neighboring states, and lack of adequate transportation linkages to other countries continue to handicap private sector growth. The Rwandan government is seeking to become regional leader in information and communication technologies. In 2010, Rwanda neared completion of the first modern Special Economic Zone (SEZ) in Kigali. The SEZ seeks to attract investment in all sectors, but specifically in agribusiness, information and communications technologies, trade and logistics, mining, and construction. The global downturn hurt export demand and tourism, but economic growth is recovering, driven in large part by the services sector, and inflation has been contained. On the back of this growth, government is gradually ending its fiscal stimulus policy while protecting aid to the poor.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$12.16 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 12160000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$5.622 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 5622000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "42.1%",
-			"industry:": "14.3%",
-			"services:": "43.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 42.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 43.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.446 million (2007)",
+			"Labor force": 4446000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "90%",
-			"industry and services:": "10% (2000)"
+			"agriculture:": {
+				"quantity": 90,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 10,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "60% (2001 est.)",
+		"Population below poverty line": {
+			"quantity": 60,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.1%",
-			"highest 10%:": "38.2% (2000)"
+			"lowest 10%:": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 38.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "46.8 (2000)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "20% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 20,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.169 billion",
-			"expenditures:": "$1.366 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1169000000
+			},
+			"expenditures:": {
+				"usd": 1366000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "11.25% (31 December 2008)",
+			"Central bank discount rate": {
+				"quantity": 11.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
@@ -264,72 +457,123 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$602.3 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 602300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.243 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1243000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$600.4 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 600400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, tea, pyrethrum (insecticide made from chrysanthemums), bananas, beans, sorghum, potatoes; livestock",
 		"Industries": "cement, agricultural products, small-scale beverages, soap, furniture, shoes, plastic goods, textiles, cigarettes",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "120 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 120000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "231.6 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 231600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "10 million kWh (2007)",
-		"Electricity - imports": "130 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 10000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 130000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "6,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 6000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "5,623 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 5623,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "56.63 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 56630000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -337,19 +581,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$226 million (2010 est.)",
+			"Exports": {
+				"usd": 226000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, tea, hides, tin ore",
 		"Exports - partners": "Kenya 33.88%, Democratic Republic of the Congo 13.56%, Thailand 6.22%, China 5.49%, US 5.47%, Swaziland 5.43%, Belgium 5.19% (2009)",
 		"Imports": {
-			"Imports": "$1.047 billion (2010 est.)",
+			"Imports": {
+				"usd": 1046999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, steel, petroleum products, cement and construction material",
 		"Imports - partners": "Kenya 16.53%, Uganda 14.92%, China 7.92%, UAE 6.89%, Belgium 5.54%, Germany 5.19%, Tanzania 4.81%, Sweden 4% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$816 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 816000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": "$NA",
@@ -357,11 +607,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "33,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.429 million (2009)",
+			"Telephones - mobile cellular": 2429000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -372,32 +622,41 @@
 		"Broadcast media": "government owns and operates the only TV station; government-owned and operated Radio Rwanda has a national reach; 9 private radio stations; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".rw",
 		"Internet hosts": {
-			"Internet hosts": "815 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "9 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "1",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "5",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "14,008 km",
+			"total:": {
+				"quantity": 14008,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,662 km",
-			"unpaved:": "11,346 km (2004)"
+			"paved:": {
+				"quantity": 2662,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 11346,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(Lac Kivu navigable by shallow-draft barges and native craft) (2009)",
 		"Ports and terminals": {}
@@ -406,16 +665,16 @@
 		"Military branches": "Rwandan Defense Force (RDF): Rwandan Army (Rwandan Land Force), Rwandan Air Force (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription; Rwandan citizenship required (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,625,917",
-			"females age 16-49:": "2,608,110 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,685,066",
-			"females age 16-49:": "1,749,580 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "110,736",
-			"female:": "110,328 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

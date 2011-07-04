@@ -5,20 +5,50 @@
 	"background": "Originally settled by Polynesian emigrants from surrounding island groups, the Tokelau Islands were made a British protectorate in 1889. They were transferred to New Zealand administration in 1925. Referenda held in 2006 and 2007 to change the status of the islands from that of a New Zealand territory to one of free association with New Zealand did not meet the needed threshold for approval.",
 	"geo": {
 		"Location": "Oceania, group of three atolls in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand",
-		"Geographic coordinates": "9 00 S, 172 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 9,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 172,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "12 sq km",
+			"total:": {
+				"quantity": 12,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "12 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 12,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 17 times the size of The Mall in Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "101 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 101,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; moderated by trade winds (April to November)",
 		"Terrain": "low-lying coral atolls enclosing large lagoons",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "NEGL",
 		"Land use": {
-			"arable land:": "0% (soil is thin and infertile)",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "lies in Pacific typhoon belt",
@@ -39,13 +78,22 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,384 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42%",
-			"15-64 years:": "53%",
-			"65 years and over:": "5% (2009 est.)"
+			"0-14 years:": {
+				"quantity": 42,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 53,
+				"unit": "%"
+			},
+			"65 years and over:": {
+				"quantity": 5,
+				"unit": "%"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.011% (2011 est.)",
@@ -55,8 +103,14 @@
 		"Death rate": "NA",
 		"Net migration rate": "NA",
 		"Urbanization": {
-			"urban population:": "0% of total population (2010)",
-			"rate of urbanization:": "0% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 0,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": "NA",
 		"Infant mortality rate": {
@@ -86,9 +140,18 @@
 		"Languages": "Tokelauan (a Polynesian language), English",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2003)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -132,13 +195,17 @@
 	"economy": {
 		"Economy - overview": "Tokelau's small size (three villages), isolation, and lack of resources greatly restrain economic development and confine agriculture to the subsistence level. The people rely heavily on aid from New Zealand - about $10 million annually in 2008 and 2009 - to maintain public services. New Zealand's support amounts to 80% of Tokelau's recurrent government budget. An international trust fund, currently worth nearly US$32 million, was established in 2004 to provide Tokelau an independent source of revenue. The principal sources of revenue come from sales of copra, postage stamps, souvenir coins, and handicrafts. Money is also remitted to families from relatives in New Zealand.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.5 million (1993 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1500000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,000 (1993 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -147,14 +214,18 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "440 (2001)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
 		"Budget": {
-			"revenues:": "$430,800",
-			"expenditures:": "$2.8 million (1987 est.)"
+			"revenues:": {
+				"usd": null
+			},
+			"expenditures:": {
+				"usd": 2800000
+			}
 		},
 		"Inflation rate (consumer prices)": "NA%",
 		"Agriculture - products": "coconuts, copra, breadfruit, papayas, bananas; pigs, poultry, goats; fish",
@@ -162,12 +233,16 @@
 		"Electricity - production": "NA kWh",
 		"Electricity - consumption": "NA kWh",
 		"Exports": {
-			"Exports": "$0 (2002)",
+			"Exports": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "stamps, copra, handicrafts",
 		"Imports": {
-			"Imports": "$969,200 (2002)",
+			"Imports": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, building materials, fuel",
@@ -175,7 +250,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "300 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -186,7 +261,7 @@
 		"Broadcast media": "no broadcast television stations; each atoll operates a radio service that provides shipping news and weather reports (2009)",
 		"Internet country code": ".tk",
 		"Internet hosts": {
-			"Internet hosts": "526 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}

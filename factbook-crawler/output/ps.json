@@ -5,20 +5,50 @@
 	"background": "After three decades as part of the UN Trust Territory of the Pacific under US administration, this westernmost cluster of the Caroline Islands opted for independence in 1978 rather than join the Federated States of Micronesia. A Compact of Free Association with the US was approved in 1986 but not ratified until 1993. It entered into force the following year when the islands gained independence.",
 	"geo": {
 		"Location": "Oceania, group of islands in the North Pacific Ocean, southeast of the Philippines",
-		"Geographic coordinates": "7 30 N, 134 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 7,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 134,
+				"seconds": 30
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "459 sq km",
+			"total:": {
+				"quantity": 459,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "459 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 459,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than 2.5 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "1,519 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1519,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot and humid; wet season May to November",
 		"Terrain": "varying geologically from the high, mountainous main island of Babelthuap to low, coral islands usually fringed by large barrier reefs",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "forests, minerals (especially gold), marine products, deep-seabed minerals",
 		"Land use": {
-			"arable land:": "8.7%",
-			"permanent crops:": "4.35%",
-			"other:": "86.95% (2005)"
+			"arable land:": {
+				"quantity": 8.7,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 4.35,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 86.95,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (June to December)",
@@ -43,60 +82,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "20,956 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21.5% (male 2,329/female 2,187)",
-			"15-64 years:": "72% (male 8,355/female 6,724)",
+			"0-14 years:": {
+				"quantity": 21.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 72,
+				"unit": "%"
+			},
 			"65 years and over:": "6.5% (male 402/female 959) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "32.6 years",
-			"male:": "32.3 years",
-			"female:": "33.3 years (2011 est.)"
+			"total:": {
+				"quantity": 32.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 33.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.363% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.363,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.74 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.74,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.87 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.87,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.76 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.76,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "83% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 83,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.064 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.25 male(s)/female",
-			"65 years and over:": "0.43 male(s)/female",
-			"total population:": "1.13 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.064,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.25,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.43,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.13,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "12.43 deaths/1,000 live births",
+			"total:": {
+				"quantity": 12.43,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "14.06 deaths/1,000 live births",
-			"female:": "10.7 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 14.06,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 10.7,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.78 years",
+			"total population:": {
+				"quantity": 71.78,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.63 years",
-			"female:": "75.12 years (2011 est.)"
+			"male:": {
+				"quantity": 68.63,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.12,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.73 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.73,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -115,14 +223,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92%",
-			"male:": "93%",
-			"female:": "90% (1980 est.)"
+			"total population:": {
+				"quantity": 92,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 93,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 90,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "14 years",
-			"female:": "15 years (2001)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -137,7 +263,16 @@
 		"Government type": "constitutional government in free association with the US; the Compact of Free Association entered into force on 1 October 1994",
 		"Capital": {
 			"name:": "Melekeok",
-			"geographic coordinates:": "7 29 N, 134 38 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 7,
+					"seconds": 29
+				},
+				"E": {
+					"minutes": 134,
+					"seconds": 38
+				}
+			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "16 states; Aimeliik, Airai, Angaur, Hatohobei, Kayangel, Koror, Melekeok, Ngaraard, Ngarchelong, Ngardmau, Ngatpang, Ngchesar, Ngeremlengui, Ngiwal, Peleliu, Sonsorol",
@@ -183,31 +318,52 @@
 	"economy": {
 		"Economy - overview": "The economy consists primarily of tourism, subsistence agriculture, and fishing. The government is the major employer of the work force relying heavily on financial assistance from the US. The Compact of Free Association with the US, entered into after the end of the UN trusteeship on 1 October 1994, provided Palau with up to $700 million in US aid for the following 15 years in return for furnishing military facilities. Business and tourist arrivals numbered 85,000 in 2007. The population enjoys a per capita income roughly 50% higher than that of the Philippines and much of Micronesia. Long-run prospects for the key tourist sector have been greatly bolstered by the expansion of air travel in the Pacific, the rising prosperity of leading East Asian countries, and the willingness of foreigners to finance infrastructure development.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$164 million (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 164000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$164 million (2008)",
+		"GDP (official exchange rate)": {
+			"usd": 164000000
+		},
 		"GDP - real growth rate": "NA% (2009)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$8,100 (2008 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6.2%",
-			"industry:": "12%",
-			"services:": "81.8% (2003)"
+			"agriculture:": {
+				"quantity": 6.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 12,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 81.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "9,777 (2005)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "20%",
+			"agriculture:": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"industry:": "NA%",
 			"services:": "NA% (1990)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "4.2% (2005 est.)",
+			"Unemployment rate": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -216,11 +372,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$114.8 million",
-			"expenditures:": "$99.5 million (2008 est.)"
+			"revenues:": {
+				"usd": 114800000
+			},
+			"expenditures:": {
+				"usd": 99500000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.7% (2005 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -228,32 +391,40 @@
 		"Industries": "tourism, craft items (from shell, wood, pearls), construction, garment making",
 		"Industrial production growth rate": "NA%",
 		"Current account balance": {
-			"Current account balance": "$15.09 million (FY03/04)",
+			"Current account balance": {
+				"usd": 15090000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.882 million (2004 est.)",
+			"Exports": {
+				"usd": 5882000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "shellfish, tuna, copra, garments",
 		"Imports": {
-			"Imports": "$107.3 million (2004 est.)",
+			"Imports": {
+				"usd": 107300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, fuels, metals; foodstuffs",
 		"Debt - external": {
-			"Debt - external": "$0 (FY99/00)",
+			"Debt - external": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "7,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "13,200 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -267,31 +438,31 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "3 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "2",
-			"1,524 to 2,437 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "no regular military forces; Palau National Police (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "6,987 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "5,272",
-			"females age 16-49:": "3,969 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "216",
-			"female:": "222 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

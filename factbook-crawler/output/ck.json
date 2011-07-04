@@ -5,20 +5,50 @@
 	"background": "There are 27 coral islands in the group. Captain William KEELING discovered the islands in 1609, but they remained uninhabited until the 19th century. From the 1820s to 1978, members of the CLUNIE-ROSS family controlled the islands and the copra produced from local coconuts. Annexed by the UK in 1857, the Cocos Islands were transferred to the Australian Government in 1955. The population on the two inhabited islands generally is split between the ethnic Europeans on West Island and the ethnic Malays on Home Island.",
 	"geo": {
 		"Location": "Southeastern Asia, group of islands in the Indian Ocean, southwest of Indonesia, about halfway between Australia and Sri Lanka",
-		"Geographic coordinates": "12 30 S, 96 50 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 12,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 96,
+				"seconds": 50
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "14 sq km",
+			"total:": {
+				"quantity": 14,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "14 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 14,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 24 times the size of The Mall in Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "26 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 26,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical with high humidity, moderated by the southeast trade winds for about nine months of the year",
 		"Terrain": "flat, low-lying coral atolls",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "fish",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "cyclone season is October to April",
@@ -39,7 +78,7 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "596 (July 2010 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -48,7 +87,10 @@
 			"65 years and over:": "NA"
 		},
 		"Population growth rate": {
-			"Population growth rate": "0% (2010 est.)",
+			"Population growth rate": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": "NA",
@@ -88,7 +130,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "West Island",
-			"geographic coordinates:": "12 10 S, 96 50 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 12,
+					"seconds": 10
+				},
+				"E": {
+					"minutes": 96,
+					"seconds": 50
+				}
+			},
 			"time difference:": "UTC+6.5 (11.5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territory of Australia)",
@@ -120,7 +171,10 @@
 		"Economy - overview": "Coconuts, grown throughout the islands, are the sole cash crop. Small local gardens and fishing contribute to the food supply, but additional food and most other necessities must be imported from Australia. There is a small tourist industry.",
 		"GDP (purchasing power parity)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1% (2003)",
+			"GDP - real growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Labor force": "NA",
@@ -128,7 +182,10 @@
 			"note:": "the Cocos Islands Cooperative Society Ltd. employs construction workers, stevedores, and lighterage workers; tourism employs others"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "60% (2000 est.)",
+			"Unemployment rate": {
+				"quantity": 60,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
@@ -145,7 +202,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "287 (1992)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -159,18 +216,27 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "22 km",
+			"total:": {
+				"quantity": 22,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "10 km",
-			"unpaved:": "12 km (2007)"
+			"paved:": {
+				"quantity": 10,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 12,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},

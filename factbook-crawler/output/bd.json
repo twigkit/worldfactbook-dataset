@@ -5,20 +5,50 @@
 	"background": "Bermuda was first settled in 1609 by shipwrecked English colonists headed for Virginia. Tourism to the island to escape North American winters first developed in Victorian times. Tourism continues to be important to the island's economy, although international business has overtaken it in recent years. Bermuda has developed into a highly successful offshore financial center. Although a referendum on independence from the UK was soundly defeated in 1995, the present government has reopened debate on the issue.",
 	"geo": {
 		"Location": "North America, group of islands in the North Atlantic Ocean, east of South Carolina (US)",
-		"Geographic coordinates": "32 20 N, 64 45 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 32,
+				"seconds": 20
+			},
+			"W": {
+				"minutes": 64,
+				"seconds": 45
+			}
+		},
 		"Map references": "North America",
 		"Area": {
-			"total:": "54 sq km",
+			"total:": {
+				"quantity": 54,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "54 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 54,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about one-third the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "103 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 103,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "subtropical; mild, humid; gales, strong winds common in winter",
 		"Terrain": "low hills separated by fertile depressions",
@@ -28,8 +58,14 @@
 		},
 		"Natural resources": "limestone, pleasant climate fostering tourism",
 		"Land use": {
-			"arable land:": "20%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "80% (55% developed, 45% rural/open space) (2005)"
 		},
 		"Irrigated land": "NA (2008)",
@@ -39,73 +75,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "68,679 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "18% (male 6,212/female 6,129)",
-			"15-64 years:": "67% (male 22,701/female 23,293)",
+			"0-14 years:": {
+				"quantity": 18,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67,
+				"unit": "%"
+			},
 			"65 years and over:": "15.1% (male 4,304/female 6,040) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42 years",
-			"male:": "40.4 years",
-			"female:": "43.5 years (2011 est.)"
+			"total:": {
+				"quantity": 42,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.594% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.594,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.42 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.42,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.57 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.57,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.1 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.1,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "HAMILTON (capital) 12,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.015 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.71 male(s)/female",
-			"total population:": "0.94 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.015,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.71,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "2.47 deaths/1,000 live births",
+			"total:": {
+				"quantity": 2.47,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "2.57 deaths/1,000 live births",
-			"female:": "2.36 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 2.57,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 2.36,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.71 years",
+			"total population:": {
+				"quantity": 80.71,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "77.49 years",
-			"female:": "83.99 years (2011 est.)"
+			"male:": {
+				"quantity": 77.49,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 83.99,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.97 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.97,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2005)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "163 (2005)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "392 (2005)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Nationality": {
@@ -117,14 +225,32 @@
 		"Languages": "English (official), Portuguese",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98%",
-			"male:": "98%",
-			"female:": "99% (2005 est.)"
+			"total population:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2006)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -138,7 +264,16 @@
 		"Government type": "parliamentary; self-governing territory",
 		"Capital": {
 			"name:": "Hamilton",
-			"geographic coordinates:": "32 17 N, 64 47 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 32,
+					"seconds": 17
+				},
+				"W": {
+					"minutes": 64,
+					"seconds": 47
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins second Sunday in March; ends first Sunday in November"
 		},
@@ -180,122 +315,216 @@
 	"economy": {
 		"Economy - overview": "Bermuda enjoys the third highest per capita income in the world, more than 50% higher than that of the US; the average cost of a house by the mid-2000s exceeded $1,000,000. Its economy is primarily based on providing financial services for international business and luxury facilities for tourists. A number of reinsurance companies relocated to the island following the 11 September 2001 attacks and again after Hurricane Katrina in August 2005 contributing to the expansion of an already robust international business sector. Bermuda's tourism industry - which derives over 80% of its visitors from the US - continues to struggle but remains the island's number two industry. Most capital equipment and food must be imported. Bermuda's industrial sector is largely focused on construction and agriculture is limited, with only 20% of the land being arable.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$4.5 billion (2004 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 4500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.6% (2004 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$69,900 (2004 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "10%",
-			"services:": "89% (2002 est.)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 89,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "38,360 (2004)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture and fishing:": "3%",
-			"laborers:": "17%",
-			"clerical:": "19%",
-			"professional and technical:": "21%",
-			"administrative and managerial:": "15%"
+			"agriculture and fishing:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"laborers:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"clerical:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"professional and technical:": {
+				"quantity": 21,
+				"unit": "%"
+			},
+			"administrative and managerial:": {
+				"quantity": 15,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.1% (2004 est.)",
+			"Unemployment rate": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "19% (2000)",
+		"Population below poverty line": {
+			"quantity": 19,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$738 million",
-			"expenditures:": "$665 million (FY04/05)"
+			"revenues:": {
+				"usd": 738000000
+			},
+			"expenditures:": {
+				"usd": 665000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.8% (November 2005)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.36 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1360000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "bananas, vegetables, citrus, flowers; dairy products, honey",
 		"Industries": "international business, tourism, light manufacturing",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "675.6 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 675600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "628.3 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 628300000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "5,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 5000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,500 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$763 million (2006)",
+			"Exports": {
+				"usd": 763000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "reexports of pharmaceuticals",
 		"Exports - partners": "Spain 16.91%, India 10.15%, Brazil 9.55%, Germany 7.4% (2009)",
 		"Imports": {
-			"Imports": "$1.162 billion (2006)",
+			"Imports": {
+				"usd": 1162000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "clothing, fuels, machinery and transport equipment, construction materials, chemicals, food and live animals",
 		"Imports - partners": "US 31.2%, South Korea 26.71%, Brazil 6.77%, Ireland 6.11%, Singapore 5.35% (2009)",
 		"Debt - external": {
-			"Debt - external": "$160 million (FY99/00)",
+			"Debt - external": {
+				"usd": 160000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -304,11 +533,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "57,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "85,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -319,30 +548,36 @@
 		"Broadcast media": "3 television stations; cable and satellite TV subscription services are available; roughly 10 radio stations operating (2007)",
 		"Internet country code": ".bm",
 		"Internet hosts": {
-			"Internet hosts": "19,855 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Roadways": {
-			"total:": "447 km",
+			"total:": {
+				"quantity": 447,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "447 km"
+			"paved:": {
+				"quantity": 447,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "139",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 22, chemical tanker 3, container 15, liquefied gas 38, passenger 26, passenger/cargo 6, petroleum tanker 20, refrigerated cargo 9",
-			"foreign-owned:": "114 (China 13, France 1, Germany 15, Greece 2, Hong Kong 5, Ireland 2, Israel 3, Japan 2, Monaco 2, Nigeria 11, Norway 5, Sweden 17, UK 11, US 25)",
+			"foreign-owned:": null,
 			"registered in other countries:": "180 (Bahamas 12, Cyprus 1, Greece 3, Hong Kong 12, Isle of Man 7, Liberia 4, Malta 8, Marshall Islands 34, Norway 5, Panama 15, Philippines 43, Saint Vincent and the Grenadines 1, Singapore 21, UK 9, US 5) (2010)"
 		},
 		"Ports and terminals": {}
@@ -351,18 +586,21 @@
 		"Military branches": "Bermuda Regiment (2009)",
 		"Military service age and obligation": "18-30 years of age for voluntary or compulsory enlistment in the Bermuda Regiment; males must register at age 18; term of service is 38 months (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "15,081 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "12,323",
-			"females age 16-49:": "12,174 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "433",
-			"female:": "410 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "0.11% of GDP (2005 est.)",
+			"Military expenditures": {
+				"quantity": 0.11,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

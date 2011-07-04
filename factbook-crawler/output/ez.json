@@ -5,20 +5,44 @@
 	"background": "At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's leaders were frequently preoccupied with meeting the demands of other ethnic minorities within the republic, most notably the Sudeten Germans and the Ruthenians (Ukrainians). On the eve of World War II, the Czech part of the country was forcibly annexed to the Third Reich, and the Slovaks declared independence as a fascist ally of Nazi Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize Communist Party rule and create \"socialism with a human face.\" Anti-Soviet demonstrations the following year ushered in a period of harsh repression known as \"normalization.\" With the collapse of Soviet-backed authority in 1989, Czechoslovakia regained its freedom through a peaceful \"Velvet Revolution.\" On 1 January 1993, the country underwent a \"velvet divorce\" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004.",
 	"geo": {
 		"Location": "Central Europe, between Germany, Poland, Slovakia, and Austria",
-		"Geographic coordinates": "49 45 N, 15 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 49,
+				"seconds": 45
+			},
+			"E": {
+				"minutes": 15,
+				"seconds": 30
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "78,867 sq km",
+			"total:": {
+				"quantity": 78867,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "77,247 sq km",
-			"water:": "1,620 sq km"
+			"land:": {
+				"quantity": 77247,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1620,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Carolina",
 		"Land boundaries": {
-			"total:": "1,989 km",
+			"total:": {
+				"quantity": 1989,
+				"unit": "km"
+			},
 			"border countries:": "Austria 362 km, Germany 815 km, Poland 615 km, Slovakia 197 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate; cool summers; cold, cloudy, humid winters",
 		"Terrain": "Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "hard coal, soft coal, kaolin, clay, graphite, timber",
 		"Land use": {
-			"arable land:": "38.82%",
-			"permanent crops:": "3%",
-			"other:": "58.18% (2005)"
+			"arable land:": {
+				"quantity": 38.82,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 58.18,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "390 sq km (2008)",
-		"Total renewable water resources": "16 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 390,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 16,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.91  cu km/yr (41%/57%/2%)",
-			"per capita:": "187  cu m/yr (2002)"
+			"total:": {
+				"quantity": 1.91,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 187,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "flooding",
 		"Environment - current issues": "air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks; acid rain damaging forests; efforts to bring industry up to EU code should improve domestic pollution",
@@ -48,61 +93,127 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,190,213 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "13.5% (male 704,495/female 666,191)",
-			"15-64 years:": "70.2% (male 3,599,774/female 3,554,158)",
+			"0-14 years:": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 70.2,
+				"unit": "%"
+			},
 			"65 years and over:": "16.3% (male 663,982/female 1,001,613) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.8 years",
-			"male:": "39.2 years",
-			"female:": "42.5 years (2011 est.)"
+			"total:": {
+				"quantity": 40.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 42.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.12% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "8.7 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 8.7,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.86 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.86,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.97 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.97,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "74% of total population (2010)",
-			"rate of urbanization:": "0.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 74,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PRAGUE (capital) 1.162 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.059 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.66 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.059,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.66,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.73 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.73,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.06 deaths/1,000 live births",
-			"female:": "3.38 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.06,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.38,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.19 years",
+			"total population:": {
+				"quantity": 77.19,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.93 years",
-			"female:": "80.66 years (2011 est.)"
+			"male:": {
+				"quantity": 73.93,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.66,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.26 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.26,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -110,7 +221,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -128,14 +239,32 @@
 		"Languages": "Czech 94.9%, Slovak 2%, other 2.3%, unidentified 0.8% (2001 census)",
 		"Literacy": {
 			"definition:": "NA",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "15 years",
-			"female:": "16 years (2008)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -149,7 +278,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Prague",
-			"geographic coordinates:": "50 05 N, 14 28 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 50,
+					"seconds": 5
+				},
+				"E": {
+					"minutes": 14,
+					"seconds": 28
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -198,139 +336,244 @@
 	"economy": {
 		"Economy - overview": "The Czech Republic is a stable and prosperous market economy, which harmonized its laws and regulations with those of the EU prior to its EU accession in 2004. While the conservative, inward looking Czech financial system has remained relative healthy, the small, open, export-driven Czech economy remains very sensitive to changes in the economic performance of its main export markets, especially Germany. When Western Europe and Germany fell into recession in late 2008, demand for Czech goods plunged, leading to double digit drops in industrial production and exports. As a result, real GDP fell 4.1% in 2009, with most of the decline occurring during the first quarter. Real GDP, however, has slowly recovered with positive quarter-on-quarter growth starting in the second half of 2009 and continuing throughout 2010. The auto industry remains the largest single industry and, together with its suppliers, accounts for as much as 20% of Czech manufacturing. The Czech Republic produced more than a million cars for the first time in 2010, over 80% of which were exported. Foreign and domestic businesses alike voice concerns about corruption, especially in public procurement. Other long term challenges include dealing with a rapidly aging population, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$261.3 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 261300000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$192.2 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 192200000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$25,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.2%",
-			"industry:": "38.3%",
-			"services:": "59.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 38.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 59.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "5.37 million (2010 est.)",
+			"Labor force": 5370000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "3.1%",
-			"industry:": "38.6%",
-			"services:": "58.3% (2009)"
+			"agriculture:": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 38.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 58.3,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.1% (November 2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.5%",
+			"lowest 10%:": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"highest 10%:": "NA (2009)"
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$77.9 billion",
-			"expenditures:": "$87.87 billion (2010 est.)"
+			"revenues:": {
+				"usd": 77900000000
+			},
+			"expenditures:": {
+				"usd": 87870000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "40% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 40,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.25% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 0.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "3.9% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$96.82 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 96820000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$138.6 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 138600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$119.5 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 119500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$73.1 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 73100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, potatoes, sugar beets, hops, fruit; pigs, poultry",
 		"Industries": "motor vehicles, metallurgy, machinery and equipment, glass, armaments",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "15.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 15.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "82.25 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 82250000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "53.42 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 53420000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "22.23 billion kWh (2009 est.)",
-		"Electricity - imports": "8.58 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 22230000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 8580000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "10,970 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 10970,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "207,600 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 207600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "29,670 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 29670,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "219,900 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 219900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "15 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 15000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "178 million cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 178000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "8.164 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 8164000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "1.111 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 1111000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "9.683 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 9683000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "3.072 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 3072000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -338,42 +581,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$116.5 billion (2010 est.)",
+			"Exports": {
+				"usd": 116500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and transport equipment, raw materials and fuel, chemicals",
 		"Exports - partners": "Germany 31.7%, Slovakia 8.7%, Poland 6.2%, France 5.5%, UK 4.9%, Austria 4.7%, Italy 4.5% (2010 est.)",
 		"Imports": {
-			"Imports": "$109.2 billion (2010 est.)",
+			"Imports": {
+				"usd": 109200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, raw materials and fuels, chemicals",
 		"Imports - partners": "Germany 25.6%, China 11.9%, Poland 6.5%, Russia 5.4%, Slovakia 5.2% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$42.34 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 42340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$86.79 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 86790000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$130.4 billion (30 September 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 130400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$14.67 billion (30 September 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 14670000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2.092 million (2009)",
+			"Telephones - main lines in use": 2092000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "14.258 million (2009)",
+			"Telephones - mobile cellular": 14258000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -384,39 +639,45 @@
 		"Broadcast media": "roughly 130 television broadcasters operating some 350 television channels with 4 publicly operated and the remainder in private hands; 13 television stations have national coverage with 4 being publicly operated; cable and satellite TV subscription services are available; about 70 radio broadcasters are registered operating roughly 85 radio stations with 15 stations publicly operated; 16 radio stations provide national coverage with the remainder local or regional (2008)",
 		"Internet country code": ".cz",
 		"Internet hosts": {
-			"Internet hosts": "3.494 million (2010)",
+			"Internet hosts": 3494000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "122 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "44",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "9",
-			"1,524 to 2,437 m:": "12",
-			"914 to 1,523 m:": "3"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "78",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "27",
-			"under 914 m:": "50 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 7,010 km; oil 547 km; refined products 94 km (2010)",
 		"Railways": {
-			"total:": "9,632 km",
+			"total:": {
+				"quantity": 9632,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "9,530 km 1.435-m gauge (3,165 km electrified)",
 			"narrow gauge:": "102 km 0.750-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "127,719 km",
+			"total:": {
+				"quantity": 127719,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "127,719 km (includes 729 km of expressways) (2009)"
 		},
@@ -434,16 +695,16 @@
 		"Military branches": "Army of the Czech Republic (ACR): Joint Forces Command (includes Land Forces and Air Forces), Support and Training Forces Command (2011)",
 		"Military service age and obligation": "18-28 years of age for male and female voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,506,826",
-			"females age 16-49:": "2,407,634 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,072,267",
-			"females age 16-49:": "1,988,839 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "49,999",
-			"female:": "47,501 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

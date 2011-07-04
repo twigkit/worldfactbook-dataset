@@ -5,21 +5,54 @@
 	"background": "In 1974, ethnic differences within the British colony of the Gilbert and Ellice Islands caused the Polynesians of the Ellice Islands to vote for separation from the Micronesians of the Gilbert Islands. The following year, the Ellice Islands became the separate British colony of Tuvalu. Independence was granted in 1978. In 2000, Tuvalu negotiated a contract leasing its Internet domain name \".tv\" for $50 million in royalties over a 12-year period.",
 	"geo": {
 		"Location": "Oceania, island group consisting of nine coral atolls in the South Pacific Ocean, about one-half of the way from Hawaii to Australia",
-		"Geographic coordinates": "8 00 S, 178 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 8,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 178,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "26 sq km",
+			"total:": {
+				"quantity": 26,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "26 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 26,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "0.1 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "24 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 24,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; moderated by easterly trade winds (March to November); westerly gales and heavy rain (November to March)",
 		"Terrain": "low-lying and narrow coral atolls",
@@ -29,9 +62,18 @@
 		},
 		"Natural resources": "fish",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "66.67%",
-			"other:": "33.33% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 66.67,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 33.33,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "severe tropical storms are usually rare, but in 1997 there were three cyclones; low level of islands make them sensitive to changes in sea level",
@@ -44,29 +86,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,544 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "30.6% (male 1,656/female 1,569)",
-			"15-64 years:": "64% (male 3,294/female 3,459)",
+			"0-14 years:": {
+				"quantity": 30.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 64,
+				"unit": "%"
+			},
 			"65 years and over:": "5.4% (male 238/female 328) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "24.1 years",
-			"male:": "22.7 years",
-			"female:": "26.1 years (2011 est.)"
+			"total:": {
+				"quantity": 24.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.702% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.702,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "23.24 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 23.24,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.2 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.2,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -74,30 +140,72 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "50% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 50,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.042 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.73 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.042,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.73,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "34.52 deaths/1,000 live births",
+			"total:": {
+				"quantity": 34.52,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "37.56 deaths/1,000 live births",
-			"female:": "31.33 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 37.56,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 31.33,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "64.75 years",
+			"total population:": {
+				"quantity": 64.75,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "62.7 years",
-			"female:": "66.9 years (2011 est.)"
+			"male:": {
+				"quantity": 62.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 66.9,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.11 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.11,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -114,9 +222,18 @@
 		"Languages": "Tuvaluan (official), English (official), Samoan, Kiribati (on the island of Nui)",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "10 years",
-			"female:": "11 years (2001)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -131,7 +248,16 @@
 		"Government type": "parliamentary democracy and a Commonwealth realm",
 		"Capital": {
 			"name:": "Funafuti",
-			"geographic coordinates:": "8 30 S, 179 12 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 8,
+					"seconds": 30
+				},
+				"E": {
+					"minutes": 179,
+					"seconds": 12
+				}
+			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none",
@@ -165,25 +291,43 @@
 	"economy": {
 		"Economy - overview": "Tuvalu consists of a densely populated, scattered group of nine coral atolls with poor soil. The country has no known mineral resources and few exports and is almost entirely dependent upon imported food and fuel. Subsistence farming and fishing are the primary economic activities. Fewer than 1,000 tourists, on average, visit Tuvalu annually. Job opportunities are scarce and public sector workers make up most of those employed. About 15% of the adult male population work as seamen on merchant ships abroad, and remittances are a vital source of income contributing around $2 million in 2007. Substantial income is received annually from the Tuvalu Trust Fund (TTF) an international trust fund established in 1987 by Australia, NZ, and the UK and supported also by Japan and South Korea. Thanks to wise investments and conservative withdrawals, this fund grew from an initial $17 million to an estimated value of $77 million in 2006. The TTF contributed nearly $9 million towards the government budget in 2006 and is an important cushion for meeting shortfalls in the government's budget. The US Government is also a major revenue source for Tuvalu because of payments from a 1988 treaty on fisheries. In an effort to ensure financial stability and sustainability, the government is pursuing public sector reforms, including privatization of some government functions and personnel cuts. Tuvalu also derives royalties from the lease of its \".tv\" Internet domain name with revenue of more than $2 million in 2006. A minor source of government revenue comes from the sale of stamps and coins. With merchandise exports only a fraction of merchandise imports, continued reliance must be placed on fishing and telecommunications license fees, remittances from overseas workers, official transfers, and income from overseas investments. Growing income disparities and the vulnerability of the country to climatic change are among leading concerns for the nation.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$36 million (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 36000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$32 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 32000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "16.6%",
-			"industry:": "27.2%",
-			"services:": "56.2% (2002)"
+			"agriculture:": {
+				"quantity": 16.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 56.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3,615 (2004 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -196,11 +340,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$21.54 million",
-			"expenditures:": "$23.05 million (2006)"
+			"revenues:": {
+				"usd": 21540000
+			},
+			"expenditures:": {
+				"usd": 23050000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.8% (2006 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coconuts; fish",
@@ -211,12 +362,16 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1 million (2004 est.)",
+			"Exports": {
+				"usd": 1000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copra, fish",
 		"Imports": {
-			"Imports": "$12.91 million (2005)",
+			"Imports": {
+				"usd": 12910000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, animals, mineral fuels, machinery, manufactured goods",
@@ -225,11 +380,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -240,27 +395,33 @@
 		"Broadcast media": "no television broadcast stations; many households use satellite dishes to watch foreign TV stations; 1 government-owned radio station, Radio Tuvalu, includes relays of programming from international broadcasters (2009)",
 		"Internet country code": ".tv",
 		"Internet hosts": {
-			"Internet hosts": "109,478 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "8 km",
+			"total:": {
+				"quantity": 8,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "8 km (2002)"
+			"paved:": {
+				"quantity": 8,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "66",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 7, cargo 20, chemical tanker 16, container 3, passenger 2, passenger/cargo 1, petroleum tanker 15, refrigerated cargo 1, vehicle carrier 1",
 			"foreign-owned:": "49 (Thailand 1, Vietnam 6, Turkey 1, Switzerland 1, South Korea 1, Singapore 25, Maldives 1, Malaysia 1, Kenya 1, Hong Kong 1, China 9, Ukraine 1) (2010)"
@@ -270,12 +431,12 @@
 	"military": {
 		"Military branches": "no regular military forces; Tuvalu Police Force (2009)",
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,021",
-			"females age 16-49:": "2,026 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "119",
-			"female:": "111 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

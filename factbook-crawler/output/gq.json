@@ -5,19 +5,49 @@
 	"background": "Guam was ceded to the US by Spain in 1898. Captured by the Japanese in 1941, it was retaken by the US three years later. The military installation on the island is one of the most strategically important US bases in the Pacific.",
 	"geo": {
 		"Location": "Oceania, island in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines",
-		"Geographic coordinates": "13 28 N, 144 47 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 13,
+				"seconds": 28
+			},
+			"E": {
+				"minutes": 144,
+				"seconds": 47
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "544 sq km",
-			"land:": "544 sq km",
-			"water:": "0 sq km"
+			"total:": {
+				"quantity": 544,
+				"unit": "sq km"
+			},
+			"land:": {
+				"quantity": 544,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "three times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "125.5 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 125.5,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (July to December); little seasonal temperature variation",
 		"Terrain": "volcanic origin, surrounded by coral reefs; relatively flat coralline limestone plateau (source of most fresh water), with steep coastal cliffs and narrow coastal plains in north, low hills in center, mountains in south",
@@ -27,54 +57,135 @@
 		},
 		"Natural resources": "aquatic wildlife (supporting tourism), fishing (largely undeveloped)",
 		"Land use": {
-			"arable land:": "3.64%",
-			"permanent crops:": "18.18%",
-			"other:": "78.18% (2005)"
+			"arable land:": {
+				"quantity": 3.64,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 18.18,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 78.18,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2 sq km (2008)",
+		"Irrigated land": {
+			"quantity": 2,
+			"unit": "sq km"
+		},
 		"Natural hazards": "frequent squalls during rainy season; relatively rare but potentially destructive typhoons (June - December)",
 		"Environment - current issues": "extirpation of native bird population by the rapid proliferation of the brown tree snake, an exotic, invasive species",
 		"Geography - note": {}
 	},
 	"people": {
-		"Population": "183,286 (July 2011 est.)",
+		"Population": null,
 		"Age structure": {
-			"0-14 years:": "27% (male 25,577/female 23,836)",
-			"15-64 years:": "65.5% (male 61,237/female 58,891)",
+			"0-14 years:": {
+				"quantity": 27,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.5,
+				"unit": "%"
+			},
 			"65 years and over:": "7.5% (male 6,287/female 7,458) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "29.4 years",
-			"male:": "29 years",
-			"female:": "29.8 years (2011 est.)"
+			"total:": {
+				"quantity": 29.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 29.8,
+				"unit": "years"
+			}
 		},
-		"Population growth rate": "1.314% (2011 est.)",
-		"Birth rate": "17.85 births/1,000 population (2011 est.)",
-		"Death rate": "4.71 deaths/1,000 population (July 2011 est.)",
-		"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+		"Population growth rate": {
+			"quantity": 1.314,
+			"unit": "%"
+		},
+		"Birth rate": {
+			"quantity": 17.85,
+			"unit": "births/1,000 population"
+		},
+		"Death rate": {
+			"quantity": 4.71,
+			"unit": "deaths/1,000 population"
+		},
+		"Net migration rate": {
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
+		},
 		"Urbanization": {
-			"urban population:": "93% of total population (2010)",
-			"rate of urbanization:": "1.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 93,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "HAGATNA (capital) 153,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.04 male(s)/female",
-			"65 years and over:": "0.85 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.85,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "5.83 deaths/1,000 live births",
-			"male:": "6.24 deaths/1,000 live births",
-			"female:": "5.38 deaths/1,000 live births (2011 est.)"
+			"total:": {
+				"quantity": 5.83,
+				"unit": "deaths/1,000 live births"
+			},
+			"male:": {
+				"quantity": 6.24,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.38,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.34 years",
-			"male:": "75.3 years",
-			"female:": "81.57 years (2011 est.)"
+			"total population:": {
+				"quantity": 78.34,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 75.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.57,
+				"unit": "years"
+			}
 		},
-		"Total fertility rate": "2.48 children born/woman (2011 est.)",
+		"Total fertility rate": {
+			"quantity": 2.48,
+			"unit": "children born/woman"
+		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
 		"HIV/AIDS - deaths": "NA",
@@ -89,9 +200,18 @@
 		"Languages": "English 38.3%, Chamorro 22.2%, Philippine languages 22.2%, other Pacific island languages 6.8%, Asian languages 7%, other languages 3.5% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (1990 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -107,7 +227,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Hagatna (Agana)",
-			"geographic coordinates:": "13 28 N, 144 44 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 13,
+					"seconds": 28
+				},
+				"E": {
+					"minutes": 144,
+					"seconds": 44
+				}
+			},
 			"time difference:": "UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territory of the US)",
@@ -144,59 +273,133 @@
 	},
 	"economy": {
 		"Economy - overview": "The economy depends largely on US military spending and tourism. Total US grants, wage payments, and procurement outlays amounted to $1.3 billion in 2004. Over the past 30 years, the tourist industry has grown to become the largest income source following national defense. The Guam economy continues to experience expansion in both its tourism and military sectors.",
-		"GDP (purchasing power parity)": "$2.5 billion (2005 est.)",
-		"GDP (official exchange rate)": "$2.773 billion (2001)",
+		"GDP (purchasing power parity)": {
+			"usd": 2500000000
+		},
+		"GDP (official exchange rate)": {
+			"usd": 2773000000
+		},
 		"GDP - real growth rate": "NA%",
-		"GDP - per capita (PPP)": "$15,000 (2005 est.)",
+		"GDP - per capita (PPP)": {
+			"usd": null
+		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": "82,950 (2007 est.)",
+		"Labor force": null,
 		"Labor force - by occupation": {
-			"agriculture:": "26%",
-			"industry:": "10%",
-			"services:": "64% (2004 est.)"
+			"agriculture:": {
+				"quantity": 26,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 64,
+				"unit": "%"
+			}
 		},
-		"Unemployment rate": "11.4% (2002 est.)",
-		"Population below poverty line": "23% (2001 est.)",
+		"Unemployment rate": {
+			"quantity": 11.4,
+			"unit": "%"
+		},
+		"Population below poverty line": {
+			"quantity": 23,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$319.6 million",
-			"expenditures:": "$427.8 million (2002 est.)"
+			"revenues:": {
+				"usd": 319600000
+			},
+			"expenditures:": {
+				"usd": 427800000
+			}
 		},
-		"Inflation rate (consumer prices)": "2.5% (2005 est.)",
+		"Inflation rate (consumer prices)": {
+			"quantity": 2.5,
+			"unit": "%"
+		},
 		"Agriculture - products": "fruits, copra, vegetables; eggs, pork, poultry, beef",
 		"Industries": "US military, tourism, construction, transshipment services, concrete products, printing and publishing, food processing, textiles",
 		"Industrial production growth rate": "NA%",
-		"Electricity - production": "1.767 billion kWh (2007 est.)",
-		"Electricity - consumption": "1.644 billion kWh (2007 est.)",
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
-		"Oil - production": "0 bbl/day (2009 est.)",
-		"Oil - consumption": "10,620 bbl/day (2009 est.)",
-		"Oil - exports": "0 bbl/day (2007 est.)",
-		"Oil - imports": "14,230 bbl/day (2007 est.)",
-		"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
-		"Natural gas - production": "0 cu m (2008 est.)",
-		"Natural gas - consumption": "0 cu m (2008 est.)",
-		"Natural gas - exports": "0 cu m (2008 est.)",
-		"Natural gas - imports": "0 cu m (2008 est.)",
-		"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
-		"Exports": "$45 million (2004 est.)",
+		"Electricity - production": {
+			"quantity": 1767000000,
+			"unit": "kWh"
+		},
+		"Electricity - consumption": {
+			"quantity": 1644000000,
+			"unit": "kWh"
+		},
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Oil - production": {
+			"quantity": 0,
+			"unit": "bbl/day"
+		},
+		"Oil - consumption": {
+			"quantity": 10620,
+			"unit": "bbl/day"
+		},
+		"Oil - exports": {
+			"quantity": 0,
+			"unit": "bbl/day"
+		},
+		"Oil - imports": {
+			"quantity": 14230,
+			"unit": "bbl/day"
+		},
+		"Oil - proved reserves": {
+			"quantity": 0,
+			"unit": "bbl"
+		},
+		"Natural gas - production": {
+			"quantity": 0,
+			"unit": "cu m"
+		},
+		"Natural gas - consumption": {
+			"quantity": 0,
+			"unit": "cu m"
+		},
+		"Natural gas - exports": {
+			"quantity": 0,
+			"unit": "cu m"
+		},
+		"Natural gas - imports": {
+			"quantity": 0,
+			"unit": "cu m"
+		},
+		"Natural gas - proved reserves": {
+			"quantity": 0,
+			"unit": "cu m"
+		},
+		"Exports": {
+			"usd": 45000000
+		},
 		"Exports - commodities": "transshipments of refined petroleum products, construction materials, fish, food and beverage products",
-		"Imports": "$701 million (2004 est.)",
+		"Imports": {
+			"usd": 701000000
+		},
 		"Imports - commodities": "petroleum and petroleum products, food, manufactured goods",
 		"Debt - external": "$NA",
 		"Exchange rates": {}
 	},
 	"commerce": {
-		"Telephones - main lines in use": "65,500 (2009)",
-		"Telephones - mobile cellular": "98,000 (2004)",
+		"Telephones - main lines in use": null,
+		"Telephones - mobile cellular": null,
 		"Telephone system": {
 			"general assessment:": "modern system, integrated with US facilities for direct dialing, including free use of 800 numbers",
 			"domestic:": "digital system, including mobile-cellular service and local access to the Internet",
@@ -204,34 +407,37 @@
 		},
 		"Broadcast media": "about a dozen TV broadcast channels, including digital channels; multi-channel cable TV services are available; roughly 20 radio stations broadcasting (2009)",
 		"Internet country code": ".gu",
-		"Internet hosts": "24 (2010)",
+		"Internet hosts": null,
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": "5; note - 2 serviceable (2010)",
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "1,045 km (2008)"
+			"total:": {
+				"quantity": 1045,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "38,358",
-			"females age 16-49:": "36,869 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,701",
-			"female:": "1,608 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

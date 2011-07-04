@@ -5,20 +5,44 @@
 	"background": "The colonial boundaries created by Britain to delimit Uganda grouped together a wide range of ethnic groups with different political systems and cultures. These differences prevented the establishment of a working political community after independence was achieved in 1962. The dictatorial regime of Idi AMIN (1971-79) was responsible for the deaths of some 300,000 opponents; guerrilla war and human rights abuses under Milton OBOTE (1980-85) claimed at least another 100,000 lives. The rule of Yoweri MUSEVENI since 1986 has brought relative stability and economic growth to Uganda. During the 1990s, the government promulgated non-party presidential and legislative elections.",
 	"geo": {
 		"Location": "Eastern Africa, west of Kenya, east of the Democratic Republic of the Congo",
-		"Geographic coordinates": "1 00 N, 32 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 1,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 32,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "241,038 sq km",
+			"total:": {
+				"quantity": 241038,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "197,100 sq km",
-			"water:": "43,938 sq km"
+			"land:": {
+				"quantity": 197100,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 43938,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Oregon",
 		"Land boundaries": {
-			"total:": "2,698 km",
+			"total:": {
+				"quantity": 2698,
+				"unit": "km"
+			},
 			"border countries:": "Democratic Republic of the Congo 765 km, Kenya 933 km, Rwanda 169 km, Sudan 435 km, Tanzania 396 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "tropical; generally rainy with two dry seasons (December to February, June to August); semiarid in northeast",
 		"Terrain": "mostly plateau with rim of mountains",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "copper, cobalt, hydropower, limestone, salt, arable land, gold",
 		"Land use": {
-			"arable land:": "21.57%",
-			"permanent crops:": "8.92%",
-			"other:": "69.51% (2005)"
+			"arable land:": {
+				"quantity": 21.57,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 8.92,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 69.51,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "90 sq km (2008)",
-		"Total renewable water resources": "66 cu km (1970)",
+		"Irrigated land": {
+			"quantity": 90,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 66,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.3  cu km/yr (43%/17%/40%)",
-			"per capita:": "10  cu m/yr (2002)"
+			"total:": {
+				"quantity": 0.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 10,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "draining of wetlands for agricultural use; deforestation; overgrazing; soil erosion; water hyacinth infestation in Lake Victoria; widespread poaching",
@@ -48,29 +93,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "34,612,250 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "49.9% (male 8,692,239/female 8,564,571)",
-			"15-64 years:": "48.1% (male 8,383,548/female 8,255,473)",
+			"0-14 years:": {
+				"quantity": 49.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 48.1,
+				"unit": "%"
+			},
 			"65 years and over:": "2.1% (male 291,602/female 424,817) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "15.1 years",
-			"male:": "15 years",
-			"female:": "15.1 years (2011 est.)"
+			"total:": {
+				"quantity": 15.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.576% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.576,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "47.49 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 47.49,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "11.71 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 11.71,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,43 +147,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "13% of total population (2010)",
-			"rate of urbanization:": "4.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 13,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "KAMPALA (capital) 1.535 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.7 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "62.47 deaths/1,000 live births",
+			"total:": {
+				"quantity": 62.47,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "66.05 deaths/1,000 live births",
-			"female:": "58.77 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 66.05,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 58.77,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "53.24 years",
+			"total population:": {
+				"quantity": 53.24,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "52.17 years",
-			"female:": "54.33 years (2011 est.)"
+			"male:": {
+				"quantity": 52.17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 54.33,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "6.69 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 6.69,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "6.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1.2 million (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": 1200000,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "64,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +249,32 @@
 		"Languages": "English (official national language, taught in grade schools, used in courts of law and by most newspapers and some radio broadcasts), Ganda or Luganda (most widely used of the Niger-Congo languages, preferred for native language publications in the capital and may be taught in school), other Niger-Congo languages, Nilo-Saharan languages, Swahili, Arabic",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "66.8%",
-			"male:": "76.8%",
-			"female:": "57.7% (2002 census)"
+			"total population:": {
+				"quantity": 66.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 76.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 57.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +286,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Kampala",
-			"geographic coordinates:": "0 19 N, 32 25 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 0,
+					"seconds": 19
+				},
+				"E": {
+					"minutes": 32,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "80 districts; Abim, Adjumani, Amolatar, Amuria, Amuru, Apac, Arua, Budaka, Bududa, Bugiri, Bukedea, Bukwa, Bulisa, Bundibugyo, Bushenyi, Busia, Butaleja, Dokolo, Gulu, Hoima, Ibanda, Iganga, Isingiro, Jinja, Kaabong, Kabale, Kabarole, Kaberamaido, Kalangala, Kaliro, Kampala, Kamuli, Kamwenge, Kanungu, Kapchorwa, Kasese, Katakwi, Kayunga, Kibale, Kiboga, Kiruhara, Kisoro, Kitgum, Koboko, Kotido, Kumi, Kyenjojo, Lira, Luwero, Lyantonde, Manafwa, Maracha, Masaka, Masindi, Mayuge, Mbale, Mbarara, Mityana, Moroto, Moyo, Mpigi, Mubende, Mukono, Nakapiripirit, Nakaseke, Nakasongola, Namutumba, Nebbi, Ntungamo, Oyam, Pader, Pallisa, Rakai, Rukungiri, Sembabule, Sironko, Soroti, Tororo, Wakiso, Yumbe",
@@ -203,76 +344,137 @@
 	"economy": {
 		"Economy - overview": "Uganda has substantial natural resources, including fertile soils, regular rainfall, small deposits of copper, gold, and other minerals, and recently discovered oil. Uganda has never conducted a national minerals survey. Agriculture is the most important sector of the economy, employing over 80% of the work force. Coffee accounts for the bulk of export revenues. Since 1986, the government - with the support of foreign countries and international agencies - has acted to rehabilitate and stabilize the economy by undertaking currency reform, raising producer prices on export crops, increasing prices of petroleum products, and improving civil service wages. The policy changes are especially aimed at dampening inflation and boosting production and export earnings. Since 1990 economic reforms ushered in an era of solid economic growth based on continued investment in infrastructure, improved incentives for production and exports, lower inflation, better domestic security, and the return of exiled Indian-Ugandan entrepreneurs. Uganda has received about $2 billion in multilateral and bilateral debt relief. In 2007 Uganda received $10 million for a Millennium Challenge Account Threshold Program. The global economic downturn has hurt Uganda's exports; however, Uganda's GDP growth is still relatively strong due to past reforms and sound management of the downturn. Oil revenues and taxes will become a larger source of government funding as oil comes on line in the next few years. Instability in southern Sudan is the biggest risk for the Ugandan economy in 2011 because Uganda's main export partner is Sudan, and Uganda is a key destination for Sudanese refugees.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$42.15 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 42150000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$17.01 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 17010000000.000002
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "23.6%",
-			"industry:": "24.5%",
-			"services:": "51.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 23.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "15.51 million (2010 est.)",
+			"Labor force": 15510000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "82%",
-			"industry:": "5%",
-			"services:": "13% (1999 est.)"
+			"agriculture:": {
+				"quantity": 82,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 13,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "35% (2001 est.)",
+		"Population below poverty line": {
+			"quantity": 35,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "34.1% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 34.1,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "45.7 (2002)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "20.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 20.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.457 billion",
-			"expenditures:": "$2.938 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2457000000
+			},
+			"expenditures:": {
+				"usd": 2938000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "20.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 20.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "9.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 9.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "9.65% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 9.65,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "20.96% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 20.96,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.997 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1997000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$3.905 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 3905000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.882 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1882000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -282,57 +484,102 @@
 		"Agriculture - products": "coffee, tea, cotton, tobacco, cassava (tapioca), potatoes, corn, millet, pulses, cut flowers; beef, goat meat, milk, poultry",
 		"Industries": "sugar, brewing, tobacco, cotton textiles; cement, steel production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "2.256 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 2256000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.068 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2068000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "30 million kWh (2007)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 30000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "13,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 13000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "13,090 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 13090,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.5 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1500000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -340,23 +587,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.941 billion (2010 est.)",
+			"Exports": {
+				"usd": 2941000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, fish and fish products, tea, cotton, flowers, horticultural products; gold",
 		"Exports - partners": "Sudan 13.47%, Kenya 8.98%, UAE 7.52%, Rwanda 7.5%, Switzerland 7.42%, Democratic Republic of the Congo 6.85%, Netherlands 5.67%, Belgium 5.66%, Germany 5.18%, Italy 4.33% (2009)",
 		"Imports": {
-			"Imports": "$4.474 billion (2010 est.)",
+			"Imports": {
+				"usd": 4474000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital equipment, vehicles, petroleum, medical supplies; cereals",
 		"Imports - partners": "Kenya 13.9%, India 12.79%, UAE 11.16%, China 8.91%, South Africa 5.08%, France 4.6%, Japan 4.37%, US 4.07% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$3.743 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 3743000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.888 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 2888000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -365,11 +620,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "233,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "9.384 million (2009)",
+			"Telephones - mobile cellular": 9384000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,39 +635,51 @@
 		"Broadcast media": "public broadcaster, Uganda Broadcasting Corporation (UBC), operates radio and television networks; Uganda first began licensing privately-owned stations in the 1990s; by 2007 there were nearly 150 radio and 35 TV stations, mostly based in and around Kampala; transmissions of multiple international broadcasters are available in Kampala (2007)",
 		"Internet country code": ".ug",
 		"Internet hosts": {
-			"Internet hosts": "19,927 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "46 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "5",
-			"over 3,047 m:": "3",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "41",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "25",
-			"under 914 m:": "8 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "1,244 km",
+			"total:": {
+				"quantity": 1244,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "1,244 km 1.000-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "70,746 km",
+			"total:": {
+				"quantity": 70746,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "16,272 km",
-			"unpaved:": "54,474 km (2003)"
+			"paved:": {
+				"quantity": 16272,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 54474,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(there are no long navigable stretches of river in Uganda; parts of the Albert Nile that flow out of Lake Albert in the northwestern part of the country are navigable; several lakes including Lake Victoria and Lake Kyoga have substantial traffic; Lake Albert is navigable along a 200-km stretch from its northern tip to its southern shores) (2009)",
 		"Ports and terminals": {}
@@ -421,16 +688,16 @@
 		"Military branches": "Uganda Peoples Defense Force (UPDF): Army (includes Marine Unit), Uganda Air Force (2010)",
 		"Military service age and obligation": "18-26 years of age for voluntary military duty; 18-30 years of age for professionals; no conscription; 9-year service obligation; the government has stated that recruitment under 18 years of age could occur with proper consent and that \"no person under the apparent age of 13 years shall be enrolled in the armed forces\"; Ugandan citizenship and secondary education required (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "7,249,271",
-			"females age 16-49:": "7,025,439 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "4,313,068",
-			"females age 16-49:": "4,200,901 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "423,923",
-			"female:": "420,236 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

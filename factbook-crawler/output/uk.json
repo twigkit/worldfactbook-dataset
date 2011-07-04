@@ -5,23 +5,53 @@
 	"background": "The United Kingdom has historically played a leading role in developing parliamentary democracy and in advancing literature and science. At its zenith in the 19th century, the British Empire stretched over one-fourth of the earth's surface. The first half of the 20th century saw the UK's strength seriously depleted in two world wars and the Irish republic withdraw from the union. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council, a founding member of NATO, and of the Commonwealth, the UK pursues a global approach to foreign policy. The UK is also an active member of the EU, although it chose to remain outside the Economic and Monetary Union. The Scottish Parliament, the National Assembly for Wales, and the Northern Ireland Assembly were established in 1999. The latter was suspended until May 2007 due to wrangling over the peace process, but devolution was fully completed in March 2010.",
 	"geo": {
 		"Location": "Western Europe, islands - including the northern one-sixth of the island of Ireland - between the North Atlantic Ocean and the North Sea; northwest of France",
-		"Geographic coordinates": "54 00 N, 2 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 54,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 2,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "243,610 sq km",
+			"total:": {
+				"quantity": 243610,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "241,930 sq km",
-			"water:": "1,680 sq km"
+			"land:": {
+				"quantity": 241930,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1680,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Oregon",
 		"Land boundaries": {
-			"total:": "360 km",
+			"total:": {
+				"quantity": 360,
+				"unit": "km"
+			},
 			"border countries:": "Ireland 360 km"
 		},
-		"Coastline": "12,429 km",
+		"Coastline": {
+			"quantity": 12429,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "as defined in continental shelf orders or in accordance with agreed upon boundaries"
 		},
 		"Climate": "temperate; moderated by prevailing southwest winds over the North Atlantic Current; more than one-half of the days are overcast",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "coal, petroleum, natural gas, iron ore, lead, zinc, gold, tin, limestone, salt, clay, chalk, gypsum, potash, silica sand, slate, arable land",
 		"Land use": {
-			"arable land:": "23.23%",
-			"permanent crops:": "0.2%",
-			"other:": "76.57% (2005)"
+			"arable land:": {
+				"quantity": 23.23,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 76.57,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,950 sq km (2008)",
-		"Total renewable water resources": "160.6 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 1950,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 160.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "11.75  cu km/yr (22%/75%/3%)",
-			"per capita:": "197  cu m/yr (1994)"
+			"total:": {
+				"quantity": 11.75,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 197,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "winter windstorms; floods",
 		"Environment - current issues": "continues to reduce greenhouse gas emissions (has met Kyoto Protocol target of a 12.5% reduction from 1990 levels and intends to meet the legally binding target and move toward a domestic goal of a 20% cut in emissions by 2010); by 2005 the government reduced the amount of industrial and commercial waste disposed of in landfill sites to 85% of 1998 levels and recycled or composted at least 25% of household waste, increasing to 33% by 2015",
@@ -52,69 +103,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "62,698,362 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "17.3% (male 5,575,119/female 5,301,301)",
-			"15-64 years:": "66.2% (male 20,979,401/female 20,500,913)",
+			"0-14 years:": {
+				"quantity": 17.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.2,
+				"unit": "%"
+			},
 			"65 years and over:": "16.5% (male 4,564,375/female 5,777,253) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40 years",
-			"male:": "38.8 years",
-			"female:": "41.1 years (2011 est.)"
+			"total:": {
+				"quantity": 40,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.557% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.557,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.29 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.29,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.33 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.33,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.6 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.6,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "80% of total population (2010)",
-			"rate of urbanization:": "0.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 80,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LONDON (capital) 8.615 million; Birmingham 2.296 million; Manchester 2.247 million; West Yorkshire 1.541 million; Glasgow 1.166 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.052 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.76 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.052,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.76,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.62 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.62,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "5.07 deaths/1,000 live births",
-			"female:": "4.15 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 5.07,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.15,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.05 years",
+			"total population:": {
+				"quantity": 80.05,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "77.95 years",
-			"female:": "82.25 years (2011 est.)"
+			"male:": {
+				"quantity": 77.95,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.25,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.91 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.91,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "85,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -134,14 +257,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over has completed five or more years of schooling",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +295,16 @@
 		"Government type": "constitutional monarchy and Commonwealth realm",
 		"Capital": {
 			"name:": "London",
-			"geographic coordinates:": "51 30 N, 0 10 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 51,
+					"seconds": 30
+				},
+				"W": {
+					"minutes": 0,
+					"seconds": 10
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -207,59 +357,111 @@
 	"economy": {
 		"Economy - overview": "The UK, a leading trading power and financial center, is the third largest economy in Europe after Germany and France. Over the past two decades, the government has greatly reduced public ownership and contained the growth of social welfare programs. Agriculture is intensive, highly mechanized, and efficient by European standards, producing about 60% of food needs with less than 2% of the labor force. The UK has large coal, natural gas, and oil resources, but its oil and natural gas reserves are declining and the UK became a net importer of energy in 2005. Services, particularly banking, insurance, and business services, account by far for the largest proportion of GDP while industry continues to decline in importance. After emerging from recession in 1992, Britain's economy enjoyed the longest period of expansion on record during which time growth outpaced most of Western Europe. In 2008, however, the global financial crisis hit the economy particularly hard, due to the importance of its financial sector. Sharply declining home prices, high consumer debt, and the global economic slowdown compounded Britain's economic problems, pushing the economy into recession in the latter half of 2008 and prompting the then BROWN government to implement a number of measures to stimulate the economy and stabilize the financial markets; these include nationalizing parts of the banking system, cutting taxes, suspending public sector borrowing rules, and moving forward public spending on capital projects. Facing burgeoning public deficits and debt levels, the CAMERON government in 2010 initiated a five-year austerity program, which aims to lower London's budget deficit from over 11% of GDP in 2010 to nearly 1% by 2015. The Bank of England periodically coordinates interest rate moves with the European Central Bank, but Britain remains outside the European Economic and Monetary Union (EMU).",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.173 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2173000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.247 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2247000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$34,800 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.9%",
-			"industry:": "22.1%",
-			"services:": "77.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 77.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "31.45 million (2010 est.)",
+			"Labor force": 31450000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "1.4%",
-			"industry:": "18.2%",
-			"services:": "80.4% (2006 est.)"
+			"agriculture:": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 18.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 80.4,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.9% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "14% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 14,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.1%",
-			"highest 10%:": "28.5% (1999)"
+			"lowest 10%:": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 28.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "34 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "14.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 14.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$926.7 billion",
-			"expenditures:": "$1.154 trillion (2010 est.)"
+			"revenues:": {
+				"usd": 926700000000
+			},
+			"expenditures:": {
+				"usd": 1154000000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "76.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 76.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
@@ -267,79 +469,135 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "0.63% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 0.63,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$88.62 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 88620000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$3.344 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 3344000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$5.151 trillion (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 5151000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$2.796 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 2796000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cereals, oilseed, potatoes, vegetables; cattle, sheep, poultry; fish",
 		"Industries": "machine tools, electric power equipment, automation equipment, railroad equipment, shipbuilding, aircraft, motor vehicles and parts, electronics and communications equipment, metals, chemicals, coal, petroleum, paper and paper products, food processing, textiles, clothing, other consumer goods",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "368.6 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 368600000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "345.8 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 345800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "1.272 billion kWh (2008 est.)",
-		"Electricity - imports": "12.29 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 1272000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 12290000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "1.502 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 1502000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1.669 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1669000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.393 million bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 1393000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1.491 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 1491000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "3.084 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 3084000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "58.56 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 58560000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "87.45 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 87450000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "12.17 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 12170000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "41.06 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 41060000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "292 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 292000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -347,39 +605,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$405.6 billion (2010 est.)",
+			"Exports": {
+				"usd": 405600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "manufactured goods, fuels, chemicals; food, beverages, tobacco",
 		"Exports - partners": "US 14.71%, Germany 11.06%, France 8%, Netherlands 7.79%, Ireland 6.89%, Belgium 4.65%, Spain 4% (2009)",
 		"Imports": {
-			"Imports": "$546.5 billion (2010 est.)",
+			"Imports": {
+				"usd": 546500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "manufactured goods, machinery, fuels; foodstuffs",
 		"Imports - partners": "Germany 12.87%, US 9.74%, China 8.88%, Netherlands 6.94%, France 6.64%, Belgium 4.86%, Norway 4.84%, Ireland 4.01%, Italy 3.99% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$8.981 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 8981000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$1.169 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 1169000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$1.705 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 1705000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "32.117 million (2009)",
+			"Telephones - main lines in use": 32116999.999999996,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "80.375 million (2009)",
+			"Telephones - mobile cellular": 80375000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -390,40 +658,46 @@
 		"Broadcast media": "public service broadcaster BBC is the largest broadcasting corporation in the world; BBC operates multiple TV networks with regional and local TV service; a mixed system of public and commercial TV broadcasters along with satellite and cable systems provide access to hundreds of TV stations throughout the world; BBC operates multiple national, regional, and local radio networks with multiple transmission sites; a large number of commercial radio stations as well as satellite radio services are available (2008)",
 		"Internet country code": ".uk",
 		"Internet hosts": {
-			"Internet hosts": "7.03 million (2010)",
+			"Internet hosts": 7030000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "505 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "306",
-			"over 3,047 m:": "9",
-			"2,438 to 3,047 m:": "32",
-			"1,524 to 2,437 m:": "124",
-			"914 to 1,523 m:": "77"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "199",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "22",
-			"under 914 m:": "173 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "11 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 8 km; gas 14,071 km; liquid petroleum gas 59 km; oil 595 km; refined products 4,907 km (2010)",
 		"Railways": {
-			"total:": "16,454 km",
+			"total:": {
+				"quantity": 16454,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "303 km 1.600-m gauge (in Northern Ireland)",
 			"standard gauge:": "16,151 km 1.435-m gauge (5,248 km electrified) (2008)"
 		},
 		"Roadways": {
-			"total:": "394,428 km",
+			"total:": {
+				"quantity": 394428,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "394,428 km (includes 3,519 km of expressways) (2009)"
 		},
@@ -432,7 +706,7 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "527",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 30, cargo 70, carrier 3, chemical tanker 71, container 190, liquefied gas 10, passenger 7, passenger/cargo 67, petroleum tanker 20, refrigerated cargo 6, roll on/roll off 29, vehicle carrier 24",
 			"foreign-owned:": "271 (Australia 1, Bermuda 9, China 15, Denmark 40, France 32, Germany 78, Greece 1, Hong Kong, Italy 4, Japan 4, Netherlands 1, Norway 32, NZ 1, South Africa 5, Spain 7, Sweden 21, Taiwan 1, Turkey 1, UAE 7, United States 11)"
@@ -443,16 +717,16 @@
 		"Military branches": "Army, Royal Navy (includes Royal Marines), Royal Air Force (2010)",
 		"Military service age and obligation": "16-33 years of age (officers 17-28) for voluntary military service (with parental consent under 18); women serve in military services, but are excluded from ground combat positions and some naval postings; as of October 2009, women comprised 12.1% of officers and 9% of enlisted personnel in the regular forces; must be citizen of the UK, Commonwealth, or Republic of Ireland; reservists serve a minimum of 3 years, to age 45 or 55; 16 years of age for voluntary military service by Nepalese citizens in the Brigade of Gurkhas; 16-34 years of age for voluntary military service by Papua New Guinean citizens (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "14,856,917",
-			"females age 16-49:": "14,307,316 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "12,255,452",
-			"females age 16-49:": "11,779,679 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "383,989",
-			"female:": "365,491 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

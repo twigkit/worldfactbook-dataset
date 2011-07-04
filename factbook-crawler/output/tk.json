@@ -5,20 +5,50 @@
 	"background": "The islands were part of the UK's Jamaican colony until 1962, when they assumed the status of a separate crown colony upon Jamaica's independence. The governor of The Bahamas oversaw affairs from 1965 to 1973. With Bahamian independence, the islands received a separate governor in 1973. Although independence was agreed upon for 1982, the policy was reversed and the islands remain a British overseas territory.",
 	"geo": {
 		"Location": "Caribbean, two island groups in the North Atlantic Ocean, southeast of The Bahamas, north of Haiti",
-		"Geographic coordinates": "21 45 N, 71 35 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 21,
+				"seconds": 45
+			},
+			"W": {
+				"minutes": 71,
+				"seconds": 35
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "948 sq km",
+			"total:": {
+				"quantity": 948,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "948 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 948,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "2.5 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "389 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 389,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; marine; moderated by trade winds; sunny and relatively dry",
 		"Terrain": "low, flat limestone; extensive marshes and mangrove swamps",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "spiny lobster, conch",
 		"Land use": {
-			"arable land:": "2.33%",
-			"permanent crops:": "0%",
-			"other:": "97.67% (2005)"
+			"arable land:": {
+				"quantity": 2.33,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.67,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "frequent hurricanes",
@@ -39,61 +78,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "44,819 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "22.7% (male 5,188/female 5,008)",
-			"15-64 years:": "73.2% (male 16,653/female 16,156)",
+			"0-14 years:": {
+				"quantity": 22.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 73.2,
+				"unit": "%"
+			},
 			"65 years and over:": "4% (male 813/female 1,001) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.4 years",
-			"male:": "30.8 years",
-			"female:": "30.1 years (2011 est.)"
+			"total:": {
+				"quantity": 30.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 30.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 30.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.485% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.485,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.76 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.76,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.99 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.99,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "20.08 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 20.08,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "93% of total population (2010)",
-			"rate of urbanization:": "1.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 93,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "GRAND TURK (capital) 6,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.052 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.1 male(s)/female",
-			"65 years and over:": "0.98 male(s)/female",
-			"total population:": "1.07 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.052,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11.97 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11.97,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "15.02 deaths/1,000 live births",
-			"female:": "8.77 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 15.02,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.77,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.11 years",
+			"total population:": {
+				"quantity": 79.11,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "76.39 years",
-			"female:": "81.97 years (2011 est.)"
+			"male:": {
+				"quantity": 76.39,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.97,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.7 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.7,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -110,14 +218,32 @@
 		"Languages": "English (official)",
 		"Literacy": {
 			"definition:": "age 15 and over has ever attended school",
-			"total population:": "98%",
-			"male:": "99%",
-			"female:": "98% (1970 est.)"
+			"total population:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "12 years (2005)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": "NA",
 		"People - note": {}
@@ -132,7 +258,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Grand Turk (Cockburn Town)",
-			"geographic coordinates:": "21 28 N, 71 08 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 21,
+					"seconds": 28
+				},
+				"W": {
+					"minutes": 71,
+					"seconds": 8
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins second Sunday in March; ends first Sunday in November"
 		},
@@ -165,16 +300,23 @@
 	"economy": {
 		"Economy - overview": "The Turks and Caicos economy is based on tourism, offshore financial services, and fishing. Most capital goods and food for domestic consumption are imported. The US is the leading source of tourists, accounting for more than three-quarters of the 175,000 visitors that arrived in 2004. Major sources of government revenue also include fees from offshore financial activities and customs receipts.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$216 million (2002 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 216000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.9% (2000 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$11,500 (2002 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -183,14 +325,17 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "4,848 (1990 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
 			"note:": "about 33% in government and 20% in agriculture and fishing; significant numbers in tourism, financial, and other services"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10% (1997 est.)",
+			"Unemployment rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -199,64 +344,108 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$47 million",
-			"expenditures:": "$33.6 million (1997-98 est.)"
+			"revenues:": {
+				"usd": 47000000
+			},
+			"expenditures:": {
+				"usd": 33600000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4% (1995)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "corn, beans, cassava (tapioca), citrus fruits; fish",
 		"Industries": "tourism, offshore financial services",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "12 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 12000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "11.16 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 11160000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": "NA bbl/day (2009 est.)",
 		"Oil - exports": "NA (2007 est.)",
 		"Oil - imports": "NA bbl/day (2007 est.)",
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$169.2 million (2000)",
+			"Exports": {
+				"usd": 169200000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "lobster, dried and fresh conch, conch shells",
 		"Imports": {
-			"Imports": "$175.6 million (2000)",
+			"Imports": {
+				"usd": 175600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food and beverages, tobacco, clothing, manufactures, construction materials",
@@ -265,11 +454,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "25,100 (2004)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -283,24 +472,33 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "8 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "7",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "121 km",
+			"total:": {
+				"quantity": 121,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "24 km",
-			"unpaved:": "97 km (2003)"
+			"paved:": {
+				"quantity": 24,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 97,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
 			"registered in other countries:": "1 (Panama 1) (2008)",
@@ -310,12 +508,12 @@
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "11,842",
-			"females age 16-49:": "11,755 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "338",
-			"female:": "342 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

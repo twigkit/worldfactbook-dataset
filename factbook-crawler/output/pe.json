@@ -5,23 +5,53 @@
 	"background": "Ancient Peru was the seat of several prominent Andean civilizations, most notably that of the Incas whose empire was captured by the Spanish conquistadors in 1533. Peruvian independence was declared in 1821, and remaining Spanish forces were defeated in 1824. After a dozen years of military rule, Peru returned to democratic leadership in 1980, but experienced economic problems and the growth of a violent insurgency. President Alberto FUJIMORI's election in 1990 ushered in a decade that saw a dramatic turnaround in the economy and significant progress in curtailing guerrilla activity. Nevertheless, the president's increasing reliance on authoritarian measures and an economic slump in the late 1990s generated mounting dissatisfaction with his regime, which led to his ouster in 2000. A caretaker government oversaw new elections in the spring of 2001, which ushered in Alejandro TOLEDO Manrique as the new head of government - Peru's first democratically elected president of Native American ethnicity. The presidential election of 2006 saw the return of Alan GARCIA Perez who, after a disappointing presidential term from 1985 to 1990, has overseen a robust macroeconomic performance.",
 	"geo": {
 		"Location": "Western South America, bordering the South Pacific Ocean, between Chile and Ecuador",
-		"Geographic coordinates": "10 00 S, 76 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 10,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 76,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "1,285,216 sq km",
+			"total:": {
+				"quantity": 1285,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,279,996 sq km",
-			"water:": "5,220 sq km"
+			"land:": {
+				"quantity": 1279,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 5220,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Alaska",
 		"Land boundaries": {
-			"total:": "7,461 km",
+			"total:": {
+				"quantity": 7461,
+				"unit": "km"
+			},
 			"border countries:": "Bolivia 1,075 km, Brazil 2,995 km, Chile 171 km, Colombia 1,800 km, Ecuador 1,420 km"
 		},
-		"Coastline": "2,414 km",
+		"Coastline": {
+			"quantity": 2414,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "200 nm",
-			"continental shelf:": "200 nm"
+			"territorial sea:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
 		"Terrain": "western coastal plain (costa), high and rugged Andes in center (sierra), eastern lowland jungle of Amazon Basin (selva)",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "copper, silver, gold, petroleum, timber, fish, iron ore, coal, phosphate, potash, hydropower, natural gas",
 		"Land use": {
-			"arable land:": "2.88%",
-			"permanent crops:": "0.47%",
-			"other:": "96.65% (2005)"
+			"arable land:": {
+				"quantity": 2.88,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.47,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.65,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "11,950 sq km (2008)",
-		"Total renewable water resources": "1,913 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 11950,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 1913,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "20.13  cu km/yr (8%/10%/82%)",
-			"per capita:": "720  cu m/yr (2000)"
+			"total:": {
+				"quantity": 20.13,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 720,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "earthquakes, tsunamis, flooding, landslides, mild volcanic activity",
@@ -54,29 +105,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "29,248,943 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "28.5% (male 4,245,023/female 4,101,220)",
-			"15-64 years:": "65.1% (male 9,316,128/female 9,722,258)",
+			"0-14 years:": {
+				"quantity": 28.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.1,
+				"unit": "%"
+			},
 			"65 years and over:": "6.4% (male 885,703/female 978,611) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.2 years",
-			"male:": "25.5 years",
-			"female:": "26.8 years (2011 est.)"
+			"total:": {
+				"quantity": 26.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 25.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.029% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.029,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "19.41 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 19.41,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.93 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.93,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -84,43 +159,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "77% of total population (2010)",
-			"rate of urbanization:": "1.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 77,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LIMA (capital) 8.769 million; Arequipa 778,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.046 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.89 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.046,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "22.18 deaths/1,000 live births",
+			"total:": {
+				"quantity": 22.18,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "24.49 deaths/1,000 live births",
-			"female:": "19.77 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 24.49,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 19.77,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "72.47 years",
+			"total population:": {
+				"quantity": 72.47,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "70.55 years",
-			"female:": "74.48 years (2011 est.)"
+			"male:": {
+				"quantity": 70.55,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.48,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.32 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.32,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "75,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "5,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -140,14 +260,32 @@
 		"Languages": "Spanish (official) 84.1%, Quechua (official) 13%, Aymara 1.7%, Ashaninka 0.3%, other native languages (includes a large number of minor Amazonian languages) 0.7%, other 0.2% (2007 Census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92.9%",
-			"male:": "96.4%",
-			"female:": "89.4% (2007 Census)"
+			"total population:": {
+				"quantity": 92.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 96.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 89.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "13 years (2006)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +299,16 @@
 		"Government type": "constitutional republic",
 		"Capital": {
 			"name:": "Lima",
-			"geographic coordinates:": "12 03 S, 77 03 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 12,
+					"seconds": 3
+				},
+				"W": {
+					"minutes": 77,
+					"seconds": 3
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "25 regions (regiones, singular - region) and 1 province* (provincia); Amazonas, Ancash, Apurimac, Arequipa, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin, La Libertad, Lambayeque, Lima, Lima*, Loreto, Madre de Dios, Moquegua, Pasco, Piura, Puno, San Martin, Tacna, Tumbes, Ucayali",
@@ -206,139 +353,250 @@
 	"economy": {
 		"Economy - overview": "Peru's economy reflects its varied geography - an arid coastal region, the Andes further inland, and tropical lands bordering Colombia and Brazil. Abundant mineral resources are found in the mountainous areas, and Peru's coastal waters provide excellent fishing grounds. The Peruvian economy grew by almost 6% per year during the period 2002-06, with a stable exchange rate and low inflation. Growth jumped to nearly 9% per year in 2007 and 10% in 2008, driven by private investment and government spending, but then fell to less than 1% in 2009 in the face of the world recession, a sharp fall of private investment, and a substantial increase in counter-cyclical government spending. Growth resumed in 2010 at above 8%, due partly to a leap in private investment and continued high government spending. Peru's rapid expansion coupled with the government's conditional cash transfers and other programs have helped to reduce the national poverty rate by over 19 percentage points since 2002, though underemployment remains high. Inflation in 2010 was within the Central Bank's 1%-3% target range. Despite Peru's strong macroeconomic performance, dependence on minerals and metals exports and imported foodstuffs subjects the economy to fluctuations in world prices. Poor infrastructure hinders the spread of growth to Peru's non-coastal areas. A growing number of Peruvians are sharing in the benefits of growth but despite President GARCIA's pursuit of sound trade and macroeconomic policies, inequality persists. Nevertheless, he remains committed to Peru's free-trade path. Since 2006, Peru has signed trade deals with the United States, Canada, Singapore, China, Korea, and Japan, concluded negotiations with the European Free Trade Association (EFTA) and Chile, and begun trade talks with Central American countries and others. The US-Peru Trade Promotion Agreement (PTPA) entered into force 1 February 2009, opening the way to greater trade and investment between the two economies. Rising world prices of foodstuffs and fuel, coupled with strong domestic demand, are immediate concerns for 2011. Peru has continued to attract foreign investment. However, political disputes may impede development of some projects related to natural resource extraction.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$275.7 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 275700000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$152.8 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 152800000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$9,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "10%",
-			"industry:": "35%",
-			"services:": "55% (2010 est.)"
+			"agriculture:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 35,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 55,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "15.68 million (mid-year 2010 est.)",
+			"Labor force": 15680000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "0.7%",
-			"industry:": "23.8%",
-			"services:": "75.5% (2005)"
+			"agriculture:": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 75.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.9% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "34.8% (2009)",
+		"Population below poverty line": {
+			"quantity": 34.8,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.5%",
-			"highest 10%:": "37.9% (2006)"
+			"lowest 10%:": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 37.9,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "49.6 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "25.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 25.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$30.53 billion",
-			"expenditures:": "$29.72 billion (2010 est.)"
+			"revenues:": {
+				"usd": 30530000000
+			},
+			"expenditures:": {
+				"usd": 29720000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "23.9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 23.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.5% (2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3.8% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "3.63% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 3.63,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$15.26 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 15260000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$55.2 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 55200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$44.2 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 44200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$160.9 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 160900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "asparagus, coffee, cocoa, cotton, sugarcane, rice, potatoes, corn, plantains, grapes, oranges, pineapples, guavas, bananas, apples, lemons, pears, coca, tomatoes, mango, barley, medicinal plants, palm oil, marigold, onion, wheat, dry beans; poultry, beef, dairy products; fish; guinea pigs",
 		"Industries": "mining and refining of minerals; steel, metal fabrication; petroleum extraction and refining, natural gas and natural gas liquefaction; fishing and fish processing, cement, textiles, clothing, food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "35.79 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 35790000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "31.74 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 31740000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "111.9 million kWh (2010 est.)",
-		"Electricity - imports": "0 kWh (2010 est.)",
+		"Electricity - exports": {
+			"quantity": 111900000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "157,200 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 157200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "150,700 bbl/day (2010 est.)",
+			"Oil - consumption": {
+				"quantity": 150700,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "68,640 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 68640,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "88,080 bbl/day (2010 est.)",
+			"Oil - imports": {
+				"quantity": 88080,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.163 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1163000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "7.24 billion cu m (2010)",
+			"Natural gas - production": {
+				"quantity": 7240000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "3.65 billion cu m (2010)",
+			"Natural gas - consumption": {
+				"quantity": 3650000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "3.59 billion cu m",
+			"Natural gas - exports": {
+				"quantity": 3590000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2010)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "453 billion cu m (1 January 2011 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 453000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -346,42 +604,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$35.56 billion (2010 est.)",
+			"Exports": {
+				"usd": 35560000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copper, gold, zinc, tin, iron ore, molybdenum; crude petroleum and petroleum products, natural gas; coffee, potatoes, asparagus and other vegetables, fruit, apparel and textiles, fishmeal",
 		"Exports - partners": "US 16.98%, China 15.3%, Switzerland 14.85%, Canada 8.67%, Japan 5.14% (2010 est.)",
 		"Imports": {
-			"Imports": "$25.74 billion (2010 est.)",
+			"Imports": {
+				"usd": 25740000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum and petroleum products, chemicals, plastics, machinery, vehicles, color TV sets, power shovels, front-end loaders, telephones and telecommunication equipment, iron and steel, wheat, corn, soybean products, paper, cotton, vaccines and medicines",
 		"Imports - partners": "US 19.72%, China 15%, Brazil 7.77%, Ecuador 4.9%, Chile 4.6%, Colombia 4.4%, Japan 4.1% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$44.11 billion (31 December 2010)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 44110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$33.29 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 33290000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$43.47 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 43470000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$2.12 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 2120000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2.965 million (2009)",
+			"Telephones - main lines in use": 2965000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "24.7 million (2009)",
+			"Telephones - mobile cellular": 24700000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -392,40 +662,46 @@
 		"Broadcast media": "10 major television networks of which only one, Television Nacional de Peru, is state-owned; multi-channel cable TV services are available; in excess of 2,000 radio stations including a substantial number of indigenous language stations (2010)",
 		"Internet country code": ".pe",
 		"Internet hosts": {
-			"Internet hosts": "268,225 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "211 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "58",
-			"over 3,047 m:": "6",
-			"2,438 to 3,047 m:": "20",
-			"1,524 to 2,437 m:": "15",
-			"914 to 1,523 m:": "13"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "153",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "24",
-			"914 to 1,523 m:": "40",
-			"under 914 m:": "87 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "extra heavy crude 533 km; gas 1,526 km; liquid petroleum gas 679 km; oil 1,033 km; refined products 15 km (2010)",
 		"Railways": {
-			"total:": "2,020 km",
+			"total:": {
+				"quantity": 2020,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "1,886 km 1.435-m gauge",
 			"narrow gauge:": "134 km 0.914-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "102,887 km",
+			"total:": {
+				"quantity": 102887,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
@@ -433,10 +709,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "13",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, chemical tanker 2, liquefied gas 2, petroleum tanker 7",
-			"foreign-owned:": "1 (Bahamas 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "13 (Belize 1, Panama 12) (2010)"
 		},
 		"Ports and terminals": {}
@@ -445,16 +721,16 @@
 		"Military branches": "Army of Peru (Ejercito Peruano), Navy of Peru (Marina de Guerra del Peru, MGP (includes naval air, naval infantry, and Coast Guard)), Air Force of Peru (Fuerza Aerea del Peru, FAP) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary male and female military service; no conscription (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "7,385,588",
-			"females age 16-49:": "7,727,623 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "5,788,629",
-			"females age 16-49:": "6,565,097 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "304,094",
-			"female:": "298,447 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

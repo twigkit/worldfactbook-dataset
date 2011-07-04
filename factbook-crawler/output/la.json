@@ -5,20 +5,44 @@
 	"background": "Modern-day Laos has its roots in the ancient Lao kingdom of Lan Xang, established in the 14th Century under King FA NGUM. For 300 years Lan Xang had influence reaching into present-day Cambodia and Thailand, as well as over all of what is now Laos. After centuries of gradual decline, Laos came under the domination of Siam (Thailand) from the late 18th century until the late 19th century when it became part of French Indochina. The Franco-Siamese Treaty of 1907 defined the current Lao border with Thailand. In 1975, the Communist Pathet Lao took control of the government ending a six-century-old monarchy and instituting a strict socialist regime closely aligned to Vietnam. A gradual, limited return to private enterprise and the liberalization of foreign investment laws began in 1988. Laos became a member of ASEAN in 1997.",
 	"geo": {
 		"Location": "Southeastern Asia, northeast of Thailand, west of Vietnam",
-		"Geographic coordinates": "18 00 N, 105 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 18,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 105,
+				"seconds": 0
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "236,800 sq km",
+			"total:": {
+				"quantity": 236800,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "230,800 sq km",
-			"water:": "6,000 sq km"
+			"land:": {
+				"quantity": 230800,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 6000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Utah",
 		"Land boundaries": {
-			"total:": "5,083 km",
+			"total:": {
+				"quantity": 5083,
+				"unit": "km"
+			},
 			"border countries:": "Burma 235 km, Cambodia 541 km, China 423 km, Thailand 1,754 km, Vietnam 2,130 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "tropical monsoon; rainy season (May to November); dry season (December to April)",
 		"Terrain": "mostly rugged mountains; some plains and plateaus",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "timber, hydropower, gypsum, tin, gold, gemstones",
 		"Land use": {
-			"arable land:": "4.01%",
-			"permanent crops:": "0.34%",
-			"other:": "95.65% (2005)"
+			"arable land:": {
+				"quantity": 4.01,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.34,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 95.65,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "3,000 sq km (2008)",
-		"Total renewable water resources": "333.6 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 3000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 333.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "3  cu km/yr (4%/6%/90%)",
-			"per capita:": "507  cu m/yr (2000)"
+			"total:": {
+				"quantity": 3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 507,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "floods, droughts",
 		"Environment - current issues": "unexploded ordnance; deforestation; soil erosion; most of the population does not have access to potable water",
@@ -48,29 +93,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "6,477,211 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "36.7% (male 1,197,579/female 1,181,523)",
-			"15-64 years:": "59.6% (male 1,908,176/female 1,950,544)",
+			"0-14 years:": {
+				"quantity": 36.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 59.6,
+				"unit": "%"
+			},
 			"65 years and over:": "3.7% (male 107,876/female 131,513) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21 years",
-			"male:": "20.7 years",
-			"female:": "21.3 years (2011 est.)"
+			"total:": {
+				"quantity": 21,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 20.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.684% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.684,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.13 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.13,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.13 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.13,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,39 +147,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "33% of total population (2010)",
-			"rate of urbanization:": "4.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 33,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "VIENTIANE (capital) 799,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.75 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.75,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "59.46 deaths/1,000 live births",
+			"total:": {
+				"quantity": 59.46,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.49 deaths/1,000 live births",
-			"female:": "53.18 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 65.49,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 53.18,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "62.39 years",
+			"total population:": {
+				"quantity": 62.39,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "60.5 years",
-			"female:": "64.36 years (2011 est.)"
+			"male:": {
+				"quantity": 60.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 64.36,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.14 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.14,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "8,500 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -133,14 +247,32 @@
 		"Languages": "Lao (official), French, English, various ethnic languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "73%",
-			"male:": "83%",
-			"female:": "63% (2005 Census)"
+			"total population:": {
+				"quantity": 73,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 83,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 63,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "10 years",
-			"female:": "9 years (2008)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 9,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +286,16 @@
 		"Government type": "Communist state",
 		"Capital": {
 			"name:": "Vientiane (Viangchan)",
-			"geographic coordinates:": "17 58 N, 102 36 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 17,
+					"seconds": 58
+				},
+				"E": {
+					"minutes": 102,
+					"seconds": 36
+				}
+			},
 			"time difference:": "UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "16 provinces (khoueng, singular and plural) and 1 capital city* (nakhon luang, singular and plural); Attapu, Bokeo, Bolikhamxai, Champasak, Houaphan, Khammouan, Louangnamtha, Louangphrabang, Oudomxai, Phongsali, Salavan, Savannakhet, Viangchan (Vientiane)*, Viangchan, Xaignabouli, Xekong, Xiangkhoang",
@@ -199,120 +340,211 @@
 	"economy": {
 		"Economy - overview": "The government of Laos, one of the few remaining one-party Communist states, began decentralizing control and encouraging private enterprise in 1986. The results, starting from an extremely low base, were striking - growth averaged 6% per year from 1988-2008 except during the short-lived drop caused by the Asian financial crisis that began in 1997. Despite this high growth rate, Laos remains a country with an underdeveloped infrastructure, particularly in rural areas. It has a rudimentary, but improving, road system, and limited external and internal telecommunications. China has signed a deal with the Lao to build a high speed rail system in the country. Construction on the $7 billion project is slated to begin in April 2011 and will take five years. Electricity is available in urban areas and in many rural districts. Subsistence agriculture, dominated by rice cultivation in lowland areas, accounts for about 30% of GDP and 75% of total employment. The government in FY09/10 received $586 million from international donors. Economic growth has reduced official poverty rates from 46% in 1992 to 26% in 2010. The economy has benefited from high foreign investment in hydropower, mining, and construction. Laos gained Normal Trade Relations status with the US in 2004, and is taking steps required to join the World Trade Organization, such as reforming import licensing. Related trade policy reforms will improve the business environment. On the fiscal side, Laos initiated a VAT tax system in 2010. Simplified investment procedures and expanded bank credits for small farmers and small entrepreneurs will improve Lao's economic prospects. The government appears committed to raising the country's profile among investors. The World Bank has declared that Laos's goal of graduating from the UN Development Program's list of least-developed countries by 2020 is achievable. According Laotian officials, the 7th Socio-Economic Development Plan for 2011-15 will outline efforts to achieve Millennium Development Goals.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$15.69 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 15690000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$6.341 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 6341000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "29.8%",
-			"industry:": "31.7%",
-			"services:": "38.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 29.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 38.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.69 million (2010 est.)",
+			"Labor force": 3690000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "75.1%",
+			"agriculture:": {
+				"quantity": 75.1,
+				"unit": "%"
+			},
 			"industry and services:": "NA (2010 est.)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.5% (2009 est.)",
+			"Unemployment rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26% (2010 est.)",
+		"Population below poverty line": {
+			"quantity": 26,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.4%",
-			"highest 10%:": "28.5% (2002)"
+			"lowest 10%:": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 28.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "34.6 (2002)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.137 billion",
-			"expenditures:": "$1.328 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1137000000
+			},
+			"expenditures:": {
+				"usd": 1328000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.3% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 4.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "26% (31 December 2010)",
+			"Commercial bank prime lending rate": {
+				"quantity": 26,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$630 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 630000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.818 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1818000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.562 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1562000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "sweet potatoes, vegetables, corn, coffee, sugarcane, tobacco, cotton, tea, peanuts, rice; water buffalo, pigs, cattle, poultry",
 		"Industries": "copper, tin, gold, and gypsum mining; timber, electric power, agricultural processing, construction, garments, cement, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "17.7% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 17.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.553 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 1553000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.23 billion kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 2230000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "341 million kWh (2010 est.)",
-		"Electricity - imports": "999 million kWh (2010 est.)",
+		"Electricity - exports": {
+			"quantity": 341000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 999000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,918 bbl/day (2010 est.)",
+			"Oil - consumption": {
+				"quantity": 1918,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,918 bbl/day (2010 est.)",
+			"Oil - imports": {
+				"quantity": 1918,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": "NA cu m (2008 est.)",
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": "NA cu m (2008 est.)",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -320,34 +552,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.95 billion (2010 est.)",
+			"Exports": {
+				"usd": 1950000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "wood products, coffee, electricity, tin, copper, gold",
 		"Exports - partners": "Thailand 29.18%, China 15.04%, Vietnam 14.96%, UK 4.29% (2009)",
 		"Imports": {
-			"Imports": "$1.504 billion (2010 est.)",
+			"Imports": {
+				"usd": 1504000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, fuel, consumer goods",
 		"Imports - partners": "Thailand 66.2%, China 11.45%, Vietnam 5.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$756 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 756000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$5.797 billion (2010 est.)",
+			"Debt - external": {
+				"usd": 5797000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "132,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.235 million (2009)",
+			"Telephones - mobile cellular": 3235000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -358,34 +598,43 @@
 		"Broadcast media": "2 television stations operating out of Vientiane - 1 government-operated and the other jointly-owned by the government and a Thai company; roughly 15 provincial stations operating with nearly all programming relayed via satellite from the government-operated station in Vientiane; relays from Hanoi provide access to a Vietnamese television station; broadcasts available from stations in Thailand and Vietnam in border areas; multi-channel satellite and cable TV systems provide access to a wide range of foreign stations; state-controlled radio with state-operated Lao National Radio (LNR) broadcasting on 5 frequencies - 1 AM, 2 SW, and 2 FM; LNR's AM and FM programs are relayed via satellite constituting a large part of the programming schedules of the provincial radio stations; Thai radio broadcasts available in border areas and transmissions of multiple international broadcasters are also accessible (2008)",
 		"Internet country code": ".la",
 		"Internet hosts": {
-			"Internet hosts": "1,468 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "41 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "9",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "32",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "9",
-			"under 914 m:": "21 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "refined products 540 km (2010)",
 		"Roadways": {
-			"total:": "36,831 km",
+			"total:": {
+				"quantity": 36831,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,811 km",
-			"unpaved:": "32,020 km (2007)"
+			"paved:": {
+				"quantity": 4811,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 32020,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "4,600 km (primarily on the Mekong River and its tributaries; 2,900 additional km are intermittently navigable by craft drawing less than 0.5 m) (2010)",
@@ -397,19 +646,22 @@
 		"Military branches": "Lao People's Armed Forces (LPAF): Lao People's Army (LPA; includes Riverine Force), Air Force (2011)",
 		"Military service age and obligation": "18 years of age for compulsory military service; minimum 18-month service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,574,362",
-			"females age 16-49:": "1,607,856 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,111,629",
-			"females age 16-49:": "1,190,035 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "71,400",
-			"female:": "73,038 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "0.5% of GDP (2006)",
+			"Military expenditures": {
+				"quantity": 0.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

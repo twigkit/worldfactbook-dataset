@@ -5,24 +5,57 @@
 	"background": "Independent from France in 1960, Mauritania annexed the southern third of the former Spanish Sahara (now Western Sahara) in 1976 but relinquished it after three years of raids by the Polisario guerrilla front seeking independence for the territory. Maaouya Ould Sid Ahmed TAYA seized power in a coup in 1984 and ruled Mauritania with a heavy hand for more than two decades. A series of presidential elections that he held were widely seen as flawed. A bloodless coup in August 2005 deposed President TAYA and ushered in a military council that oversaw a transition to democratic rule. Independent candidate Sidi Ould Cheikh ABDALLAHI was inaugurated in April 2007 as Mauritania's first freely and fairly elected president. His term ended prematurely in August 2008 when a military junta led by General Mohamed Ould Abdel AZIZ deposed him and ushered in a military council government. AZIZ was subsequently elected president in July 2009 and sworn in the following month. The country continues to experience ethnic tensions among its black population (Afro-Mauritanians) and white and black Moor (Arab-Berber) communities, and is having to confront a growing terrorism threat by al-Qa'ida in the Islamic Maghreb (AQIM).",
 	"geo": {
 		"Location": "Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara",
-		"Geographic coordinates": "20 00 N, 12 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 20,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 12,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1,030,700 sq km",
+			"total:": {
+				"quantity": 1030,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,030,700 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 1030,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than three times the size of New Mexico",
 		"Land boundaries": {
-			"total:": "5,074 km",
+			"total:": {
+				"quantity": 5074,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 463 km, Mali 2,237 km, Senegal 813 km, Western Sahara 1,561 km"
 		},
-		"Coastline": "754 km",
+		"Coastline": {
+			"quantity": 754,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "desert; constantly hot, dry, dusty",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "iron ore, gypsum, copper, phosphate, diamonds, gold, oil, fish",
 		"Land use": {
-			"arable land:": "0.2%",
-			"permanent crops:": "0.01%",
-			"other:": "99.79% (2005)"
+			"arable land:": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.01,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.79,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "450 sq km (2008)",
-		"Total renewable water resources": "11.4 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 450,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 11.4,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.7  cu km/yr (9%/3%/88%)",
-			"per capita:": "554  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.7,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 554,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry, dust/sand-laden sirocco wind blows primarily in March and April; periodic droughts",
 		"Environment - current issues": "overgrazing, deforestation, and soil erosion aggravated by drought are contributing to desertification; limited natural freshwater resources away from the Senegal, which is the only perennial river; locust infestation",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,281,634 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "40.4% (male 665,314/female 660,352)",
-			"15-64 years:": "56.2% (male 866,859/female 975,821)",
+			"0-14 years:": {
+				"quantity": 40.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 56.2,
+				"unit": "%"
+			},
 			"65 years and over:": "3.5% (male 48,075/female 65,213) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.5 years",
-			"male:": "18.6 years",
-			"female:": "20.4 years (2011 est.)"
+			"total:": {
+				"quantity": 19.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 20.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.349% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.349,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "33.23 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 33.23,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.83 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.83,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,39 +161,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "41% of total population (2010)",
-			"rate of urbanization:": "2.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 41,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "NOUAKCHOTT (capital) 709,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.89 male(s)/female",
-			"65 years and over:": "0.74 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.74,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "60.42 deaths/1,000 live births",
+			"total:": {
+				"quantity": 60.42,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.55 deaths/1,000 live births",
-			"female:": "55.13 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 65.55,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 55.13,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "61.14 years",
+			"total population:": {
+				"quantity": 61.14,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.94 years",
-			"female:": "63.41 years (2011 est.)"
+			"male:": {
+				"quantity": 58.94,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 63.41,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.3 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.3,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.7% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "14,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -140,14 +263,32 @@
 		"Languages": "Arabic (official and national), Pulaar, Soninke, Wolof (all national languages), French, Hassaniya",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "51.2%",
-			"male:": "59.5%",
-			"female:": "43.4% (2000 census)"
+			"total population:": {
+				"quantity": 51.2,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 59.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 43.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "8 years",
-			"male:": "8 years",
-			"female:": "8 years (2007)"
+			"total:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +302,16 @@
 		"Government type": "military junta",
 		"Capital": {
 			"name:": "Nouakchott",
-			"geographic coordinates:": "18 07 N, 16 02 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 18,
+					"seconds": 7
+				},
+				"W": {
+					"minutes": 16,
+					"seconds": 2
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "13 regions (wilayas, singular - wilaya); Adrar, Assaba, Brakna, Dakhlet Nouadhibou, Gorgol, Guidimaka, Hodh ech Chargui, Hodh El Gharbi, Inchiri, Nouakchott, Tagant, Tiris Zemmour, Trarza",
@@ -209,51 +359,97 @@
 	"economy": {
 		"Economy - overview": "Half the population still depends on agriculture and livestock for a livelihood, even though many of the nomads and subsistence farmers were forced into the cities by recurrent droughts in the 1970s and 1980s. Mauritania has extensive deposits of iron ore, which account for nearly 40% of total exports. The nation's coastal waters are among the richest fishing areas in the world but overexploitation by foreigners threatens this key source of revenue. The country's first deepwater port opened near Nouakchott in 1986. Before 2000, drought and economic mismanagement resulted in a buildup of foreign debt. In February 2000, Mauritania qualified for debt relief under the Heavily Indebted Poor Countries (HIPC) initiative and nearly all of its foreign debt has since been forgiven. A new investment code approved in December 2001 improved the opportunities for direct foreign investment. Mauritania and the IMF agreed to a three-year Poverty Reduction and Growth Facility (PRGF) arrangement in 2006. Mauritania made satisfactory progress, but the IMF, World Bank, and other international actors suspended assistance and investment in Mauritania after the August 2008 coup. Since the presidential election in July 2009, donors have resumed assistance. Oil prospects, while initially promising, have largely failed to materialize, and the government has placed a priority on attracting private investment to spur economic growth. The Government also emphasizes reduction of poverty, improvement of health and education, and privatization of the economy.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$6.655 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 6655000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$3.799 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 3799000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "12.5%",
-			"industry:": "46.7%",
-			"services:": "40.7% (2008 est.)"
+			"agriculture:": {
+				"quantity": 12.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 46.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 40.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.318 million (2007)",
+			"Labor force": 1318000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "50%",
-			"industry:": "10%",
-			"services:": "40% (2001 est.)"
+			"agriculture:": {
+				"quantity": 50,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 40,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "30% (2008 est.)",
+			"Unemployment rate": {
+				"quantity": 30,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "40% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 40,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.5%",
-			"highest 10%:": "29.5% (2000)"
+			"lowest 10%:": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 29.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "39 (2000)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$770 million",
-			"expenditures:": "$770 million (2007 est.)"
+			"revenues:": {
+				"usd": 770000000
+			},
+			"expenditures:": {
+				"usd": 770000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "7.3% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
@@ -268,57 +464,102 @@
 			"Industries": "fish processing, oil production, mining of iron ore, gold, and copper"
 		},
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2% (2000 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "415.3 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 415300000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "386.2 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 386200000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "16,510 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 16510,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "20,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 20000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "30,620 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 30620,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "20,610 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 20610,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "100 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 100000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "28.32 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 28320000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -326,13 +567,17 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.395 billion (2006)",
+			"Exports": {
+				"usd": 1395000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "iron ore, fish and fish products, gold, copper, petroleum",
 		"Exports - partners": "China 42.06%, Italy 9.71%, Japan 7.57%, Cote d'Ivoire 6.16%, Spain 5.63%, Netherlands 4.32% (2009)",
 		"Imports": {
-			"Imports": "$1.475 billion (2006)",
+			"Imports": {
+				"usd": 1475000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, petroleum products, capital goods, foodstuffs, consumer goods",
@@ -342,11 +587,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "74,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.182 million (2009)",
+			"Telephones - mobile cellular": 2182000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -357,36 +602,48 @@
 		"Broadcast media": "broadcast media state-owned; 1 state-run TV and 1 state-run radio network; Television de Mauritanie, the state-run TV station, has an additional 6 regional TV stations that provide local programming (2008)",
 		"Internet country code": ".mr",
 		"Internet hosts": {
-			"Internet hosts": "23 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "28 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "9",
-			"2,438 to 3,047 m:": "5",
-			"1,524 to 2,437 m:": "4 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "19",
-			"1,524 to 2,437 m:": "9",
-			"914 to 1,523 m:": "8",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"Railways": "728 km",
+			"Railways": {
+				"quantity": 728,
+				"unit": "km"
+			},
 			"standard gauge:": "728 km 1.435-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "11,066 km",
+			"total:": {
+				"quantity": 11066,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,966 km",
-			"unpaved:": "8,100 km (2006)"
+			"paved:": {
+				"quantity": 2966,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 8100,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(some is navigation possible on the Senegal River) (2010)",
 		"Ports and terminals": {}
@@ -395,16 +652,16 @@
 		"Military branches": "Mauritanian Armed Forces: Army, Mauritanian Navy (Marine Mauritanienne; includes naval infantry), Islamic Air Force of Mauritania (Force Aerienne Islamique de Mauritanie, FAIM) (2010)",
 		"Military service age and obligation": "18 years of age (est.); conscript service obligation - 2 years; majority of servicemen believed to be volunteers; service in Air Force and Navy is voluntary (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "718,713",
-			"females age 16-49:": "804,622 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "480,042",
-			"females age 16-49:": "581,473 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "36,116",
-			"female:": "36,826 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,20 +5,50 @@
 	"background": "Named after Captain COOK, who sighted them in 1770, the islands became a British protectorate in 1888. By 1900, administrative control was transferred to New Zealand; in 1965, residents chose self-government in free association with New Zealand. The emigration of skilled workers to New Zealand and government deficits are continuing problems.",
 	"geo": {
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
-		"Geographic coordinates": "21 14 S, 159 46 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 21,
+				"seconds": 14
+			},
+			"W": {
+				"minutes": 159,
+				"seconds": 46
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "236 sq km",
+			"total:": {
+				"quantity": 236,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "236 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 236,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "1.3 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "120 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 120,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "tropical oceanic; moderated by trade winds; a dry season from April to November and a more humid season from December to March",
@@ -29,9 +59,18 @@
 		},
 		"Natural resources": "NEGL",
 		"Land use": {
-			"arable land:": "16.67%",
-			"permanent crops:": "8.33%",
-			"other:": "75% (2005)"
+			"arable land:": {
+				"quantity": 16.67,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 8.33,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 75,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (November to March)",
@@ -43,25 +82,43 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "11,124 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "25.1% (male 1,479/female 1,308)",
-			"15-64 years:": "65% (male 3,737/female 3,499)",
+			"0-14 years:": {
+				"quantity": 25.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65,
+				"unit": "%"
+			},
 			"65 years and over:": "9.9% (male 538/female 563) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "32 years",
-			"male:": "31.3 years",
-			"female:": "32.7 years (2011 est.)"
+			"total:": {
+				"quantity": 32,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 31.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 32.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-3.2% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "15.37 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 15.37,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
@@ -69,30 +126,72 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "75% of total population (2008)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 75,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.048 male(s)/female",
-			"under 15 years:": "1.13 male(s)/female",
-			"15-64 years:": "1.07 male(s)/female",
-			"65 years and over:": "0.96 male(s)/female",
-			"total population:": "1.07 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.048,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.13,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "15.81 deaths/1,000 live births",
+			"total:": {
+				"quantity": 15.81,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "19.24 deaths/1,000 live births",
-			"female:": "12.21 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 19.24,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 12.21,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.7 years",
+			"total population:": {
+				"quantity": 74.7,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.91 years",
-			"female:": "77.62 years (2011 est.)"
+			"male:": {
+				"quantity": 71.91,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.62,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.39 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.39,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -109,14 +208,26 @@
 		"Languages": "English (official), Maori",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "95%",
+			"total population:": {
+				"quantity": 95,
+				"unit": "%"
+			},
 			"male:": "NA",
 			"female:": "NA"
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2010)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": "NA",
 		"People - note": {}
@@ -131,7 +242,16 @@
 		"Government type": "self-governing parliamentary democracy",
 		"Capital": {
 			"name:": "Avarua",
-			"geographic coordinates:": "21 12 S, 159 46 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 21,
+					"seconds": 12
+				},
+				"W": {
+					"minutes": 159,
+					"seconds": 46
+				}
+			},
 			"time difference:": "UTC-10 (5 hours behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none",
@@ -167,34 +287,64 @@
 	"economy": {
 		"Economy - overview": "Like many other South Pacific island nations, the Cook Islands' economic development is hindered by the isolation of the country from foreign markets, the limited size of domestic markets, lack of natural resources, periodic devastation from natural disasters, and inadequate infrastructure. Agriculture, employing more than one-quarter of the working population, provides the economic base with major exports made up of copra and citrus fruit. Black pearls are the Cook Islands' leading export. Manufacturing activities are limited to fruit processing, clothing, and handicrafts. Trade deficits are offset by remittances from emigrants and by foreign aid overwhelmingly from New Zealand. In the 1980s and 1990s, the country lived beyond its means, maintaining a bloated public service and accumulating a large foreign debt. Subsequent reforms, including the sale of state assets, the strengthening of economic management, the encouragement of tourism, and a debt restructuring agreement, have rekindled investment and growth.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$183.2 million (2005 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 183200000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$183.2 million (2005 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 183200000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.1% (2005 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$9,100 (2005 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "15.1%",
-			"industry:": "9.6%",
-			"services:": "75.3% (2004)"
+			"agriculture:": {
+				"quantity": 15.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 9.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 75.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "6,820 (2001)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "29%",
-			"industry:": "15%",
-			"services:": "56% (1995)"
+			"agriculture:": {
+				"quantity": 29,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 56,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13.1% (2005)",
+			"Unemployment rate": {
+				"quantity": 13.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -203,96 +353,156 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$70.95 million",
-			"expenditures:": "$69.05 million (FY05/06)"
+			"revenues:": {
+				"usd": 70950000
+			},
+			"expenditures:": {
+				"usd": 69050000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.1% (2005 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "copra, citrus, pineapples, tomatoes, beans, pawpaws, bananas, yams, taro, coffee; pigs, poultry",
 		"Industries": "fruit processing, tourism, fishing, clothing, handicrafts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1% (2002)",
+			"Industrial production growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "31 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 31000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "28.83 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 28830000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "495 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 495,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$26.67 million (2005)",
+			"Current account balance": {
+				"usd": 26670000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.222 million (2005)",
+			"Exports": {
+				"usd": 5222000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copra, papayas, fresh and canned citrus fruit, coffee; fish; pearls and pearl shells; clothing",
 		"Imports": {
-			"Imports": "$81.04 million (2005)",
+			"Imports": {
+				"usd": 81040000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, textiles, fuels, timber, capital goods",
 		"Debt - external": {
-			"Debt - external": "$141 million (1996 est.)",
+			"Debt - external": {
+				"usd": 141000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "6,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "7,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -303,34 +513,43 @@
 		"Broadcast media": "1 privately-owned TV station broadcasts from Rarotonga providing a mix of local news and overseas-sourced programs; a satellite program package is available; 6 radio stations broadcast with 1 reportedly reaching all of the islands (2009)",
 		"Internet country code": ".ck",
 		"Internet hosts": {
-			"Internet hosts": "2,521 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "10 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "9",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "320 km",
+			"total:": {
+				"quantity": 320,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "33 km",
-			"unpaved:": "287 km (2003)"
+			"paved:": {
+				"quantity": 33,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 287,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "34",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 27, passenger 1, refrigerated cargo 5",
 			"foreign-owned:": "23 (Egypt 1, Germany 1, Latvia 1, Lithuania 2, former Netherlands Antilles 1, Norway 6, NZ 1, Russia 1, Sweden 3, Turkey 4, UK 2) (2010)"
@@ -340,12 +559,12 @@
 	"military": {
 		"Military branches": "no regular military forces; National Police Department (2009)",
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,198",
-			"females age 16-49:": "2,156 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "127",
-			"female:": "107 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

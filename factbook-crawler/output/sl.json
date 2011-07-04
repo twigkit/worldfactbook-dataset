@@ -5,25 +5,61 @@
 	"background": "Democracy is slowly being reestablished after the civil war from 1991 to 2002 that resulted in tens of thousands of deaths and the displacement of more than 2 million people (about a third of the population). The military, which took over full responsibility for security following the departure of UN peacekeepers at the end of 2005, is increasingly developing as a guarantor of the country's stability. The armed forces remained on the sideline during the 2007 presidential election, but still look to the UN Integrated Office in Sierra Leone (UNIOSIL) - a civilian UN mission - to support efforts to consolidate peace. The new government's priorities include furthering development, creating jobs, and stamping out endemic corruption.",
 	"geo": {
 		"Location": "Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia",
-		"Geographic coordinates": "8 30 N, 11 30 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 8,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 11,
+				"seconds": 30
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "71,740 sq km",
+			"total:": {
+				"quantity": 71740,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "71,620 sq km",
-			"water:": "120 sq km"
+			"land:": {
+				"quantity": 71620,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 120,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Carolina",
 		"Land boundaries": {
-			"total:": "958 km",
+			"total:": {
+				"quantity": 958,
+				"unit": "km"
+			},
 			"border countries:": "Guinea 652 km, Liberia 306 km"
 		},
-		"Coastline": "402 km",
+		"Coastline": {
+			"quantity": 402,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
-			"continental shelf:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot, humid; summer rainy season (May to December); winter dry season (December to April)",
 		"Terrain": "coastal belt of mangrove swamps, wooded hill country, upland plateau, mountains in east",
@@ -33,15 +69,36 @@
 		},
 		"Natural resources": "diamonds, titanium ore, bauxite, iron ore, gold, chromite",
 		"Land use": {
-			"arable land:": "7.95%",
-			"permanent crops:": "1.05%",
-			"other:": "91% (2005)"
+			"arable land:": {
+				"quantity": 7.95,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.05,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "300 sq km (2008)",
-		"Total renewable water resources": "160 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 300,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 160,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.38  cu km/yr (5%/3%/92%)",
-			"per capita:": "69  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.38,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 69,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dry, sand-laden harmattan winds blow from the Sahara (December to February); sandstorms, dust storms",
 		"Environment - current issues": "rapid population growth pressuring the environment; overharvesting of timber, expansion of cattle grazing, and slash-and-burn agriculture have resulted in deforestation and soil exhaustion; civil war depleted natural resources; overfishing",
@@ -53,29 +110,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,363,669 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "41.8% (male 1,113,528/female 1,130,112)",
-			"15-64 years:": "54.5% (male 1,401,907/female 1,522,335)",
+			"0-14 years:": {
+				"quantity": 41.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.5,
+				"unit": "%"
+			},
 			"65 years and over:": "3.7% (male 86,614/female 109,173) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.1 years",
-			"male:": "18.6 years",
-			"female:": "19.5 years (2011 est.)"
+			"total:": {
+				"quantity": 19.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.249% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.249,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "38.46 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 38.46,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "11.73 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 11.73,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +164,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "38% of total population (2010)",
-			"rate of urbanization:": "3.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 38,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "FREETOWN (capital) 875,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "0.98 male(s)/female",
-			"15-64 years:": "0.92 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "0.94 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "78.38 deaths/1,000 live births",
+			"total:": {
+				"quantity": 78.38,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "87.2 deaths/1,000 live births",
-			"female:": "69.3 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 87.2,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 69.3,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "56.13 years",
+			"total population:": {
+				"quantity": 56.13,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "53.69 years",
-			"female:": "58.65 years (2011 est.)"
+			"male:": {
+				"quantity": 53.69,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 58.65,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.94 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.94,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.6% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "49,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "2,800 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -140,14 +266,32 @@
 		"Languages": "English (official, regular use limited to literate minority), Mende (principal vernacular in the south), Temne (principal vernacular in the north), Krio (English-based Creole, spoken by the descendants of freed Jamaican slaves who were settled in the Freetown area, a lingua franca and a first language for 10% of the population but understood by 95%)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write English, Mende, Temne, or Arabic",
-			"total population:": "35.1%",
-			"male:": "46.9%",
-			"female:": "24.4% (2004 est.)"
+			"total population:": {
+				"quantity": 35.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 46.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 24.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "13 years",
-			"female:": "11 years (2007)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +305,16 @@
 		"Government type": "constitutional democracy",
 		"Capital": {
 			"name:": "Freetown",
-			"geographic coordinates:": "8 30 N, 13 15 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 8,
+					"seconds": 30
+				},
+				"W": {
+					"minutes": 13,
+					"seconds": 15
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 provinces and 1 area*; Eastern, Northern, Southern, Western*",
@@ -208,25 +361,43 @@
 	"economy": {
 		"Economy - overview": "Sierra Leone is an extremely poor nation with tremendous inequality in income distribution. While it possesses substantial mineral, agricultural, and fishery resources, its physical and social infrastructure has yet to recover from the civil war, and serious social disorders continue to hamper economic development. Nearly half of the working-age population engages in subsistence agriculture. Manufacturing consists mainly of the processing of raw materials and of light manufacturing for the domestic market. Alluvial diamond mining remains the major source of hard currency earnings, accounting for nearly half of Sierra Leone's exports. The fate of the economy depends upon the maintenance of domestic peace and the continued receipt of substantial aid from abroad, which is essential to offset the severe trade imbalance and supplement government revenues. The IMF has completed a Poverty Reduction and Growth Facility program that helped stabilize economic growth and reduce inflation and in 2010 approved a new program worth $45 million over three years. Political stability has led to a revival of economic activity such as the rehabilitation of bauxite and rutile mining, which are set to benefit from planned tax incentives. A number of offshore oil discoveries were announced in 2009 and 2010. The development on these reserves, which could be significant, is still several years away.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$4.72 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 4720000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.905 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1905000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "49%",
-			"industry:": "31%",
-			"services:": "21% (2005 est.)"
+			"agriculture:": {
+				"quantity": 49,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 21,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.207 million (2007 est.)",
+			"Labor force": 2207000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -235,21 +406,37 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "70.2% (2004)",
+		"Population below poverty line": {
+			"quantity": 70.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "33.6% (2003)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 33.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "62.9 (1989)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$96 million",
-			"expenditures:": "$351 million (2000 est.)"
+			"revenues:": {
+				"usd": 96000000
+			},
+			"expenditures:": {
+				"usd": 351000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "11.7% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 11.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
@@ -258,15 +445,21 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$209.4 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 209400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$437 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 437000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$178.4 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 178400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -274,53 +467,95 @@
 		"Industries": "diamond mining; small-scale manufacturing (beverages, textiles, cigarettes, footwear); petroleum refining, small commercial ship repair",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "80 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 80000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "74.4 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 74400000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "28.98 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 28.98,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "9,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 9000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "502.4 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 502.4,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "8,316 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 8316,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -328,30 +563,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$216 million (2006)",
+			"Exports": {
+				"usd": 216000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "diamonds, rutile, cocoa, coffee, fish",
 		"Exports - partners": "Belgium 26.56%, US 11.87%, Netherlands 7.91%, UK 7.4%, India 6.67%, Cote d'Ivoire 6.13%, Greece 4.05% (2009)",
 		"Imports": {
-			"Imports": "$560 million (2006)",
+			"Imports": {
+				"usd": 560000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, fuels and lubricants, chemicals",
 		"Imports - partners": "South Africa 14.61%, China 7.58%, US 5.87%, Cote d'Ivoire 5.65%, India 5.19%, Malaysia 5.19%, France 5.08%, UK 4.48%, Netherlands 4.06% (2009)",
 		"Debt - external": {
-			"Debt - external": "$1.61 billion (2003 est.)",
+			"Debt - external": {
+				"usd": 1610000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "32,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.16 million (2009)",
+			"Telephones - mobile cellular": 1160000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -362,38 +603,47 @@
 		"Broadcast media": "1 government-owned TV station; 1 private TV station began operating in 2005; a pay-per-view TV service began operations in late 2007; 1 government-owned national radio broadcast station; about two dozen private radio stations primarily clustered in major cities; transmissions of several international broadcasters are available (2007)",
 		"Internet country code": ".sl",
 		"Internet hosts": {
-			"Internet hosts": "281 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "9 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "8",
-			"914 to 1,523 m:": "7",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "11,300 km",
+			"total:": {
+				"quantity": 11300,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "904 km",
-			"unpaved:": "10,396 km (2002)"
+			"paved:": {
+				"quantity": 904,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 10396,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "800 km (600 km navigable year round) (2009)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "189",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 7, cargo 131, carrier 1, chemical tanker 12, container 3, liquefied gas 3, passenger 1, passenger/cargo 6, petroleum tanker 20, refrigerated cargo 1, roll on/roll off 3, vehicle carrier 1",
 			"foreign-owned:": "91 (Bangladesh 1, China 12, Cyprus 1, Egypt 2, Estonia 1, Hong Kong 4, Japan 3, Malaysia 1, North Korea 1, Romania 4, Russia 6, Singapore 5, Syria 20, Taiwan 1, Turkey 14, UAE 6, UK 1, Ukraine 5, US 1, Yemen 2) (2010)"
@@ -404,15 +654,15 @@
 		"Military branches": "Republic of Sierra Leone Armed Forces (RSLAF): Army (includes Maritime Wing and Air Wing) (2010)",
 		"Military service age and obligation": "17 years 6 months of age for male and female voluntary military service (younger with parental consent); no conscription; candidates must be HIV negative (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,183,093 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "731,898",
-			"females age 16-49:": "838,032 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "54,212",
-			"female:": "57,154 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

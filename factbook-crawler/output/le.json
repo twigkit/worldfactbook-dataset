@@ -5,22 +5,49 @@
 	"background": "Following World War I, France acquired a mandate over the northern portion of the former Ottoman Empire province of Syria. The French separated out the region of Lebanon in 1920, and granted this area independence in 1943. A lengthy civil war (1975-90) devastated the country, but Lebanon has since made progress toward rebuilding its political institutions. Under the Ta'if Accord - the blueprint for national reconciliation - the Lebanese established a more equitable political system, particularly by giving Muslims a greater voice in the political process while institutionalizing sectarian divisions in the government. Since the end of the war, Lebanon has conducted several successful elections. Most militias have been reduced or disbanded, with the exception of Hizballah, designated by the US State Department as a Foreign Terrorist Organization, and Palestinian militant groups. During Lebanon's civil war, the Arab League legitimized in the Ta'if Accord Syria's troop deployment, numbering about 16,000 based mainly east of Beirut and in the Bekaa Valley. Israel's withdrawal from southern Lebanon in May 2000 and the passage in September 2004 of UNSCR 1559 - a resolution calling for Syria to withdraw from Lebanon and end its interference in Lebanese affairs - encouraged some Lebanese groups to demand that Syria withdraw its forces as well. The assassination of former Prime Minister Rafiq HARIRI and 22 others in February 2005 led to massive demonstrations in Beirut against the Syrian presence (\"the Cedar Revolution\"), and Syria withdrew the remainder of its military forces in April 2005. In May-June 2005, Lebanon held its first legislative elections since the end of the civil war free of foreign interference, handing a majority to the bloc led by Sa'ad HARIRI, the slain prime minister's son. In July 2006, Hizballah kidnapped two Israeli soldiers leading to a 34-day conflict with Israel in which approximately 1,200 Lebanese civilians were killed. UNSCR 1701 ended the war in August 2006, and Lebanese Armed Forces (LAF) deployed throughout the country for the first time in decades, charged with securing Lebanon's borders against weapons smuggling and maintaining a weapons-free zone in south Lebanon with the help of the UN Interim Force in Lebanon (UNIFIL). The LAF in May-September 2007 battled Sunni extremist group Fatah al-Islam in the Nahr al-Barid Palestinian refugee camp, winning a decisive victory, but destroying the camp and displacing 30,000 Palestinian residents. Lebanese politicians in November 2007 were unable to agree on a successor to Emile LAHUD when he stepped down as president, creating a political vacuum until the election of LAF Commander Gen. Michel SULAYMAN in May 2008 and the formation of a new unity government in July 2008. Legislative elections in June 2009 again produced victory for the bloc led by Sa'ad HARIRI, but a period of prolonged negotiation over the composition of the cabinet ensued. A national unity government was finally formed in November 2009 and approved by the National Assembly the following month. In January 2010, Lebanon assumed a nonpermanent seat on the UN Security Council for the 2010-11 term. Inspired by the popular revolts that began in late 2010 against dictatorships across the Middle East and North Africa, marches and demonstrations in Lebanon were directed instead against sectarian politics. Protesters saw the country's religious sectarian politics as the primary cause of Lebanon's anemic government.  The first protests in late February 2011, although limited in size, gained some traction.",
 	"geo": {
 		"Location": "Middle East, bordering the Mediterranean Sea, between Israel and Syria",
-		"Geographic coordinates": "33 50 N, 35 50 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 33,
+				"seconds": 50
+			},
+			"E": {
+				"minutes": 35,
+				"seconds": 50
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "10,400 sq km",
+			"total:": {
+				"quantity": 10400,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "10,230 sq km",
-			"water:": "170 sq km"
+			"land:": {
+				"quantity": 10230,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 170,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 0.7 times the size of Connecticut",
 		"Land boundaries": {
-			"total:": "454 km",
+			"total:": {
+				"quantity": 454,
+				"unit": "km"
+			},
 			"border countries:": "Israel 79 km, Syria 375 km"
 		},
-		"Coastline": "225 km",
+		"Coastline": {
+			"quantity": 225,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "Mediterranean; mild to cool, wet winters with hot, dry summers; Lebanon mountains experience heavy winter snows",
 		"Terrain": "narrow coastal plain; El Beqaa (Bekaa Valley) separates Lebanon and Anti-Lebanon Mountains",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "limestone, iron ore, salt, water-surplus state in a water-deficit region, arable land",
 		"Land use": {
-			"arable land:": "16.35%",
-			"permanent crops:": "13.75%",
-			"other:": "69.9% (2005)"
+			"arable land:": {
+				"quantity": 16.35,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 13.75,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 69.9,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "900 sq km (2008)",
-		"Total renewable water resources": "4.8 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 900,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 4.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.38  cu km/yr (33%/1%/67%)",
-			"per capita:": "385  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.38,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 385,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dust storms, sandstorms",
 		"Environment - current issues": "deforestation; soil erosion; desertification; air pollution in Beirut from vehicular traffic and the burning of industrial wastes; pollution of coastal waters from raw sewage and oil spills",
@@ -50,29 +98,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,143,101 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "23% (male 487,930/female 464,678)",
-			"15-64 years:": "68% (male 1,370,628/female 1,446,173)",
+			"0-14 years:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68,
+				"unit": "%"
+			},
 			"65 years and over:": "9% (male 173,073/female 200,619) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "29.8 years",
-			"male:": "28.7 years",
-			"female:": "31 years (2011 est.)"
+			"total:": {
+				"quantity": 29.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.244% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.244,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "15.02 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 15.02,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.54 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.54,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,39 +152,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "87% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 87,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BEIRUT (capital) 1.909 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.87 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "15.85 deaths/1,000 live births",
+			"total:": {
+				"quantity": 15.85,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "15.99 deaths/1,000 live births",
-			"female:": "15.71 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 15.99,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.71,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.01 years",
+			"total population:": {
+				"quantity": 75.01,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.48 years",
-			"female:": "76.62 years (2011 est.)"
+			"male:": {
+				"quantity": 73.48,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.62,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.77 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.77,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3,600 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -134,14 +251,32 @@
 		"Languages": "Arabic (official), French, English, Armenian",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "87.4%",
-			"male:": "93.1%",
-			"female:": "82.2% (2003 est.)"
+			"total population:": {
+				"quantity": 87.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 93.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 82.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,7 +291,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Beirut",
-			"geographic coordinates:": "33 52 N, 35 30 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 33,
+					"seconds": 52
+				},
+				"E": {
+					"minutes": 35,
+					"seconds": 30
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -212,25 +356,43 @@
 	"economy": {
 		"Economy - overview": "Lebanon has a free-market economy and a strong laissez-faire commercial tradition. The government does not restrict foreign investment; however, the investment climate suffers from red tape, corruption, arbitrary licensing decisions, high taxes, tariffs, and fees, archaic legislation, and weak intellectual property rights. The Lebanese economy is service-oriented; main growth sectors include banking and tourism. The 1975-90 civil war seriously damaged Lebanon's economic infrastructure, cut national output by half, and all but ended Lebanon's position as a Middle Eastern entrepot and banking hub. In the years since, Lebanon has rebuilt much of its war-torn physical and financial infrastructure by borrowing heavily - mostly from domestic banks. In an attempt to reduce the ballooning national debt, the Rafiq HARIRI government in 2000 began an austerity program, reining in government expenditures, increasing revenue collection, and passing legislation to privatize state enterprises, but economic and financial reform initiatives stalled and public debt continued to grow despite receipt of more than $2 billion in bilateral assistance at the 2002 Paris II Donors Conference. The Israeli-Hizballah conflict in July-August 2006 caused an estimated $3.6 billion in infrastructure damage, and prompted international donors to pledge nearly $1 billion in recovery and reconstruction assistance. Donors met again in January 2007 at the Paris III Donor Conference and pledged more than $7.5 billion to Lebanon for development projects and budget support, conditioned on progress on Beirut's fiscal reform and privatization program. An 18-month political stalemate and sporadic sectarian and political violence hampered economic activity, particularly tourism, retail sales, and investment, until the new government was formed in July 2008. Political stability following the Doha Accord of May 2008 helped boost tourism and, together with a strong banking sector, enabled real GDP growth of 7% per year in 2009-10 despite a slowdown in the region.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$59.37 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 59370000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$39.25 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 39250000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$14,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "5.1%",
-			"industry:": "15.9%",
-			"services:": "79% (2010 est.)"
+			"agriculture:": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 79,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.481 million",
+			"Labor force": 1481000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -239,105 +401,180 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "28% (1999 est.)",
+		"Population below poverty line": {
+			"quantity": 28,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "30.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 30.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$9.001 billion",
-			"expenditures:": "$10.95 billion (2010 est.)"
+			"revenues:": {
+				"usd": 9001000000
+			},
+			"expenditures:": {
+				"usd": 10950000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "150.7% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 150.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "10% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "9.57% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 9.57,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.692 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 3692000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$92.01 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 92010000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$62.68 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 62680000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$12.89 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 12890000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "citrus, grapes, tomatoes, apples, vegetables, potatoes, olives, tobacco; sheep, goats",
 		"Industries": "banking, tourism, food processing, wine, jewelry, cement, textiles, mineral and chemical products, wood and furniture products, oil refining, metal fabricating",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "10.41 billion kWh (2009)",
+			"Electricity - production": {
+				"quantity": 10410000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "9.793 billion kWh (2009)",
+			"Electricity - consumption": {
+				"quantity": 9793000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2009 est.)",
-		"Electricity - imports": "1.114 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1114000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "90,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 90000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2009)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "86,750 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 86750,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -345,23 +582,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.187 billion (2010 est.)",
+			"Exports": {
+				"usd": 5187000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "jewelry, base metals, chemicals, miscellaneous consumer goods, fruit and vegetables, tobacco, construction minerals, electric power machinery and switchgear, textile fibers, paper",
 		"Exports - partners": "Switzerland 22%, UAE 10%, Iraq 8%, Saudi Arabia 7%, Syria 6% (2009 est.)",
 		"Imports": {
-			"Imports": "$17.97 billion (2010 est.)",
+			"Imports": {
+				"usd": 17970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum products, cars, medicinal products, clothing, meat and live animals, consumer goods, paper, textile fabrics, tobacco, electrical machinery and equipment, chemicals",
 		"Imports - partners": "US 11%, France 10%, China 9%, Italy 8%, Germany 8%, Turkey 4% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$41.57 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 41570000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$34.45 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 34450000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -370,11 +615,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "750,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.526 million (2009)",
+			"Telephones - mobile cellular": 1526000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -385,30 +630,33 @@
 		"Broadcast media": "7 TV stations in operation, 1 of which is state-owned; more than 30 radio stations, 1 of which is state-owned; satellite and cable TV services are available; transmissions of at least 2 international broadcasters are accessible through partner stations (2007)",
 		"Internet country code": ".lb",
 		"Internet hosts": {
-			"Internet hosts": "51,451 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "7 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "5",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "2",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "2",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
 		"Pipelines": "gas 102 km (2010)",
 		"Railways": {
-			"total:": "401 km",
+			"total:": {
+				"quantity": 401,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "319 km 1.435-m gauge",
 			"narrow gauge:": "82 km 1.050-m gauge"
@@ -418,10 +666,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "29",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, cargo 12, carrier 11, refrigerated cargo 1, vehicle carrier 2",
-			"foreign-owned:": "3 (Syria 3)",
+			"foreign-owned:": null,
 			"registered in other countries:": "40 (Barbados 2, Cambodia 6, Comoros 3, Egypt 1, Georgia 1, Honduras 2, Liberia 1, Malta 7, Moldova 1, Panama 2, Saint Vincent and the Grenadines 4, Syria 2, Togo 6, unknown 2) (2010)"
 		},
 		"Ports and terminals": {}
@@ -430,16 +678,16 @@
 		"Military branches": "Lebanese Armed Forces (LAF): Army ((Al Jaysh al Lubnaniya) includes Navy (Al Quwwat al Bahiriyya al Lubnaniya), Air Force (Al Quwwat al Jawwiya al Lubnaniya)) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; no conscription (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,081,016",
-			"females age 16-49:": "1,115,349 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "920,825",
-			"females age 16-49:": "941,806 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "36,856",
-			"female:": "35,121 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

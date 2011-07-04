@@ -5,23 +5,53 @@
 	"background": "Guinea has had a history of authoritarian rule since gaining its independence from France in 1958. Lansana CONTE came to power in 1984 when the military seized the government after the death of the first president, Sekou TOURE. Guinea did not hold democratic elections until 1993 when Gen. CONTE (head of the military government) was elected president of the civilian government. He was reelected in 1998 and again in 2003, though all the polls were marred by irregularities. History repeated itself in December 2008 when following President CONTE's death, Capt. Moussa Dadis CAMARA led a military coup, seizing power and suspending the constitution. His unwillingness to yield to domestic and international pressure to step down led to heightened political tensions that culminated in September 2009 when presidential guards opened fire on an opposition rally killing more than 150 people, and in early December 2009 when CAMARA was wounded in an assassination attempt and evacuated to Morocco and subsequently to Burkina Faso. A transitional government led by General Sekouba KONATE held democratic elections in 2010 and Alpha CONDE was elected president in the country's first free and fair elections since independence.\r\n\r\n",
 	"geo": {
 		"Location": "Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Sierra Leone",
-		"Geographic coordinates": "11 00 N, 10 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 11,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 10,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "245,857 sq km",
+			"total:": {
+				"quantity": 245857,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "245,717 sq km",
-			"water:": "140 sq km"
+			"land:": {
+				"quantity": 245717,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 140,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Oregon",
 		"Land boundaries": {
-			"total:": "3,399 km",
+			"total:": {
+				"quantity": 3399,
+				"unit": "km"
+			},
 			"border countries:": "Cote d'Ivoire 610 km, Guinea-Bissau 386 km, Liberia 563 km, Mali 858 km, Senegal 330 km, Sierra Leone 652 km"
 		},
-		"Coastline": "320 km",
+		"Coastline": {
+			"quantity": 320,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
 		"Terrain": "generally flat coastal plain, hilly to mountainous interior",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "bauxite, iron ore, diamonds, gold, uranium, hydropower, fish, salt",
 		"Land use": {
-			"arable land:": "4.47%",
-			"permanent crops:": "2.64%",
-			"other:": "92.89% (2005)"
+			"arable land:": {
+				"quantity": 4.47,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.64,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 92.89,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "950 sq km (2008)",
-		"Total renewable water resources": "226 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 950,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 226,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.51  cu km/yr (8%/2%/90%)",
-			"per capita:": "161  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.51,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 161,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry, dusty harmattan haze may reduce visibility during dry season",
 		"Environment - current issues": "deforestation; inadequate supplies of potable water; desertification; soil contamination and erosion; overfishing, overpopulation in forest region; poor mining practices have led to environmental damage",
@@ -51,73 +102,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,601,009 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42.5% (male 2,278,048/female 2,229,602)",
-			"15-64 years:": "54% (male 2,860,845/female 2,860,004)",
+			"0-14 years:": {
+				"quantity": 42.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54,
+				"unit": "%"
+			},
 			"65 years and over:": "3.5% (male 164,051/female 208,459) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.6 years",
-			"male:": "18.3 years",
-			"female:": "18.8 years (2011 est.)"
+			"total:": {
+				"quantity": 18.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.645% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.645,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "36.9 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 36.9,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.45 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.45,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "35% of total population (2010)",
-			"rate of urbanization:": "4.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 35,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "CONAKRY (capital) 1.597 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.78 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.78,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "61.03 deaths/1,000 live births",
+			"total:": {
+				"quantity": 61.03,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "64.29 deaths/1,000 live births",
-			"female:": "57.68 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 64.29,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 57.68,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "58.11 years",
+			"total population:": {
+				"quantity": 58.11,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "56.63 years",
-			"female:": "59.64 years (2011 est.)"
+			"male:": {
+				"quantity": 56.63,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 59.64,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.1 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.1,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "79,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "4,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -140,14 +263,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "29.5%",
-			"male:": "42.6%",
-			"female:": "18.1% (2003 est.)"
+			"total population:": {
+				"quantity": 29.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 42.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 18.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "10 years",
-			"female:": "7 years (2009)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +303,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Conakry",
-			"geographic coordinates:": "9 33 N, 13 42 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 9,
+					"seconds": 33
+				},
+				"W": {
+					"minutes": 13,
+					"seconds": 42
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "33 prefectures and 1 special zone (zone special)*; Beyla, Boffa, Boke, Conakry*, Coyah, Dabola, Dalaba, Dinguiraye, Dubreka, Faranah, Forecariah, Fria, Gaoual, Gueckedou, Kankan, Kerouane, Kindia, Kissidougou, Koubia, Koundara, Kouroussa, Labe, Lelouma, Lola, Macenta, Mali, Mamou, Mandiana, Nzerekore, Pita, Siguiri, Telimele, Tougue, Yomou",
@@ -210,51 +360,94 @@
 	"economy": {
 		"Economy - overview": "Guinea is a poor country that possesses major mineral, hydropower, and agricultural resources. The country has almost half of the world's bauxite reserves and significant iron ore, gold, and diamond reserves. However, Guinea has been unable to profit from this potential, as rampant corruption, dilapidated electricity and other degraded infrastructure, and political uncertainty have drained investor confidence. In the time since a 2008 coup following the death of long-term President Lansana CONTE, international donors, including the G-8, the IMF, and the World Bank, have significantly curtailed their development programs. Throughout 2009, policies of the ruling military junta severely weakened the economy. The junta leaders spent and printed money at an accelerated rate, driving inflation and debt to perilously high levels. In early 2010, the junta collapsed and was replaced by a Transition Government, which ceded power in December 2010 to the country's first-ever democratically elected president, Alpha CONDE. International assistance and investment are expected to return to Guinea, but the levels will depend upon the ability of the new government to combat corruption and reform its banking system. IMF and World Bank programs will be especially critical as Guinea attempts to gain debt relief. Since the 2009 global economic downturn, the price and value of bauxite and alumina exports has steadily risen. Export levels will likely continue to grow as investor confidence returns. International investors have expressed keen interest in Guinea's vast iron ore reserves, which could further propel the country's growth.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$10.81 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 10810000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$4.633 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 4633000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.9% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "25.8%",
-			"industry:": "45.7%",
-			"services:": "28.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 25.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 45.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 28.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.392 million (2007 est.)",
+			"Labor force": 4392000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "76%",
-			"industry and services:": "24% (2006 est.)"
+			"agriculture:": {
+				"quantity": 76,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 24,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "47% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 47,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.9%",
-			"highest 10%:": "41% (2006)"
+			"lowest 10%:": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "38.1 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "14.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 14.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$574.1 million",
-			"expenditures:": "$875.4 million (2010 est.)"
+			"revenues:": {
+				"usd": 574100000
+			},
+			"expenditures:": {
+				"usd": 875400000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "15% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 15,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
@@ -263,72 +456,123 @@
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$496.2 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 496200000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$830 million (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 830000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$734.4 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 734400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "rice, coffee, pineapples, palm kernels, cassava (tapioca), bananas, sweet potatoes; cattle, sheep, goats; timber",
 		"Industries": "bauxite, gold, diamonds, iron; alumina refining; light manufacturing, and agricultural processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "850 million kWh",
+			"Electricity - production": {
+				"quantity": 850000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "790.5 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 790500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "9,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 9000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "8,674 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 8674,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -336,31 +580,37 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.468 billion (2010 est.)",
+			"Exports": {
+				"usd": 1468000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "bauxite, alumina, gold, diamonds, coffee, fish, agricultural products",
 		"Exports - partners": "India 19.68%, Spain 13.18%, Russia 7.24%, Germany 6.86%, Ireland 5.87%, US 5.71%, Ukraine 5.6% (2009)",
 		"Imports": {
-			"Imports": "$1.551 billion (2010 est.)",
+			"Imports": {
+				"usd": 1551000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum products, metals, machinery, transport equipment, textiles, grain and other foodstuffs",
 		"Imports - partners": "China 8.67%, Netherlands 6.67%, France 4.33%, UK 4.22% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$3.072 billion (31 December 2009 est.)",
+			"Debt - external": {
+				"usd": 3072000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "22,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.607 million (2009)",
+			"Telephones - mobile cellular": 5607000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -371,38 +621,50 @@
 		"Broadcast media": "government maintains marginal control over broadcast media; single state-run TV station; state-run radio broadcast station also operates several stations in rural areas; a steadily increasing number of privately-owned radio stations, nearly all in Conakry, and about a dozen community radio stations; foreign television programming available via satellite and cable subscription services (2011)",
 		"Internet country code": ".gn",
 		"Internet hosts": {
-			"Internet hosts": "14 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "16 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "12",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "1,185 km",
+			"total:": {
+				"quantity": 1185,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "238 km 1.435-m gauge",
 			"narrow gauge:": "947 km 1.000-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "44,348 km",
+			"total:": {
+				"quantity": 44348,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,342 km",
-			"unpaved:": "40,006 km (2003)"
+			"paved:": {
+				"quantity": 4342,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 40006,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,300 km (navigable by shallow-draft native craft in the northern part of the Niger system) (2009)",
@@ -414,16 +676,16 @@
 		"Military branches": "National Armed Forces: Army, Navy (Armee de Mer or Marine Guineenne, includes Marines), Guinean Air Force (Force Aerienne de Guinee) (2009)",
 		"Military service age and obligation": "18-25 years of age for compulsory and voluntary military service; 18-month conscript service obligation (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,359,203",
-			"females age 16-49:": "2,329,784 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,493,991",
-			"females age 16-49:": "1,535,418 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "118,443",
-			"female:": "115,901 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

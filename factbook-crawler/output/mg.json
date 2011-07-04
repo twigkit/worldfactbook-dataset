@@ -5,20 +5,44 @@
 	"background": "The Mongols gained fame in the 13th century when under Chinggis KHAAN they established a huge Eurasian empire through conquest. After his death the empire was divided into several powerful Mongol states, but these broke apart in the 14th century. The Mongols eventually retired to their original steppe homelands and in the late 17th century came under Chinese rule. Mongolia won its independence in 1921 with Soviet backing and a Communist regime was installed in 1924. The modern country of Mongolia, however, represents only part of the Mongols' historical homeland; more ethnic Mongolians live in the Inner Mongolia Autonomous Region in the People's Republic of China than in Mongolia. Following a peaceful democratic revolution, the ex-Communist Mongolian People's Revolutionary Party (MPRP) won elections in 1990 and 1992, but was defeated by the Democratic Union Coalition (DUC) in the 1996 parliamentary election. The MPRP won an overwhelming majority in the 2000 parliamentary election, but the party lost seats in the 2004 election and shared power with democratic coalition parties from 2004-08. The MPRP regained a solid majority in the 2008 parliamentary elections but nevertheless formed a coalition government with the Democratic Party. In 2010 the MPRP voted to retake the name of the Mongolian People's Party (MPP), a name it used in the early 1920s. The prime minister and most cabinet members are MPP members.",
 	"geo": {
 		"Location": "Northern Asia, between China and Russia",
-		"Geographic coordinates": "46 00 N, 105 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 46,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 105,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "1,564,116 sq km",
+			"total:": {
+				"quantity": 1564,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,553,556 sq km",
-			"water:": "10,560 sq km"
+			"land:": {
+				"quantity": 1553,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 10560,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Alaska",
 		"Land boundaries": {
-			"total:": "8,220 km",
+			"total:": {
+				"quantity": 8220,
+				"unit": "km"
+			},
 			"border countries:": "China 4,677 km, Russia 3,543 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "desert; continental (large daily and seasonal temperature ranges)",
 		"Terrain": "vast semidesert and desert plains, grassy steppe, mountains in west and southwest; Gobi Desert in south-central",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "oil, coal, copper, molybdenum, tungsten, phosphates, tin, nickel, zinc, fluorspar, gold, silver, iron",
 		"Land use": {
-			"arable land:": "0.76%",
-			"permanent crops:": "0%",
-			"other:": "99.24% (2005)"
+			"arable land:": {
+				"quantity": 0.76,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.24,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "840 sq km (2008)",
-		"Total renewable water resources": "34.8 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 840,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 34.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.44  cu km/yr (20%/27%/52%)",
-			"per capita:": "166  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.44,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 166,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dust storms; grassland and forest fires; drought; \"zud,\" which is harsh winter conditions",
 		"Environment - current issues": "limited natural freshwater resources in some areas; the policies of former Communist regimes promoted rapid urbanization and industrial growth that had negative effects on the environment; the burning of soft coal in power plants and the lack of enforcement of environmental laws severely polluted the air in Ulaanbaatar; deforestation, overgrazing, and the converting of virgin land to agricultural production increased soil erosion from wind and rain; desertification and mining activities had a deleterious effect on the environment",
@@ -48,61 +93,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,133,318 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "27.3% (male 437,241/female 419,693)",
-			"15-64 years:": "68.7% (male 1,074,949/female 1,076,455)",
+			"0-14 years:": {
+				"quantity": 27.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.7,
+				"unit": "%"
+			},
 			"65 years and over:": "4% (male 54,415/female 70,565) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.2 years",
-			"male:": "25.8 years",
-			"female:": "26.6 years (2011 est.)"
+			"total:": {
+				"quantity": 26.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 25.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.489% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.489,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "20.93 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 20.93,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.04 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.04,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "62% of total population (2010)",
-			"rate of urbanization:": "1.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 62,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ULAANBAATAR (capital) 949,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.77 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.77,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "37.26 deaths/1,000 live births",
+			"total:": {
+				"quantity": 37.26,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "40.26 deaths/1,000 live births",
-			"female:": "34.11 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 40.26,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 34.11,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "68.31 years",
+			"total population:": {
+				"quantity": 68.31,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.85 years",
-			"female:": "70.89 years (2011 est.)"
+			"male:": {
+				"quantity": 65.85,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 70.89,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.21 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.21,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -128,14 +242,32 @@
 		"Languages": "Khalkha Mongol 90%, Turkic, Russian (1999)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "97.8%",
-			"male:": "98%",
-			"female:": "97.5% (2000 census)"
+			"total population:": {
+				"quantity": 97.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "15 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +282,16 @@
 		"Government type": "parliamentary",
 		"Capital": {
 			"name:": "Ulaanbaatar",
-			"geographic coordinates:": "47 55 N, 106 55 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 47,
+					"seconds": 55
+				},
+				"E": {
+					"minutes": 106,
+					"seconds": 55
+				}
+			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "21 provinces (aymguud, singular - aymag) and 1 municipality* (singular - hot); Arhangay, Bayanhongor, Bayan-Olgiy, Bulgan, Darhan-Uul, Dornod, Dornogovi, Dundgovi, Dzavhan (Zavkhan), Govi-Altay, Govisumber, Hentiy, Hovd, Hovsgol, Omnogovi, Orhon, Ovorhangay, Selenge, Suhbaatar, Tov, Ulaanbaatar*, Uvs",
@@ -198,128 +339,230 @@
 	"economy": {
 		"Economy - overview": "Economic activity in Mongolia has traditionally been based on herding and agriculture - Mongolia's extensive mineral deposits, however, have attracted foreign investors. The country holds copper, gold, coal, molybdenum, fluorspar, uranium, tin, and tungsten deposits, which account for a large part of foreign direct investment and government revenues. Soviet assistance, at its height one-third of GDP, disappeared almost overnight in 1990 and 1991 at the time of the dismantlement of the USSR. The following decade saw Mongolia endure both deep recession, because of political inaction and natural disasters, as well as economic growth, because of reform-embracing, free-market economics and extensive privatization of the formerly state-run economy. Severe winters and summer droughts in 2000-02 resulted in massive livestock die-off and zero or negative GDP growth. This was compounded by falling prices for Mongolia's primary sector exports and widespread opposition to privatization. Growth averaged nearly 9% per year in 2004-08 largely because of high copper prices and new gold production. In 2008 Mongolia experienced a soaring inflation rate with year-to-year inflation reaching nearly 30% - the highest inflation rate in over a decade. By late 2008, as the country began to feel the effects of the global financial crisis, falling commodity prices helped lower inflation, but also reduced government revenues and forced cuts in spending. In early 2009, the International Monetary Fund reached a $236 million Stand-by Arrangement with Mongolia and the country has started to move out of the crisis. Although the banking sector remains unstable, the government is now enforcing stricter supervision regulations. In October 2009, the government passed long-awaited legislation on an investment agreement to develop Mongolia's Oyu Tolgoi mine, considered to be one of the world's largest untapped copper deposits. The economy grew 6.1% in 2010, largely on the strength of exports to nearby countries, and international reserves reached $1.6 billion in September, an all time high for Mongolia. Mongolia's economy continues to be heavily influenced by its neighbors. Mongolia purchases 95% of its petroleum products and a substantial amount of electric power from Russia, leaving it vulnerable to price increases. Trade with China represents more than half of Mongolia's total external trade - China receives more than three-fourths of Mongolia's exports. Remittances from Mongolians working abroad are sizable, but have fallen due to the economic crisis; money laundering is a growing concern. Mongolia joined the World Trade Organization in 1997 and seeks to expand its participation in regional economic and trade regimes.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$11.02 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 11020000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$6.125 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 6125000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "15%",
-			"industry:": "31%",
-			"services:": "54% (2010 est.)"
+			"agriculture:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 54,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.068 million (2008)",
+			"Labor force": 1068000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "34%",
-			"industry:": "5%",
-			"services:": "61% (2008)"
+			"agriculture:": {
+				"quantity": 34,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 61,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "11.5% (2009)",
+			"Unemployment rate": {
+				"quantity": 11.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "36.1% (2004)",
+		"Population below poverty line": {
+			"quantity": 36.1,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.9%",
-			"highest 10%:": "24.9% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 24.9,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "32.8 (2002)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.26 billion",
-			"expenditures:": "$2.26 billion (2010)"
+			"revenues:": {
+				"usd": 2260000000
+			},
+			"expenditures:": {
+				"usd": 2260000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "13% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 13,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "10.99% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 10.99,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "19.97% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 19.97,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$921.4 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 921400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.996 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 1996000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.466 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1466000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.093 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 1093000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, barley, vegetables, forage crops; sheep, goats, cattle, camels, horses",
 		"Industries": "construction and construction materials; mining (coal, copper, molybdenum, fluorspar, tin, tungsten, and gold); oil; food and beverages; processing of animal products, cashmere and natural fiber manufacturing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2006 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "4.5 billion kWh (2010)",
+			"Electricity - production": {
+				"quantity": 4500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "3.023 billion kWh (2010)",
+			"Electricity - consumption": {
+				"quantity": 3023000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "20.7 million kWh (2010)",
-		"Electricity - imports": "214.1 million kWh (2010)",
+		"Electricity - exports": {
+			"quantity": 20700000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 214100000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "5,975 bbl/day (2010)",
+			"Oil - production": {
+				"quantity": 5975,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "16,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 16000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "5,834 bbl/day (2010 est.)",
+			"Oil - exports": {
+				"quantity": 5834,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "15,730 bbl/day (2010)",
+			"Oil - imports": {
+				"quantity": 15730,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": "NA bbl (1 January 2010 est.)",
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "11,790 cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 11790,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -327,19 +570,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.899 billion (2010)",
+			"Exports": {
+				"usd": 2899000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copper, apparel, livestock, animal products, cashmere, wool, hides, fluorspar, other nonferrous metals, coal",
 		"Exports - partners": "China 78.52%, Canada 9.46%, Russia 3.02% (2009)",
 		"Imports": {
-			"Imports": "$3.3 billion (2010)",
+			"Imports": {
+				"usd": 3300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, fuel, cars, food products, industrial consumer goods, chemicals, building materials, sugar, tea",
 		"Imports - partners": "China 35.99%, Russia 31.56%, South Korea 7.08%, Japan 4.8% (2009)",
 		"Debt - external": {
-			"Debt - external": "$1.86 billion (2009)",
+			"Debt - external": {
+				"usd": 1860000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -348,11 +597,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "188,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.249 million (2009)",
+			"Telephones - mobile cellular": 2249000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -363,40 +612,52 @@
 		"Broadcast media": "following a law passed in 2005, Mongolia's state-run radio and TV provider converted to a public service provider; also available are private radio and TV broadcasters, as well as multi-channel satellite and cable TV providers; more than 100 radio stations, including some 20 via repeaters for the public broadcaster; transmissions of multiple international broadcasters are available (2008)",
 		"Internet country code": ".mn",
 		"Internet hosts": {
-			"Internet hosts": "7,942 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "46 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "14",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "10",
-			"1,524 to 2,437 m:": "3 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "32",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "4",
-			"1,524 to 2,437 m:": "25",
-			"914 to 1,523 m:": "1"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "1,908 km",
+			"total:": {
+				"quantity": 1908,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "1,908 km 1.520-m gauge"
 		},
 		"Roadways": {
-			"total:": "49,249 km",
+			"total:": {
+				"quantity": 49249,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,015 km",
-			"unpaved:": "46,234 km (2010)"
+			"paved:": {
+				"quantity": 3015,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 46234,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "580 km (the only waterway in operation is Lake Hovsgol (135 km); Selenge River (270 km) and Orhon River (175 km) are navigable but carry little traffic; lakes and rivers freeze in winter, they are open from May to September) (2010)",
@@ -408,16 +669,16 @@
 		"Military branches": "Mongolian Armed Forces: Mongolian Army, Mongolian Air Force; there is no navy (2010)",
 		"Military service age and obligation": "18-25 years of age for compulsory military service; conscript service obligation - 12 months in land or air defense forces or police; a small portion of Mongolian land forces (2.5 percent) is comprised of contract soldiers; women cannot be deployed overseas for military operations (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "898,546",
-			"females age 16-49:": "891,192 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "726,199",
-			"females age 16-49:": "756,628 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "30,829",
-			"female:": "29,648 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

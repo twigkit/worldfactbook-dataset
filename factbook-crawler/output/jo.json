@@ -5,22 +5,49 @@
 	"background": "Following World War I and the dissolution of the Ottoman Empire, the UK received a mandate to govern much of the Middle East. Britain separated out a semi-autonomous region of Transjordan from Palestine in the early 1920s, and the area gained its independence in 1946; it adopted the name of Jordan in 1950. The country's long-time ruler was King HUSSEIN (1953-99). A pragmatic leader, he successfully navigated competing pressures from the major powers (US, USSR, and UK), various Arab states, Israel, and a large internal Palestinian population. Jordan lost the West Bank to Israel in the 1967 war and barely managed to defeat Palestinian rebels who attempted to overthrow the monarchy in 1970. King HUSSEIN in 1988 permanently relinquished Jordanian claims to the West Bank. In 1989, he reinstituted parliamentary elections and initiated a gradual political liberalization; political parties were legalized in 1992. In 1994, he signed a peace treaty with Israel. King ABDALLAH II, the son of King HUSSEIN, assumed the throne following his father's death in February 1999. Since then, he has consolidated his power and undertaken an aggressive economic reform program. Jordan acceded to the World Trade Organization in 2000, and began to participate in the European Free Trade Association in 2001. In 2003, Jordan staunchly supported the Coalition ouster of SADDAM in Iraq and, following the outbreak of insurgent violence in Iraq, absorbed thousands of displaced Iraqis. Municipal elections were held in July 2007 under a system in which 20% of seats in all municipal councils were reserved by quota for women. Parliamentary elections were held in November 2010 and saw independent pro-government candidates win the vast majority of seats. Beginning in January 2011 in the wake of unrest in Tunisia and Egypt, several thousand Jordanians staged weekly demonstrations and marches in Amman and other cities throughout Jordan to protest government corruption, rising prices, rampant poverty, and high unemployment. In response, King Abdallah replaced his prime minister and formed a National Dialogue Commission with a reform mandate. Some opposition groups also called for sweeping political and constitutional reforms, particularly on a controversial election law.",
 	"geo": {
 		"Location": "Middle East, northwest of Saudi Arabia, between Israel (to the west) and Iraq",
-		"Geographic coordinates": "31 00 N, 36 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 31,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 36,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "89,342 sq km",
+			"total:": {
+				"quantity": 89342,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "88,802 sq km",
-			"water:": "540 sq km"
+			"land:": {
+				"quantity": 88802,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 540,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Indiana",
 		"Land boundaries": {
-			"total:": "1,635 km",
+			"total:": {
+				"quantity": 1635,
+				"unit": "km"
+			},
 			"border countries:": "Iraq 181 km, Israel 238 km, Saudi Arabia 744 km, Syria 375 km, West Bank 97 km"
 		},
-		"Coastline": "26 km",
+		"Coastline": {
+			"quantity": 26,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			}
 		},
 		"Climate": "mostly arid desert; rainy season in west (November to April)",
 		"Terrain": "mostly desert plateau in east, highland area in west; Great Rift Valley separates East and West Banks of the Jordan River",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "phosphates, potash, shale oil",
 		"Land use": {
-			"arable land:": "3.32%",
-			"permanent crops:": "1.18%",
-			"other:": "95.5% (2005)"
+			"arable land:": {
+				"quantity": 3.32,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.18,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 95.5,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "820 sq km (2008)",
-		"Total renewable water resources": "0.9 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 820,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 0.9,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.01  cu km/yr (21%/4%/75%)",
-			"per capita:": "177  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.01,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 177,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "droughts; periodic earthquakes",
 		"Environment - current issues": "limited natural freshwater resources; deforestation; overgrazing; soil erosion; desertification",
@@ -50,29 +98,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "6,508,271 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "35.3% (male 1,180,595/female 1,114,533)",
-			"15-64 years:": "59.9% (male 1,977,075/female 1,921,504)",
+			"0-14 years:": {
+				"quantity": 35.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 59.9,
+				"unit": "%"
+			},
 			"65 years and over:": "4.8% (male 153,918/female 160,646) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.1 years",
-			"male:": "21.8 years",
-			"female:": "22.4 years (2011 est.)"
+			"total:": {
+				"quantity": 22.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.984% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.984,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.79 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.79,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.69 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.69,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,31 +152,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "79% of total population (2010)",
-			"rate of urbanization:": "1.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 79,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "AMMAN (capital) 1.088 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.97 male(s)/female",
-			"total population:": "1.04 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "16.42 deaths/1,000 live births",
+			"total:": {
+				"quantity": 16.42,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "16.98 deaths/1,000 live births",
-			"female:": "15.83 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 16.98,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.83,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.05 years",
+			"total population:": {
+				"quantity": 80.05,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.73 years",
-			"female:": "81.45 years (2011 est.)"
+			"male:": {
+				"quantity": 78.73,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.45,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.39 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.39,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -112,7 +226,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "600 (2007 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -130,14 +244,32 @@
 		"Languages": "Arabic (official), English (widely understood among upper and middle classes)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "89.9%",
-			"male:": "95.1%",
-			"female:": "84.7% (2003 est.)"
+			"total population:": {
+				"quantity": 89.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 84.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2008)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -152,7 +284,16 @@
 		"Government type": "constitutional monarchy",
 		"Capital": {
 			"name:": "Amman",
-			"geographic coordinates:": "31 57 N, 35 56 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 31,
+					"seconds": 57
+				},
+				"E": {
+					"minutes": 35,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins first Friday in April; ends last Friday in October"
 		},
@@ -197,139 +338,250 @@
 	"economy": {
 		"Economy - overview": "Jordan's economy is among the smallest in the Middle East, with insufficient supplies of water, oil, and other natural resources, underlying the government's heavy reliance on foreign assistance. Other economic challenges for the government include chronic high rates of poverty, unemployment, inflation, and a large budget deficit. Since assuming the throne in 1999, King ABDALLAH has implemented significant economic reforms, such as opening the trade regime, privatizing state-owned companies, and eliminating most fuel subsidies, which in the past few years have spurred economic growth by attracting foreign investment and creating some jobs. The global economic slowdown, however, has depressed Jordan's GDP growth. Export-oriented sectors such as manufacturing, mining, and the transport of re-exports have been hit the hardest. The Government approved two supplementary budgets in 2010, but sweeping tax cuts planned for 2010 did not materialize because of Amman's need for additional revenue to cover excess spending. The budget deficit is likely to remain high, at 5-6% of GDP, and Amman likely will continue to depend heavily on foreign assistance to finance the deficit in 2011. Jordan's financial sector has been relatively isolated from the international financial crisis because of its limited exposure to overseas capital markets. Jordan is currently exploring nuclear power generation to forestall energy shortfalls.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$34.53 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 34530000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$27.53 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 27530000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$5,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "3.4%",
-			"industry:": "30.3%",
-			"services:": "66.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.719 million (2010 est.)",
+			"Labor force": 1719000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2.7%",
-			"industry:": "20%",
-			"services:": "77.4% (2007 est.)"
+			"agriculture:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 77.4,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13.4% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 13.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "14.2% (2002)",
+		"Population below poverty line": {
+			"quantity": 14.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3%",
-			"highest 10%:": "30.7% (2006)"
+			"lowest 10%:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "39.7 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "30.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 30.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$6.269 billion",
-			"expenditures:": "$8.701 billion (2010 est.)"
+			"revenues:": {
+				"usd": 6269000000
+			},
+			"expenditures:": {
+				"usd": 8701000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "61.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 61.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.75% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "9.25% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 9.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$9.386 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 9386000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$35.53 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 35530000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$26.85 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 26850000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$31.86 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 31860000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "citrus, tomatoes, cucumbers, olives, strawberries, stone fruits; sheep, poultry, dairy",
 		"Industries": "clothing, fertilizers, potash, phosphate mining, pharmaceuticals, petroleum refining, cement, inorganic chemicals, light manufacturing, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.7% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "12.21 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 12210000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "10.4 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 10400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "176 million kWh (2007 est.)",
-		"Electricity - imports": "200 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 176000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 200000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "108,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 108000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "108,200 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 108200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "250 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 250000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "2.97 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 2970000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "2.72 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 2720000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "6.031 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 6031000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -337,27 +589,37 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$7.333 billion (2010 est.)",
+			"Exports": {
+				"usd": 7333000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing, fertilizers, potash, phosphates, vegetables, pharmaceuticals",
 		"Exports - partners": "US 17.13%, Iraq 17%, India 13.59%, Saudi Arabia 10.56%, Syria 4.18%, UAE 4.09% (2009)",
 		"Imports": {
-			"Imports": "$12.97 billion (2010 est.)",
+			"Imports": {
+				"usd": 12970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "crude oil, machinery, transport equipment, iron, cereals",
 		"Imports - partners": "Saudi Arabia 17.3%, China 10.95%, US 6.94%, Germany 6.29%, Egypt 6.1% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$12.64 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 12640000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$5.522 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 5522000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$22.19 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 22190000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": "$NA",
@@ -365,11 +627,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "501,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "6.014 million (2009)",
+			"Telephones - mobile cellular": 6014000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,44 +642,53 @@
 		"Broadcast media": "radio and TV dominated by the government-owned Jordan Radio and Television Corporation (JRTV) that operates a main network, a sports network, a film network, and a satellite channel; first independent TV broadcaster aired in 2007; international satellite TV and Israeli and Syrian TV broadcasts are available; roughly 30 radio stations operational with JRTV operating the main government-owned station; transmissions of multiple international radio broadcasters are available (2007)",
 		"Internet country code": ".jo",
 		"Internet hosts": {
-			"Internet hosts": "42,412 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "18 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "16",
-			"over 3,047 m:": "8",
-			"2,438 to 3,047 m:": "5",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "2",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 439 km; oil 49 km (2010)",
 		"Railways": {
-			"total:": "507 km",
+			"total:": {
+				"quantity": 507,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "507 km 1.050-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "7,891 km",
+			"total:": {
+				"quantity": 7891,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "7,891 km (2009)"
+			"paved:": {
+				"quantity": 7891,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "13",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 5, passenger/cargo 6, petroleum tanker 1, roll on/roll off 1",
-			"foreign-owned:": "7 (UAE 7)",
+			"foreign-owned:": null,
 			"registered in other countries:": "20 (Bahamas 2, Egypt 2, Panama 13, Syria 2, unknown 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -426,16 +697,16 @@
 		"Military branches": "Jordanian Armed Forces (JAF): Royal Jordanian Land Force (RJLF), Royal Jordanian Navy, Royal Jordanian Air Force (Al-Quwwat al-Jawwiya al-Malakiya al-Urduniya, RJAF), Special Operations Command (Socom); Public Security Directorate (normally falls under Ministry of Interior, but comes under JAF in wartime or crisis) (2011)",
 		"Military service age and obligation": "17 years of age for voluntary military service; conscription for males at age 18 was suspended in 1999, but reinstated in July 2007 in order to provide youth training necessary for job market needs; all males under age 37 are required to register; women not subject to conscription, but can volunteer to serve in non-combat military positions in the Royal Jordanian Arab Army Women's Corps (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,674,260",
-			"females age 16-49:": "1,611,315 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,439,192",
-			"females age 16-49:": "1,384,500 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "73,574",
-			"female:": "69,420 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

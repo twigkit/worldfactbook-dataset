@@ -5,22 +5,49 @@
 	"background": "Albania declared its independence from the Ottoman Empire in 1912, but was conquered by Italy in 1939. Communist partisans took over the country in 1944. Albania allied itself first with the USSR (until 1960), and then with China (to 1978). In the early 1990s, Albania ended 46 years of xenophobic Communist rule and established a multiparty democracy. The transition has proven challenging as successive governments have tried to deal with high unemployment, widespread corruption, a dilapidated physical infrastructure, powerful organized crime networks, and combative political opponents. Albania has made progress in its democratic development since first holding multiparty elections in 1991, but deficiencies remain. International observers judged elections to be largely free and fair since the restoration of political stability following the collapse of pyramid schemes in 1997; however, there have been claims of electoral fraud in every one of Albania's post-communist elections. The 2009 general elections resulted in no single party gaining a majority of the 140 seats in Parliament, and the Movement for Socialist Integration (LSI) and the Democratic Party (DP) combined to form a coalition government, the first such in Albania's history. The Socialist Party (SP) has, in effect, boycotted Parliament since it convened in September 2009 and has called for investigations into alleged electoral fraud in the June 2009 elections. Albania joined NATO in April 2009 and is a potential candidate for EU accession. Although Albania's economy continues to grow, the country is still one of the poorest in Europe, hampered by a large informal economy and an inadequate energy and transportation infrastructure.\r\n",
 	"geo": {
 		"Location": "Southeastern Europe, bordering the Adriatic Sea and Ionian Sea, between Greece in the south and Montenegro and Kosovo to the north",
-		"Geographic coordinates": "41 00 N, 20 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 41,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 20,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "28,748 sq km",
+			"total:": {
+				"quantity": 28748,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "27,398 sq km",
-			"water:": "1,350 sq km"
+			"land:": {
+				"quantity": 27398,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1350,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "717 km",
+			"total:": {
+				"quantity": 717,
+				"unit": "km"
+			},
 			"border countries:": "Greece 282 km, Macedonia 151 km, Montenegro 172 km, Kosovo 112 km"
 		},
-		"Coastline": "362 km",
+		"Coastline": {
+			"quantity": 362,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
@@ -31,15 +58,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, coal, bauxite, chromite, copper, iron ore, nickel, salt, timber, hydropower",
 		"Land use": {
-			"arable land:": "20.1%",
-			"permanent crops:": "4.21%",
-			"other:": "75.69% (2005)"
+			"arable land:": {
+				"quantity": 20.1,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 4.21,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 75.69,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "3,650 sq km (2008)",
-		"Total renewable water resources": "41.7 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 3650,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 41.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.71  cu km/yr (27%/11%/62%)",
-			"per capita:": "546  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.71,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 546,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "destructive earthquakes; tsunamis occur along southwestern coast; floods; drought",
 		"Environment - current issues": "deforestation; soil erosion; water pollution from industrial and domestic effluents",
@@ -51,29 +99,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,994,667 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21.4% (male 337,364/female 303,669)",
-			"15-64 years:": "68.1% (male 996,666/female 1,043,472)",
+			"0-14 years:": {
+				"quantity": 21.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.1,
+				"unit": "%"
+			},
 			"65 years and over:": "10.5% (male 148,151/female 165,345) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.4 years",
-			"male:": "29.2 years",
-			"female:": "31.6 years (2011 est.)"
+			"total:": {
+				"quantity": 30.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.267% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.267,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.15 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.15,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.15 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.15,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -81,31 +153,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "52% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 52,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TIRANA (capital) 433,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.118 male(s)/female",
-			"under 15 years:": "1.1 male(s)/female",
-			"15-64 years:": "1.05 male(s)/female",
-			"65 years and over:": "0.87 male(s)/female",
-			"total population:": "1.04 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.118,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.1,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "14.61 deaths/1,000 live births",
+			"total:": {
+				"quantity": 14.61,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "16.23 deaths/1,000 live births",
-			"female:": "12.79 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 16.23,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 12.79,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.41 years",
+			"total population:": {
+				"quantity": 77.41,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "74.82 years",
-			"female:": "80.3 years (2011 est.)"
+			"male:": {
+				"quantity": 74.82,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.3,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.48 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.48,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -126,14 +240,32 @@
 		"Languages": "Albanian (official - derived from Tosk dialect), Greek, Vlach, Romani, Slavic dialects",
 		"Literacy": {
 			"definition:": "age 9 and over can read and write",
-			"total population:": "98.7%",
-			"male:": "99.2%",
-			"female:": "98.3% (2001 census)"
+			"total population:": {
+				"quantity": 98.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.2,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2004)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -148,7 +280,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Tirana (Tirane)",
-			"geographic coordinates:": "41 19 N, 19 49 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 41,
+					"seconds": 19
+				},
+				"E": {
+					"minutes": 19,
+					"seconds": 49
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -195,136 +336,245 @@
 	"economy": {
 		"Economy - overview": "Albania, a formerly closed, centrally-planned state, is making the difficult transition to a more modern open-market economy. Macroeconomic growth averaged around 6% between 2004-08, but declined to about 3% in 2009-10. Inflation is low and stable. The government has taken measures to curb violent crime, and recently adopted a fiscal reform package aimed at reducing the large gray economy and attracting foreign investment. Remittances, a significant catalyst for economic growth have declined from 12-15% of GDP to 9% of GDP in 2009, mostly from Albanians residing in Greece and Italy; this helps offset the towering trade deficit. The agricultural sector, which accounts for almost half of employment but only about one-fifth of GDP, is limited primarily to small family operations and subsistence farming because of lack of modern equipment, unclear property rights, and the prevalence of small, inefficient plots of land. Energy shortages because of a reliance on hydropower, and antiquated and inadequate infrastructure contribute to Albania's poor business environment and lack of success in attracting new foreign investment needed to expand the country's export base. FDI is among the lowest in the region, but the government has embarked on an ambitious program to improve the business climate through fiscal and legislative reforms. The completion of a new thermal power plant near Vlore has helped diversify generation capacity, and plans to upgrade transmission lines between Albania and Montenegro and Kosovo would help relieve the energy shortages. Also, with help from EU funds, the government is taking steps to improve the poor national road and rail network, a long-standing barrier to sustained economic growth.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$23.86 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 23860000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$11.77 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 11770000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$8,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "18.9%",
-			"industry:": "23.5%",
-			"services:": "57.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 18.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 57.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.06 million (2010 est.)",
+			"Labor force": 1060000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "47.8%",
-			"industry:": "23%",
-			"services:": "29.2% (September 2010 est.)"
+			"agriculture:": {
+				"quantity": 47.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 29.2,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13.5% (September 2010 est.)",
+			"Unemployment rate": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "12.5% (2008 est.)",
+		"Population below poverty line": {
+			"quantity": 12.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.2%",
-			"highest 10%:": "25.9% (2005)"
+			"lowest 10%:": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 25.9,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26.7 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "27.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 27.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$3.205 billion",
-			"expenditures:": "$3.571 billion (2010 est.)"
+			"revenues:": {
+				"usd": 3205000000
+			},
+			"expenditures:": {
+				"usd": 3571000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "59.3% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 59.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "5% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "12.46% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 12.46,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.566 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2566000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9.245 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 9245000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$7.701 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 7701000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "wheat, corn, potatoes, vegetables, fruits, sugar beets, grapes; meat, dairy products",
 		"Industries": "food processing, textiles and clothing; lumber, oil, cement, chemicals, mining, basic metals, hydropower",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "5.201 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 5201000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "6.593 billion kWh",
+			"Electricity - consumption": {
+				"quantity": 6593000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2009 est.)",
-		"Electricity - imports": "1.884 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1884000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "5,400 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 5400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "36,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 36000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "748.9 bbl/day (2005 est.)",
+			"Oil - exports": {
+				"quantity": 748.9,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "24,080 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 24080,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "199.1 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 199100000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "30 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 30000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "30 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 30000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "849.5 million cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 849500000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -332,34 +582,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.55 billion (2010 est.)",
+			"Exports": {
+				"usd": 1550000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "textiles and footwear; asphalt, metals and metallic ores, crude oil; vegetables, fruits, tobacco",
 		"Exports - partners": "Italy 50.8%, Kosovo 6.2%, Turkey 5.9%, Greece 5.4%, China 5.5% (2010 est.)",
 		"Imports": {
-			"Imports": "$4.59 billion (2010 est.)",
+			"Imports": {
+				"usd": 4590000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, textiles, chemicals",
 		"Imports - partners": "Italy 28%, Greece 13%, China 6.3%, Turkey 5.6%, Germany 5.6% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.992 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1992000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.81 billion (2009)",
+			"Debt - external": {
+				"usd": 2810000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "363,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "4.162 million (2009)",
+			"Telephones - mobile cellular": 4162000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -370,47 +628,59 @@
 		"Broadcast media": "3 public television networks, one of which transmits by satellite to Albanian-language communities in neighboring countries; more than 60 private television stations operating; many viewers can pick up Italian and Greek TV broadcasts via terrestrial reception; cable TV service is available; 2 public radio networks and roughly 25 private radio stations; several international broadcasters are available (2010)",
 		"Internet country code": ".al",
 		"Internet hosts": {
-			"Internet hosts": "15,098 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "5 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 339 km; oil 207 km (2010)",
 		"Railways": {
-			"total:": "339 km",
+			"total:": {
+				"quantity": 339,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "339 km 1.435-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "18,000 km",
+			"total:": {
+				"quantity": 18000,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "7,020 km",
-			"unpaved:": "10,980 km (2002)"
+			"paved:": {
+				"quantity": 7020,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 10980,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "41 km (on the Bojana River) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "25",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 23, roll on/roll off 1",
-			"foreign-owned:": "1 (Turkey 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "4 (Antigua and Barbuda 1, Panama 3) (2010)"
 		},
 		"Ports and terminals": {}
@@ -419,16 +689,16 @@
 		"Military branches": "Joint Force Command (includes Land, Naval, and Aviation Brigade Commands), Joint Support Command (includes Logistic Command), Training and Doctrine Command (2010)",
 		"Military service age and obligation": "19 years of age (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "731,111",
-			"females age 16-49:": "780,216 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "622,379",
-			"females age 16-49:": "660,715 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "31,986",
-			"female:": "29,533 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

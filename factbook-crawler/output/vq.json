@@ -5,20 +5,50 @@
 	"background": "During the 17th century, the archipelago was divided into two territorial units, one English and the other Danish. Sugarcane, produced by slave labor, drove the islands' economy during the 18th and early 19th centuries. In 1917, the US purchased the Danish portion, which had been in economic decline since the abolition of slavery in 1848.",
 	"geo": {
 		"Location": "Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico",
-		"Geographic coordinates": "18 20 N, 64 50 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 18,
+				"seconds": 20
+			},
+			"W": {
+				"minutes": 64,
+				"seconds": 50
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "1,910 sq km",
+			"total:": {
+				"quantity": 1910,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "346 sq km",
-			"water:": "1,564 sq km"
+			"land:": {
+				"quantity": 346,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1564,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "twice the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "188 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 188,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "subtropical, tempered by easterly trade winds, relatively low humidity, little seasonal temperature variation; rainy season September to November",
 		"Terrain": "mostly hilly to rugged and mountainous with little level land",
@@ -28,40 +58,73 @@
 		},
 		"Natural resources": "sun, sand, sea, surf",
 		"Land use": {
-			"arable land:": "5.71%",
-			"permanent crops:": "2.86%",
-			"other:": "91.43% (2005)"
+			"arable land:": {
+				"quantity": 5.71,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.86,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91.43,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1 sq km (2008)",
+		"Irrigated land": {
+			"quantity": 1,
+			"unit": "sq km"
+		},
 		"Natural hazards": "several hurricanes in recent years; frequent and severe droughts and floods; occasional earthquakes",
 		"Environment - current issues": "lack of natural freshwater resources",
 		"Geography - note": {}
 	},
 	"people": {
 		"Population": {
-			"Population": "109,666 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "19.5% (male 10,886/female 10,470)",
-			"15-64 years:": "65.2% (male 33,280/female 38,210)",
+			"0-14 years:": {
+				"quantity": 19.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.2,
+				"unit": "%"
+			},
 			"65 years and over:": "15.3% (male 7,626/female 9,194) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.4 years",
-			"male:": "39.9 years",
-			"female:": "40.8 years (2011 est.)"
+			"total:": {
+				"quantity": 40.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 40.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.08% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.41 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.41,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.17 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.17,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -69,31 +132,70 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "95% of total population (2010)",
+			"urban population:": {
+				"quantity": 95,
+				"unit": "% of total population"
+			},
 			"rate of urbanization:": "-0.1% annual rate of change (2010-15 est.)"
 		},
 		"Major cities - population": "CHARLOTTE AMALIE (capital) 54,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.058 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.87 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "0.9 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.058,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.9,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "7.24 deaths/1,000 live births",
+			"total:": {
+				"quantity": 7.24,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.97 deaths/1,000 live births",
-			"female:": "6.47 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.97,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 6.47,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.33 years",
+			"total population:": {
+				"quantity": 79.33,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "76.29 years",
-			"female:": "82.55 years (2011 est.)"
+			"male:": {
+				"quantity": 76.29,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.55,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.8 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.8,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -126,7 +228,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Charlotte Amalie",
-			"geographic coordinates:": "18 21 N, 64 56 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 18,
+					"seconds": 21
+				},
+				"W": {
+					"minutes": 64,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territory of the US); there are no first-order administrative divisions as defined by the US Government, but there are three islands at the second order; Saint Croix, Saint John, Saint Thomas",
@@ -159,109 +270,193 @@
 	"economy": {
 		"Economy - overview": "Tourism is the primary economic activity, accounting for 80% of GDP and employment. The islands hosted 2.4 million visitors in 2008. The manufacturing sector consists of petroleum refining, rum distilling, textiles, electronics, pharmaceuticals, and watch assembly. One of the world's largest petroleum refineries is at Saint Croix. The agricultural sector is small, with most food being imported. International business and financial services are small but growing components of the economy. The islands are vulnerable to substantial damage from storms. The government is working to improve fiscal discipline, to support construction projects in the private sector, to expand tourist facilities, to reduce crime, and to protect the environment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.577 billion (2004 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1577000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2% (2002 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$14,500 (2004 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "19%",
-			"services:": "80% (2003 est.)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 80,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "49,820 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "1%",
-			"industry:": "19%",
-			"services:": "80% (2003 est.)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 80,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.2% (2004)",
+			"Unemployment rate": {
+				"quantity": 6.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "28.9% (2002)",
+		"Population below poverty line": {
+			"quantity": 28.9,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$837 million",
-			"expenditures:": "$837 million (FY08/09)"
+			"revenues:": {
+				"usd": 837000000
+			},
+			"expenditures:": {
+				"usd": 837000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.2% (2003)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fruit, vegetables, sorghum; Senepol cattle",
 		"Industries": "tourism, petroleum refining, watch assembly, rum distilling, construction, pharmaceuticals, textiles, electronics",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "776.4 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 776400000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "722 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 722000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "16,870 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 16870,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "88,820 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 88820,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "388,000 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 388000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "480,600 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 480600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$4.234 billion (2001)",
+			"Exports": {
+				"usd": 4234000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "refined petroleum products",
 		"Imports": {
-			"Imports": "$4.609 billion (2001)",
+			"Imports": {
+				"usd": 4609000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "crude oil, foodstuffs, consumer goods, building materials",
@@ -270,11 +465,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "75,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "80,300 (2005)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -285,35 +480,38 @@
 		"Broadcast media": "about a dozen television broadcast stations including 1 public TV station; multi-channel cable and satellite TV services are available; 24 radio stations broadcasting (2009)",
 		"Internet country code": ".vi",
 		"Internet hosts": {
-			"Internet hosts": "8,933 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "1,260 km (2008)",
+			"total:": {
+				"quantity": 1260,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "17,542",
-			"females age 16-49:": "20,946 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "744",
-			"female:": "788 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

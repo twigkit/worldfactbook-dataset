@@ -5,20 +5,44 @@
 	"background": "The September 1993 Israel-PLO Declaration of Principles on Interim Self-Government Arrangements provided for a transitional period of Palestinian self-rule in the West Bank and Gaza Strip. Under a series of agreements signed between May 1994 and September 1999, Israel transferred to the Palestinian Authority (PA) security and civilian responsibility for many Palestinian-populated areas of the West Bank and Gaza Strip. Negotiations to determine the permanent status of the West Bank and Gaza Strip stalled following the outbreak of an intifada in September 2000. In April 2003, the Quartet (US, EU, UN, and Russia) presented a roadmap to a final settlement of the conflict by 2005 based on reciprocal steps by the two parties leading to two states, Israel and a democratic Palestine. Following Palestinian leader Yasir ARAFAT's death in late 2004, Mahmud ABBAS was elected PA president in January 2005. A month later, Israel and the PA agreed to the Sharm el-Sheikh Commitments in an effort to move the peace process forward. In September 2005, Israel unilaterally withdrew all its settlers and soldiers and dismantled its military facilities in the Gaza Strip and withdrew settlers and redeployed soldiers from four small northern West Bank settlements. Nonetheless, Israel still controls maritime, airspace, and most access to the Gaza Strip; and it enforces a restricted zone along the border inside Gaza. In January 2006, the Islamic Resistance Movement, HAMAS, won control of the Palestinian Legislative Council (PLC). HAMAS took control of the PA government in March 2006, but President ABBAS had little success negotiating with HAMAS to present a political platform acceptable to the international community so as to lift economic sanctions on Palestinians. Violent clashes between Fatah and HAMAS supporters in the Gaza Strip in 2006 and early 2007 resulted in numerous Palestinian deaths and injuries. In February 2007, ABBAS and HAMAS Political Bureau Chief MISHAL signed the Mecca Agreement in Saudi Arabia that resulted in the formation of a Palestinian National Unity Government (NUG) headed by HAMAS member Ismail HANIYA. However, fighting continued in the Gaza Strip, and in June 2007, HAMAS militants succeeded in a violent takeover of all military and governmental institutions in the Gaza Strip. ABBAS dismissed the NUG and through a series of presidential decrees formed a PA government in the West Bank led by independent Salam FAYYAD. HAMAS rejected the NUG's dismissal, and despite multiple rounds of Egyptian-brokered reconciliation negotiations, the two groups have failed to bridge their differences. Late November 2007 through June 2008 witnessed a substantial increase in Israeli-Palestinian violence. An Egyptian-brokered truce in June 2008 between Israel and HAMAS brought about a five-month pause in hostilities, but spiraling end-of-year violence resulted in the deaths of an estimated 1,100 to 1,400 Palestinians and left tens of thousands of people homeless. International donors pledged $4.5 billion in aid to rebuild the Gaza Strip, but by the end of 2010 large-scale reconstruction had not begun.\r\n\r\n\r\n",
 	"geo": {
 		"Location": "Middle East, bordering the Mediterranean Sea, between Egypt and Israel",
-		"Geographic coordinates": "31 25 N, 34 20 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 31,
+				"seconds": 25
+			},
+			"E": {
+				"minutes": 34,
+				"seconds": 20
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "360 sq km",
+			"total:": {
+				"quantity": 360,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "360 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 360,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "62 km",
+			"total:": {
+				"quantity": 62,
+				"unit": "km"
+			},
 			"border countries:": "Egypt 11 km, Israel 51 km"
 		},
-		"Coastline": "40 km",
+		"Coastline": {
+			"quantity": 40,
+			"unit": "km"
+		},
 		"Maritime claims": "Israeli-occupied with current status subject to the Israeli-Palestinian Interim Agreement; permanent status to be determined through further negotiation",
 		"Climate": "temperate, mild winters, dry and warm to hot summers",
 		"Terrain": "flat to rolling, sand- and dune-covered coastal plain",
@@ -28,9 +52,18 @@
 		},
 		"Natural resources": "arable land, natural gas",
 		"Land use": {
-			"arable land:": "29%",
-			"permanent crops:": "21%",
-			"other:": "50% (2002)"
+			"arable land:": {
+				"quantity": 29,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 21,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 50,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "180 sq km; note - includes West Bank (2008)",
 		"Natural hazards": "droughts",
@@ -39,60 +72,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,657,155 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "43.9% (male 374,110/female 354,088)",
-			"15-64 years:": "53.5% (male 453,253/female 432,855)",
+			"0-14 years:": {
+				"quantity": 43.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 53.5,
+				"unit": "%"
+			},
 			"65 years and over:": "2.6% (male 17,326/female 25,523) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "17.7 years",
-			"male:": "17.5 years",
-			"female:": "17.9 years (2011 est.)"
+			"total:": {
+				"quantity": 17.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.201% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.201,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "35.3 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 35.3,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "3.29 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 3.29,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "72% of total population (2008)",
-			"rate of urbanization:": "3.3% annual rate of change (2005-10 est.)"
+			"urban population:": {
+				"quantity": 72,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.05 male(s)/female",
-			"65 years and over:": "0.68 male(s)/female",
-			"total population:": "1.04 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.68,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "17.12 deaths/1,000 live births",
+			"total:": {
+				"quantity": 17.12,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "18.25 deaths/1,000 live births",
-			"female:": "15.92 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 18.25,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.92,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.92 years",
+			"total population:": {
+				"quantity": 73.92,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.27 years",
-			"female:": "75.68 years (2011 est.)"
+			"male:": {
+				"quantity": 72.27,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.68,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.74 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.74,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -107,14 +209,32 @@
 		"Languages": "Arabic, Hebrew (spoken by many Palestinians), English (widely understood)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92.4%",
-			"male:": "96.7%",
-			"female:": "88% (2004 est.)"
+			"total population:": {
+				"quantity": 92.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 96.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 88,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2006)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -128,22 +248,40 @@
 		"GDP - per capita (PPP)": "see entry for West Bank",
 		"GDP - composition by sector": "see entry for West Bank",
 		"Labor force": {
-			"Labor force": "339,000 (2009)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "12%",
-			"industry:": "5%",
-			"services:": "83% (June 2008)"
+			"agriculture:": {
+				"quantity": 12,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 83,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "40% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 40,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "70% (2009 est.)",
+		"Population below poverty line": {
+			"quantity": 70,
+			"unit": "%"
+		},
 		"Budget": "see entry for West Bank",
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "see entry for West Bank",
@@ -154,21 +292,33 @@
 		"Industries": "textiles, food processing",
 		"Industrial production growth rate": "see entry for West Bank",
 		"Electricity - production": {
-			"Electricity - production": "65,000 kWh (2009)",
+			"Electricity - production": {
+				"quantity": 65000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "202,000 kWh (2009)",
+			"Electricity - consumption": {
+				"quantity": 202000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "120,000 kWh; note - from Israeli Electric Company (2009)",
 		"Oil - production": "see entry for West Bank",
 		"Oil - consumption": "see entry for West Bank",
 		"Oil - exports": "see entry for West Bank",
 		"Oil - imports": "see entry for West Bank",
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "strawberries, carnations",
@@ -199,14 +349,14 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Roadways": {
 			"note:": "see entry for West Bank"
 		},
@@ -215,15 +365,15 @@
 	"military": {
 		"Military branches": "Palestinian Authority security forces have operated only in the West Bank, not in the Gaza Strip, since HAMAS seized power in June 2007; law and order and other security functions are performed by HAMAS security organizations (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "385,961 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "335,820",
-			"females age 16-49:": "319,847 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "18,805",
-			"female:": "17,903 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

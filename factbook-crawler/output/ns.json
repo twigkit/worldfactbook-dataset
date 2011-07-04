@@ -5,23 +5,53 @@
 	"background": "First explored by the Spaniards in the 16th century and then settled by the English in the mid-17th century, Suriname became a Dutch colony in 1667. With the abolition of slavery in 1863, workers were brought in from India and Java. Independence from the Netherlands was granted in 1975. Five years later the civilian government was replaced by a military regime that soon declared a socialist republic. It continued to exert control through a succession of nominally civilian administrations until 1987, when international pressure finally forced a democratic election. In 1990, the military overthrew the civilian leadership, but a democratically elected government - a four-party coalition - returned to power in 1991. The coalition expanded to eight parties in 2005 and ruled until August 2010, when voters returned former military leader Desire BOUTERSE and his opposition coalition to power.",
 	"geo": {
 		"Location": "Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana",
-		"Geographic coordinates": "4 00 N, 56 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 4,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 56,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "163,820 sq km",
+			"total:": {
+				"quantity": 163820,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "156,000 sq km",
-			"water:": "7,820 sq km"
+			"land:": {
+				"quantity": 156000,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 7820,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Georgia",
 		"Land boundaries": {
-			"total:": "1,703 km",
+			"total:": {
+				"quantity": 1703,
+				"unit": "km"
+			},
 			"border countries:": "Brazil 593 km, French Guiana 510 km, Guyana 600 km"
 		},
-		"Coastline": "386 km",
+		"Coastline": {
+			"quantity": 386,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; moderated by trade winds",
 		"Terrain": "mostly rolling hills; narrow coastal plain with swamps",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "timber, hydropower, fish, kaolin, shrimp, bauxite, gold, and small amounts of nickel, copper, platinum, iron ore",
 		"Land use": {
-			"arable land:": "0.36%",
-			"permanent crops:": "0.06%",
-			"other:": "99.58% (2005)"
+			"arable land:": {
+				"quantity": 0.36,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.06,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.58,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "510 sq km (2008)",
-		"Total renewable water resources": "122 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 510,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 122,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.67  cu km/yr (4%/3%/93%)",
-			"per capita:": "1,489  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.67,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1489,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "deforestation as timber is cut for export; pollution of inland waterways by small-scale mining activities",
@@ -51,69 +102,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "491,989 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.4% (male 66,440/female 63,469)",
-			"15-64 years:": "67.3% (male 164,739/female 166,139)",
+			"0-14 years:": {
+				"quantity": 26.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.3,
+				"unit": "%"
+			},
 			"65 years and over:": "6.3% (male 13,300/female 17,902) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "28.7 years",
-			"male:": "28.3 years",
-			"female:": "29.1 years (2011 est.)"
+			"total:": {
+				"quantity": 28.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 29.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.087% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.087,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "16.42 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 16.42,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.54 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.54,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "69% of total population (2010)",
-			"rate of urbanization:": "1.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 69,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PARAMARIBO (capital) 259,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.068 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.75 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.068,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.75,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "17.61 deaths/1,000 live births",
+			"total:": {
+				"quantity": 17.61,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "20.79 deaths/1,000 live births",
-			"female:": "14.2 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 20.79,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 14.2,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.22 years",
+			"total population:": {
+				"quantity": 74.22,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.47 years",
-			"female:": "77.16 years (2011 est.)"
+			"male:": {
+				"quantity": 71.47,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.16,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.95 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.95,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3,700 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -137,12 +260,24 @@
 		"Languages": "Dutch (official), English (widely spoken), Sranang Tongo (Surinamese, sometimes called Taki-Taki, is native language of Creoles and much of the younger population and is lingua franca among others), Caribbean Hindustani (a dialect of Hindi), Javanese",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "89.6%",
-			"male:": "92%",
-			"female:": "87.2% (2004 census)"
+			"total population:": {
+				"quantity": 89.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 92,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 87.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years (2006)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -157,7 +292,16 @@
 		"Government type": "constitutional democracy",
 		"Capital": {
 			"name:": "Paramaribo",
-			"geographic coordinates:": "5 50 N, 55 10 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 5,
+					"seconds": 50
+				},
+				"W": {
+					"minutes": 55,
+					"seconds": 10
+				}
+			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 districts (distrikten, singular - distrikt); Brokopondo, Commewijne, Coronie, Marowijne, Nickerie, Para, Paramaribo, Saramacca, Sipaliwini, Wanica",
@@ -205,155 +349,259 @@
 	"economy": {
 		"Economy - overview": "The economy is dominated by the mining industry, with exports of alumina, gold, and oil accounting for about 85% of exports and 25% of government revenues, making the economy highly vulnerable to mineral price volatility. In 2000, the government of Ronald VENETIAAN, returned to office and inherited an economy with inflation of over 100% and a growing fiscal deficit. He quickly implemented an austerity program, raised taxes, attempted to control spending, and tamed inflation. Economic growth reached about 7% in 2008, owing to sizeable foreign investment in mining and oil. Suriname has received aid for projects in the bauxite and gold mining sectors from Netherlands, Belgium, and the European Development Fund. The economy slowed in 2009, however, as investment waned and the country earned less from its commodity exports when global prices for most commodities fell. Trade picked up, boosting Suriname's economic growth in 2010, but the government's budget remained strained, with increased social spending during the election. In January 2011, the government devalued the currency by 20% and raised taxes to reduce the budget deficit. Suriname's economic prospects for the medium term will depend on continued commitment to responsible monetary and fiscal policies and to the introduction of structural reforms to liberalize markets and promote competition.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$4.711 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 4711000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$3.682 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 3682000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$9,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "10.8%",
-			"industry:": "24.4%",
-			"services:": "64.8% (2005 est.)"
+			"agriculture:": {
+				"quantity": 10.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 64.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "165,600 (2007)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "8%",
-			"industry:": "14%",
-			"services:": "78% (2004)"
+			"agriculture:": {
+				"quantity": 8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 78,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.5% (2004)",
+			"Unemployment rate": {
+				"quantity": 9.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "70% (2002 est.)",
+		"Population below poverty line": {
+			"quantity": 70,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$392.6 million",
-			"expenditures:": "$425.9 million (2004)"
+			"revenues:": {
+				"usd": 392600000
+			},
+			"expenditures:": {
+				"usd": 425900000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.4% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.65% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.65,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$608 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 608000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.809 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 1809000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$793.1 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 793100000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "paddy rice, bananas, palm kernels, coconuts, plantains, peanuts; beef, chickens; shrimp; forest products",
 		"Industries": "bauxite and gold mining, alumina production; oil, lumbering, food processing, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6.5% (1994 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.605 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 1605000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "1.467 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 1467000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "15,190 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 15190,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "14,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 14000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "4,308 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 4308,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "6,296 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 6296,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "79.6 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 79600000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$24 million (2007 est.)",
+			"Current account balance": {
+				"usd": 24000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.391 billion (2006 est.)",
+			"Exports": {
+				"usd": 1391000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "alumina, gold, crude oil, lumber, shrimp and fish, rice, bananas",
 		"Exports - partners": "Canada 35.47%, Belgium 14.92%, US 10.15%, UAE 9.87%, Norway 4.92%, Netherlands 4.7%, France 4.47% (2009)",
 		"Imports": {
-			"Imports": "$1.297 billion (2006 est.)",
+			"Imports": {
+				"usd": 1297000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital equipment, petroleum, foodstuffs, cotton, consumer goods",
 		"Imports - partners": "US 30.79%, Netherlands 19.17%, Trinidad and Tobago 13.04%, China 6.8%, Japan 5.85% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$263.3 million (2006)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 263300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$504.3 million (2005 est.)",
+			"Debt - external": {
+				"usd": 504300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "83,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "763,900 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -364,39 +612,48 @@
 		"Broadcast media": "2 state-owned TV stations; 1 state-owned radio station; multiple private radio and TV stations (2007)",
 		"Internet country code": ".sr",
 		"Internet hosts": {
-			"Internet hosts": "171 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "51 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "5",
-			"over 3,047 m:": "1",
-			"under 914 m:": "4 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "46",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "41 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 50 km (2010)",
 		"Roadways": {
-			"total:": "4,304 km",
+			"total:": {
+				"quantity": 4304,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "1,130 km",
-			"unpaved:": "3,174 km (2003)"
+			"paved:": {
+				"quantity": 1130,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 3174,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,200 km (most navigable by ships with drafts up to 7 m) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "1",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1 (2008)"
 		},
@@ -406,16 +663,16 @@
 		"Military branches": "National Army (Nationaal Leger, NL; includes Marine Section and Air Wing) (2010)",
 		"Military service age and obligation": "18 years of age (est.); recruitment is voluntary, with personnel drawn almost exclusively from the Creole community (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": "134,218",
-			"females age 16-49:": "134,439 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "109,445",
-			"females age 16-49:": "112,538 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "4,119",
-			"female:": "4,106 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

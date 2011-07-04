@@ -5,22 +5,55 @@
 	"background": "The UK established a protectorate over the Solomon Islands in the 1890s. Some of the most bitter fighting of World War II occurred on this archipelago. Self-government was achieved in 1976 and independence two years later. Ethnic violence, government malfeasance, and endemic crime have undermined stability and civil society. In June 2003, then Prime Minister Sir Allan KEMAKEZA sought the assistance of Australia in reestablishing law and order; the following month, an Australian-led multinational force arrived to restore peace and disarm ethnic militias. The Regional Assistance Mission to the Solomon Islands (RAMSI) has generally been effective in restoring law and order and rebuilding government institutions.",
 	"geo": {
 		"Location": "Oceania, group of islands in the South Pacific Ocean, east of Papua New Guinea",
-		"Geographic coordinates": "8 00 S, 159 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 8,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 159,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "28,896 sq km",
+			"total:": {
+				"quantity": 28896,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "27,986 sq km",
-			"water:": "910 sq km"
+			"land:": {
+				"quantity": 27986,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 910,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
-		"Land boundaries": "0 km",
-		"Coastline": "5,313 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 5313,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"Maritime claims": "measured from claimed archipelagic baselines",
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
-			"continental shelf:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical monsoon; few extremes of temperature and weather",
 		"Terrain": "mostly rugged mountains with some low coral atolls",
@@ -30,12 +63,24 @@
 		},
 		"Natural resources": "fish, forests, gold, bauxite, phosphates, lead, zinc, nickel",
 		"Land use": {
-			"arable land:": "0.62%",
-			"permanent crops:": "2.04%",
-			"other:": "97.34% (2005)"
+			"arable land:": {
+				"quantity": 0.62,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.04,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.34,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "44.7 cu km (1987)",
+		"Total renewable water resources": {
+			"quantity": 44.7,
+			"unit": "cu km"
+		},
 		"Natural hazards": {
 			"Natural hazards": "typhoons, but rarely destructive; geologically active region with frequent earthquakes, tremors, and volcanic activity; tsunamis",
 			"volcanism:": "Tinakula (elev. 851 m) has frequent eruption activity, while an eruption of Savo (elev. 485 m) could affect the capital Honiara on nearby Guadalcanal"
@@ -49,29 +94,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "571,890 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "37.8% (male 111,265/female 104,896)",
-			"15-64 years:": "58.3% (male 169,873/female 163,621)",
+			"0-14 years:": {
+				"quantity": 37.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 58.3,
+				"unit": "%"
+			},
 			"65 years and over:": "3.9% (male 10,879/female 11,356) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "20.9 years",
-			"male:": "20.7 years",
-			"female:": "21.1 years (2011 est.)"
+			"total:": {
+				"quantity": 20.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 20.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.22% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.22,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "28.03 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 28.03,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "3.93 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 3.93,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -79,31 +148,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "19% of total population (2010)",
-			"rate of urbanization:": "4.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 19,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "HONIARA (capital) 72,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.89 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "17.82 deaths/1,000 live births",
+			"total:": {
+				"quantity": 17.82,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "20.29 deaths/1,000 live births",
-			"female:": "15.23 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 20.29,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.23,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.18 years",
+			"total population:": {
+				"quantity": 74.18,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.6 years",
-			"female:": "76.89 years (2011 est.)"
+			"male:": {
+				"quantity": 71.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.89,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.59 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.59,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -120,9 +231,18 @@
 		"Languages": "Melanesian pidgin (in much of the country is lingua franca), English (official but spoken by only 1%-2% of the population), 120 indigenous languages",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "9 years",
-			"female:": "9 years (2007)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 9,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -137,7 +257,16 @@
 		"Government type": "parliamentary democracy and a Commonwealth realm",
 		"Capital": {
 			"name:": "Honiara",
-			"geographic coordinates:": "9 26 S, 159 57 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 9,
+					"seconds": 26
+				},
+				"E": {
+					"minutes": 159,
+					"seconds": 57
+				}
+			},
 			"time difference:": "UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "9 provinces and 1 capital territory*; Central, Choiseul, Guadalcanal, Honiara*, Isabel, Makira, Malaita, Rennell and Bellona, Temotu, Western",
@@ -181,31 +310,58 @@
 	"economy": {
 		"Economy - overview": "The bulk of the population depends on agriculture, fishing, and forestry for at least part of its livelihood. Most manufactured goods and petroleum products must be imported. The islands are rich in undeveloped mineral resources such as lead, zinc, nickel, and gold. Prior to the arrival of RAMSI, severe ethnic violence, the closing of key businesses, and an empty government treasury culminated in economic collapse. RAMSI's efforts to restore law and order and economic stability have led to modest growth as the economy rebuilds.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.627 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1627000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$712 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 712000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "42%",
-			"industry:": "11%",
-			"services:": "47% (2005 est.)"
+			"agriculture:": {
+				"quantity": 42,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 47,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "202,500 (2007)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "75%",
-			"industry:": "5%",
-			"services:": "20% (2000 est.)"
+			"agriculture:": {
+				"quantity": 75,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
@@ -214,80 +370,138 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$49.7 million",
-			"expenditures:": "$75.1 million (2003)"
+			"revenues:": {
+				"usd": 49700000
+			},
+			"expenditures:": {
+				"usd": 75100000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.3% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "15.26% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 15.26,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$139.9 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 139900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$227.1 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 227100000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$221.9 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 221900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cocoa beans, coconuts, palm kernels, rice, potatoes, vegetables, fruit; timber; cattle, pigs; fish",
 		"Industries": "fish (tuna), mining, timber",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "71 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 71000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "66.03 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 66030000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,323 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1323,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -295,30 +509,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$237 million (2006)",
+			"Exports": {
+				"usd": 237000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "timber, fish, copra, palm oil, cocoa",
 		"Exports - partners": "China 54.07%, South Korea 6.19%, Philippines 6.04%, Spain 4.87% (2009)",
 		"Imports": {
-			"Imports": "$256 million (2006)",
+			"Imports": {
+				"usd": 256000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, plant and equipment, manufactured goods, fuels, chemicals",
 		"Imports - partners": "Singapore 24.69%, Australia 23.06%, NZ 5.2%, Fiji 4.47%, Papua New Guinea 4.34%, Malaysia 3.98% (2009)",
 		"Debt - external": {
-			"Debt - external": "$166 million (2004)",
+			"Debt - external": {
+				"usd": 166000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "8,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "30,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -329,48 +549,57 @@
 		"Broadcast media": "Solomon Islands Broadcasting Corporation (SIBC) is the sole TV broadcaster with 1 station; multi-channel pay-TV is available; SIBC, the public service broadcaster, operates 2 national radio stations and 2 provincial stations; 2 local commercial radio stations operating; Radio Australia is obtainable via satellite feed (2009)",
 		"Internet country code": ".sb",
 		"Internet hosts": {
-			"Internet hosts": "4,065 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "36 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "34",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "8",
-			"under 914 m:": "25 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "1,360 km",
+			"total:": {
+				"quantity": 1360,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "33 km",
-			"unpaved:": "1,327 km"
+			"paved:": {
+				"quantity": 33,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 1327,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "no regular military forces; Solomon Islands Police Force (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "142,913 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "118,921",
-			"females age 16-49:": "118,164 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "6,483",
-			"female:": "6,098 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

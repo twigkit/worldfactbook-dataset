@@ -5,22 +5,49 @@
 	"background": "The Slovene lands were part of the Austro-Hungarian Empire until the latter's dissolution at the end of World War I. In 1918, the Slovenes joined the Serbs and Croats in forming a new multinational state, which was named Yugoslavia in 1929. After World War II, Slovenia became a republic of the renewed Yugoslavia, which though Communist, distanced itself from Moscow's rule. Dissatisfied with the exercise of power by the majority Serbs, the Slovenes succeeded in establishing their independence in 1991 after a short 10-day war. Historical ties to Western Europe, a strong economy, and a stable democracy have assisted in Slovenia's transformation to a modern state. Slovenia acceded to both NATO and the EU in the spring of 2004; it joined the eurozone in 2007.",
 	"geo": {
 		"Location": "south Central Europe, Julian Alps between Austria and Croatia",
-		"Geographic coordinates": "46 07 N, 14 49 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 46,
+				"seconds": 7
+			},
+			"E": {
+				"minutes": 14,
+				"seconds": 49
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "20,273 sq km",
+			"total:": {
+				"quantity": 20273,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "20,151 sq km",
-			"water:": "122 sq km"
+			"land:": {
+				"quantity": 20151,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 122,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than New Jersey",
 		"Land boundaries": {
-			"total:": "1,086 km",
+			"total:": {
+				"quantity": 1086,
+				"unit": "km"
+			},
 			"border countries:": "Austria 330 km, Croatia 455 km, Hungary 102 km, Italy 199 km"
 		},
-		"Coastline": "46.6 km",
+		"Coastline": {
+			"quantity": 46.6,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "Mediterranean climate on the coast, continental climate with mild to hot summers and cold winters in the plateaus and valleys to the east",
 		"Terrain": "a short coastal strip on the Adriatic, an alpine mountain region adjacent to Italy and Austria, mixed mountains and valleys with numerous rivers to the east",
@@ -30,15 +57,33 @@
 		},
 		"Natural resources": "lignite coal, lead, zinc, building stone, hydropower, forests",
 		"Land use": {
-			"arable land:": "8.53%",
-			"permanent crops:": "1.43%",
-			"other:": "90.04% (2005)"
+			"arable land:": {
+				"quantity": 8.53,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.43,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 90.04,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "100 sq km (2008)",
-		"Total renewable water resources": "32.1 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 100,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 32.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.9",
-			"per capita:": "457  cu m/yr (2002)"
+			"total:": null,
+			"per capita:": {
+				"quantity": 457,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "flooding; earthquakes",
 		"Environment - current issues": "Sava River polluted with domestic and industrial waste; pollution of coastal waters with heavy metals and toxic chemicals; forest damage near Koper from air pollution (originating at metallurgical and chemical plants) and resulting acid rain",
@@ -50,61 +95,127 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,000,092 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "13.4% (male 138,604/female 130,337)",
-			"15-64 years:": "69.8% (male 703,374/female 692,640)",
+			"0-14 years:": {
+				"quantity": 13.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 69.8,
+				"unit": "%"
+			},
 			"65 years and over:": "16.8% (male 132,069/female 203,068) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.4 years",
-			"male:": "40.7 years",
-			"female:": "44.1 years (2011 est.)"
+			"total:": {
+				"quantity": 42.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 44.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.163% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "8.85 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 8.85,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.87 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.87,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.39 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.39,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "50% of total population (2010)",
-			"rate of urbanization:": "0.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 50,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LJUBLJANA (capital) 260,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.066 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.65 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.066,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.65,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.17 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.17,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.71 deaths/1,000 live births",
-			"female:": "3.58 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.71,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.58,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.3 years",
+			"total population:": {
+				"quantity": 77.3,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.64 years",
-			"female:": "81.2 years (2011 est.)"
+			"male:": {
+				"quantity": 73.64,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.2,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.3 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.3,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -130,14 +241,32 @@
 		"Languages": "Slovenian (official) 91.1%, Serbo-Croatian 4.5%, other or unspecified 4.4%, Italian (official, only in municipalities where Italian national communities reside, Hungarian (official, only in municipalities where Hungarian national communities reside (2002 census)",
 		"Literacy": {
 			"definition:": "NA",
-			"total population:": "99.7%",
-			"male:": "99.7%",
-			"female:": "99.6% (2000 est.)"
+			"total population:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "17 years",
-			"male:": "16 years",
-			"female:": "18 years (2008)"
+			"total:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -152,7 +281,16 @@
 		"Government type": "parliamentary republic",
 		"Capital": {
 			"name:": "Ljubljana",
-			"geographic coordinates:": "46 03 N, 14 31 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 46,
+					"seconds": 3
+				},
+				"E": {
+					"minutes": 14,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -206,139 +344,250 @@
 	"economy": {
 		"Economy - overview": "Slovenia became the first 2004 European Union entrant to adopt the euro (on 1 January 2007) and has become a model of economic success and stability for the region. With the highest per capita GDP in Central Europe, Slovenia has excellent infrastructure, a well-educated work force, and a strategic location between the Balkans and Western Europe. Privatization has lagged since 2002, and the economy has one of highest levels of state control in the EU. Structural reforms to improve the business environment have allowed for somewhat greater foreign participation in Slovenia's economy and have helped to lower unemployment. In March 2004, Slovenia became the first transition country to graduate from borrower status to donor partner at the World Bank. In December 2007, Slovenia was invited to begin the accession process for joining the OECD. Despite its economic success, foreign direct investment (FDI) in Slovenia has lagged behind the region average, and taxes remain relatively high. Furthermore, the labor market is often seen as inflexible, and legacy industries are losing sales to more competitive firms in China, India, and elsewhere. In 2009, the world recession caused the economy to contract - through falling exports and industrial production - by more than 8%, and unemployment to rise above 9%. Although growth resumed in 2010, the unemployment rate continued to rise, topping 10%.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$56.58 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 56580000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$47.85 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 47850000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$28,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.4%",
-			"industry:": "31%",
-			"services:": "66.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "930,000 (2010 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2.2%",
-			"industry:": "35%",
-			"services:": "62.8% (2009)"
+			"agriculture:": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 35,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 62.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10.6% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 10.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "12.3% (2008)",
+		"Population below poverty line": {
+			"quantity": 12.3,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.4%",
-			"highest 10%:": "24.6% (2004)"
+			"lowest 10%:": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 24.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "28.4 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$22.56 billion",
-			"expenditures:": "$25.53 billion (2010 est.)"
+			"revenues:": {
+				"usd": 22560000000
+			},
+			"expenditures:": {
+				"usd": 25530000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "35.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 35.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.47% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.47,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$10.47 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 10470000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$24.03 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 24030000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$52.67 billion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 52670000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$11.77 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 11770000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "potatoes, hops, wheat, sugar beets, corn, grapes; cattle, sheep, poultry",
 		"Industries": "ferrous metallurgy and aluminum products, lead and zinc smelting; electronics (including military electronics), trucks, automobiles, electric power equipment, wood products, textiles, chemicals, machine tools",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "13 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 13000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "14.7 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 14700000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "7.82 billion kWh (2008 est.)",
-		"Electricity - imports": "6.218 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 7820000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 6218000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "5 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 5,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "60,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 60000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "57,000 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 57000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.05 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1050000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.05 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 1050000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -346,39 +595,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$24.97 billion (2010 est.)",
+			"Exports": {
+				"usd": 24970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "manufactured goods, machinery and transport equipment, chemicals, food",
 		"Exports - partners": "Germany 19.36%, Italy 11.31%, Croatia 7.75%, Austria 7.42%, France 7.35% (2009)",
 		"Imports": {
-			"Imports": "$25.96 billion (2010 est.)",
+			"Imports": {
+				"usd": 25960000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, chemicals, fuels and lubricants, food",
 		"Imports - partners": "Germany 16.46%, Italy 15.89%, Austria 11.81%, France 4.98%, Croatia 4.32% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$51.57 billion (30 June 2010)",
+			"Debt - external": {
+				"usd": 51570000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$15.73 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 15730000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$9.001 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 9001000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.034 million (2009)",
+			"Telephones - main lines in use": 1034000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.1 million (2009)",
+			"Telephones - mobile cellular": 2100000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -389,37 +648,43 @@
 		"Broadcast media": "public television broadcaster, Radiotelevizija Slovenija (RTV), operates a system of national and regional TV stations; 35 domestic commercial television stations operating nationally, regionally, and locally; about 60% of households are connected to multi-channel cable TV systems; public radio broadcaster operates 3 national and 4 regional stations; more than 75 regional and local commercial and non-commercial radio stations (2007)",
 		"Internet country code": ".si",
 		"Internet hosts": {
-			"Internet hosts": "137,494 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "16 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "7",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "3"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "9",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "5 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 840 km; oil 5 km (2010)",
 		"Railways": {
-			"total:": "1,228 km",
+			"total:": {
+				"quantity": 1228,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "1,228 km 1.435-m gauge (503 km electrified) (2007)"
 		},
 		"Roadways": {
-			"total:": "38,873 km",
+			"total:": {
+				"quantity": 38873,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "38,873 km (includes 696 km of expressways) (2008)"
 		},
@@ -434,16 +699,16 @@
 		"Military branches": "Slovenian Army (includes air and naval forces)",
 		"Military service age and obligation": "18-25 years of age for voluntary military service; conscription abolished in 2003 (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "477,592",
-			"females age 16-49:": "464,301 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "392,075",
-			"females age 16-49:": "380,077 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "9,818",
-			"female:": "9,395 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

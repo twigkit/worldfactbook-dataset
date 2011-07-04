@@ -5,20 +5,50 @@
 	"background": "The Gilbert Islands became a British protectorate in 1892 and a colony in 1915; they were captured by the Japanese in the Pacific War in 1941. The islands of Makin and Tarawa were the sites of major US amphibious victories over entrenched Japanese garrisons in 1943. The Gilbert Islands were granted self-rule by the UK in 1971 and complete independence in 1979 under the new name of Kiribati. The US relinquished all claims to the sparsely inhabited Phoenix and Line Island groups in a 1979 treaty of friendship with Kiribati.",
 	"geo": {
 		"Location": "Oceania, group of 33 coral atolls in the Pacific Ocean, straddling the Equator, as well as the International Date Line; the capital Tarawa is about half way between Hawaii and Australia",
-		"Geographic coordinates": "1 25 N, 173 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 1,
+				"seconds": 25
+			},
+			"E": {
+				"minutes": 173,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "811 sq km",
+			"total:": {
+				"quantity": 811,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "811 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 811,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "four times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "1,143 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1143,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; marine, hot and humid, moderated by trade winds",
 		"Terrain": "mostly low-lying coral atolls surrounded by extensive reefs",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "phosphate (production discontinued in 1979)",
 		"Land use": {
-			"arable land:": "2.74%",
-			"permanent crops:": "47.95%",
-			"other:": "49.31% (2005)"
+			"arable land:": {
+				"quantity": 2.74,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 47.95,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 49.31,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons can occur any time, but usually November to March; occasional tornadoes; low level of some of the islands make them sensitive to changes in sea level",
@@ -43,29 +82,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "100,743 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "33.9% (male 17,385/female 16,750)",
-			"15-64 years:": "62.4% (male 30,598/female 32,259)",
+			"0-14 years:": {
+				"quantity": 33.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 62.4,
+				"unit": "%"
+			},
 			"65 years and over:": "3.7% (male 1,461/female 2,290) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.5 years",
-			"male:": "21.7 years",
-			"female:": "23.4 years (2011 est.)"
+			"total:": {
+				"quantity": 22.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.249% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.249,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.73 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.73,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.4 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.4,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -73,31 +136,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "44% of total population (2010)",
-			"rate of urbanization:": "1.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 44,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TARAWA (capital) 43,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.64 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.64,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "38.89 deaths/1,000 live births",
+			"total:": {
+				"quantity": 38.89,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "40.13 deaths/1,000 live births",
-			"female:": "37.58 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 40.13,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 37.58,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "64.39 years",
+			"total population:": {
+				"quantity": 64.39,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "62.03 years",
-			"female:": "66.88 years (2011 est.)"
+			"male:": {
+				"quantity": 62.03,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 66.88,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.78 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.78,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -114,9 +219,18 @@
 		"Languages": "I-Kiribati, English (official)",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2008)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -130,7 +244,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Tarawa",
-			"geographic coordinates:": "1 19 N, 172 58 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 1,
+					"seconds": 19
+				},
+				"E": {
+					"minutes": 172,
+					"seconds": 58
+				}
+			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 units; Gilbert Islands, Line Islands, Phoenix Islands; note - in addition, there are 6 districts (Banaba, Central Gilberts, Line Islands, Northern Gilberts, Southern Gilberts, Tarawa) and 21 island councils - one for each of the inhabited islands (Abaiang, Abemama, Aranuka, Arorae, Banaba, Beru, Butaritari, Kanton, Kiritimati, Kuria, Maiana, Makin, Marakei, Nikunau, Nonouti, Onotoa, Tabiteuea, Tabuaeran, Tamana, Tarawa, Teraina)",
@@ -166,34 +289,64 @@
 	"economy": {
 		"Economy - overview": "A remote country of 33 scattered coral atolls, Kiribati has few natural resources and is one of the least developed Pacific Islands. Commercially viable phosphate deposits were exhausted at the time of independence from the UK in 1979. Copra and fish now represent the bulk of production and exports. The economy has fluctuated widely in recent years. Economic development is constrained by a shortage of skilled workers, weak infrastructure, and remoteness from international markets. Tourism provides more than one-fifth of GDP. Private sector initiatives and a financial sector are in the early stages of development. Foreign financial aid from the EU, UK, US, Japan, Australia, New Zealand, Canada, UN agencies, and Taiwan accounts for 20-25% of GDP. Remittances from seamen on merchant ships abroad account for more than $5 million each year. Kiribati receives around $15 million annually for the government budget from an Australian trust fund.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$618 million (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 618000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$147 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 147000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$6,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "8.9%",
-			"industry:": "24.2%",
-			"services:": "66.8% (2004)"
+			"agriculture:": {
+				"quantity": 8.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
 			"Labor force": "7,870 economically active, not including subsistence farmers (2001 est.)",
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2.7%",
-			"industry:": "32%",
-			"services:": "65.3% (2000)"
+			"agriculture:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 32,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 65.3,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2% (1992 est.)",
+			"Unemployment rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -202,11 +355,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$55.52 million",
-			"expenditures:": "$59.71 million (FY05)"
+			"revenues:": {
+				"usd": 55520000
+			},
+			"expenditures:": {
+				"usd": 59710000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.2% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -214,53 +374,95 @@
 		"Industries": "fishing, handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "14 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 14000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "13.02 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 13020000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "0 bbl/day",
+			"Oil - consumption": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "260.8 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 260.8,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -268,28 +470,34 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$17 million (2004 est.)",
+			"Exports": {
+				"usd": 17000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copra 62%, coconuts, seaweed, fish",
 		"Imports": {
-			"Imports": "$62 million (2004 est.)",
+			"Imports": {
+				"usd": 62000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, miscellaneous manufactured goods, fuel",
 		"Debt - external": {
-			"Debt - external": "$10 million (1999 est.)",
+			"Debt - external": {
+				"usd": 10000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -300,27 +508,30 @@
 		"Broadcast media": "1 television broadcast station that provides about 1 hour of local programming Monday-Friday; multi-channel TV packages provide access to Australian and US stations; 1 government-operated radio station broadcasting on AM, FM, and shortwave (2009)",
 		"Internet country code": ".ki",
 		"Internet hosts": {
-			"Internet hosts": "31 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "19 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"1,524 to 2,437 m:": "4 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "15",
-			"914 to 1,523 m:": "11",
-			"under 914 m:": "4 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "670 km (2000)",
+			"total:": {
+				"quantity": 670,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
@@ -328,7 +539,7 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "71",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 6, cargo 32, chemical tanker 6, passenger/cargo 1, petroleum tanker 11, refrigerated cargo 15",
 			"foreign-owned:": "51 (China 28, Hong Kong 1, Italy 1, Singapore 11, South Korea 2, Taiwan 5, Turkey 3) (2010)"
@@ -338,15 +549,15 @@
 	"military": {
 		"Military branches": "no regular military forces (establishment prevented by the constitution); Police Force (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "25,190 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "18,364",
-			"females age 16-49:": "20,302 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,132",
-			"female:": "1,120 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

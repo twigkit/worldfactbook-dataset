@@ -5,22 +5,49 @@
 	"background": "Britain oversaw foreign relations and defense for the ruling Kuwaiti AL-SABAH dynasty from 1899 until independence in 1961. Kuwait was attacked and overrun by Iraq on 2 August 1990. Following several weeks of aerial bombardment, a US-led, UN coalition began a ground assault on 23 February 1991 that liberated Kuwait in four days. Kuwait spent more than $5 billion to repair oil infrastructure damaged during 1990-91. The AL-SABAH family has ruled since returning to power in 1991 and reestablished an elected legislature that in recent years has become increasingly assertive. The country witnessed the historic election in May 2009 of four women to its National Assembly. Amid the 2010-11 uprisings and protests across the Arab world, stateless Arabs, known as bidoon, staged small protests in February and March 2011 demanding citizenship, jobs, and other benefits available to Kuwaiti nationals. Youth activist groups - supported by opposition legislators and the prime minister's rivals within the ruling family - in March of 2011 rallied for an end to corruption and the prime minister's ouster.",
 	"geo": {
 		"Location": "Middle East, bordering the Persian Gulf, between Iraq and Saudi Arabia",
-		"Geographic coordinates": "29 30 N, 45 45 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 29,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 45,
+				"seconds": 45
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "17,818 sq km",
+			"total:": {
+				"quantity": 17818,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "17,818 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 17818,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than New Jersey",
 		"Land boundaries": {
-			"total:": "462 km",
+			"total:": {
+				"quantity": 462,
+				"unit": "km"
+			},
 			"border countries:": "Iraq 240 km, Saudi Arabia 222 km"
 		},
-		"Coastline": "499 km",
+		"Coastline": {
+			"quantity": 499,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "dry desert; intensely hot summers; short, cool winters",
 		"Terrain": "flat to slightly undulating desert plain",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "petroleum, fish, shrimp, natural gas",
 		"Land use": {
-			"arable land:": "0.84%",
-			"permanent crops:": "0.17%",
-			"other:": "98.99% (2005)"
+			"arable land:": {
+				"quantity": 0.84,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.17,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 98.99,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "100 sq km (2008)",
-		"Total renewable water resources": "0.02 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 100,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 0.02,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.44  cu km/yr (45%/2%/52%)",
-			"per capita:": "164  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.44,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 164,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "sudden cloudbursts are common from October to April and bring heavy rain, which can damage roads and houses; sandstorms and dust storms occur throughout the year but are most common between March and August",
 		"Environment - current issues": "limited natural freshwater resources; some of world's largest and most sophisticated desalination facilities provide much of the water; air and water pollution; desertification",
@@ -50,65 +98,137 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,595,628 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "25.8% (male 348,816/female 321,565)",
-			"15-64 years:": "72.2% (male 1,153,433/female 720,392)",
+			"0-14 years:": {
+				"quantity": 25.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 72.2,
+				"unit": "%"
+			},
 			"65 years and over:": "2% (male 25,443/female 25,979) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "28.5 years",
-			"male:": "29.8 years",
-			"female:": "26.3 years (2011 est.)"
+			"total:": {
+				"quantity": 28.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.986%",
+			"Population growth rate": {
+				"quantity": 1.986,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "21.32 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 21.32,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.11 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.11,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.65 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.65,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "98% of total population (2010)",
-			"rate of urbanization:": "2.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 98,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "KUWAIT (capital) 2.23 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.047 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.79 male(s)/female",
-			"65 years and over:": "1.65 male(s)/female",
-			"total population:": "1.54 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.047,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.79,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.65,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.54,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "8.07 deaths/1,000 live births",
+			"total:": {
+				"quantity": 8.07,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.76 deaths/1,000 live births",
-			"female:": "8.39 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.76,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.39,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.09 years",
+			"total population:": {
+				"quantity": 77.09,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.95 years",
-			"female:": "78.3 years (2011 est.)"
+			"male:": {
+				"quantity": 75.95,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.3,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.64 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.64,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2001 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": "NA (2007 est.)",
@@ -124,14 +244,32 @@
 		"Languages": "Arabic (official), English widely spoken",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "93.3%",
-			"male:": "94.4%",
-			"female:": "91% (2005 census)"
+			"total population:": {
+				"quantity": 93.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 94.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 91,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2006)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -145,7 +283,16 @@
 		"Government type": "constitutional emirate",
 		"Capital": {
 			"name:": "Kuwait City",
-			"geographic coordinates:": "29 22 N, 47 58 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 29,
+					"seconds": 22
+				},
+				"E": {
+					"minutes": 47,
+					"seconds": 58
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "6 governorates (muhafazat, singular - muhafazah); Al Ahmadi, Al 'Asimah, Al Farwaniyah, Al Jahra', Hawalli, Mubarak al Kabir",
@@ -192,25 +339,43 @@
 	"economy": {
 		"Economy - overview": "Kuwait has a geographically small, but wealthy, relatively open economy with self-reported crude oil reserves of about 102 billion barrels - about 9% of world reserves. Petroleum accounts for nearly half of GDP, 95% of export revenues, and 95% of government income. Kuwaiti officials have committed to increasing oil production to 4 million barrels per day by 2020. The rise in global oil prices throughout 2010 is reviving government consumption and economic growth as Kuwait experiences a 20% increase in government budget revenue. Kuwait has done little to diversify its economy, in part, because of this positive fiscal situation, and, in part, due to the poor business climate and the acrimonious relationship between the National Assembly and the executive branch, which has stymied most movement on economic reforms. Nonetheless, the government in May 2010 passed a privatization bill that allows the government to sell assets to private investors, and in January passed an economic development plan that pledges to spend up to $130 billion in five years to diversify the economy away from oil, attract more investment, and boost private sector participation in the economy. Increasing government expenditures by so large an amount during the planned time frame may be difficult to accomplish.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$136.5 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 136500000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$131.3 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 131300000000.00002
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$48,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.3%",
-			"industry:": "48.1%",
-			"services:": "51.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 48.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.154 million",
+			"Labor force": 2154000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -219,7 +384,10 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.2% (2004 est.)",
+			"Unemployment rate": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -228,91 +396,157 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "13.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 13.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$64.81 billion",
-			"expenditures:": "$38.12 billion (2010 est.)"
+			"revenues:": {
+				"usd": 64810000000
+			},
+			"expenditures:": {
+				"usd": 38120000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "12.6% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 12.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.9% (31 December 2009)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$18.12 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 18120000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$88.71 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 88710000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$96.71 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 96710000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$95.94 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 95940000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fish",
 		"Industries": "petroleum, petrochemicals, cement, shipbuilding and repair, water desalination, food processing, construction materials",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "45.83 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 45830000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "40.21 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 40210000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "2.494 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2494000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "320,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 320000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.349 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2349000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "0 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "104 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 104000000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "12.7 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 12700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "12.7 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 12700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
@@ -320,50 +554,67 @@
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.798 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1798000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$38.2 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 38200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$65.03 billion (2010 est.)",
+			"Exports": {
+				"usd": 65030000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "oil and refined products, fertilizers",
 		"Exports - partners": "Japan 17.9%, South Korea 17.31%, India 12.43%, Taiwan 9.07%, US 7.9%, China 7.55%, Singapore 5.48% (2009)",
 		"Imports": {
-			"Imports": "$20.36 billion (2010 est.)",
+			"Imports": {
+				"usd": 20360000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, construction materials, vehicles and parts, clothing",
 		"Imports - partners": "US 11.18%, China 9.07%, Germany 7.63%, Japan 7.14%, Saudi Arabia 6.24%, Italy 5%, France 4.77%, India 4.09%, UK 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$22.42 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 22420000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$56.81 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 56810000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$1.281 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 1281000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$44.31 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 44310000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "553,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.876 million (2009)",
+			"Telephones - mobile cellular": 3876000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -374,37 +625,46 @@
 		"Broadcast media": "state-owned TV broadcaster operates 4 networks and a satellite channel; several private TV broadcasters have emerged since 2003; satellite TV is available with pan-Arab TV stations especially popular; state-owned Radio Kuwait broadcasts on a number of channels in Arabic and English; first private radio station emerged in 2005; transmissions of at least 2 international radio broadcasters are available (2007)",
 		"Internet country code": ".kw",
 		"Internet hosts": {
-			"Internet hosts": "2,485 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "7 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3",
-			"1,524 to 2,437 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "4 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 269 km; oil 540 km; refined products 57 km (2010)",
 		"Roadways": {
-			"total:": "5,749 km",
+			"total:": {
+				"quantity": 5749,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,887 km",
-			"unpaved:": "862 km (2004)"
+			"paved:": {
+				"quantity": 4887,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 862,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "30",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, carrier 3, container 6, liquefied gas 4, petroleum tanker 16",
 			"registered in other countries:": "47 (Bahamas 2, Bahrain 5, Comoros 1, Libya 1, Malta 2, Panama 12, Qatar 7, Saint Kitts and Nevis 3, Saudi Arabia 4, UAE 10) (2010)"
@@ -415,16 +675,16 @@
 		"Military branches": "Kuwaiti Land Forces (KLF), Kuwaiti Navy, Kuwaiti Air Force (Al-Quwwat al-Jawwiya al-Kuwaitiya), Kuwaiti National Guard (KNG) (2009)",
 		"Military service age and obligation": "18-30 years of age for compulsory and 18-25 years of age for voluntary military service; women age 18-30 may be subject to compulsory military service; conscription suspended in 2001 (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,002,480",
-			"females age 16-49:": "616,958 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "840,912",
-			"females age 16-49:": "523,206 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "17,653",
-			"female:": "16,232 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

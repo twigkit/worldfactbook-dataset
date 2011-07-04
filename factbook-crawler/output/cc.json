@@ -5,20 +5,50 @@
 	"background": "Originally settled by Arawak Indians, Curacao was seized by the Dutch in 1634 along with the neighboring island of Bonaire. Once the center of the Caribbean slave trade, Curacao was hard hit by the abolition of slavery in 1863. Its prosperity (and that of neighboring Aruba) was restored in the early 20th century with the construction of the Isla Refineria to service the newly discovered Venezuelan oil fields. In 1954, Curacao and several other Dutch Caribbean possessions were reorganized as the Netherlands Antilles, part of the Kingdom of the Netherlands. In referenda in 2005 and 2009, the citizens of Curacao voted to become a self-governing country within the Kingdom of the Netherlands. The change in status became effective in October of 2010 with the dissolution of the Netherlands Antilles.",
 	"geo": {
 		"Location": "Caribbean, an island in the Caribbean Sea - 55 km off the coast of Venezuela",
-		"Geographic coordinates": "12 10 N, 69 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 12,
+				"seconds": 10
+			},
+			"W": {
+				"minutes": 69,
+				"seconds": 0
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "444 sq km",
+			"total:": {
+				"quantity": 444,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "444 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 444,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "more than two times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "364 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 364,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine climate, ameliorated by northeast trade winds, results in mild temperatures; semi-arid with average rainfall of 600 mm/year",
 		"Terrain": "generally low, hilly terrain",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "calcium phosphates, aloes, sorghum, peanuts, vegetables, tropical fruit",
 		"Land use": {
-			"arable land:": "10%",
-			"permanent crops:": "0%",
-			"other:": "90%"
+			"arable land:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 90,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Total renewable water resources": "NA",
@@ -41,38 +80,74 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "142,180 (est. January 2010)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21.1% (males 15,337/females 14,589)",
-			"15-64 years:": "66.7% (males 42,896/females 51,998)",
+			"0-14 years:": {
+				"quantity": 21.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.7,
+				"unit": "%"
+			},
 			"65 years and over:": "12.2% (males 6,972/females 10,388) (2010)"
 		},
 		"Population growth rate": "NA",
 		"Birth rate": "NA",
 		"Death rate": {
-			"Death rate": "8 deaths/1,000 population (2009)",
+			"Death rate": {
+				"quantity": 8,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "1.27 migrant(s)/1,000 population (2008)",
+			"Net migration rate": {
+				"quantity": 1.27,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Sex ratio": {
-			"at birth:": "1.15 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.82 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.85 male(s)/female (2010)"
+			"at birth:": {
+				"quantity": 1.15,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.82,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.85,
+				"unit": "male(s)/female"
+			}
 		},
 		"Life expectancy at birth": {
 			"total:": "NA",
-			"males:": "72.4 years",
-			"females:": "80.1 years (2009)"
+			"males:": {
+				"quantity": 72.4,
+				"unit": "years"
+			},
+			"females:": {
+				"quantity": 80.1,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.1 children born/woman (2009)",
+			"Total fertility rate": {
+				"quantity": 2.1,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -95,7 +170,16 @@
 		"Government type": "parliamentary",
 		"Capital": {
 			"name:": "Willemstad",
-			"geographic coordinates:": "12 06 N, 68 55 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 6
+				},
+				"W": {
+					"minutes": 68,
+					"seconds": 55
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (part of the Kingdom of the Netherlands)",
@@ -131,51 +215,88 @@
 	"economy": {
 		"Economy - overview": "Tourism, petroleum refining, and offshore finance are the mainstays of this small economy, which is closely tied to the outside world. Although GDP grew slightly during the past decade, the island enjoys a high per capita income and a well-developed infrastructure compared with other countries in the region. Curacao has an excellent natural harbor that can accommodate large oil tankers. The Venezuelan state oil company leases the single refinery on the island from the government; most of the oil for the refinery is imported from Venezuela; most of the refined products are exported to the US. Almost all consumer and capital goods are imported, with the US, Brazil, Italy, and Mexico being the major suppliers. The government is attempting to diversify its industry and trade and has signed an Association Agreement with the EU to expand business there. Poor soils and inadequate water supplies hamper the development of agriculture. Budgetary problems complicate reform of the health and pension systems for an aging population.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.838 billion (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2838000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$5.08 billion (2008 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 5080000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.5% (2008)",
+			"GDP - real growth rate": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$15,000 (2004 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "15%",
-			"services:": "84% (2000 est.)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 84,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "63,000 (2008 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "1.2%",
-			"industry:": "16.9%",
-			"services:": "81.8% (2008 est.)"
+			"agriculture:": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 81.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10.3% (2008 est.)",
+			"Unemployment rate": {
+				"quantity": 10.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.7% (2009 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "aloe, sorghum, peanuts, vegetables, tropical fruit",
 		"Industries": "tourism, petroleum refining, petroleum transshipment facilities, light manufacturing",
 		"Industrial production growth rate": "NA%",
 		"Exports": {
-			"Exports": "$876 million (2008 est.)",
+			"Exports": {
+				"usd": 876000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum products",
 		"Exports - partners": "US 13.1%, Guatemala 10.8%, Singapore 10.7%, Dominican Republic 9.6%, Haiti 7.6%, The Bahamas 6.1%, Honduras 4.5%, Mexico 4.2% (2009 est.)",
 		"Imports": {
-			"Imports": "$1.34 billion (2008 est.)",
+			"Imports": {
+				"usd": 1340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "crude petroleum, food, manufactures",
@@ -197,15 +318,18 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Roadways": {
-			"total:": "550 km",
+			"total:": {
+				"quantity": 550,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Ports and terminals": {}

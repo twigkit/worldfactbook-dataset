@@ -5,24 +5,57 @@
 	"background": "The Bulgars, a Central Asian Turkic tribe, merged with the local Slavic inhabitants in the late 7th century to form the first Bulgarian state. In succeeding centuries, Bulgaria struggled with the Byzantine Empire to assert its place in the Balkans, but by the end of the 14th century the country was overrun by the Ottoman Turks. Northern Bulgaria attained autonomy in 1878 and all of Bulgaria became independent from the Ottoman Empire in 1908. Having fought on the losing side in both World Wars, Bulgaria fell within the Soviet sphere of influence and became a People's Republic in 1946. Communist domination ended in 1990, when Bulgaria held its first multiparty election since World War II and began the contentious process of moving toward political democracy and a market economy while combating inflation, unemployment, corruption, and crime. The country joined NATO in 2004 and the EU in 2007.",
 	"geo": {
 		"Location": "Southeastern Europe, bordering the Black Sea, between Romania and Turkey",
-		"Geographic coordinates": "43 00 N, 25 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 43,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 25,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "110,879 sq km",
+			"total:": {
+				"quantity": 110879,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "108,489 sq km",
-			"water:": "2,390 sq km"
+			"land:": {
+				"quantity": 108489,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2390,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Tennessee",
 		"Land boundaries": {
-			"total:": "1,808 km",
+			"total:": {
+				"quantity": 1808,
+				"unit": "km"
+			},
 			"border countries:": "Greece 494 km, Macedonia 148 km, Romania 608 km, Serbia 318 km, Turkey 240 km"
 		},
-		"Coastline": "354 km",
+		"Coastline": {
+			"quantity": 354,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate; cold, damp winters; hot, dry summers",
 		"Terrain": "mostly mountains with lowlands in north and southeast",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "bauxite, copper, lead, zinc, coal, timber, arable land",
 		"Land use": {
-			"arable land:": "29.94%",
-			"permanent crops:": "1.9%",
-			"other:": "68.16% (2005)"
+			"arable land:": {
+				"quantity": 29.94,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 68.16,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,020 sq km (2008)",
-		"Total renewable water resources": "19.4 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 1020,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 19.4,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "6.92  cu km/yr (3%/78%/19%)",
-			"per capita:": "895  cu m/yr (2003)"
+			"total:": {
+				"quantity": 6.92,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 895,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "earthquakes; landslides",
 		"Environment - current issues": "air pollution from industrial emissions; rivers polluted from raw sewage, heavy metals, detergents; deforestation; forest damage from air pollution and resulting acid rain; soil contamination from heavy metals from metallurgical plants and industrial wastes",
@@ -52,29 +106,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "7,093,635 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "13.9% (male 506,403/female 480,935)",
-			"15-64 years:": "67.9% (male 2,367,680/female 2,446,799)",
+			"0-14 years:": {
+				"quantity": 13.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.9,
+				"unit": "%"
+			},
 			"65 years and over:": "18.2% (male 522,343/female 769,475) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41.9 years",
-			"male:": "39.6 years",
-			"female:": "44 years (2011 est.)"
+			"total:": {
+				"quantity": 41.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 44,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.781% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.32 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.32,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "14.32 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 14.32,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,39 +157,81 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "71% of total population (2010)",
+			"urban population:": {
+				"quantity": 71,
+				"unit": "% of total population"
+			},
 			"rate of urbanization:": "-0.3% annual rate of change (2010-15 est.)"
 		},
 		"Major cities - population": "SOFIA (capital) 1.192 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.68 male(s)/female",
-			"total population:": "0.92 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.68,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "16.68 deaths/1,000 live births",
+			"total:": {
+				"quantity": 16.68,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "19.93 deaths/1,000 live births",
-			"female:": "13.25 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 19.93,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 13.25,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.59 years",
+			"total population:": {
+				"quantity": 73.59,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.99 years",
-			"female:": "77.41 years (2011 est.)"
+			"male:": {
+				"quantity": 69.99,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.41,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.42 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.42,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3,800 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -132,14 +249,32 @@
 		"Languages": "Bulgarian (official) 84.5%, Turkish 9.6%, Roma 4.1%, other and unspecified 1.8% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98.2%",
-			"male:": "98.7%",
-			"female:": "97.7% (2001 census)"
+			"total population:": {
+				"quantity": 98.2,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2008)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +288,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Sofia",
-			"geographic coordinates:": "42 41 N, 23 19 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 42,
+					"seconds": 41
+				},
+				"E": {
+					"minutes": 23,
+					"seconds": 19
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -205,138 +349,249 @@
 	"economy": {
 		"Economy - overview": "Bulgaria, a former Communist country that entered the EU on 1 January 2007, averaged more than 6% annual growth from 2004 to 2008, driven by significant amounts of foreign direct investment and consumption. Successive governments have demonstrated a commitment to economic reforms and responsible fiscal planning, but the global downturn sharply reduced domestic demand, exports, capital inflows, and industrial production. GDP contracted by approximately 5% in 2009, and stagnated in 2010, despite a significant recovery in exports. The economy is expected to grow modestly in 2011, however. Corruption in the public administration, a weak judiciary, and the presence of organized crime remain significant challenges.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$96.78 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 96780000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$47.7 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 47700000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$13,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6%",
-			"industry:": "30.3%",
-			"services:": "63.7% (2009)"
+			"agriculture:": {
+				"quantity": 6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.4 million (2009 est.)",
+			"Labor force": 3400000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "7.1%",
-			"industry:": "35.2%",
-			"services:": "57.7% (2009)"
+			"agriculture:": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 35.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 57.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.2% (2010)",
+			"Unemployment rate": {
+				"quantity": 9.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "21.8% (2008)",
+		"Population below poverty line": {
+			"quantity": 21.8,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.9%",
-			"highest 10%:": "23% (2009)"
+			"lowest 10%:": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 23,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "33.5 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$15.71 billion",
-			"expenditures:": "$17.52 billion (2010 est.)"
+			"revenues:": {
+				"usd": 15710000000
+			},
+			"expenditures:": {
+				"usd": 17520000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "16.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 16.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.4% (2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "20% (31 December 2010)"
+			"Central bank discount rate": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.34% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.34,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$12.7 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 12700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$35.37 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 35370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$34.54 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 34540000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$6.354 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 6354000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "vegetables, fruits, tobacco, wine, wheat, barley, sunflowers, sugar beets; livestock",
 		"Industries": "electricity, gas, water; food, beverages, tobacco; machinery and equipment, base metals, chemical products, coke, refined petroleum, nuclear fuel",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "0.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "4.309 billion kWh (2009)",
+			"Electricity - production": {
+				"quantity": 4309000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "28.3 billion kWh (2009)",
+			"Electricity - consumption": {
+				"quantity": 28300000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "7.073 billion kWh (2009)",
-		"Electricity - imports": "2.66 billion kWh (2009)",
+		"Electricity - exports": {
+			"quantity": 7073000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 2660000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "3,227 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 3227,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "125,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 125000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "76,570 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 76570,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "189,000 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 189000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "15 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 15000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "54 million cu m (2010)",
+			"Natural gas - production": {
+				"quantity": 54000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "2.62 billion cu m (2010)",
+			"Natural gas - consumption": {
+				"quantity": 2620000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "2.48 billion cu m (2010)",
+			"Natural gas - imports": {
+				"quantity": 2480000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "5.663 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 5663000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -344,42 +599,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$19.33 billion (2010 est.)",
+			"Exports": {
+				"usd": 19330000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing, footwear, iron and steel, machinery and equipment, fuels",
 		"Exports - partners": "Germany 11.21%, Greece 9.43%, Italy 9.24%, Romania 8.52%, Turkey 7.33%, Belgium 5.61%, France 4.44% (2009)",
 		"Imports": {
-			"Imports": "$22.78 billion (2010 est.)",
+			"Imports": {
+				"usd": 22780000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment; metals and ores; chemicals and plastics; fuels, minerals, and raw materials",
 		"Imports - partners": "Russia 13.14%, Germany 12.23%, Italy 7.78%, Greece 6.17%, Romania 5.65%, Turkey 5.48%, Ukraine 4.81%, Austria 4.08% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$17.27 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 17270000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$47.15 billion (30 November 2010 est.)",
+			"Debt - external": {
+				"usd": 47150000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$51.28 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 51280000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$1.372 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 1372000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2.164 million (2009)",
+			"Telephones - main lines in use": 2164000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "10.617 million (2009)",
+			"Telephones - mobile cellular": 10617000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -390,52 +657,67 @@
 		"Broadcast media": "4 national terrestrial television stations with 1 state-owned and 3 privately-owned; a vast array of TV stations are available from cable and satellite TV providers; state-owned national radio broadcasts over 3 networks; large number of private radio stations broadcasting, especially in urban areas (2010)",
 		"Internet country code": ".bg",
 		"Internet hosts": {
-			"Internet hosts": "785,546 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "210 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "130",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "17",
-			"1,524 to 2,437 m:": "15",
-			"under 914 m:": "96 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "80",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "6",
-			"under 914 m:": "73 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 2,844 km; oil 346 km; refined products 156 km (2010)",
 		"Railways": {
-			"total:": "4,151 km",
+			"total:": {
+				"quantity": 4151,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "4,071 km 1.435-m gauge (2,831 km electrified)",
 			"narrow gauge:": "80 km 0.760-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "40,231 km",
+			"total:": {
+				"quantity": 40231,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "39,587 km (includes 418 km of expressways)",
-			"unpaved:": "644 km (2008)"
+			"paved:": {
+				"quantity": 39587,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 644,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
-			"Waterways": "470 km (2009)",
+			"Waterways": {
+				"quantity": 470,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "37",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 16, cargo 10, chemical tanker 1, liquefied gas 2, passenger/cargo 1, petroleum tanker 2, roll on/roll off 4, specialized tanker 1",
-			"foreign-owned:": "27 (Germany 25, Russia 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "31 (Comoros 8, Malta 7, Panama 6, Saint Vincent and the Grenadines 10) (2010)"
 		},
 		"Ports and terminals": {}
@@ -444,16 +726,16 @@
 		"Military branches": "Bulgarian Armed Forces: Ground Forces, Naval Forces, Bulgarian Air Forces (Bulgarski Voennovazdyshni Sily, BVVS) (2011)",
 		"Military service age and obligation": "18-27 years of age for voluntary military service; conscription ended in January 2008; service obligation 6-9 months (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,637,470",
-			"females age 16-49:": "1,621,352 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,320,955",
-			"females age 16-49:": "1,337,616 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "33,444",
-			"female:": "32,075 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

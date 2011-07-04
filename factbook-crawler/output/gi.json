@@ -5,22 +5,49 @@
 	"background": "Strategically important, Gibraltar was reluctantly ceded to Great Britain by Spain in the 1713 Treaty of Utrecht; the British garrison was formally declared a colony in 1830. In a referendum held in 1967, Gibraltarians voted overwhelmingly to remain a British dependency. The subsequent granting of autonomy in 1969 by the UK led to Spain closing the border and severing all communication links. A series of talks were held by the UK and Spain between 1997 and 2002 on establishing temporary joint sovereignty over Gibraltar. In response to these talks, the Gibraltar Government called a referendum in late 2002 in which the majority of citizens voted overwhelmingly against any sharing of sovereignty with Spain. Since late 2004, tripartite talks among Spain, the UK, and Gibraltar have been held with the aim of cooperatively resolving problems that affect the local population, and work continues on cooperation agreements in areas such as taxation and financial services; communications and maritime security; policy, legal and customs services; environmental protection; and education and visa services. Throughout 2009, a dispute over Gibraltar's claim to territorial waters extending out three miles gave rise to periodic non-violent maritime confrontations between Spanish and UK naval patrols. A new noncolonial constitution came into effect in 2007, and the European Court of First Instance recognized Gibraltar's right to regulate its own tax regime in December 2008, but the UK retains responsibility for defense, foreign relations, internal security, and financial stability.",
 	"geo": {
 		"Location": "Southwestern Europe, bordering the Strait of Gibraltar, which links the Mediterranean Sea and the North Atlantic Ocean, on the southern coast of Spain",
-		"Geographic coordinates": "36 08 N, 5 21 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 36,
+				"seconds": 8
+			},
+			"W": {
+				"minutes": 5,
+				"seconds": 21
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "6.5 sq km",
+			"total:": {
+				"quantity": 6.5,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "6.5 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 6.5,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "more than 10 times the size of The National Mall in Washington, D.C.",
 		"Land boundaries": {
-			"total:": "1.2 km",
+			"total:": {
+				"quantity": 1.2,
+				"unit": "km"
+			},
 			"border countries:": "Spain 1.2 km"
 		},
-		"Coastline": "12 km",
+		"Coastline": {
+			"quantity": 12,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			}
 		},
 		"Climate": "Mediterranean with mild winters and warm summers",
 		"Terrain": "a narrow coastal lowland borders the Rock of Gibraltar",
@@ -30,9 +57,18 @@
 		},
 		"Natural resources": "none",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "NA",
@@ -41,29 +77,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "28,956 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.4% (male 3,040/female 2,862)",
-			"15-64 years:": "65.8% (male 9,607/female 9,451)",
+			"0-14 years:": {
+				"quantity": 20.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.8,
+				"unit": "%"
+			},
 			"65 years and over:": "13.8% (male 1,934/female 2,062) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "33.3 years",
-			"male:": "32.4 years",
-			"female:": "34.3 years (2011 est.)"
+			"total:": {
+				"quantity": 33.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 34.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.273% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.273,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "14.23 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 14.23,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.18 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.18,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -71,30 +131,72 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.07 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.93 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.69 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.69,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.44 deaths/1,000 live births",
-			"female:": "5.87 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.44,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.87,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.68 years",
+			"total population:": {
+				"quantity": 78.68,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.84 years",
-			"female:": "81.72 years (2011 est.)"
+			"male:": {
+				"quantity": 75.84,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.72,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.96 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.96,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -125,7 +227,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Gibraltar",
-			"geographic coordinates:": "36 08 N, 5 21 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 36,
+					"seconds": 8
+				},
+				"W": {
+					"minutes": 5,
+					"seconds": 21
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -158,22 +269,40 @@
 	"economy": {
 		"Economy - overview": "Self-sufficient Gibraltar benefits from an extensive shipping trade, offshore banking, and its position as an international conference center. Tax rates are low to attract foreign investment. The British military presence has been sharply reduced and now contributes about 7% to the local economy, compared with 60% in 1984. The financial sector, tourism (almost 5 million visitors in 1998), gaming revenues, shipping services fees, and duties on consumer goods also generate revenue. The financial sector, tourism, and the shipping sector contribute 30%, 30%, and 25%, respectively, of GDP. Telecommunications, e-commerce, and e-gaming account for the remaining 15%. In recent years, Gibraltar has seen major structural change from a public to a private sector economy, but changes in government spending still have a major impact on the level of employment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.275 billion (2008)",
+			"GDP (purchasing power parity)": {
+				"usd": 1275000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.106 billion (2006 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1106000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6% (2008)",
+			"GDP - real growth rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$43,000 (2006 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0%",
-			"industry:": "0%",
-			"services:": "100% (2008 est.)"
+			"agriculture:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
 			"Labor force": "12,690 (including non-Gibraltar laborers) (2001)",
@@ -181,11 +310,20 @@
 		},
 		"Labor force - by occupation": {
 			"agriculture:": "negligible",
-			"industry:": "40%",
-			"services:": "60% (2001)"
+			"industry:": {
+				"quantity": 40,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 60,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3% (2005 est.)",
+			"Unemployment rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -194,77 +332,133 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$475.8 million",
-			"expenditures:": "$452.3 million (2008 est.)"
+			"revenues:": {
+				"usd": 475800000
+			},
+			"expenditures:": {
+				"usd": 452300000
+			}
 		},
 		"Public debt": {
-			"Public debt": "7.5% of GDP (2008 est.)",
+			"Public debt": {
+				"quantity": 7.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.8% (2008)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "none",
 		"Industries": "tourism, banking and finance, ship repairing, tobacco",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "146 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 146000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "146 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 146000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "21,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 21000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "25,610 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 25610,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$271 million (2004 est.)",
+			"Exports": {
+				"usd": 271000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "(principally reexports) petroleum 51%, manufactured goods",
 		"Imports": {
-			"Imports": "$2.967 billion (2004 est.)",
+			"Imports": {
+				"usd": 2967000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "fuels, manufactured goods, and foodstuffs",
@@ -273,11 +467,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "24,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "28,600 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -288,45 +482,51 @@
 		"Broadcast media": "Gibraltar Broadcasting Corporation (GBC) provides television and radio broadcasting services via 1 television station and 4 radio stations; British Forces Broadcasting Service (BFBS) operates 1 radio station; broadcasts from Spanish radio and TV stations are accessible (2008)",
 		"Internet country code": ".gi",
 		"Internet hosts": {
-			"Internet hosts": "2,053 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "29 km",
+			"total:": {
+				"quantity": 29,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "29 km (2007)"
+			"paved:": {
+				"quantity": 29,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "265",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 139, chemical tanker 65, container 35, liquefied gas 2, petroleum tanker 11, roll on/roll off 4, vehicle carrier 8",
-			"foreign-owned:": "250 (Belgium 2, Cyprus 1, Denmark 6, Finland 2, Germany 125, Greece 7, Iceland 1, Italy 4, Jersey 1, Morocco 4, Netherlands 33, Norway 42, Singapore 1, Sweden 12, UAE 5, UK 4)"
+			"foreign-owned:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "Royal Gibraltar Regiment (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "7,037 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,017",
-			"females age 16-49:": "5,706 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "228",
-			"female:": "220 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

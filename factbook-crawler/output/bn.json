@@ -5,22 +5,49 @@
 	"background": "Present day Benin was the site of Dahomey, a prominent West African kingdom that rose in the 15th century. The territory became a French Colony in 1872 and achieved independence on 1 August 1960, as the Republic of Benin. A succession of military governments ended in 1972 with the rise to power of Mathieu KEREKOU and the establishment of a government based on Marxist-Leninist principles. A move to representative government began in 1989. Two years later, free elections ushered in former Prime Minister Nicephore SOGLO as president, marking the first successful transfer of power in Africa from a dictatorship to a democracy. KEREKOU was returned to power by elections held in 1996 and 2001, though some irregularities were alleged. KEREKOU stepped down at the end of his second term in 2006 and was succeeded by Thomas YAYI Boni, a political outsider and independent. YAYI has attempted to stem corruption and has strongly promoted accelerating Benin's economic growth.",
 	"geo": {
 		"Location": "Western Africa, bordering the Bight of Benin, between Nigeria and Togo",
-		"Geographic coordinates": "9 30 N, 2 15 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 9,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 2,
+				"seconds": 15
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "112,622 sq km",
+			"total:": {
+				"quantity": 112622,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "110,622 sq km",
-			"water:": "2,000 sq km"
+			"land:": {
+				"quantity": 110622,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Pennsylvania",
 		"Land boundaries": {
-			"total:": "1,989 km",
+			"total:": {
+				"quantity": 1989,
+				"unit": "km"
+			},
 			"border countries:": "Burkina Faso 306 km, Niger 266 km, Nigeria 773 km, Togo 644 km"
 		},
-		"Coastline": "121 km",
+		"Coastline": {
+			"quantity": 121,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "200 nm"
+			"territorial sea:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot, humid in south; semiarid in north",
 		"Terrain": "mostly flat to undulating plain; some hills and low mountains",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "small offshore oil deposits, limestone, marble, timber",
 		"Land use": {
-			"arable land:": "23.53%",
-			"permanent crops:": "2.37%",
-			"other:": "74.1% (2005)"
+			"arable land:": {
+				"quantity": 23.53,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.37,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 74.1,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "120 sq km (2008)",
-		"Total renewable water resources": "25.8 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 120,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 25.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.13  cu km/yr (32%/23%/45%)",
-			"per capita:": "15  cu m/yr (2001)"
+			"total:": {
+				"quantity": 0.13,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 15,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry, dusty harmattan wind may affect north from December to March",
 		"Environment - current issues": "inadequate supplies of potable water; poaching threatens wildlife populations; deforestation; desertification",
@@ -50,73 +98,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "9,325,032 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "44.7% (male 2,126,973/female 2,042,340)",
-			"15-64 years:": "52.6% (male 2,443,370/female 2,461,421)",
+			"0-14 years:": {
+				"quantity": 44.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 52.6,
+				"unit": "%"
+			},
 			"65 years and over:": "2.7% (male 101,640/female 149,288) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "17.4 years",
-			"male:": "17 years",
-			"female:": "17.9 years (2011 est.)"
+			"total:": {
+				"quantity": 17.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.911% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.911,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "38.11 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 38.11,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "42% of total population (2010)",
-			"rate of urbanization:": "4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 42,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "COTONOU (seat of government) 815,000; PORTO-NOVO (capital) 276,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.69 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.69,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "61.56 deaths/1,000 live births",
+			"total:": {
+				"quantity": 61.56,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "64.89 deaths/1,000 live births",
-			"female:": "58.07 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 64.89,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 58.07,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "59.84 years",
+			"total population:": {
+				"quantity": 59.84,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.61 years",
-			"female:": "61.14 years (2011 est.)"
+			"male:": {
+				"quantity": 58.61,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 61.14,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.31 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.31,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "60,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "2,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,14 +257,32 @@
 		"Languages": "French (official), Fon and Yoruba (most common vernaculars in south), tribal languages (at least six major ones in north)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "34.7%",
-			"male:": "47.9%",
-			"female:": "23.3% (2002 census)"
+			"total population:": {
+				"quantity": 34.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 47.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 23.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "11 years",
-			"female:": "8 years (2005)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -159,7 +297,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Porto-Novo (official capital)",
-			"geographic coordinates:": "6 29 N, 2 37 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 29
+				},
+				"E": {
+					"minutes": 2,
+					"seconds": 37
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "12 departments; Alibori, Atakora, Atlantique, Borgou, Collines, Kouffo, Donga, Littoral, Mono, Oueme, Plateau, Zou",
@@ -210,121 +357,212 @@
 	"economy": {
 		"Economy - overview": "The economy of Benin remains underdeveloped and dependent on subsistence agriculture, cotton production, and regional trade. Growth in real output had averaged about 4% before the global recession, but fell to 2.7% in 2009 and 3% in 2010. Inflation has subsided over the past several years. In order to raise growth, Benin plans to attract more foreign investment, place more emphasis on tourism, facilitate the development of new food processing systems and agricultural products, and encourage new information and communication technology. Specific projects to improve the business climate by reforms to the land tenure system, the commercial justice system, and the financial sector were included in Benin's $307 million Millennium Challenge Account grant signed in February 2006. The 2001 privatization policy continues in telecommunications, water, electricity, and agriculture. As result of these reforms, Benin has become the most competitive country in the West African Economic and Monetary Union, according to the World Economic Forum. The Paris Club and bilateral creditors have eased the external debt situation, with Benin benefiting from a G-8 debt reduction announced in July 2005, while pressing for more rapid structural reforms. An insufficient electrical supply continues to adversely affect Benin's economic growth though the government recently has taken steps to increase domestic power production.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$13.99 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 13990000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$6.649 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 6649000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "33.2%",
-			"industry:": "14.5%",
-			"services:": "52.3% (2007 est.)"
+			"agriculture:": {
+				"quantity": 33.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 52.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.662 million (2007 est.)",
+			"Labor force": 3662000,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "37.4% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 37.4,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.1%",
-			"highest 10%:": "29% (2003)"
+			"lowest 10%:": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 29,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "36.5 (2003)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.348 billion",
-			"expenditures:": "$1.731 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1348000000
+			},
+			"expenditures:": {
+				"usd": 1731000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.551 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1551000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.424 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2424000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.222 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1222000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, corn, cassava (tapioca), yams, beans, palm oil, peanuts, cashews; livestock",
 		"Industries": "textiles, food processing, construction materials, cement",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "124 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 124000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "597 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 597000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "588 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 588000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "23,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 23000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "8,770 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 8770,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "28,900 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 28900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "8 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 8000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.133 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1133000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -332,34 +570,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.125 billion (2010 est.)",
+			"Exports": {
+				"usd": 1125000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "cotton, cashews, shea butter, textiles, palm products, seafood",
 		"Exports - partners": "India 19.72%, China 13.18%, Niger 6.94%, Nigeria 6.56%, Indonesia 5.73%, Togo 5.63%, Namibia 4.17% (2009)",
 		"Imports": {
-			"Imports": "$1.812 billion (2010 est.)",
+			"Imports": {
+				"usd": 1812000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, capital goods, petroleum products",
 		"Imports - partners": "China 35.62%, US 7.51%, France 7.38%, Thailand 6.71%, Malaysia 6.13%, Netherlands 4.83%, Belgium 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.254 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1254000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.894 billion (31 December 2009 est.)",
+			"Debt - external": {
+				"usd": 2894000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "127,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.033 million (2009)",
+			"Telephones - mobile cellular": 5033000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -370,36 +616,48 @@
 		"Broadcast media": "state-run Office de Radiodiffusion et de Television du Benin (ORTB) operates a TV station with multiple channels giving it a wide broadcast reach; several privately-owned TV stations broadcast from Cotonou; satellite TV subscription service is available; state-owned radio, under ORTB control, includes a national station supplemented by a number of regional stations; substantial number of privately-owned radio broadcast stations; transmissions of a few international broadcasters are available on FM in Cotonou (2007)",
 		"Internet country code": ".bj",
 		"Internet hosts": {
-			"Internet hosts": "1,286 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "5 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Railways": {
-			"total:": "438 km",
+			"total:": {
+				"quantity": 438,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "438 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "16,000 km",
+			"total:": {
+				"quantity": 16000,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "1,400 km",
-			"unpaved:": "14,600 km (2006)"
+			"paved:": {
+				"quantity": 1400,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 14600,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "150 km (seasonal navigation on River Niger along northern border) (2010)",
@@ -411,16 +669,16 @@
 		"Military branches": "Benin Armed Forces (Forces Armees Beninoises, FAB): Army (l'Arme de Terre), Benin Navy (Forces Navales Beninois, FNB), Benin Air Force (Force Aerienne du Benin, FAB) (2011)",
 		"Military service age and obligation": "21 years of age for compulsory and voluntary military service; in practice, volunteers eligible at age 18; both sexes are eligible for military service; conscript tour of duty - 18 months (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,095,373",
-			"females age 16-49:": "2,038,351 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,385,065",
-			"females age 16-49:": "1,400,045 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "108,496",
-			"female:": "104,526 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

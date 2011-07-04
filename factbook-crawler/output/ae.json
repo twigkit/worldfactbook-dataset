@@ -5,24 +5,57 @@
 	"background": "The Trucial States of the Persian Gulf coast granted the UK control of their defense and foreign affairs in 19th century treaties. In 1971, six of these states - Abu Zaby, 'Ajman, Al Fujayrah, Ash Shariqah, Dubayy, and Umm al Qaywayn - merged to form the United Arab Emirates (UAE). They were joined in 1972 by Ra's al Khaymah. The UAE's per capita GDP is on par with those of leading West European nations. Its generosity with oil revenues and its moderate foreign policy stance have allowed the UAE to play a vital role in the affairs of the region. For more than three decades, oil and global finance drove the UAE's economy. However, in 2008-09, the confluence of falling oil prices, collapsing real estate prices, and the international banking crisis hit the UAE especially hard. In March 2011, about 100 Emirati activists and intellectuals posted on the Internet and sent to the government a petition calling for greater political reform, including the establishment of a parliament with full legislative powers and the further expansion of the electorate and the rights of the Federal National Council, the UAE's quasi-legislature. In April 2011, the Emirati Government arrested four activists - all of whom signed the petition - for their alleged criticisms of the UAE system of government.",
 	"geo": {
 		"Location": "Middle East, bordering the Gulf of Oman and the Persian Gulf, between Oman and Saudi Arabia",
-		"Geographic coordinates": "24 00 N, 54 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 24,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 54,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "83,600 sq km",
+			"total:": {
+				"quantity": 83600,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "83,600 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 83600,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maine",
 		"Land boundaries": {
-			"total:": "867 km",
+			"total:": {
+				"quantity": 867,
+				"unit": "km"
+			},
 			"border countries:": "Oman 410 km, Saudi Arabia 457 km"
 		},
-		"Coastline": "1,318 km",
+		"Coastline": {
+			"quantity": 1318,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "desert; cooler in eastern mountains",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "petroleum, natural gas",
 		"Land use": {
-			"arable land:": "0.77%",
-			"permanent crops:": "2.27%",
-			"other:": "96.96% (2005)"
+			"arable land:": {
+				"quantity": 0.77,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.27,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.96,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,300 sq km (2008)",
-		"Total renewable water resources": "0.2 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 2300,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 0.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.3  cu km/yr (23%/9%/68%)",
-			"per capita:": "511  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 511,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "frequent sand and dust storms",
 		"Environment - current issues": "lack of natural freshwater resources compensated by desalination plants; desertification; beach pollution from oil spills",
@@ -53,65 +107,140 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,148,664 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.4% (male 537,925/female 513,572)",
-			"15-64 years:": "78.7% (male 2,968,958/female 1,080,717)",
-			"65 years and over:": "0.9% (male 30,446/female 17,046)"
+			"0-14 years:": {
+				"quantity": 20.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 78.7,
+				"unit": "%"
+			},
+			"65 years and over:": {
+				"quantity": 0.9,
+				"unit": "%"
+			}
 		},
 		"Median age": {
-			"total:": "30.2 years",
-			"male:": "32.1 years",
-			"female:": "24.9 years (2011 est.)"
+			"total:": {
+				"quantity": 30.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 24.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.282% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.282,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "15.87 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 15.87,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.06 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.06,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "19 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 19,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "84% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 84,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ABU DHABI (capital) 666,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "2.75 male(s)/female",
-			"65 years and over:": "1.8 male(s)/female",
-			"total population:": "2.2 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 2.75,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 2.2,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11.94 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11.94,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "13.96 deaths/1,000 live births",
-			"female:": "9.82 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 13.96,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 9.82,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "76.51 years",
+			"total population:": {
+				"quantity": 76.51,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.94 years",
-			"female:": "79.22 years (2011 est.)"
+			"male:": {
+				"quantity": 73.94,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.22,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.4 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.4,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2001 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -129,14 +258,32 @@
 		"Languages": "Arabic (official), Persian, English, Hindi, Urdu",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "77.9%",
-			"male:": "76.1%",
-			"female:": "81.7% (2003 est.)"
+			"total population:": {
+				"quantity": 77.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 76.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 81.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -151,7 +298,16 @@
 		"Government type": "federation with specified powers delegated to the UAE federal government and other powers reserved to member emirates",
 		"Capital": {
 			"name:": "Abu Dhabi",
-			"geographic coordinates:": "24 28 N, 54 22 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 24,
+					"seconds": 28
+				},
+				"E": {
+					"minutes": 54,
+					"seconds": 22
+				}
+			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 emirates (imarat, singular - imarah); Abu Zaby (Abu Dhabi), 'Ajman, Al Fujayrah, Ash Shariqah (Sharjah), Dubayy (Dubai), Ra's al Khaymah, Umm al Qaywayn (Quwain)",
@@ -194,171 +350,284 @@
 	"economy": {
 		"Economy - overview": "The UAE has an open economy with a high per capita income and a sizable annual trade surplus. Successful efforts at economic diversification have reduced the portion of GDP based on oil and gas output to 25%. Since the discovery of oil in the UAE more than 30 years ago, the UAE has undergone a profound transformation from an impoverished region of small desert principalities to a modern state with a high standard of living. The government has increased spending on job creation and infrastructure expansion and is opening up utilities to greater private sector involvement. In April 2004, the UAE signed a Trade and Investment Framework Agreement with Washington and in November 2004 agreed to undertake negotiations toward a Free Trade Agreement with the US, however, those talks have not moved forward. The country's Free Trade Zones - offering 100% foreign ownership and zero taxes - are helping to attract foreign investors. The global financial crisis, tight international credit, and deflated asset prices constricted the economy in 2009 and 2010. UAE authorities tried to blunt the crisis by increasing spending and boosting liquidity in the banking sector. The crisis hit Dubai hardest, as it was heavily exposed to depressed real estate prices. Dubai lacked sufficient cash to meet its debt obligations, prompting global concern about its solvency. The UAE Central Bank and Abu Dhabi-based banks bought the largest shares. In December 2009 Dubai received an additional $10 billion loan from the emirate of Abu Dhabi. The economy is expected to continue a slow rebound. Dependence on oil, a large expatriate workforce, and growing inflation pressures are significant long-term challenges. The UAE's strategic plan for the next few years focuses on diversification and creating more opportunities for nationals through improved education and increased private sector employment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$246.8 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 246800000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$301.9 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 301900000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$49,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.9%",
-			"industry:": "51.5%",
-			"services:": "47.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 51.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 47.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.908 million",
+			"Labor force": 3908000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "7%",
-			"industry:": "15%",
-			"services:": "78% (2000 est.)"
+			"agriculture:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 78,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.4% (2001)",
+			"Unemployment rate": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "19.5% (2003)",
+		"Population below poverty line": {
+			"quantity": 19.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "26.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 26.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$65.02 billion",
-			"expenditures:": "$60.02 billion (2010 est.)"
+			"revenues:": {
+				"usd": 65019999999.99999
+			},
+			"expenditures:": {
+				"usd": 60020000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "44.6% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 44.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$68.76 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 68760000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$228.5 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 228500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$290 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 290000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$109.6 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 109600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "dates, vegetables, watermelons; poultry, eggs, dairy products; fish",
 		"Industries": "petroleum and petrochemicals; fishing, aluminum, cement, fertilizers, commercial ship repair, construction materials, some boat building, handicrafts, textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "71.54 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 71540000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "65.98 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 65980000000.00001,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "2.798 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2798000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "435,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 435000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.7 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2700000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "192,900 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 192900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "97.8 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 97800000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "50.24 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 50240000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "59.42 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 59420000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "7.567 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 7567000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "16.75 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 16750000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "6.071 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 6071000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$3.409 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 3409000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$195.8 billion (2010 est.)",
+			"Exports": {
+				"usd": 195800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "crude oil 45%, natural gas, reexports, dried fish, dates",
 		"Exports - partners": "Japan 17.27%, South Korea 10.49%, India 9.96%, Iran 6.82%, Thailand 5.11% (2009)",
 		"Imports": {
-			"Imports": "$159 billion (2010 est.)",
+			"Imports": {
+				"usd": 159000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, chemicals, food",
 		"Imports - partners": "China 15.03%, India 14.27%, US 8.44%, Germany 5.81%, Japan 4.52% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$39.1 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 39100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$122.7 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 122700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$76.38 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 76380000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$54.91 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 54910000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.561 million (2009)",
+			"Telephones - main lines in use": 1561000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "10.672 million (2009)",
+			"Telephones - mobile cellular": 10672000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -369,42 +638,45 @@
 		"Broadcast media": "except for the many organizations now operating in Dubai's Media Free Zone, most television and radio stations remain government-owned; widespread use of satellite dishes provides access to pan-Arab and other international broadcasts (2007)",
 		"Internet country code": ".ae",
 		"Internet hosts": {
-			"Internet hosts": "379,309 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "41 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "25",
-			"over 3,047 m:": "12",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "4"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "16",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "5 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 458 km; refined products 212 km; gas 2,352 km; liquid petroleum gas 220 km; oil 1,437 km (2010)",
 		"Roadways": {
-			"total:": "4,080 km",
+			"total:": {
+				"quantity": 4080,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "4,080 km (includes 253 km of expressways) (2008)"
 		},
 		"Merchant marine": {
-			"total:": "57",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 9, chemical tanker 7, container 7, liquefied gas 1, passenger/cargo 1, petroleum tanker 24, roll on/roll off 4",
-			"foreign-owned:": "13 (Greece 3, Kuwait 10)",
+			"foreign-owned:": null,
 			"registered in other countries:": "278 (Bahamas 27, Belize 5, Cambodia 2, Comoros 11, Cyprus 5, Georgia 1, Gibraltar 5, Hong Kong 2, India 4, Iran 1, Jordan 7, Liberia 27, Malta 1, Marshall Islands 17, Mexico 1, Netherlands 4, North Korea 6, Panama 83, Papua New Guinea 6, Philippines 1, Saint Kitts and Nevis 17, Saint Vincent and the Grenadines 4, Saudi Arabia 6, Sierra Leone 6, Singapore 10, Tanzania 1, Togo 1, UK 9, Vanuatu 1, unknown 7) (2010)"
 		},
 		"Ports and terminals": {}
@@ -413,16 +685,16 @@
 		"Military branches": "United Arab Emirates Armed Forces: Army, Navy (includes Marines), Air Force and Air Defense, Border and Coast Guard Directorate (BCGD) (2009)",
 		"Military service age and obligation": "18 years of age (est.) for voluntary military service; 18 years of age for officers and women; no conscription (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,676,928 (includes non-nationals)",
-			"females age 16-49:": "981,649 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,229,366",
-			"females age 16-49:": "842,759 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "27,439",
-			"female:": "24,419 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

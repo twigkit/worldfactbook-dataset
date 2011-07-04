@@ -5,22 +5,49 @@
 	"background": "Upon independence in 1960, the former French region of Middle Congo became the Republic of the Congo. A quarter century of experimentation with Marxism was abandoned in 1990 and a democratically elected government took office in 1992. A brief civil war in 1997 restored former Marxist President Denis SASSOU-Nguesso, and ushered in a period of ethnic and political unrest. Southern-based rebel groups agreed to a final peace accord in March 2003, but the calm is tenuous and refugees continue to present a humanitarian crisis. The Republic of Congo was once one of Africa's largest petroleum producers, but with declining production it will need new offshore oil finds to sustain its oil earnings over the long term.",
 	"geo": {
 		"Location": "Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon",
-		"Geographic coordinates": "1 00 S, 15 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 1,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 15,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "342,000 sq km",
+			"total:": {
+				"quantity": 342000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "341,500 sq km",
-			"water:": "500 sq km"
+			"land:": {
+				"quantity": 341500,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 500,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Montana",
 		"Land boundaries": {
-			"total:": "5,504 km",
+			"total:": {
+				"quantity": 5504,
+				"unit": "km"
+			},
 			"border countries:": "Angola 201 km, Cameroon 523 km, Central African Republic 467 km, Democratic Republic of the Congo 2,410 km, Gabon 1,903 km"
 		},
-		"Coastline": "169 km",
+		"Coastline": {
+			"quantity": 169,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "200 nm"
+			"territorial sea:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; rainy season (March to June); dry season (June to October); persistent high temperatures and humidity; particularly enervating climate astride the Equator",
 		"Terrain": "coastal plain, southern basin, central plateau, northern basin",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "petroleum, timber, potash, lead, zinc, uranium, copper, phosphates, gold, magnesium, natural gas, hydropower",
 		"Land use": {
-			"arable land:": "1.45%",
-			"permanent crops:": "0.15%",
-			"other:": "98.4% (2005)"
+			"arable land:": {
+				"quantity": 1.45,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.15,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 98.4,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "20 sq km (2008)",
-		"Total renewable water resources": "832 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 20,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 832,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.03  cu km/yr (59%/29%/12%)",
-			"per capita:": "8  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.03,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 8,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "seasonal flooding",
 		"Environment - current issues": "air pollution from vehicle emissions; water pollution from the dumping of raw sewage; tap water is not potable; deforestation",
@@ -50,29 +98,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,243,929 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "45.6% (male 973,332/female 960,100)",
-			"15-64 years:": "51.7% (male 1,091,531/female 1,101,057)",
+			"0-14 years:": {
+				"quantity": 45.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51.7,
+				"unit": "%"
+			},
 			"65 years and over:": "2.8% (male 48,383/female 69,526) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "17 years",
-			"male:": "16.8 years",
-			"female:": "17.2 years (2011 est.)"
+			"total:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.835% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.835,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "40.55 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 40.55,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "11.49 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 11.49,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,43 +152,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "62% of total population (2010)",
-			"rate of urbanization:": "3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 62,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BRAZZAVILLE (capital) 1.292 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.7 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "76.05 deaths/1,000 live births",
+			"total:": {
+				"quantity": 76.05,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "81.46 deaths/1,000 live births",
-			"female:": "70.48 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 81.46,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 70.48,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "54.91 years",
+			"total population:": {
+				"quantity": 54.91,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "53.62 years",
-			"female:": "56.25 years (2011 est.)"
+			"male:": {
+				"quantity": 53.62,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 56.25,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.68 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.68,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "3.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "77,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "5,100 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,14 +254,32 @@
 		"Languages": "French (official), Lingala and Monokutuba (lingua franca trade languages), many local languages and dialects (of which Kikongo is the most widespread)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "83.8%",
-			"male:": "89.6%",
-			"female:": "78.4% (2003 est.)"
+			"total population:": {
+				"quantity": 83.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 89.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 78.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "11 years",
-			"female:": "10 years (2005)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -159,7 +294,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Brazzaville",
-			"geographic coordinates:": "4 15 S, 15 17 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 4,
+					"seconds": 15
+				},
+				"E": {
+					"minutes": 15,
+					"seconds": 17
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 regions (regions, singular - region) and 1 commune*; Bouenza, Brazzaville*, Cuvette, Cuvette-Ouest, Kouilou, Lekoumou, Likouala, Niari, Plateaux, Pool, Sangha",
@@ -205,117 +349,205 @@
 	"economy": {
 		"Economy - overview": "The economy is a mixture of subsistence agriculture, an industrial sector based largely on oil and support services, and government spending. Oil has supplanted forestry as the mainstay of the economy, providing a major share of government revenues and exports. In the early 1980s, rapidly rising oil revenues enabled the government to finance large-scale development projects with GDP growth averaging 5% annually, one of the highest rates in Africa. Characterized by budget problems and overstaffing, the government has mortgaged a substantial portion of its oil earnings through oil-backed loans that have contributed to a growing debt burden and chronic revenue shortfalls. Economic reform efforts have been undertaken with the support of international organizations, notably the World Bank and the IMF. However, the reform program came to a halt in June 1997 when civil war erupted. Denis SASSOU-Nguesso, who returned to power when the war ended in October 1997, publicly expressed interest in moving forward on economic reforms and privatization and in renewing cooperation with international financial institutions. Economic progress was badly hurt by slumping oil prices and the resumption of armed conflict in December 1998, which worsened the republic's budget deficit. The current administration presides over an uneasy internal peace and faces difficult economic challenges of stimulating recovery and reducing poverty. The drop in oil prices during the global crisis reduced oil revenue by about 30%, but the subsequent recovery of oil prices has boosted the economy's GDP and near-term prospects. In March 2006, the World Bank and the International Monetary Fund (IMF) approved Heavily Indebted Poor Countries (HIPC) treatment for Congo, receiving $1.9 billion in debt relief under the program in 2010.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$17.11 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 17110000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$11.53 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 11530000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "9.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 9.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "4.4%",
-			"industry:": "63.7%",
-			"services:": "32% (2010 est.)"
+			"agriculture:": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 63.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 32,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.514 million (2007)",
+			"Labor force": 1514000,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.1%",
-			"highest 10%:": "37.1% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 37.1,
+				"unit": "%"
+			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "41.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 41.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$3.818 billion",
-			"expenditures:": "$2.599 billion (2010 est.)"
+			"revenues:": {
+				"usd": 3818000000
+			},
+			"expenditures:": {
+				"usd": 2599000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.403 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2403000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.746 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2746000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.58 billion (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 1580000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cassava (tapioca), sugar, rice, corn, peanuts, vegetables, coffee, cocoa; forest products",
 		"Industries": "petroleum extraction, cement, lumber, brewing, sugar, palm oil, soap, flour, cigarettes",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "12% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "400 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "471 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 471000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "449 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 449000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "274,400 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 274400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "10,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 10000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "241,100 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 241100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "2,136 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 2136,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.6 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1600000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "180 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 180000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "180 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 180000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "90.61 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 90610000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -323,34 +555,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$9.2 billion (2010 est.)",
+			"Exports": {
+				"usd": 9200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum, lumber, plywood, sugar, cocoa, coffee, diamonds",
 		"Exports - partners": "US 40.08%, China 30.18%, France 8.17%, Taiwan 6.4%, India 4.2% (2009)",
 		"Imports": {
-			"Imports": "$3.607 billion (2010 est.)",
+			"Imports": {
+				"usd": 3607000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital equipment, construction materials, foodstuffs",
 		"Imports - partners": "France 20.64%, China 14.54%, Italy 9.56%, US 9.02%, India 5.55%, Belgium 4.51% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.123 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4123000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$5 billion (2000 est.)",
+			"Debt - external": {
+				"usd": 5000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "24,300 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.171 million (2009)",
+			"Telephones - mobile cellular": 2171000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -361,39 +601,51 @@
 		"Broadcast media": "1 state-owned TV and 3 state-owned radio stations; several privately-owned TV and radio stations; satellite TV service is available; rebroadcasts of several international broadcasters are available (2007)",
 		"Internet country code": ".cg",
 		"Internet hosts": {
-			"Internet hosts": "42 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "25 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "6",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "19",
-			"1,524 to 2,437 m:": "8",
-			"914 to 1,523 m:": "10",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 65 km; oil 273 km (2010)",
 		"Railways": {
-			"total:": "886 km",
+			"total:": {
+				"quantity": 886,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "886 km 1.067-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "17,289 km",
+			"total:": {
+				"quantity": 17289,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "864 km",
-			"unpaved:": "16,425 km (2004)"
+			"paved:": {
+				"quantity": 864,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 16425,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,120 km (commercially navigable on Congo and Oubanqui rivers above Brazzaville; there are many ferries across the river to Kinshasa; the Congo south of Brazzaville-Kinshasa to the coast is not navigable because of rapids, thereby necessitating a rail connection to Pointe Noire; other rivers are used for local traffic only) (2010)",
@@ -409,16 +661,16 @@
 		"Military branches": "Congolese Armed Forces (Forces Armees Congolaises, FAC): Army (Armee de Terre), Navy, Congolese Air Force (Armee de l'Air Congolaise); Gendarmerie; Special Presidential Security Guard (GSSP) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; women allowed to serve (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "928,664",
-			"females age 16-49:": "914,265 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "577,944",
-			"females age 16-49:": "566,587 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "50,000",
-			"female:": "49,641 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

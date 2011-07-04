@@ -5,20 +5,44 @@
 	"background": "The Swiss Confederation was founded in 1291 as a defensive alliance among three cantons. In succeeding years, other localities joined the original three. The Swiss Confederation secured its independence from the Holy Roman Empire in 1499. A constitution of 1848, subsequently modified in 1874, replaced the confederation with a centralized federal government. Switzerland's sovereignty and neutrality have long been honored by the major European powers, and the country was not involved in either of the two world wars. The political and economic integration of Europe over the past half century, as well as Switzerland's role in many UN and international organizations, has strengthened Switzerland's ties with its neighbors. However, the country did not officially become a UN member until 2002. Switzerland remains active in many UN and international organizations but retains a strong commitment to neutrality.",
 	"geo": {
 		"Location": "Central Europe, east of France, north of Italy",
-		"Geographic coordinates": "47 00 N, 8 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 47,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 8,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "41,277 sq km",
+			"total:": {
+				"quantity": 41277,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "39,997 sq km",
-			"water:": "1,280 sq km"
+			"land:": {
+				"quantity": 39997,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1280,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of New Jersey",
 		"Land boundaries": {
-			"total:": "1,852 km",
+			"total:": {
+				"quantity": 1852,
+				"unit": "km"
+			},
 			"border countries:": "Austria 164 km, France 573 km, Italy 740 km, Liechtenstein 41 km, Germany 334 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate, but varies with altitude; cold, cloudy, rainy/snowy winters; cool to warm, cloudy, humid summers with occasional showers",
 		"Terrain": "mostly mountains (Alps in south, Jura in northwest) with a central plateau of rolling hills, plains, and large lakes",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "hydropower potential, timber, salt",
 		"Land use": {
-			"arable land:": "9.91%",
-			"permanent crops:": "0.58%",
-			"other:": "89.51% (2005)"
+			"arable land:": {
+				"quantity": 9.91,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.58,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 89.51,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "250 sq km (2008)",
-		"Total renewable water resources": "53.3 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 250,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 53.3,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.52  cu km/yr (24%/74%/2%)",
-			"per capita:": "348  cu m/yr (2002)"
+			"total:": {
+				"quantity": 2.52,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 348,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "avalanches, landslides; flash floods",
 		"Environment - current issues": "air pollution from vehicle emissions and open-air burning; acid rain; water pollution from increased use of agricultural fertilizers; loss of biodiversity",
@@ -48,69 +93,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "7,639,961 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.2% (male 602,894/female 560,175)",
-			"15-64 years:": "67.8% (male 2,612,557/female 2,569,318)",
+			"0-14 years:": {
+				"quantity": 15.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.8,
+				"unit": "%"
+			},
 			"65 years and over:": "17% (male 543,074/female 751,943) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41.7 years",
-			"male:": "40.6 years",
-			"female:": "42.8 years (2011 est.)"
+			"total:": {
+				"quantity": 41.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 42.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.21% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.21,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.53 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.53,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.72 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.72,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "1.29 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 1.29,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "74% of total population (2010)",
-			"rate of urbanization:": "0.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 74,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Zurich 1.143 million; BERN (capital) 346,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.054 male(s)/female",
-			"under 15 years:": "1.08 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.72 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.054,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.72,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.08 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.08,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.53 deaths/1,000 live births",
-			"female:": "3.6 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.53,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.6,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.07 years",
+			"total population:": {
+				"quantity": 81.07,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.24 years",
-			"female:": "84.05 years (2011 est.)"
+			"male:": {
+				"quantity": 78.24,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.05,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.46 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.46,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "18,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -130,14 +247,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "15 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -151,7 +286,16 @@
 		"Government type": "formally a confederation but similar in structure to a federal republic",
 		"Capital": {
 			"name:": "Bern",
-			"geographic coordinates:": "46 57 N, 7 26 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 46,
+					"seconds": 57
+				},
+				"E": {
+					"minutes": 7,
+					"seconds": 26
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -200,182 +344,307 @@
 	"economy": {
 		"Economy - overview": "Switzerland is a peaceful, prosperous, and modern market economy with low unemployment, a highly skilled labor force, and a per capita GDP among the highest in the world. Switzerland's economy benefits from a highly developed service sector, led by financial services, and a manufacturing industry that specializes in high-technology, knowledge-based production. The Swiss have brought their economic practices largely into conformity with the EU's, in order to enhance their international competitiveness, but some trade protectionism remains, particularly for its small agricultural sector. The global financial crisis and resulting economic downturn put Switzerland in a recession in 2009 as global export demand stalled. The Swiss National Bank during this period effectively implemented a zero-interest rate policy in a bid to boost the economy and prevent appreciation of the franc. Switzerland's economy grew by 2.7% in 2010, when Bern implemented a third fiscal stimulus program, but its prized banking sector has recently faced significant challenges. The country's largest banks suffered sizable losses in 2008-09, leading its largest bank to accept a government rescue deal in late 2008. Switzerland has also come under increasing pressure from individual neighboring countries, the EU, the US, and international institutions to reform its banking secrecy laws. Consequently, the government agreed to conform to OECD regulations on administrative assistance in tax matters, including tax evasion. The government has renegotiated its double taxation agreements with numerous countries, including the US, to incorporate the OECD standard, and it is working with Germany and the UK to resolve outstanding issues, particularly the possibility of imposing taxes on bank deposits held by foreigners. Parliament passed the first five double-taxation agreements, including that with the US, in March 2010. The agreement with the US awaits US Senate approval. In 2009, Swiss financial regulators ordered the country's largest bank to reveal at Washington's behest the names of US account-holders suspected of using the bank to commit tax fraud. These steps will have a lasting impact on Switzerland's long history of bank secrecy.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$324.5 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 324500000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$523.8 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 523799999999.99994
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$42,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.3%",
-			"industry:": "27.5%",
-			"services:": "71.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.62 million (2010)",
+			"Labor force": 4620000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "3.4%",
-			"industry:": "23.4%",
-			"services:": "73.2% (2010)"
+			"agriculture:": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73.2,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3.9% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "6.9% (2010)",
+		"Population below poverty line": {
+			"quantity": 6.9,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "7.5%",
-			"highest 10%:": "19% (2007)"
+			"lowest 10%:": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 19,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "33.7 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$188.1 billion",
-			"expenditures:": "$192.7 billion"
+			"revenues:": {
+				"usd": 188100000000
+			},
+			"expenditures:": {
+				"usd": 192700000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "38.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 38.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.04% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 0.04,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "0.54% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 0.54,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$384.2 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 384200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$834.6 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 834600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$879.7 billion (30 November 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 879700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.071 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1071000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grains, fruits, vegetables; meat, eggs",
 		"Industries": "machinery, chemicals, watches, textiles, precision instruments, tourism, banking, and insurance",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "66.5 billion kWh (2009)",
+			"Electricity - production": {
+				"quantity": 66500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "57.5 billion kWh (2009)",
+			"Electricity - consumption": {
+				"quantity": 57500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "54.2 billion kWh (2009 est.)",
-		"Electricity - imports": "52 billion kWh (2009)",
+		"Electricity - exports": {
+			"quantity": 54200000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 52000000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "3,488 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 3488,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "280,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 280000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "10,680 bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 10680,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "263,600 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 263600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "3.042 billion cu m (2009)",
+			"Natural gas - consumption": {
+				"quantity": 3042000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "3.042 billion cu m (2009)",
+			"Natural gas - imports": {
+				"quantity": 3042000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2009 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$49.35 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 49350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$232.6 billion (2010 est.)",
+			"Exports": {
+				"usd": 232600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery, chemicals, metals, watches, agricultural products",
 		"Exports - partners": "Germany 20.98%, US 9.09%, France 8.62%, Italy 8.08%, Austria 5.38% (2009)",
 		"Imports": {
-			"Imports": "$226.3 billion (2010 est.)",
+			"Imports": {
+				"usd": 226300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, chemicals, vehicles, metals; agricultural products, textiles",
 		"Imports - partners": "Germany 27.19%, Italy 10.42%, US 9.61%, France 7.69%, Netherlands 4.35% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$236.6 billion (31 December 2010)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 236600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$1.2 trillion (30 September 2010)",
+			"Debt - external": {
+				"usd": 1200000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$514 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 514000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$814.6 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 814600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4.65 million (2009)",
+			"Telephones - main lines in use": 4650000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "9.255 million (2009)",
+			"Telephones - mobile cellular": 9255000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,37 +655,43 @@
 		"Broadcast media": "the publicly-owned radio and television broadcaster, Swiss Broadcasting Corporation (SRG/SSR), operates 7 national television networks, 3 broadcasting in German, 2 in Italian, and 2 in French; private commercial television stations broadcast regionally and locally; television broadcasts from stations in Germany, Italy, and France are widely accessed using multi-channel cable and satellite TV services; SRG/SSR operates 18 radio stations that, along with private broadcasters, provide national to local coverage (2009)",
 		"Internet country code": ".ch",
 		"Internet hosts": {
-			"Internet hosts": "4.816 million (2010)",
+			"Internet hosts": 4816000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "65 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "42",
-			"over 3,047 m:": "3",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "14",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "23",
-			"under 914 m:": "23 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 1,681 km; oil 94 km; refined products 7 km (2010)",
 		"Railways": {
-			"total:": "4,888 km",
+			"total:": {
+				"quantity": 4888,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "3,397 km 1.435-m gauge (3,142 km electrified)",
 			"narrow gauge:": "1,481 km 1.000-m gauge (1,378 km electrified); 10 km 0.800-m gauge (10 km electrified) (2008)"
 		},
 		"Roadways": {
-			"total:": "71,454 km",
+			"total:": {
+				"quantity": 71454,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "71,454 km (includes 1,790 of expressways) (2010)"
 		},
@@ -425,7 +700,7 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "35",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 15, cargo 9, chemical tanker 6, container 4, petroleum tanker 1",
 			"registered in other countries:": "109 (Antigua and Barbuda 7, Bahamas 2, Cayman Islands 1, France 5, Germany 1, Italy 6, Liberia 17, Luxembourg 1, Malta 14, Marshall Islands 12, NZ 2, Panama 22, Portugal 3, Russia 4, Saint Vincent and the Grenadines 5, Singapore 4, Spain 1, Tonga 1, Tuvalu 1) (2010)"
@@ -436,16 +711,16 @@
 		"Military branches": "Swiss Armed Forces: Land Forces, Swiss Air Force (Schweizer Luftwaffe) (2010)",
 		"Military service age and obligation": "19-26 years of age for male compulsory military service; 18 years of age for voluntary male and female military service; every Swiss male has to serve at least 260 days in the armed forces; conscripts receive 18 weeks of mandatory training, followed by seven 3-week intermittent recalls for training during the next 10 years (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,828,043",
-			"females age 16-49:": "1,786,552 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,493,509",
-			"females age 16-49:": "1,459,450 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "46,562",
-			"female:": "42,585 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

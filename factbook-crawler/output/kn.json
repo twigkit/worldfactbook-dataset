@@ -5,23 +5,53 @@
 	"background": "An independent kingdom for much of its long history, Korea was occupied by Japan beginning in 1905 following the Russo-Japanese War. Five years later, Japan formally annexed the entire peninsula. Following World War II, Korea was split with the northern half coming under Soviet-sponsored Communist control. After failing in the Korean War (1950-53) to conquer the US-backed Republic of Korea (ROK) in the southern portion by force, North Korea (DPRK), under its founder President KIM Il Sung, adopted a policy of ostensible diplomatic and economic \"self-reliance\" as a check against outside influence. The DPRK demonized the US as the ultimate threat to its social system through state-funded propaganda, and molded political, economic, and military policies around the core ideological objective of eventual unification of Korea under Pyongyang's control. KIM Il Sung's son, the current ruler KIM Jong Il, was officially designated as his father's successor in 1980, assuming a growing political and managerial role until the elder KIM's death in 1994. In 2010, KIM Jong Il began the process of preparing the way for his youngest son, KIM Jong Un, to succeed him in power. After decades of economic mismanagement and resource misallocation, the DPRK since the mid-1990s has relied heavily on international aid to feed its population. North Korea's history of regional military provocations, proliferation of military-related items, long-range missile development, WMD programs including tests of nuclear devices in 2006 and 2009, and massive conventional armed forces are of major concern to the international community. The regime has marked 2012, the centenary of KIM Il Sung's birth, a banner year; to that end, the country has been focused on development of the economy. \r\n",
 	"geo": {
 		"Location": "Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea",
-		"Geographic coordinates": "40 00 N, 127 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 40,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 127,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "120,538 sq km",
+			"total:": {
+				"quantity": 120538,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "120,408 sq km",
-			"water:": "130 sq km"
+			"land:": {
+				"quantity": 120408,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 130,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Mississippi",
 		"Land boundaries": {
-			"total:": "1,673 km",
+			"total:": {
+				"quantity": 1673,
+				"unit": "km"
+			},
 			"border countries:": "China 1,416 km, South Korea 238 km, Russia 19 km"
 		},
-		"Coastline": "2,495 km",
+		"Coastline": {
+			"quantity": 2495,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate with rainfall concentrated in summer",
 		"Terrain": "mostly hills and mountains separated by deep, narrow valleys; coastal plains wide in west, discontinuous in east",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "coal, lead, tungsten, zinc, graphite, magnesite, iron ore, copper, gold, pyrites, salt, fluorspar, hydropower",
 		"Land use": {
-			"arable land:": "22.4%",
-			"permanent crops:": "1.66%",
-			"other:": "75.94% (2005)"
+			"arable land:": {
+				"quantity": 22.4,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.66,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 75.94,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "14,600 sq km (2008)",
-		"Total renewable water resources": "77.1 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 14600,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 77.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "9.02  cu km/yr (20%/25%/55%)",
-			"per capita:": "401  cu m/yr (2000)"
+			"total:": {
+				"quantity": 9.02,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 401,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "late spring droughts often followed by severe flooding; occasional typhoons during the early fall",
@@ -54,29 +105,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "24,457,492 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "22.4% (male 2,766,006/female 2,700,378)",
-			"15-64 years:": "68.6% (male 8,345,737/female 8,423,482)",
+			"0-14 years:": {
+				"quantity": 22.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.6,
+				"unit": "%"
+			},
 			"65 years and over:": "9.1% (male 738,693/female 1,483,196) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "32.9 years",
-			"male:": "31.2 years",
-			"female:": "34.6 years (2011 est.)"
+			"total:": {
+				"quantity": 32.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 31.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 34.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.538% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.538,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "14.51 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 14.51,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.08 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.08,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -84,30 +159,72 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "60% of total population (2010)",
-			"rate of urbanization:": "0.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 60,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.047 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.64 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.047,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.64,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "27.11 deaths/1,000 live births",
+			"total:": {
+				"quantity": 27.11,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "30.04 deaths/1,000 live births",
-			"female:": "24.05 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 30.04,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 24.05,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "68.89 years",
+			"total population:": {
+				"quantity": 68.89,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.03 years",
-			"female:": "72.93 years (2011 est.)"
+			"male:": {
+				"quantity": 65.03,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 72.93,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.02 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.02,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -126,9 +243,18 @@
 		"Languages": "Korean",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (1991 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -144,7 +270,16 @@
 		"Government type": "Communist state one-man dictatorship",
 		"Capital": {
 			"name:": "Pyongyang",
-			"geographic coordinates:": "39 01 N, 125 45 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 39,
+					"seconds": 1
+				},
+				"E": {
+					"minutes": 125,
+					"seconds": 45
+				}
+			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -182,30 +317,51 @@
 	"economy": {
 		"Economy - overview": "North Korea, one of the world's most centrally directed and least open economies, faces chronic economic problems. Industrial capital stock is nearly beyond repair as a result of years of underinvestment, shortages of spare parts, and poor maintenance. Large-scale military spending draws off resources needed for investment and civilian consumption. Industrial and power output have stagnated for years at a fraction of pre-1990 levels. Frequent weather-related crop failures aggravated chronic food shortages caused by on-going systemic problems, including a lack of arable land, collective farming practices, poor soil quality, insufficient fertilization, and persistent shortages of tractors and fuel. Large-scale international food aid deliveries have allowed the people of North Korea to escape widespread starvation since famine threatened in 1995, but the population continues to suffer from prolonged malnutrition and poor living conditions. Since 2002, the government has allowed private \"farmers' markets\" to begin selling a wider range of goods. It also permitted some private farming - on an experimental basis - in an effort to boost agricultural output. In October 2005, the government tried to reverse some of these policies by forbidding private sales of grains and reinstituting a centralized food rationing system. By December 2005, the government terminated most international humanitarian assistance operations in North Korea (calling instead for developmental assistance only) and restricted the activities of remaining international and non-governmental aid organizations. In mid-2008, North Korea began receiving food aid under a US program to deliver 500,000 metric tons of food via the World Food Program and US nongovernmental organizations; but Pyongyang stopped accepting the aid in March 2009. In December 2009, North Korea carried out a redenomination of its currency, capping the amount of North Korean won that could be exchanged for the new notes, and limiting the exchange to a one-week window. A concurrent crackdown on markets and foreign currency use yielded severe shortages and inflation, forcing Pyongyang to ease the restrictions by February 2010. In response to the sinking of the South Korean destroyer Cheonan and the shelling of Yeonpyong Island, South Korea's government cut off most aid, trade, and bilateral cooperation activities, with the exception of operations at the Kaesong Industrial Complex. The year 2012 will be the 100th anniversary of Kim Il-sung's birthday. The North Korean government often highlights its 2012 goal of becoming a \"strong and prosperous\" nation. Attracting foreign investment, especially from neighboring China, will be a key factor for improving the overall standard of living. Nevertheless, firm political control remains the government's overriding concern, which likely will inhibit changes to North Korea's current economic system.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$40 billion (2009 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 40000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$28 billion (2009 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 28000000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-0.9% (2009 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,800 (2009 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "20.9%",
-			"industry:": "46.9%",
-			"services:": "32.1% (2002 est.)"
+			"agriculture:": {
+				"quantity": 20.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 46.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 32.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "12.2 million",
+			"Labor force": 12200000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "35%",
-			"industry and services:": "65% (2008 est.)"
+			"agriculture:": {
+				"quantity": 35,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 65,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
@@ -214,84 +370,136 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$3.2 billion",
-			"expenditures:": "$3.3 billion (2007 est.)"
+			"revenues:": {
+				"usd": 3200000000
+			},
+			"expenditures:": {
+				"usd": 3300000000
+			}
 		},
 		"Inflation rate (consumer prices)": "NA%",
 		"Agriculture - products": "rice, corn, potatoes, soybeans, pulses; cattle, pigs, pork, eggs",
 		"Industries": "military products; machine building, electric power, chemicals; mining (coal, iron ore, limestone, magnesite, graphite, copper, zinc, lead, and precious metals), metallurgy; textiles, food processing; tourism",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "22.5 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 22500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "18.8 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 18800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "118 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 118,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "16,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 16000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "13,890 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 13890,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.997 billion (2009)",
+			"Exports": {
+				"usd": 1997000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "minerals, metallurgical products, manufactures (including armaments), textiles, agricultural and fishery products",
 		"Exports - partners": "South Korea 47%, China 40%, Hong Kong 2% (2009 est.)",
 		"Imports": {
-			"Imports": "$3.096 billion (2009)",
+			"Imports": {
+				"usd": 3096000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum, coking coal, machinery and equipment, textiles, grain",
 		"Imports - partners": "China 61%, South Korea 24%, Singapore 2%, India 2% (2009 est.)",
 		"Debt - external": {
-			"Debt - external": "$12.5 billion (2001 est.)",
+			"Debt - external": {
+				"usd": 12500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.18 million (2008)",
+			"Telephones - main lines in use": 1180000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -305,45 +513,57 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "79 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "37",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "23",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "1"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "42",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "18",
-			"914 to 1,523 m:": "14",
-			"under 914 m:": "8 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "22 (2010)",
+		"Heliports": null,
 		"Pipelines": "oil 154 km (2010)",
 		"Railways": {
-			"total:": "5,242 km",
+			"total:": {
+				"quantity": 5242,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "5,242 km 1.435-m gauge (3,500 km electrified) (2009)"
 		},
 		"Roadways": {
-			"total:": "25,554 km",
+			"total:": {
+				"quantity": 25554,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "724 km",
-			"unpaved:": "24,830 km (2006)"
+			"paved:": {
+				"quantity": 724,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 24830,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "2,250 km (most navigable only by small craft) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "158",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 8, cargo 129, carrier 1, container 3, passenger/cargo 1, petroleum tanker 11, refrigerated cargo 3, roll on/roll off 2",
-			"foreign-owned:": "19 (Belgium 1, China 1, Nigeria 1, Romania 1, Singapore 2, South Korea 1, Syria 6, UAE 6)",
+			"foreign-owned:": null,
 			"registered in other countries:": "5 (Mongolia 1, Sierra Leone 1, unknown 3) (2010)"
 		},
 		"Ports and terminals": {}
@@ -352,16 +572,16 @@
 		"Military branches": "North Korean People's Army: Ground Forces, Navy, Air Force; civil security forces (2005)",
 		"Military service age and obligation": "17 years of age (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "6,515,279",
-			"females age 16-49:": "6,418,693 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "4,836,567",
-			"females age 16-49:": "5,230,137 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "207,737",
-			"female:": "204,553 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

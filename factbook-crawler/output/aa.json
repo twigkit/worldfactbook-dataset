@@ -5,19 +5,46 @@
 	"background": "Discovered and claimed for Spain in 1499, Aruba was acquired by the Dutch in 1636. The island's economy has been dominated by three main industries. A 19th century gold rush was followed by prosperity brought on by the opening in 1924 of an oil refinery. The last decades of the 20th century saw a boom in the tourism industry. Aruba seceded from the Netherlands Antilles in 1986 and became a separate, autonomous member of the Kingdom of the Netherlands. Movement toward full independence was halted at Aruba's request in 1990.",
 	"geo": {
 		"Location": "Caribbean, island in the Caribbean Sea, north of Venezuela",
-		"Geographic coordinates": "12 30 N, 69 58 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 12,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 69,
+				"seconds": 58
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "180 sq km",
+			"total:": {
+				"quantity": 180,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "180 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 180,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "68.5 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 68.5,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine; little seasonal temperature variation",
 		"Terrain": "flat with a few hills; scant vegetation",
@@ -27,9 +54,18 @@
 		},
 		"Natural resources": "NEGL; white sandy beaches",
 		"Land use": {
-			"arable land:": "10.53%",
-			"permanent crops:": "0%",
-			"other:": "89.47% (2005)"
+			"arable land:": {
+				"quantity": 10.53,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 89.47,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA (2008)",
 		"Natural hazards": "hurricanes; lies outside the Caribbean hurricane belt and is rarely threatened",
@@ -38,61 +74,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "106,113 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "18.4% (male 9,847/female 9,729)",
-			"15-64 years:": "70.3% (male 35,809/female 38,816)",
+			"0-14 years:": {
+				"quantity": 18.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 70.3,
+				"unit": "%"
+			},
 			"65 years and over:": "11.2% (male 4,698/female 7,214) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "38.2 years",
-			"male:": "36.4 years",
-			"female:": "40 years (2011 est.)"
+			"total:": {
+				"quantity": 38.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 40,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.436% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.436,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.78 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.78,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.84 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.84,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "9.42 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 9.42,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "47% of total population (2010)",
-			"rate of urbanization:": "0.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 47,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ORANJESTAD (capital) 33,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.021 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.92 male(s)/female",
-			"65 years and over:": "0.66 male(s)/female",
-			"total population:": "0.9 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.021,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.66,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.9,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "12.92 deaths/1,000 live births",
+			"total:": {
+				"quantity": 12.92,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "17.07 deaths/1,000 live births",
-			"female:": "8.68 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 17.07,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.68,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.72 years",
+			"total population:": {
+				"quantity": 75.72,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.68 years",
-			"female:": "78.82 years (2011 est.)"
+			"male:": {
+				"quantity": 72.68,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.82,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.84 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.84,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -108,14 +213,32 @@
 		"Languages": "Papiamento (a Spanish-Portuguese-Dutch-English dialect) 66.3%, Spanish 12.6%, English (widely spoken) 7.7%, Dutch (official) 5.8%, other 2.2%, unspecified or unknown 5.3% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "97.3%",
-			"male:": "97.5%",
-			"female:": "97.1% (2000 census)"
+			"total population:": {
+				"quantity": 97.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 97.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2009)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -128,7 +251,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Oranjestad",
-			"geographic coordinates:": "12 31 N, 70 02 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 31
+				},
+				"W": {
+					"minutes": 70,
+					"seconds": 2
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (part of the Kingdom of the Netherlands)",
@@ -163,25 +295,43 @@
 	"economy": {
 		"Economy - overview": "Tourism is the mainstay of the small open Aruban economy, together with offshore banking. Oil refining and storage ended in 2009. The rapid growth of the tourism sector over the last decade has resulted in a substantial expansion of other activities. Over 1.5 million tourists per year visit Aruba with 75% of those from the US. Construction continues to boom with hotel capacity five times the 1985 level. Tourist arrivals rebounded strongly following a dip after the 11 September 2001 attacks. The government has made cutting the budget and trade deficits a high priority.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.258 billion (2005 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2258000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.258 billion (2005 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2258000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.4% (2005 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$21,800 (2004 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.4%",
-			"industry:": "33.3%",
-			"services:": "66.3% (2002 est.)"
+			"agriculture:": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 33.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "41,500 (2004 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -190,7 +340,10 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.9% (2005 est.)",
+			"Unemployment rate": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -199,115 +352,185 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$507.9 million",
-			"expenditures:": "$577.9 million (2005 est.)"
+			"revenues:": {
+				"usd": 507900000
+			},
+			"expenditures:": {
+				"usd": 577900000
+			}
 		},
 		"Public debt": {
-			"Public debt": "46.3% of GDP (2005)",
+			"Public debt": {
+				"quantity": 46.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.4% (2005)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.77% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.77,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$865 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 865000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.771 billion (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 1771000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.333 billion (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 1333000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "aloes; livestock; fish",
 		"Industries": "tourism, transshipment facilities",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "850 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 850000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "790.5 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 790500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "2,235 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2235,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "8,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 8000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "231,100 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 231100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "236,400 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 236400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "1 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 1,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "1 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 1,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 1,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$124 million (2006)",
+			"Exports": {
+				"usd": 124000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "live animals and animal products, art and collectibles, machinery and electrical equipment, transport equipment",
 		"Exports - partners": "Panama 23.84%, former Netherlands Antilles 20.49%, Colombia 17.48%, Venezuela 12.61%, US 9.12%, Netherlands 7.5% (2009)",
 		"Imports": {
-			"Imports": "$1.054 billion (2006)",
+			"Imports": {
+				"usd": 1054000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and electrical equipment, crude oil for refining and reexport, chemicals; foodstuffs",
 		"Imports - partners": "US 49.51%, Netherlands 16.15%, UK 4.94% (2009)",
 		"Debt - external": {
-			"Debt - external": "$478.6 million (2005 est.)",
+			"Debt - external": {
+				"usd": 478600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "38,300 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "128,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -318,35 +541,35 @@
 		"Broadcast media": "2 commercial television stations; cable TV subscription service provides access to foreign channels; about 20 commercial radio stations broadcast (2007)",
 		"Internet country code": ".aw",
 		"Internet hosts": {
-			"Internet hosts": "25,080 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "no regular military forces (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "24,891",
-			"females age 16-49:": "26,202 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "20,527",
-			"females age 16-49:": "21,493 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "767",
-			"female:": "743 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

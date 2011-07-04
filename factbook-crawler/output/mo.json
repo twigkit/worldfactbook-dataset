@@ -5,24 +5,57 @@
 	"background": "In 788, about a century after the Arab conquest of North Africa, successive Moorish dynasties began to rule in Morocco. In the 16th century, the Sa'adi monarchy, particularly under Ahmad AL-MANSUR (1578-1603), repelled foreign invaders and inaugurated a golden age. The Alaouite dynasty, to which the current Moroccan royal family belongs, established a sultanate in Morocco beginning in the 17th century. In 1860, Spain occupied northern Morocco and ushered in a half century of trade rivalry among European powers that saw Morocco's sovereignty steadily erode; in 1912, the French imposed a protectorate over the country. A protracted independence struggle with France ended successfully in 1956. The internationalized city of Tangier and most Spanish possessions were turned over to the new country that same year. Sultan MOHAMMED V, the current monarch's grandfather, organized the new state as a constitutional monarchy and in 1957 assumed the title of king. Morocco annexed Western Sahara during the late 1970s, but final resolution on the status of the territory remains unresolved. Gradual political reforms in the 1990s resulted in the establishment of a bicameral legislature, which first met in 1997. Under King MOHAMMED VI - who in 1999 succeeded his father to the throne - human rights have improved. Morocco enjoys a moderately free press, but the government occasionally takes action against journalists who report on three broad subjects considered to be taboo: the monarchy, Islam, and the status of Western Sahara. Despite the continuing reforms, ultimate authority remains in the hands of the monarch. Influenced by protests elsewhere in the Middle East and North Africa, thousands of Moroccans in February 2011 rallied in Rabat and several other major cities to demand constitutional reform and more democracy and to protest government corruption and high food prices. A number of similar demonstrations and marches continued through March. Police response to most of the protests was subdued compared to the violence noted in protests elsewhere in the region. In early March, in response to demonstrator demands, King MOHAMMED VI announced the formation of a commission to reform the country's constitution. A draft constitution is to be presented by June 2011, followed by a popular referendum. \r\n\r\n",
 	"geo": {
 		"Location": "Northern Africa, bordering the North Atlantic Ocean and the Mediterranean Sea, between Algeria and Western Sahara",
-		"Geographic coordinates": "32 00 N, 5 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 32,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 5,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "446,550 sq km",
+			"total:": {
+				"quantity": 446550,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "446,300 sq km",
-			"water:": "250 sq km"
+			"land:": {
+				"quantity": 446300,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 250,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than California",
 		"Land boundaries": {
-			"total:": "2,017.9 km",
+			"total:": {
+				"quantity": 2017.9,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 1,559 km, Western Sahara 443 km, Spain (Ceuta) 6.3 km, Spain (Melilla) 9.6 km"
 		},
-		"Coastline": "1,835 km",
+		"Coastline": {
+			"quantity": 1835,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "Mediterranean, becoming more extreme in the interior",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "phosphates, iron ore, manganese, lead, zinc, fish, salt",
 		"Land use": {
-			"arable land:": "19%",
-			"permanent crops:": "2%",
-			"other:": "79% (2005)"
+			"arable land:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 79,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "14,570 sq km (2008)",
-		"Total renewable water resources": "29 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 14570,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 29,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "12.6  cu km/yr (10%/3%/87%)",
-			"per capita:": "400  cu m/yr (2000)"
+			"total:": {
+				"quantity": 12.6,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 400,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "northern mountains geologically unstable and subject to earthquakes; periodic droughts",
 		"Environment - current issues": "land degradation/desertification (soil erosion resulting from farming of marginal areas, overgrazing, destruction of vegetation); water supplies contaminated by raw sewage; siltation of reservoirs; oil pollution of coastal waters",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "31,968,361 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "27.8% (male 4,514,623/female 4,382,487)",
-			"15-64 years:": "66.1% (male 10,335,931/female 10,785,380)",
+			"0-14 years:": {
+				"quantity": 27.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.1,
+				"unit": "%"
+			},
 			"65 years and over:": "6.1% (male 881,622/female 1,068,318) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.9 years",
-			"male:": "26.3 years",
-			"female:": "27.4 years (2011 est.)"
+			"total:": {
+				"quantity": 26.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 26.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 27.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.067% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.067,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "19.19 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 19.19,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.75 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.75,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +161,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "58% of total population (2010)",
-			"rate of urbanization:": "2.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 58,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Casablanca 3.245 million; RABAT (capital) 1.77 million; Fes 1.044 million; Marrakech 909,000; Tangier 768,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.96 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "27.53 deaths/1,000 live births",
+			"total:": {
+				"quantity": 27.53,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "32.32 deaths/1,000 live births",
-			"female:": "22.51 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 32.32,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 22.51,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.9 years",
+			"total population:": {
+				"quantity": 75.9,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.84 years",
-			"female:": "79.11 years (2011 est.)"
+			"male:": {
+				"quantity": 72.84,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.11,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.21 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.21,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "26,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,200 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -133,14 +256,32 @@
 		"Languages": "Arabic (official), Berber dialects, French (often the language of business, government, and diplomacy)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "52.3%",
-			"male:": "65.7%",
-			"female:": "39.6% (2004 census)"
+			"total population:": {
+				"quantity": 52.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 65.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 39.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "11 years",
-			"female:": "10 years (2007)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +295,16 @@
 		"Government type": "constitutional monarchy",
 		"Capital": {
 			"name:": "Rabat",
-			"geographic coordinates:": "34 01 N, 6 49 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 34,
+					"seconds": 1
+				},
+				"W": {
+					"minutes": 6,
+					"seconds": 49
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1 hr, begins first Sunday in April; ends last Sunday in July"
 		},
@@ -204,136 +354,247 @@
 	"economy": {
 		"Economy - overview": "Morocco's market economy benefits from the country's relatively low labor costs and proximity to Europe, which aid key areas of the economy such as agriculture, light manufacturing, tourism, and remittances. Morocco is also the world's largest exporter of phosphate, which has long provided a source of export earnings and economic stability. Economic policies pursued since 2003 by King MOHAMMED VI have brought macroeconomic stability to the country with generally low inflation, improved financial performance, and steady progress in developing the service and industrial sectors. In 2006, Morocco entered a Free Trade Agreement (FTA) with the US, and in 2008 entered into an advanced status in its 2000 Association Agreement with the EU. However, poverty, illiteracy, and unemployment rates remain high. In response to these challenges, King MOHAMMED in 2005 launched a National Initiative for Human Development, a $2 billion program aimed at alleviating poverty and underdevelopment by expanding electricity to rural areas and replacing urban slums with public and subsidized housing, among other policies. Morocco's trade and budget deficits widened in 2010, and reducing government spending and adapting to sluggish economic growth in Europe will be challenges in 2011. Morocco's long-term challenges include improving education and job prospects for young Moroccans, closing the disparity in wealth between the rich and the poor, confronting corruption, and expanding and diversifying exports beyond phosphates and low-value-added products.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$151.4 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 151400000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$103.5 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 103500000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,800 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "17.1%",
-			"industry:": "31.6%",
-			"services:": "51.4% (2010 est.)"
+			"agriculture:": {
+				"quantity": 17.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "11.63 million (2010 est.)",
+			"Labor force": 11630000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "44.6%",
-			"industry:": "19.8%",
-			"services:": "35.5% (2006 est.)"
+			"agriculture:": {
+				"quantity": 44.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 35.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 9.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "15% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 15,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.7%",
-			"highest 10%:": "33.2% (2007)"
+			"lowest 10%:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 33.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "40.9 (2005 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "30.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 30.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$23.42 billion",
-			"expenditures:": "$27.08 billion (2010 est.)"
+			"revenues:": {
+				"usd": 23420000000
+			},
+			"expenditures:": {
+				"usd": 27080000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "58.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 58.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3.31% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 3.31,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Commercial bank prime lending rate": "6.5% (31 December 2008)",
+		"Commercial bank prime lending rate": {
+			"quantity": 6.5,
+			"unit": "%"
+		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$67.33 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 67330000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$108.7 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 108700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$93.21 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 93210000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$62.91 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 62910000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "barley, wheat, citrus fruits, grapes, vegetables, olives; livestock; wine",
 		"Industries": "phosphate rock mining and processing, food processing, leather goods, textiles, construction, energy, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "19.78 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 19780000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "20.78 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 20780000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "3.429 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 3429000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "4,053 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 4053,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "187,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 187000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "17,420 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 17420,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "195,800 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 195800,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "100 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 100000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "60 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 60000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "560 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 560000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "500 million cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.501 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1501000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -341,42 +602,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$14.49 billion (2010 est.)",
+			"Exports": {
+				"usd": 14490000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing and textiles, electric components, inorganic chemicals, transistors, crude minerals, fertilizers (including phosphates), petroleum products, citrus fruits, vegetables, fish",
 		"Exports - partners": "Spain 22.02%, France 20.22%, India 4.91%, Italy 4% (2009)",
 		"Imports": {
-			"Imports": "$34.19 billion (2010 est.)",
+			"Imports": {
+				"usd": 34189999999.999996
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "crude petroleum, textile fabric, telecommunications equipment, wheat, gas and electricity, transistors, plastics",
 		"Imports - partners": "France 16.95%, Spain 14.72%, China 7.1%, Italy 6.76%, Germany 6.28%, US 5.66%, Saudi Arabia 5.11% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$24.57 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 24570000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$22.69 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 22690000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$42.19 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 42190000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$1.047 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 1046999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3.516 million (2009)",
+			"Telephones - main lines in use": 3516000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "25.311 million (2009)",
+			"Telephones - mobile cellular": 25311000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -387,48 +660,60 @@
 		"Broadcast media": "2 television broadcast networks with state-run Radio-Television Marocaine (RTM) operating one network and the state partially owning the other; foreign TV broadcasts are available via satellite dish; 3 radio broadcast networks with RTM operating one; the government-owned network includes 10 regional radio channels in addition to its national service (2007)",
 		"Internet country code": ".ma",
 		"Internet hosts": {
-			"Internet hosts": "277,793 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "58 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "32",
-			"over 3,047 m:": "11",
-			"2,438 to 3,047 m:": "7",
-			"1,524 to 2,437 m:": "10",
-			"914 to 1,523 m:": "4 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "26",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "10",
-			"under 914 m:": "8 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 830 km; oil 439 km (2010)",
 		"Railways": {
-			"total:": "2,067 km",
+			"total:": {
+				"quantity": 2067,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "2,067 km 1.435-m gauge (1,022 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "57,625 km",
+			"total:": {
+				"quantity": 57625,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "35,664 km (includes 639 km of expressways)",
-			"unpaved:": "21,961 km (2006)"
+			"paved:": {
+				"quantity": 35664,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 21961,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "30",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, chemical tanker 2, container 7, passenger/cargo 15, petroleum tanker 1, roll on/roll off 3",
-			"foreign-owned:": "6 (France 4, Germany 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "5 (Gibraltar 4, Panama 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -437,16 +722,16 @@
 		"Military branches": "Royal Armed Forces (Forces Armees Royales, FAR): Royal Moroccan Army (includes Air Defense), Royal Moroccan Navy (includes Coast Guard, Marines), Royal Moroccan Air Force (Al Quwwat al Jawyiya al Malakiya Marakishiya; Force Aerienne Royale Marocaine) (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; service obligation - 18 months (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "8,252,682",
-			"females age 16-49:": "8,691,419 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "7,026,016",
-			"females age 16-49:": "7,377,045 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "300,327",
-			"female:": "298,366 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

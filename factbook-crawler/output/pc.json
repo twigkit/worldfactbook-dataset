@@ -5,20 +5,50 @@
 	"background": "Pitcairn Island was discovered in 1767 by the British and settled in 1790 by the Bounty mutineers and their Tahitian companions. Pitcairn was the first Pacific island to become a British colony (in 1838) and today remains the last vestige of that empire in the South Pacific. Outmigration, primarily to New Zealand, has thinned the population from a peak of 233 in 1937 to less than 50 today.",
 	"geo": {
 		"Location": "Oceania, islands in the South Pacific Ocean, about midway between Peru and New Zealand",
-		"Geographic coordinates": "25 04 S, 130 06 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 25,
+				"seconds": 4
+			},
+			"W": {
+				"minutes": 130,
+				"seconds": 6
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "47 sq km",
+			"total:": {
+				"quantity": 47,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "47 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 47,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about three tenths the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "51 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 51,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot and humid; modified by southeast trade winds; rainy season (November to March)",
 		"Terrain": "rugged volcanic formation; rocky coastline with cliffs",
@@ -41,7 +71,7 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "48 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -50,15 +80,24 @@
 			"65 years and over:": "NA (2009 est.)"
 		},
 		"Population growth rate": {
-			"Population growth rate": "0% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
 		"Net migration rate": "NA",
 		"Urbanization": {
-			"urban population:": "0% of total population (2010)",
-			"rate of urbanization:": "0% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 0,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": "NA",
 		"Infant mortality rate": {
@@ -95,7 +134,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Adamstown",
-			"geographic coordinates:": "25 04 S, 130 05 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 25,
+					"seconds": 4
+				},
+				"W": {
+					"minutes": 130,
+					"seconds": 5
+				}
+			},
 			"time difference:": "UTC-9 (4 hours behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (overseas territory of the UK)",
@@ -136,8 +184,12 @@
 			"note:": "no business community in the usual sense; some public works; subsistence farming and fishing"
 		},
 		"Budget": {
-			"revenues:": "$746,000",
-			"expenditures:": "$1.028 million (FY04/05)"
+			"revenues:": {
+				"usd": null
+			},
+			"expenditures:": {
+				"usd": 1028000
+			}
 		},
 		"Agriculture - products": "honey; wide variety of fruits and vegetables; goats, chickens, fish",
 		"Industries": "postage stamps, handicrafts, beekeeping, honey",

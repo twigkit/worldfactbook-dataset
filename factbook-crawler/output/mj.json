@@ -5,22 +5,49 @@
 	"background": "The use of the name Montenegro began in the 15th century when the Crnojevic dynasty began to rule the Serbian principality of Zeta; over subsequent centuries Montenegro was able to maintain its independence from the Ottoman Empire. From the 16th to 19th centuries, Montenegro became a theocracy ruled by a series of bishop princes; in 1852, it was transformed into a secular principality. After World War I, Montenegro was absorbed by the Kingdom of Serbs, Croats, and Slovenes, which became the Kingdom of Yugoslavia in 1929; at the conclusion of World War II, it became a constituent republic of the Socialist Federal Republic of Yugoslavia. When the latter dissolved in 1992, Montenegro federated with Serbia, first as the Federal Republic of Yugoslavia and, after 2003, in a looser union of Serbia and Montenegro. In May 2006, Montenegro invoked its right under the Constitutional Charter of Serbia and Montenegro to hold a referendum on independence from the state union. The vote for severing ties with Serbia exceeded 55% - the threshold set by the EU - allowing Montenegro to formally declare its independence on 3 June 2006.",
 	"geo": {
 		"Location": "Southeastern Europe, between the Adriatic Sea and Serbia",
-		"Geographic coordinates": "42 30 N, 19 18 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 42,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 19,
+				"seconds": 18
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "13,812 sq km",
+			"total:": {
+				"quantity": 13812,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "13,452 sq km",
-			"water:": "360 sq km"
+			"land:": {
+				"quantity": 13452,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 360,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Connecticut",
 		"Land boundaries": {
-			"total:": "625 km",
+			"total:": {
+				"quantity": 625,
+				"unit": "km"
+			},
 			"border countries:": "Albania 172 km, Bosnia and Herzegovina 225 km, Croatia 25 km, Kosovo 79 km, Serbia 124 km"
 		},
-		"Coastline": "293.5 km",
+		"Coastline": {
+			"quantity": 293.5,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"continental shelf:": "defined by treaty"
 		},
 		"Climate": "Mediterranean climate, hot dry summers and autumns and relatively cold winters with heavy snowfalls inland",
@@ -31,11 +58,23 @@
 		},
 		"Natural resources": "bauxite, hydroelectricity",
 		"Land use": {
-			"arable land:": "13.7%",
-			"permanent crops:": "1%",
-			"other:": "85.3%"
+			"arable land:": {
+				"quantity": 13.7,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 85.3,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "22 sq km (2008)",
+		"Irrigated land": {
+			"quantity": 22,
+			"unit": "sq km"
+		},
 		"Natural hazards": "destructive earthquakes",
 		"Environment - current issues": "pollution of coastal waters from sewage outlets, especially in tourist-related areas such as Kotor",
 		"Environment - international agreements": {
@@ -46,42 +85,84 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "661,807 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.5% (male 50,060/female 52,823)",
-			"15-64 years:": "71% (male 244,057/female 225,620)",
+			"0-14 years:": {
+				"quantity": 15.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71,
+				"unit": "%"
+			},
 			"65 years and over:": "13.5% (male 35,551/female 53,696) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "37.8 years",
-			"male:": "36.5 years",
-			"female:": "39.2 years (2011 est.)"
+			"total:": {
+				"quantity": 37.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 39.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.705% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.89 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.89,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "61% of total population (2010)",
-			"rate of urbanization:": "0.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 61,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PODGORICA (capital) 144,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.072 male(s)/female",
-			"under 15 years:": "0.95 male(s)/female",
-			"15-64 years:": "1.08 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.072,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
@@ -111,7 +192,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Podgorica",
-			"geographic coordinates:": "42 26 N, 19 16 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 42,
+					"seconds": 26
+				},
+				"E": {
+					"minutes": 19,
+					"seconds": 16
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1 hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -157,16 +247,25 @@
 	"economy": {
 		"Economy - overview": "Montenegro severed its economy from federal control and from Serbia during the MILOSEVIC era and maintained its own central bank, adopted the Deutchmark, then the euro - rather than the Yugoslav dinar - as official currency, collected customs tariffs, and managed its own budget. The dissolution of the loose political union between Serbia and Montenegro in 2006 led to separate membership in several international financial institutions, such as the European Bank for Reconstruction and Development. In January 2007, Montenegro joined the World Bank and IMF. Montenegro is pursuing its own membership in the World Trade Organization and signed a Stabilization and Association agreement with the European Union in October 2007. The European Council granted candidate country status to Montenegro at the December 2010 session. Unemployment and regional disparities in development are key political and economic problems. Montenegro has privatized its large aluminum complex - the dominant industry - as well as most of its financial sector, and has begun to attract foreign direct investment in the tourism sector. The global financial crisis has had a significant negative impact on the economy, due to the ongoing credit crunch, a decline in the real estate sector, and a fall in aluminum exports.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$6.724 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 6724000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$4.017 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 4017000000.0000005
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$10,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -175,25 +274,43 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "259,100 (2004)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2%",
-			"industry:": "30%",
-			"services:": "68% (2004 est.)"
+			"agriculture:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 68,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "14.7% (2007 est.)",
+			"Unemployment rate": {
+				"quantity": 14.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "7% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 7,
+			"unit": "%"
+		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "30 (2003)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "30.5% of GDP (2006 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 30.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
@@ -201,68 +318,112 @@
 			"expenditures:": "$NA"
 		},
 		"Public debt": {
-			"Public debt": "38% of GDP (2006)",
+			"Public debt": {
+				"quantity": 38,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.4% (2007)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "9.36% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 9.36,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$816.8 million (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 816800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.406 billion (31 December 2008)",
+			"Stock of broad money": {
+				"usd": 1406000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$3.29 billion (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 3290000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$4.289 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 4288999999.9999995
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "tobacco, potatoes, citrus fruits, olives, grapes; sheep",
 		"Industries": "steelmaking, aluminum, agricultural processing, consumer goods, tourism",
 		"Electricity - production": {
-			"Electricity - production": "2.864 billion kWh (2005 est.)",
+			"Electricity - production": {
+				"quantity": 2864000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "18.6 million kWh (2005)",
+			"Electricity - consumption": {
+				"quantity": 18600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2005)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "NA kWh (2005)",
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "5,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 5000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "313.6 bbl/day (2005)",
+			"Oil - exports": {
+				"quantity": 313.6,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "6,093 bbl/day (2005)",
+			"Oil - imports": {
+				"quantity": 6093,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": "NA cu m",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -270,29 +431,35 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$171.3 million (2003)",
+			"Exports": {
+				"usd": 171300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - partners": "Italy 29.52%, Greece 22.65%, Slovenia 11.83%, Hungary 8.96%, US 7.93% (2009)",
 		"Imports": {
-			"Imports": "$601.7 million (2003)",
+			"Imports": {
+				"usd": 601700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - partners": "Italy 17.54%, Slovenia 14.62%, Germany 10.5%, Austria 7.82%, China 7.82%, Russia 4.4%, Hungary 4.11%, Greece 4.11%, Netherlands 4% (2009)",
 		"Reserves of foreign exchange and gold": "$NA",
 		"Debt - external": {
-			"Debt - external": "$650 million (2006)",
+			"Debt - external": {
+				"usd": 650000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "366,600 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "752,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -303,40 +470,52 @@
 		"Broadcast media": "state-owned national radio-TV broadcaster operates 2 terrestrial television networks, 1 satellite TV channel, and 2 radio networks; roughly a dozen privately-owned TV broadcasters operate networks nationally, regionally, and locally; in addition to the 2 state-owned national radio networks, roughly 50 privately-owned radio stations and networks broadcast (2007)",
 		"Internet country code": ".me",
 		"Internet hosts": {
-			"Internet hosts": "6,247 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "5 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "250 km",
+			"total:": {
+				"quantity": 250,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "250 km 1.435-m gauge (169 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "7,624 km",
+			"total:": {
+				"quantity": 7624,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "5,097 km",
-			"unpaved:": "2,527 km (2010)"
+			"paved:": {
+				"quantity": 5097,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 2527,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "2",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, passenger/cargo 1",
 			"registered in other countries:": "5 (Bahamas 2, Honduras 2, Slovakia 1) (2010)"
@@ -347,8 +526,8 @@
 		"Military branches": "Armed Forces of the Republic of Montenegro: Army of Montenegro (includes Montenegrin Navy (Mornarica Crne Gore, MCG)), Air Force (2011)",
 		"Military service age and obligation": "compulsory national military service abolished August 2006",
 		"Manpower fit for military service": {
-			"males age 16-49:": "149,159",
-			"females age 16-49:": "131,823 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {}
 	},

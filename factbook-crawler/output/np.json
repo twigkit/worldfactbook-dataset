@@ -5,20 +5,44 @@
 	"background": "In 1951, the Nepalese monarch ended the century-old system of rule by hereditary premiers and instituted a cabinet system of government. Reforms in 1990 established a multiparty democracy within the framework of a constitutional monarchy. An insurgency led by Maoist extremists broke out in 1996. The ensuing ten-year civil war between insurgents and government forces witnessed the dissolution of the cabinet and parliament and assumption of absolute power by the king. Several weeks of mass protests in April 2006 were followed by several months of peace negotiations between the Maoists and government officials, and culminated in a November 2006 peace accord and the promulgation of an interim constitution. Following a nation-wide election in April 2008, the newly formed Constituent Assembly declared Nepal a federal democratic republic and abolished the monarchy at its first meeting the following month. The Constituent Assembly elected the country's first president in July. The Maoists, who received a plurality of votes in the Constituent Assembly election, formed a coalition government in August 2008, but resigned in May 2009 after the president overruled a decision to fire the chief of the army staff. The Communist Party of Nepal-United Marxist-Leninist and the Nepali Congress party then formed a new coalition government with several smaller parties. The prime minister's resignation in June 2010 ushered in seven months of political gridlock until Jhala Nath KHANAL was elected as replacement in February 2011. His pressing tasks are to conclude the drafting of a new constitution by the late May 2011 deadline and to determine the future of the former Maoist combatants.",
 	"geo": {
 		"Location": "Southern Asia, between China and India",
-		"Geographic coordinates": "28 00 N, 84 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 28,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 84,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "147,181 sq km",
+			"total:": {
+				"quantity": 147181,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "143,351 sq km",
-			"water:": "3,830 sq km"
+			"land:": {
+				"quantity": 143351,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 3830,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Arkansas",
 		"Land boundaries": {
-			"total:": "2,926 km",
+			"total:": {
+				"quantity": 2926,
+				"unit": "km"
+			},
 			"border countries:": "China 1,236 km, India 1,690 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "varies from cool summers and severe winters in north to subtropical summers and mild winters in south",
 		"Terrain": "Tarai or flat river plain of the Ganges in south, central hill region, rugged Himalayas in north",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "quartz, water, timber, hydropower, scenic beauty, small deposits of lignite, copper, cobalt, iron ore",
 		"Land use": {
-			"arable land:": "16.07%",
-			"permanent crops:": "0.85%",
-			"other:": "83.08% (2005)"
+			"arable land:": {
+				"quantity": 16.07,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.85,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 83.08,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "11,680 sq km (2008)",
-		"Total renewable water resources": "210.2 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 11680,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 210.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "10.18  cu km/yr (3%/1%/96%)",
-			"per capita:": "375  cu m/yr (2000)"
+			"total:": {
+				"quantity": 10.18,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 375,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "severe thunderstorms; flooding; landslides; drought and famine depending on the timing, intensity, and duration of the summer monsoons",
 		"Environment - current issues": "deforestation (overuse of wood for fuel and lack of alternatives); contaminated water (with human and animal wastes, agricultural runoff, and industrial effluents); wildlife conservation; vehicular emissions",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "29,391,883 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "34.6% (male 5,177,264/female 4,983,864)",
-			"15-64 years:": "61.1% (male 8,607,338/female 9,344,537)",
+			"0-14 years:": {
+				"quantity": 34.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 61.1,
+				"unit": "%"
+			},
 			"65 years and over:": "4.4% (male 597,628/female 681,252) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.6 years",
-			"male:": "20.7 years",
-			"female:": "22.5 years (2011 est.)"
+			"total:": {
+				"quantity": 21.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 20.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.596% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.596,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.17 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.17,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.81 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.81,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.61 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.61,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "19% of total population (2010)",
-			"rate of urbanization:": "4.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 19,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "KATHMANDU (capital) 990,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.92 male(s)/female",
-			"65 years and over:": "0.88 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "44.54 deaths/1,000 live births",
+			"total:": {
+				"quantity": 44.54,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "44.54 deaths/1,000 live births",
-			"female:": "44.55 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 44.54,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 44.55,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "66.16 years",
+			"total population:": {
+				"quantity": 66.16,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "64.94 years",
-			"female:": "67.44 years (2011 est.)"
+			"male:": {
+				"quantity": 64.94,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 67.44,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.47 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.47,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "64,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "4,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +252,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "48.6%",
-			"male:": "62.7%",
-			"female:": "34.9% (2001 census)"
+			"total population:": {
+				"quantity": 48.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 62.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 34.9,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "10 years",
-			"female:": "8 years (2003)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,11 +291,20 @@
 		"Government type": "federal democratic republic",
 		"Capital": {
 			"name:": "Kathmandu",
-			"geographic coordinates:": "27 43 N, 85 19 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 27,
+					"seconds": 43
+				},
+				"E": {
+					"minutes": 85,
+					"seconds": 19
+				}
+			},
 			"time difference:": "UTC+5.75 (10.75 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "14 zones (anchal, singular and plural); Bagmati, Bheri, Dhawalagiri, Gandaki, Janakpur, Karnali, Kosi, Lumbini, Mahakali, Mechi, Narayani, Rapti, Sagarmatha, Seti",
-		"Independence": "1768 (unified by Prithvi Narayan SHAH)",
+		"Independence": null,
 		"National holiday": "Republic Day, 29 May; Democracy Day, 24 April",
 		"Constitution": "15 January 2007 (interim Constitution); note - in April 2008, a Constituent Assembly was elected to draft and promulgate a new constitution by May 2010, but the deadline has been extended to May 2011",
 		"Legal system": "English common law and Hindu legal concepts",
@@ -206,131 +350,233 @@
 	"economy": {
 		"Economy - overview": "Nepal is among the poorest and least developed countries in the world, with almost one-quarter of its population living below the poverty line. Agriculture is the mainstay of the economy, providing a livelihood for three-fourths of the population and accounting for about one-third of GDP. Industrial activity mainly involves the processing of agricultural products, including pulses, jute, sugarcane, tobacco, and grain. Nepal has considerable scope for exploiting its potential in hydropower, with an estimated 42,000 MW of feasible capacity, but political instability hampers foreign investment. Additional challenges to Nepal's growth include its landlocked geographic location, civil strife and labor unrest, and its susceptibility to natural disaster.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$35.81 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 35810000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$15.84 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 15840000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "33%",
-			"industry:": "15%",
-			"services:": "52% (FY09 est.)"
+			"agriculture:": {
+				"quantity": 33,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 52,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "18 million",
+			"Labor force": 18000000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "75%",
-			"industry:": "7%",
-			"services:": "18% (2010 est.)"
+			"agriculture:": {
+				"quantity": 75,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 18,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "46% (2008 est.)",
+			"Unemployment rate": {
+				"quantity": 46,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "24.7% (2008)",
+		"Population below poverty line": {
+			"quantity": 24.7,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA",
-			"highest 10%:": "40.6% (2008)"
+			"highest 10%:": {
+				"quantity": 40.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "47.2 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$3 billion",
-			"expenditures:": "$4.6 billion (FY10)"
+			"revenues:": {
+				"usd": 3000000000
+			},
+			"expenditures:": {
+				"usd": 4600000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "8.6% (September 2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 8.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6.5% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "8% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.03 billion (July 2010)",
+			"Stock of narrow money": {
+				"usd": 3030000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9 billion (July 2010)",
+			"Stock of broad money": {
+				"usd": 9000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$6.11 billion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 6110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$5.2 billion (31 December 2010 est.)",
+			"Market value of publicly traded shares": {
+				"usd": 5200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "pulses, rice, corn, wheat, sugarcane, jute, root crops; milk, water buffalo meat",
 		"Industries": "tourism, carpets, textiles; small rice, jute, sugar, and oilseed mills; cigarettes, cement and brick production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.8% (FY08)",
+			"Industrial production growth rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "2.6 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 2600000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.243 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2243000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2010 est.)",
-		"Electricity - imports": "213 million kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 213000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "18,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 18000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2010 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "16,920 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 16920,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -338,19 +584,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$849 million (2009)",
+			"Exports": {
+				"usd": 849000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing, pulses, carpets, textiles, juice, pashima, jute goods",
 		"Exports - partners": "India 65.6%, US 8%, Bangladesh 6.04%, Germany 5% (2009)",
 		"Imports": {
-			"Imports": "$5.26 billion (2009)",
+			"Imports": {
+				"usd": 5260000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum products, machinery and equipment, gold, electrical goods, medicine",
 		"Imports - partners": "India 57%, China 13% (2009)",
 		"Debt - external": {
-			"Debt - external": "$4.5 billion (2009)",
+			"Debt - external": {
+				"usd": 4500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -359,11 +611,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "820,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "7.618 million (2009)",
+			"Telephones - mobile cellular": 7618000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -374,30 +626,33 @@
 		"Broadcast media": "state operates 2 television stations as well as national and regional radio stations; more than 60 independent radio stations and a small number of independent television stations (2007)",
 		"Internet country code": ".np",
 		"Internet hosts": {
-			"Internet hosts": "43,928 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "47 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "11",
-			"over 3,047 m:": "1",
-			"914 to 1,523 m:": "9",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "36",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "31 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "59 km",
+			"total:": {
+				"quantity": 59,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "59 km 0.762-m gauge (2010)"
 		},
@@ -407,16 +662,16 @@
 		"Military branches": "Nepal Army (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; 15 years of age for military training; no conscription (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "6,941,152",
-			"females age 16-49:": "7,618,397 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "5,260,878",
-			"females age 16-49:": "5,947,512 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "380,172",
-			"female:": "367,103 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

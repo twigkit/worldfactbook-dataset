@@ -5,23 +5,53 @@
 	"background": "Ruled by the Al Thani family since the mid-1800s, Qatar transformed itself from a poor British protectorate noted mainly for pearling into an independent state with significant oil and natural gas revenues. During the late 1980s and early 1990s, the Qatari economy was crippled by a continuous siphoning off of petroleum revenues by the Amir, who had ruled the country since 1972. His son, the current Amir HAMAD bin Khalifa Al Thani, overthrew him in a bloodless coup in 1995. In 2001, Qatar resolved its longstanding border disputes with both Bahrain and Saudi Arabia. As of 2007, oil and natural gas revenues had enabled Qatar to attain the second-highest per capita income in the world.",
 	"geo": {
 		"Location": "Middle East, peninsula bordering the Persian Gulf and Saudi Arabia",
-		"Geographic coordinates": "25 30 N, 51 15 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 25,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 51,
+				"seconds": 15
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "11,586 sq km",
+			"total:": {
+				"quantity": 11586,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "11,586 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 11586,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Connecticut",
 		"Land boundaries": {
-			"total:": "60 km",
+			"total:": {
+				"quantity": 60,
+				"unit": "km"
+			},
 			"border countries:": "Saudi Arabia 60 km"
 		},
-		"Coastline": "563 km",
+		"Coastline": {
+			"quantity": 563,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "as determined by bilateral agreements or the median line"
 		},
 		"Climate": "arid; mild, pleasant winters; very hot, humid summers",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, fish",
 		"Land use": {
-			"arable land:": "1.64%",
-			"permanent crops:": "0.27%",
-			"other:": "98.09% (2005)"
+			"arable land:": {
+				"quantity": 1.64,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.27,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 98.09,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "130 sq km (2008)",
-		"Total renewable water resources": "0.1 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 130,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 0.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.29  cu km/yr (24%/3%/72%)",
-			"per capita:": "358  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.29,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 358,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "haze, dust storms, sandstorms common",
 		"Environment - current issues": "limited natural freshwater resources are increasing dependence on large-scale desalination facilities",
@@ -52,29 +103,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "848,016 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21.8% (male 95,240/female 89,446)",
-			"15-64 years:": "76.7% (male 460,673/female 189,914)",
+			"0-14 years:": {
+				"quantity": 21.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 76.7,
+				"unit": "%"
+			},
 			"65 years and over:": "1.5% (male 7,311/female 5,432) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.8 years",
-			"male:": "32.9 years",
-			"female:": "25.5 years (2011 est.)"
+			"total:": {
+				"quantity": 30.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 25.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.81% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.81,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "15.48 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 15.48,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.43 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.43,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,31 +157,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "96% of total population (2010)",
-			"rate of urbanization:": "1.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 96,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "DOHA (capital) 427,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.056 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "2.44 male(s)/female",
-			"65 years and over:": "1.36 male(s)/female",
-			"total population:": "1.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.056,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 2.44,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.36,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "12.05 deaths/1,000 live births",
+			"total:": {
+				"quantity": 12.05,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "12.83 deaths/1,000 live births",
-			"female:": "11.22 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 12.83,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 11.22,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.7 years",
+			"total population:": {
+				"quantity": 75.7,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.96 years",
-			"female:": "77.53 years (2011 est.)"
+			"male:": {
+				"quantity": 73.96,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.53,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.43 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.43,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -132,14 +249,32 @@
 		"Languages": "Arabic (official), English commonly used as a second language",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "89%",
-			"male:": "89.1%",
-			"female:": "88.6% (2004 census)"
+			"total population:": {
+				"quantity": 89,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 89.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 88.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "11 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +288,16 @@
 		"Government type": "emirate",
 		"Capital": {
 			"name:": "Doha",
-			"geographic coordinates:": "25 17 N, 51 32 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 25,
+					"seconds": 17
+				},
+				"E": {
+					"minutes": 51,
+					"seconds": 32
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 municipalities (baladiyat, singular - baladiyah); Ad Dawhah, Al Khawr wa adh Dhakhirah, Al Wakrah, Ar Rayyan, Ash Shamal, Az Za'ayin, Umm Salal",
@@ -198,29 +342,50 @@
 	"economy": {
 		"Economy - overview": "Despite the global financial crisis, Qatar has prospered in the last several years - in 2010 Qatar had the world's highest growth rate. Qatari authorities throughout the crisis sought to protect the local banking sector with direct investments into domestic banks. GDP rebounded in 2010 largely due to the increase in oil prices. Economic policy is focused on developing Qatar's nonassociated natural gas reserves and increasing private and foreign investment in non-energy sectors, but oil and gas still account for more than 50% of GDP, roughly 85% of export earnings, and 70% of government revenues. Oil and gas likely have made Qatar the highest per-capita income country - ahead of Liechtenstein - and the country with the lowest unemployment. Proved oil reserves of 25 billion barrels should enable continued output at current levels for 57 years. Qatar's proved reserves of natural gas exceed 25 trillion cubic meters, about 14% of the world total and third largest in the world. Qatar's successful 2022 world cup bid will likely accelerate large-scale infrastructure projects such as Qatar's metro system and the Qatar-Bahrain causeway.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$150.6 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 150600000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$129.5 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 129500000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "16.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 16.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$179,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.1%",
-			"industry:": "78.8%",
-			"services:": "21.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 78.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 21.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.254 million (2010 est.)",
+			"Labor force": 1254000,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "0.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -229,142 +394,228 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "33% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 33,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$44.62 billion",
-			"expenditures:": "$29.69 billion (2010 est.)"
+			"revenues:": {
+				"usd": 44620000000
+			},
+			"expenditures:": {
+				"usd": 29690000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "10.3% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 10.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "5.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.04% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.04,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$15.98 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 15980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$65.95 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 65950000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$70.9 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 70900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$87.86 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 87860000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fruits, vegetables; poultry, dairy products, beef; fish",
 		"Industries": "liquefied natural gas, crude oil production and refining, ammonia, fertilizers, petrochemicals, steel reinforcing bars, cement, commercial ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "27.1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 27.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "15.11 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 15110000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "13.73 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 13730000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "1.213 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 1213000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "142,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 142000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "753,000 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 753000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "0 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "25.41 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 25410000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "76.98 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 76980000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "20.2 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 20200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "56.78 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 56780000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "25.47 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 25470000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$20.11 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 20110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$57.82 billion (2010 est.)",
+			"Exports": {
+				"usd": 57820000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "liquefied natural gas (LNG), petroleum products, fertilizers, steel",
 		"Exports - partners": "Japan 34.68%, South Korea 22.44%, Singapore 10.03%, India 4.86% (2009)",
 		"Imports": {
-			"Imports": "$23.38 billion (2010 est.)",
+			"Imports": {
+				"usd": 23380000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, food, chemicals",
 		"Imports - partners": "US 13.43%, Italy 8.34%, South Korea 8.33%, Japan 8.04%, Germany 7.31%, France 6.26%, UK 5.59%, China 5%, UAE 4.67%, Saudi Arabia 3.96% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$22.41 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 22410000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$71.38 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 71380000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$26.38 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 26380000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$19.49 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 19490000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "285,300 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.472 million (2009)",
+			"Telephones - mobile cellular": 2472000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -375,37 +626,40 @@
 		"Broadcast media": "television and radio broadcast media are state controlled; home of the satellite TV channel Al-Jazeera, which was originally owned and financed by the Qatari Government; Al-Jazeera claims editorial independence in broadcasting; transmissions of several international broadcasters are accessible on FM in Doha (2007)",
 		"Internet country code": ".qa",
 		"Internet hosts": {
-			"Internet hosts": "822 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "3",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "2",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 145 km; condensate/gas 132 km; gas 980 km; liquid petroleum gas 90 km; oil 382 km (2010)",
 		"Roadways": {
-			"total:": "7,790 km (2006)",
+			"total:": {
+				"quantity": 7790,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "29",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, chemical tanker 2, container 14, liquefied gas 6, petroleum tanker 4",
-			"foreign-owned:": "7 (Kuwait 7)",
+			"foreign-owned:": null,
 			"registered in other countries:": "30 (Liberia 5, Marshall Islands 24, Panama 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -414,16 +668,16 @@
 		"Military branches": "Qatari Amiri Land Force (QALF), Qatari Amiri Navy (QAN), Qatari Amiri Air Force (QAAF) (2009)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "389,487",
-			"females age 16-49:": "165,572 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "321,974",
-			"females age 16-49:": "140,176 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "6,429",
-			"female:": "5,162 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

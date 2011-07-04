@@ -5,24 +5,57 @@
 	"background": "Montevideo, founded by the Spanish in 1726 as a military stronghold, soon took advantage of its natural harbor to become an important commercial center. Claimed by Argentina but annexed by Brazil in 1821, Uruguay declared its independence four years later and secured its freedom in 1828 after a three-year struggle. The administrations of President Jose BATLLE in the early 20th century established widespread political, social, and economic reforms that established a statist tradition. A violent Marxist urban guerrilla movement named the Tupamaros, launched in the late 1960s, led Uruguay's president to cede control of the government to the military in 1973. By yearend, the rebels had been crushed, but the military continued to expand its hold over the government. Civilian rule was not restored until 1985. In 2004, the left-of-center Frente Amplio Coalition won national elections that effectively ended 170 years of political control previously held by the Colorado and Blanco parties. Uruguay's political and labor conditions are among the freest on the continent.",
 	"geo": {
 		"Location": "Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil",
-		"Geographic coordinates": "33 00 S, 56 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 33,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 56,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "176,215 sq km",
+			"total:": {
+				"quantity": 176215,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "175,015 sq km",
-			"water:": "1,200 sq km"
+			"land:": {
+				"quantity": 175015,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1200,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than the state of Washington",
 		"Land boundaries": {
-			"total:": "1,648 km",
+			"total:": {
+				"quantity": 1648,
+				"unit": "km"
+			},
 			"border countries:": "Argentina 580 km, Brazil 1,068 km"
 		},
-		"Coastline": "660 km",
+		"Coastline": {
+			"quantity": 660,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or edge of continental margin"
 		},
 		"Climate": "warm temperate; freezing temperatures almost unknown",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "arable land, hydropower, minor minerals, fish",
 		"Land use": {
-			"arable land:": "7.77%",
-			"permanent crops:": "0.24%",
-			"other:": "91.99% (2005)"
+			"arable land:": {
+				"quantity": 7.77,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.24,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91.99,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,180 sq km (2008)",
-		"Total renewable water resources": "139 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 2180,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 139,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "3.15  cu km/yr (2%/1%/96%)",
-			"per capita:": "910  cu m/yr (2000)"
+			"total:": {
+				"quantity": 3.15,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 910,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "seasonally high winds (the pampero is a chilly and occasional violent wind that blows north from the Argentine pampas), droughts, floods; because of the absence of mountains, which act as weather barriers, all locations are particularly vulnerable to rapid changes from weather fronts",
 		"Environment - current issues": "water pollution from meat packing/tannery industry; inadequate solid/hazardous waste disposal",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,308,535 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "22.2% (male 373,613/female 361,160)",
-			"15-64 years:": "64.1% (male 1,042,163/female 1,078,357)",
+			"0-14 years:": {
+				"quantity": 22.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 64.1,
+				"unit": "%"
+			},
 			"65 years and over:": "13.7% (male 180,729/female 272,513) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "33.6 years",
-			"male:": "32 years",
-			"female:": "35.2 years (2011 est.)"
+			"total:": {
+				"quantity": 33.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 35.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.231% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.231,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "13.52 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 13.52,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.58 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.58,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,39 +161,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "92% of total population (2010)",
-			"rate of urbanization:": "0.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 92,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MONTEVIDEO (capital) 1.633 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.037 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.037,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "9.69 deaths/1,000 live births",
+			"total:": {
+				"quantity": 9.69,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "10.73 deaths/1,000 live births",
-			"female:": "8.61 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 10.73,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.61,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "76.21 years",
+			"total population:": {
+				"quantity": 76.21,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.07 years",
-			"female:": "79.46 years (2011 est.)"
+			"male:": {
+				"quantity": 73.07,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.46,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.89 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.89,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "9,900 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": "NA",
@@ -130,14 +253,32 @@
 		"Languages": "Spanish (official), Portunol, Brazilero (Portuguese-Spanish mix on the Brazilian frontier)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98%",
-			"male:": "97.6%",
-			"female:": "98.4% (2003 est.)"
+			"total population:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 97.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "14 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -152,7 +293,16 @@
 		"Government type": "constitutional republic",
 		"Capital": {
 			"name:": "Montevideo",
-			"geographic coordinates:": "34 53 S, 56 11 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 34,
+					"seconds": 53
+				},
+				"W": {
+					"minutes": 56,
+					"seconds": 11
+				}
+			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins first Sunday in October; ends second Sunday in March"
 		},
@@ -204,139 +354,247 @@
 	"economy": {
 		"Economy - overview": "Uruguay's economy is characterized by an export-oriented agricultural sector, a well-educated work force, and high levels of social spending. Following financial difficulties in the late 1990s and early 2000s, economic growth for Uruguay averaged 8% annually during the period 2004-08. The 2008-09 global financial crisis put a brake on Uruguay's vigorous growth, which decelerated to 2.9% in 2009. Nevertheless, the country managed to avoid a recession and keep positive growth rates, mainly through higher public expenditure and investment, and GDP growth exceeded 8% in 2010.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$47.99 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 47990000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$40.27 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 40270000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$13,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "9.3%",
-			"industry:": "22.8%",
-			"services:": "67.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 9.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 67.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.637 million (2010 est.)",
+			"Labor force": 1637000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "13%",
-			"industry:": "14%",
-			"services:": "73% (2010 est.)"
+			"agriculture:": {
+				"quantity": 13,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 6.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "20.9% of households (2009)",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.6%",
-			"highest 10%:": "35.5% (2007)"
+			"lowest 10%:": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 35.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "47.1 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$17.5 billion",
-			"expenditures:": "$17.9 billion (2010)"
+			"revenues:": {
+				"usd": 17500000000
+			},
+			"expenditures:": {
+				"usd": 17900000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "56% of GDP (September 2010 est.)",
+			"Public debt": {
+				"quantity": 56,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.9% (2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "20% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.6% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.98 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 3980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$14.22 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 14220000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$9.55 billion (31 December 2010)",
+			"Stock of domestic credit": {
+				"usd": 9550000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$238 million (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 238000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "beef, soybeans, cellulose, rice, wheat, lumber, dairy products; fish",
 		"Industries": "food processing, electrical machinery, transportation equipment, petroleum products, textiles, chemicals, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "16.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 16.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "9.89 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 9890000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "7.57 billion kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 7570000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "711.4 million kWh (2010 est.)",
-		"Electricity - imports": "386.8 million kWh (2010 est.)",
+		"Electricity - exports": {
+			"quantity": 711400000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 386800000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "40,110 bbl/day (November 2010 est.)",
+			"Oil - production": {
+				"quantity": 40110,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "34,670 bbl/day (November 2010 est.)",
+			"Oil - consumption": {
+				"quantity": 34670,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "4,353 bbl/day (November 2010 est.)",
+			"Oil - exports": {
+				"quantity": 4353,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "53,110 bbl/day (November 2010 est.)",
+			"Oil - imports": {
+				"quantity": 53110,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "70 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 70000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "76.6 million cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 76600000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -344,42 +602,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$6.7 billion (2010 est.)",
+			"Exports": {
+				"usd": 6700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "beef, soybeans, cellulose, rice, wheat, wood, dairy products; wool",
 		"Exports - partners": "Brazil 21%, Nueva Palmira Free Zone 10.2%, Argentina 7.5%, Chile 5.5%, Russia 5.3% (2010 est.)",
 		"Imports": {
-			"Imports": "$8.3 billion (2010 est.)",
+			"Imports": {
+				"usd": 8300000000.000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "crude oil (13.4%), refined oil (4.9%), passenger vehicles (3.5%), transportation vehicles (2.7%), vehicles parts (2.2%), cellular phones (2.1%), insecticides (1.7%)",
 		"Imports - partners": "Brazil 18.6%, Argentina 16.7%, China 13.5%, Venezuela 9.1%, US 8.3%, Russia 4.2% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$7.7 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 7700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$13.39 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 13390000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$9.1 billion (30 September 2010)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 9100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$300 million (2009 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "953,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "4.112 million (2009)",
+			"Telephones - mobile cellular": 4112000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -390,50 +660,65 @@
 		"Broadcast media": "mixture of privately-owned and state-run broadcast media; more than 100 commercial radio stations and about 20 television channels broadcasting; cable TV is available; large number of community radio and TV stations; adopted the hybrid Japanese/Brazilian HDTV standard (ISDB-T) in December 2010 (2010)",
 		"Internet country code": ".uy",
 		"Internet hosts": {
-			"Internet hosts": "765,525 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "58 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "9",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "49",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "20",
-			"under 914 m:": "26 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 226 km; oil 155 km (2010)",
 		"Railways": {
-			"total:": "1,641 km",
+			"total:": {
+				"quantity": 1641,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "1,641 km 1.435-m gauge (1,200 km operational) (2010)"
 		},
 		"Roadways": {
-			"total:": "77,732 km",
+			"total:": {
+				"quantity": 77732,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "7,743 km",
-			"unpaved:": "69,989 km (2010)"
+			"paved:": {
+				"quantity": 7743,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 69989,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
-			"Waterways": "1,600 km (2010)",
+			"Waterways": {
+				"quantity": 1600,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "18",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 2, chemical tanker 4, passenger/cargo 7, petroleum tanker 3, roll on/roll off 1",
-			"foreign-owned:": "9 (Argentina 2, Denmark 1, Greece 1, Spain 5)",
+			"foreign-owned:": null,
 			"registered in other countries:": "1 (Liberia 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -442,16 +727,16 @@
 		"Military branches": "Uruguayan Armed Forces: Uruguayan National Army (Ejercito Nacional Uruguaya, ENU), Uruguayan National Navy (Armada Nacional del Uruguay; includes naval air arm, Naval Rifle Corps (Cuerpo de Fusileros Navales, Fusna), Maritime Prefecture in wartime), Uruguayan Air Force (Fuerza Aerea Uruguaya, FAU) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; up to 40 years of age for specialists; enlistment is voluntary in peacetime, but the government has the authority to conscript in emergencies; minimum 6-year education (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "771,159",
-			"females age 16-49:": "780,932 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "649,025",
-			"females age 16-49:": "654,903 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "27,564",
-			"female:": "26,811 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

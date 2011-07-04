@@ -5,20 +5,44 @@
 	"background": "Formerly the British protectorate of Bechuanaland, Botswana adopted its new name upon independence in 1966. Four decades of uninterrupted civilian leadership, progressive social policies, and significant capital investment have created one of the most dynamic economies in Africa. Mineral extraction, principally diamond mining, dominates economic activity, though tourism is a growing sector due to the country's conservation practices and extensive nature preserves. Botswana has one of the world's highest known rates of HIV/AIDS infection, but also one of Africa's most progressive and comprehensive programs for dealing with the disease.",
 	"geo": {
 		"Location": "Southern Africa, north of South Africa",
-		"Geographic coordinates": "22 00 S, 24 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 22,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 24,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "581,730 sq km",
+			"total:": {
+				"quantity": 581730,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "566,730 sq km",
-			"water:": "15,000 sq km"
+			"land:": {
+				"quantity": 566730,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 15000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Texas",
 		"Land boundaries": {
-			"total:": "4,013 km",
+			"total:": {
+				"quantity": 4013,
+				"unit": "km"
+			},
 			"border countries:": "Namibia 1,360 km, South Africa 1,840 km, Zimbabwe 813 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "semiarid; warm winters and hot summers",
 		"Terrain": "predominantly flat to gently rolling tableland; Kalahari Desert in southwest",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "diamonds, copper, nickel, salt, soda ash, potash, coal, iron ore, silver",
 		"Land use": {
-			"arable land:": "0.65%",
-			"permanent crops:": "0.01%",
-			"other:": "99.34% (2005)"
+			"arable land:": {
+				"quantity": 0.65,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.01,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.34,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "20 sq km (2008)",
-		"Total renewable water resources": "14.7 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 20,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 14.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.19  cu km/yr (41%/18%/41%)",
-			"per capita:": "107  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.19,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 107,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "periodic droughts; seasonal August winds blow from the west, carrying sand and dust across the country, which can obscure visibility",
 		"Environment - current issues": "overgrazing; desertification; limited freshwater resources",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,065,398 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "33.9% (male 356,346/female 343,452)",
-			"15-64 years:": "62.2% (male 649,931/female 634,998)",
+			"0-14 years:": {
+				"quantity": 33.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 62.2,
+				"unit": "%"
+			},
 			"65 years and over:": "3.9% (male 32,542/female 48,129) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.3 years",
-			"male:": "22.2 years",
-			"female:": "22.4 years (2011 est.)"
+			"total:": {
+				"quantity": 22.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.656% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.656,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.31 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.31,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.57 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.57,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "4.82 migrant(s)/1,000 population",
+			"Net migration rate": {
+				"quantity": 4.82,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "61% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 61,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "GABORONE (capital) 196,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.68 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.68,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11.14 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11.14,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "11.76 deaths/1,000 live births",
-			"female:": "10.51 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 11.76,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 10.51,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "58.05 years",
+			"total population:": {
+				"quantity": 58.05,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.78 years",
-			"female:": "57.3 years (2011 est.)"
+			"male:": {
+				"quantity": 58.78,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 57.3,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.5 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.5,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "24.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 24.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "320,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "5,800 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -133,14 +250,32 @@
 		"Languages": "Setswana 78.2%, Kalanga 7.9%, Sekgalagadi 2.8%, English (official) 2.1%, other 8.6%, unspecified 0.4% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "81.2%",
-			"male:": "80.4%",
-			"female:": "81.8% (2003 est.)"
+			"total population:": {
+				"quantity": 81.2,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 80.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 81.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2007)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -155,7 +290,16 @@
 		"Government type": "parliamentary republic",
 		"Capital": {
 			"name:": "Gaborone",
-			"geographic coordinates:": "24 45 S, 25 55 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 24,
+					"seconds": 45
+				},
+				"E": {
+					"minutes": 25,
+					"seconds": 55
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "9 districts and 5 town councils*; Central, Francistown*, Gaborone*, Ghanzi, Jwaneng*, Kgalagadi, Kgatleng, Kweneng, Lobatse*, Northeast, Northwest, Selebi-Pikwe*, Southeast, Southern",
@@ -205,22 +349,40 @@
 	"economy": {
 		"Economy - overview": "Botswana has maintained one of the world's highest economic growth rates since independence in 1966, though growth fell below 5% in 2007-08, and turned sharply negative in 2009, with industry falling nearly 30%. Through fiscal discipline and sound management, Botswana transformed itself from one of the poorest countries in the world to a middle-income country with a per capita GDP of $13,100 in 2010. Two major investment services rank Botswana as the best credit risk in Africa. Diamond mining has fueled much of the expansion and currently accounts for more than one-third of GDP, 70-80% of export earnings, and about half of the government's revenues. Botswana's heavy reliance on a single luxury export was a critical factor in the sharp economic contraction of 2009. Tourism, financial services, subsistence farming, and cattle raising are other key sectors. Although unemployment was 7.5% in 2007 according to official reports, unofficial estimates place it closer to 40%. The prevalence of HIV/AIDS is second highest in the world and threatens Botswana's impressive economic gains. An expected leveling off in diamond mining production within the next two decades overshadows long-term prospects.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$28.49 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 28490000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$14.03 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 14030000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$14,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.3%",
-			"industry:": "45.8%",
-			"services:": "51.9% (2009 est.)"
+			"agriculture:": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 45.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
 			"Labor force": "685,300 formal sector employees (2007)",
@@ -232,112 +394,190 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.5% (2007 est.)",
+			"Unemployment rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "30.3% (2003)",
+		"Population below poverty line": {
+			"quantity": 30.3,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "63 (1993)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "28.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 28.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$4.165 billion",
-			"expenditures:": "$5.888 billion (2010 est.)"
+			"revenues:": {
+				"usd": 4165000000
+			},
+			"expenditures:": {
+				"usd": 5888000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "22.6% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 22.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "7.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "10% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "13.76% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 13.76,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.146 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1146000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$6.679 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 6679000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.361 billion (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 1361000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$3.991 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 3991000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "livestock, sorghum, maize, millet, beans, sunflowers, groundnuts",
 		"Industries": "diamonds, copper, nickel, salt, soda ash, potash, coal, iron ore, silver; livestock processing; textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.052 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 1052000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.648 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2648000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "2.181 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 2181000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "15,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 15000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "15,180 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 15180,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -345,32 +585,40 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$4.419 billion (2010 est.)",
+			"Exports": {
+				"usd": 4419000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "diamonds, copper, nickel, soda ash, meat, textiles",
 		"Imports": {
-			"Imports": "$4.518 billion (2010 est.)",
+			"Imports": {
+				"usd": 4518000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery, electrical goods, transport equipment, textiles, fuel and petroleum products, wood and paper products, metal and metal products",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$7.834 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 7834000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.222 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 2222000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "144,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.874 million (2009)",
+			"Telephones - mobile cellular": 1874000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -381,30 +629,33 @@
 		"Broadcast media": "2 TV stations - 1 state-owned and 1 privately-owned; privately-owned satellite TV subscription service is available; 2 state-owned national radio stations; 3 privately-owned radio stations broadcast locally (2007)",
 		"Internet country code": ".bw",
 		"Internet hosts": {
-			"Internet hosts": "2,739 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "78 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "9",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "69",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "52",
-			"under 914 m:": "13 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "888 km",
+			"total:": {
+				"quantity": 888,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "888 km 1.067-m gauge (2010)"
 		},
@@ -414,16 +665,16 @@
 		"Military branches": "Botswana Defense Force (BDF): Ground Forces Command, Air Arm Command, Logistics Command (2011)",
 		"Military service age and obligation": "18 is the apparent age of voluntary military service; official minimum age is unknown (2001)",
 		"Manpower available for military service": {
-			"males age 16-49:": "557,647",
-			"females age 16-49:": "531,095 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "340,949",
-			"females age 16-49:": "302,332 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "23,649",
-			"female:": "23,063 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

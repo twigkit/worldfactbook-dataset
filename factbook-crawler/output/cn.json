@@ -5,20 +5,50 @@
 	"background": "Comoros has endured more than 20 coups or attempted coups since gaining independence from France in 1975. In 1997, the islands of Anjouan and Moheli declared independence from Comoros. In 1999, military chief Col. AZALI seized power in a bloodless coup, and helped negotiate the 2000 Fomboni Accords power-sharing agreement in which the federal presidency rotates among the three islands, and each island maintains its own local government. AZALI won the 2002 presidential election, and each island in the archipelago elected its own president. AZALI stepped down in 2006 and President SAMBI was elected to office. In 2007, Mohamed BACAR effected Anjouan's de-facto secession from the Union, refusing to step down in favor of fresh Anjouanais elections when Comoros' other islands held legitimate elections in July. The African Union (AU) initially attempted to resolve the political crisis by applying sanctions and a naval blockade on Anjouan, but in March 2008, AU and Comoran soldiers seized the island. The move was generally welcomed by the island's inhabitants.",
 	"geo": {
 		"Location": "Southern Africa, group of islands at the northern mouth of the Mozambique Channel, about two-thirds of the way between northern Madagascar and northern Mozambique",
-		"Geographic coordinates": "12 10 S, 44 15 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 12,
+				"seconds": 10
+			},
+			"E": {
+				"minutes": 44,
+				"seconds": 15
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "2,235 sq km",
+			"total:": {
+				"quantity": 2235,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "2,235 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 2235,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than 12 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "340 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 340,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine; rainy season (November to May)",
 		"Terrain": "volcanic islands, interiors vary from steep mountains to low hills",
@@ -28,15 +58,33 @@
 		},
 		"Natural resources": "NEGL",
 		"Land use": {
-			"arable land:": "35.87%",
-			"permanent crops:": "23.32%",
-			"other:": "40.81% (2005)"
+			"arable land:": {
+				"quantity": 35.87,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 23.32,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 40.81,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "1.2 cu km (2003)",
+		"Total renewable water resources": {
+			"quantity": 1.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.01  cu km/yr (48%/5%/47%)",
-			"per capita:": "13  cu m/yr (1999)"
+			"total:": {
+				"quantity": 0.01,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 13,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "cyclones possible during rainy season (December to April); volcanic activity on Grand Comore",
@@ -51,65 +99,137 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "794,683 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "41.6% (male 166,141/female 164,788)",
-			"15-64 years:": "55.3% (male 217,046/female 222,093)",
+			"0-14 years:": {
+				"quantity": 41.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 55.3,
+				"unit": "%"
+			},
 			"65 years and over:": "3.1% (male 11,053/female 13,562) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19 years",
-			"male:": "18.7 years",
-			"female:": "19.3 years (2011 est.)"
+			"total:": {
+				"quantity": 19,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.696% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.696,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "34.19 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 34.19,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.23 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.23,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "28% of total population (2010)",
-			"rate of urbanization:": "2.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 28,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MORONI (capital) 49,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "62.63 deaths/1,000 live births",
+			"total:": {
+				"quantity": 62.63,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "70.3 deaths/1,000 live births",
-			"female:": "54.73 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 70.3,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 54.73,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "64.2 years",
+			"total population:": {
+				"quantity": 64.2,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "61.76 years",
-			"female:": "66.72 years (2011 est.)"
+			"male:": {
+				"quantity": 61.76,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 66.72,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.72 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.72,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
@@ -131,14 +251,32 @@
 		"Languages": "Arabic (official), French (official), Shikomoro (a blend of Swahili and Arabic)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "56.5%",
-			"male:": "63.6%",
-			"female:": "49.3% (2003 est.)"
+			"total population:": {
+				"quantity": 56.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 63.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 49.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "12 years",
-			"female:": "10 years (2005)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -152,7 +290,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Moroni",
-			"geographic coordinates:": "11 42 S, 43 14 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 11,
+					"seconds": 42
+				},
+				"E": {
+					"minutes": 43,
+					"seconds": 14
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 islands and 4 municipalities*; Grande Comore (N'gazidja), Anjouan (Ndzuwani), Domoni*, Fomboni*, Moheli (Mwali), Moroni*, Moutsamoudou*",
@@ -194,150 +341,253 @@
 	"economy": {
 		"Economy - overview": "One of the world's poorest countries, Comoros is made up of three islands that have inadequate transportation links, a young and rapidly increasing population, and few natural resources. The low educational level of the labor force contributes to a subsistence level of economic activity, high unemployment, and a heavy dependence on foreign grants and technical assistance. Agriculture, including fishing, hunting, and forestry, contributes 40% to GDP, employs 80% of the labor force, and provides most of the exports. Export income is heavily reliant on the three main crops of vanilla, cloves, and ylang-ylang and Comoros' export earnings are easily disrupted by disasters such as fires. The country is not self-sufficient in food production; rice, the main staple, accounts for the bulk of imports. The government - which is hampered by internal political disputes - lacks a comprehensive strategy to attract foreign investment and is struggling to upgrade education and technical training, privatize commercial and industrial enterprises, improve health services, diversify exports, promote tourism, and reduce the high population growth rate. Political problems have inhibited growth, which has averaged only about 1% in 2006-09. Remittances from 150,000 Comorans abroad help supplement GDP. In September 2009 the IMF approved Comoros for a three-year $21 million loan. The IMF gave generally positive reports of the country's program performance as of October 2010. The African Development Bank approved a $34.6 million debt-relief package loan for Comoros in September 2010, and Comoros will attempt to qualify for debt relief in 2012 under the IMF and World Bank's Heavily Indebted Poor Countries (HIPC) initiative.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$800 million (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 800000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$534 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 534000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "40%",
-			"industry:": "4%",
-			"services:": "56% (2001 est.)"
+			"agriculture:": {
+				"quantity": 40,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 56,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "268,500 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "80%",
-			"industry and services:": "20% (1996 est.)"
+			"agriculture:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "20% (1996 est.)",
+			"Unemployment rate": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "60% (2002 est.)",
+		"Population below poverty line": {
+			"quantity": 60,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.9%",
-			"highest 10%:": "55.2% (2004)"
+			"lowest 10%:": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 55.2,
+				"unit": "%"
+			}
 		},
 		"Budget": {
-			"revenues:": "$27.6 million",
+			"revenues:": {
+				"usd": 27600000
+			},
 			"expenditures:": "$NA (2001 est.)"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "2.21% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 2.21,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.5% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$104.7 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 104700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$168.6 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 168600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$79.75 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 79750000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "vanilla, cloves, ylang-ylang (perfume essence), copra, coconuts, bananas, cassava (tapioca)",
 		"Industries": "fishing, tourism, perfume distillation",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "22 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 22000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "20.46 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 20460000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "766.2 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 766.2,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$8 million (2007 est.)",
+			"Current account balance": {
+				"usd": 8000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$32 million (2006)",
+			"Exports": {
+				"usd": 32000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "vanilla, ylang-ylang (perfume essence), cloves, copra",
 		"Exports - partners": "Turkey 25.2%, France 20.44%, Singapore 17.44%, Algeria 8.02%, Italy 6.09%, Saudi Arabia 5% (2009)",
 		"Imports": {
-			"Imports": "$143 million (2006)",
+			"Imports": {
+				"usd": 143000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "rice and other foodstuffs, consumer goods, petroleum products, cement, transport equipment",
 		"Imports - partners": "France 15.5%, China 14.66%, India 10.55%, UAE 7.88%, Pakistan 5.69%, Kenya 4.51% (2009)",
 		"Debt - external": {
-			"Debt - external": "$232 million (2000 est.)",
+			"Debt - external": {
+				"usd": 232000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "25,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "100,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -346,31 +596,43 @@
 			"international:": "country code - 269; HF radiotelephone communications to Madagascar and Reunion"
 		},
 		"Broadcast media": "national state-owned TV station and a TV station run by Anjouan regional government; national state-owned radio; regional governments on the islands of Grande Comore and Anjouan each operate a radio station; a few independent and small community radio stations operate on the islands of Grande Comore and Moheli, and these two islands have access to Mayotte Radio and French TV (2007)",
-		"Internet country code": ".km",
+		"Internet country code": {
+			"quantity": null,
+			"unit": "km"
+		},
 		"Internet hosts": {
-			"Internet hosts": "14 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "4 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Roadways": {
-			"total:": "880 km",
+			"total:": {
+				"quantity": 880,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "673 km",
-			"unpaved:": "207 km (2002)"
+			"paved:": {
+				"quantity": 673,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 207,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "177",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 19, cargo 102, carrier 5, chemical tanker 6, container 2, passenger 3, passenger/cargo 1, petroleum tanker 15, refrigerated cargo 12, roll on/roll off 12",
 			"foreign-owned:": "98 (Bangladesh 1, Bulgaria 8, China 1, Cyprus 2, Greece 3, Kenya 1, Kuwait 1, Latvia 1, Lebanon 3, Lithuania 3, Monaco 1, Nigeria 1, Norway 2, Pakistan 3, Russia 21, Syria 6, Turkey 16, UAE 11, UK 1, Ukraine 10, US 2) (2010)"
@@ -381,16 +643,16 @@
 		"Military branches": "Army of National Development (AND): Comoran Security Force, Comoran Coast Guard, Comoran Federal Police (2011)",
 		"Military service age and obligation": "18 years of age for 2-year voluntary military service; no conscription; women first inducted into the Army in 2004 (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "184,236",
-			"females age 16-49:": "183,363 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "134,562",
-			"females age 16-49:": "145,797 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "8,831",
-			"female:": "8,809 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

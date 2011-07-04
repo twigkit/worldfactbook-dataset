@@ -5,20 +5,50 @@
 	"background": "First settled by the French in the early 17th century, the islands represent the sole remaining vestige of France's once vast North American possessions.",
 	"geo": {
 		"Location": "Northern North America, islands in the North Atlantic Ocean, south of Newfoundland (Canada)",
-		"Geographic coordinates": "46 50 N, 56 20 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 46,
+				"seconds": 50
+			},
+			"W": {
+				"minutes": 56,
+				"seconds": 20
+			}
+		},
 		"Map references": "North America",
 		"Area": {
-			"total:": "242 sq km",
+			"total:": {
+				"quantity": 242,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "242 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 242,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "one and half times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "120 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 120,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "cold and wet, with considerable mist and fog; spring and autumn are often windy",
 		"Terrain": "mostly barren rock",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "fish, deepwater ports",
 		"Land use": {
-			"arable land:": "12.5%",
-			"permanent crops:": "0%",
-			"other:": "87.5% (2005)"
+			"arable land:": {
+				"quantity": 12.5,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.5,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "persistent fog throughout the year can be a maritime hazard",
@@ -39,29 +78,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,888 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "17.1% (male 518/female 487)",
-			"15-64 years:": "67.1% (male 2,004/female 1,949)",
+			"0-14 years:": {
+				"quantity": 17.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.1,
+				"unit": "%"
+			},
 			"65 years and over:": "15.8% (male 379/female 551) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.6 years",
-			"male:": "42.2 years",
-			"female:": "43 years (2011 est.)"
+			"total:": {
+				"quantity": 42.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 42.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.968% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "8.32 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 8.32,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.83 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.83,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -69,31 +129,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "91% of total population (2010)",
-			"rate of urbanization:": "0.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 91,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SAINT-PIERRE (capital) 5,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.042 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.68 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.042,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.68,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "7.47 deaths/1,000 live births",
+			"total:": {
+				"quantity": 7.47,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "8.71 deaths/1,000 live births",
-			"female:": "6.15 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 8.71,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 6.15,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.87 years",
+			"total population:": {
+				"quantity": 79.87,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "77.61 years",
-			"female:": "82.26 years (2011 est.)"
+			"male:": {
+				"quantity": 77.61,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.26,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.55 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.55,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -108,9 +210,18 @@
 		"Languages": "French (official)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (1982 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -126,7 +237,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Saint-Pierre",
-			"geographic coordinates:": "46 46 N, 56 11 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 46,
+					"seconds": 46
+				},
+				"W": {
+					"minutes": 56,
+					"seconds": 11
+				}
+			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins second Sunday in March; ends first Sunday in November"
 		},
@@ -161,13 +281,17 @@
 	"economy": {
 		"Economy - overview": "The inhabitants have traditionally earned their livelihood by fishing and by servicing fishing fleets operating off the coast of Newfoundland. The economy has been declining, however, because of disputes with Canada over fishing quotas and a steady decline in the number of ships stopping at Saint Pierre. In 1992, an arbitration panel awarded the islands an exclusive economic zone of 12,348 sq km to settle a longstanding territorial dispute with Canada, although it represents only 25% of what France had sought. France heavily subsidizes the islands to the great betterment of living standards. The government hopes an expansion of tourism will boost economic prospects. Fish farming, crab fishing, and agriculture are being developed to diversify the local economy. Recent test drilling for oil may pave the way for development of the energy sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$48.3 million (2003 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 48300000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$7,000 (2001 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -176,16 +300,28 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "3,450 (2005)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "18%",
-			"industry:": "41%",
-			"services:": "41% (1996 est.)"
+			"agriculture:": {
+				"quantity": 18,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 41,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 41,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10.3% (1999)",
+			"Unemployment rate": {
+				"quantity": 10.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -194,73 +330,126 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$70 million",
-			"expenditures:": "$60 million (1996 est.)"
+			"revenues:": {
+				"usd": 70000000
+			},
+			"expenditures:": {
+				"usd": 60000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "8.1% (2005)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 8.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "vegetables; poultry, cattle, sheep, pigs; fish",
 		"Industries": "fish processing and supply base for fishing fleets; tourism",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "53 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 53000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "49.29 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 49290000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "563.6 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 563.6,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.5 million (2005 est.)",
+			"Exports": {
+				"usd": 5500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish and fish products, soybeans, animal feed, mollusks and crustaceans, fox and mink pelts",
 		"Imports": {
-			"Imports": "$68.2 million (2005 est.)",
+			"Imports": {
+				"usd": 68200000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "meat, clothing, fuel, electrical equipment, machinery, building materials",
@@ -269,7 +458,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -283,30 +472,39 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Roadways": {
-			"total:": "117 km",
+			"total:": {
+				"quantity": 117,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "80 km",
-			"unpaved:": "37 km (2000)"
+			"paved:": {
+				"quantity": 80,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 37,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,064",
-			"females age 16-49:": "1,069 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "34",
-			"female:": "32 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

@@ -5,17 +5,38 @@
 	"background": "Eastern Turkmenistan for centuries formed part of the Persian province of Khurasan; in medieval times Merv (today known as Mary) was one of the great cities of the Islamic world and an important stop on the Silk Road. Annexed by Russia between 1865 and 1885, Turkmenistan became a Soviet republic in 1924. It achieved independence upon the dissolution of the USSR in 1991. Extensive hydrocarbon/natural gas reserves could prove a boon to this underdeveloped country once extraction and delivery projects are expanded. The Turkmen Government is actively working to diversify its gas export routes beyond the still dominant Russian pipeline network. In 2010, new gas export pipelines that carry Turkmen gas to China and to northern Iran began operating, effectively ending the Russian monopoly on Turkmen gas exports. President for Life Saparmurat NYYAZOW died in December 2006, and Turkmenistan held its first multi-candidate presidential election in February 2007. Gurbanguly BERDIMUHAMEDOW, a deputy cabinet chairman under NYYAZOW, emerged as the country's new president.",
 	"geo": {
 		"Location": "Central Asia, bordering the Caspian Sea, between Iran and Kazakhstan",
-		"Geographic coordinates": "40 00 N, 60 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 40,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 60,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "488,100 sq km",
+			"total:": {
+				"quantity": 488100,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "469,930 sq km",
-			"water:": "18,170 sq km"
+			"land:": {
+				"quantity": 469930,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 18170,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than California",
 		"Land boundaries": {
-			"total:": "3,736 km",
+			"total:": {
+				"quantity": 3736,
+				"unit": "km"
+			},
 			"border countries:": "Afghanistan 744 km, Iran 992 km, Kazakhstan 379 km, Uzbekistan 1,621 km"
 		},
 		"Coastline": "0 km; note - Turkmenistan borders the Caspian Sea (1,768 km)",
@@ -28,15 +49,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, sulfur, salt",
 		"Land use": {
-			"arable land:": "4.51%",
-			"permanent crops:": "0.14%",
-			"other:": "95.35% (2005)"
+			"arable land:": {
+				"quantity": 4.51,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.14,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 95.35,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "18,000 sq km (2008)",
-		"Total renewable water resources": "60.9 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 18000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 60.9,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "24.65  cu km/yr (2%/1%/98%)",
-			"per capita:": "5,104  cu m/yr (2000)"
+			"total:": {
+				"quantity": 24.65,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 5104,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "contamination of soil and groundwater with agricultural chemicals, pesticides; salination, water logging of soil due to poor irrigation methods; Caspian Sea pollution; diversion of a large share of the flow of the Amu Darya into irrigation contributes to that river's inability to replenish the Aral Sea; desertification",
@@ -48,29 +90,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,997,503 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "27.5% (male 696,749/female 679,936)",
-			"15-64 years:": "68.4% (male 1,692,885/female 1,724,019)",
+			"0-14 years:": {
+				"quantity": 27.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.4,
+				"unit": "%"
+			},
 			"65 years and over:": "4.1% (male 88,590/female 115,324) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "25.3 years",
-			"male:": "24.9 years",
-			"female:": "25.8 years (2011 est.)"
+			"total:": {
+				"quantity": 25.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 24.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 25.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.138% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.138,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "19.54 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 19.54,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.24 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.24,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,31 +144,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "50% of total population (2010)",
-			"rate of urbanization:": "2.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 50,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ASHGABAT (capital) 637,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.77 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.77,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "42.34 deaths/1,000 live births",
+			"total:": {
+				"quantity": 42.34,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "50.42 deaths/1,000 live births",
-			"female:": "33.85 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 50.42,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 33.85,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "68.52 years",
+			"total population:": {
+				"quantity": 68.52,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.57 years",
-			"female:": "71.63 years (2011 est.)"
+			"male:": {
+				"quantity": 65.57,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 71.63,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.16 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.16,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -128,9 +236,18 @@
 		"Languages": "Turkmen (official) 72%, Russian 12%, Uzbek 9%, other 7%",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98.8%",
-			"male:": "99.3%",
-			"female:": "98.3% (1999 est.)"
+			"total population:": {
+				"quantity": 98.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -146,7 +263,16 @@
 		"Government type": "defines itself as a secular democracy and a presidential republic; in actuality displays authoritarian presidential rule, with power concentrated within the presidential administration",
 		"Capital": {
 			"name:": "Ashgabat (Ashkhabad)",
-			"geographic coordinates:": "37 57 N, 58 23 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 37,
+					"seconds": 57
+				},
+				"E": {
+					"minutes": 58,
+					"seconds": 23
+				}
+			},
 			"time difference:": "UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -197,159 +323,269 @@
 	"economy": {
 		"Economy - overview": "Turkmenistan is largely a desert country with intensive agriculture in irrigated oases and sizeable gas and oil resources. The two largest crops are cotton, most of which is produced for export, and wheat, which is domestically consumed. Although agriculture accounts for roughly 10% of GDP, it continues to employ nearly half of the country's workforce. With an authoritarian ex-Communist regime in power and a tribally based social structure, Turkmenistan has taken a cautious approach to economic reform, hoping to use gas and cotton export revenues to sustain its inefficient economy. Privatization goals remain limited. From 1998-2005, Turkmenistan suffered from the continued lack of adequate export routes for natural gas and from obligations on extensive short-term external debt. At the same time, however, total exports rose by an average of roughly 15% per year from 2003-08, largely because of higher international oil and gas prices. New pipelines to China and Iran, that began operation in early 2010, have given Turkmenistan additional export routes for its gas, although these new routes have not offset the sharp drop in export revenue since early 2009 from decreased gas exports to Russia. Overall prospects in the near future are discouraging because of widespread internal poverty, endemic corruption, a poor educational system, government misuse of oil and gas revenues, and Ashgabat's reluctance to adopt market-oriented reforms. In the past, Turkmenistan's economic statistics were state secrets. The new government has established a State Agency for Statistics, but GDP numbers and other figures are subject to wide margins of error. In particular, the rate of GDP growth is uncertain. Since his election, President BERDIMUHAMEDOW unified the country's dual currency exchange rate, ordered the redenomination of the manat, reduced state subsidies for gasoline, and initiated development of a special tourism zone on the Caspian Sea. Although foreign investment is encouraged, numerous bureaucratic obstacles impede international business activity.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$36.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 36900000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$27.96 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 27960000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "9.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 9.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$7,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "10.2%",
-			"industry:": "30%",
-			"services:": "59.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 10.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 59.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.3 million (2008 est.)",
+			"Labor force": 2300000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "48.2%",
-			"industry:": "14%",
-			"services:": "37.8% (2004 est.)"
+			"agriculture:": {
+				"quantity": 48.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 37.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "60% (2004 est.)",
+			"Unemployment rate": {
+				"quantity": 60,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "30% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 30,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "31.7% (1998)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 31.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "40.8 (1998)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "12.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 12.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.97 billion",
-			"expenditures:": "$1.878 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1970000000
+			},
+			"expenditures:": {
+				"usd": 1878000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "12% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$573 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 573000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.053 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1052999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.089 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2089000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, grain; livestock",
 		"Industries": "natural gas, oil, petroleum products, textiles, food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7.3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "15.5 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 15500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "13 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 13000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "2.5 billion kWh (2009 est.)",
-		"Electricity - imports": "0 kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 2500000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "197,700 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 197700,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "120,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 120000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "38,360 bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 38360,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "0 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "600 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 600000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "34 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 34000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "20 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 20000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "14 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 14000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "7.504 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 7504000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$3.081 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 3081000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$9.672 billion (2010 est.)",
+			"Exports": {
+				"usd": 9672000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "gas, crude oil, petrochemicals, textiles, cotton fiber",
 		"Exports - partners": "Ukraine 22.3%, Turkey 10.27%, Hungary 6.75%, UAE 6.25%, Poland 6.16%, Afghanistan 5.79%, Iran 5.17% (2009)",
 		"Imports": {
-			"Imports": "$4.888 billion (2010 est.)",
+			"Imports": {
+				"usd": 4888000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, foodstuffs",
 		"Imports - partners": "China 18.03%, Turkey 16.49%, Russia 16.45%, Germany 5.91%, UAE 5.81%, Ukraine 5.67%, US 5.41%, France 4.32% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$10.81 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 10810000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$5 billion (2009 est.)",
+			"Debt - external": {
+				"usd": 5000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "478,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.5 million (2009)",
+			"Telephones - mobile cellular": 1500000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -360,47 +596,59 @@
 		"Broadcast media": "broadcast media is government controlled and censored; 4 state-owned TV and 4 state-owned radio networks; satellite dishes and programming provide an alternative to the state-run media; officials sometimes limit access to satellite TV by seizing satellite dishes (2007)",
 		"Internet country code": ".tm",
 		"Internet hosts": {
-			"Internet hosts": "794 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "27 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "22",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "10",
-			"1,524 to 2,437 m:": "9",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "5",
-			"1,524 to 2,437 m:": "1",
-			"under 914 m:": "4 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 7,352 km; oil 1,457 km (2010)",
 		"Railways": {
-			"total:": "2,980 km",
+			"total:": {
+				"quantity": 2980,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "2,980 km 1.520-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "58,592 km",
+			"total:": {
+				"quantity": 58592,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "47,577 km",
-			"unpaved:": "11,015 km (2002)"
+			"paved:": {
+				"quantity": 47577,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 11015,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,300 km (Amu Darya and Kara Kum canal are important inland waterways) (2008)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "9",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 4, petroleum tanker 4, refrigerated cargo 1",
 			"foreign-owned:": "1 (Turkey 1) (2010)"
@@ -411,16 +659,16 @@
 		"Military branches": "Army, Navy, Air and Air Defense Forces (2010)",
 		"Military service age and obligation": "18-30 years of age for compulsory military service; 2-year conscript service obligation (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,380,794",
-			"females age 16-49:": "1,387,211 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,066,649",
-			"females age 16-49:": "1,185,538 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "53,829",
-			"female:": "52,988 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,23 +5,53 @@
 	"background": "Finland was a province and then a grand duchy under Sweden from the 12th to the 19th centuries, and an autonomous grand duchy of Russia after 1809. It won its complete independence in 1917. During World War II, it was able to successfully defend its freedom and resist invasions by the Soviet Union - albeit with some loss of territory. In the subsequent half century, the Finns made a remarkable transformation from a farm/forest economy to a diversified modern industrial economy; per capita income is now among the highest in Western Europe. A member of the European Union since 1995, Finland was the only Nordic state to join the euro system at its initiation in January 1999. In the 21st century, the key features of Finland's modern welfare state are a high standard of education, equality promotion, and national social security system - currently challenged by an aging population and the fluctuations of an export-driven economy.",
 	"geo": {
 		"Location": "Northern Europe, bordering the Baltic Sea, Gulf of Bothnia, and Gulf of Finland, between Sweden and Russia",
-		"Geographic coordinates": "64 00 N, 26 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 64,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 26,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "338,145 sq km",
+			"total:": {
+				"quantity": 338145,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "303,815 sq km",
-			"water:": "34,330 sq km"
+			"land:": {
+				"quantity": 303815,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 34330,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Montana",
 		"Land boundaries": {
-			"total:": "2,654 km",
+			"total:": {
+				"quantity": 2654,
+				"unit": "km"
+			},
 			"border countries:": "Norway 727 km, Sweden 614 km, Russia 1,313 km"
 		},
-		"Coastline": "1,250 km",
+		"Coastline": {
+			"quantity": 1250,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm (in the Gulf of Finland - 3 nm)",
-			"contiguous zone:": "24 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
 			"exclusive fishing zone:": "12 nm; extends to continental shelf boundary with Sweden",
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
@@ -33,15 +63,36 @@
 		},
 		"Natural resources": "timber, iron ore, copper, lead, zinc, chromite, nickel, gold, silver, limestone",
 		"Land use": {
-			"arable land:": "6.54%",
-			"permanent crops:": "0.02%",
-			"other:": "93.44% (2005)"
+			"arable land:": {
+				"quantity": 6.54,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.02,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 93.44,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "770 sq km (2008)",
-		"Total renewable water resources": "110 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 770,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 110,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.33  cu km/yr (14%/84%/3%)",
-			"per capita:": "444  cu m/yr (1999)"
+			"total:": {
+				"quantity": 2.33,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 444,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "air pollution from manufacturing and power plants contributing to acid rain; water pollution from industrial wastes, agricultural chemicals; habitat loss threatens wildlife populations",
@@ -53,69 +104,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,259,250 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "16% (male 429,450/female 414,570)",
-			"15-64 years:": "66.1% (male 1,759,059/female 1,719,173)",
+			"0-14 years:": {
+				"quantity": 16,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.1,
+				"unit": "%"
+			},
 			"65 years and over:": "17.8% (male 385,671/female 551,327) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.5 years",
-			"male:": "40.8 years",
-			"female:": "44.3 years (2011 est.)"
+			"total:": {
+				"quantity": 42.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 44.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.075% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.075,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.37 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.37,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.24 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.24,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.62 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.62,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "85% of total population (2010)",
-			"rate of urbanization:": "0.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 85,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "HELSINKI (capital) 1.107 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.69 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.69,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.43 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.43,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.73 deaths/1,000 live births",
-			"female:": "3.11 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.73,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.11,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.27 years",
+			"total population:": {
+				"quantity": 79.27,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.79 years",
-			"female:": "82.89 years (2011 est.)"
+			"male:": {
+				"quantity": 75.79,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.89,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.73 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.73,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,600 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -133,14 +256,32 @@
 		"Languages": "Finnish (official) 91.2%, Swedish (official) 5.5%, other (small Sami- and Russian-speaking minorities) 3.3% (2007)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "100%",
-			"male:": "100%",
-			"female:": "100% (2000 est.)"
+			"total population:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "17 years",
-			"male:": "16 years",
-			"female:": "18 years (2008)"
+			"total:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +295,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Helsinki",
-			"geographic coordinates:": "60 10 N, 24 56 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 60,
+					"seconds": 10
+				},
+				"E": {
+					"minutes": 24,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -200,181 +350,306 @@
 	"economy": {
 		"Economy - overview": "Finland has a highly industrialized, largely free-market economy with per capita output roughly that of Austria, Belgium, the Netherlands, and Sweden. Trade is important with exports accounting for over one third of GDP in recent years. Finland is strongly competitive in manufacturing - principally the wood, metals, engineering, telecommunications, and electronics industries. Finland excels in high-tech exports such as mobile phones. Except for timber and several minerals, Finland depends on imports of raw materials, energy, and some components for manufactured goods. Because of the climate, agricultural development is limited to maintaining self-sufficiency in basic products. Forestry, an important export earner, provides a secondary occupation for the rural population. Finland had been one of the best performing economies within the EU in recent years and its banks and financial markets avoided the worst of global financial crisis. However, the world slowdown hit exports and domestic demand hard in 2009, with Finland experiencing one of the deepest contractions in the euro zone. A recovery of exports, domestic trade, and household consumption stimulated economic growth in 2010. The recession left a deep mark on general government finances and the debt ratio, turning previously strong budget surpluses into deficits. Despite good growth prospects, general government finances will remain in deficit during the next few years. The great challenge of economic policy will be to implement a post-recession exit strategy in which measures supporting growth will be combined with general government adjustment measures. Longer-term, Finland must address a rapidly aging population and decreasing productivity that threaten competitiveness, fiscal sustainability, and economic growth.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$186 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 186000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$239.2 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 239200000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$35,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.6%",
-			"industry:": "29.1%",
-			"services:": "68.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 29.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 68.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.68 million (2010 est.)",
+			"Labor force": 2680000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture and forestry:": "4.9%",
-			"industry:": "16.7%",
-			"construction:": "7.1%",
-			"commerce:": "19.4%",
-			"finance, insurance, and business services:": "12.8%"
+			"agriculture and forestry:": {
+				"quantity": 4.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16.7,
+				"unit": "%"
+			},
+			"construction:": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
+			"commerce:": {
+				"quantity": 19.4,
+				"unit": "%"
+			},
+			"finance, insurance, and business services:": {
+				"quantity": 12.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8.4% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.6%",
-			"highest 10%:": "24.7% (2007)"
+			"lowest 10%:": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 24.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26.8 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$66.58 billion",
-			"expenditures:": "$65.33 billion"
+			"revenues:": {
+				"usd": 66580000000
+			},
+			"expenditures:": {
+				"usd": 65330000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "45.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 45.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "3.51% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 3.51,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$108 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 108000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$160.4 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 160400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$259.2 billion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 259200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$91.02 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 91020000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "barley, wheat, sugar beets, potatoes; dairy cattle; fish",
 		"Industries": "metals and metal products, electronics, machinery and scientific instruments, shipbuilding, pulp and paper, foodstuffs, chemicals, textiles, clothing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "77.44 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 77440000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "87.25 billion kWh (2008)",
+			"Electricity - consumption": {
+				"quantity": 87250000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "3.335 billion kWh (2008)",
-		"Electricity - imports": "16.11 billion kWh (2008)",
+		"Electricity - exports": {
+			"quantity": 3335000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 16110000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "8,718 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 8718,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "206,200 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 206200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "130,500 bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 130500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "337,900 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 337900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": "NA",
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "4.289 billion cu m (2009)",
+			"Natural gas - consumption": {
+				"quantity": 4288999999.9999995,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "4.289 billion cu m (2009)",
+			"Natural gas - imports": {
+				"quantity": 4288999999.9999995,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$4.696 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 4696000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$73.53 billion (2010 est.)",
+			"Exports": {
+				"usd": 73530000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "electrical and optical equipment, machinery, transport equipment, paper and pulp, chemicals, basic metals; timber",
 		"Exports - partners": "Germany 10.32%, Sweden 9.79%, Russia 9%, US 7.85%, Netherlands 5.9%, UK 5.24%, China 4.1% (2009)",
 		"Imports": {
-			"Imports": "$69.11 billion (2010 est.)",
+			"Imports": {
+				"usd": 69110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, petroleum and petroleum products, chemicals, transport equipment, iron and steel, machinery, textile yarn and fabrics, grains",
 		"Imports - partners": "Russia 16.28%, Germany 15.76%, Sweden 14.65%, Netherlands 6.99%, China 5.29%, France 4.22% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$9.128 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 9128000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$370.8 billion (30 June 2010)",
+			"Debt - external": {
+				"usd": 370800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$87.99 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 87990000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$122.2 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 122200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.43 million (2009)",
+			"Telephones - main lines in use": 1430000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "7.7 million (2009)",
+			"Telephones - mobile cellular": 7700000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -385,49 +660,61 @@
 		"Broadcast media": "a mix of publicly-operated TV stations and privately-owned TV stations; the 2 publicly-owned TV stations recently expanded services and the largest private TV station has introduced several special-interest pay-TV channels; cable and satellite multi-channel subscription services are available; all TV signals have been broadcast digitally since September 2007; analog broadcasts via cable networks were terminated in February 2008; public broadcasting maintains a network of 13 national and 25 regional radio stations; a large number of private radio broadcasters (2008)",
 		"Internet country code": ".fi; note - Aland Islands assigned .ax",
 		"Internet hosts": {
-			"Internet hosts": "4.394 million (2010)",
+			"Internet hosts": 4394000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "148 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "75",
-			"over 3,047 m:": "3",
-			"2,438 to 3,047 m:": "26",
-			"1,524 to 2,437 m:": "10",
-			"914 to 1,523 m:": "22"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "73",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "70 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 694 km (2010)",
 		"Railways": {
-			"total:": "5,919 km",
+			"total:": {
+				"quantity": 5919,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "5,919 km 1.524-m gauge (3,067 km electrified) (2009)"
 		},
 		"Roadways": {
-			"total:": "78,141 km",
+			"total:": {
+				"quantity": 78141,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "50,914 km (includes 739 km of expressways)",
-			"unpaved:": "27,227 km (2009)"
+			"paved:": {
+				"quantity": 50914,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 27227,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "7,842 km (includes Saimaa Canal system of 3,577 km; southern part leased from Russia; water transport is used frequently in the summer and is widely replaced with sledges on the ice in winter; there are 187,888 lakes in Finland that cover 31,500 km) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "93",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 26, carrier 1, chemical tanker 6, container 3, passenger 4, passenger/cargo 16, petroleum tanker 5, roll on/roll off 28, vehicle carrier 3",
-			"foreign-owned:": "6 (Cyprus 1, Estonia 2, Iceland 1, Norway 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "52 (Bahamas 8, Germany 5, Gibraltar 2, Liberia 2, Malta 2, Netherlands 14, Norway 1, Panama 2, Sweden 16) (2010)"
 		},
 		"Ports and terminals": {}
@@ -436,16 +723,16 @@
 		"Military branches": "Finnish Defense Forces (FDF): Army, Navy (includes Coastal Defense Forces), Air Force (Suomen Ilmavoimat) (2007)",
 		"Military service age and obligation": "18 years of age for male voluntary and compulsory - and female voluntary - national military and nonmilitary service; service obligation 6-12 months; mandatory retirement at age 60 (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,155,368",
-			"females age 16-49:": "1,106,193 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "955,151",
-			"females age 16-49:": "912,983 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "32,599",
-			"female:": "31,416 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

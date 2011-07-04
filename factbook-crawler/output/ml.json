@@ -5,20 +5,44 @@
 	"background": "The Sudanese Republic and Senegal became independent of France in 1960 as the Mali Federation. When Senegal withdrew after only a few months, what formerly made up the Sudanese Republic was renamed Mali. Rule by dictatorship was brought to a close in 1991 by a military coup - led by the current president Amadou TOURE - enabling Mali's emergence as one of the strongest democracies on the continent. President Alpha KONARE won Mali's first democratic presidential election in 1992 and was reelected in 1997. In keeping with Mali's two-term constitutional limit, KONARE stepped down in 2002 and was succeeded by Amadou TOURE, who was subsequently elected to a second term in 2007. The elections were widely judged to be free and fair.",
 	"geo": {
 		"Location": "interior Western Africa, southwest of Algeria, north of Guinea, Cote d'Ivoire, and Burkina Faso, west of Niger",
-		"Geographic coordinates": "17 00 N, 4 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 17,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 4,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1,240,192 sq km",
+			"total:": {
+				"quantity": 1240,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,220,190 sq km",
-			"water:": "20,002 sq km"
+			"land:": {
+				"quantity": 1220,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 20002,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of Texas",
 		"Land boundaries": {
-			"total:": "7,243 km",
+			"total:": {
+				"quantity": 7243,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 1,376 km, Burkina Faso 1,000 km, Guinea 858 km, Cote d'Ivoire 532 km, Mauritania 2,237 km, Niger 821 km, Senegal 419 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "subtropical to arid; hot and dry (February to June); rainy, humid, and mild (June to November); cool and dry (November to February)",
 		"Terrain": "mostly flat to rolling northern plains covered by sand; savanna in south, rugged hills in northeast",
@@ -30,15 +54,36 @@
 			"Natural resources": "gold, phosphates, kaolin, salt, limestone, uranium, gypsum, granite, hydropower"
 		},
 		"Land use": {
-			"arable land:": "3.76%",
-			"permanent crops:": "0.03%",
-			"other:": "96.21% (2005)"
+			"arable land:": {
+				"quantity": 3.76,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.03,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.21,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,360 sq km (2008)",
-		"Total renewable water resources": "100 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 2360,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 100,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "6.55  cu km/yr (9%/1%/90%)",
-			"per capita:": "484  cu m/yr (2000)"
+			"total:": {
+				"quantity": 6.55,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 484,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dust-laden harmattan haze common during dry seasons; recurring droughts; occasional Niger River flooding",
 		"Environment - current issues": "deforestation; soil erosion; desertification; inadequate supplies of potable water; poaching",
@@ -50,29 +95,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "14,159,904 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "47.3% (male 3,372,717/female 3,325,188)",
-			"15-64 years:": "49.7% (male 3,438,687/female 3,605,143)",
+			"0-14 years:": {
+				"quantity": 47.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 49.7,
+				"unit": "%"
+			},
 			"65 years and over:": "3% (male 199,862/female 218,307) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.3 years",
-			"male:": "15.9 years",
-			"female:": "16.7 years (2011 est.)"
+			"total:": {
+				"quantity": 16.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.61% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.61,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "45.62 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 45.62,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "14.29 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 14.29,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,43 +149,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "36% of total population (2010)",
-			"rate of urbanization:": "4.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 36,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BAMAKO (capital) 1.628 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.92 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "111.35 deaths/1,000 live births",
+			"total:": {
+				"quantity": 111.35,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "118.15 deaths/1,000 live births",
-			"female:": "104.34 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 118.15,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 104.34,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "52.61 years",
+			"total population:": {
+				"quantity": 52.61,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "51.01 years",
-			"female:": "54.26 years (2011 est.)"
+			"male:": {
+				"quantity": 51.01,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 54.26,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "6.44 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 6.44,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "76,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "4,400 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,14 +251,32 @@
 		"Languages": "French (official), Bambara 80%, numerous African languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "46.4%",
-			"male:": "53.5%",
-			"female:": "39.6% (2003 est.)"
+			"total population:": {
+				"quantity": 46.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 53.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 39.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "8 years",
-			"male:": "9 years",
-			"female:": "7 years (2009)"
+			"total:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -159,7 +291,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Bamako",
-			"geographic coordinates:": "12 39 N, 8 00 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 39
+				},
+				"W": {
+					"minutes": 8,
+					"seconds": 0
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "8 regions (regions, singular - region); Gao, Kayes, Kidal, Koulikoro, Mopti, Segou, Sikasso, Tombouctou",
@@ -208,67 +349,119 @@
 	"economy": {
 		"Economy - overview": "Among the 25 poorest countries in the world, Mali is a landlocked country highly dependent on gold mining and agricultural exports for revenue. The country's fiscal status fluctuates with gold and agricultural commodity prices and the harvest. Mali remains dependent on foreign aid. Economic activity is largely confined to the riverine area irrigated by the Niger River and about 65% of its land area is desert or semidesert. About 10% of the population is nomadic and some 80% of the labor force is engaged in farming and fishing. Industrial activity is concentrated on processing farm commodities. The government has continued an IMF-recommended structural adjustment program that has helped the economy grow, diversify, and attract foreign investment. Mali is developing its cotton and iron ore extraction industries to diversify its revenue sources because gold production has started to fall. Mali has invested in tourism but security issues are hurting the industry. Mali's adherence to economic reform and the 50% devaluation of the CFA franc in January 1994 have pushed up economic growth to a 5% average in 1996-2010. Worker remittances and external trade routes for the landlocked country have been jeopardized by continued unrest in neighboring Cote d'Ivoire. However, Mali is building a road network that will connect it to all adjacent countries and it has a railway line to Senegal. In 2010, Mali experienced a regional drought that hurt livestock and livelihoods.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$16.77 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 16770000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$9.268 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 9268000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "45%",
-			"industry:": "17%",
-			"services:": "38% (2001 est.)"
+			"agriculture:": {
+				"quantity": 45,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 38,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.241 million (2007 est.)",
+			"Labor force": 3241000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "80%",
-			"industry and services:": "20% (2005 est.)"
+			"agriculture:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "30% (2004 est.)",
+			"Unemployment rate": {
+				"quantity": 30,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "36.1% (2005 est.)",
+		"Population below poverty line": {
+			"quantity": 36.1,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.7%",
-			"highest 10%:": "30.5% (2006)"
+			"lowest 10%:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "40.1 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.5 billion",
-			"expenditures:": "$1.8 billion (2006 est.)"
+			"revenues:": {
+				"usd": 1500000000
+			},
+			"expenditures:": {
+				"usd": 1800000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.5% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.758 billion (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 1758000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.514 billion (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 2514000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$994.9 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 994900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -276,55 +469,94 @@
 		"Industries": "food processing; construction; phosphate and gold mining",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "515 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 515000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "479 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 479000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - exports": {
 			"Electricity - exports": "NA kWh"
 		},
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "6,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 6000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,402 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4402,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -332,30 +564,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$294 million (2006)",
+			"Exports": {
+				"usd": 294000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "cotton, gold, livestock",
 		"Exports - partners": "China 14.61%, Thailand 8.28%, Pakistan 6.74%, Morocco 6.48%, Burkina Faso 4.67%, France 4.6%, India 4.45% (2009)",
 		"Imports": {
-			"Imports": "$2.358 billion (2006)",
+			"Imports": {
+				"usd": 2358000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum, machinery and equipment, construction materials, foodstuffs, textiles",
 		"Imports - partners": "Senegal 12.21%, France 11.57%, Cote d'Ivoire 10.05%, China 5.89% (2009)",
 		"Debt - external": {
-			"Debt - external": "$2.8 billion (2002)",
+			"Debt - external": {
+				"usd": 2800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "81,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.742 million (2009)",
+			"Telephones - mobile cellular": 3742000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -366,38 +604,50 @@
 		"Broadcast media": "national public TV broadcaster; 2 privately-owned companies provide subscription services to foreign multi-channel TV packages; national public radio broadcaster supplemented by a large number of privately-owned and community broadcast stations; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".ml",
 		"Internet hosts": {
-			"Internet hosts": "524 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "20 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "8",
-			"2,438 to 3,047 m:": "4",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "12",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "593 km",
+			"total:": {
+				"quantity": 593,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "593 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "18,709 km",
+			"total:": {
+				"quantity": 18709,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,368 km",
-			"unpaved:": "15,341 km (2004)"
+			"paved:": {
+				"quantity": 3368,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 15341,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,800 km (downstream of Koulikoro; low water levels on the River Niger cause problems in dry years; in the months before the rainy season the river is not navigable by commercial vessels) (2010)",
@@ -409,16 +659,16 @@
 		"Military branches": "Malian Armed Forces: Army, Republic of Mali Air Force (Force Aerienne de la Republique du Mali, FARM), National Guard (2008)",
 		"Military service age and obligation": "18 years of age for compulsory and voluntary military service; conscript service obligation - 2 years (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,848,412",
-			"females age 16-49:": "2,981,106 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,825,779",
-			"females age 16-49:": "1,968,563 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "158,031",
-			"female:": "159,733 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

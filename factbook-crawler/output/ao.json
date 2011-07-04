@@ -5,24 +5,57 @@
 	"background": "Angola is rebuilding its country after the end of a 27-year civil war in 2002. Fighting between the Popular Movement for the Liberation of Angola (MPLA), led by Jose Eduardo DOS SANTOS, and the National Union for the Total Independence of Angola (UNITA), led by Jonas SAVIMBI, followed independence from Portugal in 1975. Peace seemed imminent in 1992 when Angola held national elections, but fighting picked up again by 1996. Up to 1.5 million lives may have been lost - and 4 million people displaced - in the quarter century of fighting. SAVIMBI's death in 2002 ended UNITA's insurgency and strengthened the MPLA's hold on power. President DOS SANTOS held legislative elections in September 2008 and, despite promising to hold presidential elections in 2009, has since pushed through a new constitution that calls for elections in 2012.",
 	"geo": {
 		"Location": "Southern Africa, bordering the South Atlantic Ocean, between Namibia and Democratic Republic of the Congo",
-		"Geographic coordinates": "12 30 S, 18 30 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 12,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 18,
+				"seconds": 30
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1,246,700 sq km",
+			"total:": {
+				"quantity": 1246,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,246,700 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 1246,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of Texas",
 		"Land boundaries": {
-			"total:": "5,198 km",
+			"total:": {
+				"quantity": 5198,
+				"unit": "km"
+			},
 			"border countries:": "Democratic Republic of the Congo 2,511 km (of which 225 km is the boundary of discontiguous Cabinda Province), Republic of the Congo 201 km, Namibia 1,376 km, Zambia 1,110 km"
 		},
-		"Coastline": "1,600 km",
+		"Coastline": {
+			"quantity": 1600,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "semiarid in south and along coast to Luanda; north has cool, dry season (May to October) and hot, rainy season (November to April)",
 		"Terrain": "narrow coastal plain rises abruptly to vast interior plateau",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "petroleum, diamonds, iron ore, phosphates, copper, feldspar, gold, bauxite, uranium",
 		"Land use": {
-			"arable land:": "2.65%",
-			"permanent crops:": "0.23%",
-			"other:": "97.12% (2005)"
+			"arable land:": {
+				"quantity": 2.65,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.23,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.12,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "800 sq km (2008)",
-		"Total renewable water resources": "184 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 800,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 184,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.35  cu km/yr (23%/17%/60%)",
-			"per capita:": "22  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.35,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 22,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "locally heavy rainfall causes periodic flooding on the plateau",
 		"Environment - current issues": "overuse of pastures and subsequent soil erosion attributable to population pressures; desertification; deforestation of tropical rain forest, in response to both international demand for tropical timber and to domestic use as fuel, resulting in loss of biodiversity; soil erosion contributing to water pollution and siltation of rivers and dams; inadequate supplies of potable water",
@@ -52,73 +106,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "13,338,541 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "43.2% (male 2,910,981/female 2,856,527)",
-			"15-64 years:": "54.1% (male 3,663,400/female 3,549,896)",
+			"0-14 years:": {
+				"quantity": 43.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.1,
+				"unit": "%"
+			},
 			"65 years and over:": "2.7% (male 157,778/female 199,959) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.1 years",
-			"male:": "18.1 years",
-			"female:": "18.1 years (2011 est.)"
+			"total:": {
+				"quantity": 18.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.034% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.034,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "42.91 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 42.91,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "23.4 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 23.4,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.82 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.82,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "59% of total population (2010)",
-			"rate of urbanization:": "4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 59,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LUANDA (capital) 4.511 million; Huambo 979,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.79 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.79,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "175.9 deaths/1,000 live births",
+			"total:": {
+				"quantity": 175.9,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "187.86 deaths/1,000 live births",
-			"female:": "163.34 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 187.86,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 163.34,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "38.76 years",
+			"total population:": {
+				"quantity": 38.76,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "37.74 years",
-			"female:": "39.83 years (2011 est.)"
+			"male:": {
+				"quantity": 37.74,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 39.83,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.97 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.97,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "200,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "11,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -138,12 +264,24 @@
 		"Languages": "Portuguese (official), Bantu and other African languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "67.4%",
-			"male:": "82.9%",
-			"female:": "54.2% (2001 est.)"
+			"total population:": {
+				"quantity": 67.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 82.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 54.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years (2006)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -158,7 +296,16 @@
 		"Government type": "republic; multiparty presidential regime",
 		"Capital": {
 			"name:": "Luanda",
-			"geographic coordinates:": "8 50 S, 13 14 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 8,
+					"seconds": 50
+				},
+				"E": {
+					"minutes": 13,
+					"seconds": 14
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "18 provinces (provincias, singular - provincia); Bengo, Benguela, Bie, Cabinda, Cuando Cubango, Cuanza Norte, Cuanza Sul, Cunene, Huambo, Huila, Luanda, Lunda Norte, Lunda Sul, Malanje, Moxico, Namibe, Uige, Zaire",
@@ -208,170 +355,287 @@
 	"economy": {
 		"Economy - overview": "Angola's high growth rate in recent years was driven by high international prices for its oil. Angola became a member of OPEC in late 2006 and in late 2007 was assigned a production quota of 1.9 million barrels a day (bbl/day), somewhat less than the 2-2.5 million bbl/day Angola's government had wanted. Oil production and its supporting activities contribute about 85% of GDP. Diamond exports contribute an additional 5%. Subsistence agriculture provides the main livelihood for most of the people, but half of the country's food is still imported. Increased oil production supported growth averaging more than 15% per year from 2004 to 2008. A postwar reconstruction boom and resettlement of displaced persons has led to high rates of growth in construction and agriculture as well. Much of the country's infrastructure is still damaged or undeveloped from the 27-year-long civil war. Land mines left from the war still mar the countryside, even though peace was established after the death of rebel leader Jonas SAVIMBI in February 2002. Since 2005, the government has used billions of dollars in credit lines from China, Brazil, Portugal, Germany, Spain, and the EU to rebuild Angola's public infrastructure. The global recession temporarily stalled economic growth. Lower prices for oil and diamonds during the global recession led to a contraction in GDP in 2009, and many construction projects stopped because Luanda accrued $9 billion in arrears to foreign construction companies when government revenue fell in 2008 and 2009. Angola abandoned its currency peg in 2009, and in November 2009 signed onto an IMF Stand-By Arrangement loan of $1.4 billion to rebuild international reserves. Although consumer inflation declined from 325% in 2000 to under 14% in 2010, Luanda has been unable to reduce inflation below 10%. The Angolan kwanza depreciated again in mid 2010, which, along with higher oil prices, should boost economic growth in all sectors. Corruption, especially in the extractive sectors, also is a major challenge.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$107.3 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 107300000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$85.31 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 85310000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$8,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "9.6%",
-			"industry:": "65.8%",
-			"services:": "24.6% (2008 est.)"
+			"agriculture:": {
+				"quantity": 9.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 65.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 24.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "7.977 million (2010 est.)",
+			"Labor force": 7977000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "85%",
-			"industry and services:": "15% (2003 est.)"
+			"agriculture:": {
+				"quantity": 85,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 15,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA",
-		"Population below poverty line": "40.5% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 40.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.6%",
-			"highest 10%:": "44.7% (2000)"
+			"lowest 10%:": {
+				"quantity": 0.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 44.7,
+				"unit": "%"
+			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "15.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 15.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$40.41 billion",
-			"expenditures:": "$37.38 billion (2010 est.)"
+			"revenues:": {
+				"usd": 40410000000
+			},
+			"expenditures:": {
+				"usd": 37380000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "20.3% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 20.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "13.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 13.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "30% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 30,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "15.68% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 15.68,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$8.74 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 8740000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$24.92 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 24920000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$17.52 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 17520000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "bananas, sugarcane, coffee, sisal, corn, cotton, manioc (tapioca), tobacco, vegetables, plantains; livestock; forest products; fish",
 		"Industries": "petroleum; diamonds, iron ore, phosphates, feldspar, bauxite, uranium, and gold; cement; basic metal products; fish processing; food processing, brewing, tobacco products, sugar; textiles; ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "3.722 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 3722000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "3.173 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 3173000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "1.948 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 1948000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "70,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 70000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.407 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 1407000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "28,090 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 28090,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "13.5 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 13500000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "680 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 680000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "680 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 680000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "271.8 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 271800000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$2.089 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 2089000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$51.65 billion (2010 est.)",
+			"Exports": {
+				"usd": 51650000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "crude oil, diamonds, refined petroleum products, coffee, sisal, fish and fish products, timber, cotton",
 		"Exports - partners": "China 35.65%, US 25.98%, France 8.83%, South Africa 4.13% (2009)",
 		"Imports": {
-			"Imports": "$18.1 billion (2010 est.)",
+			"Imports": {
+				"usd": 18100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and electrical equipment, vehicles and spare parts; medicines, food, textiles, military goods",
 		"Imports - partners": "Portugal 18.71%, China 17.39%, US 8.51%, Brazil 8.22%, South Korea 6.72%, France 4.51%, Italy 4.28%, South Africa 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$16.89 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 16890000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$17.98 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 17980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$91.55 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 91550000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$4.883 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 4883000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "303,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "8.109 million (2009)",
+			"Telephones - mobile cellular": 8109000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -382,51 +646,66 @@
 		"Broadcast media": "state controls all broadcast media with nationwide reach; state-owned Televisao Popular de Angola (TPA) provides terrestrial TV service on 2 channels; a third TPA channel is available via cable and satellite; TV subscription services are available; state-owned Radio Nacional de Angola (RNA) broadcasts on 5 stations; about a half dozen private radio stations broadcast locally (2008)",
 		"Internet country code": ".ao",
 		"Internet hosts": {
-			"Internet hosts": "3,717 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "193 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "31",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "9",
-			"1,524 to 2,437 m:": "13",
-			"914 to 1,523 m:": "4 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "162",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "4",
-			"1,524 to 2,437 m:": "31",
-			"914 to 1,523 m:": "78"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Pipelines": "gas 2 km; oil 87 km (2010)",
 		"Railways": {
-			"total:": "2,764 km",
+			"total:": {
+				"quantity": 2764,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "2,641 km 1.067-m gauge; 123 km 0.600-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "51,429 km",
+			"total:": {
+				"quantity": 51429,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "5,349 km",
-			"unpaved:": "46,080 km (2001)"
+			"paved:": {
+				"quantity": 5349,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 46080,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
-			"Waterways": "1,300 km (2010)",
+			"Waterways": {
+				"quantity": 1300,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "7",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, passenger/cargo 2, petroleum tanker 3, roll on/roll off 1",
-			"foreign-owned:": "1 (Spain 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "15 (Bahamas 5, Liberia 1, Malta 7, former Netherlands Antilles 2) (2010)"
 		},
 		"Ports and terminals": {}
@@ -435,23 +714,23 @@
 		"Military branches": "Angolan Armed Forces (Forcas Armadas Angolanas, FAA): Army, Navy (Marinha de Guerra Angola, MGA), Angolan National Air Force (Forca Aerea Nacional Angolana, FANA) (2011)",
 		"Military service age and obligation": "20-45 years of age for compulsory and 18-45 years for voluntary military service; conscript service obligation - 2 years; Angolan citizenship required; minimum age for women volunteers is 20; the Marinha de Guerra Angola (Navy) is entirely staffed with volunteers (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "3,062,438",
-			"females age 16-49:": "2,964,262 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,546,781",
-			"females age 16-49:": "1,492,308 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "155,476",
-			"female:": "152,054 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "DROC accuses Angola of shifting monuments",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "12,615 (Democratic Republic of Congo)",
+			"refugees (country of origin):": null,
 			"IDPs:": "61,700 (27-year civil war ending in 2002; 4 million IDPs already have returned) (2007)"
 		},
 		"Illicit drugs": {}

@@ -5,20 +5,44 @@
 	"background": "Morocco annexed the northern two-thirds of Western Sahara (formerly Spanish Sahara) in 1976 and claimed the rest of the territory in 1979, following Mauritania's withdrawal. A guerrilla war with the Polisario Front contesting Morocco's sovereignty ended in a 1991 UN-brokered cease-fire; a UN-organized referendum on the territory's final status has been repeatedly postponed. The UN since 2007 has sponsored intermittent talks between representatives of the Government of Morocco and the Polisario Front to negotiate the status of Western Sahara. Morocco has put forward an autonomy proposal for the territory, which would allow for some local administration while maintaining Moroccan sovereignty. The Polisario, with Algeria's support, demands a popular referendum that includes the option of independence.",
 	"geo": {
 		"Location": "Northern Africa, bordering the North Atlantic Ocean, between Mauritania and Morocco",
-		"Geographic coordinates": "24 30 N, 13 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 24,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 13,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "266,000 sq km",
+			"total:": {
+				"quantity": 266000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "266,000 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 266000,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about the size of Colorado",
 		"Land boundaries": {
-			"total:": "2,046 km",
+			"total:": {
+				"quantity": 2046,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 42 km, Mauritania 1,561 km, Morocco 443 km"
 		},
-		"Coastline": "1,110 km",
+		"Coastline": {
+			"quantity": 1110,
+			"unit": "km"
+		},
 		"Maritime claims": "contingent upon resolution of sovereignty issue",
 		"Climate": "hot, dry desert; rain is rare; cold offshore air currents produce fog and heavy dew",
 		"Terrain": "mostly low, flat desert with large areas of rocky or sandy surfaces rising to small mountains in south and northeast",
@@ -28,9 +52,18 @@
 		},
 		"Natural resources": "phosphates, iron ore",
 		"Land use": {
-			"arable land:": "0.02%",
-			"permanent crops:": "0%",
-			"other:": "99.98% (2005)"
+			"arable land:": {
+				"quantity": 0.02,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.98,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "hot, dry, dust/sand-laden sirocco wind can occur during winter and spring; widespread harmattan haze exists 60% of time, often severely restricting visibility",
@@ -42,57 +75,123 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "507,160 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "38.9% (male 99,797/female 97,700)",
-			"15-64 years:": "57.5% (male 143,808/female 147,823)",
+			"0-14 years:": {
+				"quantity": 38.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 57.5,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 7,918/female 10,114) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "20.3 years",
-			"male:": "19.8 years",
-			"female:": "20.8 years (2011 est.)"
+			"total:": {
+				"quantity": 20.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 19.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 20.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.097% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.097,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "32.1 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 32.1,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.96 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.96,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "82% of total population (2010)",
-			"rate of urbanization:": "3.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 82,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "EL AAIUN (capital) 213,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.78 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.78,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "60.44 deaths/1,000 live births",
+			"total:": {
+				"quantity": 60.44,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.55 deaths/1,000 live births",
-			"female:": "55.13 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 65.55,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 55.13,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "61.13 years",
+			"total population:": {
+				"quantity": 61.13,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.94 years",
-			"female:": "63.41 years (2011 est.)"
+			"male:": {
+				"quantity": 58.94,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 63.41,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.3 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.3,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -132,27 +231,40 @@
 	"economy": {
 		"Economy - overview": "Western Sahara has a small market-based economy whose main industries are fishing, phosphate mining, and pastoral nomadism. The territory's arid desert climate makes sedentary agriculture difficult, and Western Sahara imports much of its food. The Moroccan Government administers Western Sahara's economy and is a source of employment, infrastructure development, and social spending in the territory. Western Sahara's unresolved legal status makes the exploitation of its natural resources a contentious issue between Morocco and the Polisario. Morocco and the EU in July 2006 signed a four-year agreement allowing European vessels to fish off the coast of Morocco, including the disputed waters off the coast of Western Sahara. Oil has never been found in Western Sahara in commercially significant quantities, but Morocco and the Polisario have quarreled over who has the right to authorize and benefit from oil exploration in the territory. Western Sahara's main long-term economic challenge is the development of a more diverse set of industries capable of providing greater employment and income to the territory.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$900 million (2007 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2007 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
-			"services:": "40% (2007 est.)"
+			"services:": {
+				"quantity": 40,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "144,000 (2010 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "50%",
-			"industry and services:": "50% (2005 est.)"
+			"agriculture:": {
+				"quantity": 50,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 50,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
@@ -169,53 +281,95 @@
 		"Industries": "phosphate mining, handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "90 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 90000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "83.7 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 83700000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,702 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1702,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": "$NA",
@@ -228,7 +382,7 @@
 	"commerce": {
 		"Telephones - main lines in use": "about 2,000 (1999 est.)",
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "0 (1999)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -241,25 +395,25 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "3",
-			"2,438 to 3,047 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "79,489",
-			"females age 16-49:": "87,362 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {}
 	},

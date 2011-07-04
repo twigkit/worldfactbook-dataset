@@ -5,20 +5,44 @@
 	"background": "Bosnia and Herzegovina's declaration of sovereignty in October 1991 was followed by a declaration of independence from the former Yugoslavia on 3 March 1992 after a referendum boycotted by ethnic Serbs. The Bosnian Serbs - supported by neighboring Serbia and Montenegro - responded with armed resistance aimed at partitioning the republic along ethnic lines and joining Serb-held areas to form a \"Greater Serbia.\" In March 1994, Bosniaks and Croats reduced the number of warring factions from three to two by signing an agreement creating a joint Bosniak/Croat Federation of Bosnia and Herzegovina. On 21 November 1995, in Dayton, Ohio, the warring parties initialed a peace agreement that brought to a halt three years of interethnic civil strife (the final agreement was signed in Paris on 14 December 1995). The Dayton Peace Accords retained Bosnia and Herzegovina's international boundaries and created a multi-ethnic and democratic government charged with conducting foreign, diplomatic, and fiscal policy. Also recognized was a second tier of government composed of two entities roughly equal in size: the Bosniak/Bosnian Croat Federation of Bosnia and Herzegovina and the Bosnian Serb-led Republika Srpska (RS). The Federation and RS governments were charged with overseeing most government functions. The Dayton Accords also established the Office of the High Representative (OHR) to oversee the implementation of the civilian aspects of the agreement. The Peace Implementation Council (PIC) at its conference in Bonn in 1997 also gave the High Representative the authority to impose legislation and remove officials, the so-called \"Bonn Powers.\" In 1995-96, a NATO-led international peacekeeping force (IFOR) of 60,000 troops served in Bosnia to implement and monitor the military aspects of the agreement. IFOR was succeeded by a smaller, NATO-led Stabilization Force (SFOR) whose mission was to deter renewed hostilities. European Union peacekeeping troops (EUFOR) replaced SFOR in December 2004; their mission is to maintain peace and stability throughout the country. EUFOR's mission changed from peacekeeping to civil policing in October 2007, with its presence reduced from nearly 7,000 to less than 2,500 troops. Troop strength at the end of 2010 stood at roughly 1,500. In January 2010, Bosnia and Herzegovina assumed a nonpermanent seat on the UN Security Council for the 2010-11 term.",
 	"geo": {
 		"Location": "Southeastern Europe, bordering the Adriatic Sea and Croatia",
-		"Geographic coordinates": "44 00 N, 18 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 44,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 18,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "51,197 sq km",
+			"total:": {
+				"quantity": 51197,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "51,187 sq km",
-			"water:": "10 sq km"
+			"land:": {
+				"quantity": 51187,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 10,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than West Virginia",
 		"Land boundaries": {
-			"total:": "1,538 km",
+			"total:": {
+				"quantity": 1538,
+				"unit": "km"
+			},
 			"border countries:": "Croatia 932 km, Montenegro 249 km, Serbia 357 km"
 		},
-		"Coastline": "20 km",
+		"Coastline": {
+			"quantity": 20,
+			"unit": "km"
+		},
 		"Maritime claims": "no data available",
 		"Climate": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
 		"Terrain": "mountains and valleys",
@@ -28,12 +52,27 @@
 		},
 		"Natural resources": "coal, iron ore, bauxite, copper, lead, zinc, chromite, cobalt, manganese, nickel, clay, gypsum, salt, sand, timber, hydropower",
 		"Land use": {
-			"arable land:": "19.61%",
-			"permanent crops:": "1.89%",
-			"other:": "78.5% (2005)"
+			"arable land:": {
+				"quantity": 19.61,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.89,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 78.5,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "30 sq km (2008)",
-		"Total renewable water resources": "37.5 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 30,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 37.5,
+			"unit": "cu km"
+		},
 		"Natural hazards": "destructive earthquakes",
 		"Environment - current issues": "air pollution from metallurgical plants; sites for disposing of urban waste are limited; water shortages and destruction of infrastructure because of the 1992-95 civil strife; deforestation",
 		"Environment - international agreements": {
@@ -44,61 +83,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,622,163 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "14% (male 333,989/female 313,234)",
-			"15-64 years:": "71% (male 1,655,669/female 1,625,750)",
+			"0-14 years:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71,
+				"unit": "%"
+			},
 			"65 years and over:": "15% (male 283,233/female 410,288) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.7 years",
-			"male:": "39.6 years",
-			"female:": "41.9 years (2011 est.)"
+			"total:": {
+				"quantity": 40.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.008% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.008,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "8.89 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 8.89,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.8 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.8,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "49% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 49,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SARAJEVO (capital) 392,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.074 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.69 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.074,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.69,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "8.67 deaths/1,000 live births",
+			"total:": {
+				"quantity": 8.67,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "9.95 deaths/1,000 live births",
-			"female:": "7.3 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 9.95,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 7.3,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.81 years",
+			"total population:": {
+				"quantity": 78.81,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.25 years",
-			"female:": "82.63 years (2011 est.)"
+			"male:": {
+				"quantity": 75.25,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.63,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.27 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.27,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -106,11 +214,11 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "900 (2007 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "100 (2001 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -126,14 +234,32 @@
 		"Languages": "Bosnian (official), Croatian (official), Serbian",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "96.7%",
-			"male:": "99%",
-			"female:": "94.4% (2000 est.)"
+			"total population:": {
+				"quantity": 96.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 94.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -148,7 +274,16 @@
 		"Government type": "emerging federal democratic republic",
 		"Capital": {
 			"name:": "Sarajevo",
-			"geographic coordinates:": "43 52 N, 18 25 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 43,
+					"seconds": 52
+				},
+				"E": {
+					"minutes": 18,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -199,122 +334,219 @@
 	"economy": {
 		"Economy - overview": "The interethnic warfare in Bosnia and Herzegovina caused production to plummet by 80% from 1992 to 1995 and unemployment to soar. With an uneasy peace in place, output recovered in 1996-99 at high percentage rates from a low base; but output growth slowed in 2000-02. Part of the lag in output was made up during 2003-08, when GDP growth exceeded 5% per year. However, the country experienced a decline in GDP of more than 3% in 2009 reflecting local effects of the global economic crisis. One of Bosnia's main economic challenges in 2010 has been to reduce spending on public sector wages and social benefits to meet the IMF's criteria for obtaining funding for budget shortfalls. Banking reform accelerated in 2001 as all the Communist-era payments bureaus were shut down; foreign banks, primarily from Austria and Italy, now control most of the banking sector. The konvertibilna marka (convertible mark or BAM) - the national currency introduced in 1998 - is pegged to the euro, and confidence in the currency and the banking sector has increased. Bosnia's private sector is growing, but foreign investment has dropped off sharply since 2007. Government spending, at roughly 50% of GDP, remains high because of redundant government offices at the state, entity and municipal level. Privatization of state enterprises has been slow, particularly in the Federation where political division between ethnically-based political parties makes agreement on economic policy more difficult. A sizeable current account deficit and high unemployment rate remain the two most serious macroeconomic problems. Successful implementation of a value-added tax in 2006 provided a predictable source of revenue for the government and helped rein in gray-market activity. National-level statistics have also improved over time but a large share of economic activity remains unofficial and unrecorded. Bosnia and Herzegovina became a full member of the Central European Free Trade Agreement in September 2007. Bosnia and Herzegovina's top economic priorities are: acceleration of integration into the EU; strengthening the fiscal system; public administration reform; World Trade Organization (WTO) membership; and securing economic growth by fostering a dynamic, competitive private sector. The country has received a substantial amount of foreign assistance and will need to demonstrate its ability to implement its economic reform agenda in order to advance its stated goal of EU accession. In 2009, Bosnia and Herzegovina undertook an International Monetary Fund (IMF) standby arrangement, necessitated by sharply increased social spending and a fiscal crisis exacerbated by the global economic downturn. The program aims to reduce recurrent government spending and to strengthen revenue collection.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$30.33 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 30330000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$16.83 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 16829999999.999998
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$6,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6.5%",
-			"industry:": "28.4%",
-			"services:": "65.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 28.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 65.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.6 million (2010 est.)",
+			"Labor force": 2600000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "20.5%",
-			"industry:": "32.6%",
-			"services:": "47% (2008)"
+			"agriculture:": {
+				"quantity": 20.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 32.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 47,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "43.1% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 43.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "18.6% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 18.6,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.8%",
-			"highest 10%:": "27.4% (2004)"
+			"lowest 10%:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 27.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "34.1 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$7.75 billion",
-			"expenditures:": "$7.82 billion (2010 est.)"
+			"revenues:": {
+				"usd": 7750000000
+			},
+			"expenditures:": {
+				"usd": 7820000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "39% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 39,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.93% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.93,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.098 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 4098000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9.307 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 9307000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$10.09 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 10090000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "wheat, corn, fruits, vegetables; livestock",
 		"Industries": "steel, coal, iron ore, lead, zinc, manganese, bauxite, aluminum, vehicle assembly, textiles, tobacco products, wooden furniture, ammunition, domestic appliances, oil refining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.6% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "14.58 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 14580000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "10.8 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 10800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "3.9 billion kWh (2009 est.)",
-		"Electricity - imports": "1.2 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 3900000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1200000000,
+			"unit": "kWh"
+		},
 		"Oil - production": "NA bbl/day (2008 est.)",
 		"Oil - consumption": "NA bbl/day (2009 est.)",
 		"Oil - exports": {
-			"Oil - exports": "191.8 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 191.8,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "25,990 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 25990,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "390 million cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 390000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "390 million cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 390000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -322,34 +554,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$4.804 billion (2010 est.)",
+			"Exports": {
+				"usd": 4804000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "metals, clothing, wood products",
 		"Exports - partners": "Croatia 19.07%, Slovenia 18.58%, Italy 16.87%, Germany 13.38%, Austria 10.25% (2009)",
 		"Imports": {
-			"Imports": "$9.22 billion (2010 est.)",
+			"Imports": {
+				"usd": 9220000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, fuels, foodstuffs",
 		"Imports - partners": "Croatia 22.17%, Germany 14.04%, Slovenia 13.45%, Italy 11.89%, Austria 6.61%, Hungary 5.74% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.2 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$7.996 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 7996000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "998,600 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.257 million (2009)",
+			"Telephones - mobile cellular": 3257000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -360,40 +600,52 @@
 		"Broadcast media": "3 public TV broadcasters: Radio and TV of Bosnia and Herzegovina, Federation TV (operating 2 networks), and Republika Srpska Radio-TV; a local commercial network of 5 TV stations; 3 private, near-national TV stations and dozens of small independent TV stations broadcasting; 3 large public radio broadcasters and a large number of private radio stations (2010)",
 		"Internet country code": ".ba",
 		"Internet hosts": {
-			"Internet hosts": "95,234 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "25 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "7",
-			"2,438 to 3,047 m:": "4",
-			"1,524 to 2,437 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "18",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "6",
-			"under 914 m:": "11 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "5 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 147 km; oil 9 km",
 		"Railways": {
-			"total:": "601 km",
+			"total:": {
+				"quantity": 601,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "601 km 1.435-m gauge (392 km electrified) (2009)"
 		},
 		"Roadways": {
-			"total:": "22,926 km",
+			"total:": {
+				"quantity": 22926,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "19,426 km (4,652 km of interurban roads)",
-			"unpaved:": "3,500 km (2010)"
+			"paved:": {
+				"quantity": 19426,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 3500,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(Sava River on northern border; open to shipping but use limited) (2009)",
 		"Ports and terminals": {}
@@ -402,23 +654,23 @@
 		"Military branches": "Armed Forces of Bosnia and Herzegovina (AFBiH): Army of Bosnia and Herzegovina, Air and Air Defense Forces of Bosnia and Herzegovina (Zrakoplovstvo i Protuzracna Obrana, ZPO) (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; conscription abolished in January 2006; 4-month service obligation; mandatory retirement at age 35 or after 15 years of service (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,180,829",
-			"females age 16-49:": "1,143,919 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "968,242",
-			"females age 16-49:": "937,327 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "26,601",
-			"female:": "24,879 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "7,269 (Croatia)",
+			"refugees (country of origin):": null,
 			"IDPs:": "131,600 (Bosnian Croats, Serbs, and Bosniaks displaced in 1992-95 war) (2007)"
 		},
 		"Illicit drugs": {}

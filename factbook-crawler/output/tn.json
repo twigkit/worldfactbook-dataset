@@ -5,20 +5,50 @@
 	"background": "Tonga - unique among Pacific nations - never completely lost its indigenous governance. The archipelagos of \"The Friendly Islands\" were united into a Polynesian kingdom in 1845. Tonga became a constitutional monarchy in 1875 and a British protectorate in 1900; it withdrew from the protectorate and joined the Commonwealth of Nations in 1970. Tonga remains the only monarchy in the Pacific.",
 	"geo": {
 		"Location": "Oceania, archipelago in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand",
-		"Geographic coordinates": "20 00 S, 175 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 20,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 175,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "747 sq km",
+			"total:": {
+				"quantity": 747,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "717 sq km",
-			"water:": "30 sq km"
+			"land:": {
+				"quantity": 717,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 30,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "four times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "419 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 419,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "tropical; modified by trade winds; warm season (December to May), cool season (May to December)",
@@ -29,9 +59,18 @@
 		},
 		"Natural resources": "fish, fertile soil",
 		"Land use": {
-			"arable land:": "20%",
-			"permanent crops:": "14.67%",
-			"other:": "65.33% (2005)"
+			"arable land:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 14.67,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 65.33,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": {
@@ -47,29 +86,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "105,916 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "37.2% (male 20,023/female 19,393)",
-			"15-64 years:": "56.7% (male 30,125/female 29,959)",
+			"0-14 years:": {
+				"quantity": 37.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 56.7,
+				"unit": "%"
+			},
 			"65 years and over:": "6.1% (male 2,986/female 3,430) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.4 years",
-			"male:": "21 years",
-			"female:": "21.8 years (2011 est.)"
+			"total:": {
+				"quantity": 21.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.243% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.243,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "25.27 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 25.27,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.9 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.9,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -77,30 +140,72 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "23% of total population (2010)",
-			"rate of urbanization:": "0.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 23,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.7 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "13.65 deaths/1,000 live births",
+			"total:": {
+				"quantity": 13.65,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "14.07 deaths/1,000 live births",
-			"female:": "13.21 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 14.07,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 13.21,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.16 years",
+			"total population:": {
+				"quantity": 75.16,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.79 years",
-			"female:": "76.58 years (2011 est.)"
+			"male:": {
+				"quantity": 73.79,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.58,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.65 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.65,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -117,14 +222,32 @@
 		"Languages": "Tongan (official), English (official)",
 		"Literacy": {
 			"definition:": "can read and write Tongan and/or English",
-			"total population:": "98.9%",
-			"male:": "98.8%",
-			"female:": "99% (1999 est.)"
+			"total population:": {
+				"quantity": 98.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "14 years",
-			"female:": "14 years (2007)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -139,7 +262,16 @@
 		"Government type": "constitutional monarchy",
 		"Capital": {
 			"name:": "Nuku'alofa",
-			"geographic coordinates:": "21 08 S, 175 12 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 21,
+					"seconds": 8
+				},
+				"W": {
+					"minutes": 175,
+					"seconds": 12
+				}
+			},
 			"time difference:": "UTC+13 (18 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 island groups; Ha'apai, Tongatapu, Vava'u",
@@ -178,120 +310,214 @@
 	"economy": {
 		"Economy - overview": "Tonga has a small, open, South Pacific island economy. It has a narrow export base in agricultural goods. Squash, vanilla beans, and yams are the main crops. Agricultural exports, including fish, make up two-thirds of total exports. The country must import a high proportion of its food, mainly from New Zealand. The country remains dependent on external aid and remittances from Tongan communities overseas to offset its trade deficit. Tourism is the second-largest source of hard currency earnings following remittances. Tonga had 39,000 visitors in 2006. The government is emphasizing the development of the private sector, especially the encouragement of investment, and is committing increased funds for health and education. Tonga has a reasonably sound basic infrastructure and well developed social services. High unemployment among the young, a continuing upturn in inflation, pressures for democratic reform, and rising civil service expenditures are major issues facing the government.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$751 million (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 751000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$363 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 363000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$6,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "25%",
-			"industry:": "17%",
-			"services:": "57% (FY05/06 est.)"
+			"agriculture:": {
+				"quantity": 25,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 57,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "39,960 (2007)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "31.8%",
-			"industry:": "30.6%",
-			"services:": "2,003% (2003 est.)"
+			"agriculture:": {
+				"quantity": 31.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 2003,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13% (FY03/04 est.)",
+			"Unemployment rate": {
+				"quantity": 13,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "24% (FY03/04)",
+		"Population below poverty line": {
+			"quantity": 24,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$80.48 million",
-			"expenditures:": "$109.8 million (FY07/08 est.)"
+			"revenues:": {
+				"usd": 80480000
+			},
+			"expenditures:": {
+				"usd": 109800000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.9% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "12.47% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 12.47,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$44.64 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 44640000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$153.8 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 153800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$149.2 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 149200000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "squash, coconuts, copra, bananas, vanilla beans, cocoa, coffee, ginger, black pepper; fish",
 		"Industries": "tourism, construction, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1% (2003 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "43 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 43000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "39.99 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 39990000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,173 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1173,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -299,34 +525,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$22 million (2006)",
+			"Exports": {
+				"usd": 22000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "squash, fish, vanilla beans, root crops",
 		"Exports - partners": "Hong Kong 25.42%, US 22.65%, Japan 12.21%, NZ 7.31%, Fiji 7.2%, Samoa 6.06%, South Korea 4.48% (2009)",
 		"Imports": {
-			"Imports": "$139 million (2006)",
+			"Imports": {
+				"usd": 139000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery and transport equipment, fuels, chemicals",
 		"Imports - partners": "Fiji 34.37%, NZ 25.03%, US 9.43%, Australia 7.53%, China 5.64% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$40.83 million (FY04/05)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 40830000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$80.7 million (2004)",
+			"Debt - external": {
+				"usd": 80700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "31,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "53,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -337,34 +571,43 @@
 		"Broadcast media": "2 state-owned television stations and 2 privately-owned stations; satellite and cable TV services are available; 2 state-owned and 3 privately-owned radio stations; Radio Australia broadcasts obtainable via a satellite feed (2009)",
 		"Internet country code": ".to",
 		"Internet hosts": {
-			"Internet hosts": "20,847 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "5",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "680 km",
+			"total:": {
+				"quantity": 680,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "184 km",
-			"unpaved:": "496 km (2000)"
+			"paved:": {
+				"quantity": 184,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 496,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "10",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 6, carrier 1, liquefied gas 1, passenger/cargo 1",
 			"foreign-owned:": "3 (Australia 1, Switzerland 1, UK 1) (2010)"
@@ -375,16 +618,16 @@
 		"Military branches": "Tonga Defense Services (TDS): Land Force (Royal Guard), Maritime Force (includes Royal Marines, Air Wing) (2010)",
 		"Military service age and obligation": "16 years of age for voluntary enlistment (with parental consent); no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "24,460",
-			"females age 16-49:": "24,041 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "20,956",
-			"females age 16-49:": "20,577 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,196",
-			"female:": "1,134 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

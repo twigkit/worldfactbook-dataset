@@ -6,11 +6,56 @@
 	"geo": {
 		"Location": "southeast and east of Africa, islands in the southern Indian Ocean, some near Madagascar and others about equidistant between Africa, Antarctica, and Australia; note - French Southern and Antarctic Lands include Ile Amsterdam, Ile Saint-Paul, Iles Crozet, Iles Kerguelen, Bassas da India, Europa Island, Glorioso Islands, Juan de Nova Island, and Tromelin Island in the southern Indian Ocean, along with the French-claimed sector of Antarctica, \"Adelie Land\"; the US does not recognize the French claim to \"Adelie Land\"",
 		"Geographic coordinates": {
-			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": "37 50 S, 77 32 E",
-			"Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul):": "38 72 S, 77 53 E",
-			"Iles Crozet:": "46 25 S, 51 00 E",
-			"Iles Kerguelen:": "49 15 S, 69 35 E",
-			"Bassas da India (Iles Eparses):": "21 30 S, 39 50 E"
+			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": {
+				"S": {
+					"minutes": 37,
+					"seconds": 50
+				},
+				"E": {
+					"minutes": 77,
+					"seconds": 32
+				}
+			},
+			"Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul):": {
+				"S": {
+					"minutes": 38,
+					"seconds": 72
+				},
+				"E": {
+					"minutes": 77,
+					"seconds": 53
+				}
+			},
+			"Iles Crozet:": {
+				"S": {
+					"minutes": 46,
+					"seconds": 25
+				},
+				"E": {
+					"minutes": 51,
+					"seconds": 0
+				}
+			},
+			"Iles Kerguelen:": {
+				"S": {
+					"minutes": 49,
+					"seconds": 15
+				},
+				"E": {
+					"minutes": 69,
+					"seconds": 35
+				}
+			},
+			"Bassas da India (Iles Eparses):": {
+				"S": {
+					"minutes": 21,
+					"seconds": 30
+				},
+				"E": {
+					"minutes": 39,
+					"seconds": 50
+				}
+			}
 		},
 		"Map references": "Antarctic Region",
 		"Area": {
@@ -27,15 +72,33 @@
 			"Iles Kerguelen:": "slightly larger than Delaware",
 			"Bassas da India (Iles Eparses):": "land area about one-third the size of The Mall in Washington, DC"
 		},
-		"Land boundaries": "0 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Coastline": {
-			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": "28 km",
-			"Iles Kerguelen:": "2,800 km",
-			"Bassas da India (Iles Eparses):": "35.2 km",
-			"Europa Island (Iles Eparses):": "22.2 km"
+			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": {
+				"quantity": 28,
+				"unit": "km"
+			},
+			"Iles Kerguelen:": {
+				"quantity": 2800,
+				"unit": "km"
+			},
+			"Bassas da India (Iles Eparses):": {
+				"quantity": 35.2,
+				"unit": "km"
+			},
+			"Europa Island (Iles Eparses):": {
+				"quantity": 22.2,
+				"unit": "km"
+			}
 		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "200 nm from Iles Kerguelen and Iles Eparses (does not include the rest of French Southern and Antarctic Lands); Juan de Nova Island and Tromelin Island claim a continental shelf of 200-m depth or to the depth of exploitation"
 		},
 		"Climate": {
@@ -59,7 +122,10 @@
 			"Natural resources": "fish, crayfish"
 		},
 		"Land use": "Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul) - 100% trees, grasses, ferns, and moss; Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul) - 100% grass, ferns, and moss; Iles Crozet - 100% tossock grass, heath, and fern; Iles Kerguelen - 100% tossock grass and Kerguelen cabbage; Bassas da India (Iles Eparses) - 100% rock, coral reef, and sand; Europa Island (Iles Eparses) - 100% mangrove swamp and dry woodlands; Glorioso Islands (Iles Eparses) - 100% lush vegetation and coconut palms; Juan de Nova Island (Iles Eparses) - 90% forest, 10% other; Tromelin Island (Iles Eparses) - 100% grasses and scattered brush (2005)",
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": {
 			"Natural hazards": "Ile Amsterdam and Ile Saint-Paul are inactive volcanoes; Iles Eparses subject to periodic cyclones; Bassas da India is a maritime hazard since it is under water for a period of three hours prior to and following the high tide and surrounded by reefs",
 			"volcanism:": "Reunion Island - Piton de la Fournaise (elev. 2,632 m, ), which has erupted many times in recent years, including 2010, is one of the world's most active volcanoes; although rare, eruptions outside the volcano's caldera could threaten nearby cities"
@@ -96,7 +162,7 @@
 	"commerce": {
 		"Internet country code": ".tf",
 		"Internet hosts": {
-			"Internet hosts": "44 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Communications - note": {}

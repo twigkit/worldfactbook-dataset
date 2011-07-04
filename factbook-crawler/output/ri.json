@@ -5,20 +5,44 @@
 	"background": "The Kingdom of Serbs, Croats, and Slovenes was formed in 1918; its name was changed to Yugoslavia in 1929. Various paramilitary bands resisted Nazi Germany's occupation and division of Yugoslavia from 1941 to 1945, but fought each other and ethnic opponents as much as the invaders. The military and political movement headed by Josip \"TITO\" Broz (Partisans) took full control of Yugoslavia when German and Croatian separatist forces were defeated in 1945. Although Communist, TITO's new government and his successors (he died in 1980) managed to steer their own path between the Warsaw Pact nations and the West for the next four and a half decades. In 1989, Slobodan MILOSEVIC became president of the Republic of Serbia and his ultranationalist calls for Serbian domination led to the violent breakup of Yugoslavia along ethnic lines. In 1991, Croatia, Slovenia, and Macedonia declared independence, followed by Bosnia in 1992. The remaining republics of Serbia and Montenegro declared a new Federal Republic of Yugoslavia (FRY) in April 1992 and under MILOSEVIC's leadership, Serbia led various military campaigns to unite ethnic Serbs in neighboring republics into a \"Greater Serbia.\" These actions were ultimately unsuccessful and led to the signing of the Dayton Peace Accords in 1995. MILOSEVIC retained control over Serbia and eventually became president of the FRY in 1997. In 1998, an ethnic Albanian insurgency in the formerly autonomous Serbian province of Kosovo provoked a Serbian counterinsurgency campaign that resulted in massacres and massive expulsions of ethnic Albanians living in Kosovo. The MILOSEVIC government's rejection of a proposed international settlement led to NATO's bombing of Serbia in the spring of 1999, to the withdrawal of Serbian military and police forces from Kosovo in June 1999, and to the stationing of a NATO-led force in Kosovo to provide a safe and secure environment for the region's ethnic communities. FRY elections in late 2000 led to the ouster of MILOSEVIC and the installation of democratic government. In 2003, the FRY became Serbia and Montenegro, a loose federation of the two republics. Widespread violence predominantly targeting ethnic Serbs in Kosovo in March 2004 caused the international community to open negotiations on the future status of Kosovo in January 2006. In June 2006, Montenegro seceded from the federation and declared itself an independent nation. Serbia subsequently gave notice that it was the successor state to the union of Serbia and Montenegro. In February 2008, after nearly two years of inconclusive negotiations, the UN-administered province of Kosovo declared itself independent of Serbia - an action Serbia refuses to recognize. At Serbia's request, the UN General Assembly (UNGA) in October 2008 sought an advisory opinion from the International Court of Justice (ICJ) on whether Kosovo's unilateral declaration of independence was in accordance with international law. In a ruling considered unfavorable to Serbia, the ICJ issued an advisory opinion in July 2010 stating that international law did not prohibit declarations of independence. In late 2010, Serbia agreed to an EU-drafted UNGA Resolution acknowledging the ICJ's decision and calling for a new round of talks between Serbia and Kosovo.",
 	"geo": {
 		"Location": "Southeastern Europe, between Macedonia and Hungary",
-		"Geographic coordinates": "44 00 N, 21 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 44,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 21,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "77,474 sq km",
+			"total:": {
+				"quantity": 77474,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "77,474 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 77474,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Carolina",
 		"Land boundaries": {
-			"total:": "2,026 km",
+			"total:": {
+				"quantity": 2026,
+				"unit": "km"
+			},
 			"border countries:": "Bosnia and Herzegovina 302 km, Bulgaria 318 km, Croatia 241 km, Hungary 151 km, Kosovo 352 km, Macedonia 62 km, Montenegro 124 km, Romania 476 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "in the north, continental climate (cold winters and hot, humid summers with well distributed rainfall); in other parts, continental and Mediterranean climate (relatively cold winters with heavy snowfall and hot, dry summers and autumns)",
 		"Terrain": "extremely varied; to the north, rich fertile plains; to the east, limestone ranges and basins; to the southeast, ancient mountains and hills",
@@ -32,7 +56,10 @@
 			"permanent crops:": "NA",
 			"other:": "NA"
 		},
-		"Irrigated land": "890 sq km (2008)",
+		"Irrigated land": {
+			"quantity": 890,
+			"unit": "sq km"
+		},
 		"Total renewable water resources": "208.5 cu km (note - includes Kosovo) (2003)",
 		"Natural hazards": "destructive earthquakes",
 		"Environment - current issues": "air pollution around Belgrade and other industrial cities; water pollution from industrial wastes dumped into the Sava which flows into the Danube",
@@ -44,69 +71,138 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "7,310,555 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.1% (male 567,757/female 532,604)",
-			"15-64 years:": "68.5% (male 2,503,490/female 2,500,949)",
+			"0-14 years:": {
+				"quantity": 15.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.5,
+				"unit": "%"
+			},
 			"65 years and over:": "16.5% (male 493,436/female 712,319) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41.3 years",
-			"male:": "39.6 years",
-			"female:": "43.1 years (2011 est.)"
+			"total:": {
+				"quantity": 41.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.467% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.19 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.19,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "13.85 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 13.85,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "56% of total population (2010)",
-			"rate of urbanization:": "0.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 56,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BELGRADE (capital) 1.115 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.065 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and above:": "0.7 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.065,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and above:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.52 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.52,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.53 deaths/1,000 live births",
-			"female:": "5.45 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.53,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.45,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.32 years",
+			"total population:": {
+				"quantity": 74.32,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.49 years",
-			"female:": "77.34 years (2011 est.)"
+			"male:": {
+				"quantity": 71.49,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.34,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.4 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.4,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "6,400 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -131,14 +227,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "96.4%",
-			"male:": "98.9%",
-			"female:": "94.1% (2003 census)"
+			"total population:": {
+				"quantity": 96.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 94.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +267,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Belgrade (Beograd)",
-			"geographic coordinates:": "44 50 N, 20 30 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 44,
+					"seconds": 50
+				},
+				"E": {
+					"minutes": 20,
+					"seconds": 30
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -206,135 +329,240 @@
 	"economy": {
 		"Economy - overview": "MILOSEVIC-era mismanagement of the economy, an extended period of international economic sanctions, and the damage to Yugoslavia's infrastructure and industry during the NATO airstrikes in 1999 left the economy only half the size it was in 1990. After the ousting of former Federal Yugoslav President MILOSEVIC in September 2000, the Democratic Opposition of Serbia (DOS) coalition government implemented stabilization measures and embarked on a market reform program. After renewing its membership in the IMF in December 2000, Yugoslavia continued to reintegrate into the international community by rejoining the World Bank (IBRD) and the European Bank for Reconstruction and Development (EBRD). Belgrade has made progress in trade liberalization and enterprise restructuring and privatization, including telecommunications and small- and medium-size firms. It has made some progress towards EU membership, signing a Stabilization and Association Agreement with Brussels in May 2008, and with full implementation of the Interim Trade Agreement with the EU in February 2010. Serbia is also pursuing membership in the World Trade Organization. Structural economic reforms needed to ensure the country's long-term viability have largely stalled since the onset of the global financial crisis. Serbia, however, is slowly recovering from the crisis. Economic growth in 2010 was a modest 1.7%, following a 3.1% contraction in 2009, but exports rose by over 16% and manufacturing output increased 3.2%. High unemployment and stagnant household incomes are ongoing political and economic problems. Serbia signed an augmented $4 billion Stand By Arrangement with the IMF in May 2009 that expires in April 2011. IMF conditions on Serbia constrain the use of stimulus efforts to revive the economy, while Serbia's concerns about inflation and exchange rate stability preclude the use of expansionary monetary policy. Serbia adopted a new long-term economic growth plan in 2010 that calls for a quadrupling of exports over ten years and heavy investments in basic infrastructure. Serbia is still a transitional economy with unfinished privatization and incomplete structural reforms. Major challenges ahead include: high government expenditures for salaries, pensions and unemployment; a growing need for new government borrowing; rising public and private foreign debt; and stagnant levels of foreign direct investment. Privatization revenues have fallen precipitously in recent years, while a high percentage of economic activity remains in the hands of the state. Other serious challenges include an inefficient judicial system, high levels of corruption, and an aging population. Factors favorable to Serbia's economic growth include a strategic location, a relatively inexpensive and skilled labor force, and a generous package of incentives for foreign investments.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$80.1 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 80100000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$38.71 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 38710000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$10,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "12.6%",
-			"industry:": "21.9%",
-			"services:": "65.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 12.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 21.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 65.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.95 million (2010 est.)",
+			"Labor force": 2950000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "23.9%",
-			"industry:": "20.5%",
-			"services:": "55.6% (October 2009)"
+			"agriculture:": {
+				"quantity": 23.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 55.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "19.2% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 19.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "8.8% (2010 est.)",
+		"Population below poverty line": {
+			"quantity": 8.8,
+			"unit": "%"
+		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "25.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 25.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$16.47 billion",
-			"expenditures:": "$18.48 billion (2010 est.)"
+			"revenues:": {
+				"usd": 16469999999.999998
+			},
+			"expenditures:": {
+				"usd": 18480000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "41.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 41.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "10.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 10.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "12% (17 January 2011)",
+			"Central bank discount rate": {
+				"quantity": 12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "13.28% (30 November 2010)",
+			"Commercial bank prime lending rate": {
+				"quantity": 13.28,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.06 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 3060000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$17.68 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 17680000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$20.03 billion (30 November 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 20030000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$12.37 billion (24 January 2011)",
+			"Market value of publicly traded shares": {
+				"usd": 12370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, maize, sugar beets, sunflower, raspberries; beef, pork, milk",
 		"Industries": "base metals, furniture, food processing, machinery, chemicals, sugar, tires, clothes, pharmaceuticals",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "35.9 billion kWh (2010)",
+			"Electricity - production": {
+				"quantity": 35900000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "34.1 billion kWh (2010)",
+			"Electricity - consumption": {
+				"quantity": 34100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "1.3 billion kWh (2010)",
-		"Electricity - imports": "770 million kWh (2010)",
+		"Electricity - exports": {
+			"quantity": 1300000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 770000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "11,400 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 11400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "90,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 90000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "5,045 bbl/day (2008)",
+			"Oil - exports": {
+				"quantity": 5045,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "78,600 bbl/day (2010 est.)",
+			"Oil - imports": {
+				"quantity": 78600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "77.5 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 77500000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "356 million cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 356000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "2.35 billion cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 2350000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "2 billion cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 2000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "48.14 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 48140000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -342,26 +570,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$9.7 billion (2010 est.)",
+			"Exports": {
+				"usd": 9700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "iron and steel, rubber, clothes, wheat, fruit and vegetables, nonferrous metals, electric appliances, metal products, weapons and ammunition",
 		"Exports - partners": "Italy 11.5%, Bosnia and Herzegovina 11.2%, Germany 10.5%, Montenegro 8.4%, Romania 6.3%, Russia 5.4%, Macedonia 4.9%, Slovenia 4.4% (2010 est.)",
 		"Imports": {
-			"Imports": "$15.78 billion (2010 est.)",
+			"Imports": {
+				"usd": 15780000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - partners": "Russia 12.8%, Germany 10.6%, Italy 8.5%, China 7.2%, Hungary 4.9% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$15.1 billion (30 November 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 15100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$30.9 billion (30 November 2010 est.)",
+			"Debt - external": {
+				"usd": 30900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$23.52 billion (31 December 2009 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 23520000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": "$NA",
@@ -369,11 +607,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3.106 million (2009)",
+			"Telephones - main lines in use": 3106000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "9.912 million (2009)",
+			"Telephones - mobile cellular": 9912000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -383,40 +621,52 @@
 		},
 		"Internet country code": ".rs",
 		"Internet hosts": {
-			"Internet hosts": "528,253 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "29 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "11",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "3 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "18",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "9",
-			"under 914 m:": "8 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "3,379 km",
+			"total:": {
+				"quantity": 3379,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "3,379 km 1.435-m gauge (1,254 km electrified) (2006)"
 		},
 		"Roadways": {
-			"total:": "36,884 km",
+			"total:": {
+				"quantity": 36884,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "31,938 km",
-			"unpaved:": "4,946 km (2007)"
+			"paved:": {
+				"quantity": 31938,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 4946,
+				"unit": "km"
+			}
 		},
 		"Waterways": {}
 	},
@@ -424,8 +674,8 @@
 		"Military branches": "Serbian Armed Forces (Vojska Srbije, VS): Land Forces Command (includes Riverine Component, consisting of a river flotilla on the Danube), Air and Air Defense Forces Command (2010)",
 		"Military service age and obligation": "17 years of age for male compulsory military service; 18 years of age for voluntary service; conscription to be abolished effective 2011; 6-month service obligation, with a reserve obligation to age 60 for men and 50 for women (2010)",
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,395,426",
-			"females age 16-49:": "1,356,415 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {}
 	},

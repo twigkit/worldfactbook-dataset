@@ -5,21 +5,54 @@
 	"background": "Formerly an independent kingdom, Madagascar became a French colony in 1896 but regained independence in 1960. During 1992-93, free presidential and National Assembly elections were held ending 17 years of single-party rule. In 1997, in the second presidential race, Didier RATSIRAKA, the leader during the 1970s and 1980s, was returned to the presidency. The 2001 presidential election was contested between the followers of Didier RATSIRAKA and Marc RAVALOMANANA, nearly causing secession of half of the country. In April 2002, the High Constitutional Court announced RAVALOMANANA the winner. RAVALOMANANA achieved a second term following a landslide victory in the generally free and fair presidential elections of 2006. In early 2009, protests over increasing restrictions on opposition press and activities resulted in RAVALOMANANA stepping down and the presidency was conferred to the mayor of Antananarivo, Andry RAJOELINA. Following negotiations in July and August of 2009, a power-sharing agreement with a 15-month transitional period was established, but has not yet been implemented.",
 	"geo": {
 		"Location": "Southern Africa, island in the Indian Ocean, east of Mozambique",
-		"Geographic coordinates": "20 00 S, 47 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 20,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 47,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "587,041 sq km",
+			"total:": {
+				"quantity": 587041,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "581,540 sq km",
-			"water:": "5,501 sq km"
+			"land:": {
+				"quantity": 581540,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 5501,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of Arizona",
-		"Land boundaries": "0 km",
-		"Coastline": "4,828 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 4828,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or 100 nm from the 2,500-m isobath"
 		},
 		"Climate": "tropical along coast, temperate inland, arid in south",
@@ -30,15 +63,36 @@
 		},
 		"Natural resources": "graphite, chromite, coal, bauxite, rare earth elements, salt, quartz, tar sands, semiprecious stones, mica, fish, hydropower",
 		"Land use": {
-			"arable land:": "5.03%",
-			"permanent crops:": "1.02%",
-			"other:": "93.95% (2005)"
+			"arable land:": {
+				"quantity": 5.03,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.02,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 93.95,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "10,860 sq km (2008)",
-		"Total renewable water resources": "337 cu km (1984)",
+		"Irrigated land": {
+			"quantity": 10860,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 337,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "14.96  cu km/yr (3%/2%/96%)",
-			"per capita:": "804  cu m/yr (2000)"
+			"total:": {
+				"quantity": 14.96,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 804,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "periodic cyclones; drought; and locust infestation",
@@ -53,73 +107,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "21,926,221 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "43.1% (male 4,762,589/female 4,693,259)",
-			"15-64 years:": "53.8% (male 5,864,520/female 5,938,029)",
+			"0-14 years:": {
+				"quantity": 43.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 53.8,
+				"unit": "%"
+			},
 			"65 years and over:": "3% (male 295,409/female 372,415) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.2 years",
-			"male:": "17.9 years",
-			"female:": "18.4 years (2011 est.)"
+			"total:": {
+				"quantity": 18.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.973% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.973,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "37.51 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 37.51,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.79 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.79,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "30% of total population (2010)",
-			"rate of urbanization:": "3.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 30,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ANTANANARIVO (capital) 1.816 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.8 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "51.45 deaths/1,000 live births",
+			"total:": {
+				"quantity": 51.45,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "56.23 deaths/1,000 live births",
-			"female:": "46.52 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 56.23,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 46.52,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "63.63 years",
+			"total population:": {
+				"quantity": 63.63,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "61.62 years",
-			"female:": "65.7 years (2011 est.)"
+			"male:": {
+				"quantity": 61.62,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 65.7,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.02 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.02,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "24,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -139,14 +265,32 @@
 		"Languages": "French (official), Malagasy (official), English",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "68.9%",
-			"male:": "75.5%",
-			"female:": "62.5% (2003 est.)"
+			"total population:": {
+				"quantity": 68.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 75.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 62.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +305,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Antananarivo",
-			"geographic coordinates:": "18 55 S, 47 31 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 18,
+					"seconds": 55
+				},
+				"E": {
+					"minutes": 47,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "6 provinces (faritany); Antananarivo, Antsiranana, Fianarantsoa, Mahajanga, Toamasina, Toliara",
@@ -207,120 +360,208 @@
 	"economy": {
 		"Economy - overview": "After discarding socialist economic policies in the mid-1990s, Madagascar followed a World Bank- and IMF-led policy of privatization and liberalization that has been undermined since the start of the political crisis. This strategy placed the country on a slow and steady growth path from an extremely low level. Agriculture, including fishing and forestry, is a mainstay of the economy, accounting for more than one-fourth of GDP and employing 80% of the population. Exports of apparel have boomed in recent years primarily due to duty-free access to the US. However, Madagascar's failure to comply with the requirements of the African Growth and Opportunity Act (AGOA) led to the termination of the country's duty-free access in January 2010. Deforestation and erosion, aggravated by the use of firewood as the primary source of fuel, are serious concerns. Former President RAVALOMANANA worked aggressively to revive the economy following the 2002 political crisis, which triggered a 12% drop in GDP that year. The current political crisis which began in early 2009 has dealt additional blows to the economy. Tourism dropped more than 50% in 2009, compared with the previous year, and many investors are wary of entering the uncertain investment environment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$19.41 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 19410000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$8.345 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 8345000000.000001
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-2% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "26.5%",
-			"industry:": "16.7%",
-			"services:": "56.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 26.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 56.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "9.504 million (2007)",
+			"Labor force": 9504000,
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "50% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 50,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "41.5% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "47.5 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "34.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 34.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$896.9 million",
-			"expenditures:": "$1.547 billion (2010 est.)"
+			"revenues:": {
+				"usd": 896900000
+			},
+			"expenditures:": {
+				"usd": 1547000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "8.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 8.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "45% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 45,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.233 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1233000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.012 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2012000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.02 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1020000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, vanilla, sugarcane, cloves, cocoa, rice, cassava (tapioca), beans, bananas, peanuts; livestock products",
 		"Industries": "meat processing, seafood, soap, breweries, tanneries, sugar, textiles, glassware, cement, automobile assembly plant, paper, petroleum, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.045 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 1044999999.9999999,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "971.4 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 971400000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "21,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 21000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "364.9 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 364.9,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "16,940 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 16940,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2006 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -328,23 +569,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.412 billion (2010 est.)",
+			"Exports": {
+				"usd": 1412000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, vanilla, shellfish, sugar, cotton cloth, chromite, petroleum products",
 		"Exports - partners": "France 28.9%, US 20.49%, Germany 5.89%, China 4.36% (2009)",
 		"Imports": {
-			"Imports": "$1.958 billion (2010 est.)",
+			"Imports": {
+				"usd": 1958000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital goods, petroleum, consumer goods, food",
 		"Imports - partners": "China 12.99%, Thailand 11.93%, Bahrain 7.1%, France 6.89%, US 4.13% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.038 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1038000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.973 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 2973000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -353,11 +602,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "181,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.997 million (2009)",
+			"Telephones - mobile cellular": 5997000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -368,46 +617,58 @@
 		"Broadcast media": "state-owned Radio Nationale Malagasy (RNM) and Television Malagasy (TVM) have an extensive national network reach; privately-owned radio and TV broadcasters in cities and major towns; state-run radio predominates in rural areas; relays of 2 international broadcasters are available in Antananarivo (2007)",
 		"Internet country code": ".mg",
 		"Internet hosts": {
-			"Internet hosts": "27,606 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "84 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "27",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "17"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "57",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "35",
-			"under 914 m:": "20 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "854 km",
+			"total:": {
+				"quantity": 854,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "854 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "65,663 km",
+			"total:": {
+				"quantity": 65663,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "7,617 km",
-			"unpaved:": "58,046 km (2003)"
+			"paved:": {
+				"quantity": 7617,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 58046,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "600 km (432 km navigable) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "8",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 4, passenger/cargo 2, petroleum tanker 2 (2010)"
 		},
@@ -417,16 +678,16 @@
 		"Military branches": "People's Armed Forces: Intervention Force, Development Force, and Aeronaval Force (navy and air); National Gendarmerie",
 		"Military service age and obligation": "18-25 years of age for male-only voluntary military service; no conscription; service obligation - 18 months (either military or equivalent civil service); 20-30 years of age for National Gendarmerie recruits (35 years of age for those with military experience) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "4,900,729",
-			"females age 16-49:": "4,909,061 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "3,390,071",
-			"females age 16-49:": "3,682,180 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "248,184",
-			"female:": "246,769 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

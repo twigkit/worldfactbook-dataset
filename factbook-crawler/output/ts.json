@@ -5,24 +5,57 @@
 	"background": "Rivalry between French and Italian interests in Tunisia culminated in a French invasion in 1881 and the creation of a protectorate. Agitation for independence in the decades following World War I was finally successful in getting the French to recognize Tunisia as an independent state in 1956. The country's first president, Habib BOURGUIBA, established a strict one-party state. He dominated the country for 31 years, repressing Islamic fundamentalism and establishing rights for women unmatched by any other Arab nation. In November 1987, BOURGUIBA was removed from office and replaced by Zine el Abidine BEN ALI in a bloodless coup. Street protests that began in Tunis in December 2010 over high unemployment, corruption, widespread poverty, and high food prices escalated in January 2011, culminating in rioting that led to hundreds of deaths. On 14 January 2011, the same day BEN ALI dismissed the government, he fled the country, and by late January 2011, Prime Minister Mohamed GHANNOUCHI announced the formation of a \"national unity government\" with the head of the Chamber of Deputies, Fouad M'BAZAA, as the interim president.",
 	"geo": {
 		"Location": "Northern Africa, bordering the Mediterranean Sea, between Algeria and Libya",
-		"Geographic coordinates": "34 00 N, 9 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 34,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 9,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "163,610 sq km",
+			"total:": {
+				"quantity": 163610,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "155,360 sq km",
-			"water:": "8,250 sq km"
+			"land:": {
+				"quantity": 155360,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 8250,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Georgia",
 		"Land boundaries": {
-			"total:": "1,424 km",
+			"total:": {
+				"quantity": 1424,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 965 km, Libya 459 km"
 		},
-		"Coastline": "1,148 km",
+		"Coastline": {
+			"quantity": 1148,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
 		"Terrain": "mountains in north; hot, dry central plain; semiarid south merges into the Sahara",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "petroleum, phosphates, iron ore, lead, zinc, salt",
 		"Land use": {
-			"arable land:": "17.05%",
-			"permanent crops:": "13.08%",
-			"other:": "69.87% (2005)"
+			"arable land:": {
+				"quantity": 17.05,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 13.08,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 69.87,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "4,450 sq km (2008)",
-		"Total renewable water resources": "4.6 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 4450,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 4.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.64  cu km/yr (14%/4%/82%)",
-			"per capita:": "261  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.64,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 261,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "toxic and hazardous waste disposal is ineffective and poses health risks; water pollution from raw sewage; limited natural freshwater resources; deforestation; overgrazing; soil erosion; desertification",
@@ -52,29 +106,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,629,186 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "23.2% (male 1,274,348/female 1,193,131)",
-			"15-64 years:": "69.3% (male 3,638,014/female 3,728,294)",
+			"0-14 years:": {
+				"quantity": 23.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 69.3,
+				"unit": "%"
+			},
 			"65 years and over:": "7.5% (male 390,055/female 405,344) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30 years",
-			"male:": "29.6 years",
-			"female:": "30.4 years (2011 est.)"
+			"total:": {
+				"quantity": 30,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 30.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.978% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.978,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.4 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.4,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.83 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.83,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,31 +160,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "67% of total population (2010)",
-			"rate of urbanization:": "1.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 67,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TUNIS (capital) 759,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.07 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.86 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.86,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "25.92 deaths/1,000 live births",
+			"total:": {
+				"quantity": 25.92,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "29.6 deaths/1,000 live births",
-			"female:": "21.97 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 29.6,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 21.97,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.01 years",
+			"total population:": {
+				"quantity": 75.01,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73 years",
-			"female:": "77.17 years (2011 est.)"
+			"male:": {
+				"quantity": 73,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.17,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.03 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.03,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -114,7 +234,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,400 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -132,14 +252,32 @@
 		"Languages": "Arabic (official, one of the languages of commerce), French (commerce)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "74.3%",
-			"male:": "83.4%",
-			"female:": "65.3% (2004 census)"
+			"total population:": {
+				"quantity": 74.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 83.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 65.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "14 years",
-			"female:": "15 years (2008)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +291,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Tunis",
-			"geographic coordinates:": "36 48 N, 10 11 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 36,
+					"seconds": 48
+				},
+				"E": {
+					"minutes": 10,
+					"seconds": 11
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "24 governorates; Ariana (Aryanah), Beja (Bajah), Ben Arous (Bin 'Arus), Bizerte (Banzart), Gabes (Qabis), Gafsa (Qafsah), Jendouba (Jundubah), Kairouan (Al Qayrawan), Kasserine (Al Qasrayn), Kebili (Qibili), Kef (Al Kaf), Mahdia (Al Mahdiyah), Manouba (Manubah), Medenine (Madanin), Monastir (Al Munastir), Nabeul (Nabul), Sfax (Safaqis), Sidi Bou Zid (Sidi Bu Zayd), Siliana (Silyanah), Sousse (Susah), Tataouine (Tatawin), Tozeur (Tawzar), Tunis, Zaghouan (Zaghwan)",
@@ -200,133 +347,238 @@
 	"economy": {
 		"Economy - overview": "Tunisia has a diverse economy, with important agricultural, mining, tourism, and manufacturing sectors. Governmental control of economic affairs while still heavy has gradually lessened over the past decade with increasing privatization, simplification of the tax structure, and a prudent approach to debt. Progressive social policies also have helped raise living conditions in Tunisia relative to the region. Real growth, which averaged almost 5% over the past decade, declined to 4.6% in 2008 and to 3-4% in 2009-10 because of economic contraction and slowing of import demand in Europe - Tunisia's largest export market. However, development of non-textile manufacturing, a recovery in agricultural production, and strong growth in the services sector somewhat mitigated the economic effect of slowing exports. Tunisia will need to reach even higher growth levels to create sufficient employment opportunities for an already large number of unemployed as well as the growing population of university graduates. The challenges ahead include: privatizing industry, liberalizing the investment code to increase foreign investment, improving government efficiency, reducing the trade deficit, and reducing socioeconomic disparities in the impoverished south and west.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$100 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 100000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$44.29 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 44290000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$9,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "10.6%",
-			"industry:": "34.6%",
-			"services:": "54.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 10.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 34.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 54.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.83 million (2010 est.)",
+			"Labor force": 3830000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "18.3%",
-			"industry:": "31.9%",
-			"services:": "49.8% (2009 est.)"
+			"agriculture:": {
+				"quantity": 18.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 49.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "14% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 14,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "3.8% (2005 est.)",
+		"Population below poverty line": {
+			"quantity": 3.8,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.3%",
-			"highest 10%:": "31.5% (2000)"
+			"lowest 10%:": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 31.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "40 (2005 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "26.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 26.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$9.806 billion",
-			"expenditures:": "$11.76 billion (2010 est.)"
+			"revenues:": {
+				"usd": 9806000000
+			},
+			"expenditures:": {
+				"usd": 11760000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "49.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 49.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$11.49 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 11490000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$29.39 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 29390000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$31.1 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 31100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$9.12 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 9120000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "olives, olive oil, grain, tomatoes, citrus fruit, sugar beets, dates, almonds; beef, dairy products",
 		"Industries": "petroleum, mining (particularly phosphate and iron ore), tourism, textiles, footwear, agribusiness, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.6% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "11.08 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 11080000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "11.8 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 11800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "130 million kWh (2007 est.)",
-		"Electricity - imports": "145 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 130000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 145000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "91,380 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 91380,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "89,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 89000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "77,130 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 77130,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "87,300 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 87300,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "425 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 425000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "2.97 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 2970000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "4.22 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 4219999999.9999995,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.25 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 1250000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "65.13 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 65129999999.99999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -334,42 +586,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$16.11 billion (2010 est.)",
+			"Exports": {
+				"usd": 16110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing, semi-finished goods and textiles, agricultural products, mechanical goods, phosphates and chemicals, hydrocarbons, electrical equipment",
 		"Exports - partners": "France 29.6%, Italy 21%, Germany 8.8%, Libya 5.8%, Spain 5%, UK 4.8% (2009 est.)",
 		"Imports": {
-			"Imports": "$20.02 billion (2010 est.)",
+			"Imports": {
+				"usd": 20020000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "textiles, machinery and equipment, hydrocarbons, chemicals, foodstuffs",
 		"Imports - partners": "France 20.1%, Italy 16.4%, Germany 8.8%, China 5%, Spain 4.5%, US 4% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$11.23 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 11230000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$18.76 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 18760000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$33.56 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 33560000000.000004
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$251 million (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 251000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.279 million (2009)",
+			"Telephones - main lines in use": 1279000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "9.754 million (2009)",
+			"Telephones - mobile cellular": 9754000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,45 +644,60 @@
 		"Broadcast media": "broadcast media is mainly government-controlled; the state-run Tunisian Radio and Television Establishment (ERTT) operates 2 national television networks, several national radio networks, and a number of regional radio stations; 1 TV and 3 radio stations are privately-owned and report domestic news stories directly from the official Tunisian news agency; the state retains control of broadcast facilities and transmitters through L'Office National de la Telediffusion; Tunisians also have access to Egyptian, pan-Arab, and European satellite TV channels (2007)",
 		"Internet country code": ".tn",
 		"Internet hosts": {
-			"Internet hosts": "490 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "32 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "16",
-			"over 3,047 m:": "4",
-			"2,438 to 3,047 m:": "6",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "4 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "16",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "7",
-			"under 914 m:": "7 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 2,386 km; oil 1,323 km; refined products 453 km (2010)",
 		"Railways": {
-			"total:": "2,167 km",
+			"total:": {
+				"quantity": 2167,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "471 km 1.435-m gauge",
 			"narrow gauge:": "1,688 km 1.000-m gauge (65 km electrified)",
-			"dual gauge:": "8 km (2008)"
+			"dual gauge:": {
+				"quantity": 8,
+				"unit": "km"
+			}
 		},
 		"Roadways": {
-			"total:": "19,232 km",
+			"total:": {
+				"quantity": 19232,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "12,655 km (includes 262 km of expressways)",
-			"unpaved:": "6,577 km (2006)"
+			"paved:": {
+				"quantity": 12655,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 6577,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "11",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 2, chemical tanker 2, passenger/cargo 4, roll on/roll off 2",
 			"registered in other countries:": "1 (Panama 1) (2010)"
@@ -429,16 +708,16 @@
 		"Military branches": "Tunisian Armed Forces (Forces Armees Tunisiens, FAT): Army, Navy, Republic of Tunisia Air Force (Al-Quwwat al-Jawwiya al-Jamahiriyah At'Tunisia) (2011)",
 		"Military service age and obligation": "20 years of age for compulsory military service, 18 years of age for voluntary military service; 1-year conscript service obligation (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,846,572",
-			"females age 16-49:": "2,952,180 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,397,716",
-			"females age 16-49:": "2,484,097 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "90,436",
-			"female:": "87,346 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

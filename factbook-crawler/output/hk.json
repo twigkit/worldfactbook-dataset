@@ -5,22 +5,49 @@
 	"background": "Occupied by the UK in 1841, Hong Kong was formally ceded by China the following year; various adjacent lands were added later in the 19th century. Pursuant to an agreement signed by China and the UK on 19 December 1984, Hong Kong became the Hong Kong Special Administrative Region (SAR) of the People's Republic of China on 1 July 1997. In this agreement, China promised that, under its \"one country, two systems\" formula, China's socialist economic system would not be imposed on Hong Kong and that Hong Kong would enjoy a high degree of autonomy in all matters except foreign and defense affairs for the next 50 years.",
 	"geo": {
 		"Location": "Eastern Asia, bordering the South China Sea and China",
-		"Geographic coordinates": "22 15 N, 114 10 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 22,
+				"seconds": 15
+			},
+			"E": {
+				"minutes": 114,
+				"seconds": 10
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "1,104 sq km",
+			"total:": {
+				"quantity": 1104,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,054 sq km",
-			"water:": "50 sq km"
+			"land:": {
+				"quantity": 1054,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 50,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "six times the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "30 km",
+			"total:": {
+				"quantity": 30,
+				"unit": "km"
+			},
 			"regional border:": "China 30 km"
 		},
-		"Coastline": "733 km",
+		"Coastline": {
+			"quantity": 733,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			}
 		},
 		"Climate": "subtropical monsoon; cool and humid in winter, hot and rainy from spring through summer, warm and sunny in fall",
 		"Terrain": "hilly to mountainous with steep slopes; lowlands in north",
@@ -30,9 +57,18 @@
 		},
 		"Natural resources": "outstanding deepwater harbor, feldspar",
 		"Land use": {
-			"arable land:": "5.05%",
-			"permanent crops:": "1.01%",
-			"other:": "93.94% (2001)"
+			"arable land:": {
+				"quantity": 5.05,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.01,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 93.94,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA; note - included in the total for China (2008)",
 		"Natural hazards": "occasional typhoons",
@@ -44,68 +80,140 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "7,122,508 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "11.6% (male 431,728/female 394,898)",
-			"15-64 years:": "74.8% (male 2,573,929/female 2,757,095)",
+			"0-14 years:": {
+				"quantity": 11.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 74.8,
+				"unit": "%"
+			},
 			"65 years and over:": "13.5% (male 452,278/female 512,580) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "43.4 years",
-			"male:": "42.8 years",
-			"female:": "43.8 years (2011 est.)"
+			"total:": {
+				"quantity": 43.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 42.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.448% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.448,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "7.49 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 7.49,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.07 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.07,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "4.06 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 4.06,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.075 male(s)/female",
-			"under 15 years:": "1.09 male(s)/female",
-			"15-64 years:": "0.94 male(s)/female",
-			"65 years and over:": "0.88 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.075,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "2.9 deaths/1,000 live births",
+			"total:": {
+				"quantity": 2.9,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.08 deaths/1,000 live births",
-			"female:": "2.71 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.08,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 2.71,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "82.04 years",
+			"total population:": {
+				"quantity": 82.04,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "79.32 years",
-			"female:": "84.97 years (2011 est.)"
+			"male:": {
+				"quantity": 79.32,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.97,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.07 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.07,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2003 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,600 (2003 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -121,14 +229,32 @@
 		"Languages": "Cantonese (official) 90.8%, English (official) 2.8%, Putonghua (Mandarin) 0.9%, other Chinese dialects 4.4%, other 1.1% (2006 census)",
 		"Literacy": {
 			"definition:": "age 15 and over has ever attended school",
-			"total population:": "93.5%",
-			"male:": "96.9%",
-			"female:": "89.6% (2002)"
+			"total population:": {
+				"quantity": 93.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 96.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 89.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "15 years",
-			"female:": "16 years (2009)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -187,36 +313,72 @@
 	"economy": {
 		"Economy - overview": "Hong Kong has a free market economy highly dependent on international trade and finance - the value of goods and services trade, including the sizable share of re-exports, is about four times GDP. Hong Kong's open economy left it exposed to the global economic slowdown, but its increasing integration with China, through trade, tourism, and financial links, helped it recover more quickly than many observers anticipated. The Hong Kong government is promoting the Special Administrative Region (SAR) as the site for Chinese renminbi (RMB) internationalization. Hong Kong residents are allowed to establish RMB-denominated savings accounts; RMB-denominated corporate and Chinese government bonds have been issued in Hong Kong; and RMB trade settlement is allowed. The territory far exceeded the RMB conversion quota set by Beijing for trade settlements in 2010 due to the growth of earnings from exports to the mainland. RMB deposits grew to roughly 4.6% of total system deposits in Hong Kong by the end of 2010, an increase of over 392% since the beginning of the year. The government is pursuing efforts to introduce additional use of RMB in Hong Kong financial markets and is seeking to expand the RMB quota for 2011. The mainland has long been Hong Kong's largest trading partner, accounting for about half of Hong Kong's exports by value. Hong Kong's natural resources are limited, and food and raw materials must be imported. As a result of China's easing of travel restrictions, the number of mainland tourists to the territory has surged from 4.5 million in 2001 to 22.5 million in 2010, outnumbering visitors from all other countries combined. Hong Kong has also established itself as the premier stock market for Chinese firms seeking to list abroad. In 2010 mainland Chinese companies constituted about 19% of the firms listed on the Hong Kong Stock Exchange and accounted for 62% of the Exchange's market capitalization. During the past decade, as Hong Kong's manufacturing industry moved to the mainland, its service industry has grown rapidly and in 2009 accounted for more than 90% of the territory's GDP. GDP growth averaged a strong 3.8% from 1989 to 2010. Hong Kong's GDP fell in 2009 as a result of the global financial crisis, but a recovery began in third quarter 2009, and the economy grew nearly 6.8% in 2010. The Hong Kong government adopted several temporary fiscal policy support measures in response to the crisis that it may discontinue if strong growth is sustained. Credit expansion and tight housing supply conditions caused Hong Kong property prices to rise rapidly in 2010, and some lower income segments of the population are increasingly unable to afford adequate housing. Hong Kong continues to link its currency closely to the US dollar, maintaining an arrangement established in 1983.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$325.8 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 325800000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$225 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 225000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$45,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.1%",
-			"industry:": "7.6%",
-			"services:": "92.3% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 7.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 92.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.7 million (2010 est.)",
+			"Labor force": 3700000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"manufacturing:": "4.7%",
-			"construction:": "2.2%",
-			"wholesale and retail trade, restaurants, and hotels:": "41.7%",
-			"financing, insurance, and real estate:": "12%",
-			"transport and communications:": "6.3%"
+			"manufacturing:": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
+			"construction:": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
+			"wholesale and retail trade, restaurants, and hotels:": {
+				"quantity": 41.7,
+				"unit": "%"
+			},
+			"financing, insurance, and real estate:": {
+				"quantity": 12,
+				"unit": "%"
+			},
+			"transport and communications:": {
+				"quantity": 6.3,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "4.3% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 4.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -225,47 +387,74 @@
 			"highest 10%:": "NA%"
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "53.3 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "21.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 21.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$48.1 billion",
-			"expenditures:": "$38.9 billion (2010 est.)"
+			"revenues:": {
+				"usd": 48100000000
+			},
+			"expenditures:": {
+				"usd": 38900000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "18.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 18.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.5% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$130.4 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 130400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$914.9 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 914900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$390.1 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 390100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$2.702 trillion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 2702000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fresh vegetables; poultry, pork; fish",
@@ -275,96 +464,152 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "38.23 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 38230000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "42.64 billion kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 42640000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "2.23 billion kWh (2010 est.)",
-		"Electricity - imports": "12.26 billion kWh (2010 est.)",
+		"Electricity - exports": {
+			"quantity": 2230000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 12260000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "418,200 bbl/day (2010 est.)",
+			"Oil - consumption": {
+				"quantity": 418200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "10,020 bbl/day (2010)",
+			"Oil - exports": {
+				"quantity": 10020,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "428,200 bbl/day (2010)",
+			"Oil - imports": {
+				"quantity": 428200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2011 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "3.7 billion cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 3700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "3.7 billion cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 3700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2011 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$18.07 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 18070000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$388.6 billion (2010 est.)",
+			"Exports": {
+				"usd": 388600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "electrical machinery and appliances, textiles, apparel, footwear, watches and clocks, toys, plastics, precious stones, printed material",
 		"Exports - partners": "China 51.2%, US 11.6%, Japan 4.4% (2009 est.)",
 		"Imports": {
-			"Imports": "$431.4 billion (2010 est.)",
+			"Imports": {
+				"usd": 431400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "raw materials and semi-manufactures, consumer goods, capital goods, foodstuffs, fuel (most is reexported)",
 		"Imports - partners": "China 46.4%, Japan 8.8%, Taiwan 6.5%, Singapore 6.5%, US 5.3% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$268.9 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 268899999999.99997
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$750.8 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 750800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$962.2 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 962200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$873.1 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 873100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4.188 million (2009)",
+			"Telephones - main lines in use": 4187999.9999999995,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "12.207 million (2009)",
+			"Telephones - mobile cellular": 12207000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -375,29 +620,35 @@
 		"Broadcast media": "2 commercial terrestrial television networks each with multiple stations; multi-channel satellite and cable TV systems are available; 3 radio networks, one of which is government-funded, operate about 15 radio stations (2010)",
 		"Internet country code": ".hk",
 		"Internet hosts": {
-			"Internet hosts": "817,701 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
-		"Heliports": "9 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "2,067 km",
+			"total:": {
+				"quantity": 2067,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,067 km (2010)"
+			"paved:": {
+				"quantity": 2067,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "1,429",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 2, bulk carrier 629, cargo 177, carrier 11, chemical tanker 134, container 274, liquefied gas 37, passenger 4, passenger/cargo 9, petroleum tanker 139, roll on/roll off 5, vehicle carrier 8",
 			"foreign-owned:": "855 (Belgium 16, Bermuda 12, Canada 70, China 432, Cyprus 3, Denmark 41, France 3, Germany 10, Greece 22, Indonesia 8, Iran 1, Japan 84, Libya 1, Norway 49, Russia 1, Singapore 13, South Korea 3, Taiwan 26, UAE 2, UK 27, US 31)"
@@ -407,16 +658,16 @@
 	"military": {
 		"Military branches": "no regular indigenous military forces; Hong Kong garrison of China's People's Liberation Army (PLA) includes elements of the PLA Ground Forces, PLA Navy, and PLA Air Force; these forces are under the direct leadership of the Central Military Commission in Beijing and under administrative control of the adjacent Guangzhou Military Region (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,704,090",
-			"females age 16-49:": "1,873,175 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,387,213",
-			"females age 16-49:": "1,505,875 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "39,579",
-			"female:": "36,554 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

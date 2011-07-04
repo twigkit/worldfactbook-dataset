@@ -5,24 +5,57 @@
 	"background": "Venezuela was one of three countries that emerged from the collapse of Gran Colombia in 1830 (the others being Ecuador and New Granada, which became Colombia). For most of the first half of the 20th century, Venezuela was ruled by generally benevolent military strongmen, who promoted the oil industry and allowed for some social reforms. Democratically elected governments have held sway since 1959. Hugo CHAVEZ, president since 1999, seeks to implement his \"21st Century Socialism,\" which purports to alleviate social ills while at the same time attacking capitalist globalization and existing democratic institutions. Current concerns include: a weakening of democratic institutions, political polarization, a politicized military, drug-related violence along the Colombian border, overdependence on the petroleum industry with its price fluctuations, and irresponsible mining operations that are endangering the rain forest and indigenous peoples.",
 	"geo": {
 		"Location": "Northern South America, bordering the Caribbean Sea and the North Atlantic Ocean, between Colombia and Guyana",
-		"Geographic coordinates": "8 00 N, 66 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 8,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 66,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "912,050 sq km",
+			"total:": {
+				"quantity": 912050,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "882,050 sq km",
-			"water:": "30,000 sq km"
+			"land:": {
+				"quantity": 882050,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 30000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of California",
 		"Land boundaries": {
-			"total:": "4,993 km",
+			"total:": {
+				"quantity": 4993,
+				"unit": "km"
+			},
 			"border countries:": "Brazil 2,200 km, Colombia 2,050 km, Guyana 743 km"
 		},
-		"Coastline": "2,800 km",
+		"Coastline": {
+			"quantity": 2800,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "15 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 15,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "tropical; hot, humid; more moderate in highlands",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, iron ore, gold, bauxite, other minerals, hydropower, diamonds",
 		"Land use": {
-			"arable land:": "2.85%",
-			"permanent crops:": "0.88%",
-			"other:": "96.27% (2005)"
+			"arable land:": {
+				"quantity": 2.85,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.88,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.27,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "5,800 sq km (2008)",
-		"Total renewable water resources": "1,233.2 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 5800,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 1233.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "8.37  cu km/yr (6%/7%/47%)",
-			"per capita:": "313  cu m/yr (2000)"
+			"total:": {
+				"quantity": 8.37,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 313,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "subject to floods, rockslides, mudslides; periodic droughts",
 		"Environment - current issues": "sewage pollution of Lago de Valencia; oil and urban pollution of Lago de Maracaibo; deforestation; soil degradation; urban and industrial pollution, especially along the Caribbean coast; threat to the rainforest ecosystem from irresponsible mining operations",
@@ -53,61 +107,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "27,635,743 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "29.5% (male 4,149,781/female 4,002,931)",
-			"15-64 years:": "65.1% (male 8,846,945/female 9,130,561)",
+			"0-14 years:": {
+				"quantity": 29.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.1,
+				"unit": "%"
+			},
 			"65 years and over:": "5.4% (male 665,436/female 840,089) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.1 years",
-			"male:": "25.4 years",
-			"female:": "26.8 years (2011 est.)"
+			"total:": {
+				"quantity": 26.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 25.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.493% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.493,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "20.1 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 20.1,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.17 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.17,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "93% of total population (2010)",
-			"rate of urbanization:": "1.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 93,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "CARACAS (capital) 3.051 million; Maracaibo 2.153 million; Valencia 1.738 million; Barquisimeto 1.159 million; Maracay 1.04 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.79 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.79,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "20.62 deaths/1,000 live births",
+			"total:": {
+				"quantity": 20.62,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "24.12 deaths/1,000 live births",
-			"female:": "16.95 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 24.12,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 16.95,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.93 years",
+			"total population:": {
+				"quantity": 73.93,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "70.84 years",
-			"female:": "77.17 years (2011 est.)"
+			"male:": {
+				"quantity": 70.84,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.17,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.42 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.42,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA; NA note - no country specific models provided",
@@ -129,14 +252,32 @@
 		"Languages": "Spanish (official), numerous indigenous dialects",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "93%",
-			"male:": "93.3%",
-			"female:": "92.7% (2001 census)"
+			"total population:": {
+				"quantity": 93,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 93.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 92.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "15 years (2008)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +291,16 @@
 		"Government type": "federal republic",
 		"Capital": {
 			"name:": "Caracas",
-			"geographic coordinates:": "10 30 N, 66 56 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 10,
+					"seconds": 30
+				},
+				"W": {
+					"minutes": 66,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC-4.5 (half an hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -197,79 +347,140 @@
 	"economy": {
 		"Economy - overview": "Venezuela remains highly dependent on oil revenues, which account for roughly 95% of export earnings, about 55% of the federal budget revenues, and around 30% of GDP. A nationwide strike between December 2002 and February 2003 had far-reaching economic consequences - real GDP declined by around 9% in 2002 and 8% in 2003 - but economic output recovered strongly through 2008. Fueled by high oil prices, record government spending helped to boost GDP by about 10% in 2006, 8% in 2007, and nearly 5% in 2008, before a sharp drop in oil prices caused a contraction in 2009-10. This spending, combined with recent minimum wage hikes and improved access to domestic credit, created a consumption boom which came at the cost of higher inflation - roughly 32% in 2008, and slowing only slightly to 30% in 2010, despite the lengthy downturn. Imports also jumped significantly before the recession of 2009. President Hugo CHAVEZ's continued efforts to increase the government's control of the economy by nationalizing firms in the agribusiness, financial, construction, oil, and steel sectors have hurt the private investment environment, reduced productive capacity, and slowed non-petroleum exports. In the first half of 2010 Venezuela faced the prospect of lengthy nationwide blackouts when its main hydroelectric power plant - which provides more than 35% of the country's electricity - nearly shut down. In May, 2010, CHAVEZ closed the unofficial foreign exchange market - the \"parallel\" market - in an effort to stem inflation and slow the currency's depreciation. In June 2010, the government created the \"Transaction System for Foreign Currency Denominated Securities\" (SITME) to replace the \"parallel\" market. In December 2010, CHAVEZ eliminated the dual exchange rate system and unified the exchange rate at 4.3 bolivars per dollar. In January 2011, CHAVEZ announced the second devaluation of the bolivar within twelve months. In December 2010, the National Assembly passed a package of five organic laws designed to complete the transformation of the Venezuelan economy in line with CHAVEZ's vision of 21st century socialism. These laws likely will be implemented in 2011. Venezuela began 2011 wrestling with macroeconomic imbalances resulting from the government's unorthodox economic policies, a housing crisis, and a continuing electricity crisis.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$345.2 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 345200000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$290.7 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 290700000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-1.9% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$12,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "4.1%",
-			"industry:": "34.9%",
-			"services:": "61.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 34.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 61.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "13.3 million (2010 est.)",
+			"Labor force": 13300000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "13%",
-			"industry:": "23%",
-			"services:": "64% (1997 est.)"
+			"agriculture:": {
+				"quantity": 13,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 64,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "12.1% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 12.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "37.9% (2005 est.)",
+		"Population below poverty line": {
+			"quantity": 37.9,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.7%",
-			"highest 10%:": "32.7% (2006)"
+			"lowest 10%:": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 32.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "41 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "16.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 16.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$50.12 billion",
-			"expenditures:": "$56.53 billion (2010 est.)"
+			"revenues:": {
+				"usd": 50120000000
+			},
+			"expenditures:": {
+				"usd": 56530000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "25.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 25.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "29.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 29.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "29.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 29.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "19.89% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 19.89,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$69.36 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 69360000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$78.11 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 78110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$54.22 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 54220000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -283,96 +494,152 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "113.3 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 113300000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "83.02 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 83020000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "540 million kWh (2007 est.)",
-		"Electricity - imports": "1.651 billion kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 540000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1651000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "2.472 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2472000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "740,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 740000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.182 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2182000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "0 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "97.77 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 97770000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "23.06 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 23060000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "24.86 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 24860000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.8 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 1800000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "4.983 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 4983000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$22.07 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 22070000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$64.87 billion (2010 est.)",
+			"Exports": {
+				"usd": 64870000000.00001
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum, bauxite and aluminum, minerals, chemicals, agricultural products, basic manufactures",
 		"Exports - partners": "US 27.3%, Columbia 11.4%, China 12.8%, Brazil 8.8% (2009 est.)",
 		"Imports": {
-			"Imports": "$31.37 billion (2010 est.)",
+			"Imports": {
+				"usd": 31370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "agricultural products, raw materials, machinery and equipment, transport equipment, construction materials",
 		"Imports - partners": "US 20.6%, Columbia 17.8%, China 12.8%, Mexico 8.7%, Brazil 4.7% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$29.49 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 29490000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$55.61 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 55610000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$37.71 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 37710000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$20.97 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 20970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "6.867 million (2009)",
+			"Telephones - main lines in use": 6867000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "28.124 million (2009)",
+			"Telephones - mobile cellular": 28124000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -383,52 +650,64 @@
 		"Broadcast media": "government supervises a mixture of state-run and private broadcast media; 1 state-run television network, 4 privately-owned TV networks, a privately-owned news channel with limited national coverage, and a government-backed pan-American channel; state-run radio network includes 65 news stations and roughly another 30 stations targeted at specific audiences; state-sponsored community broadcasters include 244 radio stations and 36 television stations; the number of private broadcast radio stations has been declining, but a large number remain in operation (2010)",
 		"Internet country code": ".ve",
 		"Internet hosts": {
-			"Internet hosts": "238,665 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "409 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "129",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "10",
-			"1,524 to 2,437 m:": "34",
-			"914 to 1,523 m:": "63"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "280",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "16",
-			"914 to 1,523 m:": "91",
-			"under 914 m:": "172 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "4 (2010)",
+		"Heliports": null,
 		"Pipelines": "extra heavy crude 980 km; gas 5,347 km; oil 6,694 km; refined products 1,620 km (2010)",
 		"Railways": {
-			"total:": "806 km",
+			"total:": {
+				"quantity": 806,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "806 km 1.435-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "96,155 km",
+			"total:": {
+				"quantity": 96155,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "32,308 km",
-			"unpaved:": "63,847 km (2002)"
+			"paved:": {
+				"quantity": 32308,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 63847,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "7,100 km (the Orinoco River (400 km) and Lake de Maracaibo are navigable by oceangoing vessels) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "59",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 5, cargo 15, chemical tanker 5, liquefied gas 5, passenger 1, passenger/cargo 12, petroleum tanker 16",
-			"foreign-owned:": "10 (Denmark 1, Estonia 1, Germany 1, Greece 4, Mexico 1, Norway 1, Spain 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "9 (Panama 8, Saint Vincent and the Grenadines 1) (2010)"
 		},
 		"Ports and terminals": "La Guaira, Maracaibo, Puerto Cabello, Punta Cardon",
@@ -438,16 +717,16 @@
 		"Military branches": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes Naval Infantry, Coast Guard, Naval Aviation), Bolivarian National Military Aviation (Aviacion Militar Nacional Bolivariana, AMNB), Bolivarian National Guard (Guardia Nacional Bolivaria, GNB), Bolivarian Militia (Milicia Bolivariana, MB) (2011)",
 		"Military service age and obligation": "18-30 years of age for compulsory and voluntary military service; 30-month conscript service obligation; Navy requires 6th-grade education for enlisted personnel; all citizens of military service age (18-60 years old) are obligated to register for military service (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "7,013,854",
-			"females age 16-49:": "7,165,661 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "5,614,743",
-			"females age 16-49:": "6,074,834 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "277,210",
-			"female:": "273,353 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,17 +5,35 @@
 	"background": "Speculation over the existence of a \"southern land\" was not confirmed until the early 1820s when British and American commercial operators and British and Russian national expeditions began exploring the Antarctic Peninsula region and other areas south of the Antarctic Circle. Not until 1840 was it established that Antarctica was indeed a continent and not just a group of islands or an area of ocean. Several exploration \"firsts\" were achieved in the early 20th century, but generally the area saw little human activity. Following World War II, however, there was an upsurge in scientific research on the continent. A number of countries have set up a range of year-round and seasonal stations, camps, and refuges to support scientific research in Antarctica. Seven have made territorial claims, but not all countries recognize these claims. In order to form a legal framework for the activities of nations on the continent, an Antarctic Treaty was negotiated that neither denies nor gives recognition to existing territorial claims; signed in 1959, it entered into force in 1961.",
 	"geo": {
 		"Location": "continent mostly south of the Antarctic Circle",
-		"Geographic coordinates": "90 00 S, 0 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 90,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 0,
+				"seconds": 0
+			}
+		},
 		"Map references": "Antarctic Region",
 		"Area": {
-			"total:": "14 million sq km",
+			"total:": {
+				"quantity": 14000000,
+				"unit": "sq km"
+			},
 			"land:": "14 million sq km (280,000 sq km ice-free, 13.72 million sq km ice-covered) (est.)"
 		},
 		"Area - comparative": "slightly less than 1.5 times the size of the US",
 		"Land boundaries": {
-			"Land boundaries": "0 km"
+			"Land boundaries": {
+				"quantity": 0,
+				"unit": "km"
+			}
 		},
-		"Coastline": "17,968 km",
+		"Coastline": {
+			"quantity": 17968,
+			"unit": "km"
+		},
 		"Maritime claims": "Australia, Chile, and Argentina claim Exclusive Economic Zone (EEZ) rights or similar over 200 nm extensions seaward from their continental claims, but like the claims themselves, these zones are not accepted by other countries; 21 of 28 Antarctic consultative nations have made no claims to Antarctic territory (although Russia and the US have reserved the right to do so) and do not recognize the claims of the other nations; also see the Disputes - international entry",
 		"Climate": "severe low temperatures vary with latitude, elevation, and distance from the ocean; East Antarctica is colder than West Antarctica because of its higher elevation; Antarctic Peninsula has the most moderate climate; higher temperatures occur in January along the coast and average slightly below freezing",
 		"Terrain": "about 98% thick continental ice sheet and 2% barren rock, with average elevations between 2,000 and 4,000 meters; mountain ranges up to nearly 5,000 meters; ice-free coastal areas include parts of southern Victoria Land, Wilkes Land, the Antarctic Peninsula area, and parts of Ross Island on McMurdo Sound; glaciers form ice shelves along about half of the coastline, and floating ice shelves constitute 11% of the area of the continent",
@@ -25,8 +43,14 @@
 		},
 		"Natural resources": "iron ore, chromium, copper, gold, nickel, platinum and other minerals, and coal and hydrocarbons have been found in small uncommercial quantities; none presently exploited; krill, finfish, and crab have been taken by commercial fisheries",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "100% (ice 98%, barren rock 2%) (2005)"
 		},
 		"Natural hazards": "katabatic (gravity-driven) winds blow coastward from the high interior; frequent blizzards form near the foot of the plateau; cyclonic storms form over the ocean and move clockwise along the coast; volcanism on Deception Island and isolated areas of West Antarctica; other seismic activity rare and weak; large icebergs may calve from ice shelf",
@@ -58,18 +82,18 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "26 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with unpaved runways": {
-			"total:": "26",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "5",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "9"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Heliports": {
-			"Heliports": "53"
+			"Heliports": null
 		},
 		"Ports and terminals": "McMurdo Station; most coastal stations have sparse and intermittent offshore anchorages; a few stations have basic wharf facilities",
 		"Transportation - note": {}

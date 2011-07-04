@@ -5,25 +5,55 @@
 	"background": "The eastern half of the island of New Guinea - second largest in the world - was divided between Germany (north) and the UK (south) in 1885. The latter area was transferred to Australia in 1902, which occupied the northern portion during World War I and continued to administer the combined areas until independence in 1975. A nine-year secessionist revolt on the island of Bougainville ended in 1997 after claiming some 20,000 lives.",
 	"geo": {
 		"Location": "Oceania, group of islands including the eastern half of the island of New Guinea between the Coral Sea and the South Pacific Ocean, east of Indonesia",
-		"Geographic coordinates": "6 00 S, 147 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 6,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 147,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "462,840 sq km",
+			"total:": {
+				"quantity": 462840,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "452,860 sq km",
-			"water:": "9,980 sq km"
+			"land:": {
+				"quantity": 452860,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 9980,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than California",
 		"Land boundaries": {
-			"total:": "820 km",
+			"total:": {
+				"quantity": 820,
+				"unit": "km"
+			},
 			"border countries:": "Indonesia 820 km"
 		},
-		"Coastline": "5,152 km",
+		"Coastline": {
+			"quantity": 5152,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"Maritime claims": "measured from claimed archipelagic baselines",
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation",
-			"exclusive fishing zone:": "200 nm"
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
 		"Terrain": "mostly mountains with coastal lowlands and rolling foothills",
@@ -33,15 +63,33 @@
 		},
 		"Natural resources": "gold, copper, silver, natural gas, timber, oil, fisheries",
 		"Land use": {
-			"arable land:": "0.49%",
-			"permanent crops:": "1.4%",
-			"other:": "98.11% (2005)"
+			"arable land:": {
+				"quantity": 0.49,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 98.11,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "801 cu km (1987)",
+		"Total renewable water resources": {
+			"quantity": 801,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.1  cu km/yr (56%/43%/1%)",
-			"per capita:": "17  cu m/yr (1987)"
+			"total:": {
+				"quantity": 0.1,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 17,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "active volcanism; situated along the Pacific \"Ring of Fire\"; the country is subject to frequent and sometimes severe earthquakes; mud slides; tsunamis",
@@ -56,73 +104,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "6,187,591 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "36.4% (male 1,145,946/female 1,106,705)",
-			"15-64 years:": "60% (male 1,907,787/female 1,802,144)",
+			"0-14 years:": {
+				"quantity": 36.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 60,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 121,207/female 103,802) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.8 years",
-			"male:": "22.1 years",
-			"female:": "21.5 years (2011 est.)"
+			"total:": {
+				"quantity": 21.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.985% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.985,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.44 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.44,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.58 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.58,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "13% of total population (2010)",
-			"rate of urbanization:": "2.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 13,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PORT MORESBY (capital) 314,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "1.06 male(s)/female",
-			"65 years and over:": "1.2 male(s)/female",
-			"total population:": "1.06 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.2,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "43.29 deaths/1,000 live births",
+			"total:": {
+				"quantity": 43.29,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "47.12 deaths/1,000 live births",
-			"female:": "39.28 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 47.12,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 39.28,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "66.24 years",
+			"total population:": {
+				"quantity": 66.24,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "64.02 years",
-			"female:": "68.56 years (2011 est.)"
+			"male:": {
+				"quantity": 64.02,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 68.56,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.46 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.46,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.9% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "34,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,300 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -143,9 +263,18 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "57.3%",
-			"male:": "63.4%",
-			"female:": "50.9% (2000 census)"
+			"total population:": {
+				"quantity": 57.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 63.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 50.9,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": "NA",
@@ -162,7 +291,16 @@
 		"Government type": "constitutional parliamentary democracy and a Commonwealth realm",
 		"Capital": {
 			"name:": "Port Moresby",
-			"geographic coordinates:": "9 30 S, 147 10 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 9,
+					"seconds": 30
+				},
+				"E": {
+					"minutes": 147,
+					"seconds": 10
+				}
+			},
 			"time difference:": "UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "18 provinces, 1 autonomous region*, and 1 district**; Bougainville*, Central, Chimbu, Eastern Highlands, East New Britain, East Sepik, Enga, Gulf, Madang, Manus, Milne Bay, Morobe, National Capital**, New Ireland, Northern, Sandaun, Southern Highlands, Western, Western Highlands, West New Britain",
@@ -206,79 +344,137 @@
 	"economy": {
 		"Economy - overview": "Papua New Guinea (PNG) is richly endowed with natural resources, but exploitation has been hampered by rugged terrain, land tenure issues, and the high cost of developing infrastructure. The economy has a small formal sector, focused mainly on the export of those natural resources, and an informal sector, employing the majority of the population. Agriculture provides a subsistence livelihood for 85% of the people. Mineral deposits, including copper, gold, and oil, account for nearly two-thirds of export earnings. Natural gas reserves amount to an estimated 227 billion cubic meters. A consortium led by a major American oil company is constructing a liquefied natural gas (LNG) production facility that could begin exporting in 2014. As the largest investment project in the country's history, it has the potential to double GDP in the near-term and triple Papua New Guinea's export revenue. An American-owned firm also opened PNG's first oil refinery in 2004 and is building a second LNG production facility. The government faces the challenge of ensuring transparency and accountability for revenues flowing from this and other large LNG projects. The government of Prime Minister SOMARE has expended much of its energy remaining in power. He was the first prime minister ever to serve a full five-year term. The government has brought stability to the national budget, largely through expenditure control; however, it relaxed spending constraints in 2006 and 2007 as elections approached. In recent years, the government has opened up markets in telecommunications and air transport, making both more affordable to the people. Numerous challenges still face the government, including providing physical security for foreign investors, regaining investor confidence, restoring integrity to state institutions, promoting economic efficiency by privatizing moribund state institutions, and balancing relations with Australia, its former colonial ruler. Other socio-cultural challenges could upend the economy including an HIV/AIDS epidemic, with the second highest infection rate in all of East Asia and the Pacific, and chronic law and order and land tenure issues. The global financial crisis had little impact because of continued foreign demand for PNG's commodities.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$14.95 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 14950000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$9.668 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 9668000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "32.2%",
-			"industry:": "35.7%",
-			"services:": "32.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 32.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 35.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 32.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.809 million (2010 est.)",
+			"Labor force": 3809000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "85%",
+			"agriculture:": {
+				"quantity": 85,
+				"unit": "%"
+			},
 			"industry:": "NA%",
 			"services:": "NA% (2005 est.)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "1.8% (2004)",
+			"Unemployment rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "37% (2002 est.)",
+		"Population below poverty line": {
+			"quantity": 37,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.7%",
-			"highest 10%:": "40.5% (1996)"
+			"lowest 10%:": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 40.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "50.9 (1996)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "17.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 17.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.917 billion",
-			"expenditures:": "$2.765 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2917000000
+			},
+			"expenditures:": {
+				"usd": 2765000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "27.8% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 27.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6.92% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 6.92,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.09% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.09,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.551 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2551000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$4.726 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 4726000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.796 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2796000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -288,57 +484,102 @@
 		"Agriculture - products": "coffee, cocoa, copra, palm kernels, tea, sugar, rubber, sweet potatoes, fruit, vegetables, vanilla; shell fish; poultry, pork",
 		"Industries": "copra crushing, palm oil processing, plywood production, wood chip production; mining of gold, silver, and copper; crude oil production, petroleum refining; construction, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "10% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "2.885 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 2885000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.683 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2683000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "35,090 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 35090,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "36,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 36000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "32,490 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 32490,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "14,380 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 14380,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "170 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 170000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "100 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "100 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "226.5 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 226500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -346,23 +587,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.976 billion (2010 est.)",
+			"Exports": {
+				"usd": 5976000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "oil, gold, copper ore, logs, palm oil, coffee, cocoa, crayfish, prawns",
 		"Exports - partners": "Australia 30.05%, Japan 7.48% (2009)",
 		"Imports": {
-			"Imports": "$3.547 billion (2010 est.)",
+			"Imports": {
+				"usd": 3547000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, food, fuels, chemicals",
 		"Imports - partners": "Australia 43.27%, China 13.29%, Singapore 9.59%, US 6.4%, Japan 4.62% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$3.017 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 3017000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$1.548 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 1548000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -371,11 +620,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "60,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "900,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,43 +635,55 @@
 		"Broadcast media": "2 television stations, 1 commercial station operating since the late 1980s and 1 state-run station launched in 2008; satellite and cable TV services are available; state-run National Broadcasting Corporation operates 3 radio networks with multiple repeaters and about 20 provincial stations; several commercial radio stations with multiple transmission points as well as several community stations; transmissions of several international broadcasters are accessible (2009)",
 		"Internet country code": ".pg",
 		"Internet hosts": {
-			"Internet hosts": "4,285 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "562 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "21",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "14",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "541",
-			"1,524 to 2,437 m:": "9",
-			"914 to 1,523 m:": "63",
-			"under 914 m:": "469 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Pipelines": "oil 195 km (2010)",
 		"Roadways": {
-			"total:": "9,349 km",
+			"total:": {
+				"quantity": 9349,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,000 km",
-			"unpaved:": "6,349 km (2011)"
+			"paved:": {
+				"quantity": 3000,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 6349,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
-			"Waterways": "11,000 km (2011)",
+			"Waterways": {
+				"quantity": 11000,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "28",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 2, cargo 24, petroleum tanker 2",
 			"foreign-owned:": "7 (Malaysia 1, UAE 6) (2010)"
@@ -433,16 +694,16 @@
 		"Military branches": "Papua New Guinea Defense Force (PNGDF; includes Maritime Operations Element, Air Operations Element) (2009)",
 		"Military service age and obligation": "16 years of age for voluntary military service (with parental consent); no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,568,210",
-			"females age 16-49:": "1,478,965 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,130,951",
-			"females age 16-49:": "1,137,753 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "67,781",
-			"female:": "65,820 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

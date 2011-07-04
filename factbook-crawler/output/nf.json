@@ -5,20 +5,50 @@
 	"background": "Two British attempts at establishing the island as a penal colony (1788-1814 and 1825-55) were ultimately abandoned. In 1856, the island was resettled by Pitcairn Islanders, descendants of the Bounty mutineers and their Tahitian companions.",
 	"geo": {
 		"Location": "Oceania, island in the South Pacific Ocean, east of Australia",
-		"Geographic coordinates": "29 02 S, 167 57 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 29,
+				"seconds": 2
+			},
+			"E": {
+				"minutes": 167,
+				"seconds": 57
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "36 sq km",
+			"total:": {
+				"quantity": 36,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "36 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 36,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 0.2 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "32 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 32,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "subtropical; mild, little seasonal temperature variation",
 		"Terrain": "volcanic formation with mostly rolling plains",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "fish",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (especially May to July)",
@@ -39,16 +78,28 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,169 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.2%",
-			"15-64 years:": "63.9%",
-			"65 years and over:": "15.9% (2009 est.)"
+			"0-14 years:": {
+				"quantity": 20.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63.9,
+				"unit": "%"
+			},
+			"65 years and over:": {
+				"quantity": 15.9,
+				"unit": "%"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.006% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.006,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": "NA",
@@ -89,7 +140,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Kingston",
-			"geographic coordinates:": "29 03 S, 167 58 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 29,
+					"seconds": 3
+				},
+				"E": {
+					"minutes": 167,
+					"seconds": 58
+				}
+			},
 			"time difference:": "UTC+11.5 (16.5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territory of Australia)",
@@ -124,16 +184,26 @@
 		"Economy - overview": "Tourism, the primary economic activity, has steadily increased over the years and has brought a level of prosperity unusual among inhabitants of the Pacific islands. The agricultural sector has become self sufficient in the production of beef, poultry, and eggs.",
 		"GDP (purchasing power parity)": "$NA",
 		"Labor force": {
-			"Labor force": "978 (2006)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "10%",
-			"industry and services:": "90% (2000 est.)"
+			"agriculture:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 90,
+				"unit": "%"
+			}
 		},
 		"Budget": {
-			"revenues:": "$4.6 million",
-			"expenditures:": "$4.8 million (FY99/00)"
+			"revenues:": {
+				"usd": 4600000
+			},
+			"expenditures:": {
+				"usd": 4800000
+			}
 		},
 		"Agriculture - products": "Norfolk Island pine seed, Kentia palm seed, cereals, vegetables, fruit; cattle, poultry",
 		"Industries": "tourism, light industry, ready mixed concrete",
@@ -152,7 +222,7 @@
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "0 (2002)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -166,18 +236,27 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "80 km",
+			"total:": {
+				"quantity": 80,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "53 km",
-			"unpaved:": "27 km (2008)"
+			"paved:": {
+				"quantity": 53,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 27,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},

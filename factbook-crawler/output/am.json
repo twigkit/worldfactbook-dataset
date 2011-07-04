@@ -5,20 +5,44 @@
 	"background": "Armenia prides itself on being the first nation to formally adopt Christianity (early 4th century). Despite periods of autonomy, over the centuries Armenia came under the sway of various empires including the Roman, Byzantine, Arab, Persian, and Ottoman. During World War I in the western portion of Armenia, Ottoman Turkey instituted a policy of forced resettlement coupled with other harsh practices that resulted in an estimated 1 million Armenian deaths. The eastern area of Armenia was ceded by the Ottomans to Russia in 1828; this portion declared its independence in 1918, but was conquered by the Soviet Red Army in 1920. Armenian leaders remain preoccupied by the long conflict with Azerbaijan over Nagorno-Karabakh, a primarily Armenian-populated region, assigned to Soviet Azerbaijan in the 1920s by Moscow. Armenia and Azerbaijan began fighting over the area in 1988; the struggle escalated after both countries attained independence from the Soviet Union in 1991. By May 1994, when a cease-fire took hold, ethnic Armenian forces held not only Nagorno-Karabakh but also a significant portion of Azerbaijan proper. The economies of both sides have been hurt by their inability to make substantial progress toward a peaceful resolution. Turkey closed the common border with Armenia in 1994 because of the Armenian separatists' control of Nagorno-Karabakh and surrounding areas, further hampering Armenian economic growth. In 2009, senior Armenian leaders began pursuing rapprochement with Turkey, aiming to secure an opening of the border; this process is currently dormant.",
 	"geo": {
 		"Location": "Southwestern Asia, between Turkey (to the west) and Azerbaijan",
-		"Geographic coordinates": "40 00 N, 45 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 40,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 45,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "29,743 sq km",
+			"total:": {
+				"quantity": 29743,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "28,203 sq km",
-			"water:": "1,540 sq km"
+			"land:": {
+				"quantity": 28203,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1540,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "1,254 km",
+			"total:": {
+				"quantity": 1254,
+				"unit": "km"
+			},
 			"border countries:": "Azerbaijan-proper 566 km, Azerbaijan-Naxcivan exclave 221 km, Georgia 164 km, Iran 35 km, Turkey 268 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "highland continental, hot summers, cold winters",
 		"Terrain": "Armenian Highland with mountains; little forest land; fast flowing rivers; good soil in Aras River valley",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "small deposits of gold, copper, molybdenum, zinc, bauxite",
 		"Land use": {
-			"arable land:": "16.78%",
-			"permanent crops:": "2.01%",
-			"other:": "81.21% (2005)"
+			"arable land:": {
+				"quantity": 16.78,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.01,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 81.21,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,740 sq km (2008)",
-		"Total renewable water resources": "10.5 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 2740,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 10.5,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.95  cu km/yr (30%/4%/66%)",
-			"per capita:": "977  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.95,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 977,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "occasionally severe earthquakes; droughts",
 		"Environment - current issues": "soil pollution from toxic chemicals such as DDT; the energy crisis of the 1990s led to deforestation when citizens scavenged for firewood; pollution of Hrazdan (Razdan) and Aras Rivers; the draining of Sevana Lich (Lake Sevan), a result of its use as a source for hydropower, threatens drinking water supplies; restart of Metsamor nuclear power plant in spite of its location in a seismically active zone",
@@ -48,29 +93,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,967,975 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "17.6% (male 279,304/female 242,621)",
-			"15-64 years:": "72.4% (male 1,006,312/female 1,141,430)",
+			"0-14 years:": {
+				"quantity": 17.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 72.4,
+				"unit": "%"
+			},
 			"65 years and over:": "10.1% (male 112,947/female 185,361) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "32.2 years",
-			"male:": "29.5 years",
-			"female:": "35 years (2011 est.)"
+			"total:": {
+				"quantity": 32.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 35,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.063% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.063,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.85 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.85,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.46 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.46,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,39 +147,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "64% of total population (2010)",
-			"rate of urbanization:": "0.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 64,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "YEREVAN (capital) 1.11 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.124 male(s)/female",
-			"under 15 years:": "1.15 male(s)/female",
-			"15-64 years:": "0.88 male(s)/female",
-			"65 years and over:": "0.62 male(s)/female",
-			"total population:": "0.89 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.124,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.15,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.62,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "18.85 deaths/1,000 live births",
+			"total:": {
+				"quantity": 18.85,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "23.38 deaths/1,000 live births",
-			"female:": "13.75 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 23.38,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 13.75,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.23 years",
+			"total population:": {
+				"quantity": 73.23,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.59 years",
-			"female:": "77.31 years (2011 est.)"
+			"male:": {
+				"quantity": 69.59,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.31,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.37 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.37,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1,900 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -128,14 +242,32 @@
 		"Languages": "Armenian (official) 97.7%, Yezidi 1%, Russian 0.9%, other 0.4% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.4%",
-			"male:": "99.7%",
-			"female:": "99.2% (2001 census)"
+			"total population:": {
+				"quantity": 99.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +282,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Yerevan",
-			"geographic coordinates:": "40 10 N, 44 30 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 40,
+					"seconds": 10
+				},
+				"E": {
+					"minutes": 44,
+					"seconds": 30
+				}
+			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -197,55 +338,104 @@
 	"economy": {
 		"Economy - overview": "After several years of double-digit economic growth, Armenia faced a severe economic recession with GDP declining more than 14% in 2009, despite large loans from multilateral institutions. Sharp declines in the construction sector and workers' remittances, particularly from Russia, were the main reasons for the downturn. The economy began to recover in 2010 with nearly 5% growth. Under the old Soviet central planning system, Armenia developed a modern industrial sector, supplying machine tools, textiles, and other manufactured goods to sister republics, in exchange for raw materials and energy. Armenia has since switched to small-scale agriculture and away from the large agroindustrial complexes of the Soviet era. Armenia has managed to reduce poverty, slash inflation, stabilize its currency, and privatize most small- and medium-sized enterprises. Since the breakup of the Soviet Union in 1991, Armenia had made progress in implementing some economic reforms, including privatization, price reforms, and prudent fiscal policies, but geographic isolation, a narrow export base, and pervasive monopolies in important business sectors have made Armenia particularly vulnerable to the sharp deterioration in the global economy and the economic downturn in Russia. The conflict with Azerbaijan over the ethnic Armenian-dominated region of Nagorno-Karabakh contributed to a severe economic decline in the early 1990s and Armenia's borders with Turkey remain closed. Armenia is particularly dependent on Russian commercial and governmental support and most key Armenian infrastructure is Russian-owned and/or managed, especially in the energy sector. The electricity distribution system was privatized in 2002 and bought by Russia's RAO-UES in 2005. Construction of a pipeline to deliver natural gas from Iran to Armenia was completed in December 2008, and gas deliveries are slated to expand due to the April 2010 completion of the Yerevan Thermal Power Plant. Armenia has some mineral deposits (copper, gold, bauxite). Pig iron, unwrought copper, and other nonferrous metals are Armenia's highest valued exports. Armenia's severe trade imbalance has been offset somewhat by international aid, remittances from Armenians working abroad, and foreign direct investment. Armenia joined the WTO in January 2003. The government made some improvements in tax and customs administration in recent years, but anti-corruption measures have been ineffective and the current economic downturn has led to a sharp drop in tax revenue and forced the government to accept large loan packages from Russia, the IMF, and other international financial institutions. Armenia will need to pursue additional economic reforms in order to regain economic growth and improve economic competitiveness and employment opportunities, especially given its economic isolation from two of its nearest neighbors, Turkey and Azerbaijan.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$16.86 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 16860000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$9.389 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 9389000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$5,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "22%",
-			"industry:": "46.6%",
-			"services:": "31.4% (2010 est.)"
+			"agriculture:": {
+				"quantity": 22,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 46.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 31.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.481 million (2007 est.)",
+			"Labor force": 1481000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "46.2%",
-			"industry:": "15.6%",
-			"services:": "38.2% (2006 est.)"
+			"agriculture:": {
+				"quantity": 46.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 38.2,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.1% (2007 est.)",
+			"Unemployment rate": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26.5% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 26.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.6%",
-			"highest 10%:": "41.3% (2004)"
+			"lowest 10%:": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41.3,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "37 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "33.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 33.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.063 billion",
-			"expenditures:": "$2.607 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2063000000.0000002
+			},
+			"expenditures:": {
+				"usd": 2607000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.9% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
@@ -253,79 +443,129 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "18.76% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 18.76,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.131 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1131000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$3.507 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 3507000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.821 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1821000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$140.5 million (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 140500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fruit (especially grapes), vegetables; livestock",
 		"Industries": "diamond-processing, metal-cutting machine tools, forging-pressing machines, electric motors, tires, knitted wear, hosiery, shoes, silk fabric, chemicals, trucks, instruments, microelectronics, jewelry manufacturing, software development, food processing, brandy",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "5.584 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 5584000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "4.776 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 4776000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - exports": "451.3 million kWh; note - exports an unknown quantity to Georgia; includes exports to Nagorno-Karabakh region in Azerbaijan (2007 est.)",
 		"Electricity - imports": "418.7 million kWh; note - imports an unknown quantity from Iran (2007 est.)",
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "49,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 49000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "45,200 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 45200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.93 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1930000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.93 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 1930000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -333,34 +573,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$846 million (2010 est.)",
+			"Exports": {
+				"usd": 846000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "pig iron, unwrought copper, nonferrous metals, diamonds, mineral products, foodstuffs, energy",
 		"Exports - partners": "Germany 16.47%, Russia 15.45%, US 9.64%, Bulgaria 8.6%, Georgia 7.57%, Netherlands 7.48%, Belgium 6.71%, Canada 4.91% (2009)",
 		"Imports": {
-			"Imports": "$2.988 billion (2010 est.)",
+			"Imports": {
+				"usd": 2988000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "natural gas, petroleum, tobacco products, foodstuffs, diamonds",
 		"Imports - partners": "Russia 24.02%, China 8.72%, Ukraine 6.15%, Turkey 5.39%, Germany 5.36%, Iran 4.07% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.247 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2247000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$5.227 billion (30 June 2010)",
+			"Debt - external": {
+				"usd": 5227000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "630,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.62 million (2009)",
+			"Telephones - mobile cellular": 2620000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -371,30 +619,33 @@
 		"Broadcast media": "2 public television networks operating alongside more than 40 privately-owned television stations that provide local to near nationwide coverage; major Russian broadcast stations are widely available; subscription cable TV services are available in most regions; Public Radio of Armenia is a national, state-run broadcast network that operates alongside about 20 privately-owned radio stations; several major international broadcasters are available (2008)",
 		"Internet country code": ".am",
 		"Internet hosts": {
-			"Internet hosts": "65,279 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "11 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "10",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
 		"Pipelines": "gas 2,233 km (2010)",
 		"Railways": {
-			"total:": "869 km",
+			"total:": {
+				"quantity": 869,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "869 km 1.520-m gauge (818 km electrified)"
 		},
@@ -404,23 +655,23 @@
 		"Military branches": "Armenian Armed Forces: Ground Forces, Air Force and Air Defense; \"Nagorno-Karabakh Republic\": Nagorno-Karabakh Self-Defense Force (NKSDF) (2011)",
 		"Military service age and obligation": "18-27 years of age for voluntary or compulsory military service; 2-year conscript service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "805,847",
-			"females age 16-49:": "854,296 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "644,372",
-			"females age 16-49:": "717,272 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "23,470",
-			"female:": "21,417 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "the dispute over the break-away Nagorno-Karabakh region and the Armenian military occupation of surrounding lands in Azerbaijan remains the primary focus of regional instability; residents have evacuated the former Soviet-era small ethnic enclaves in Armenia and Azerbaijan; Turkish authorities have complained that blasting from quarries in Armenia might be damaging the medieval ruins of Ani, on the other side of the Arpacay valley; in 2009, Swiss mediators facilitated an accord reestablishing diplomatic ties between Armenia and Turkey, but neither side has ratified the agreement and the rapprochement effort has faltered; local border forces struggle to control the illegal transit of goods and people across the porous, undemarcated Armenian, Azerbaijani, and Georgian borders; ethnic Armenian groups in Javakheti region of Georgia seek greater autonomy from the Georgian Government",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "113,295 (Azerbaijan)",
+			"refugees (country of origin):": null,
 			"IDPs:": "8,400 (conflict with Azerbaijan over Nagorno-Karabakh, majority have returned home since 1994 ceasefire) (2007)"
 		},
 		"Illicit drugs": {}

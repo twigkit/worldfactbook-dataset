@@ -5,24 +5,57 @@
 	"background": "Following more than three centuries under Portuguese rule, Brazil gained its independence in 1822, maintaining a monarchical system of government until the abolition of slavery in 1888 and the subsequent proclamation of a republic by the military in 1889. Brazilian coffee exporters politically dominated the country until populist leader Getulio VARGAS rose to power in 1930. By far the largest and most populous country in South America, Brazil underwent more than half a century of populist and military government until 1985, when the military regime peacefully ceded power to civilian rulers. Brazil continues to pursue industrial and agricultural growth and development of its interior. Exploiting vast natural resources and a large labor pool, it is today South America's leading economic power and a regional leader, one of the first in the area to begin an economic recovery. Highly unequal income distribution and crime remain pressing problems. In January 2010, Brazil assumed a nonpermanent seat on the UN Security Council for the 2010-11 term.",
 	"geo": {
 		"Location": "Eastern South America, bordering the Atlantic Ocean",
-		"Geographic coordinates": "10 00 S, 55 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 10,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 55,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "8,514,877 sq km",
+			"total:": {
+				"quantity": 8514,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "8,459,417 sq km",
-			"water:": "55,460 sq km"
+			"land:": {
+				"quantity": 8459,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 55460,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than the US",
 		"Land boundaries": {
-			"total:": "16,885 km",
+			"total:": {
+				"quantity": 16885,
+				"unit": "km"
+			},
 			"border countries:": "Argentina 1,261 km, Bolivia 3,423 km, Colombia 1,644 km, French Guiana 730 km, Guyana 1,606 km, Paraguay 1,365 km, Peru 2,995 km, Suriname 593 km, Uruguay 1,068 km, Venezuela 2,200 km"
 		},
-		"Coastline": "7,491 km",
+		"Coastline": {
+			"quantity": 7491,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to edge of the continental margin"
 		},
 		"Climate": "mostly tropical, but temperate in south",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "bauxite, gold, iron ore, manganese, nickel, phosphates, platinum, tin, rare earth elements, uranium, petroleum, hydropower, timber",
 		"Land use": {
-			"arable land:": "6.93%",
-			"permanent crops:": "0.89%",
-			"other:": "92.18% (2005)"
+			"arable land:": {
+				"quantity": 6.93,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.89,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 92.18,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "45,000 sq km (2008)",
-		"Total renewable water resources": "8,233 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 45000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 8233,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "59.3  cu km/yr (20%/18%/62%)",
-			"per capita:": "318  cu m/yr (2000)"
+			"total:": {
+				"quantity": 59.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 318,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "recurring droughts in northeast; floods and occasional frost in south",
 		"Environment - current issues": "deforestation in Amazon Basin destroys the habitat and endangers a multitude of plant and animal species indigenous to the area; there is a lucrative illegal wildlife trade; air and water pollution in Rio de Janeiro, Sao Paulo, and several other large cities; land degradation and water pollution caused by improper mining activities; wetland degradation; severe oil spills",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "203,429,773 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.2% (male 27,219,651/female 26,180,040)",
-			"15-64 years:": "67% (male 67,524,642/female 68,809,357)",
+			"0-14 years:": {
+				"quantity": 26.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67,
+				"unit": "%"
+			},
 			"65 years and over:": "6.7% (male 5,796,433/female 7,899,650) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "29.3 years",
-			"male:": "28.5 years",
-			"female:": "30.1 years (2011 est.)"
+			"total:": {
+				"quantity": 29.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 30.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.134% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.134,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.79 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.79,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.36 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.36,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,31 +161,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "87% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 87,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Sao Paulo 19.96 million; Rio de Janeiro 11.836 million; Belo Horizonte 5.736 million; Porto Alegre 4.034 million; BRASILIA (capital) 3.789 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.73 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.73,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "21.17 deaths/1,000 live births",
+			"total:": {
+				"quantity": 21.17,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "24.63 deaths/1,000 live births",
-			"female:": "17.53 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 24.63,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 17.53,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "72.53 years",
+			"total population:": {
+				"quantity": 72.53,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.97 years",
-			"female:": "76.27 years (2011 est.)"
+			"male:": {
+				"quantity": 68.97,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.27,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.18 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.18,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -126,14 +246,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "88.6%",
-			"male:": "88.4%",
-			"female:": "88.8% (2004 est.)"
+			"total population:": {
+				"quantity": 88.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 88.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 88.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "14 years",
-			"female:": "14 years (2008)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -147,7 +285,16 @@
 		"Government type": "federal republic",
 		"Capital": {
 			"name:": "Brasilia",
-			"geographic coordinates:": "15 47 S, 47 55 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 15,
+					"seconds": 47
+				},
+				"W": {
+					"minutes": 47,
+					"seconds": 55
+				}
+			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins third Sunday in October; ends last Sunday in February"
 		},
@@ -196,136 +343,241 @@
 	"economy": {
 		"Economy - overview": "Characterized by large and well-developed agricultural, mining, manufacturing, and service sectors, Brazil's economy outweighs that of all other South American countries, and Brazil is expanding its presence in world markets. Since 2003, Brazil has steadily improved its macroeconomic stability, building up foreign reserves, and reducing its debt profile by shifting its debt burden toward real denominated and domestically held instruments. In 2008, Brazil became a net external creditor and two ratings agencies awarded investment grade status to its debt. After record growth in 2007 and 2008, the onset of the global financial crisis hit Brazil in September 2008. Brazil experienced two quarters of recession, as global demand for Brazil's commodity-based exports dwindled and external credit dried up. However, Brazil was one of the first emerging markets to begin a recovery. Consumer and investor confidence revived and GDP growth returned to positive in 2010, boosted by an export recovery. Brazil's strong growth and high interest rates make it an attractive destination for foreign investors. Large capital inflows over the past year have contributed to the rapid appreciation of its currency and led the government to raise taxes on some foreign investments. President Dilma ROUSSEFF has pledged to retain the previous administration's commitment to inflation targeting by the Central Bank, a floating exchange rate, and fiscal restraint.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.172 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2172000000000.0002
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.09 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2089999999999.9998
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$10,800 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6.1%",
-			"industry:": "26.4%",
-			"services:": "67.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 6.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 26.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 67.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "103.6 million (2010 est.)",
+			"Labor force": 103600000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "20%",
-			"industry:": "14%",
-			"services:": "66% (2003 est.)"
+			"agriculture:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26% (2008)",
+		"Population below poverty line": {
+			"quantity": 26,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.1%",
-			"highest 10%:": "43% (2007)"
+			"lowest 10%:": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 43,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "56.7 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$464.4 billion",
-			"expenditures:": "$552.6 billion (2010 est.)"
+			"revenues:": {
+				"usd": 464400000000
+			},
+			"expenditures:": {
+				"usd": 552600000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "60.8% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 60.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.9% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "15.17% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 15.17,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "44.65% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 44.65,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$165.8 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 165800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.522 trillion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 1522000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.104 trillion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2104000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.167 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1167000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coffee, soybeans, wheat, rice, corn, sugarcane, cocoa, citrus; beef",
 		"Industries": "textiles, shoes, chemicals, cement, lumber, iron ore, tin, steel, aircraft, motor vehicles and parts, other machinery and equipment",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "11.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 11.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "438.8 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 438800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "404.3 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 404300000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "2.034 billion kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 2033999999.9999998,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "42.06 billion kWh; note - supplied by Paraguay (2008 est.)",
 		"Oil - production": {
-			"Oil - production": "2.572 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2572000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2.46 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2460000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "570,100 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 570100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "632,900 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 632900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "13.2 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 13200000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "10.28 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 10280000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "18.72 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 18720000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": "NA (2009 est.)",
 		"Natural gas - imports": {
-			"Natural gas - imports": "8.44 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 8439999999.999999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "364.2 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 364200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -333,42 +585,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$199.7 billion (2010 est.)",
+			"Exports": {
+				"usd": 199700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "transport equipment, iron ore, soybeans, footwear, coffee, autos",
 		"Exports - partners": "China 12.49%, US 10.5%, Argentina 8.4%, Netherlands 5.39%, Germany 4.05% (2009)",
 		"Imports": {
-			"Imports": "$187.7 billion (2010 est.)",
+			"Imports": {
+				"usd": 187700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, electrical and transport equipment, chemical products, oil, automotive parts, electronics",
 		"Imports - partners": "US 16.12%, China 12.61%, Argentina 8.77%, Germany 7.65%, Japan 4.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$290.9 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 290900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$310.8 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 310800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$349.2 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 349200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$131 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 131000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "41.497 million (2009)",
+			"Telephones - main lines in use": 41497000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "173.959 million (2009)",
+			"Telephones - mobile cellular": 173959000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -379,53 +643,65 @@
 		"Broadcast media": "state-run Radiobras operates a radio and a television network; more than 1,000 radio stations and more than 100 TV channels operating - mostly privately owned; private media ownership highly concentrated (2007)",
 		"Internet country code": ".br",
 		"Internet hosts": {
-			"Internet hosts": "19.316 million (2010)",
+			"Internet hosts": 19316000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "4,072 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "726",
-			"over 3,047 m:": "7",
-			"2,438 to 3,047 m:": "28",
-			"1,524 to 2,437 m:": "176",
-			"914 to 1,523 m:": "460"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3,346",
-			"1,524 to 2,437 m:": "87",
-			"914 to 1,523 m:": "1,617",
-			"under 914 m:": "1,642 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "13 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate/gas 62 km; gas 13,514 km; liquid petroleum gas 352 km; oil 3,729 km; refined products 4,684 km (2010)",
 		"Railways": {
-			"total:": "28,538 km",
+			"total:": {
+				"quantity": 28538,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "5,627 km 1.600-m gauge (467 km electrified)",
 			"standard gauge:": "194 km 1.440-m gauge",
 			"narrow gauge:": "22,717 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "1,751,868 km",
+			"total:": {
+				"quantity": 1751,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "96,353 km",
-			"unpaved:": "1,655,515 km (2004)"
+			"paved:": {
+				"quantity": 96353,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 1655,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "50,000 km (most in areas remote from industry and population) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "126",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 19, cargo 18, chemical tanker 6, container 12, liquefied gas 12, passenger/cargo 10, petroleum tanker 42, roll on/roll off 7",
-			"foreign-owned:": "26 (Chile 1, Denmark 3, Germany 6, Greece 1, Norway 3, Spain 12)",
+			"foreign-owned:": null,
 			"registered in other countries:": "27 (Argentina 1, Bahamas 1, Ghana 1, Liberia 20, Marshall Islands 1, Panama 3) (2010)"
 		},
 		"Ports and terminals": {
@@ -438,16 +714,16 @@
 		"Military branches": "Brazilian Army (Exercito Brasileiro, EB), Brazilian Navy (Marinha do Brasil (MB), includes Naval Air and Marine Corps (Corpo de Fuzileiros Navais)), Brazilian Air Force (Forca Aerea Brasileira, FAB) (2011)",
 		"Military service age and obligation": "21-45 years of age for compulsory military service; conscript service obligation - 9 to 12 months; 17-45 years of age for voluntary service; an increasing percentage of the ranks are \"long-service\" volunteer professionals; women were allowed to serve in the armed forces beginning in early 1980s when the Brazilian Army became the first army in South America to accept women into career ranks; women serve in Navy and Air Force only in Women's Reserve Corps (2001)",
 		"Manpower available for military service": {
-			"males age 16-49:": "53,350,703",
-			"females age 16-49:": "53,433,918 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "38,993,989",
-			"females age 16-49:": "44,841,661 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,733,168",
-			"female:": "1,672,477 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

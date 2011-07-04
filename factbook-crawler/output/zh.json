@@ -4,13 +4,28 @@
 	"background": "The Atlantic Ocean is the second largest of the world's five oceans (after the Pacific Ocean, but larger than the Indian Ocean, Southern Ocean, and Arctic Ocean). The Kiel Canal (Germany), Oresund (Denmark-Sweden), Bosporus (Turkey), Strait of Gibraltar (Morocco-Spain), and the Saint Lawrence Seaway (Canada-US) are important strategic access waterways. The decision by the International Hydrographic Organization in the spring of 2000 to delimit a fifth world ocean, the Southern Ocean, removed the portion of the Atlantic Ocean south of 60 degrees south latitude.",
 	"geo": {
 		"Location": "body of water between Africa, Europe, the Arctic Ocean, the Americas, and the Southern Ocean",
-		"Geographic coordinates": "0 00 N, 25 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 0,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 25,
+				"seconds": 0
+			}
+		},
 		"Map references": "Political Map of the World",
 		"Area": {
-			"total:": "76.762 million sq km"
+			"total:": {
+				"quantity": 76762000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than 6.5 times the size of the US",
-		"Coastline": "111,866 km",
+		"Coastline": {
+			"quantity": 111866,
+			"unit": "km"
+		},
 		"Climate": "tropical cyclones (hurricanes) develop off the coast of Africa near Cape Verde and move westward into the Caribbean Sea; hurricanes can occur from May to December but are most frequent from August to November",
 		"Terrain": "surface usually covered with sea ice in Labrador Sea, Denmark Strait, and coastal portions of the Baltic Sea from October to June; clockwise warm-water gyre (broad, circular system of currents) in the northern Atlantic, counterclockwise warm-water gyre in the southern Atlantic; the ocean floor is dominated by the Mid-Atlantic Ridge, a rugged north-south centerline for the entire Atlantic basin",
 		"Elevation extremes": {

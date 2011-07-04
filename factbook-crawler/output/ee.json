@@ -7,14 +7,23 @@
 		"Location": "Europe between the North Atlantic Ocean in the west and Russia, Belarus, and Ukraine to the east",
 		"Map references": "Europe",
 		"Area": {
-			"total:": "4,324,782 sq km"
+			"total:": {
+				"quantity": 4324,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "less than one-half the size of the US",
 		"Land boundaries": {
-			"total:": "12,440.8 km",
+			"total:": {
+				"quantity": 12440.8,
+				"unit": "km"
+			},
 			"border countries:": "Albania 282 km, Andorra 120.3 km, Belarus 1,050 km, Croatia 999 km, Holy See 3.2 km, Liechtenstein 34.9 km, Macedonia 394 km, Moldova 450 km, Monaco 4.4 km, Norway 2,348 km, Russia 2,257 km, San Marino 39 km, Serbia 945 km, Switzerland 1,811 km, Turkey 446 km, Ukraine 1,257 km"
 		},
-		"Coastline": "65,992.9 km",
+		"Coastline": {
+			"quantity": 65992.9,
+			"unit": "km"
+		},
 		"Maritime claims": "NA",
 		"Climate": "cold temperate; potentially subarctic in the north to temperate; mild wet winters; hot dry summers in the south",
 		"Terrain": "fairly flat along the Baltic and Atlantic coast; mountainous in the central and southern areas",
@@ -28,43 +37,100 @@
 			"permanent crops:": "NA",
 			"other:": "NA"
 		},
-		"Irrigated land": "182,913 sq km (2008 est.)",
+		"Irrigated land": {
+			"quantity": 182913,
+			"unit": "sq km"
+		},
 		"Natural hazards": "flooding along coasts; avalanches in mountainous area; earthquakes in the south; volcanic eruptions in Italy; periodic droughts in Spain; ice floes in the Baltic",
 		"Environment - current issues": "NA",
 		"Environment - international agreements": {}
 	},
 	"people": {
-		"Population": "492,387,344 (July 2010 est.)",
+		"Population": null,
 		"Age structure": {
-			"0-14 years:": "15.44% (male 38,992,677/female 36,940,450)",
-			"15-64 years:": "67.23% (male 166,412,403/female 164,295,636)",
+			"0-14 years:": {
+				"quantity": 15.44,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.23,
+				"unit": "%"
+			},
 			"65 years and over:": "17.33% (male 35,376,333/female 49,853,361) (2009 est.)"
 		},
 		"Median age": "note - see individual country entries of member states (2009 est.)",
-		"Population growth rate": "0.098 % (2010 est.)",
-		"Birth rate": "9.83 births/1,000 population (2010 est.)",
-		"Death rate": "10.33 deaths/1,000 population (July 2010 est.)",
-		"Net migration rate": "1.48 migrant(s)/1,000 population (2010 est.)",
+		"Population growth rate": {
+			"quantity": 0.098,
+			"unit": "%"
+		},
+		"Birth rate": {
+			"quantity": 9.83,
+			"unit": "births/1,000 population"
+		},
+		"Death rate": {
+			"quantity": 10.33,
+			"unit": "deaths/1,000 population"
+		},
+		"Net migration rate": {
+			"quantity": 1.48,
+			"unit": "migrant(s)/1,000 population"
+		},
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.73 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.73,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "5.61 deaths/1,000 live births",
+			"total:": {
+				"quantity": 5.61,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "6.26 deaths/1,000 live births",
-			"female:": "4.93 deaths/1,000 live births (2010 est.)"
+			"male:": {
+				"quantity": 6.26,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.93,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.82 years",
+			"total population:": {
+				"quantity": 78.82,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.7 years",
-			"female:": "82.13 years (2010 est.)"
+			"male:": {
+				"quantity": 75.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.13,
+				"unit": "years"
+			}
 		},
-		"Total fertility rate": "1.51 children born/woman (2010 est.)",
+		"Total fertility rate": {
+			"quantity": 1.51,
+			"unit": "children born/woman"
+		},
 		"HIV/AIDS - adult prevalence rate": "note - see individual country entries of member states",
 		"HIV/AIDS - people living with HIV/AIDS": "note - see individual country entries of member states",
 		"HIV/AIDS - deaths": "note - see individual country entries of member states",
@@ -82,7 +148,16 @@
 		"Political structure": "a hybrid intergovernmental and supranational organization",
 		"Capital": {
 			"name:": "Brussels (Belgium), Strasbourg (France), Luxembourg",
-			"geographic coordinates:": "(Brussels) 50 50 N, 4 20 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 50,
+					"seconds": 50
+				},
+				"E": {
+					"minutes": 4,
+					"seconds": 20
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -129,178 +204,282 @@
 	"economy": {
 		"Economy - overview": "Internally, the EU has abolished trade barriers, adopted a common currency, and is striving toward convergence of living standards. Internationally, the EU aims to bolster Europe's trade position and its political and economic power. Because of the great differences in per capita income among member states (from $7,000 to $78,000) and in national attitudes toward issues like inflation, debt, and foreign trade, the EU faces difficulties in devising and enforcing common policies. Eleven established EU member states, under the auspices of the European Economic and Monetary Union (EMU), introduced the euro as their common currency on 1 January 1999 (Greece did so two years later), but the UK and Denmark have 'opt-outs' that allow them to keep their national currencies, and Sweden has not taken the steps needed to participate. Between 2004 and 2007, the EU admitted 12 countries that are, in general, less advanced economically than the other 15. Of the 12 most recent member states, only Slovenia (1 January 2007), Cyprus and Malta (1 January 2008), Slovakia (1 January 2009), and Estonia (1 January 2011) have adopted the euro; the remaining states other than the UK and Denmark are legally required to adopt the currency upon meeting EU's fiscal and monetary convergence criteria. The EU has recovered from the global financial crisis faster than expected, with business investment growing by an estimated 2% in 2010, but with public investment and housing development lagging. Strong corporate profits should enable this recovery to continue in 2011. Nevertheless, significant risks to growth remain, including, high official debts and deficits, aging populations, over-regulation of non-financial businesses, and doubts about the sustainability of the EMU. In June 2010, prompted by the Greek financial crisis, the EU and the IMF set up a $1 trillion bailout fund to rescue any EMU member in danger of default, but it has not calmed market jitters that have diminished the value of the euro. Discussions are currently under way to create a permanent European Stabilization Mechanism (ESM) in 2013, when the existing European Financial Stability Facility expires.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$14.82 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 14820000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$16.07 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 16070000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$32,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.8%",
-			"industry:": "25%",
-			"services:": "73.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 25,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "225.3 million (2010 est.)",
+			"Labor force": 225300000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "5.6%",
-			"industry:": "27.7%",
-			"services:": "66.7% (2007 est.)"
+			"agriculture:": {
+				"quantity": 5.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 9.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "note - see individual country entries of member states",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.8%",
-			"highest 10%:": "25.2% (1915 est.)"
+			"lowest 10%:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 25.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "30.4 (2009 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.52% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.52,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$5.542 trillion (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 5542000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$11.17 trillion (31 December 2008 est.)",
+			"Stock of broad money": {
+				"usd": 11170000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$22.65 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 22650000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$9.903 trillion (31 December 2009 est.)",
+			"Market value of publicly traded shares": {
+				"usd": 9903000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, barley, oilseeds, sugar beets, wine, grapes; dairy products, cattle, sheep, pigs, poultry; fish",
 		"Industries": "among the world's largest and most technologically advanced, the EU industrial base includes: ferrous and non-ferrous metal production and processing, metal products, petroleum, coal, cement, chemicals, pharmaceuticals, aerospace, rail transportation equipment, passenger and commercial vehicles, construction equipment, industrial equipment, shipbuilding, electrical power equipment, machine tools and automated manufacturing systems, electronics and telecommunications equipment, fishing, food and beverage processing, furniture, paper, textiles, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4.1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "3.078 trillion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 3078000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.901 trillion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2901000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - exports": "NA kWh",
 		"Electricity - imports": "NA kWh",
 		"Oil - production": {
-			"Oil - production": "2.365 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2365000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "13.63 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 13630000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.196 million bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 2196000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "8.613 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 8613000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "5.453 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 5453000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "181.6 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 181600000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "487.9 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 487900000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": "NA cu m",
 		"Natural gas - imports": "NA cu m",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "2.25 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 2250000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": "$NA (2010)",
 		"Exports": {
-			"Exports": "$1.952 trillion (2007)",
+			"Exports": {
+				"usd": 1952000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery, motor vehicles, aircraft, plastics, pharmaceuticals and other chemicals, fuels, iron and steel, nonferrous metals, wood pulp and paper products, textiles, meat, dairy products, fish, alcoholic beverages",
 		"Imports": {
-			"Imports": "$1.69 trillion (2007)",
+			"Imports": {
+				"usd": 1690000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, vehicles, aircraft, plastics, crude oil, chemicals, textiles, metals, foodstuffs, clothing",
 		"Reserves of foreign exchange and gold": "$NA",
 		"Debt - external": {
-			"Debt - external": "$13.72 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 13720000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Exchange rates": {}
 	},
 	"commerce": {
-		"Telephones - main lines in use": "238 million (2005)",
-		"Telephones - mobile cellular": "466 million (2005)",
+		"Telephones - main lines in use": 238000000,
+		"Telephones - mobile cellular": 466000000,
 		"Telephone system": "note - see individual country entries of member states",
 		"Internet country code": ".eu; note - see country entries of member states for individual country codes",
 		"Internet hosts": "140,277; note - this sum reflects the number of Internet hosts assigned the .eu Internet country code (2010)",
 		"Internet users": {}
 	},
 	"transport": {
-		"Airports": "3,383 (2010)",
+		"Airports": null,
 		"Airports - with paved runways": {
-			"total:": "1,992",
-			"over 3,047 m:": "116",
-			"2,438 to 3,047 m:": "340",
-			"1,524 to 2,437 m:": "546",
-			"914 to 1,523 m:": "422"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1,391",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "22",
-			"914 to 1,523 m:": "254"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "99 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "230,237 km (2010)"
+			"total:": {
+				"quantity": 230237,
+				"unit": "km"
+			}
 		},
 		"Roadways": {
-			"total:": "5,814,080 km (2010)"
+			"total:": {
+				"quantity": 5814,
+				"unit": "km"
+			}
 		},
-		"Waterways": "44,103 km (2010)",
+		"Waterways": {
+			"quantity": 44103,
+			"unit": "km"
+		},
 		"Ports and terminals": {}
 	},
 	"military": {

@@ -5,23 +5,53 @@
 	"background": "Colombia was one of the three countries that emerged from the collapse of Gran Colombia in 1830 (the others are Ecuador and Venezuela). A four-decade long conflict between government forces and anti-government insurgent groups, principally the Revolutionary Armed Forces of Colombia (FARC) heavily funded by the drug trade, escalated during the 1990s. The insurgents lack the military or popular support necessary to overthrow the government, and violence has been decreasing since about 2002. However, insurgents continue attacks against civilians and large areas of the countryside are under guerrilla influence or are contested by security forces. More than 31,000 former paramilitaries had demobilized by the end of 2006 and the United Self Defense Forces of Colombia (AUC) as a formal organization had ceased to function. In the wake of the paramilitary demobilization, emerging criminal groups arose, whose members include some former paramilitaries. The Colombian Government has stepped up efforts to reassert government control throughout the country, and now has a presence in every one of its administrative departments. However, neighboring countries worry about the violence spilling over their borders. In January 2011, Colombia assumed a nonpermanent seat on the UN Security Council for the 2011-12 term.",
 	"geo": {
 		"Location": "Northern South America, bordering the Caribbean Sea, between Panama and Venezuela, and bordering the North Pacific Ocean, between Ecuador and Panama",
-		"Geographic coordinates": "4 00 N, 72 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 4,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 72,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "1,138,910 sq km",
+			"total:": {
+				"quantity": 1138,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,038,700 sq km",
-			"water:": "100,210 sq km"
+			"land:": {
+				"quantity": 1038,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 100210,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of Texas",
 		"Land boundaries": {
-			"total:": "6,309 km",
+			"total:": {
+				"quantity": 6309,
+				"unit": "km"
+			},
 			"border countries:": "Brazil 1,644 km, Ecuador 590 km, Panama 225 km, Peru 1,800 km, Venezuela 2,050 km"
 		},
-		"Coastline": "3,208 km (Caribbean Sea 1,760 km, North Pacific Ocean 1,448 km)",
+		"Coastline": {
+			"quantity": 3208,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "tropical along coast and eastern plains; cooler in highlands",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, coal, iron ore, nickel, gold, copper, emeralds, hydropower",
 		"Land use": {
-			"arable land:": "2.01%",
-			"permanent crops:": "1.37%",
-			"other:": "96.62% (2005)"
+			"arable land:": {
+				"quantity": 2.01,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.37,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.62,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "9,000 sq km (2008)",
-		"Total renewable water resources": "2,132 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 9000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 2132,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "10.71  cu km/yr (50%/4%/46%)",
-			"per capita:": "235  cu m/yr (2000)"
+			"total:": {
+				"quantity": 10.71,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 235,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "highlands subject to volcanic eruptions; occasional earthquakes; periodic droughts",
@@ -55,29 +106,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "44,725,543 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.7% (male 6,109,495/female 5,834,273)",
-			"15-64 years:": "67.2% (male 14,826,008/female 15,208,799)",
+			"0-14 years:": {
+				"quantity": 26.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.2,
+				"unit": "%"
+			},
 			"65 years and over:": "6.1% (male 1,159,691/female 1,587,277) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "28 years",
-			"male:": "27 years",
-			"female:": "28.9 years (2011 est.)"
+			"total:": {
+				"quantity": 28,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 27,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 28.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.156% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.156,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.49 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.49,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.26 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.26,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -85,43 +160,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "75% of total population (2010)",
-			"rate of urbanization:": "1.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 75,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BOGOTA (capital) 8.262 million; Medellin 3.497 million; Cali 2.352 million; Barranquilla 1.836 million; Bucaramanga 1.065 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.74 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.74,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "16.39 deaths/1,000 live births",
+			"total:": {
+				"quantity": 16.39,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "19.92 deaths/1,000 live births",
-			"female:": "12.65 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 19.92,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 12.65,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.55 years",
+			"total population:": {
+				"quantity": 74.55,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.27 years",
-			"female:": "78.03 years (2011 est.)"
+			"male:": {
+				"quantity": 71.27,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.03,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.15 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.15,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "160,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "14,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -141,14 +261,32 @@
 		"Languages": "Spanish (official)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "90.4%",
-			"male:": "90.1%",
-			"female:": "90.7% (2005 census)"
+			"total population:": {
+				"quantity": 90.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 90.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 90.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +300,16 @@
 		"Government type": "republic; executive branch dominates government structure",
 		"Capital": {
 			"name:": "Bogota",
-			"geographic coordinates:": "4 36 N, 74 05 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 4,
+					"seconds": 36
+				},
+				"W": {
+					"minutes": 74,
+					"seconds": 5
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "32 departments (departamentos, singular - departamento) and 1 capital district* (distrito capital); Amazonas, Antioquia, Arauca, Atlantico, Bogota*, Bolivar, Boyaca, Caldas, Caqueta, Casanare, Cauca, Cesar, Choco, Cordoba, Cundinamarca, Guainia, Guaviare, Huila, La Guajira, Magdalena, Meta, Narino, Norte de Santander, Putumayo, Quindio, Risaralda, San Andres y Providencia, Santander, Sucre, Tolima, Valle del Cauca, Vaupes, Vichada",
@@ -214,139 +361,250 @@
 	"economy": {
 		"Economy - overview": "The SANTOS administration has highlighted five \"locomotives\" to stimulate economic growth: extractive industries; agriculture; infrastructure; housing; and innovation. Colombia is third largest exporter of oil to the United States. President SANTOS, inaugurated in August 2010, introduced unprecedented legislation to better distribute extractive industry royalties and compensate Colombians who lost their land due to decades of violence. He also seeks to build on improvements in domestic security and on President URIBE's promarket economic policies. Foreign direct investment reached a record $10 billion in 2008, but dropped to $7.2 billion in 2009, before beginning to recover in 2010, notably in the oil sector. Pro-business reforms in the oil and gas sectors and export-led growth, fueled mainly by the Andean Trade Promotion and Drug Eradication Act, have enhanced Colombia's investment climate. Inequality, underemployment, and narcotrafficking remain significant challenges, and Colombia's infrastructure requires major improvements to sustain economic expansion. Because of the global financial crisis and weakening demand for Colombia's exports, Colombia's economy grew only 2.7% in 2008, and 0.8% in 2009 but rebounded to around 4.4% in 2010. In late 2010, Colombia experienced its most severe flooding in decades, with damages estimated to exceed $6 billion. The government has encouraged exporters to diversify their customer base beyond the United States and Venezuela, traditionally Colombia's largest trading partners; the SANTOS administration continues to pursue free trade agreements with Asian and South American partners and a trade accord with Canada is expected to go into effect in 2011, while a negotiated trade agreement with the EU has yet to be approved by the EU parliament. Improved relations with Venezuela have eased worries about restrictions on bilateral trade, but the business sector remains concerned about the pending US Congressional approval of the US-Colombia Trade Promotion Agreement.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$435.4 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 435400000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$285.5 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 285500000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$9,800 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "9.3%",
-			"industry:": "38%",
-			"services:": "52.7% (2010 est.)"
+			"agriculture:": {
+				"quantity": 9.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 38,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 52.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "21.27 million (2010 est.)",
+			"Labor force": 21270000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "18%",
-			"industry:": "13%",
-			"services:": "68% (2010 est.)"
+			"agriculture:": {
+				"quantity": 18,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 13,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 68,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "11.8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 11.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "45.5% (2009)",
+		"Population below poverty line": {
+			"quantity": 45.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.8%",
-			"highest 10%:": "45% (2008)"
+			"lowest 10%:": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 45,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "58.5 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$74.2 billion",
-			"expenditures:": "$83.9 billion (2011 est.)"
+			"revenues:": {
+				"usd": 74200000000
+			},
+			"expenditures:": {
+				"usd": 83900000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "44.8% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 44.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3% (31 October 2010)",
+			"Central bank discount rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "12.98% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 12.98,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$31.83 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 31830000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$104.9 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 104900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$123 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 123000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$217.3 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 217300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coffee, cut flowers, bananas, rice, tobacco, corn, sugarcane, cocoa beans, oilseed, vegetables; forest products; shrimp",
 		"Industries": "textiles, food processing, oil, clothing and footwear, beverages, chemicals, cement; gold, coal, emeralds",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "50.58 billion kWh (2007)",
+			"Electricity - production": {
+				"quantity": 50580000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "38.59 billion kWh (2007)",
+			"Electricity - consumption": {
+				"quantity": 38590000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "876.7 million kWh (2007)",
-		"Electricity - imports": "39.4 million kWh (2007)",
+		"Electricity - exports": {
+			"quantity": 876700000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 39400000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "785,000 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 785000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "288,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 288000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "294,000 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 294000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "16,540 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 16540,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.9 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1900000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "9 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 9000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "8.1 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 8100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "900 million cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 900000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "112 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 112000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -354,42 +612,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$40.24 billion (2010 est.)",
+			"Exports": {
+				"usd": 40240000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum, coffee, coal, nickel, emeralds, apparel, bananas, cut flowers",
 		"Exports - partners": "US 42%, EU 12.6%, China 5.2%, Ecuador 4.5% (2010 est.)",
 		"Imports": {
-			"Imports": "$36.26 billion (2010 est.)",
+			"Imports": {
+				"usd": 36260000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "industrial equipment, transportation equipment, consumer goods, chemicals, paper products, fuels, electricity",
 		"Imports - partners": "US 25.5%, China 13.4%, Mexico 9.4%, Brazil 5.9%, Germany 4.1% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$28.5 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 28500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$57.74 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 57740000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$84.62 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 84620000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$19.2 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 19200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "7.5 million (2009)",
+			"Telephones - main lines in use": 7500000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "42.16 million (2009)",
+			"Telephones - mobile cellular": 42160000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -400,48 +670,57 @@
 		"Broadcast media": "combination of state-owned and privately-owned broadcast media provide service; more than 500 radio stations and large number of national, regional, and local TV stations (2007)",
 		"Internet country code": ".co",
 		"Internet hosts": {
-			"Internet hosts": "2.527 million (2010)",
+			"Internet hosts": 2527000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "990 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "116",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "8",
-			"1,524 to 2,437 m:": "41",
-			"914 to 1,523 m:": "50"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "874",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "35",
-			"914 to 1,523 m:": "228",
-			"under 914 m:": "610 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 4,801 km; oil 6,334 km; refined products 3,309 km (2010)",
 		"Railways": {
-			"total:": "874 km",
+			"total:": {
+				"quantity": 874,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "150 km 1.435-m gauge",
 			"narrow gauge:": "498 km 0.950-m gauge; 226 km 0.914-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "141,374 km (2010)",
+			"total:": {
+				"quantity": 141374,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
-			"Waterways": "18,000 km (2010)",
+			"Waterways": {
+				"quantity": 18000,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "13",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 11, petroleum tanker 1, specialized tanker 1",
 			"registered in other countries:": "3 (Antigua and Barbuda 1, Panama 2) (2010)"
@@ -452,16 +731,16 @@
 		"Military branches": "National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, includes Naval Aviation, Naval Infantry (Infanteria de Marina, IM), and Coast Guard), Colombian Air Force (Fuerza Aerea de Colombia, FAC) (2011)",
 		"Military service age and obligation": "18-24 years of age for compulsory and voluntary military service; service obligation - 18 months (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "11,692,647",
-			"females age 16-49:": "11,727,625 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "9,150,400",
-			"females age 16-49:": "9,861,760 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "430,634",
-			"female:": "413,974 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

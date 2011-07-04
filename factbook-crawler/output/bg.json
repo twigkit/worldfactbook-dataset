@@ -5,24 +5,57 @@
 	"background": "Europeans began to set up trading posts in the area of Bangladesh in the 16th century; eventually the British came to dominate the region and it became part of British India. In 1947, West Pakistan and East Bengal (both primarily Muslim) separated from India (largely Hindu) and jointly became the new country of Pakistan. East Bengal became East Pakistan in 1955, but the awkward arrangement of a two-part country with its territorial units separated by 1,600 km left the Bengalis marginalized and dissatisfied. East Pakistan seceded from its union with West Pakistan in 1971 and was renamed Bangladesh. A military-backed, emergency caretaker regime suspended parliamentary elections planned for January 2007 in an effort to reform the political system and root out corruption. In contrast to the strikes and violent street rallies that had marked Bangladeshi politics in previous years, the parliamentary elections finally held in late December 2008 were mostly peaceful and Sheikh HASINA Wajed was elected prime minister. About a third of this extremely poor country floods annually during the monsoon rainy season, hampering economic development.",
 	"geo": {
 		"Location": "Southern Asia, bordering the Bay of Bengal, between Burma and India",
-		"Geographic coordinates": "24 00 N, 90 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 24,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 90,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "143,998 sq km",
+			"total:": {
+				"quantity": 143998,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "130,168 sq km",
-			"water:": "13,830 sq km"
+			"land:": {
+				"quantity": 130168,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 13830,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Iowa",
 		"Land boundaries": {
-			"total:": "4,246 km",
+			"total:": {
+				"quantity": 4246,
+				"unit": "km"
+			},
 			"border countries:": "Burma 193 km, India 4,053 km"
 		},
-		"Coastline": "580 km",
+		"Coastline": {
+			"quantity": 580,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "18 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 18,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "up to the outer limits of the continental margin"
 		},
 		"Climate": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "natural gas, arable land, timber, coal",
 		"Land use": {
-			"arable land:": "55.39%",
-			"permanent crops:": "3.08%",
-			"other:": "41.53% (2005)"
+			"arable land:": {
+				"quantity": 55.39,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3.08,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 41.53,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "50,500 sq km (2008)",
-		"Total renewable water resources": "1,210.6 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 50500,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 1210.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "79.4  cu km/yr (3%/1%/96%)",
-			"per capita:": "560  cu m/yr (2000)"
+			"total:": {
+				"quantity": 79.4,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 560,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "droughts; cyclones; much of the country routinely inundated during the summer monsoon season",
 		"Environment - current issues": "many people are landless and forced to live on and cultivate flood-prone land; waterborne diseases prevalent in surface water; water pollution, especially of fishing areas, results from the use of commercial pesticides; ground water contaminated by naturally occurring arsenic; intermittent water shortages because of falling water tables in the northern and central parts of the country; soil degradation and erosion; deforestation; severe overpopulation",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "158,570,535 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "34.3% (male 27,551,594/female 26,776,647)",
-			"15-64 years:": "61.1% (male 45,956,431/female 50,891,519)",
+			"0-14 years:": {
+				"quantity": 34.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 61.1,
+				"unit": "%"
+			},
 			"65 years and over:": "4.7% (male 3,616,225/female 3,778,119) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "23.3 years",
-			"male:": "22.7 years",
-			"female:": "23.7 years (2011 est.)"
+			"total:": {
+				"quantity": 23.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.566% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.566,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.98 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.98,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.75 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.75,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,31 +161,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "28% of total population (2010)",
-			"rate of urbanization:": "3.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 28,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "DHAKA (capital) 14.251 million; Chittagong 4.816 million; Khulna 1.636 million; Rajshahi 853,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.89 male(s)/female",
-			"65 years and over:": "0.93 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "50.73 deaths/1,000 live births",
+			"total:": {
+				"quantity": 50.73,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "53.23 deaths/1,000 live births",
-			"female:": "48.13 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 53.23,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 48.13,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "69.75 years",
+			"total population:": {
+				"quantity": 69.75,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "67.93 years",
-			"female:": "71.65 years (2011 est.)"
+			"male:": {
+				"quantity": 67.93,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 71.65,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.6 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.6,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -115,7 +235,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "6,300 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -140,14 +260,32 @@
 		"Languages": "Bangla (official, also known as Bengali), English",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "47.9%",
-			"male:": "54%",
-			"female:": "41.4% (2001 Census)"
+			"total population:": {
+				"quantity": 47.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 54,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 41.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "8 years",
-			"male:": "8 years",
-			"female:": "8 years (2007)"
+			"total:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +299,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Dhaka",
-			"geographic coordinates:": "23 43 N, 90 24 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 23,
+					"seconds": 43
+				},
+				"E": {
+					"minutes": 90,
+					"seconds": 24
+				}
+			},
 			"time difference:": "UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 divisions; Barisal, Chittagong, Dhaka, Khulna, Rajshahi, Rangpur, Sylhet",
@@ -210,182 +357,304 @@
 	"economy": {
 		"Economy - overview": "The economy has grown 5-6% per year since 1996 despite political instability, poor infrastructure, corruption, insufficient power supplies, and slow implementation of economic reforms. Bangladesh remains a poor, overpopulated, and inefficiently-governed nation. Although more than half of GDP is generated through the service sector, 45% of Bangladeshis are employed in the agriculture sector, with rice as the single-most-important product. Bangladesh's growth was resilient during the 2008-09 global financial crisis and recession. Garment exports, totaling $12.3 billion in FY09 and remittances from overseas Bangladeshis, totaling $11 billion in FY10, accounted for almost 25% of GDP.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$258.6 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 258600000000.00003
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$104.9 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 104900000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "18.4%",
-			"industry:": "28.7%",
-			"services:": "52.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 18.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 28.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 52.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "73.87 million",
+			"Labor force": 73870000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "45%",
-			"industry:": "30%",
-			"services:": "25% (2008)"
+			"agriculture:": {
+				"quantity": 45,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 25,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "4.8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 4.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "40% (2010 est.)",
+		"Population below poverty line": {
+			"quantity": 40,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA",
-			"highest 10%:": "26.6% (2008 est.)"
+			"highest 10%:": {
+				"quantity": 26.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "33.2 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "24.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 24.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$11.43 billion",
-			"expenditures:": "$15.9 billion (2010 est.)"
+			"revenues:": {
+				"usd": 11430000000
+			},
+			"expenditures:": {
+				"usd": 15900000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "39.3% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 39.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "8.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 8.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "5% (31 October 2010)",
+			"Central bank discount rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.18% (30 September 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.18,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$13.98 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 13980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$57.21 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 57210000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$62.2 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 62200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$7.068 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 7068000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "rice, jute, tea, wheat, sugarcane, potatoes, tobacco, pulses, oilseeds, spices, fruit; beef, milk, poultry",
 		"Industries": "cotton textiles, jute, garments, tea processing, paper newsprint, cement, chemical fertilizer, light engineering, sugar",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "25.62 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 25620000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "23.94 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 23940000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "5,733 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 5733,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "82,340 bbl/day (2010)",
+			"Oil - consumption": {
+				"quantity": 82340,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2,612 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2612,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "77,340 bbl/day (2010 est.)",
+			"Oil - imports": {
+				"quantity": 77340,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "28 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 28000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "19.91 billion cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 19910000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "20.1 billion cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 20100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "195.4 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 195400000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$3.734 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 3734000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$16.24 billion (2010 est.)",
+			"Exports": {
+				"usd": 16239999999.999998
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "garments, frozen fish and seafood, jute and jute goods, leather",
 		"Exports - partners": "US 22.5%, Germany 14.2%, UK 9.6%, France 7%, Netherlands 6.4% (2009)",
 		"Imports": {
-			"Imports": "$21.34 billion (2010 est.)",
+			"Imports": {
+				"usd": 21340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, iron and steel, textiles, foodstuffs, petroleum products, cement",
 		"Imports - partners": "China 16.16%, India 12.61%, Singapore 7.55%, Japan 4.63%, Malaysia 4.46% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$10.79 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 10790000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$24.46 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 24460000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$6.72 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 6720000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$82 million (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 82000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.522 million (2009)",
+			"Telephones - main lines in use": 1522000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "50.4 million (2009)",
+			"Telephones - mobile cellular": 50400000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -396,50 +665,62 @@
 		"Broadcast media": "state-owned broadcaster (BTV) operates 1 terrestrial TV station, 3 radio networks, and about 10 local stations; 8 private satellite TV stations and 3 private radio stations also broadcasting; foreign satellite TV stations are gaining audience share in the large cities; several international radio broadcasters are available (2007)",
 		"Internet country code": ".bd",
 		"Internet hosts": {
-			"Internet hosts": "68,224 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "17 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "15",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "1"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "2",
-			"1,524 to 2,437 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 2,714 km (2010)",
 		"Railways": {
-			"total:": "2,622 km",
+			"total:": {
+				"quantity": 2622,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "946 km 1.676-m gauge",
 			"narrow gauge:": "1,676 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "239,226 km",
+			"total:": {
+				"quantity": 239226,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "22,726 km",
-			"unpaved:": "216,500 km (2003)"
+			"paved:": {
+				"quantity": 22726,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 216500,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "8,370 km (includes up to 3,060 km of main cargo routes; the network is reduced to 5,200 km in the dry season) (2007)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "50",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 16, cargo 25, container 5, petroleum tanker 4",
-			"foreign-owned:": "4 (China 1, Singapore 3)",
+			"foreign-owned:": null,
 			"registered in other countries:": "9 (Comoros 1, Malta 1, Panama 3, Saint Vincent and the Grenadines 1, Sierra Leone 1, Singapore 2) (2010)"
 		},
 		"Ports and terminals": "Chittagong, Mongla Port",
@@ -449,22 +730,22 @@
 		"Military branches": "Bangladesh Defense Force: Bangladesh Army (Sena Bahini), Bangladesh Navy (Noh Bahini, BN), Bangladesh Air Force (Biman Bahini, BAF) (2010)",
 		"Military service age and obligation": "16 years of age for voluntary enlisted military service (Air Force); 17 years of age (Army and Navy); conscription is by law possible in times of emergency, but has never been implemented (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "36,520,491 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "30,486,086",
-			"females age 16-49:": "35,616,093 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,606,963",
-			"female:": "1,689,442 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; discussions with India remain stalled to delimit a small section of river boundary, exchange territory for 51 small Bangladeshi exclaves in India and 111 small Indian exclaves in Bangladesh, allocate divided villages, and stop illegal cross-border trade, migration, violence, and transit of terrorists through the porous border; Bangladesh protests India's fencing and walling-off high-traffic sections of the porous boundary; a joint Bangladesh-India boundary commission agreed to fully demarcate the Bangladesh-India boundary in the Dhubri-Kruigram sector; the Naf river on the border with Burma serves as a smuggling and illegal transit route; Bangladesh struggles to accommodate 29,000 Rohingya, Burmese Muslim minority from Arakan State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "26,268 (Burma)",
+			"refugees (country of origin):": null,
 			"IDPs:": "65,000 (land conflicts, religious persecution) (2007)"
 		},
 		"Trafficking in persons": {

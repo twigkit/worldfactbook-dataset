@@ -5,23 +5,53 @@
 	"background": "French Togoland became Togo in 1960. Gen. Gnassingbe EYADEMA, installed as military ruler in 1967, ruled Togo with a heavy hand for almost four decades. Despite the facade of multiparty elections instituted in the early 1990s, the government was largely dominated by President EYADEMA, whose Rally of the Togolese People (RPT) party has maintained power almost continually since 1967 and maintains a majority of seats in today's legislature. Upon EYADEMA's death in February 2005, the military installed the president's son, Faure GNASSINGBE, and then engineered his formal election two months later. Democratic gains since then allowed Togo to hold its first relatively free and fair legislative elections in October 2007. After years of political unrest and condemnation from international organizations for human rights abuses, Togo is finally being re-welcomed into the international community.",
 	"geo": {
 		"Location": "Western Africa, bordering the Bight of Benin, between Benin and Ghana",
-		"Geographic coordinates": "8 00 N, 1 10 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 8,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 1,
+				"seconds": 10
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "56,785 sq km",
+			"total:": {
+				"quantity": 56785,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "54,385 sq km",
-			"water:": "2,400 sq km"
+			"land:": {
+				"quantity": 54385,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2400,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than West Virginia",
 		"Land boundaries": {
-			"total:": "1,647 km",
+			"total:": {
+				"quantity": 1647,
+				"unit": "km"
+			},
 			"border countries:": "Benin 644 km, Burkina Faso 126 km, Ghana 877 km"
 		},
-		"Coastline": "56 km",
+		"Coastline": {
+			"quantity": 56,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "30 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 30,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot, humid in south; semiarid in north",
 		"Terrain": "gently rolling savanna in north; central hills; southern plateau; low coastal plain with extensive lagoons and marshes",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "phosphates, limestone, marble, arable land",
 		"Land use": {
-			"arable land:": "44.2%",
-			"permanent crops:": "2.11%",
-			"other:": "53.69% (2005)"
+			"arable land:": {
+				"quantity": 44.2,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.11,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 53.69,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "70 sq km (2008)",
-		"Total renewable water resources": "14.7 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 70,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 14.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.17  cu km/yr (53%/2%/45%)",
-			"per capita:": "28  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.17,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 28,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry harmattan wind can reduce visibility in north during winter; periodic droughts",
 		"Environment - current issues": "deforestation attributable to slash-and-burn agriculture and the use of wood for fuel; water pollution presents health hazards and hinders the fishing industry; air pollution increasing in urban areas",
@@ -51,73 +102,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "6,771,993 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "40.9% (male 1,387,537/female 1,381,040)",
-			"15-64 years:": "56% (male 1,878,114/female 1,912,132)",
+			"0-14 years:": {
+				"quantity": 40.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 56,
+				"unit": "%"
+			},
 			"65 years and over:": "3.1% (male 92,689/female 120,481) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.3 years",
-			"male:": "19 years",
-			"female:": "19.5 years (2011 est.)"
+			"total:": {
+				"quantity": 19.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 19,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.762% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.762,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "35.58 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 35.58,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.96 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.96,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "43% of total population (2010)",
-			"rate of urbanization:": "3.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 43,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LOME (capital) 1.593 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1 male(s)/female",
-			"15-64 years:": "0.96 male(s)/female",
-			"65 years and over:": "0.63 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.63,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "51.48 deaths/1,000 live births",
+			"total:": {
+				"quantity": 51.48,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.43 deaths/1,000 live births",
-			"female:": "44.32 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 58.43,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 44.32,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "62.71 years",
+			"total population:": {
+				"quantity": 62.71,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "60.19 years",
-			"female:": "65.3 years (2011 est.)"
+			"male:": {
+				"quantity": 60.19,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 65.3,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.69 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.69,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "3.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "120,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "7,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -138,14 +261,32 @@
 		"Languages": "French (official, the language of commerce), Ewe and Mina (the two major African languages in the south), Kabye (sometimes spelled Kabiye) and Dagomba (the two major African languages in the north)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "60.9%",
-			"male:": "75.4%",
-			"female:": "46.9% (2003 est.)"
+			"total population:": {
+				"quantity": 60.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 75.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 46.9,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "11 years",
-			"female:": "8 years (2007)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +301,16 @@
 		"Government type": "republic under transition to multiparty democratic rule",
 		"Capital": {
 			"name:": "Lome",
-			"geographic coordinates:": "6 08 N, 1 13 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 8
+				},
+				"E": {
+					"minutes": 1,
+					"seconds": 13
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "5 regions (regions, singular - region); Centrale, Kara, Maritime, Plateaux, Savanes",
@@ -207,122 +357,219 @@
 	"economy": {
 		"Economy - overview": "This small, sub-Saharan economy suffers from anemic economic growth and depends heavily on both commercial and subsistence agriculture, which provides employment for 65% of the labor force. Some basic foodstuffs must still be imported. Cocoa, coffee, and cotton generate about 40% of export earnings with cotton being the most important cash crop. Togo is the world's fourth-largest producer of phosphate. The government's decade-long effort, supported by the World Bank and the IMF, to implement economic reform measures, encourage foreign investment, and bring revenues in line with expenditures has moved slowly. Progress depends on follow through on privatization, increased openness in government financial operations, progress toward legislative elections, and continued support from foreign donors. Togo is on track with its IMF Extended Credit Facility and reached a HIPC debt relief completion point in 2010 at which 95% of the country's debt was forgiven. Economic growth prospects remain marginal due to declining cotton production and underinvestment in phosphate mining.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$5.974 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 5974000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$3.194 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 3194000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "47.4%",
-			"industry:": "25.4%",
-			"services:": "27.2% (2009 est.)"
+			"agriculture:": {
+				"quantity": 47.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 25.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 27.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.595 million (2007)",
+			"Labor force": 2595000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "65%",
-			"industry:": "5%",
-			"services:": "30% (1998 est.)"
+			"agriculture:": {
+				"quantity": 65,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 30,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "32% (1989 est.)",
+		"Population below poverty line": {
+			"quantity": 32,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.3%",
-			"highest 10%:": "27.1% (2006)"
+			"lowest 10%:": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 27.1,
+				"unit": "%"
+			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$602.3 million",
-			"expenditures:": "$692.1 million (2010 est.)"
+			"revenues:": {
+				"usd": 602300000
+			},
+			"expenditures:": {
+				"usd": 692100000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$754.5 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 754500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.238 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1238000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$817.7 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 817700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, cocoa, cotton, yams, cassava (tapioca), corn, beans, rice, millet, sorghum; livestock; fish",
 		"Industries": "phosphate mining, agricultural processing, cement, handicrafts, textiles, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "230 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 230000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "640 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 640000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "514 million kWh; note - electricity supplied by Ghana (2007 est.)",
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "21,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 21000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1,547 bbl/day (2005)",
+			"Oil - exports": {
+				"quantity": 1547,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "15,270 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 15270,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -330,19 +577,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$859 million (2010 est.)",
+			"Exports": {
+				"usd": 859000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "reexports, cotton, phosphates, coffee, cocoa",
 		"Exports - partners": "Germany 17.57%, Ghana 12.74%, Burkina Faso 11.02%, India 10.22%, Belgium 7.1%, Benin 6.92%, Netherlands 5.94%, Mali 4.41% (2009)",
 		"Imports": {
-			"Imports": "$1.337 billion (2010 est.)",
+			"Imports": {
+				"usd": 1337000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, petroleum products",
 		"Imports - partners": "China 36.58%, France 8.64%, Netherlands 6.76%, India 5.06%, US 4.4% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$686 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 686000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": "$NA (31 December 2010)",
@@ -350,11 +603,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "178,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.187 million (2009)",
+			"Telephones - mobile cellular": 2187000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -365,42 +618,54 @@
 		"Broadcast media": "2 state-owned TV stations with multiple transmission sites; 5 private TV stations broadcast locally; cable TV service is available; state-owned radio network with multiple stations; several dozen private radio stations and a few community radio stations; transmissions of multiple international broadcasters are obtainable (2007)",
 		"Internet country code": ".tg",
 		"Internet hosts": {
-			"Internet hosts": "860 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "8 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"2,438 to 3,047 m:": "2 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "6",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "532 km",
+			"total:": {
+				"quantity": 532,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "532 km 1.000-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "7,520 km",
+			"total:": {
+				"quantity": 7520,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,376 km",
-			"unpaved:": "5,144 km (2000)"
+			"paved:": {
+				"quantity": 2376,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 5144,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "50 km (seasonally navigable by small craft on the Mono River depending on rainfall) (2009)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "53",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 5, cargo 40, chemical tanker 2, container 2, petroleum tanker 2, refrigerated cargo 1, roll on/roll off 1",
 			"foreign-owned:": "23 (China 2, Greece 1, Lebanon 6, Romania 1, Syria 5, Turkey 4, UAE 1, UK 3) (2010)"
@@ -411,24 +676,24 @@
 		"Military branches": "Togolese Armed Forces (Forces Armees Togolaise, FAT): Ground Forces, Togolese Navy (Marine du Togo), Togolese Air Force (Force Aerienne Togolaise, TAF), National Gendarmerie (2011)",
 		"Military service age and obligation": "18 years of age for selective compulsory and voluntary military service; 2-year service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,577,572",
-			"females age 16-49:": "1,589,715 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,104,536",
-			"females age 16-49:": "1,158,061 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "74,036",
-			"female:": "73,515 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "in 2001, Benin claimed Togo moved boundary monuments - joint commission continues to resurvey the boundary; in 2006, 14,000 Togolese refugees remain in Benin and Ghana out of the 40,000 who fled there in 2005; talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "5,000 (Ghana)",
-			"IDPs:": "1,500 (2007)"
+			"refugees (country of origin):": null,
+			"IDPs:": null
 		},
 		"Illicit drugs": {}
 	}

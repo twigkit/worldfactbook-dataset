@@ -5,20 +5,44 @@
 	"background": "The former French colony of Ubangi-Shari became the Central African Republic upon independence in 1960. After three tumultuous decades of misrule - mostly by military governments - civilian rule was established in 1993 and lasted for one decade. President Ange-Felix PATASSE's civilian government was plagued by unrest, and in March 2003 he was deposed in a military coup led by General Francois BOZIZE, who established a transitional government. Though the government has the tacit support of civil society groups and the main parties, a wide field of candidates contested the municipal, legislative, and presidential elections held in March and May of 2005 in which General BOZIZE was affirmed as president. The government still does not fully control the countryside, where pockets of lawlessness persist. Unrest in the neighboring nations of Chad, Sudan, and the DRC continues to affect stability in the Central African Republic as well.",
 	"geo": {
 		"Location": "Central Africa, north of Democratic Republic of the Congo",
-		"Geographic coordinates": "7 00 N, 21 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 7,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 21,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "622,984 sq km",
+			"total:": {
+				"quantity": 622984,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "622,984 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 622984,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Texas",
 		"Land boundaries": {
-			"total:": "5,203 km",
+			"total:": {
+				"quantity": 5203,
+				"unit": "km"
+			},
 			"border countries:": "Cameroon 797 km, Chad 1,197 km, Democratic Republic of the Congo 1,577 km, Republic of the Congo 467 km, Sudan 1,165 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "tropical; hot, dry winters; mild to hot, wet summers",
 		"Terrain": "vast, flat to rolling, monotonous plateau; scattered hills in northeast and southwest",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "diamonds, uranium, timber, gold, oil, hydropower",
 		"Land use": {
-			"arable land:": "3.1%",
-			"permanent crops:": "0.15%",
-			"other:": "96.75% (2005)"
+			"arable land:": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.15,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.75,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "10 sq km (2008)",
-		"Total renewable water resources": "144.4 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 10,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 144.4,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.03  cu km/yr (80%/16%/4%)",
-			"per capita:": "7  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.03,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 7,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry, dusty harmattan winds affect northern areas; floods are common",
 		"Environment - current issues": "tap water is not potable; poaching has diminished the country's reputation as one of the last great wildlife refuges; desertification; deforestation",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,950,027 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "41% (male 1,021,144/female 1,007,819)",
-			"15-64 years:": "55.3% (male 1,353,600/female 1,382,291)",
+			"0-14 years:": {
+				"quantity": 41,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 55.3,
+				"unit": "%"
+			},
 			"65 years and over:": "3.7% (male 73,977/female 111,196) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.2 years",
-			"male:": "18.8 years",
-			"female:": "19.6 years (2011 est.)"
+			"total:": {
+				"quantity": 19.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.146% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.146,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "36.46 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 36.46,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "15.01 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 15.01,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "39% of total population (2010)",
-			"rate of urbanization:": "2.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 39,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BANGUI (capital) 702,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "99.38 deaths/1,000 live births",
+			"total:": {
+				"quantity": 99.38,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "107.34 deaths/1,000 live births",
-			"female:": "91.17 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 107.34,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 91.17,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "50.07 years",
+			"total population:": {
+				"quantity": 50.07,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "48.84 years",
-			"female:": "51.35 years (2011 est.)"
+			"male:": {
+				"quantity": 48.84,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 51.35,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.63 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.63,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "4.7% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "130,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "11,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,14 +254,32 @@
 		"Languages": "French (official), Sangho (lingua franca and national language), tribal languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "48.6%",
-			"male:": "64.8%",
-			"female:": "33.5% (2000 est.)"
+			"total population:": {
+				"quantity": 48.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 64.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 33.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "7 years",
-			"male:": "8 years",
-			"female:": "5 years (2009)"
+			"total:": {
+				"quantity": 7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 5,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -159,7 +294,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Bangui",
-			"geographic coordinates:": "4 22 N, 18 35 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 4,
+					"seconds": 22
+				},
+				"E": {
+					"minutes": 18,
+					"seconds": 35
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "14 prefectures (prefectures, singular - prefecture), 2 economic prefectures* (prefectures economiques, singular - prefecture economique), and 1 commune**; Bamingui-Bangoran, Bangui**, Basse-Kotto, Haute-Kotto, Haut-Mbomou, Kemo, Lobaye, Mambere-Kadei, Mbomou, Nana-Grebizi*, Nana-Mambere, Ombella-Mpoko, Ouaka, Ouham, Ouham-Pende, Sangha-Mbaere*, Vakaga",
@@ -204,120 +348,208 @@
 	"economy": {
 		"Economy - overview": "Subsistence agriculture, together with forestry, remains the backbone of the economy of the Central African Republic (CAR), with about 60% of the population living in outlying areas. The agricultural sector generates more than half of GDP. Timber has accounted for about 16% of export earnings and the diamond industry, for 40%. Important constraints to economic development include the CAR's landlocked position, a poor transportation system, a largely unskilled work force, and a legacy of misdirected macroeconomic policies. Factional fighting between the government and its opponents remains a drag on economic revitalization. Distribution of income is extraordinarily unequal. Grants from France and the international community can only partially meet humanitarian needs.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.446 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3446000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.018 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2017999999.9999998
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "55%",
-			"industry:": "20%",
-			"services:": "25% (2001 est.)"
+			"agriculture:": {
+				"quantity": 55,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 25,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.926 million (2007)",
+			"Labor force": 1926000,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8% (2001 est.)",
+			"Unemployment rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.1%",
-			"highest 10%:": "33% (2003)"
+			"lowest 10%:": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 33,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "61.3 (1993)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$334 million",
-			"expenditures:": "$362 million (2009 est.)"
+			"revenues:": {
+				"usd": 334000000
+			},
+			"expenditures:": {
+				"usd": 362000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.9% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$288.8 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 288800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$343.4 million (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 343400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$357.6 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 357600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "timber, cotton, coffee, tobacco, manioc (tapioca), yams, millet, corn, bananas; timber",
 		"Industries": "gold and diamond mining, logging, brewing, textiles, footwear, assembly of bicycles and motorcycles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2002)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "115 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 115000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "107 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 107000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "2,203 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 2203,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -325,30 +557,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$146.7 million (2007 est.)",
+			"Exports": {
+				"usd": 146700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "diamonds, timber, cotton, coffee, tobacco",
 		"Exports - partners": "Belgium 32.57%, China 10.49%, Indonesia 10.36%, Morocco 10.24%, Democratic Republic of the Congo 6.87%, France 5.79% (2009)",
 		"Imports": {
-			"Imports": "$237.3 million (2007 est.)",
+			"Imports": {
+				"usd": 237300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, textiles, petroleum products, machinery, electrical equipment, motor vehicles, chemicals, pharmaceuticals",
 		"Imports - partners": "South Korea 19.29%, France 11.95%, US 7.78%, Cameroon 7.39%, Netherlands 6.77% (2009)",
 		"Debt - external": {
-			"Debt - external": "$1.153 billion (2007 est.)",
+			"Debt - external": {
+				"usd": 1153000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "12,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "168,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -359,30 +597,33 @@
 		"Broadcast media": "government-owned network, Radiodiffusion Television Centrafricaine, provides domestic TV broadcasting; licenses for 2 private TV stations are pending; state-owned radio network is supplemented by a small number of privately-owned broadcast stations as well as a few community radio stations; transmissions of at least 2 international broadcasters are available (2007)",
 		"Internet country code": ".cf",
 		"Internet hosts": {
-			"Internet hosts": "20 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "37 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "35",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "12",
-			"914 to 1,523 m:": "16",
-			"under 914 m:": "6 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "24,307 km (2000)",
+			"total:": {
+				"quantity": 24307,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
@@ -395,16 +636,16 @@
 		"Military branches": "Central African Armed Forces (Forces Armees Centrafricaines, FACA): Ground Forces (includes Military Air Service), General Directorate of Gendarmerie Inspection (DGIG), National Police (2011)",
 		"Military service age and obligation": "18 years of age for selective military service; 2-year conscript service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,149,856",
-			"females age 16-49:": "1,145,897 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "655,875",
-			"females age 16-49:": "661,308 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "54,843",
-			"female:": "53,999 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

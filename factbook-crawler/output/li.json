@@ -5,22 +5,49 @@
 	"background": "Settlement of freed slaves from the US in what is today Liberia began in 1822; by 1847, the Americo-Liberians were able to establish a republic. William TUBMAN, president from 1944-71, did much to promote foreign investment and to bridge the economic, social, and political gaps between the descendents of the original settlers and the inhabitants of the interior. In 1980, a military coup led by Samuel DOE ushered in a decade of authoritarian rule. In December 1989, Charles TAYLOR launched a rebellion against DOE's regime that led to a prolonged civil war in which DOE himself was killed. A period of relative peace in 1997 allowed for elections that brought TAYLOR to power, but major fighting resumed in 2000. An August 2003 peace agreement ended the war and prompted the resignation of former president Charles TAYLOR, who faces war crimes charges in The Hague related to his involvement in Sierra Leone's civil war. After two years of rule by a transitional government, democratic elections in late 2005 brought President Ellen JOHNSON SIRLEAF to power. The UN Mission in Liberia (UNMIL) maintains a strong presence throughout the country, but the security situation is still fragile and the process of rebuilding the social and economic structure of this war-torn country continues.",
 	"geo": {
 		"Location": "Western Africa, bordering the North Atlantic Ocean, between Cote d'Ivoire and Sierra Leone",
-		"Geographic coordinates": "6 30 N, 9 30 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 6,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 9,
+				"seconds": 30
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "111,369 sq km",
+			"total:": {
+				"quantity": 111369,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "96,320 sq km",
-			"water:": "15,049 sq km"
+			"land:": {
+				"quantity": 96320,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 15049,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Tennessee",
 		"Land boundaries": {
-			"total:": "1,585 km",
+			"total:": {
+				"quantity": 1585,
+				"unit": "km"
+			},
 			"border countries:": "Guinea 563 km, Cote d'Ivoire 716 km, Sierra Leone 306 km"
 		},
-		"Coastline": "579 km",
+		"Coastline": {
+			"quantity": 579,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "200 nm"
+			"territorial sea:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
 		"Terrain": "mostly flat to rolling coastal plains rising to rolling plateau and low mountains in northeast",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "iron ore, timber, diamonds, gold, hydropower",
 		"Land use": {
-			"arable land:": "3.43%",
-			"permanent crops:": "1.98%",
-			"other:": "94.59% (2005)"
+			"arable land:": {
+				"quantity": 3.43,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.98,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 94.59,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "30 sq km (2008)",
-		"Total renewable water resources": "232 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 30,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 232,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.11  cu km/yr (27%/18%/55%)",
-			"per capita:": "34  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.11,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 34,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dust-laden harmattan winds blow from the Sahara (December to March)",
 		"Environment - current issues": "tropical rain forest deforestation; soil erosion; loss of biodiversity; pollution of coastal waters from oil residue and raw sewage",
@@ -50,73 +98,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,786,764 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "44.3% (male 843,182/female 834,922)",
-			"15-64 years:": "52.7% (male 989,623/female 1,007,577)",
+			"0-14 years:": {
+				"quantity": 44.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 52.7,
+				"unit": "%"
+			},
 			"65 years and over:": "2.9% (male 56,189/female 55,271) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.3 years",
-			"male:": "18.2 years",
-			"female:": "18.3 years (2011 est.)"
+			"total:": {
+				"quantity": 18.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.663% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.663,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "37.25 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 37.25,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.62 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.62,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "48% of total population (2010)",
-			"rate of urbanization:": "3.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 48,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MONROVIA (capital) 882,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "1.03 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "74.52 deaths/1,000 live births",
+			"total:": {
+				"quantity": 74.52,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.96 deaths/1,000 live births",
-			"female:": "69.95 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 78.96,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 69.95,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "57 years",
+			"total population:": {
+				"quantity": 57,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "55.44 years",
-			"female:": "58.6 years (2011 est.)"
+			"male:": {
+				"quantity": 55.44,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 58.6,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.13 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.13,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "37,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "3,600 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -137,14 +257,32 @@
 		"Languages": "English 20% (official), some 20 ethnic group languages few of which can be written or used in correspondence",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "57.5%",
-			"male:": "73.3%",
-			"female:": "41.6% (2003 est.)"
+			"total population:": {
+				"quantity": 57.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 73.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 41.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "13 years",
-			"female:": "9 years (2000)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 9,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,7 +294,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Monrovia",
-			"geographic coordinates:": "6 18 N, 10 48 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 18
+				},
+				"W": {
+					"minutes": 10,
+					"seconds": 48
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "15 counties; Bomi, Bong, Gbarpolu, Grand Bassa, Grand Cape Mount, Grand Gedeh, Grand Kru, Lofa, Margibi, Maryland, Montserrado, Nimba, River Cess, River Gee, Sinoe",
@@ -206,60 +353,109 @@
 	"economy": {
 		"Economy - overview": "Liberia is a low income country heavily reliant on foreign assistance for revenue. Civil war and government mismanagement destroyed much of Liberia's economy, especially the infrastructure in and around the capital, Monrovia. Many businesses fled the country, taking capital and expertise with them, but with the conclusion of fighting and the installation of a democratically-elected government in 2006, several have returned. Liberia has the distinction of having the highest ratio of direct foreign investment to GDP in the world. Richly endowed with water, mineral resources, forests, and a climate favorable to agriculture, Liberia had been a producer and exporter of basic products, primarily raw timber and rubber and is reviving those sectors. Local manufacturing, mainly foreign owned, had been small in scope. President JOHNSON SIRLEAF, a Harvard-trained banker and administrator, has taken steps to reduce corruption, build support from international donors, and encourage private investment. Embargos on timber and diamond exports have been lifted, opening new sources of revenue for the government and Liberia shipped its first major timber exports to Europe in 2010. The country reached its Heavily Indebted Poor Countries initiative completion point in 2010 and nearly $5 billion of international debt was permanently eliminated. This new status will enable Liberia to establish a sovereign credit rating and issue bonds. Liberia's Paris Club creditors agreed to cancel Liberia's debt as well. Rebuilding infrastructure and raising incomes will depend on generous financial and technical assistance from donor countries and foreign investment in key sectors, such as infrastructure and power generation.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.691 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1691000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$974 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 974000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "76.9%",
-			"industry:": "5.4%",
-			"services:": "17.7% (2002 est.)"
+			"agriculture:": {
+				"quantity": 76.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 5.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 17.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.372 million (2007)",
+			"Labor force": 1372000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "70%",
-			"industry:": "8%",
-			"services:": "22% (2000 est.)"
+			"agriculture:": {
+				"quantity": 70,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 22,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "85% (2003 est.)",
+			"Unemployment rate": {
+				"quantity": 85,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "80% (2000 est.)",
+		"Population below poverty line": {
+			"quantity": 80,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.4%",
-			"highest 10%:": "30.1% (2007)"
+			"lowest 10%:": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.1,
+				"unit": "%"
+			}
 		},
 		"Budget": {
 			"revenues:": "$NA",
 			"expenditures:": "$NA"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "11.2% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 11.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.4% (31 December 2008)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$206.9 million (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 206900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": "$NA",
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.202 billion (31 December 2008)",
+			"Stock of domestic credit": {
+				"usd": 1202000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -267,53 +463,95 @@
 		"Industries": "rubber processing, palm oil processing, timber, diamonds",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "350 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 350000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "325.5 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 325500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "4,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 4000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "23.37 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 23.37,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,263 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4263,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -321,19 +559,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.197 billion (2006)",
+			"Exports": {
+				"usd": 1197000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "rubber, timber, iron, diamonds, cocoa, coffee",
 		"Exports - partners": "Germany 27.92%, Poland 17.12%, South Africa 15.83%, India 10.48%, Greece 7.09%, US 6.23%, Norway 5.24% (2009)",
 		"Imports": {
-			"Imports": "$7.143 billion (2006)",
+			"Imports": {
+				"usd": 7143000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "fuels, chemicals, machinery, transportation equipment, manufactured goods; foodstuffs",
 		"Imports - partners": "South Korea 28.29%, Singapore 19.06%, Japan 17.06%, China 14.58%, Taiwan 4.02% (2009)",
 		"Debt - external": {
-			"Debt - external": "$3.2 billion (2005 est.)",
+			"Debt - external": {
+				"usd": 3200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -342,11 +586,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "842,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -357,42 +601,54 @@
 		"Broadcast media": "3 private TV stations; satellite TV service is available; 1 state-owned radio station; about 15 independent radio stations broadcasting in Monrovia, with another 25 local stations operating in other areas; transmissions of 2 international broadcasters are available (2007)",
 		"Internet country code": ".lr",
 		"Internet hosts": {
-			"Internet hosts": "8 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "29 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "27",
-			"1,524 to 2,437 m:": "5",
-			"914 to 1,523 m:": "8",
-			"under 914 m:": "14 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 4 km",
 		"Railways": {
-			"total:": "429 km",
+			"total:": {
+				"quantity": 429,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "345 km 1.435-m gauge",
 			"narrow gauge:": "84 km 1.067-m gauge"
 		},
 		"Roadways": {
-			"total:": "10,600 km",
+			"total:": {
+				"quantity": 10600,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "657 km",
-			"unpaved:": "9,943 km (2000)"
+			"paved:": {
+				"quantity": 657,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 9943,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "2,512",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 3, bulk carrier 507, cargo 136, carrier 1, chemical tanker 232, combination ore/oil 6, container 875, liquefied gas 93, passenger 2, passenger/cargo 2, petroleum tanker 509, refrigerated cargo 109, roll on/roll off 2, specialized tanker 10, vehicle carrier 25",
 			"foreign-owned:": "2,356 (Angola 1, Argentina 3, Australia 2, Belgium 1, Bermuda 4, Brazil 20, Canada 4, Chile 7, China 10, Croatia 2, Cyprus 7, Denmark 4, Finland 2, Germany 1049, Gibraltar 5, Greece 454, Hong Kong 47, India 1, Indonesia 4, Isle of Man 19, Israel 31, Italy 48, Japan 102, Latvia 9, Lebanon 1, Monaco 10, Netherlands 35, Nigeria 4, Norway 42, Poland 13, Qatar 5, Romania 3, Russia 108, Saudi Arabia 24, Singapore 27, Slovenia 5, South Korea 1, Sweden 10, Switzerland 17, Syria 1, Taiwan 88, Turkey 15, UAE 27, UK 25, Ukraine 16, Uruguay 1, US 39, Vietnam 3)"
@@ -403,23 +659,23 @@
 		"Military branches": "Armed Forces of Liberia (AFL): Army, Navy, Air Force",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "815,826",
-			"females age 16-49:": "828,484 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "524,243",
-			"females age 16-49:": "544,349 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "36,585",
-			"female:": "38,516 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "although civil unrest continues to abate with the assistance of 18,000 UN Mission in Liberia (UNMIL) peacekeepers, as of January 2007, Liberian refugees still remain in Guinea, Cote d'Ivoire, Sierra Leone, and Ghana; Liberia, in turn, shelters refugees fleeing turmoil in Cote d'Ivoire; despite the presence of over 9,000 UN forces (UNOCI) in Cote d'Ivoire since 2004, ethnic conflict continues to spread into neighboring states who can no longer send their migrant workers to Ivorian cocoa plantations; UN sanctions ban Liberia from exporting diamonds and timber",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "12,600 (Cote d'Ivoire)",
+			"refugees (country of origin):": null,
 			"IDPs:": "13,000 (civil war from 1990-2004; IDP resettlement began in November 2004) (2007)"
 		},
 		"Illicit drugs": {}

@@ -5,20 +5,50 @@
 	"background": "Settled as early as 1000 B.C., Samoa was \"discovered\" by European explorers in the 18th century. International rivalries in the latter half of the 19th century were settled by an 1899 treaty in which Germany and the US divided the Samoan archipelago. The US formally occupied its portion - a smaller group of eastern islands with the excellent harbor of Pago Pago - the following year.",
 	"geo": {
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
-		"Geographic coordinates": "14 20 S, 170 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 14,
+				"seconds": 20
+			},
+			"W": {
+				"minutes": 170,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "199 sq km",
+			"total:": {
+				"quantity": 199,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "199 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 199,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "116 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 116,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to April), dry season (May to October); little seasonal temperature variation",
 		"Terrain": "five volcanic islands with rugged peaks and limited coastal plains, two coral atolls (Rose Island, Swains Island)",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "pumice, pumicite",
 		"Land use": {
-			"arable land:": "10%",
-			"permanent crops:": "15%",
-			"other:": "75% (2005)"
+			"arable land:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 75,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": {
@@ -42,29 +81,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "67,242 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "31.9% (male 10,910/female 10,518)",
-			"15-64 years:": "63.9% (male 21,764/female 21,228)",
+			"0-14 years:": {
+				"quantity": 31.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63.9,
+				"unit": "%"
+			},
 			"65 years and over:": "4.2% (male 1,322/female 1,500) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "23.7 years",
-			"male:": "23.6 years",
-			"female:": "23.9 years (2011 est.)"
+			"total:": {
+				"quantity": 23.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 23.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.211% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.211,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.84 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.84,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.1 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.1,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -72,31 +135,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "93% of total population (2010)",
-			"rate of urbanization:": "1.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 93,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PAGO PAGO (capital) 60,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.88 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "9.66 deaths/1,000 live births",
+			"total:": {
+				"quantity": 9.66,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "12.56 deaths/1,000 live births",
-			"female:": "6.6 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 12.56,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 6.6,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.21 years",
+			"total population:": {
+				"quantity": 74.21,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.27 years",
-			"female:": "77.32 years (2011 est.)"
+			"male:": {
+				"quantity": 71.27,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.32,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.16 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.16,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -113,9 +218,18 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "97%",
-			"male:": "98%",
-			"female:": "97% (1980 est.)"
+			"total population:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -130,7 +244,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Pago Pago",
-			"geographic coordinates:": "14 16 S, 170 42 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 14,
+					"seconds": 16
+				},
+				"W": {
+					"minutes": 170,
+					"seconds": 42
+				}
+			},
 			"time difference:": "UTC-11 (6 hours behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territory of the US); there are no first-order administrative divisions as defined by the US Government, but there are three districts and two islands* at the second order; Eastern, Manu'a, Rose Island*, Swains Island*, Western",
@@ -163,16 +286,25 @@
 	"economy": {
 		"Economy - overview": "American Samoa has a traditional Polynesian economy in which more than 90% of the land is communally owned. Economic activity is strongly linked to the US with which American Samoa conducts most of its commerce. Tuna fishing and tuna processing plants are the backbone of the private sector, with canned tuna the primary export. The two tuna canneries account for 80% of employment. In late September 2009, an earthquake and the resulting tsunami devastated American Samoa and nearby Samoa, disrupting transportation and power generation, and resulting in about 200 deaths. The US Federal Emergency Management Agency is overseeing a relief program of nearly $25 million. Transfers from the US Government add substantially to American Samoa's economic well being. Attempts by the government to develop a larger and broader economy are restrained by Samoa's remote location, its limited transportation, and its devastating hurricanes. Tourism is a promising developing sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$575.3 million (2007 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 575300000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$462.2 million (2005)",
+		"GDP (official exchange rate)": {
+			"usd": 462200000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3% (2003)",
+			"GDP - real growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$8,000 (2007 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -181,16 +313,28 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "17,630 (2005)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "34%",
-			"industry:": "33%",
-			"services:": "33% (1990)"
+			"agriculture:": {
+				"quantity": 34,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 33,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 33,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "29.8% (2005)",
+			"Unemployment rate": {
+				"quantity": 29.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -199,70 +343,120 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$155.4 million (FY07)",
-			"expenditures:": "$183.6 million (FY07)"
+			"revenues:": {
+				"usd": 155400000
+			},
+			"expenditures:": {
+				"usd": 183600000
+			}
 		},
 		"Inflation rate (consumer prices)": "NA%",
 		"Agriculture - products": "bananas, coconuts, vegetables, taro, breadfruit, yams, copra, pineapples, papayas; dairy products, livestock",
 		"Industries": "tuna canneries (largely supplied by foreign fishing vessels), handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "185 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 185000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "172.1 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 172100000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "4,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 4000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,140 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4140,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$445.6 million (FY04 est.)",
+			"Exports": {
+				"usd": 445600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "canned tuna 93%",
 		"Imports": {
-			"Imports": "$308.8 million (FY04 est.)",
+			"Imports": {
+				"usd": 308800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "raw materials for canneries 56%, food, petroleum products, machinery and parts",
@@ -271,11 +465,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "10,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2,200 (2004)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -286,36 +480,39 @@
 		"Broadcast media": "3 television stations broadcasting; multi-channel pay-per-view television services are available; about a dozen radio stations, some of which are repeater stations (2009)",
 		"Internet country code": ".as",
 		"Internet hosts": {
-			"Internet hosts": "1,676 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "3 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "3",
-			"over 3,047 m:": "1",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "241 km (2008)",
+			"total:": {
+				"quantity": 241,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "14,562",
-			"females age 16-49:": "14,129 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "775",
-			"female:": "762 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

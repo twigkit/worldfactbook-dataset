@@ -5,25 +5,61 @@
 	"background": "Formed from the merger of the British colony of the Gold Coast and the Togoland trust territory, Ghana in 1957 became the first sub-Saharan country in colonial Africa to gain its independence. Ghana endured a long series of coups before Lt. Jerry RAWLINGS took power in 1981 and banned political parties. After approving a new constitution and restoring multiparty politics in 1992, RAWLINGS won presidential elections in 1992 and 1996, but was constitutionally prevented from running for a third term in 2000. John KUFUOR succeeded him and was reelected in 2004. John Atta MILLS took over as head of state in early 2009.",
 	"geo": {
 		"Location": "Western Africa, bordering the Gulf of Guinea, between Cote d'Ivoire and Togo",
-		"Geographic coordinates": "8 00 N, 2 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 8,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 2,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "238,533 sq km",
+			"total:": {
+				"quantity": 238533,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "227,533 sq km",
-			"water:": "11,000 sq km"
+			"land:": {
+				"quantity": 227533,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 11000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Oregon",
 		"Land boundaries": {
-			"total:": "2,094 km",
+			"total:": {
+				"quantity": 2094,
+				"unit": "km"
+			},
 			"border countries:": "Burkina Faso 549 km, Cote d'Ivoire 668 km, Togo 877 km"
 		},
-		"Coastline": "539 km",
+		"Coastline": {
+			"quantity": 539,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
-			"continental shelf:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; warm and comparatively dry along southeast coast; hot and humid in southwest; hot and dry in north",
 		"Terrain": "mostly low plains with dissected plateau in south-central area",
@@ -33,15 +69,36 @@
 		},
 		"Natural resources": "gold, timber, industrial diamonds, bauxite, manganese, fish, rubber, hydropower, petroleum, silver, salt, limestone",
 		"Land use": {
-			"arable land:": "17.54%",
-			"permanent crops:": "9.22%",
-			"other:": "73.24% (2005)"
+			"arable land:": {
+				"quantity": 17.54,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 9.22,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 73.24,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "340 sq km (2008)",
-		"Total renewable water resources": "53.2 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 340,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 53.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.98  cu km/yr (24%/10%/66%)",
-			"per capita:": "44  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.98,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 44,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dry, dusty, northeastern harmattan winds occur from January to March; droughts",
 		"Environment - current issues": "recurrent drought in north severely affects agricultural activities; deforestation; overgrazing; soil erosion; poaching and habitat destruction threatens wildlife populations; water pollution; inadequate supplies of potable water",
@@ -53,29 +110,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "24,791,073 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "36.5% (male 4,568,273/female 4,468,939)",
-			"15-64 years:": "60% (male 7,435,449/female 7,436,204)",
+			"0-14 years:": {
+				"quantity": 36.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 60,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 399,737/female 482,471) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.4 years",
-			"male:": "21.1 years",
-			"female:": "21.6 years (2011 est.)"
+			"total:": {
+				"quantity": 21.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.822% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.822,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "27.55 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 27.55,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.75 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.75,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +164,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "51% of total population (2010)",
-			"rate of urbanization:": "3.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 51,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ACCRA (capital) 2.269 million; Kumasi 1.773 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.84 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.84,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "48.55 deaths/1,000 live births",
+			"total:": {
+				"quantity": 48.55,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "51.99 deaths/1,000 live births",
-			"female:": "45.01 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 51.99,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 45.01,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "61 years",
+			"total population:": {
+				"quantity": 61,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "59.78 years",
-			"female:": "62.25 years (2011 est.)"
+			"male:": {
+				"quantity": 59.78,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 62.25,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.48 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.48,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "260,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "18,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -140,14 +266,32 @@
 		"Languages": "Asante 14.8%, Ewe 12.7%, Fante 9.9%, Boron (Brong) 4.6%, Dagomba 4.3%, Dangme 4.3%, Dagarte (Dagaba) 3.7%, Akyem 3.4%, Ga 3.4%, Akuapem 2.9%, other (includes English (official)) 36.1% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "57.9%",
-			"male:": "66.4%",
-			"female:": "49.8% (2000 census)"
+			"total population:": {
+				"quantity": 57.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 66.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 49.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "11 years",
-			"female:": "10 years (2009)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +304,16 @@
 		"Government type": "constitutional democracy",
 		"Capital": {
 			"name:": "Accra",
-			"geographic coordinates:": "5 33 N, 0 13 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 5,
+					"seconds": 33
+				},
+				"W": {
+					"minutes": 0,
+					"seconds": 13
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 regions; Ashanti, Brong-Ahafo, Central, Eastern, Greater Accra, Northern, Upper East, Upper West, Volta, Western",
@@ -208,136 +361,244 @@
 	"economy": {
 		"Economy - overview": "Ghana is well endowed with natural resources and agriculture accounts for roughly one-third of GDP and employs more than half of the workforce, mainly small landholders. The services sector accounts for 40% of GDP. Gold and cocoa production and individual remittances are major sources of foreign exchange. Oil production at Ghana's offshore Jubilee field began in mid-December and is expected to boost economic growth. Ghana signed a Millennium Challenge Corporation (MCC) Compact in 2006, which aims to assist in transforming Ghana's agricultural sector. Ghana opted for debt relief under the Heavily Indebted Poor Country (HIPC) program in 2002, and is also benefiting from the Multilateral Debt Relief Initiative that took effect in 2006. In 2009 Ghana signed a three-year Poverty Reduction and Growth Facility with the IMF to improve macroeconomic stability, private sector competitiveness, human resource development, and good governance and civic responsibility. Sound macro-economic management along with high prices for gold and cocoa helped sustain GDP growth in 2008-10. In early 2010 President John Atta MILLS targeted recovery from high inflation and current account and budget deficits as his priorities.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$61.97 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 61970000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$31.08 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 31080000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "33.7%",
-			"industry:": "24.7%",
-			"services:": "41.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 33.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 41.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "10.56 million (2010 est.)",
+			"Labor force": 10560000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "56%",
-			"industry:": "15%",
-			"services:": "29% (2005 est.)"
+			"agriculture:": {
+				"quantity": 56,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 29,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "11% (2000 est.)",
+			"Unemployment rate": {
+				"quantity": 11,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "28.5% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 28.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2%",
-			"highest 10%:": "32.8% (2006)"
+			"lowest 10%:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 32.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "39.4 (2005-06)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "39.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 39.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$5.518 billion",
-			"expenditures:": "$7.025 billion (2010 est.)"
+			"revenues:": {
+				"usd": 5518000000
+			},
+			"expenditures:": {
+				"usd": 7025000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "59.9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 59.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "10.9% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 10.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "18% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 18,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$6.26 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 6260000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9.583 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 9583000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$7.155 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 7155000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$2.508 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 2508000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cocoa, rice, cassava (tapioca), peanuts, corn, shea nuts, bananas; timber",
 		"Industries": "mining, lumbering, light manufacturing, aluminum smelting, food processing, cement, small commercial ship building",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "6.746 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 6746000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "5.702 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 5702000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "249 million kWh (2007 est.)",
-		"Electricity - imports": "435 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 249000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 435000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "7,081 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 7081,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "57,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 57000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "4,843 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 4843,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "45,380 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 45380,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "15 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 15000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "22.65 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 22650000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -345,23 +606,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$7.326 billion (2010 est.)",
+			"Exports": {
+				"usd": 7326000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "gold, cocoa, timber, tuna, bauxite, aluminum, manganese ore, diamonds, horticulture",
 		"Exports - partners": "Netherlands 13.45%, UK 7.87%, France 5.85%, Ukraine 5.84%, Malaysia 3.97% (2009)",
 		"Imports": {
-			"Imports": "$10.18 billion (2010 est.)",
+			"Imports": {
+				"usd": 10180000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital equipment, petroleum, foodstuffs",
 		"Imports - partners": "China 16.8%, Nigeria 11.88%, US 6.63%, Cote d'Ivoire 5.99%, India 5.57%, France 5.09%, UK 4.23% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$3.8 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 3800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$6.483 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 6483000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -370,11 +639,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "267,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "15.109 million (2009)",
+			"Telephones - mobile cellular": 15109000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -385,46 +654,58 @@
 		"Broadcast media": "state-owned TV station, 2 state-owned radio networks; several privately-owned TV stations and a large number of privately-owned radio stations; transmissions of multiple international broadcasters are accessible; several cable and satellite TV subscription services are obtainable (2007)",
 		"Internet country code": ".gh",
 		"Internet hosts": {
-			"Internet hosts": "41,082 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "11 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "7",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "4",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 1 km; oil 5 km; refined products 312 km (2010)",
 		"Railways": {
-			"total:": "947 km",
+			"total:": {
+				"quantity": 947,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "947 km 1.067-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "62,221 km",
+			"total:": {
+				"quantity": 62221,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "9,955 km",
-			"unpaved:": "52,266 km (2006)"
+			"paved:": {
+				"quantity": 9955,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 52266,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,293 km (168 km for launches and lighters on Volta, Ankobra, and Tano rivers; 1,125 km of arterial and feeder waterways on Lake Volta) (2011)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "4",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "petroleum tanker 1, refrigerated cargo 3",
 			"foreign-owned:": "2 (Brazil 1, South Korea 1) (2010)"
@@ -435,16 +716,16 @@
 		"Military branches": "Ghana Army, Ghana Navy, Ghana Air Force (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service, with basic education certificate; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "6,268,191",
-			"females age 16-49:": "6,194,339 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "4,136,406",
-			"females age 16-49:": "4,220,761 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "267,896",
-			"female:": "260,992 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

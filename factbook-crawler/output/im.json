@@ -5,20 +5,50 @@
 	"background": "Part of the Norwegian Kingdom of the Hebrides until the 13th century when it was ceded to Scotland, the isle came under the British crown in 1765. Current concerns include reviving the almost extinct Manx Gaelic language. Isle of Man is a British crown dependency but is not part of the UK or of the European Union. However, the UK Government remains constitutionally responsible for its defense and international representation.",
 	"geo": {
 		"Location": "Western Europe, island in the Irish Sea, between Great Britain and Ireland",
-		"Geographic coordinates": "54 15 N, 4 30 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 54,
+				"seconds": 15
+			},
+			"W": {
+				"minutes": 4,
+				"seconds": 30
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "572 sq km",
+			"total:": {
+				"quantity": 572,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "572 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 572,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than three times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "160 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 160,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate; cool summers and mild winters; overcast about a third of the time",
 		"Terrain": "hills in north and south bisected by central valley",
@@ -28,72 +58,150 @@
 		},
 		"Natural resources": "none",
 		"Land use": {
-			"arable land:": "9%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 9,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "91% (permanent pastures, forests, mountain, and heathland) (2002)"
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "waste disposal (both household and industrial); transboundary air pollution",
 		"Geography - note": {}
 	},
 	"people": {
 		"Population": {
-			"Population": "84,655 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "16.6% (male 7,362/female 6,664)",
-			"15-64 years:": "65.2% (male 27,752/female 27,466)",
+			"0-14 years:": {
+				"quantity": 16.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.2,
+				"unit": "%"
+			},
 			"65 years and over:": "18.2% (male 7,003/female 8,408) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.6 years",
-			"male:": "41.8 years",
-			"female:": "43.3 years (2011 est.)"
+			"total:": {
+				"quantity": 42.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 41.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.921% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.921,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.42 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.42,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.92 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.92,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "7.71 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 7.71,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "51% of total population (2010)",
-			"rate of urbanization:": "0% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 51,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "DOUGLAS (capital) 26,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.08 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.71 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.71,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.32 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.32,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.25 deaths/1,000 live births",
-			"female:": "4.4 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.25,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.4,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.64 years",
+			"total population:": {
+				"quantity": 80.64,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "79.09 years",
-			"female:": "82.32 years (2011 est.)"
+			"male:": {
+				"quantity": 79.09,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.32,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.96 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.96,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -120,7 +228,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Douglas",
-			"geographic coordinates:": "54 09 N, 4 29 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 54,
+					"seconds": 9
+				},
+				"W": {
+					"minutes": 4,
+					"seconds": 29
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -156,36 +273,72 @@
 	"economy": {
 		"Economy - overview": "Offshore banking, manufacturing, and tourism are key sectors of the economy. The government offers low taxes and other incentives to high-technology companies and financial institutions to locate on the island; this has paid off in expanding employment opportunities in high-income industries. As a result, agriculture and fishing, once the mainstays of the economy, have declined in their contributions to GDP. The Isle of Man also attracts online gambling sites and the film industry. Trade is mostly with the UK. The Isle of Man enjoys free access to EU markets.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.719 billion (2005 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2719000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.719 billion (2005 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2719000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.2% (2005)",
+			"GDP - real growth rate": {
+				"quantity": 5.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$35,000 (2005 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "13%",
-			"services:": "86% (2000 est.)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 13,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 86,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "39,690 (2001)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture, forestry, and fishing:": "3%",
-			"manufacturing:": "11%",
-			"construction:": "10%",
-			"transport and communication:": "8%",
-			"wholesale and retail distribution:": "11%"
+			"agriculture, forestry, and fishing:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"manufacturing:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"construction:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"transport and communication:": {
+				"quantity": 8,
+				"unit": "%"
+			},
+			"wholesale and retail distribution:": {
+				"quantity": 11,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "1.8% (October 2010 est.)",
+			"Unemployment rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -194,11 +347,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$965 million",
-			"expenditures:": "$943 million (FY05/06 est.)"
+			"revenues:": {
+				"usd": 965000000
+			},
+			"expenditures:": {
+				"usd": 943000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.1% (2006 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -213,7 +373,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "51,000 (1999)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -227,24 +387,30 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Railways": {
-			"total:": "63 km",
+			"total:": {
+				"quantity": 63,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "6 km 1.076-m gauge (6 km electrified); 57 km 0.914-m gauge (29 km electrified)"
 		},
 		"Roadways": {
-			"total:": "500 km (2008)",
+			"total:": {
+				"quantity": 500,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "292",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 45, cargo 49, chemical tanker 48, container 6, liquefied gas 41, passenger/cargo 2, petroleum tanker 91, roll on/roll off 5, vehicle carrier 5",
 			"foreign-owned:": "200 (Bermuda 7, Chile 8, Denmark 26, Germany 56, Greece 57, Ireland 1, Japan 15, Norway 26, Singapore 1, Sweden 1, US 2) (2010)"
@@ -253,12 +419,12 @@
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "15,206",
-			"females age 16-49:": "15,127 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "507",
-			"female:": "494 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

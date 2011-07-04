@@ -5,23 +5,53 @@
 	"background": "Explored and settled by the Spanish in the 16th century, Panama broke with Spain in 1821 and joined a union of Colombia, Ecuador, and Venezuela - named the Republic of Gran Colombia. When the latter dissolved in 1830, Panama remained part of Colombia. With US backing, Panama seceded from Colombia in 1903 and promptly signed a treaty with the US allowing for the construction of a canal and US sovereignty over a strip of land on either side of the structure (the Panama Canal Zone). The Panama Canal was built by the US Army Corps of Engineers between 1904 and 1914. In 1977, an agreement was signed for the complete transfer of the Canal from the US to Panama by the end of the century. Certain portions of the Zone and increasing responsibility over the Canal were turned over in the subsequent decades. With US help, dictator Manuel NORIEGA was deposed in 1989. The entire Panama Canal, the area supporting the Canal, and remaining US military bases were transferred to Panama by the end of 1999. In October 2006, Panamanians approved an ambitious plan (estimated to cost $5.3 billion) to expand the Canal. The project, which began in 2007 and could double the Canal's capacity, is expected to be completed in 2014-15.",
 	"geo": {
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Colombia and Costa Rica",
-		"Geographic coordinates": "9 00 N, 80 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 9,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 80,
+				"seconds": 0
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "75,420 sq km",
+			"total:": {
+				"quantity": 75420,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "74,340 sq km",
-			"water:": "1,080 sq km"
+			"land:": {
+				"quantity": 74340,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1080,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Carolina",
 		"Land boundaries": {
-			"total:": "555 km",
+			"total:": {
+				"quantity": 555,
+				"unit": "km"
+			},
 			"border countries:": "Colombia 225 km, Costa Rica 330 km"
 		},
-		"Coastline": "2,490 km",
+		"Coastline": {
+			"quantity": 2490,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "200 nm or edge of continental margin"
 		},
 		"Climate": "tropical maritime; hot, humid, cloudy; prolonged rainy season (May to January), short dry season (January to May)",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "copper, mahogany forests, shrimp, hydropower",
 		"Land use": {
-			"arable land:": "7.26%",
-			"permanent crops:": "1.95%",
-			"other:": "90.79% (2005)"
+			"arable land:": {
+				"quantity": 7.26,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.95,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 90.79,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "430 sq km (2008)",
-		"Total renewable water resources": "148 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 430,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 148,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.82  cu km/yr (67%/5%/28%)",
-			"per capita:": "254  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.82,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 254,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "occasional severe storms and forest fires in the Darien area",
 		"Environment - current issues": "water pollution from agricultural runoff threatens fishery resources; deforestation of tropical rain forest; land degradation and soil erosion threatens siltation of Panama Canal; air pollution in urban areas; mining threatens natural resources",
@@ -52,29 +103,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,460,462 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "28.6% (male 504,726/female 484,291)",
-			"15-64 years:": "64.2% (male 1,123,777/female 1,098,661)",
+			"0-14 years:": {
+				"quantity": 28.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 64.2,
+				"unit": "%"
+			},
 			"65 years and over:": "7.2% (male 115,425/female 133,582) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "27.5 years",
-			"male:": "27.1 years",
-			"female:": "27.9 years (2011 est.)"
+			"total:": {
+				"quantity": 27.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 27.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 27.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.435% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.435,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "19.43 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 19.43,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.65 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.65,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,43 +157,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "75% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 75,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PANAMA CITY (capital) 1.346 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.045 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.87 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.045,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11.64 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11.64,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "12.41 deaths/1,000 live births",
-			"female:": "10.83 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 12.41,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 10.83,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.79 years",
+			"total population:": {
+				"quantity": 77.79,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.02 years",
-			"female:": "80.68 years (2011 est.)"
+			"male:": {
+				"quantity": 75.02,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.68,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.45 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.45,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.9% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "20,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,500 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -139,14 +259,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "91.9%",
-			"male:": "92.5%",
-			"female:": "91.2% (2000 census)"
+			"total population:": {
+				"quantity": 91.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 92.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 91.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "14 years (2008)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +298,16 @@
 		"Government type": "constitutional democracy",
 		"Capital": {
 			"name:": "Panama City",
-			"geographic coordinates:": "8 58 N, 79 32 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 8,
+					"seconds": 58
+				},
+				"W": {
+					"minutes": 79,
+					"seconds": 32
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "9 provinces (provincias, singular - provincia) and 3 indigenous territories* (comarcas); Bocas del Toro, Chiriqui, Cocle, Colon, Darien, Embera-Wounaan*, Herrera, Kuna Yala*, Los Santos, Ngobe-Bugle*, Panama, Veraguas",
@@ -206,79 +353,142 @@
 	"economy": {
 		"Economy - overview": "Panama's dollar-based economy rests primarily on a well-developed services sector that accounts for three-quarters of GDP. Services include operating the Panama Canal, logistics, banking, the Colon Free Zone, insurance, container ports, flagship registry, and tourism. Economic growth will be bolstered by the Panama Canal expansion project that began in 2007 and is scheduled to be completed by 2014 at a cost of $5.3 billion - about 25% of current GDP. The expansion project will more than double the Canal's capacity, enabling it to accommodate ships that are too large to traverse the existing canal. The United States and China are the top users of the Canal. Panama also plans to construct a metro system in Panama City, valued at $1.2 billion and scheduled to be completed by 2014. Panama's booming transportation and logistics services sectors, along with aggressive infrastructure development projects, will likely lead the economy to continued growth in 2011. Strong economic performance has not translated into broadly shared prosperity, as Panama has the second worst income distribution in Latin America. About 30% of the population lives in poverty; however, from 2006 to 2010 poverty was reduced by 10 percentage points, while unemployment dropped from 12% to 6% of the labor force. Panama and the United States signed a Trade Promotion Agreement in June 2007, which, when implemented, will help promote the country's economic growth. Seeking removal from the Organization of Economic Development's gray-list of tax havens, Panama has also recently signed various double taxation treaties with other nations.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$44.36 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 44360000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$26.78 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 26780000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$13,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "5.8%",
-			"industry:": "16.6%",
-			"services:": "77.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 5.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 77.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.557 million",
+			"Labor force": 1557000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "17.6%",
-			"industry:": "8.8%",
-			"services:": "73.6% (2009 est.)"
+			"agriculture:": {
+				"quantity": 17.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 8.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "25.6% (2010 est.)",
+		"Population below poverty line": {
+			"quantity": 25.6,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.8%",
-			"highest 10%:": "41.4% (2006)"
+			"lowest 10%:": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "51 (2010 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "26.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 26.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$6.944 billion",
-			"expenditures:": "$7.051 billion (2010 est.)"
+			"revenues:": {
+				"usd": 6944000000
+			},
+			"expenditures:": {
+				"usd": 7051000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "40% of GDP (September 2010 est.)",
+			"Public debt": {
+				"quantity": 40,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "8.302% (31 November 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 8.302,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$5.04 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 5040000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$24.17 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 24170000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$23.2 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 23200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$8.048 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 8048000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "bananas, rice, corn, coffee, sugarcane, vegetables; livestock; shrimp",
@@ -288,53 +498,95 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "6.546 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 6546000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "5.805 billion kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 5805000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "124.9 million kWh (2007 est.)",
-		"Electricity - imports": "8.74 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 124900000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 8740000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "93,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 93000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "4,803 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 4803,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "87,100 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 87100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -342,23 +594,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$12.52 billion (2010 est.)",
+			"Exports": {
+				"usd": 12520000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "bananas, shrimp, sugar, coffee, clothing",
 		"Exports - partners": "Greece 21.03%, US 17.63%, Japan 9.87%, Germany 4.28%, Italy 4.27% (2009)",
 		"Imports": {
-			"Imports": "$16.05 billion (2010 est.)",
+			"Imports": {
+				"usd": 16050000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital goods, foodstuffs, consumer goods, chemicals",
 		"Imports - partners": "Japan 36.21%, Singapore 16.86%, US 12.3%, China 7.84% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$3.525 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 3525000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$13.85 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 13850000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -367,11 +627,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "537,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.677 million (2009)",
+			"Telephones - mobile cellular": 5677000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -382,48 +642,60 @@
 		"Broadcast media": "multiple privately-owned television networks and a government-owned educational TV station; multi-channel cable and satellite TV subscription services are available; more than 100 commercial radio stations (2007)",
 		"Internet country code": ".pa",
 		"Internet hosts": {
-			"Internet hosts": "9,585 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "118 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "54",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "5",
-			"914 to 1,523 m:": "17"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "64",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "11",
-			"under 914 m:": "52 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "oil 128 km",
 		"Railways": {
-			"total:": "76 km",
+			"total:": {
+				"quantity": 76,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "76 km 1.435-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "11,978 km",
+			"total:": {
+				"quantity": 11978,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,300 km",
-			"unpaved:": "7,678 km (2002)"
+			"paved:": {
+				"quantity": 4300,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 7678,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "800 km (includes the 82-km Panama Canal that is being widened) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "6,379",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 2,383, cargo 1,129, carrier 18, chemical tanker 626, combination ore/oil 3, container 751, liquefied gas 192, passenger 42, passenger/cargo 61, petroleum tanker 576, refrigerated cargo 212, roll on/roll off 100, specialized tanker 3, vehicle carrier 282",
 			"foreign-owned:": "5,244 (Albania 3, Argentina 7, Australia 5, Azerbaijan 1, Bahamas 7, Bangladesh 3, Belgium 2, Bermuda 15, Brazil 3, Bulgaria 6, Burma 3, Canada 5, Chile 17, China 574, Colombia 2, Croatia 2, Cuba 4, Cyprus 8, Denmark 46, Ecuador 6, Egypt 11, Finland 2, France 13, Gabon 1, Germany 27, Gibraltar 1, Greece 402, Hong Kong 125, India 17, Indonesia 14, Iran 5, Ireland 1, Isle of Man 11, Israel 1, Italy 23, Japan 2347, Jordan 13, Kuwait 12, Latvia 4, Lebanon 2, Lithuania 4, Luxembourg 1, Malaysia 12, Maldives 3, Malta 2, Mexico 6, Monaco 14, Morocco 1, Netherlands 8, Nigeria 7, Norway 89, Oman 8, Pakistan 5, Peru 12, Philippines 6, Poland 3, Portugal 9, Qatar 1, Romania 2, Russia 39, Saudi Arabia 8, Singapore 79, South Korea 366, Spain 40, Sweden 1, Switzerland 22, Syria 42, Taiwan 337, Tanzania 2, Thailand 6, Tunisia 1, Turkey 79, UAE 83, UK 33, Ukraine 11, US 102, Venezuela 8, Vietnam 37, Yemen 4)"
@@ -433,18 +705,21 @@
 	"military": {
 		"Military branches": "no regular military forces; Panamanian public forces include: Panamanian National Police (PNP), National Air-Naval Service (SENAN), National Border Service (SENAFRONT) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "890,006 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "731,254",
-			"females age 16-49:": "728,329 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "32,142",
-			"female:": "30,879 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "1% of GDP (2006)",
+			"Military expenditures": {
+				"quantity": 1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

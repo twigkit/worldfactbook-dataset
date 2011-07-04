@@ -5,21 +5,51 @@
 	"background": "The Polynesian Maori reached New Zealand in about A.D. 800. In 1840, their chieftains entered into a compact with Britain, the Treaty of Waitangi, in which they ceded sovereignty to Queen Victoria while retaining territorial rights. In that same year, the British began the first organized colonial settlement. A series of land wars between 1843 and 1872 ended with the defeat of the native peoples. The British colony of New Zealand became an independent dominion in 1907 and supported the UK militarily in both world wars. New Zealand's full participation in a number of defense alliances lapsed by the 1980s. In recent years, the government has sought to address longstanding Maori grievances.",
 	"geo": {
 		"Location": "Oceania, islands in the South Pacific Ocean, southeast of Australia",
-		"Geographic coordinates": "41 00 S, 174 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 41,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 174,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "267,710 sq km",
+			"total:": {
+				"quantity": 267710,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "267,710 sq km",
+			"land:": {
+				"quantity": 267710,
+				"unit": "sq km"
+			},
 			"water:": "NA"
 		},
 		"Area - comparative": "about the size of Colorado",
-		"Land boundaries": "0 km",
-		"Coastline": "15,134 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 15134,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "temperate with sharp regional contrasts",
@@ -30,15 +60,36 @@
 		},
 		"Natural resources": "natural gas, iron ore, sand, coal, timber, hydropower, gold, limestone",
 		"Land use": {
-			"arable land:": "5.54%",
-			"permanent crops:": "6.92%",
-			"other:": "87.54% (2005)"
+			"arable land:": {
+				"quantity": 5.54,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 6.92,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.54,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "6,190 sq km (2008)",
-		"Total renewable water resources": "397 cu km (1995)",
+		"Irrigated land": {
+			"quantity": 6190,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 397,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.11  cu km/yr (48%/9%/42%)",
-			"per capita:": "524  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.11,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 524,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "earthquakes are common, though usually not severe; volcanic activity",
@@ -53,69 +104,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,290,347 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.4% (male 448,106/female 426,348)",
-			"15-64 years:": "66.4% (male 1,426,595/female 1,420,643)",
+			"0-14 years:": {
+				"quantity": 20.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.4,
+				"unit": "%"
+			},
 			"65 years and over:": "13.3% (male 260,454/female 308,201) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "37 years",
-			"male:": "36.2 years",
-			"female:": "37.8 years (2011 est.)"
+			"total:": {
+				"quantity": 37,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 37.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.882% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.882,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "13.68 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 13.68,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.15 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.15,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.28 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.28,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "86% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 86,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Auckland 1.36 million; WELLINGTON (capital) 391,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.048 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.84 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.048,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.84,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.78 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.78,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "5.37 deaths/1,000 live births",
-			"female:": "4.16 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 5.37,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.16,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.59 years",
+			"total population:": {
+				"quantity": 80.59,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.61 years",
-			"female:": "82.67 years (2011 est.)"
+			"male:": {
+				"quantity": 78.61,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.67,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.08 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.08,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,500 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -134,14 +257,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "19 years",
-			"male:": "19 years",
-			"female:": "20 years (2008)"
+			"total:": {
+				"quantity": 19,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 19,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 20,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +295,16 @@
 		"Government type": "parliamentary democracy and a Commonwealth realm",
 		"Capital": {
 			"name:": "Wellington",
-			"geographic coordinates:": "41 28 S, 174 51 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 41,
+					"seconds": 28
+				},
+				"E": {
+					"minutes": 174,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in September; ends first Sunday in April"
 		},
@@ -208,34 +358,64 @@
 	"economy": {
 		"Economy - overview": "Over the past 20 years the government has transformed New Zealand from an agrarian economy dependent on concessionary British market access to a more industrialized, free market economy that can compete globally. This dynamic growth has boosted real incomes - but left behind some at the bottom of the ladder - and broadened and deepened the technological capabilities of the industrial sector. Per capita income rose for ten consecutive years until 2007 in purchasing power parity terms, but fell in 2008-09. Debt-driven consumer spending drove robust growth in the first half of the decade, helping fuel a large balance of payments deficit that posed a challenge for economic managers. Inflationary pressures caused the central bank to raise its key rate steadily from January 2004 until it was among the highest in the OECD in 2007-08; international capital inflows attracted to the high rates further strengthened the currency and housing market, however, aggravating the current account deficit. The economy fell into recession before the start of the global financial crisis and contracted for five consecutive quarters in 2008-09. In line with global peers, the central bank cut interest rates aggressively and the government developed fiscal stimulus measures. The economy posted a 1.7% decline in 2009, but pulled out of recession late in the year, and achieved 2.1% growth in 2010. Nevertheless, key trade sectors remain vulnerable to weak external demand. The government plans to raise productivity growth and develop infrastructure, while reining in government spending.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$117.8 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 117800000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$140.4 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 140400000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$27,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "4.6%",
-			"industry:": "24%",
-			"services:": "71.4% (2010 est.)"
+			"agriculture:": {
+				"quantity": 4.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.32 million (2010 est.)",
+			"Labor force": 2320000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "7%",
-			"industry:": "19%",
-			"services:": "74% (2006 est.)"
+			"agriculture:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 74,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -244,100 +424,169 @@
 			"highest 10%:": "%NA"
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "36.2 (1997)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$56.24 billion",
-			"expenditures:": "$62.18 billion (2010 est.)"
+			"revenues:": {
+				"usd": 56240000000
+			},
+			"expenditures:": {
+				"usd": 62180000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "25.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 25.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "2.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.39% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.39,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$24.15 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 24150000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$118.1 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 118100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$206.2 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 206200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$67.06 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 67060000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "dairy products, lamb and mutton; wheat, barley, potatoes, pulses, fruits, vegetables; wool, beef; fish",
 		"Industries": "food processing, wood and paper products, textiles, machinery, transportation equipment, banking and insurance, tourism, mining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "42.4 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 42400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "39.24 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 39240000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "61,150 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 61150,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "154,100 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 154100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "54,560 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 54560,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "143,900 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 143900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "60 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 60000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "4.305 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 4305000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "4.32 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 4320000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": "NA",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "33.98 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 33979999999.999996,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -345,27 +594,37 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$33.24 billion (2010 est.)",
+			"Exports": {
+				"usd": 33240000000.000004
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "dairy products, meat, wood and wood products, fish, machinery",
 		"Exports - partners": "Australia 23.36%, US 9.64%, China 9.21%, Japan 7.1%, UK 4.21% (2009)",
 		"Imports": {
-			"Imports": "$30.24 billion (2010 est.)",
+			"Imports": {
+				"usd": 30240000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, vehicles and aircraft, petroleum, electronics, textiles, plastics",
 		"Imports - partners": "Australia 18.4%, China 15.09%, US 10.45%, Japan 7.24%, Germany 4.16%, Singapore 4.12% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$17.85 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 17850000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$64.33 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 64330000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$67.18 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 67180000000.00001
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": "$NA (31 December 2009)",
@@ -373,11 +632,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.87 million (2009)",
+			"Telephones - main lines in use": 1870000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "4.7 million (2009)",
+			"Telephones - mobile cellular": 4700000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -388,46 +647,58 @@
 		"Broadcast media": "state-owned Television New Zealand operates multiple television networks while state-owned Radio New Zealand operates 3 radio networks and an external shortwave radio service to the South Pacific region; a small number of national commercial television and radio stations and a large number of regional commercial television and radio stations are available; cable and satellite TV systems are accessible (2008)",
 		"Internet country code": ".nz",
 		"Internet hosts": {
-			"Internet hosts": "2.47 million (2010)",
+			"Internet hosts": 2470000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "122 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "40",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "12",
-			"914 to 1,523 m:": "24"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "82",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "32",
-			"under 914 m:": "47 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "condensate 331 km; gas 1,838 km; liquid petroleum gas 172 km; oil 288 km; refined products 198 km (2010)",
 		"Railways": {
-			"total:": "4,128 km",
+			"total:": {
+				"quantity": 4128,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "4,128 km 1.067-m gauge (506 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "93,911 km",
+			"total:": {
+				"quantity": 93911,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "61,879 km (includes 172 km of expressways)",
-			"unpaved:": "32,032 km (2009)"
+			"paved:": {
+				"quantity": 61879,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 32032,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "14",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, cargo 3, chemical tanker 1, container 1, passenger/cargo 4, petroleum tanker 2",
-			"foreign-owned:": "7 (Australia 1, Germany 2, Hong Kong 1, South Africa 1, Switzerland 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "6 (Antigua and Barbuda 2, Cook Islands 1, France 1, Samoa 1, UK 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -436,16 +707,16 @@
 		"Military branches": "New Zealand Defense Force (NZDF): New Zealand Army, Royal New Zealand Navy, Royal New Zealand Air Force (Te Hokowhitu o Kahurangi, RNZAF) (2010)",
 		"Military service age and obligation": "17 years of age for voluntary military service; soldiers cannot be deployed until the age of 18; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,019,798",
-			"females age 16-49:": "1,003,429 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "843,526",
-			"females age 16-49:": "828,779 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "30,846",
-			"female:": "28,825 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

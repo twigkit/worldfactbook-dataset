@@ -5,23 +5,53 @@
 	"background": "The Pacific coast of Nicaragua was settled as a Spanish colony from Panama in the early 16th century. Independence from Spain was declared in 1821 and the country became an independent republic in 1838. Britain occupied the Caribbean Coast in the first half of the 19th century, but gradually ceded control of the region in subsequent decades. Violent opposition to governmental manipulation and corruption spread to all classes by 1978 and resulted in a short-lived civil war that brought the Marxist Sandinista guerrillas to power in 1979. Nicaraguan aid to leftist rebels in El Salvador caused the US to sponsor anti-Sandinista contra guerrillas through much of the 1980s. After losing free and fair elections in 1990, 1996, and 2001, former Sandinista President Daniel ORTEGA Saavedra was elected president in 2006. The 2008 municipal elections were marred by widespread irregularities. Nicaragua's infrastructure and economy - hard hit by the earlier civil war and by Hurricane Mitch in 1998 - are slowly being rebuilt, but democratic institutions have been weakened under the ORTEGA administration.",
 	"geo": {
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras",
-		"Geographic coordinates": "13 00 N, 85 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 13,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 85,
+				"seconds": 0
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "130,370 sq km",
+			"total:": {
+				"quantity": 130370,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "119,990 sq km",
-			"water:": "10,380 sq km"
+			"land:": {
+				"quantity": 119990,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 10380,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than New York state",
 		"Land boundaries": {
-			"total:": "1,231 km",
+			"total:": {
+				"quantity": 1231,
+				"unit": "km"
+			},
 			"border countries:": "Costa Rica 309 km, Honduras 922 km"
 		},
-		"Coastline": "910 km",
+		"Coastline": {
+			"quantity": 910,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
 			"continental shelf:": "natural prolongation"
 		},
 		"Climate": "tropical in lowlands, cooler in highlands",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "gold, silver, copper, tungsten, lead, zinc, timber, fish",
 		"Land use": {
-			"arable land:": "14.81%",
-			"permanent crops:": "1.82%",
-			"other:": "83.37% (2005)"
+			"arable land:": {
+				"quantity": 14.81,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.82,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 83.37,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "610 sq km (2008)",
-		"Total renewable water resources": "196.7 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 610,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 196.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.3  cu km/yr (15%/2%/83%)",
-			"per capita:": "237  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 237,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "destructive earthquakes; volcanoes; landslides; extremely susceptible to hurricanes",
@@ -55,29 +106,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,666,301 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "31.7% (male 913,905/female 879,818)",
-			"15-64 years:": "63.8% (male 1,743,591/female 1,874,025)",
+			"0-14 years:": {
+				"quantity": 31.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63.8,
+				"unit": "%"
+			},
 			"65 years and over:": "4.5% (male 116,153/female 138,809) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.9 years",
-			"male:": "22.1 years",
-			"female:": "23.7 years (2011 est.)"
+			"total:": {
+				"quantity": 22.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.088% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.088,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "19.46 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 19.46,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.03 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.03,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -85,39 +160,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "57% of total population (2010)",
-			"rate of urbanization:": "2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 57,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MANAGUA (capital) 934,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.78 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.78,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "22.64 deaths/1,000 live births",
+			"total:": {
+				"quantity": 22.64,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "25.94 deaths/1,000 live births",
-			"female:": "19.19 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 25.94,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 19.19,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.9 years",
+			"total population:": {
+				"quantity": 71.9,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.82 years",
-			"female:": "74.09 years (2011 est.)"
+			"male:": {
+				"quantity": 69.82,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.09,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.12 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.12,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "6,900 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -143,14 +263,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "67.5%",
-			"male:": "67.2%",
-			"female:": "67.8% (2003 est.)"
+			"total population:": {
+				"quantity": 67.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 67.2,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 67.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2003)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -164,7 +302,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Managua",
-			"geographic coordinates:": "12 09 N, 86 17 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 9
+				},
+				"W": {
+					"minutes": 86,
+					"seconds": 17
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "15 departments (departamentos, singular - departamento) and 2 autonomous regions* (regiones autonomistas, singular - region autonoma); Atlantico Norte*, Atlantico Sur*, Boaco, Carazo, Chinandega, Chontales, Esteli, Granada, Jinotega, Leon, Madriz, Managua, Masaya, Matagalpa, Nueva Segovia, Rio San Juan, Rivas",
@@ -212,133 +359,239 @@
 	"economy": {
 		"Economy - overview": "Nicaragua, the poorest country in Central America and the second poorest in the Hemisphere, has widespread underemployment and poverty. The US-Central America Free Trade Agreement (CAFTA) has been in effect since April 2006 and has expanded export opportunities for many agricultural and manufactured goods. Textiles and apparel account for nearly 60% of Nicaragua's exports, but increases in the minimum wage during the ORTEGA administration will likely erode its comparative advantage in this industry. ORTEGA's promotion of mixed business initiatives, owned by the Nicaraguan and Venezuelan state oil firms, together with the weak rule of law, could undermine the investment climate for domestic and international private firms in the near-term. Nicaragua relies on international economic assistance to meet internal- and external-debt financing obligations. Foreign donors have curtailed this funding, however, in response to November 2008 electoral fraud. Managua has an IMF extended Credit Facility program, which could help keep the government's fiscal deficit on target during the 2011 election year and encourage transparency in the use of Venezuelan off-budget loans and assistance. In early 2004, Nicaragua secured some $4.5 billion in foreign debt reduction under the Heavily Indebted Poor Countries (HIPC) initiative, however, Managua still struggles with a high public debt burden. Nicaragua is gradually recovering from the global economic crisis as increased exports drove positive growth in 2010. The economy is expected to grow at a rate of about 3% in 2011.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$17.71 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 17710000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$6.551 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 6551000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "17.6%",
-			"industry:": "26.5%",
-			"services:": "56% (2010 est.)"
+			"agriculture:": {
+				"quantity": 17.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 26.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 56,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.343 million (2010 est.)",
+			"Labor force": 2343000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "28%",
-			"industry:": "19%",
-			"services:": "53% (2010 est.)"
+			"agriculture:": {
+				"quantity": 28,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 53,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "48% (2005)",
+		"Population below poverty line": {
+			"quantity": 48,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.4%",
-			"highest 10%:": "41.8% (2005)"
+			"lowest 10%:": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "43.1 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.421 billion",
-			"expenditures:": "$1.511 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1421000000
+			},
+			"expenditures:": {
+				"usd": 1511000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "78% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 78,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA% (31 December 2009)",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.04% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.04,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.273 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1273000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.9 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$4.083 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 4083000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, bananas, sugarcane, cotton, rice, corn, tobacco, sesame, soya, beans; beef, veal, pork, poultry, dairy products; shrimp, lobsters",
 		"Industries": "food processing, chemicals, machinery and metal products, knit and woven apparel, petroleum refining and distribution, beverages, footwear, wood",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "3.286 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 3286000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.569 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 2569000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "63.95 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 63950000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "29,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 29000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "212.5 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 212.5,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "29,570 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 29570,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -346,34 +599,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$3.182 billion (2010 est.)",
+			"Exports": {
+				"usd": 3182000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, beef, shrimp and lobster, tobacco, sugar, gold, peanuts; textiles and apparel",
 		"Exports - partners": "US 61.98%, El Salvador 7.74%, Costa Rica 3.67% (2009)",
 		"Imports": {
-			"Imports": "$4.7 billion (2010 est.)",
+			"Imports": {
+				"usd": 4700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "consumer goods, machinery and equipment, raw materials, petroleum products",
 		"Imports - partners": "US 22.63%, Venezuela 12.27%, Mexico 9.05%, Costa Rica 8.66%, China 7.16%, Guatemala 6.59%, El Salvador 5.63% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.58 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1580000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$4.03 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 4030000000.0000005
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "255,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.204 million (2009)",
+			"Telephones - mobile cellular": 3204000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -384,35 +645,44 @@
 		"Broadcast media": "multiple privately-owned terrestrial television networks, supplemented by cable TV in most urban areas; of more than 100 radio broadcast stations, nearly all are privately owned; Radio Nicaragua is government-owned and Radio Sandino is controlled by the Sandinista National Liberation Front (FSLN) (2007)",
 		"Internet country code": ".ni",
 		"Internet hosts": {
-			"Internet hosts": "157,162 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "143 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "11",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "132",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "16",
-			"under 914 m:": "115 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 54 km (2010)",
 		"Roadways": {
-			"total:": "19,137 km",
+			"total:": {
+				"quantity": 19137,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,033 km",
-			"unpaved:": "17,104 km (2009)"
+			"paved:": {
+				"quantity": 2033,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 17104,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "2,220 km (navigable waterways as well as the use of the large Lake Managua and Lake Nicaragua; rivers serve only the sparsely populated eastern part of the country) (2010)",
@@ -424,16 +694,16 @@
 		"Military branches": "National Army of Nicaragua (Ejercito Nacional de Nicaragua, ENN; includes Navy, Air Force) (2010)",
 		"Military service age and obligation": "17 years of age for voluntary military service; tour of duty 18-36 months (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,452,107",
-			"females age 16-49:": "1,552,698 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,227,757",
-			"females age 16-49:": "1,335,653 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "69,093",
-			"female:": "67,522 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,22 +5,49 @@
 	"background": "The Sultanate of Brunei's influence peaked between the 15th and 17th centuries when its control extended over coastal areas of northwest Borneo and the southern Philippines. Brunei subsequently entered a period of decline brought on by internal strife over royal succession, colonial expansion of European powers, and piracy. In 1888, Brunei became a British protectorate; independence was achieved in 1984. The same family has ruled Brunei for over six centuries. Brunei benefits from extensive petroleum and natural gas fields, the source of one of the highest per capita GDPs in Asia.",
 	"geo": {
 		"Location": "Southeastern Asia, bordering the South China Sea and Malaysia",
-		"Geographic coordinates": "4 30 N, 114 40 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 4,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 114,
+				"seconds": 40
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "5,765 sq km",
+			"total:": {
+				"quantity": 5765,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "5,265 sq km",
-			"water:": "500 sq km"
+			"land:": {
+				"quantity": 5265,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 500,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Delaware",
 		"Land boundaries": {
-			"total:": "381 km",
+			"total:": {
+				"quantity": 381,
+				"unit": "km"
+			},
 			"border countries:": "Malaysia 381 km"
 		},
-		"Coastline": "161 km",
+		"Coastline": {
+			"quantity": 161,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "200 nm or to median line"
 		},
 		"Climate": "tropical; hot, humid, rainy",
@@ -31,15 +58,33 @@
 		},
 		"Natural resources": "petroleum, natural gas, timber",
 		"Land use": {
-			"arable land:": "2.08%",
-			"permanent crops:": "0.87%",
-			"other:": "97.05% (2005)"
+			"arable land:": {
+				"quantity": 2.08,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.87,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.05,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "10 sq km (2008)",
-		"Total renewable water resources": "8.5 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 10,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 8.5,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.09",
-			"per capita:": "243  cu m/yr (1994)"
+			"total:": null,
+			"per capita:": {
+				"quantity": 243,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "typhoons, earthquakes, and severe flooding are rare",
 		"Environment - current issues": "seasonal smoke/haze resulting from forest fires in Indonesia",
@@ -51,61 +96,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "401,890 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "25.5% (male 52,944/female 49,729)",
-			"15-64 years:": "70.9% (male 141,121/female 143,977)",
+			"0-14 years:": {
+				"quantity": 25.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 70.9,
+				"unit": "%"
+			},
 			"65 years and over:": "3.5% (male 6,881/female 7,238) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "28.4 years",
-			"male:": "28.3 years",
-			"female:": "28.6 years (2011 est.)"
+			"total:": {
+				"quantity": 28.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 28.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.712% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.712,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.87 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.87,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "3.35 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 3.35,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.6 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.6,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "76% of total population (2010)",
-			"rate of urbanization:": "2.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 76,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BANDAR SERI BEGAWAN (capital) 22,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.047 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.94 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.047,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11.51 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11.51,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "13.74 deaths/1,000 live births",
-			"female:": "9.17 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 13.74,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 9.17,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "76.17 years",
+			"total population:": {
+				"quantity": 76.17,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.91 years",
-			"female:": "78.53 years (2011 est.)"
+			"male:": {
+				"quantity": 73.91,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.53,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.86 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.86,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -129,14 +243,32 @@
 		"Languages": "Malay (official), English, Chinese",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92.7%",
-			"male:": "95.2%",
-			"female:": "90.2% (2001 census)"
+			"total population:": {
+				"quantity": 92.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.2,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 90.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "14 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +282,16 @@
 		"Government type": "constitutional sultanate (locally known as Malay Islamic Monarchy)",
 		"Capital": {
 			"name:": "Bandar Seri Begawan",
-			"geographic coordinates:": "4 53 N, 114 56 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 4,
+					"seconds": 53
+				},
+				"E": {
+					"minutes": 114,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "4 districts (daerah-daerah, singular - daerah); Belait, Brunei-Muara, Temburong, Tutong",
@@ -195,34 +336,64 @@
 	"economy": {
 		"Economy - overview": "Brunei has a small well-to-do economy that encompasses a mixture of foreign and domestic entrepreneurship, government regulation, welfare measures, and village tradition. Crude oil and natural gas production account for just over half of GDP and more than 90% of exports. Per capita GDP is among the highest in Asia, and substantial income from overseas investment supplements income from domestic production. The government provides for all medical services and free education through the university level and subsidizes rice and housing. A new monetary authority was established in January 2011 with responsibilities that include monetary policy, monitoring of financial institutions, and currency trading activities.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$20.38 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 20380000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$13.02 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 13020000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$51,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.7%",
-			"industry:": "74.1%",
-			"services:": "25.3% (2008 est.)"
+			"agriculture:": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 74.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 25.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "188,800 (2008)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "4.2%",
-			"industry:": "62.8%",
-			"services:": "33% (2008 est.)"
+			"agriculture:": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 62.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 33,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3.7% (2008)",
+			"Unemployment rate": {
+				"quantity": 3.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -231,27 +402,43 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$6.889 billion",
-			"expenditures:": "$4 billion (2008 est.)"
+			"revenues:": {
+				"usd": 6889000000
+			},
+			"expenditures:": {
+				"usd": 4000000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.7% (2008 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.5% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.374 billion (30 March 2009)",
+			"Stock of narrow money": {
+				"usd": 3374000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$8.569 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 8569000000.000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.274 billion (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 1274000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -262,84 +449,134 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "3.069 billion kWh (2008)",
+			"Electricity - production": {
+				"quantity": 3069000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "2.98 billion kWh (2008)",
+			"Electricity - consumption": {
+				"quantity": 2980000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "146,000 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 146000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "16,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 16000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "152,900 bbl/day (2007)",
+			"Oil - exports": {
+				"quantity": 152900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "237.6 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 237.6,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.1 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1100000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "13.4 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 13400000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "4.2 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 4200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "9.2 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 9200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "390.8 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 390800000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$7.024 billion (2008 est.)",
+			"Current account balance": {
+				"usd": 7024000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$10.67 billion (2008)",
+			"Exports": {
+				"usd": 10670000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "crude oil, natural gas, garments",
 		"Exports - partners": "Japan 38.04%, Indonesia 25.95%, South Korea 14.17%, Australia 7.24% (2009)",
 		"Imports": {
-			"Imports": "$2.61 billion (2008 est.)",
+			"Imports": {
+				"usd": 2610000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, food, chemicals",
 		"Imports - partners": "Singapore 38.4%, Malaysia 18.7%, Japan 7.2%, China 5.42%, Thailand 5.19%, US 4.45%, UK 4.25% (2009)",
 		"Debt - external": {
-			"Debt - external": "$0 (2005)",
+			"Debt - external": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "80,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "425,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -350,35 +587,44 @@
 		"Broadcast media": "state-controlled Radio Television Brunei (RTB) operates 4 channels; 3 Malaysian TV stations are available; foreign TV broadcasts are available via satellite and cable systems; RTB operates 5 radio networks broadcasting on multiple frequencies; British Forces Broadcast Service (BFBS) provides radio broadcasts on 2 FM stations; some radio broadcast stations from Malaysia are available via repeaters (2009)",
 		"Internet country code": ".bn",
 		"Internet hosts": {
-			"Internet hosts": "50,997 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"over 3,047 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 33 km; gas 37 km; oil 18 km (2010)",
 		"Roadways": {
-			"total:": "2,971 km",
+			"total:": {
+				"quantity": 2971,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,411 km",
-			"unpaved:": "560 km (2008)"
+			"paved:": {
+				"quantity": 2411,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 560,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "209 km (navigable by craft drawing less than 1.2 m; the Belait, Brunei, and Tutong rivers are major transport links) (2011)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "9",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "chemical tanker 1, liquefied gas 8 (2010)"
 		},
@@ -388,16 +634,16 @@
 		"Military branches": "Royal Brunei Armed Forces: Royal Brunei Land Forces, Royal Brunei Navy, Royal Brunei Air Force (Tentera Udara Diraja Brunei) (2010)",
 		"Military service age and obligation": "18 years of age (est.) for voluntary military service; non-Malays are ineligible to serve (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": "112,688",
-			"females age 16-49:": "117,536 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "95,141",
-			"females age 16-49:": "99,386 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "3,572",
-			"female:": "3,465 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

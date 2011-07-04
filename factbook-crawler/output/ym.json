@@ -5,24 +5,57 @@
 	"background": "North Yemen became independent of the Ottoman Empire in 1918. The British, who had set up a protectorate area around the southern port of Aden in the 19th century, withdrew in 1967 from what became South Yemen. Three years later, the southern government adopted a Marxist orientation. The massive exodus of hundreds of thousands of Yemenis from the south to the north contributed to two decades of hostility between the states. The two countries were formally unified as the Republic of Yemen in 1990. A southern secessionist movement in 1994 was quickly subdued. In 2000, Saudi Arabia and Yemen agreed to a delimitation of their border. Fighting in the northwest between the government and Huthi rebels, a group seeking a return to traditional Zaydi Islam, began in 2004 and has since resulted in seven rounds of fighting - the last ended in early 2010 with a tentative ceasefire. The southern secessionist movement was revitalized in 2008 when a popular socioeconomic protest movement initiated the prior year took on political goals including secession. Public rallies in Sana'a against President SALIH - inspired by similar demonstrations in Tunisia and Egypt - slowly built momentum starting in late January 2011 fueled by complaints over high unemployment, poor economic conditions, and corruption. By the following month, some protests had resulted in violence, and the demonstrations had spread to other major cities. By March the opposition had hardened its demands and was unifying behind calls for SALIH's immediate ouster. Media reports indicated that as many as 100 protesters had been killed and many more injured amid the protests. Domestic and international efforts to mediate a resolution to the political crisis had not yielded a deal as of mid April.",
 	"geo": {
 		"Location": "Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia",
-		"Geographic coordinates": "15 00 N, 48 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 48,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "527,968 sq km",
+			"total:": {
+				"quantity": 527968,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "527,968 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 527968,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than twice the size of Wyoming",
 		"Land boundaries": {
-			"total:": "1,746 km",
+			"total:": {
+				"quantity": 1746,
+				"unit": "km"
+			},
 			"border countries:": "Oman 288 km, Saudi Arabia 1,458 km"
 		},
-		"Coastline": "1,906 km",
+		"Coastline": {
+			"quantity": 1906,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "petroleum, fish, rock salt, marble; small deposits of coal, gold, lead, nickel, and copper; fertile soil in west",
 		"Land use": {
-			"arable land:": "2.91%",
-			"permanent crops:": "0.25%",
-			"other:": "96.84% (2005)"
+			"arable land:": {
+				"quantity": 2.91,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.25,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.84,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "6,800 sq km (2008)",
-		"Total renewable water resources": "4.1 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 6800,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 4.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "6.63  cu km/yr (4%/1%/95%)",
-			"per capita:": "316  cu m/yr (2000)"
+			"total:": {
+				"quantity": 6.63,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 316,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "sandstorms and dust storms in summer",
@@ -56,69 +110,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "24,133,492 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "43% (male 5,285,218/female 5,094,736)",
-			"15-64 years:": "54.4% (male 6,666,600/female 6,459,414)",
+			"0-14 years:": {
+				"quantity": 43,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.4,
+				"unit": "%"
+			},
 			"65 years and over:": "2.6% (male 298,175/female 329,349) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.1 years",
-			"male:": "18 years",
-			"female:": "18.2 years (2011 est.)"
+			"total:": {
+				"quantity": 18.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.647% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.647,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "33.49 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 33.49,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.02 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.02,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "32% of total population (2010)",
-			"rate of urbanization:": "4.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 32,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SANAA (capital) 2.229 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.91 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "55.11 deaths/1,000 live births",
+			"total:": {
+				"quantity": 55.11,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "59.7 deaths/1,000 live births",
-			"female:": "50.29 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 59.7,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 50.29,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "63.74 years",
+			"total population:": {
+				"quantity": 63.74,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "61.7 years",
-			"female:": "65.87 years (2011 est.)"
+			"male:": {
+				"quantity": 61.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 65.87,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.63 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.63,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2001 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "12,000 (2001 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": "NA",
@@ -139,14 +265,32 @@
 		"Languages": "Arabic (official)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "50.2%",
-			"male:": "70.5%",
-			"female:": "30% (2003 est.)"
+			"total population:": {
+				"quantity": 50.2,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 70.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 30,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "11 years",
-			"female:": "7 years (2005)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +305,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Sanaa",
-			"geographic coordinates:": "15 21 N, 44 12 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 15,
+					"seconds": 21
+				},
+				"E": {
+					"minutes": 44,
+					"seconds": 12
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "21 governorates (muhafazat, singular - muhafazah); Abyan, 'Adan (Aden), Ad Dali', Al Bayda', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat al 'Asimah, 'Amran, Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib, Raymah, Sa'dah, San'a' (Sanaa), Shabwah, Ta'izz",
@@ -211,131 +364,228 @@
 	"economy": {
 		"Economy - overview": "Yemen is a low income country that is highly dependent on declining oil resources for revenue. Petroleum accounts for roughly 25% of GDP and 70% of government revenue. Yemen has tried to counter the effects of its declining oil resources by diversifying its economy through an economic reform program initiated in 2006 that is designed to bolster non-oil sectors of the economy and foreign investment. In October 2009, Yemen exported its first liquefied natural gas as part of this diversification effort. In January 2010, the international community established the Friends of Yemen group that aims to support Yemen's efforts towards economic and political reform, and in August 2010 the IMF approved a three-year $370 million program to further this effort. Despite these ambitious endeavors, Yemen continues to face difficult long term challenges, including declining water resources and a high population growth rate.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$63.4 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 63400000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$31.27 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 31270000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "8.2%",
-			"industry:": "38.8%",
-			"services:": "53% (2010 est.)"
+			"agriculture:": {
+				"quantity": 8.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 38.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 53,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "6.832 million (2010 est.)",
+			"Labor force": 6832000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
 			"note:": "most people are employed in agriculture and herding; services, construction, industry, and commerce account for less than one-fourth of the labor force"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "35% (2003 est.)",
+			"Unemployment rate": {
+				"quantity": 35,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "45.2% (2003)",
+		"Population below poverty line": {
+			"quantity": 45.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.9%",
-			"highest 10%:": "30.8% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "37.7 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$7.581 billion",
-			"expenditures:": "$9.345 billion (2010 est.)"
+			"revenues:": {
+				"usd": 7581000000
+			},
+			"expenditures:": {
+				"usd": 9345000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "39.1% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 39.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "12.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 12.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "18% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 18,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.551 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 3551000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9.739 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 9739000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$5.297 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 5297000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "grain, fruits, vegetables, pulses, qat, coffee, cotton; dairy products, livestock (sheep, goats, cattle, camels), poultry; fish",
 		"Industries": "crude oil production and petroleum refining; small-scale production of cotton textiles and leather goods; food processing; handicrafts; small aluminum products factory; cement; commercial ship repair; natural gas production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "5.665 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 5665000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "4.133 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 4133000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "288,400 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 288400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "155,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 155000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "274,400 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 274400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "65,860 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 65860,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "3.16 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 3160000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "454,700 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 454700,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "454,700 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 454700,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "478.5 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 478500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -343,23 +593,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$7.462 billion (2010 est.)",
+			"Exports": {
+				"usd": 7462000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "crude oil, coffee, dried and salted fish, liquefied natural gas",
 		"Exports - partners": "China 36%, Thailand 17.63%, India 13.54%, South Africa 6.16%, Japan 5.49%, UAE 4.99% (2009)",
 		"Imports": {
-			"Imports": "$8.35 billion (2010 est.)",
+			"Imports": {
+				"usd": 8350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food and live animals, machinery and equipment, chemicals",
 		"Imports - partners": "China 13.98%, UAE 12.3%, India 8.63%, Saudi Arabia 5.8%, US 4.52%, Brazil 4.51%, Turkey 4.51%, Kuwait 4.33%, France 4.24% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$5.744 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 5744000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$7.147 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 7147000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -367,11 +625,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "997,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "8.313 million (2009)",
+			"Telephones - mobile cellular": 8313000.000000001,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -382,39 +640,48 @@
 		"Broadcast media": "state-run TV with 2 stations; state-run radio with 2 national radio stations and 5 local stations; stations from Oman and Saudi Arabia can be accessed (2007)",
 		"Internet country code": ".ye",
 		"Internet hosts": {
-			"Internet hosts": "255 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "55 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "17",
-			"over 3,047 m:": "4",
-			"2,438 to 3,047 m:": "9",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "38",
-			"over 3,047 m:": "3",
-			"2,438 to 3,047 m:": "5",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "14"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Pipelines": "gas 423 km; liquid petroleum gas 22 km; oil 1,367 km (2010)",
 		"Roadways": {
-			"total:": "71,300 km",
+			"total:": {
+				"quantity": 71300,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "6,200 km",
-			"unpaved:": "65,100 km (2005)"
+			"paved:": {
+				"quantity": 6200,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 65100,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "6",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, chemical tanker 2, petroleum tanker 2, roll on/roll off 1",
 			"registered in other countries:": "14 (Moldova 1, Panama 4, Saint Kitts and Nevis 1, Sierra Leone 2, unknown 6) (2010)"
@@ -426,19 +693,22 @@
 		"Military branches": "Army, Navy (includes Marines), Yemen Air Force (Al Quwwat al Jawwiya al Jamahiriya al Yemeniya; includes Air Defense Force), Republican Guard (2010)",
 		"Military service age and obligation": "voluntary military service program authorized in 2001; 2-year service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "5,652,256",
-			"females age 16-49:": "5,387,160 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "4,056,944",
-			"females age 16-49:": "4,116,895 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "287,141",
-			"female:": "277,612 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "6.6% of GDP (2006)",
+			"Military expenditures": {
+				"quantity": 6.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

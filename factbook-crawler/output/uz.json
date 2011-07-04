@@ -5,17 +5,38 @@
 	"background": "Russia conquered the territory of present-day Uzbekistan in the late 19th century. Stiff resistance to the Red Army after the Bolshevik Revolution was eventually suppressed and a socialist republic established in 1924. During the Soviet era, intensive production of \"white gold\" (cotton) and grain led to overuse of agrochemicals and the depletion of water supplies, which have left the land poisoned and the Aral Sea and certain rivers half dry. Independent since 1991, the country seeks to gradually lessen its dependence on agriculture while developing its mineral and petroleum reserves. Current concerns include terrorism by Islamic militants, economic stagnation, and the curtailment of human rights and democratization.",
 	"geo": {
 		"Location": "Central Asia, north of Turkmenistan, south of Kazakhstan",
-		"Geographic coordinates": "41 00 N, 64 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 41,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 64,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "447,400 sq km",
+			"total:": {
+				"quantity": 447400,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "425,400 sq km",
-			"water:": "22,000 sq km"
+			"land:": {
+				"quantity": 425400,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 22000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than California",
 		"Land boundaries": {
-			"total:": "6,221 km",
+			"total:": {
+				"quantity": 6221,
+				"unit": "km"
+			},
 			"border countries:": "Afghanistan 137 km, Kazakhstan 2,203 km, Kyrgyzstan 1,099 km, Tajikistan 1,161 km, Turkmenistan 1,621 km"
 		},
 		"Coastline": "0 km (doubly landlocked); note - Uzbekistan includes the southern portion of the Aral Sea with a 420 km shoreline",
@@ -28,15 +49,36 @@
 		},
 		"Natural resources": "natural gas, petroleum, coal, gold, uranium, silver, copper, lead and zinc, tungsten, molybdenum",
 		"Land use": {
-			"arable land:": "10.51%",
-			"permanent crops:": "0.76%",
-			"other:": "88.73% (2005)"
+			"arable land:": {
+				"quantity": 10.51,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.76,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 88.73,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "42,230 sq km (2008)",
-		"Total renewable water resources": "72.2 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 42230,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 72.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "58.34  cu km/yr (5%/2%/93%)",
-			"per capita:": "2,194  cu m/yr (2000)"
+			"total:": {
+				"quantity": 58.34,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 2194,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "shrinkage of the Aral Sea is resulting in growing concentrations of chemical pesticides and natural salts; these substances are then blown from the increasingly exposed lake bed and contribute to desertification; water pollution from industrial wastes and the heavy use of fertilizers and pesticides is the cause of many human health disorders; increasing soil salination; soil contamination from buried nuclear processing and agricultural chemicals, including DDT",
@@ -48,29 +90,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "28,128,600 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.5% (male 3,817,755/female 3,635,142)",
-			"15-64 years:": "68.8% (male 9,620,356/female 9,742,818)",
+			"0-14 years:": {
+				"quantity": 26.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.8,
+				"unit": "%"
+			},
 			"65 years and over:": "4.7% (male 560,574/female 751,955) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "25.7 years",
-			"male:": "25.2 years",
-			"female:": "26.3 years (2011 est.)"
+			"total:": {
+				"quantity": 25.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 25.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 26.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.94% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.94,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.43 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.43,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.29 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.29,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,39 +144,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "36% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 36,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TASHKENT (capital) 2.201 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.75 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.75,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "21.92 deaths/1,000 live births",
+			"total:": {
+				"quantity": 21.92,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "25.95 deaths/1,000 live births",
-			"female:": "17.64 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 25.95,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 17.64,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "72.51 years",
+			"total population:": {
+				"quantity": 72.51,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.48 years",
-			"female:": "75.71 years (2011 est.)"
+			"male:": {
+				"quantity": 69.48,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.71,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.89 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.89,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "28,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -128,14 +239,32 @@
 		"Languages": "Uzbek (official) 74.3%, Russian 14.2%, Tajik 4.4%, other 7.1%",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.3%",
-			"male:": "99.6%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "12 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +279,16 @@
 		"Government type": "republic; authoritarian presidential rule, with little power outside the executive branch",
 		"Capital": {
 			"name:": "Tashkent (Toshkent)",
-			"geographic coordinates:": "41 20 N, 69 18 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 41,
+					"seconds": 20
+				},
+				"E": {
+					"minutes": 69,
+					"seconds": 18
+				}
+			},
 			"time difference:": "UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -198,67 +336,122 @@
 	"economy": {
 		"Economy - overview": "Uzbekistan is a dry, landlocked country; 11% of the land is intensely cultivated, in irrigated river valleys. More than 60% of the population lives in densely populated rural communities. Export of hydrocarbons, including natural gas and petroleum, provided about 40% of foreign exchange earnings in 2009. Other major export earners include gold and cotton. Uzbekistan is now the world's second-largest cotton exporter and fifth largest producer; it has come under increasing international criticism for the use of child labor in its annual cotton harvest. Nevertheless, Uzbekistan enjoyed a bumper cotton crop in 2010 amidst record high prices. Following independence in September 1991, the government sought to prop up its Soviet-style command economy with subsidies and tight controls on production and prices. While aware of the need to improve the investment climate, the government still sponsors measures that often increase, not decrease, its control over business decisions. A sharp increase in the inequality of income distribution has hurt the lower ranks of society since independence. In 2003, the government accepted Article VIII obligations under the IMF, providing for full currency convertibility. However, strict currency controls and tightening of borders have lessened the effects of convertibility and have also led to some shortages that have further stifled economic activity. The Central Bank often delays or restricts convertibility, especially for consumer goods. Potential investment by Russia and China in Uzbekistan's gas and oil industry, as well as increased cooperation with South Korea in the realm of civil aviation, may boost growth prospects. However, decreased demand for natural gas in Europe and Russia in the wake of the global financial crisis could reduce energy-related revenues in the near term. In November 2005, Russian President Vladimir PUTIN and Uzbekistan President KARIMOV signed an \"alliance,\" which included provisions for economic and business cooperation. Russian businesses have shown increased interest in Uzbekistan, especially in mining, telecom, and oil and gas. In 2006, Uzbekistan took steps to rejoin the Collective Security Treaty Organization (CSTO) and the Eurasian Economic Community (EurASEC), which it subsequently left in 2008, both organizations dominated by Russia. In the past Uzbek authorities had accused US and other foreign companies operating in Uzbekistan of violating Uzbek tax laws and have frozen their assets, but no new expropriations occurred in 2008-09. Instead, the Uzbek Government has actively courted several major U.S. and international corporations, offering attractive financing and tax advantages, and has landed a significant US investment in the automotive industry. Although growth slowed in 2009-10, Uzbekistan has seen few other effects from the global economic downturn, primarily due to its relative isolation from the global financial markets.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$85.85 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 85850000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$38.99 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 38990000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "21.2%",
-			"industry:": "32.3%",
-			"services:": "46.4% (2010 est.)"
+			"agriculture:": {
+				"quantity": 21.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 32.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 46.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "16 million (2010 est.)",
+			"Labor force": 16000000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "44%",
-			"industry:": "20%",
-			"services:": "36% (1995)"
+			"agriculture:": {
+				"quantity": 44,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 36,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "1.1% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26% (2008 est.)",
+		"Population below poverty line": {
+			"quantity": 26,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.8%",
-			"highest 10%:": "29.6% (2003)"
+			"lowest 10%:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 29.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "36.8 (2003)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$12.25 billion",
-			"expenditures:": "$12.3 billion (2010 est.)"
+			"revenues:": {
+				"usd": 12250000000
+			},
+			"expenditures:": {
+				"usd": 12300000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "15% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 15,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.895 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 4895000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$7.197 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 7197000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$6.482 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 6482000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -268,81 +461,136 @@
 		"Agriculture - products": "cotton, vegetables, fruits, grain; livestock",
 		"Industries": "textiles, food processing, machine building, metallurgy, gold, petroleum, natural gas, chemicals",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "44.8 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 44800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "40.1 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 40100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "11.52 billion kWh (2009 est.)",
-		"Electricity - imports": "11.44 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 11520000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 11440000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "70,910 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 70910,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "145,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 145000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "6,104 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 6104,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "35,810 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 35810,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "594 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 594000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "67.6 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 67599999999.99999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "52.6 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 52600000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "15 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 15000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.841 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1841000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$5.588 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 5588000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$13.13 billion (2010 est.)",
+			"Exports": {
+				"usd": 13130000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "energy products, cotton, gold, mineral fertilizers, ferrous and nonferrous metals, textiles, food products, machinery, automobiles",
 		"Exports - partners": "Ukraine 29.91%, Russia 13.94%, Turkey 7.53%, Kazakhstan 7.26%, Bangladesh 6.83%, China 5.69%, South Korea 4.19% (2009)",
 		"Imports": {
-			"Imports": "$9.44 billion (2010 est.)",
+			"Imports": {
+				"usd": 9440000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, chemicals, ferrous and nonferrous metals",
 		"Imports - partners": "Russia 23.72%, China 20.36%, South Korea 13.03%, Germany 6.09%, Ukraine 5.39%, Kazakhstan 4.68% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$10.5 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 10500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$4.236 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 4236000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -351,11 +599,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.857 million (2009)",
+			"Telephones - main lines in use": 1857000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "16.418 million (2009)",
+			"Telephones - mobile cellular": 16418000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -366,42 +614,57 @@
 		"Broadcast media": "government controls media; 8 state-owned broadcasters - 4 TV and 4 radio - provide service to virtually the entire country; about 20 privately-owned TV stations, overseen by local officials, broadcast to local markets; privately-owned TV stations are required to lease transmitters from the government-owned Republic TV and Radio Industry Corporation and are prohibited from broadcasting live; about 15 privately-owned radio broadcasters; programming content includes news updates, music, call-in talk shows, and other entertainment in a half-Russian, half-Uzbek format mandated for private radio (2007)",
 		"Internet country code": ".uz",
 		"Internet hosts": {
-			"Internet hosts": "47,718 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "54 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "33",
-			"over 3,047 m:": "6",
-			"2,438 to 3,047 m:": "13",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "4"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "21",
-			"2,438 to 3,047 m:": "2",
-			"under 914 m:": "19 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 10,253 km; oil 868 km (2010)",
 		"Railways": {
-			"total:": "3,645 km",
+			"total:": {
+				"quantity": 3645,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "3,645 km 1.520-m gauge (620 km electrified) (2008)"
 		},
 		"Roadways": {
-			"total:": "86,496 km",
+			"total:": {
+				"quantity": 86496,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "75,511 km",
-			"unpaved:": "10,985 km (2000)"
+			"paved:": {
+				"quantity": 75511,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 10985,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
-			"Waterways": "1,100 km (2009)",
+			"Waterways": {
+				"quantity": 1100,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Ports and terminals": {}
@@ -410,16 +673,16 @@
 		"Military branches": "Army, Air and Air Defense Forces, National Guard",
 		"Military service age and obligation": "18 years of age for compulsory military service; 1-year conscript service obligation; moving toward a professional military, but conscription will continue; the military cannot accommodate everyone who wishes to enlist, and competition for entrance into the military is similar to the competition for admission to universities (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "7,887,292",
-			"females age 16-49:": "7,886,459 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,566,118",
-			"females age 16-49:": "6,745,818 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "306,404",
-			"female:": "295,456 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

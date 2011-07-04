@@ -5,21 +5,54 @@
 	"background": "The first Sinhalese arrived in Sri Lanka late in the 6th century B.C., probably from northern India. Buddhism was introduced in about the mid-third century B.C., and a great civilization developed at the cities of Anuradhapura (kingdom from circa 200 B.C. to circa A.D. 1000) and Polonnaruwa (from about 1070 to 1200). In the 14th century, a south Indian dynasty established a Tamil kingdom in northern Sri Lanka. The coastal areas of the island were controlled by the Portuguese in the 16th century and by the Dutch in the 17th century. The island was ceded to the British in 1796, became a crown colony in 1802, and was formally united under British rule by 1815. As Ceylon, it became independent in 1948; its name was changed to Sri Lanka in 1972. Tensions between the Sinhalese majority and Tamil separatists erupted into war in 1983. After two decades of fighting, the government and Liberation Tigers of Tamil Eelam (LTTE) formalized a cease-fire in February 2002 with Norway brokering peace negotiations. Violence between the LTTE and government forces intensified in 2006, but the government regained control of the Eastern Province in 2007. By May 2009, the government announced that its military had defeated the remnants of the LTTE. Since the end of the conflict, the government has resettled tens of thousands of internally displaced persons and has undertaken a number of massive infrastructure projects to reconstruct its economy.",
 	"geo": {
 		"Location": "Southern Asia, island in the Indian Ocean, south of India",
-		"Geographic coordinates": "7 00 N, 81 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 7,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 81,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "65,610 sq km",
+			"total:": {
+				"quantity": 65610,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "64,630 sq km",
-			"water:": "980 sq km"
+			"land:": {
+				"quantity": 64630,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 980,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than West Virginia",
-		"Land boundaries": "0 km",
-		"Coastline": "1,340 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1340,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "tropical monsoon; northeast monsoon (December to March); southwest monsoon (June to October)",
@@ -30,15 +63,36 @@
 		},
 		"Natural resources": "limestone, graphite, mineral sands, gems, phosphates, clay, hydropower",
 		"Land use": {
-			"arable land:": "13.96%",
-			"permanent crops:": "15.24%",
-			"other:": "70.8% (2005)"
+			"arable land:": {
+				"quantity": 13.96,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 15.24,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 70.8,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "5,700 sq km (2008)",
-		"Total renewable water resources": "50 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 5700,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 50,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "12.61  cu km/yr (2%/2%/95%)",
-			"per capita:": "608  cu m/yr (2000)"
+			"total:": {
+				"quantity": 12.61,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 608,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "occasional cyclones and tornadoes",
 		"Environment - current issues": "deforestation; soil erosion; wildlife populations threatened by poaching and urbanization; coastal degradation from mining activities and increased pollution; freshwater resources being polluted by industrial wastes and sewage runoff; waste disposal; air pollution in Colombo",
@@ -50,29 +104,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "21,283,913 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "24.9% (male 2,705,953/female 2,599,717)",
-			"15-64 years:": "67.2% (male 6,993,668/female 7,313,440)",
+			"0-14 years:": {
+				"quantity": 24.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.2,
+				"unit": "%"
+			},
 			"65 years and over:": "7.9% (male 720,219/female 950,916) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.8 years",
-			"male:": "29.7 years",
-			"female:": "31.8 years (2011 est.)"
+			"total:": {
+				"quantity": 30.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.934% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.934,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.42 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.42,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.92 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.92,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,31 +158,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "14% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 14,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "COLOMBO (capital) 681,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.96 male(s)/female",
-			"65 years and over:": "0.86 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.86,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "9.7 deaths/1,000 live births",
+			"total:": {
+				"quantity": 9.7,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "10.68 deaths/1,000 live births",
-			"female:": "8.68 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 10.68,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.68,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.73 years",
+			"total population:": {
+				"quantity": 75.73,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.21 years",
-			"female:": "79.38 years (2011 est.)"
+			"male:": {
+				"quantity": 72.21,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.38,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.2 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.2,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -112,7 +232,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "2,800 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -139,14 +259,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "90.7%",
-			"male:": "92.3%",
-			"female:": "89.1% (2001 census)"
+			"total population:": {
+				"quantity": 90.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 92.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 89.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "12 years",
-			"female:": "13 years (2004)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +299,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Colombo",
-			"geographic coordinates:": "6 56 N, 79 51 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 56
+				},
+				"E": {
+					"minutes": 79,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC+5.5 (10.5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "9 provinces; Central, Eastern, North Central, Northern, North Western, Sabaragamuwa, Southern, Uva, Western",
@@ -210,135 +357,243 @@
 	"economy": {
 		"Economy - overview": "Sri Lanka is engaging in large-scale reconstruction and development projects following the end of the 26-year conflict with the LTTE, including increasing electricity access and rebuilding its road and rail network. Additionally, Sri Lanka seeks to reduce poverty by using a combination of state directed policies and private investment promotion to spur growth in disadvantaged areas, develop small and medium enterprises, and promote increased agriculture. High levels of government funding may be difficult, as the government already is faced with high debt interest payments, a bloated civil service, and historically high budget deficits. The 2008-09 global financial crisis and recession exposed Sri Lanka's economic vulnerabilities and nearly caused a balance of payments crisis, which was alleviated by a $2.6 billion IMF standby agreement in July 2009. The end of the civil war and the IMF loan, however, have largely restored investors' confidence, reflected in part by the Sri Lankan stock market's recognition as one of the best performing markets in the world. Sri Lankan growth rates averaged nearly 5% in during the war, but increased government spending on development and fighting the LTTE in the final years spurred GDP growth to around 6-7% per year in 2006-08. After experiencing 3.5% growth in 2009, Sri Lanka's economy is poised to achieve high growth rates in the postwar period.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$106.5 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 106500000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$49.68 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 49680000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "9.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 9.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$5,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "12.6%",
-			"industry:": "29.8%",
-			"services:": "57.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 12.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 29.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 57.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "8.1 million (2010 est.)",
+			"Labor force": 8100000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "32.7%",
-			"industry:": "26.3%",
-			"services:": "41% (December 2008 est.)"
+			"agriculture:": {
+				"quantity": 32.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 26.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 41,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "5.4% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 5.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "23% (2008 est.)",
+		"Population below poverty line": {
+			"quantity": 23,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.1%",
-			"highest 10%:": "39.7% (2004)"
+			"lowest 10%:": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 39.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "49 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "23.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 23.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$7.415 billion",
-			"expenditures:": "$11.18 billion (2010 est.)"
+			"revenues:": {
+				"usd": 7415000000
+			},
+			"expenditures:": {
+				"usd": 11180000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "86.7% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 86.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "7.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.91% (31 December 2009)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.91,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.4 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 4400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$19.72 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 19720000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$18.34 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 18340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$8.133 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 8132999999.999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "rice, sugarcane, grains, pulses, oilseed, spices, vegetables, fruit, tea, rubber, coconuts; milk, eggs, hides, beef; fish",
 		"Industries": "processing of rubber, tea, coconuts, tobacco and other agricultural commodities; telecommunications, insurance, banking; tourism, shipping; clothing, textiles; cement, petroleum refining, information technology services, construction",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "6.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "9.901 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 9901000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "8.417 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 8417000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "90,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 90000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "968.4 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 968.4,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "87,690 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 87690,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -346,23 +601,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$7.908 billion (2010 est.)",
+			"Exports": {
+				"usd": 7908000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "textiles and apparel, tea and spices; rubber manufactures; precious stones; coconut products, fish",
 		"Exports - partners": "US 20.59%, UK 12.87%, Italy 5.51%, Germany 5.29%, India 4.54%, Belgium 4.43% (2009)",
 		"Imports": {
-			"Imports": "$11.6 billion (2010 est.)",
+			"Imports": {
+				"usd": 11600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum, textiles, machinery and transportation equipment, building materials, mineral products, foodstuffs",
 		"Imports - partners": "India 20.73%, China 13.45%, Singapore 7.26%, Iran 6.7%, South Korea 5.23% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$5.63 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 5630000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$17.97 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 17970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -371,11 +634,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3.523 million (2010)",
+			"Telephones - main lines in use": 3523000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "15.868 million (2010)",
+			"Telephones - mobile cellular": 15868000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,34 +649,40 @@
 		"Broadcast media": "government operates 2 television channels and a radio network; multi-channel satellite and cable TV subscription services are obtainable; 8 private TV stations and about a dozen private radio stations in operation (2008)",
 		"Internet country code": ".lk",
 		"Internet hosts": {
-			"Internet hosts": "8,865 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "18 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "14",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "7 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "4",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "1,449 km",
+			"total:": {
+				"quantity": 1449,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "1,449 km 1.676-m gauge (2007)"
 		},
 		"Roadways": {
-			"total:": "91,907 km (2008)",
+			"total:": {
+				"quantity": 91907,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
@@ -421,7 +690,7 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "22",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 14, chemical tanker 1, petroleum tanker 3",
 			"foreign-owned:": "5 (Germany 5) (2010)"
@@ -432,16 +701,16 @@
 		"Military branches": "Sri Lanka Army, Sri Lanka Navy, Sri Lanka Air Force (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; 5-year service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "5,342,147",
-			"females age 16-49:": "5,466,409 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "4,177,432",
-			"females age 16-49:": "4,574,833 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "167,026",
-			"female:": "162,587 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

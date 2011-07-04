@@ -5,20 +5,47 @@
 	"background": "Formerly administered as part of the British Crown Colony of Mauritius, the British Indian Ocean Territory (BIOT) was established as an overseas territory of the UK in 1965. A number of the islands of the territory were later transferred to the Seychelles when it attained independence in 1976. Subsequently, BIOT has consisted only of the six main island groups comprising the Chagos Archipelago. The largest and most southerly of the islands, Diego Garcia, contains a joint UK-US naval support facility. All of the remaining islands are uninhabited. Between 1967 and 1973, former agricultural workers, earlier residents in the islands, were relocated primarily to Mauritius, but also to the Seychelles. Negotiations between 1971 and 1982 resulted in the establishment of a trust fund by the British Government as compensation for the displaced islanders, known as Chagossians. Beginning in 1998, the islanders pursued a series of lawsuits against the British Government seeking further compensation and the right to return to the territory. In 2006 and 2007, British court rulings invalidated the immigration policies contained in the 2004 BIOT Constitution Order that had excluded the islanders from the archipelago, but upheld the special military status of Diego Garcia. In 2008, the House of Lords, as the final court of appeal in the UK, ruled in favor of the British Government by overturning the lower court rulings and finding no right of return for the Chagossians.",
 	"geo": {
 		"Location": "archipelago in the Indian Ocean, south of India, about halfway between Africa and Indonesia",
-		"Geographic coordinates": "6 00 S, 71 30 E; note - Diego Garcia 7 20 S, 72 25 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 6,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 71,
+				"seconds": 30
+			}
+		},
 		"Map references": "Political Map of the World",
 		"Area": {
-			"total:": "54,400 sq km",
+			"total:": {
+				"quantity": 54400,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
 			"land:": "60 sq km; Diego Garcia 44 sq km",
-			"water:": "54,340 sq km"
+			"water:": {
+				"quantity": 54340,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "land area is about 0.3 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "698 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 698,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine; hot, humid, moderated by trade winds",
 		"Terrain": "flat and low (most areas do not exceed two meters in elevation)",
@@ -28,11 +55,23 @@
 		},
 		"Natural resources": "coconuts, fish, sugarcane",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "NA",
 		"Geography - note": {}
@@ -81,12 +120,12 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Roadways": {
 			"note:": "short section of paved road between port and airfield on Diego Garcia"

@@ -5,19 +5,46 @@
 	"background": "First discovered by the Norwegians in the 12th century, the islands served as an international whaling base during the 17th and 18th centuries. Norway's sovereignty was recognized in 1920; five years later it officially took over the territory.",
 	"geo": {
 		"Location": "Northern Europe, islands between the Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway",
-		"Geographic coordinates": "78 00 N, 20 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 78,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 20,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "62,045 sq km",
+			"total:": {
+				"quantity": 62045,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "62,045 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 62045,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than West Virginia",
-		"Land boundaries": "0 km",
-		"Coastline": "3,587 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 3587,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "4 nm",
+			"territorial sea:": {
+				"quantity": 4,
+				"unit": "nm"
+			},
 			"exclusive fishing zone:": "200 nm unilaterally claimed by Norway but not recognized by Russia"
 		},
 		"Climate": "arctic, tempered by warm North Atlantic Current; cool summers, cold winters; North Atlantic Current flows along west and north coasts of Spitsbergen, keeping water open and navigable most of the year",
@@ -28,8 +55,14 @@
 		},
 		"Natural resources": "coal, iron ore, copper, zinc, phosphate, wildlife, fish",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "100% (no trees; the only bushes are crowberry and cloudberry) (2005)"
 		},
 		"Irrigated land": "NA",
@@ -39,7 +72,7 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "2,019 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -67,15 +100,18 @@
 		},
 		"Total fertility rate": "NA",
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0% (2001)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "0 (2001)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "0 (2001)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Ethnic groups": "Norwegian 55.4%, Russian and Ukrainian 44.3%, other 0.3% (1998)",
@@ -92,7 +128,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Longyearbyen",
-			"geographic coordinates:": "78 13 N, 15 33 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 78,
+					"seconds": 13
+				},
+				"E": {
+					"minutes": 15,
+					"seconds": 33
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -117,10 +162,14 @@
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$25.07 million",
+			"revenues:": {
+				"usd": 25070000
+			},
 			"expenditures:": "$NA (2004 est.)"
 		},
-		"Exports": "$197.6 million (2000)",
+		"Exports": {
+			"usd": 197600000
+		},
 		"Imports": "$NA",
 		"Exchange rates": {}
 	},
@@ -136,18 +185,18 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "4 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Ports and terminals": {}
 	},
 	"military": {

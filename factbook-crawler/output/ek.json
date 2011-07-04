@@ -5,23 +5,53 @@
 	"background": "Equatorial Guinea gained independence in 1968 after 190 years of Spanish rule. This tiny country, composed of a mainland portion plus five inhabited islands, is one of the smallest on the African continent. President Teodoro OBIANG NGUEMA MBASOGO has ruled the country since 1979 when he seized power in a coup. Although nominally a constitutional democracy since 1991, the 1996, 2002, and 2009 presidential elections - as well as the 1999, 2004, and 2008 legislative elections - were widely seen as flawed. The president exerts almost total control over the political system and has discouraged political opposition. Equatorial Guinea has experienced rapid economic growth due to the discovery of large offshore oil reserves, and in the last decade has become Sub-Saharan Africa's third largest oil exporter. Despite the country's economic windfall from oil production resulting in a massive increase in government revenue in recent years, improvements in the population's living standards have been slow to develop.",
 	"geo": {
 		"Location": "Western Africa, bordering the Bight of Biafra, between Cameroon and Gabon",
-		"Geographic coordinates": "2 00 N, 10 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 2,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 10,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "28,051 sq km",
+			"total:": {
+				"quantity": 28051,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "28,051 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 28051,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "539 km",
+			"total:": {
+				"quantity": 539,
+				"unit": "km"
+			},
 			"border countries:": "Cameroon 189 km, Gabon 350 km"
 		},
-		"Coastline": "296 km",
+		"Coastline": {
+			"quantity": 296,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; always hot, humid",
 		"Terrain": "coastal plains rise to interior hills; islands are volcanic",
@@ -31,15 +61,33 @@
 		},
 		"Natural resources": "petroleum, natural gas, timber, gold, bauxite, diamonds, tantalum, sand and gravel, clay",
 		"Land use": {
-			"arable land:": "4.63%",
-			"permanent crops:": "3.57%",
-			"other:": "91.8% (2005)"
+			"arable land:": {
+				"quantity": 4.63,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3.57,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91.8,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "26 cu km (2001)",
+		"Total renewable water resources": {
+			"quantity": 26,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.11  cu km/yr (83%/16%/1%)",
-			"per capita:": "220  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.11,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 220,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "violent windstorms; flash floods",
@@ -54,69 +102,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "668,225 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "41.5% (male 140,946/female 136,294)",
-			"15-64 years:": "54.4% (male 179,141/female 184,358)",
+			"0-14 years:": {
+				"quantity": 41.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.4,
+				"unit": "%"
+			},
 			"65 years and over:": "4.1% (male 11,880/female 15,606) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.1 years",
-			"male:": "18.5 years",
-			"female:": "19.7 years (2011 est.)"
+			"total:": {
+				"quantity": 19.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.641% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.641,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "35.43 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 35.43,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.03 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.03,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "40% of total population (2010)",
-			"rate of urbanization:": "3.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 40,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MALABO (capital) 128,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.78 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.78,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "77.3 deaths/1,000 live births",
+			"total:": {
+				"quantity": 77.3,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.37 deaths/1,000 live births",
-			"female:": "76.19 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 78.37,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 76.19,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "62.37 years",
+			"total population:": {
+				"quantity": 62.37,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "61.4 years",
-			"female:": "63.36 years (2011 est.)"
+			"male:": {
+				"quantity": 61.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 63.36,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.91 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.91,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "20,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -139,14 +259,32 @@
 		"Languages": "Spanish (official) 67.6%, other (includes French (official), Fang, Bubi) 32.4% (1994 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "87%",
-			"male:": "93.4%",
-			"female:": "80.5% (2000 est.)"
+			"total population:": {
+				"quantity": 87,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 93.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 80.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "8 years",
-			"male:": "9 years",
-			"female:": "7 years (2002)"
+			"total:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +299,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Malabo",
-			"geographic coordinates:": "3 45 N, 8 47 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 3,
+					"seconds": 45
+				},
+				"E": {
+					"minutes": 8,
+					"seconds": 47
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 provinces (provincias, singular - provincia); Annobon, Bioko Norte, Bioko Sur, Centro Sur, Kie-Ntem, Litoral, Wele-Nzas",
@@ -206,29 +353,47 @@
 	"economy": {
 		"Economy - overview": "The discovery and exploitation of large oil and gas reserves have contributed to dramatic economic growth but fluctuating oil prices have produced huge swings in GDP growth in recent years. Forestry and farming are also minor components of GDP. Subsistence farming is the dominate form of livelihood. Although pre-independence Equatorial Guinea counted on cocoa production for hard currency earnings, the neglect of the rural economy under successive regimes has diminished potential for agriculture-led growth (the government has stated its intention to reinvest some oil revenue into agriculture). A number of aid programs sponsored by the World Bank and the IMF have been cut off since 1993 because of corruption and mismanagement. The government has been widely criticized for its lack of transparency and misuse of oil revenues; however, in 2010, under Equatorial Guinea's candidacy in the Extractive Industries Transparency Initiative, the government published oil revenue figures for the first time. Undeveloped natural resources include gold, zinc, diamonds, columbite-tantalite, and other base metals. Growth remained strong in 2008, when oil production peaked, but slowed in 2009-10, as the price of oil and the production level fell.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$23.82 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 23820000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$14.49 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 14490000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-0.8% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$36,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.2%",
-			"industry:": "93.9%",
-			"services:": "3.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 93.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 3.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "195,200 (2007)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "22.3% (2009 est.)",
+			"Unemployment rate": {
+				"quantity": 22.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -237,92 +402,159 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "29.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 29.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$6.739 billion",
-			"expenditures:": "$6.984 billion (2010 est.)"
+			"revenues:": {
+				"usd": 6739000000
+			},
+			"expenditures:": {
+				"usd": 6984000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "4.1% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 4.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "8.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 8.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.86 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1860000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.207 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2207000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.534 billion (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 1534000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coffee, cocoa, rice, yams, cassava (tapioca), bananas, palm oil nuts; livestock; timber",
 		"Industries": "petroleum, natural gas, sawmilling",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "28 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 28000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "26.04 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 26040000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "346,000 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 346000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "362,900 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 362900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,114 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1114,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.1 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1100000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "6.67 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 6670000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.5 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "5.17 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 5170000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "36.81 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 36810000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -330,34 +562,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$10.24 billion (2010 est.)",
+			"Exports": {
+				"usd": 10240000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum products, timber",
 		"Exports - partners": "US 30.31%, China 12.54%, Japan 9.21%, Spain 7.5%, South Korea 7.01%, Taiwan 5.63%, Italy 5.38%, Netherlands 4.09% (2009)",
 		"Imports": {
-			"Imports": "$5.743 billion (2010 est.)",
+			"Imports": {
+				"usd": 5743000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum sector equipment, other equipment, construction materials, vehicles",
 		"Imports - partners": "China 19.97%, US 17.28%, Spain 14.94%, France 9.49%, Cote d'Ivoire 6.34%, Italy 5.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.086 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4086000000.0000005
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$832 million (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 832000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "10,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "445,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -368,34 +608,37 @@
 		"Broadcast media": "state maintains control of broadcast media with domestic broadcast media limited to 1 state-owned TV station, 1 state-owned radio station, and 1 private radio station owned by the president's eldest son; satellite TV service is available; transmissions of multiple international broadcasters are accessible (2007)",
 		"Internet country code": ".gq",
 		"Internet hosts": {
-			"Internet hosts": "9 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "7 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "6",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Pipelines": "gas 37 km (2010)",
 		"Roadways": {
-			"total:": "2,880 km (2000)",
+			"total:": {
+				"quantity": 2880,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "4",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, chemical tanker 1, petroleum tanker 2",
 			"foreign-owned:": "1 (Norway 1) (2010)"
@@ -406,16 +649,16 @@
 		"Military branches": "National Guard (Guardia Nacional de Guinea Ecuatoria, GNGE (Army), with Coast Guard (Navy) and Air Wing) (2010)",
 		"Military service age and obligation": "18 years of age for selective compulsory military service; service obligation 2 years; women hold only administrative positions in the Coast Guard (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "151,147",
-			"females age 16-49:": "150,345 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "113,277",
-			"females age 16-49:": "115,320 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "7,398",
-			"female:": "7,126 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

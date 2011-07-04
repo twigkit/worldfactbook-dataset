@@ -5,19 +5,46 @@
 	"background": "This uninhabited volcanic island is almost entirely covered by glaciers and is difficult to approach. It was discovered in 1739 by a French naval officer after whom the island was named. No claim was made until 1825, when the British flag was raised. In 1928, the UK waived its claim in favor of Norway, which had occupied the island the previous year. In 1971, Norway designated Bouvet Island and the adjacent territorial waters a nature reserve. Since 1977, it has run an automated meteorological station on the island.",
 	"geo": {
 		"Location": "island in the South Atlantic Ocean, southwest of the Cape of Good Hope (South Africa)",
-		"Geographic coordinates": "54 26 S, 3 24 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 54,
+				"seconds": 26
+			},
+			"E": {
+				"minutes": 3,
+				"seconds": 24
+			}
+		},
 		"Map references": "Antarctic Region",
 		"Area": {
-			"total:": "49 sq km",
+			"total:": {
+				"quantity": 49,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "49 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 49,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 0.3 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "29.6 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 29.6,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "4 nm"
+			"territorial sea:": {
+				"quantity": 4,
+				"unit": "nm"
+			}
 		},
 		"Climate": "antarctic",
 		"Terrain": "volcanic; coast is mostly inaccessible",
@@ -27,11 +54,20 @@
 		},
 		"Natural resources": "none",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "100% (93% ice) (2005)"
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "NA",
 		"Geography - note": {}
@@ -54,7 +90,7 @@
 	"commerce": {
 		"Internet country code": ".bv",
 		"Internet hosts": {
-			"Internet hosts": "6 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Communications - note": {}

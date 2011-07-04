@@ -5,20 +5,44 @@
 	"background": "Founded in 963, Luxembourg became a grand duchy in 1815 and an independent state under the Netherlands. It lost more than half of its territory to Belgium in 1839 but gained a larger measure of autonomy. Full independence was attained in 1867. Overrun by Germany in both world wars, it ended its neutrality in 1948 when it entered into the Benelux Customs Union and when it joined NATO the following year. In 1957, Luxembourg became one of the six founding countries of the European Economic Community (later the European Union), and in 1999 it joined the euro currency area.",
 	"geo": {
 		"Location": "Western Europe, between France and Germany",
-		"Geographic coordinates": "49 45 N, 6 10 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 49,
+				"seconds": 45
+			},
+			"E": {
+				"minutes": 6,
+				"seconds": 10
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "2,586 sq km",
+			"total:": {
+				"quantity": 2586,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "2,586 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 2586,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Rhode Island",
 		"Land boundaries": {
-			"total:": "359 km",
+			"total:": {
+				"quantity": 359,
+				"unit": "km"
+			},
 			"border countries:": "Belgium 148 km, France 73 km, Germany 138 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "modified continental with mild winters, cool summers",
 		"Terrain": "mostly gently rolling uplands with broad, shallow valleys; uplands to slightly mountainous in the north; steep slope down to Moselle flood plain in the southeast",
@@ -28,15 +52,30 @@
 		},
 		"Natural resources": "iron ore (no longer exploited), arable land",
 		"Land use": {
-			"arable land:": "27.42%",
-			"permanent crops:": "0.69%",
+			"arable land:": {
+				"quantity": 27.42,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.69,
+				"unit": "%"
+			},
 			"other:": "71.89% (includes Belgium) (2005)"
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "1.6 cu km (2005)",
+		"Total renewable water resources": {
+			"quantity": 1.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.06  cu km/yr (42%/45%/13%)",
-			"per capita:": "121  cu m/yr (1999)"
+			"total:": {
+				"quantity": 0.06,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 121,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "air and water pollution in urban areas, soil pollution of farmland",
@@ -48,65 +87,137 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "503,302 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "18.2% (male 47,274/female 44,366)",
-			"15-64 years:": "66.9% (male 169,343/female 167,211)",
+			"0-14 years:": {
+				"quantity": 18.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.9,
+				"unit": "%"
+			},
 			"65 years and over:": "14.9% (male 31,086/female 44,022) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "39.4 years",
-			"male:": "38.4 years",
-			"female:": "40.4 years (2011 est.)"
+			"total:": {
+				"quantity": 39.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 40.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.145% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.145,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.69 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.69,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.48 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.48,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "8.24 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 8.24,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "85% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 85,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LUXEMBOURG (capital) 90,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.066 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.7 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.066,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.44 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.44,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.46 deaths/1,000 live births",
-			"female:": "4.42 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.46,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.42,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.61 years",
+			"total population:": {
+				"quantity": 79.61,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "76.36 years",
-			"female:": "83.08 years (2011 est.)"
+			"male:": {
+				"quantity": 76.36,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 83.08,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.77 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.77,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
@@ -128,14 +239,32 @@
 		"Languages": "Luxembourgish (national language), German (administrative language), French (administrative language)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "100%",
-			"male:": "100%",
-			"female:": "100% (2000 est.)"
+			"total population:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2006)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -149,12 +278,21 @@
 		"Government type": "constitutional monarchy",
 		"Capital": {
 			"name:": "Luxembourg",
-			"geographic coordinates:": "49 36 N, 6 07 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 49,
+					"seconds": 36
+				},
+				"E": {
+					"minutes": 6,
+					"seconds": 7
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
 		"Administrative divisions": "3 districts; Diekirch, Grevenmacher, Luxembourg",
-		"Independence": "1839 (from the Netherlands)",
+		"Independence": null,
 		"National holiday": "National Day (Birthday of Grand Duchess Charlotte) 23 June; note - the actual date of birth was 23 January 1896, but the festivities were shifted by five months to allow observance during a more favorable time of year",
 		"Constitution": "17 October 1868; occasional revisions",
 		"Legal system": "civil law system",
@@ -195,156 +333,269 @@
 	"economy": {
 		"Economy - overview": "This small, stable, high-income economy - benefiting from its proximity to France, Belgium, and Germany - has historically featured solid growth, low inflation, and low unemployment. The industrial sector, initially dominated by steel, has become increasingly diversified to include chemicals, rubber, and other products. Growth in the financial sector, which now accounts for about 28% of GDP, has more than compensated for the decline in steel. Most banks are foreign owned and have extensive foreign dealings, but Luxembourg has lost some of its advantages as a tax haven because of OECD and EU pressure. The economy depends on foreign and cross-border workers for about 60% of its labor force. Luxembourg, like all EU members, suffered from the global economic crisis that began in late 2008, but unemployment has trended below the EU average. Following strong expansion from 2004 to 2007, Luxembourg's economy contracted and 3.7% in 2009, but rebounded 3.2% in 2010. The country continues to enjoy an extraordinarily high standard of living - GDP per capita ranks third in the world, after Liechtenstein and Qatar, and is the highest in the EU. Turmoil in the world financial markets and lower global demand during 2008-09 prompted the government to inject capital into the banking sector and implement stimulus measures to boost the economy. Government stimulus measures and support for the banking sector, however, led to a 5% government budget deficit in 2009. Nevertheless, the deficit was cut below 3% in 2010.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$41.09 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 41090000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$54.95 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 54950000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$82,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.4%",
-			"industry:": "13.6%",
-			"services:": "86% (2007 est.)"
+			"agriculture:": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 13.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 86,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "206,000",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2.2%",
-			"industry:": "17.2%",
-			"services:": "80.6% (2007 est.)"
+			"agriculture:": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 17.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 80.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "5.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.5%",
-			"highest 10%:": "23.8% (2000)"
+			"lowest 10%:": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 23.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "16.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 16.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$20.88 billion",
-			"expenditures:": "$22.11 billion (2010 est.)"
+			"revenues:": {
+				"usd": 20880000000
+			},
+			"expenditures:": {
+				"usd": 22110000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "16.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 16.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$120.8 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 120800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$255.5 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 255500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$395.1 billion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 395100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$105.6 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 105600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grapes, barley, oats, potatoes, wheat, fruits; dairy and livestock products",
 		"Industries": "banking and financial services, iron and steel, information technology, telecommunications, cargo transportation, food processing, chemicals, metal products, engineering, tires, glass, aluminum, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.7% (2009 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "2.696 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 2696000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "6.525 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 6525000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "2.483 billion kWh (2008 est.)",
-		"Electricity - imports": "6.83 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 2483000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 6830000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "50,720 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 50720,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "63 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 63,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "59,210 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 59210,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.268 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1268000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.263 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 1263000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$3.396 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 3396000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$17.82 billion (2010 est.)",
+			"Exports": {
+				"usd": 17820000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and equipment, steel products, chemicals, rubber products, glass",
 		"Exports - partners": "Germany 19.78%, France 15.87%, Belgium 11.07%, UK 7.96%, Italy 7.49%, Netherlands 4.31% (2009)",
 		"Imports": {
-			"Imports": "$23.67 billion (2010 est.)",
+			"Imports": {
+				"usd": 23670000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "minerals, metals, foodstuffs, quality consumer goods",
 		"Imports - partners": "Belgium 27.22%, Germany 23.14%, China 18.62%, France 8.85%, Netherlands 5.06% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$1.892 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 1892000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA (31 December 2009 est.)",
@@ -353,11 +604,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "273,600 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "719,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -368,33 +619,39 @@
 		"Broadcast media": "Luxembourg has a long tradition of  operating radio and TV services to pan-European audiences and is home to Europe's largest privately-owned broadcast media group, the RTL group, which operates 45 television stations and 31 radio stations in Europe; also home to Europe's largest satellite operator, Societe Europeenne des Satellites (SES); domestically, the RTL group operates TV and radio networks; other domestic private radio and TV operators and French and German stations are available; satellite and cable TV services are accessible (2008)",
 		"Internet country code": ".lu",
 		"Internet hosts": {
-			"Internet hosts": "244,225 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 142 km; refined products 27 km (2010)",
 		"Railways": {
-			"total:": "275 km",
+			"total:": {
+				"quantity": 275,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "275 km 1.435-m gauge (243 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "5,227 km",
+			"total:": {
+				"quantity": 5227,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "5,227 km (includes 147 km of expressways) (2008)"
 		},
@@ -403,10 +660,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "47",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, cargo 3, chemical tanker 16, container 10, passenger 3, petroleum tanker 2, roll on/roll off 10",
-			"foreign-owned:": "45 (Belgium 9, France 16, Germany 9, Netherlands 2, Switzerland 1, UK 5, US 3)",
+			"foreign-owned:": null,
 			"registered in other countries:": "16 (Italy 12, Malta 3, Panama 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -415,16 +672,16 @@
 		"Military branches": "Army (2010)",
 		"Military service age and obligation": "17-25 years of age for male and female voluntary military service; soldiers under 18 are not deployed into combat or with peacekeeping missions; no conscription; Luxembourg citizen or EU citizen with 3-year residence in Luxembourg (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "118,665",
-			"females age 16-49:": "117,456 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "97,290",
-			"females age 16-49:": "96,361 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "3,263",
-			"female:": "3,084 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

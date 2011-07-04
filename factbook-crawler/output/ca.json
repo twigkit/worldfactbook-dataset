@@ -5,24 +5,57 @@
 	"background": "A land of vast distances and rich natural resources, Canada became a self-governing dominion in 1867 while retaining ties to the British crown. Economically and technologically, the nation has developed in parallel with the US, its neighbor to the south across the World's longest unfortified border. Canada faces the political challenges of meeting public demands for quality improvements in health care, and education, social services, and economic competitiveness, as well as responding to the particular concerns of predominantly francophone Quebec. Canada also aims to develop its diverse energy resources while maintaining its commitment to the environment.",
 	"geo": {
 		"Location": "Northern North America, bordering the North Atlantic Ocean on the east, North Pacific Ocean on the west, and the Arctic Ocean on the north, north of the conterminous US",
-		"Geographic coordinates": "60 00 N, 95 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 60,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 95,
+				"seconds": 0
+			}
+		},
 		"Map references": "North America",
 		"Area": {
-			"total:": "9,984,670 sq km",
+			"total:": {
+				"quantity": 9984,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "9,093,507 sq km",
-			"water:": "891,163 sq km"
+			"land:": {
+				"quantity": 9093,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 891163,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than the US",
 		"Land boundaries": {
-			"total:": "8,893 km",
+			"total:": {
+				"quantity": 8893,
+				"unit": "km"
+			},
 			"border countries:": "US 8,893 km (includes 2,477 km with Alaska)"
 		},
-		"Coastline": "202,080 km",
+		"Coastline": {
+			"quantity": 202080,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "varies from temperate in south to subarctic and arctic in north",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "iron ore, nickel, zinc, copper, gold, lead, rare earth elements, molybdenum, potash, diamonds, silver, fish, timber, wildlife, coal, petroleum, natural gas, hydropower",
 		"Land use": {
-			"arable land:": "4.57%",
-			"permanent crops:": "0.65%",
-			"other:": "94.78% (2005)"
+			"arable land:": {
+				"quantity": 4.57,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.65,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 94.78,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "8,550 sq km (2008)",
-		"Total renewable water resources": "3,300 cu km (1985)",
+		"Irrigated land": {
+			"quantity": 8550,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 3300,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "44.72  cu km/yr (20%/69%/12%)",
-			"per capita:": "1,386  cu m/yr (1996)"
+			"total:": {
+				"quantity": 44.72,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1386,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "continuous permafrost in north is a serious obstacle to development; cyclonic storms form east of the Rocky Mountains, a result of the mixing of air masses from the Arctic, Pacific, and North American interior, and produce most of the country's rain and snow east of the mountains",
@@ -56,69 +110,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "34,030,589 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.7% (male 2,736,737/female 2,602,342)",
-			"15-64 years:": "68.5% (male 11,776,611/female 11,517,972)",
+			"0-14 years:": {
+				"quantity": 15.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.5,
+				"unit": "%"
+			},
 			"65 years and over:": "15.9% (male 2,372,356/female 3,024,571) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41 years",
-			"male:": "39.8 years",
-			"female:": "42.1 years (2011 est.)"
+			"total:": {
+				"quantity": 41,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 42.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.794% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.794,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.28 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.28,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.98 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.98,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "5.65 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 5.65,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "81% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 81,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Toronto 5.377 million; Montreal 3.75 million; Vancouver 2.197 million; OTTAWA (capital) 1.17 million; Calgary 1.16 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.056 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.78 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.056,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.78,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.92 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.92,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "5.26 deaths/1,000 live births",
-			"female:": "4.56 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 5.26,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.56,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.38 years",
+			"total population:": {
+				"quantity": 81.38,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.81 years",
-			"female:": "84.1 years (2011 est.)"
+			"male:": {
+				"quantity": 78.81,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.1,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.58 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.58,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "68,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -136,14 +262,32 @@
 		"Languages": "English (official) 58.8%, French (official) 21.6%, other 19.6% (2006 Census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "17 years",
-			"male:": "17 years",
-			"female:": "17 years (2004)"
+			"total:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -155,7 +299,16 @@
 		"Government type": "a parliamentary democracy, a federation, and a constitutional monarchy",
 		"Capital": {
 			"name:": "Ottawa",
-			"geographic coordinates:": "45 25 N, 75 42 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 45,
+					"seconds": 25
+				},
+				"W": {
+					"minutes": 75,
+					"seconds": 42
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins second Sunday in March; ends first Sunday in November"
 		},
@@ -203,143 +356,260 @@
 	"economy": {
 		"Economy - overview": "As an affluent, high-tech industrial society in the trillion-dollar class, Canada resembles the US in its market-oriented economic system, pattern of production, and affluent living standards. Since World War II, the impressive growth of the manufacturing, mining, and service sectors has transformed the nation from a largely rural economy into one primarily industrial and urban. The 1989 US-Canada Free Trade Agreement (FTA) and the 1994 North American Free Trade Agreement (NAFTA) (which includes Mexico) touched off a dramatic increase in trade and economic integration with the US, its principal trading partner. Canada enjoys a substantial trade surplus with the US, which absorbs about three-fourths of Canadian exports each year. Canada is the US's largest foreign supplier of energy, including oil, gas, uranium, and electric power. Given its great natural resources, skilled labor force, and modern capital plant, Canada enjoyed solid economic growth from 1993 through 2007. Buffeted by the global economic crisis, the economy dropped into a sharp recession in the final months of 2008, and Ottawa posted its first fiscal deficit in 2009 after 12 years of surplus. Canada's major banks, however, emerged from the financial crisis of 2008-09 among the strongest in the world, owing to the financial sector's tradition of conservative lending practices and strong capitalization. During 2010, Canada's economy grew only 3%, due to decreased global demand and a highly valued Canadian dollar.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.33 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1330000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.574 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1574000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$39,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2%",
-			"industry:": "20%",
-			"services:": "78% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 78,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "18.59 million (2010 est.)",
+			"Labor force": 18590000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2%",
-			"manufacturing:": "13%",
-			"construction:": "6%",
-			"services:": "76%",
-			"other:": "3% (2006 est.)"
+			"agriculture:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"manufacturing:": {
+				"quantity": 13,
+				"unit": "%"
+			},
+			"construction:": {
+				"quantity": 6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 76,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 3,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": {
-			"Population below poverty line": "9.4%"
+			"Population below poverty line": {
+				"quantity": 9.4,
+				"unit": "%"
+			}
 		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.1%",
-			"highest 10%:": "46% (2005)"
+			"lowest 10%:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 46,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "32.1 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$605.7 billion",
-			"expenditures:": "$677.7 billion (2010 est.)"
+			"revenues:": {
+				"usd": 605700000000
+			},
+			"expenditures:": {
+				"usd": 677700000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "34% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 34,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "3% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$560.8 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 560800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.469 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1469000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.963 trillion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2963000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.681 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1681000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, barley, oilseed, tobacco, fruits, vegetables; dairy products; forest products; fish",
 		"Industries": "transportation equipment, chemicals, processed and unprocessed minerals, food products, wood and paper products, fish products, petroleum and natural gas",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5.8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "620.7 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 620700000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "536.1 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 536100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "55.73 billion kWh (2008 est.)",
-		"Electricity - imports": "23.5 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 55730000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 23500000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "3.289 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 3289000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2.151 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2151000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.001 million bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 2001000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1.192 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 1192000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "175.2 billion bbl",
+			"Oil - proved reserves": {
+				"quantity": 175200000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "161.3 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 161300000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "94.62 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 94620000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "94.67 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 94670000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "16.59 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 16590000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.754 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1754000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -347,39 +617,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$406.8 billion (2010 est.)",
+			"Exports": {
+				"usd": 406800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "motor vehicles and parts, industrial machinery, aircraft, telecommunications equipment; chemicals, plastics, fertilizers; wood pulp, timber, crude petroleum, natural gas, electricity, aluminum",
 		"Exports - partners": "US 75.02%, UK 3.37%, China 3.09% (2009)",
 		"Imports": {
-			"Imports": "$406.4 billion (2010 est.)",
+			"Imports": {
+				"usd": 406400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, motor vehicles and parts, crude oil, chemicals, electricity, durable consumer goods",
 		"Imports - partners": "US 51.1%, China 10.88%, Mexico 4.56% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$1.009 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 1008999999999.9999
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$528.7 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 528700000000.00006
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$602.5 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 602500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "18.251 million (2009)",
+			"Telephones - main lines in use": 18251000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "23.081 million (2009)",
+			"Telephones - mobile cellular": 23081000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -390,51 +670,63 @@
 		"Broadcast media": "2 public television broadcasting networks each with a large number of network affiliates; several private-commercial networks also with multiple network affiliates; overall, about 150 TV stations; multi-channel satellite and cable systems provide access to a wide range of stations including US stations; mix of public and commercial radio broadcasters with the Canadian Broadcasting Corporation (CBC), the public radio broadcaster, operating 4 radio networks, Radio Canada International, and radio services to indigenous populations in the north; roughly 2,000 licensed radio stations in Canada (2008)",
 		"Internet country code": ".ca",
 		"Internet hosts": {
-			"Internet hosts": "7.77 million (2010)",
+			"Internet hosts": 7770000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1,404 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "514",
-			"over 3,047 m:": "18",
-			"2,438 to 3,047 m:": "20",
-			"1,524 to 2,437 m:": "148",
-			"914 to 1,523 m:": "249"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "890",
-			"1,524 to 2,437 m:": "73",
-			"914 to 1,523 m:": "377",
-			"under 914 m:": "440 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "12 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 835 km; liquid petroleum gas 75,000 km (2010)",
 		"Railways": {
-			"total:": "46,552 km",
+			"total:": {
+				"quantity": 46552,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "46,552 km 1.435-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "1,042,300 km",
+			"total:": {
+				"quantity": 1042,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "415,600 km (includes 17,000 km of expressways)",
-			"unpaved:": "626,700 km (2009)"
+			"paved:": {
+				"quantity": 415600,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 626700,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "636 km (Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, shared with United States) (2008)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "184",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 66, cargo 12, carrier 1, chemical tanker 14, combination ore/oil 1, container 2, passenger 6, passenger/cargo 64, petroleum tanker 12, roll on/roll off 6",
-			"foreign-owned:": "15 (France 1, Netherlands 1, Norway 4, US 9)",
+			"foreign-owned:": null,
 			"registered in other countries:": "223 (Australia 7, Bahamas 102, Barbados 13, Cambodia 2, Cyprus 2, Honduras 1, Hong Kong 70, Liberia 4, Malta 1, Marshall Islands 4, Norway 1, Panama 5, Spain 5, US 1, Vanuatu 5) (2010)"
 		},
 		"Ports and terminals": {}
@@ -443,16 +735,16 @@
 		"Military branches": "Canadian Forces: Land Forces Command (LFC), Maritime Command (MARCOM), Air Command (AIRCOM), Canada Command (homeland security) (2011)",
 		"Military service age and obligation": "17 years of age for voluntary male and female military service (with parental consent); 16 years of age for reserve and military college applicants; Canadian citizenship or permanent residence status required; maximum 34 years of age; service obligation 3-9 years (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "8,031,266",
-			"females age 16-49:": "7,755,550 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,633,472",
-			"females age 16-49:": "6,389,669 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "218,069",
-			"female:": "206,195 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

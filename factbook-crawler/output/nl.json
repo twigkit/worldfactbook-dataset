@@ -5,24 +5,57 @@
 	"background": "The Dutch United Provinces declared their independence from Spain in 1579; during the 17th century, they became a leading seafaring and commercial power, with settlements and colonies around the world. After a 20-year French occupation, a Kingdom of the Netherlands was formed in 1815. In 1830 Belgium seceded and formed a separate kingdom. The Netherlands remained neutral in World War I, but suffered invasion and occupation by Germany in World War II. A modern, industrialized nation, the Netherlands is also a large exporter of agricultural products. The country was a founding member of NATO and the EEC (now the EU), and participated in the introduction of the euro in 1999. In October 2010, the former Netherlands Antilles was dissolved and the three smallest islands - Bonaire, Sint Eustatius, and Saba - became special municipalities in the Netherlands administrative structure. The larger islands of Sint Maarten and Curacao joined the Netherlands and Aruba as constituent countries forming the Kingdom of the Netherlands.",
 	"geo": {
 		"Location": "Western Europe, bordering the North Sea, between Belgium and Germany",
-		"Geographic coordinates": "52 30 N, 5 45 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 52,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 5,
+				"seconds": 45
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "41,543 sq km",
+			"total:": {
+				"quantity": 41543,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "33,893 sq km",
-			"water:": "7,650 sq km"
+			"land:": {
+				"quantity": 33893,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 7650,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of New Jersey",
 		"Land boundaries": {
-			"total:": "1,027 km",
+			"total:": {
+				"quantity": 1027,
+				"unit": "km"
+			},
 			"border countries:": "Belgium 450 km, Germany 577 km"
 		},
-		"Coastline": "451 km",
+		"Coastline": {
+			"quantity": 451,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate; marine; cool summers and mild winters",
 		"Terrain": "mostly coastal lowland and reclaimed land (polders); some hills in southeast",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "natural gas, petroleum, peat, limestone, salt, sand and gravel, arable land",
 		"Land use": {
-			"arable land:": "21.96%",
-			"permanent crops:": "0.77%",
-			"other:": "77.27% (2005)"
+			"arable land:": {
+				"quantity": 21.96,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.77,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 77.27,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "4,600 sq km (2008)",
-		"Total renewable water resources": "89.7 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 4600,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 89.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "8.86  cu km/yr (6%/60%/34%)",
-			"per capita:": "544  cu m/yr (2001)"
+			"total:": {
+				"quantity": 8.86,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 544,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "flooding",
 		"Environment - current issues": "water pollution in the form of heavy metals, organic compounds, and nutrients such as nitrates and phosphates; air pollution from vehicles and refining activities; acid rain",
@@ -52,69 +106,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "16,847,007 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "17% (male 1,466,218/female 1,398,463)",
-			"15-64 years:": "67.4% (male 5,732,042/female 5,624,408)",
+			"0-14 years:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.4,
+				"unit": "%"
+			},
 			"65 years and over:": "15.6% (male 1,141,507/female 1,484,369) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41.1 years",
-			"male:": "40.3 years",
-			"female:": "41.9 years (2011 est.)"
+			"total:": {
+				"quantity": 41.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.371% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.371,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.23 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.23,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.85 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.85,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.33 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.33,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "83% of total population (2010)",
-			"rate of urbanization:": "0.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 83,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "AMSTERDAM (capital) 1.044 million; Rotterdam 1.008 million; The Hague (seat of government) 629,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.052 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.76 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.052,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.76,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.59 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.59,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "5.08 deaths/1,000 live births",
-			"female:": "4.07 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 5.08,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.07,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.68 years",
+			"total population:": {
+				"quantity": 79.68,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "77.06 years",
-			"female:": "82.44 years (2011 est.)"
+			"male:": {
+				"quantity": 77.06,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.44,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.66 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.66,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "22,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -132,14 +258,32 @@
 		"Languages": "Dutch (official), Frisian (official)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "17 years",
-			"male:": "17 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +297,16 @@
 		"Government type": "constitutional monarchy",
 		"Capital": {
 			"name:": "Amsterdam",
-			"geographic coordinates:": "52 23 N, 4 54 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 52,
+					"seconds": 23
+				},
+				"E": {
+					"minutes": 4,
+					"seconds": 54
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -200,153 +353,270 @@
 	"economy": {
 		"Economy - overview": "The Netherlands economy is noted for stable industrial relations, moderate unemployment and inflation, a sizable current account surplus, and an important role as a European transportation hub. Industrial activity is predominantly in food processing, chemicals, petroleum refining, and electrical machinery. A highly mechanized agricultural sector employs only 2% of the labor force but provides large surpluses for the food-processing industry and for exports. The Netherlands, along with 11 of its EU partners, began circulating the euro currency on 1 January 2002. The country has been one of the leading European nations for attracting foreign direct investment and is one of the four largest investors in the US. After 26 years of uninterrupted economic growth, the Netherlands' economy - which is highly open and dependent on foreign trade and financial services - was hard-hit by global economic crisis. Dutch GDP contracted 3.9% in 2009, while exports declined nearly 25% due to a sharp contraction in world demand. The Dutch financial sector has also suffered, due in part to the high exposure of some Dutch banks to U.S. mortgage-backed securities. In response to turmoil in financial markets, the government nationalized two banks and injected billions of dollars into a third, to prevent further systemic risk. The government also sought to boost the domestic economy by accelerating infrastructure programs, offering corporate tax breaks for employers to retain workers, and expanding export credit facilities. The stimulus programs and bank bailouts, however, resulted in a government budget deficit of nearly 4.6% of GDP in 2009 and 5.6% in 2010 that contrasts sharply with a surplus of 0.7% of GDP in 2008. With unemployment weighing on private-sector consumption, the government of Prime Minister Mark RUTTE is likely to come under increased pressure to keep the budget deficit in check while promoting economic recovery.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$676.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 676900000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$783.3 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 783300000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$40,300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.6%",
-			"industry:": "24.9%",
-			"services:": "72.4% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 72.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "7.86 million (2010 est.)",
+			"Labor force": 7860000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2%",
-			"industry:": "18%",
-			"services:": "80% (2005 est.)"
+			"agriculture:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 18,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 80,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "5.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "10.5% (2005)",
+		"Population below poverty line": {
+			"quantity": 10.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.5%",
-			"highest 10%:": "22.9% (1999)"
+			"lowest 10%:": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 22.9,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "30.9 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$356 billion",
-			"expenditures:": "$399.3 billion (2010 est.)"
+			"revenues:": {
+				"usd": 356000000000
+			},
+			"expenditures:": {
+				"usd": 399300000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "64.6% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 64.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.01% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.01,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$368.1 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 368100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.124 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1124000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.083 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 2083000000000.0002
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$542.5 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 542500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grains, potatoes, sugar beets, fruits, vegetables; livestock",
 		"Industries": "agroindustries, metal and engineering products, electrical machinery and equipment, chemicals, petroleum, construction, microelectronics, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "108.2 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 108200000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "124.1 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 124100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "10.56 billion kWh (2009 est.)",
-		"Electricity - imports": "15.45 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 10560000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 15450000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "57,190 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 57190,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "922,800 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 922800,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.66 million bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 1660000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "2.426 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 2426000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "100 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 100000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "79.58 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 79580000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "48.6 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 48600000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "55.59 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 55590000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "24.6 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 24600000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.416 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1416000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$46.69 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 46690000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$451.3 billion (2010 est.)",
+			"Exports": {
+				"usd": 451300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and equipment, chemicals, fuels; foodstuffs",
 		"Exports - partners": "Germany 25.54%, Belgium 12.49%, France 9.27%, UK 8.17%, Italy 5.07%, US 3.97% (2009)",
 		"Imports": {
-			"Imports": "$408.4 billion (2010 est.)",
+			"Imports": {
+				"usd": 408400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, chemicals, fuels, foodstuffs, clothing",
@@ -354,22 +624,26 @@
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": "$NA (30 June 2010)",
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$687.8 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 687800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$950.8 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 950800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "7.32 million (2009)",
+			"Telephones - main lines in use": 7320000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "21.182 million (2009)",
+			"Telephones - mobile cellular": 21182000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,32 +654,35 @@
 		"Broadcast media": "more than 90% of households are connected to cable or satellite TV systems that provide a wide range of domestic and foreign channels; public service broadcast system includes multiple broadcasters, 3 with a national reach and the remainder operating in regional and local markets; 2 major nationwide commercial television companies, each with 3 or more stations, and a large number of commercial TV stations in regional and local markets; nearly 600 radio stations operating with a mix of public and private stations providing national or regional coverage (2008)",
 		"Internet country code": ".nl",
 		"Internet hosts": {
-			"Internet hosts": "12.607 million (2010)",
+			"Internet hosts": 12607000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "27 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "20",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "9",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "7",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "4 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 4,413 km; oil 365 km; refined products 716 km (2010)",
 		"Railways": {
-			"total:": "2,896 km",
+			"total:": {
+				"quantity": 2896,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "2,896 km 1.435-m gauge (2,195 km electrified) (2010)"
 		},
@@ -418,10 +695,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "706",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 464, carrier 21, chemical tanker 57, container 73, liquefied gas 19, passenger 17, passenger/cargo 15, petroleum tanker 5, refrigerated cargo 10, roll on/roll off 21, specialized tanker 3",
-			"foreign-owned:": "217 (Australia 1, Denmark 36, Finland 14, France 2, Germany 92, Ireland 7, Italy 9, Japan 1, Norway 18, Sweden 18, UAE 4, US 15)",
+			"foreign-owned:": null,
 			"registered in other countries:": "240 (Antigua and Barbuda 18, Australia 1, Bahamas 22, Belize 1, Cambodia 1, Canada 1, Cyprus 24, Gibraltar 33, Liberia 35, Luxembourg 2, Malta 2, Marshall Islands 16, former Netherlands Antilles 52, Panama 8, Paraguay 1, Philippines 18, Portugal 1, Saint Vincent and the Grenadines 2, Singapore 1, unknown 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -430,16 +707,16 @@
 		"Military branches": "Royal Netherlands Army, Royal Netherlands Navy (includes Naval Air Service and Marine Corps), Royal Netherlands Air Force (Koninklijke Luchtmacht, KLu), Royal Military Police (2010)",
 		"Military service age and obligation": "20 years of age for an all-volunteer force (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "3,911,098",
-			"females age 16-49:": "3,817,031 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "3,201,328",
-			"females age 16-49:": "3,122,889 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "103,462",
-			"female:": "98,383 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

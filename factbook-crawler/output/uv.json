@@ -5,20 +5,44 @@
 	"background": "Burkina Faso (formerly Upper Volta) achieved independence from France in 1960. Repeated military coups during the 1970s and 1980s were followed by multiparty elections in the early 1990s. Current President Blaise COMPAORE came to power in a 1987 military coup and has won every election since then. Burkina Faso's high population density and limited natural resources result in poor economic prospects for the majority of its citizens. Recent unrest in Cote d'Ivoire and northern Ghana has hindered the ability of several hundred thousand seasonal Burkinabe farm workers to find employment in neighboring countries.",
 	"geo": {
 		"Location": "Western Africa, north of Ghana",
-		"Geographic coordinates": "13 00 N, 2 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 13,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 2,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "274,200 sq km",
+			"total:": {
+				"quantity": 274200,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "273,800 sq km",
-			"water:": "400 sq km"
+			"land:": {
+				"quantity": 273800,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 400,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Colorado",
 		"Land boundaries": {
-			"total:": "3,193 km",
+			"total:": {
+				"quantity": 3193,
+				"unit": "km"
+			},
 			"border countries:": "Benin 306 km, Cote d'Ivoire 584 km, Ghana 549 km, Mali 1,000 km, Niger 628 km, Togo 126 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "tropical; warm, dry winters; hot, wet summers",
 		"Terrain": "mostly flat to dissected, undulating plains; hills in west and southeast",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "manganese, limestone, marble; small deposits of gold, phosphates, pumice, salt",
 		"Land use": {
-			"arable land:": "17.66%",
-			"permanent crops:": "0.22%",
-			"other:": "82.12% (2005)"
+			"arable land:": {
+				"quantity": 17.66,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.22,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 82.12,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "300 sq km (2008)",
-		"Total renewable water resources": "17.5 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 300,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 17.5,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.8  cu km/yr (13%/1%/86%)",
-			"per capita:": "60  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.8,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 60,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "recurring droughts",
 		"Environment - current issues": "recent droughts and desertification severely affecting agricultural activities, population distribution, and the economy; overgrazing; soil degradation; deforestation",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "16,751,455 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "45.8% (male 3,849,350/female 3,828,483)",
-			"15-64 years:": "51.7% (male 4,320,779/female 4,334,197)",
+			"0-14 years:": {
+				"quantity": 45.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51.7,
+				"unit": "%"
+			},
 			"65 years and over:": "2.5% (male 162,157/female 256,489) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.9 years",
-			"male:": "16.7 years",
-			"female:": "17.1 years (2011 est.)"
+			"total:": {
+				"quantity": 16.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.085% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.085,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "43.59 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 43.59,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "12.74 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 12.74,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "26% of total population (2010)",
-			"rate of urbanization:": "6.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 26,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 6.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "OUAGADOUGOU (capital) 1.777 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.64 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.64,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "81.4 deaths/1,000 live births",
+			"total:": {
+				"quantity": 81.4,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "88.88 deaths/1,000 live births",
-			"female:": "73.69 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 88.88,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 73.69,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "53.7 years",
+			"total population:": {
+				"quantity": 53.7,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "51.75 years",
-			"female:": "55.71 years (2011 est.)"
+			"male:": {
+				"quantity": 51.75,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 55.71,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "6.14 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 6.14,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "110,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "7,100 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +252,32 @@
 		"Languages": "French (official), native African languages belonging to Sudanic family spoken by 90% of the population",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "21.8%",
-			"male:": "29.4%",
-			"female:": "15.2% (2003 est.)"
+			"total population:": {
+				"quantity": 21.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 29.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 15.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "6 years",
-			"male:": "7 years",
-			"female:": "6 years (2009)"
+			"total:": {
+				"quantity": 6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 6,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -157,7 +292,16 @@
 		"Government type": "parliamentary republic",
 		"Capital": {
 			"name:": "Ouagadougou",
-			"geographic coordinates:": "12 22 N, 1 31 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 22
+				},
+				"W": {
+					"minutes": 1,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "45 provinces; Bale, Bam, Banwa, Bazega, Bougouriba, Boulgou, Boulkiemde, Comoe, Ganzourgou, Gnagna, Gourma, Houet, Ioba, Kadiogo, Kenedougou, Komondjari, Kompienga, Kossi, Koulpelogo, Kouritenga, Kourweogo, Leraba, Loroum, Mouhoun, Nahouri, Namentenga, Nayala, Noumbiel, Oubritenga, Oudalan, Passore, Poni, Sanguie, Sanmatenga, Seno, Sissili, Soum, Sourou, Tapoa, Tuy, Yagha, Yatenga, Ziro, Zondoma, Zoundweogo",
@@ -207,128 +351,228 @@
 	"economy": {
 		"Economy - overview": "Burkina Faso is a poor, landlocked country that relies heavily on cotton and gold exports for revenue. The country has few natural resources and a weak industrial base. About 90% of the population is engaged in subsistence agriculture, which is vulnerable to periodic drought. Cotton is the main cash crop. Since 1998, Burkina Faso has embarked upon a gradual privatization of state-owned enterprises and in 2004 revised its investment code to attract foreign investment. As a result of this new code and other legislation favoring the mining sector, the country has seen an upswing in gold exploration and production. By 2010, gold had become the main source of export revenue.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$19.99 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 19990000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$8.781 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 8781000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "30.1%",
-			"industry:": "20.7%",
-			"services:": "49.2% (2009 est.)"
+			"agriculture:": {
+				"quantity": 30.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 49.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "6.668 million",
+			"Labor force": 6668000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "90%",
-			"industry and services:": "10% (2000 est.)"
+			"agriculture:": {
+				"quantity": 90,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 10,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "77% (2004)",
+			"Unemployment rate": {
+				"quantity": 77,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "46.4% (2004)",
+		"Population below poverty line": {
+			"quantity": 46.4,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.8%",
-			"highest 10%:": "32.2% (2004)"
+			"lowest 10%:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 32.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "39.5 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.87 billion",
-			"expenditures:": "$2.343 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1870000000
+			},
+			"expenditures:": {
+				"usd": 2343000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.416 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1416000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.406 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2406000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.373 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1373000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, peanuts, shea nuts, sesame, sorghum, millet, corn, rice; livestock",
 		"Industries": "cotton lint, beverages, agricultural processing, soap, cigarettes, textiles, gold",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "611.6 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 611600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "568.8 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 568800000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "9,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 9000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "8,283 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 8283,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -336,34 +580,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$991 million (2010 est.)",
+			"Exports": {
+				"usd": 991000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "cotton, livestock, gold",
 		"Exports - partners": "Singapore 16.76%, Belgium 12.78%, China 7.59%, Ghana 6.89%, India 6.36%, Denmark 5.76%, Niger 5.13%, Thailand 4.52% (2009)",
 		"Imports": {
-			"Imports": "$1.48 billion (2010 est.)",
+			"Imports": {
+				"usd": 1480000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital goods, foodstuffs, petroleum",
 		"Imports - partners": "Cote d'Ivoire 24.31%, France 19.48%, Togo 6.42% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.588 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1588000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$2.002 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 2001999999.9999998
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "167,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.299 million (2009)",
+			"Telephones - mobile cellular": 3299000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -374,29 +626,32 @@
 		"Broadcast media": "2 TV stations - 1 state-owned and 1 privately-owned; state-owned radio runs a national and regional network; substantial number of privately-owned radio broadcast stations; transmissions of several international broadcasters available in Ouagadougou (2007)",
 		"Internet country code": ".bf",
 		"Internet hosts": {
-			"Internet hosts": "1,877 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "24 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "22",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "12",
-			"under 914 m:": "6 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "622 km",
+			"total:": {
+				"quantity": 622,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "622 km 1.000-m gauge"
 		},
@@ -406,15 +661,15 @@
 		"Military branches": "Army, Air Force of Burkina Faso (Force Aerienne de Burkina Faso, FABF), National Gendarmerie (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; women may serve in supporting roles (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "3,735,735 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,366,168",
-			"females age 16-49:": "2,367,673 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "193,905",
-			"female:": "191,662 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,23 +5,53 @@
 	"background": "The region of present day Georgia contained the ancient kingdoms of Colchis and Kartli-Iberia. The area came under Roman influence in the first centuries A.D. and Christianity became the state religion in the 330s. Domination by Persians, Arabs, and Turks was followed by a Georgian golden age (11th-13th centuries) that was cut short by the Mongol invasion of 1236. Subsequently, the Ottoman and Persian empires competed for influence in the region. Georgia was absorbed into the Russian Empire in the 19th century. Independent for three years (1918-1921) following the Russian revolution, it was forcibly incorporated into the USSR until the Soviet Union dissolved in 1991. An attempt by the incumbent Georgian government to manipulate national legislative elections in November 2003 touched off widespread protests that led to the resignation of Eduard SHEVARDNADZE, president since 1995. New elections in early 2004 swept Mikheil SAAKASHVILI into power along with his United National Movement party. Progress on market reforms and democratization has been made in the years since independence, but this progress has been complicated by Russian assistance and support to the breakaway regions of Abkhazia and South Ossetia. After a series of Russian and separatist provocations in summer 2008, Georgian military action in South Ossetia in early August led to a Russian military response that not only occupied the breakaway areas, but large portions of Georgia proper as well. Russian troops pulled back from most occupied Georgian territory, but in late August 2008 Russia unilaterally recognized the independence of Abkhazia and South Ossetia. This action was strongly condemned by most of the world's nations and international organizations.",
 	"geo": {
 		"Location": "Southwestern Asia, bordering the Black Sea, between Turkey and Russia, with a sliver of land north of the Caucasus extending into Europe",
-		"Geographic coordinates": "42 00 N, 43 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 42,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 43,
+				"seconds": 30
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "69,700 sq km",
+			"total:": {
+				"quantity": 69700,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "69,700 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 69700,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Carolina",
 		"Land boundaries": {
-			"total:": "1,461 km",
+			"total:": {
+				"quantity": 1461,
+				"unit": "km"
+			},
 			"border countries:": "Armenia 164 km, Azerbaijan 322 km, Russia 723 km, Turkey 252 km"
 		},
-		"Coastline": "310 km",
+		"Coastline": {
+			"quantity": 310,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "warm and pleasant; Mediterranean-like on Black Sea coast",
 		"Terrain": "largely mountainous with Great Caucasus Mountains in the north and Lesser Caucasus Mountains in the south; Kolkhet'is Dablobi (Kolkhida Lowland) opens to the Black Sea in the west; Mtkvari River Basin in the east; good soils in river valley flood plains, foothills of Kolkhida Lowland",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "timber, hydropower, manganese deposits, iron ore, copper, minor coal and oil deposits; coastal climate and soils allow for important tea and citrus growth",
 		"Land use": {
-			"arable land:": "11.51%",
-			"permanent crops:": "3.79%",
-			"other:": "84.7% (2005)"
+			"arable land:": {
+				"quantity": 11.51,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3.79,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 84.7,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "4,330 sq km (2008)",
-		"Total renewable water resources": "63.3 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 4330,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 63.3,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "3.61  cu km/yr (20%/21%/59%)",
-			"per capita:": "808  cu m/yr (2000)"
+			"total:": {
+				"quantity": 3.61,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 808,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "earthquakes",
 		"Environment - current issues": "air pollution, particularly in Rust'avi; heavy pollution of Mtkvari River and the Black Sea; inadequate supplies of potable water; soil pollution from toxic chemicals",
@@ -51,29 +102,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,585,874 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.6% (male 383,856/female 333,617)",
-			"15-64 years:": "68.3% (male 1,511,844/female 1,620,727)",
+			"0-14 years:": {
+				"quantity": 15.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.3,
+				"unit": "%"
+			},
 			"65 years and over:": "16% (male 293,143/female 442,687) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "39.1 years",
-			"male:": "36.6 years",
-			"female:": "41.6 years (2011 est.)"
+			"total:": {
+				"quantity": 39.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.326% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.73 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.73,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.92 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.92,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -81,39 +153,81 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "53% of total population (2010)",
+			"urban population:": {
+				"quantity": 53,
+				"unit": "% of total population"
+			},
 			"rate of urbanization:": "-0.4% annual rate of change (2010-15 est.)"
 		},
 		"Major cities - population": "TBILISI (capital) 1.115 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.113 male(s)/female",
-			"under 15 years:": "1.15 male(s)/female",
-			"15-64 years:": "0.93 male(s)/female",
-			"65 years and over:": "0.66 male(s)/female",
-			"total population:": "0.91 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.113,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.15,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.66,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "15.17 deaths/1,000 live births",
+			"total:": {
+				"quantity": 15.17,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "17.1 deaths/1,000 live births",
-			"female:": "13.02 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 17.1,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 13.02,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.12 years",
+			"total population:": {
+				"quantity": 77.12,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.8 years",
-			"female:": "80.82 years (2011 est.)"
+			"male:": {
+				"quantity": 73.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.82,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.45 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.45,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3,500 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -133,14 +247,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "100%",
-			"male:": "100%",
-			"female:": "100% (2004 est.)"
+			"total population:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2009)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -155,7 +287,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "T'bilisi",
-			"geographic coordinates:": "41 43 N, 44 47 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 41,
+					"seconds": 43
+				},
+				"E": {
+					"minutes": 44,
+					"seconds": 47
+				}
+			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -206,134 +347,242 @@
 	"economy": {
 		"Economy - overview": "Georgia's economy sustained GDP growth of more than 10% in 2006-07, based on strong inflows of foreign investment and robust government spending. However, GDP growth slowed in 2008 following the August 2008 conflict with Russia, and turned negative in 2009 as foreign direct investment and workers' remittances declined in the wake of the global financial crisis, but rebounded in 2010. Georgia's main economic activities include the cultivation of agricultural products such as grapes, citrus fruits, and hazelnuts; mining of manganese and copper; and output of a small industrial sector producing alcoholic and nonalcoholic beverages, metals, machinery, aircraft and chemicals. Areas of recent improvement include growth in the construction, banking services, and mining sectors, but reduced availability of external investment and the slowing regional economy are emerging risks. The country imports nearly all its needed supplies of natural gas and oil products. It has sizeable hydropower capacity, a growing component of its energy supplies. Georgia has overcome the chronic energy shortages and gas supply interruptions of the past by renovating hydropower plants and by increasingly relying on natural gas imports from Azerbaijan instead of from Russia. The construction on the Baku-T'bilisi-Ceyhan oil pipeline, the Baku-T'bilisi-Erzerum gas pipeline, and the Kars-Akhalkalaki Railroad are part of a strategy to capitalize on Georgia's strategic location between Europe and Asia and develop its role as a transit point for gas, oil and other goods. Georgia has historically suffered from a chronic failure to collect tax revenues; however, the government, since coming to power in 2004, has simplified the tax code, improved tax administration, increased tax enforcement, and cracked down on petty corruption. However, the economic downturn of 2008-09 eroded the tax base and led to a decline in the budget surplus and an increase in public borrowing needs. The country is pinning its hopes for renewed growth on a determined effort to continue to liberalize the economy by reducing regulation, taxes, and corruption in order to attract foreign investment, but the economy faces a more difficult investment climate both domestically and internationally.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$22.44 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 22440000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$11.67 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 11670000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "11%",
-			"industry:": "27.1%",
-			"services:": "62% (2010 est.)"
+			"agriculture:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 62,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.918 million (2007 est.)",
+			"Labor force": 1918000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "55.6%",
-			"industry:": "8.9%",
-			"services:": "35.5% (2006 est.)"
+			"agriculture:": {
+				"quantity": 55.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 8.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 35.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "16.4% (2009 est.)",
+			"Unemployment rate": {
+				"quantity": 16.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "31% (2006)",
+		"Population below poverty line": {
+			"quantity": 31,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.9%",
-			"highest 10%:": "30.6% (2008)"
+			"lowest 10%:": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "40.8 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "14.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 14.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$3.172 billion",
-			"expenditures:": "$3.915 billion (2010 est.)"
+			"revenues:": {
+				"usd": 3172000000
+			},
+			"expenditures:": {
+				"usd": 3915000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "8% (25 December 2008)"
+			"Central bank discount rate": {
+				"quantity": 8,
+				"unit": "%"
+			}
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "25.52% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 25.52,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.175 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1175000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.146 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2146000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$3.243 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 3243000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$733.3 million (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 733300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "citrus, grapes, tea, hazelnuts, vegetables; livestock",
 		"Industries": "steel, aircraft, machine tools, electrical appliances, mining (manganese and copper), chemicals, wood products, wine",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "7.97 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 7970000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "6.902 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 6902000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "628 million kWh (2007 est.)",
-		"Electricity - imports": "430 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 628000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 430000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "994.9 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 994.9,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "13,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 13000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1,486 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 1486,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "16,590 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 16590,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "35 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 35000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "8 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 8000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.73 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1730000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.72 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 1720000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "8.495 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 8494999999.999999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -341,34 +590,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.29 billion (2010 est.)",
+			"Exports": {
+				"usd": 2290000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "scrap metal, wine, mineral water, ores, vehicles, fruits and nuts",
 		"Exports - partners": "Turkey 17.87%, Azerbaijan 12.3%, Bulgaria 9.6%, Canada 8.78%, UK 7.49%, Ukraine 6.82%, Spain 5.27%, US 4.99% (2009)",
 		"Imports": {
-			"Imports": "$4.828 billion (2010 est.)",
+			"Imports": {
+				"usd": 4828000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "fuels, vehicles, machinery and parts, grain and other foods, pharmaceuticals",
 		"Imports - partners": "Turkey 16.81%, Azerbaijan 9.72%, Ukraine 9.17%, Russia 7.39%, US 6.63%, Germany 6.22% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.35 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$3.381 billion (31 December 2009)",
+			"Debt - external": {
+				"usd": 3381000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "620,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.837 million (2009)",
+			"Telephones - mobile cellular": 2837000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -379,47 +636,59 @@
 		"Broadcast media": "1 state-owned public television station in Tbilisi and 8 privately-owned TV stations; state-run public broadcaster operates 2 networks; dozens of cable TV operators and several major commercial TV stations are operating; state-owned public radio broadcaster operates 2 networks; several dozen private stations broadcast (2008)",
 		"Internet country code": ".ge",
 		"Internet hosts": {
-			"Internet hosts": "110,680 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "22 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "18",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "7",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "4"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "4",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 1,596 km; oil 1,258 km (2010)",
 		"Railways": {
-			"total:": "1,612 km",
+			"total:": {
+				"quantity": 1612,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "1,575 km 1.520-m gauge (1,575 electrified)",
 			"narrow gauge:": "37 km 0.912-m gauge (37 electrified) (2009)"
 		},
 		"Roadways": {
-			"total:": "20,329 km",
+			"total:": {
+				"quantity": 20329,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "7,854 km (includes 13 km of expressways)",
-			"unpaved:": "12,475 km (2006)"
+			"paved:": {
+				"quantity": 7854,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 12475,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "193",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 18, cargo 151, carrier 1, chemical tanker 3, container 2, liquefied gas 1, passenger/cargo 3, petroleum tanker 3, refrigerated cargo 2, roll on/roll off 7, vehicle carrier 2",
-			"foreign-owned:": "132 (China 11, Denmark 1, Egypt 11, Germany 4, Greece 3, Hong Kong 4, Israel 1, Italy 2, Latvia 1, Lebanon 1, Pakistan 1, Romania 7, Russia 7, Syria 35, Turkey 22, UAE 1, UK 4, Ukraine 15, US 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "1 (unknown 1) (2010)"
 		},
 		"Ports and terminals": "Bat'umi, P'ot'i",
@@ -429,23 +698,23 @@
 		"Military branches": "Georgian Armed Forces: Land Forces (include Air and Air Defense Forces); separatist Abkhazia Armed Forces: Ground Forces, Air Forces; separatist South Ossetia Armed Forces (2011)",
 		"Military service age and obligation": "18 to 34 years of age for compulsory and voluntary active duty military service; conscript service obligation - 18 months (2005)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,080,840",
-			"females age 16-49:": "1,122,031 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "893,003",
-			"females age 16-49:": "931,683 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "29,723",
-			"female:": "27,242 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "Russia's military support and subsequent recognition of Abkhazia and South Ossetia independence in 2008 continue to sour relations with Georgia; Georgia continues to restrain the return of Meshkhetian Turks dispersed by Stalin; ethnic Armenian groups in Javakheti region of Georgia seek greater autonomy from the Georgian government; local border forces struggle to control the illegal transit of goods and people across the porous, undemarcated Armenian, Azerbaijani, and Georgian borders",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "1,100 (Russia)",
+			"refugees (country of origin):": null,
 			"IDPs:": "220,000-240,000 (displaced from Abkhazia and South Ossetia) (2007)"
 		},
 		"Illicit drugs": {}

@@ -5,20 +5,50 @@
 	"background": "Jersey and the other Channel Islands represent the last remnants of the medieval Dukedom of Normandy that held sway in both France and England. These islands were the only British soil occupied by German troops in World War II. Jersey is a British crown dependency but is not part of the UK or of the European Union. However, the UK Government is constitutionally responsible for its defense and international representation.",
 	"geo": {
 		"Location": "Western Europe, island in the English Channel, northwest of France",
-		"Geographic coordinates": "49 15 N, 2 10 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 49,
+				"seconds": 15
+			},
+			"W": {
+				"minutes": 2,
+				"seconds": 10
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "116 sq km",
+			"total:": {
+				"quantity": 116,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "116 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 116,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about two-thirds the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "70 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 70,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive fishing zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate; mild winters and cool summers",
 		"Terrain": "gently rolling plain with low, rugged hills along north coast",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "arable land",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "NA",
@@ -39,60 +78,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "94,161 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "16.5% (male 8,067/female 7,507)",
-			"15-64 years:": "68.7% (male 32,187/female 32,485)",
+			"0-14 years:": {
+				"quantity": 16.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.7,
+				"unit": "%"
+			},
 			"65 years and over:": "14.8% (male 5,953/female 7,962) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.1 years",
-			"male:": "38.3 years",
-			"female:": "41.3 years (2011 est.)"
+			"total:": {
+				"quantity": 40.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.841% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.841,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.9 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.9,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.52 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.52,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "5.03 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 5.03,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "31% of total population (2010)",
-			"rate of urbanization:": "0.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 31,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.08 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.8 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.98 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.98,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.2 deaths/1,000 live births",
-			"female:": "3.75 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.2,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.75,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.38 years",
+			"total population:": {
+				"quantity": 81.38,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.96 years",
-			"female:": "83.94 years (2011 est.)"
+			"male:": {
+				"quantity": 78.96,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 83.94,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.66 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.66,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -118,7 +226,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Saint Helier",
-			"geographic coordinates:": "49 11 N, 2 06 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 49,
+					"seconds": 11
+				},
+				"W": {
+					"minutes": 2,
+					"seconds": 6
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -152,26 +269,44 @@
 	"economy": {
 		"Economy - overview": "Jersey's economy is based on international financial services, agriculture, and tourism. In 2005 the finance sector accounted for about 50% of the island's output. Potatoes, cauliflower, tomatoes, and especially flowers are important export crops, shipped mostly to the UK. The Jersey breed of dairy cattle is known worldwide and represents an important export income earner. Milk products go to the UK and other EU countries. Tourism accounts for one-quarter of GDP. In recent years, the government has encouraged light industry to locate in Jersey with the result that an electronics industry has developed, displacing more traditional industries. All raw material and energy requirements are imported as well as a large share of Jersey's food needs. Light taxes and death duties make the island a popular tax haven. Living standards come close to those of the UK.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$5.1 billion (2005 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 5100000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$5.1 billion (2005 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 5100000000
+		},
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$57,000 (2005 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "2%",
-			"services:": "97% (2005)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 97,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "53,560 (June 2006)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.2% (2006 est.)",
+			"Unemployment rate": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -180,11 +315,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$829 million",
-			"expenditures:": "$851 million (2005)"
+			"revenues:": {
+				"usd": 829000000
+			},
+			"expenditures:": {
+				"usd": 851000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.7% (2006)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -192,7 +334,10 @@
 		"Industries": "tourism, banking and finance, dairy, electronics",
 		"Industrial production growth rate": "NA%",
 		"Electricity - consumption": {
-			"Electricity - consumption": "630.1 million kWh (2004 est.)",
+			"Electricity - consumption": {
+				"quantity": 630100000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - imports": "NA kWh; note - electricity supplied by France",
@@ -205,11 +350,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "73,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "83,900 (2004)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -220,22 +365,25 @@
 		"Broadcast media": "multiple UK terrestrial television broadcasts - received via a transmitter in Jersey with relays in Jersey, Guernsey, and Alderney - will begin switching from analog to digital broadcasts in November 2010; satellite packages available; BBC Radio Jersey and 1 other radio station operating (2009)",
 		"Internet country code": ".je",
 		"Internet hosts": {
-			"Internet hosts": "237 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "576 km (2010)",
+			"total:": {
+				"quantity": 576,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
@@ -246,12 +394,12 @@
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "18,688",
-			"females age 16-49:": "18,615 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "664",
-			"female:": "590 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

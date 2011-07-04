@@ -13,11 +13,56 @@
 			"Kingman Reef:": "reef in the North Pacific Ocean 930 nm (1,722 km) south of Honolulu, about half way between Hawaii and American Samoa"
 		},
 		"Geographic coordinates": {
-			"Baker Island:": "0 13 N, 176 28 W",
-			"Howland Island:": "0 48 N, 176 38 W",
-			"Jarvis Island:": "0 23 S, 160 01 W",
-			"Johnston Atoll:": "16 45 N, 169 31 W",
-			"Kingman Reef:": "6 23 N, 162 25 W"
+			"Baker Island:": {
+				"N": {
+					"minutes": 0,
+					"seconds": 13
+				},
+				"W": {
+					"minutes": 176,
+					"seconds": 28
+				}
+			},
+			"Howland Island:": {
+				"N": {
+					"minutes": 0,
+					"seconds": 48
+				},
+				"W": {
+					"minutes": 176,
+					"seconds": 38
+				}
+			},
+			"Jarvis Island:": {
+				"S": {
+					"minutes": 0,
+					"seconds": 23
+				},
+				"W": {
+					"minutes": 160,
+					"seconds": 1
+				}
+			},
+			"Johnston Atoll:": {
+				"N": {
+					"minutes": 16,
+					"seconds": 45
+				},
+				"W": {
+					"minutes": 169,
+					"seconds": 31
+				}
+			},
+			"Kingman Reef:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 23
+				},
+				"W": {
+					"minutes": 162,
+					"seconds": 25
+				}
+			}
 		},
 		"Map references": "Oceania",
 		"Area": {
@@ -37,15 +82,36 @@
 		},
 		"Land boundaries": "none",
 		"Coastline": {
-			"Baker Island:": "4.8 km",
-			"Howland Island:": "6.4 km",
-			"Jarvis Island:": "8 km",
-			"Johnston Atoll:": "34 km",
-			"Kingman Reef:": "3 km"
+			"Baker Island:": {
+				"quantity": 4.8,
+				"unit": "km"
+			},
+			"Howland Island:": {
+				"quantity": 6.4,
+				"unit": "km"
+			},
+			"Jarvis Island:": {
+				"quantity": 8,
+				"unit": "km"
+			},
+			"Johnston Atoll:": {
+				"quantity": 34,
+				"unit": "km"
+			},
+			"Kingman Reef:": {
+				"quantity": 3,
+				"unit": "km"
+			}
 		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": {
 			"Baker, Howland, and Jarvis Islands:": "equatorial; scant rainfall, constant wind, burning sun",
@@ -60,9 +126,18 @@
 		},
 		"Natural resources": "terrestrial and aquatic wildlife",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2008)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Natural hazards": {
 			"Baker, Howland, and Jarvis Islands:": "the narrow fringing reef surrounding the island can be a maritime hazard",

@@ -5,20 +5,44 @@
 	"background": "Basutoland was renamed the Kingdom of Lesotho upon independence from the UK in 1966. The Basuto National Party ruled for the first two decades. King MOSHOESHOE was exiled in 1990, but returned to Lesotho in 1992 and was reinstated in 1995 and subsequently succeeded by his son, King LETSIE III, in 1996. Constitutional government was restored in 1993 after seven years of military rule. In 1998, violent protests and a military mutiny following a contentious election prompted a brief but bloody intervention by South African and Botswana military forces under the aegis of the Southern African Development Community. Subsequent constitutional reforms restored relative political stability. Peaceful parliamentary elections were held in 2002, but the National Assembly elections of February 2007 were hotly contested and aggrieved parties continue to dispute how the electoral law was applied to award proportional seats in the Assembly.",
 	"geo": {
 		"Location": "Southern Africa, an enclave of South Africa",
-		"Geographic coordinates": "29 30 S, 28 30 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 29,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 28,
+				"seconds": 30
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "30,355 sq km",
+			"total:": {
+				"quantity": 30355,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "30,355 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 30355,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "909 km",
+			"total:": {
+				"quantity": 909,
+				"unit": "km"
+			},
 			"border countries:": "South Africa 909 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate; cool to cold, dry winters; hot, wet summers",
 		"Terrain": "mostly highland with plateaus, hills, and mountains",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "water, agricultural and grazing land, diamonds, sand, clay, building stone",
 		"Land use": {
-			"arable land:": "10.87%",
-			"permanent crops:": "0.13%",
-			"other:": "89% (2005)"
+			"arable land:": {
+				"quantity": 10.87,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.13,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 89,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "30 sq km (2008)",
-		"Total renewable water resources": "5.2 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 30,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 5.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.05  cu km/yr (40%/40%/20%)",
-			"per capita:": "28  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.05,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 28,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "periodic droughts",
 		"Environment - current issues": "population pressure forcing settlement in marginal areas results in overgrazing, severe soil erosion, and soil exhaustion; desertification; Highlands Water Project controls, stores, and redirects water to South Africa",
@@ -48,29 +93,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,924,886 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "33.5% (male 323,934/female 321,727)",
-			"15-64 years:": "61.1% (male 573,773/female 602,443)",
+			"0-14 years:": {
+				"quantity": 33.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 61.1,
+				"unit": "%"
+			},
 			"65 years and over:": "5.4% (male 50,956/female 52,053) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.9 years",
-			"male:": "22.8 years",
-			"female:": "22.9 years (2011 est.)"
+			"total:": {
+				"quantity": 22.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.332% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.332,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.93 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.93,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "15.19 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 15.19,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,43 +147,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "27% of total population (2010)",
-			"rate of urbanization:": "3.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 27,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MASERU (capital) 220,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.96 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "55.04 deaths/1,000 live births",
+			"total:": {
+				"quantity": 55.04,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "59.28 deaths/1,000 live births",
-			"female:": "50.67 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 59.28,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 50.67,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "51.63 years",
+			"total population:": {
+				"quantity": 51.63,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "51.51 years",
-			"female:": "51.76 years (2011 est.)"
+			"male:": {
+				"quantity": 51.51,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 51.76,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.94 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.94,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "23.6% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 23.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "290,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "14,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -128,14 +242,32 @@
 		"Languages": "Sesotho (southern Sotho), English (official), Zulu, Xhosa",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "84.8%",
-			"male:": "74.5%",
-			"female:": "94.5% (2003 est.)"
+			"total population:": {
+				"quantity": 84.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 74.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 94.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "10 years",
-			"female:": "10 years (2008)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +282,16 @@
 		"Government type": "parliamentary constitutional monarchy",
 		"Capital": {
 			"name:": "Maseru",
-			"geographic coordinates:": "29 19 S, 27 29 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 29,
+					"seconds": 19
+				},
+				"E": {
+					"minutes": 27,
+					"seconds": 29
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 districts; Berea, Butha-Buthe, Leribe, Mafeteng, Maseru, Mohale's Hoek, Mokhotlong, Qacha's Nek, Quthing, Thaba-Tseka",
@@ -194,130 +335,227 @@
 	"economy": {
 		"Economy - overview": "Small, landlocked, and mountainous, Lesotho relies on remittances from Basotho employed in South Africa, customs duties from the Southern Africa Customs Union (SACU), and export revenue for the majority of government revenue. However, the government has recently strengthened its tax system to reduce dependency on customs duties. Completion of a major hydropower facility in January 1998 permitted the sale of water to South Africa and generated royalties for Lesotho. Lesotho produces about 90% of its own electrical power needs. As the number of mineworkers has declined steadily over the past several years, a small manufacturing base has developed based on farm products that support the milling, canning, leather, and jute industries, as well as an apparel-assembly sector. Despite Lesotho's market-based economy being heavily tied to its neighbor South Africa, the US is an important trade partner because of the export sector's heavy dependence on apparel exports. Exports have grown significantly because of the trade benefits contained in the Africa Growth and Opportunity Act. Most of the labor force is engaged in subsistence agriculture, especially livestock herding, although drought has decreased agricultural activity. The extreme inequality in the distribution of income remains a major drawback. Lesotho has signed an Interim Poverty Reduction and Growth Facility with the IMF. In July 2007, Lesotho signed a Millennium Challenge Account Compact with the US worth $362.5 million. Economic growth dropped in 2009, due mainly to the effects of the global economic crisis as demand for the country's exports declined and SACU revenue fell precipitously when South Africa - the primary contributor to the SACU revenue pool - went into recession, but growth returned to 3.5% in 2010.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.303 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3303000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.127 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2126999999.9999998
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "7.1%",
-			"industry:": "34.6%",
-			"services:": "58.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 7.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 34.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 58.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "854,600 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
 			"agriculture:": "86% of resident population engaged in subsistence agriculture; roughly 35% of the active male wage earners work in South Africa",
-			"industry and services:": "14% (2002 est.)"
+			"industry and services:": {
+				"quantity": 14,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "45% (2002)",
+			"Unemployment rate": {
+				"quantity": 45,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "49% (1999)",
+		"Population below poverty line": {
+			"quantity": 49,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1%",
-			"highest 10%:": "39.4% (2003)"
+			"lowest 10%:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 39.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "63.2 (1995)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "21.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 21.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$968.4 million",
-			"expenditures:": "$1.193 billion (2010 est.)"
+			"revenues:": {
+				"usd": 968400000
+			},
+			"expenditures:": {
+				"usd": 1193000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "10.66% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 10.66,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "13% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 13,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$653.3 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 653300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.057 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1056999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$177.7 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 177700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "corn, wheat, pulses, sorghum, barley; livestock",
 		"Industries": "food, beverages, textiles, apparel assembly, handicrafts, construction, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "502 million kWh",
+			"Electricity - production": {
+				"quantity": 502000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "516.9 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 516900000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "50 million kWh; note - electricity supplied by South Africa (2008 est.)",
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,553 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1553,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -325,34 +563,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$985 million (2010 est.)",
+			"Exports": {
+				"usd": 985000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "manufactures 75% (clothing, footwear, road vehicles), wool and mohair, food and live animals",
 		"Exports - partners": "US 58.9%, Belgium 37%, Madagascar 1.2% (2008)",
 		"Imports": {
-			"Imports": "$1.766 billion (2010 est.)",
+			"Imports": {
+				"usd": 1766000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food; building materials, vehicles, machinery, medicines, petroleum products",
 		"Imports - partners": "China 26.3%, Taiwan 20.1%, Hong Kong 16.4%, South Korea 14.1%, India 9.2% (2008)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$893 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 893000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$647 million (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 647000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "40,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "661,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -363,26 +609,26 @@
 		"Broadcast media": "1 state-owned TV station and 2 state-owned radio stations; government controls most private broadcast media; satellite TV subscription service is available; transmissions of multiple international broadcasters are obtainable (2008)",
 		"Internet country code": ".ls",
 		"Internet hosts": {
-			"Internet hosts": "632 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "26 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "3",
-			"over 3,047 m:": "1",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "23",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "18 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {}
 	},
@@ -390,19 +636,22 @@
 		"Military branches": "Lesotho Defense Force (LDF): Army (includes Air Wing) (2010)",
 		"Military service age and obligation": "18-24 years of age for voluntary military service; no conscription; women serve as commissioned officers (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "472,456",
-			"females age 16-49:": "508,953 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "270,184",
-			"females age 16-49:": "275,734 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "19,110",
-			"female:": "20,037 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "2.6% of GDP (2006)",
+			"Military expenditures": {
+				"quantity": 2.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

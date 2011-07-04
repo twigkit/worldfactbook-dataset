@@ -5,22 +5,55 @@
 	"background": "First colonized by the Spanish, the islands came under British control in the early 19th century. The islands' sugar industry was hurt by the emancipation of the slaves in 1834. Manpower was replaced with the importation of contract laborers from India between 1845 and 1917, which boosted sugar production as well as the cocoa industry. The discovery of oil on Trinidad in 1910 added another important export. Independence was attained in 1962. The country is one of the most prosperous in the Caribbean thanks largely to petroleum and natural gas production and processing. Tourism, mostly in Tobago, is targeted for expansion and is growing. The government is coping with a rise in violent crime.",
 	"geo": {
 		"Location": "Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela",
-		"Geographic coordinates": "11 00 N, 61 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 11,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 61,
+				"seconds": 0
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "5,128 sq km",
+			"total:": {
+				"quantity": 5128,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "5,128 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 5128,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Delaware",
-		"Land boundaries": "0 km",
-		"Coastline": "362 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 362,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"Maritime claims": "measured from claimed archipelagic baselines",
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the outer edge of the continental margin"
 		},
 		"Climate": "tropical; rainy season (June to December)",
@@ -31,15 +64,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, asphalt",
 		"Land use": {
-			"arable land:": "14.62%",
-			"permanent crops:": "9.16%",
-			"other:": "76.22% (2005)"
+			"arable land:": {
+				"quantity": 14.62,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 9.16,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 76.22,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "70 sq km (2008)",
-		"Total renewable water resources": "3.8 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 70,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 3.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.31  cu km/yr (68%/26%/6%)",
-			"per capita:": "237  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.31,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 237,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "outside usual path of hurricanes and other tropical storms",
 		"Environment - current issues": "water pollution from agricultural chemicals, industrial wastes, and raw sewage; oil pollution of beaches; deforestation; soil erosion",
@@ -51,29 +105,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,227,505 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "19.5% (male 122,044/female 116,859)",
-			"15-64 years:": "72.1% (male 455,148/female 429,990)",
+			"0-14 years:": {
+				"quantity": 19.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 72.1,
+				"unit": "%"
+			},
 			"65 years and over:": "8.4% (male 44,439/female 59,025) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "33.1 years",
-			"male:": "32.6 years",
-			"female:": "33.6 years (2011 est.)"
+			"total:": {
+				"quantity": 33.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 32.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 33.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.087% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "14.35 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 14.35,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.29 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.29,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -81,39 +156,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "14% of total population (2010)",
-			"rate of urbanization:": "3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 14,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PORT-OF-SPAIN (capital) 57,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.028 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.06 male(s)/female",
-			"65 years and over:": "0.75 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.028,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.75,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "27.69 deaths/1,000 live births",
+			"total:": {
+				"quantity": 27.69,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "28.93 deaths/1,000 live births",
-			"female:": "26.41 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 28.93,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 26.41,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.37 years",
+			"total population:": {
+				"quantity": 71.37,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.51 years",
-			"female:": "74.3 years (2011 est.)"
+			"male:": {
+				"quantity": 68.51,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.3,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.72 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.72,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "15,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -131,14 +251,32 @@
 		"Languages": "English (official), Caribbean Hindustani (a dialect of Hindi), French, Spanish, Chinese",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98.6%",
-			"male:": "99.1%",
-			"female:": "98% (2003 est.)"
+			"total population:": {
+				"quantity": 98.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "11 years",
-			"female:": "12 years (2007)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": "NA",
 		"People - note": {}
@@ -151,7 +289,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Port-of-Spain",
-			"geographic coordinates:": "10 39 N, 61 31 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 10,
+					"seconds": 39
+				},
+				"W": {
+					"minutes": 61,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -203,179 +350,301 @@
 	"economy": {
 		"Economy - overview": "Trinidad and Tobago has earned a reputation as an excellent investment site for international businesses and has one of the highest growth rates and per capita incomes in Latin America. Economic growth between 2000 and 2007 averaged slightly over 8%, significantly above the regional average of about 3.7% for that same period; however, GDP has slowed down since then and contracted about 3.5% in 2009, before rising more than 2% in 2010. Growth has been fueled by investments in liquefied natural gas (LNG), petrochemicals, and steel. Additional petrochemical, aluminum, and plastics projects are in various stages of planning. Trinidad and Tobago is the leading Caribbean producer of oil and gas, and its economy is heavily dependent upon these resources but it also supplies manufactured goods, notably food products and beverages, as well as cement to the Caribbean region. Oil and gas account for about 40% of GDP and 80% of exports, but only 5% of employment. The country is also a regional financial center, and tourism is a growing sector, although it is not as important domestically as it is to many other Caribbean islands. The economy benefits from a growing trade surplus. The previous MANNING administration benefited from fiscal surpluses fueled by the dynamic export sector; however, declines in oil and gas prices have reduced government revenues which will challenge the new government's commitment to maintaining high levels of public investment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$26.1 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 26100000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$20.59 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 20590000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$21,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.5%",
-			"industry:": "59.4%",
-			"services:": "40.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 59.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 40.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "631,000 (2010 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "3.8%",
-			"manufacturing, mining, and quarrying:": "12.8%",
-			"construction and utilities:": "20.4%",
-			"services:": "62.9% (2007 est.)"
+			"agriculture:": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
+			"manufacturing, mining, and quarrying:": {
+				"quantity": 12.8,
+				"unit": "%"
+			},
+			"construction and utilities:": {
+				"quantity": 20.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 62.9,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.4% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 6.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "17% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 17,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "11.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 11.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$6.614 billion",
-			"expenditures:": "$7.24 billion (2010 est.)"
+			"revenues:": {
+				"usd": 6614000000
+			},
+			"expenditures:": {
+				"usd": 7240000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "26.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 26.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "11.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 11.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "7.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 7.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.94% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.94,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$3.734 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 3734000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$12.47 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 12470000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.924 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2924000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$11.15 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 11150000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cocoa, rice, citrus, coffee, vegetables; poultry",
 		"Industries": "petroleum and petroleum products, liquefied natural gas (LNG), methanol, ammonia, urea, steel products, beverages, food processing, cement, cotton textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "7.202 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 7202000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "7.034 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 7034000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "151,600 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 151600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "43,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 43000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "248,300 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 248300,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "92,480 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 92480,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "728.3 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 728300000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "39.3 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 39300000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "21.94 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 21940000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "17.36 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 17360000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "436.1 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 436100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$3.363 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 3363000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$12.06 billion (2010 est.)",
+			"Exports": {
+				"usd": 12060000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum and petroleum products, liquefied natural gas (LNG), methanol, ammonia, urea, steel products, beverages, cereal and cereal products, sugar, cocoa, coffee, citrus fruit, vegetables, flowers",
 		"Exports - partners": "US 38.53%, Jamaica 8.86%, Spain 6.88%, Mexico 6.23% (2009)",
 		"Imports": {
-			"Imports": "$8.234 billion (2010 est.)",
+			"Imports": {
+				"usd": 8234000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "mineral fuels, lubricants, machinery, transportation equipment, manufactured goods, food, chemicals, live animals",
 		"Imports - partners": "US 30.87%, Colombia 7.1%, Venezuela 7.01%, Russia 6.64%, Brazil 5.53%, China 4.19% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$9.659 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 9659000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$4.303 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 4303000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$102 billion (31 December 2008 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 102000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$3.829 billion (2007)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 3829000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "314,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.97 million (2009)",
+			"Telephones - mobile cellular": 1970000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,36 +655,45 @@
 		"Broadcast media": "5 TV networks each broadcasting on multiple stations; one of the networks is state-owned; multiple cable TV subscription service providers; multiple radio networks, one state-owned, broadcast over about 35 stations (2007)",
 		"Internet country code": ".tt",
 		"Internet hosts": {
-			"Internet hosts": "168,876 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "3",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 671 km; oil 334 km (2010)",
 		"Roadways": {
-			"total:": "8,320 km",
+			"total:": {
+				"quantity": 8320,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,252 km",
-			"unpaved:": "4,068 km (2000)"
+			"paved:": {
+				"quantity": 4252,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 4068,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "6",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger 1, passenger/cargo 4, petroleum tanker 1",
 			"registered in other countries:": "2 (Bahamas 1, unknown 1) (2010)"
@@ -426,16 +704,16 @@
 		"Military branches": "Trinidad and Tobago Defense Force (TTDF): Trinidad and Tobago Army, Coast Guard, Air Guard, Trinidad and Tobago Police Service (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service (16 years of age with parental consent); no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "341,764",
-			"females age 16-49:": "317,899 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "269,824",
-			"females age 16-49:": "261,735 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "8,164",
-			"female:": "7,503 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

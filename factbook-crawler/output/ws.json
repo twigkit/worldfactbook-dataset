@@ -5,21 +5,54 @@
 	"background": "New Zealand occupied the German protectorate of Western Samoa at the outbreak of World War I in 1914. It continued to administer the islands as a mandate and then as a trust territory until 1962, when the islands became the first Polynesian nation to reestablish independence in the 20th century. The country dropped the \"Western\" from its name in 1997.",
 	"geo": {
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
-		"Geographic coordinates": "13 35 S, 172 20 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 13,
+				"seconds": 35
+			},
+			"W": {
+				"minutes": 172,
+				"seconds": 20
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "2,831 sq km",
+			"total:": {
+				"quantity": 2831,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "2,821 sq km",
-			"water:": "10 sq km"
+			"land:": {
+				"quantity": 2821,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 10,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Rhode Island",
-		"Land boundaries": "0 km",
-		"Coastline": "403 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 403,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; rainy season (November to April), dry season (May to October)",
 		"Terrain": "two main islands (Savaii, Upolu) and several smaller islands and uninhabited islets; narrow coastal plain with volcanic, rocky, rugged mountains in interior",
@@ -29,9 +62,18 @@
 		},
 		"Natural resources": "hardwood forests, fish, hydropower",
 		"Land use": {
-			"arable land:": "21.13%",
-			"permanent crops:": "24.3%",
-			"other:": "54.57% (2005)"
+			"arable land:": {
+				"quantity": 21.13,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 24.3,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 54.57,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": {
@@ -47,29 +89,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "193,161 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "35.4% (male 35,233/female 33,060)",
-			"15-64 years:": "59.4% (male 59,366/female 55,376)",
+			"0-14 years:": {
+				"quantity": 35.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 59.4,
+				"unit": "%"
+			},
 			"65 years and over:": "5.2% (male 4,472/female 5,654) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.1 years",
-			"male:": "22 years",
-			"female:": "22.3 years (2011 est.)"
+			"total:": {
+				"quantity": 22.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.6% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.5 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.5,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.34 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.34,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -77,31 +143,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "20% of total population (2010)",
-			"rate of urbanization:": "0% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 20,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "APIA (capital) 36,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.051 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.08 male(s)/female",
-			"65 years and over:": "0.8 male(s)/female",
-			"total population:": "1.06 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.051,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "22.74 deaths/1,000 live births",
+			"total:": {
+				"quantity": 22.74,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "26.88 deaths/1,000 live births",
-			"female:": "18.39 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 26.88,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 18.39,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "72.4 years",
+			"total population:": {
+				"quantity": 72.4,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.55 years",
-			"female:": "75.39 years (2011 est.)"
+			"male:": {
+				"quantity": 69.55,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.39,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.22 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.22,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -118,14 +226,32 @@
 		"Languages": "Samoan (Polynesian) (official), English",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.7%",
-			"male:": "99.6%",
-			"female:": "99.7% (2003 est.)"
+			"total population:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2005)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -140,7 +266,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Apia",
-			"geographic coordinates:": "13 50 S, 171 44 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 13,
+					"seconds": 50
+				},
+				"W": {
+					"minutes": 171,
+					"seconds": 44
+				}
+			},
 			"time difference:": "UTC-11 (6 hours behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "11 districts; A'ana, Aiga-i-le-Tai, Atua, Fa'asaleleaga, Gaga'emauga, Gagaifomauga, Palauli, Satupa'itea, Tuamasaga, Va'a-o-Fonoti, Vaisigano",
@@ -186,25 +321,43 @@
 	"economy": {
 		"Economy - overview": "The economy of Samoa has traditionally been dependent on development aid, family remittances from overseas, agriculture, and fishing. The country is vulnerable to devastating storms. Agriculture employs two-thirds of the labor force and furnishes 90% of exports, featuring coconut cream, coconut oil, and copra. The manufacturing sector mainly processes agricultural products. One factory in the Foreign Trade Zone employs 3,000 people to make automobile electrical harnesses for an assembly plant in Australia. Tourism is an expanding sector accounting for 25% of GDP; 122,000 tourists visited the islands in 2007. In late September 2009, an earthquake and the resulting tsunami severely damaged Samoa, and nearby American Samoa, disrupting transportation and power generation, and resulting in about 200 deaths. The Samoan Government has called for deregulation of the financial sector, encouragement of investment, and continued fiscal discipline, while at the same time protecting the environment. Observers point to the flexibility of the labor market as a basic strength for future economic advances. Foreign reserves are in a relatively healthy state, the external debt is stable, and inflation is low.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.055 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1054999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$556 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 556000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$5,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "11.6%",
-			"industry:": "13.1%",
-			"services:": "75.3% (2004 est.)"
+			"agriculture:": {
+				"quantity": 11.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 13.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 75.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "66,270 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -219,84 +372,145 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$171.3 million",
-			"expenditures:": "$78.1 million (FY04/05 est.)"
+			"revenues:": {
+				"usd": 171300000
+			},
+			"expenditures:": {
+				"usd": 78100000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "12.08% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 12.08,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$80.56 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 80560000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$283.2 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 283200000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$243 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 243000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coconuts, bananas, taro, yams, coffee, cocoa",
 		"Industries": "food processing, building materials, auto parts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.8% (2000)",
+			"Industrial production growth rate": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "109 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 109000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "101.4 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 101400000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,105 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1105,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -304,34 +518,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$131 million (2006)",
+			"Exports": {
+				"usd": 131000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish, coconut oil and cream, copra, taro, automotive parts, garments, beer",
 		"Exports - partners": "American Samoa 41.12%, Australia 24.74%, Taiwan 6.24%, China 5.61%, US 4.07% (2009)",
 		"Imports": {
-			"Imports": "$324 million (2006)",
+			"Imports": {
+				"usd": 324000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, industrial supplies, foodstuffs",
 		"Imports - partners": "NZ 24.13%, Fiji 17.34%, Singapore 12.54%, China 10.02%, Australia 9.85%, US 5.95% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$70.15 million (FY03/04)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 70150000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$177 million (2004)",
+			"Debt - external": {
+				"usd": 177000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "31,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "151,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -342,32 +564,41 @@
 		"Broadcast media": "state-owned television station privatized in 2008; 4 privately-owned television broadcast stations; about a half dozen privately-owned radio stations and one state-owned radio station; television and radio broadcasts of several stations from American Samoa are available (2009)",
 		"Internet country code": ".ws",
 		"Internet hosts": {
-			"Internet hosts": "17,044 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "4 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"2,438 to 3,047 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "3",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "2,337 km",
+			"total:": {
+				"quantity": 2337,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "332 km",
-			"unpaved:": "2,005 km (2001)"
+			"paved:": {
+				"quantity": 332,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 2005,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "2",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1, cargo 1",
 			"foreign-owned:": "1 (NZ 1) (2010)"
@@ -377,15 +608,15 @@
 	"military": {
 		"Military branches": "no regular military forces; Samoa Police Force (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "47,906 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "38,260",
-			"females age 16-49:": "38,032 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "2,221",
-			"female:": "2,062 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

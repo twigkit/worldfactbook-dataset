@@ -5,24 +5,57 @@
 	"background": "The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations. A unified kingdom arose circa 3200 B.C., and a series of dynasties ruled in Egypt for the next three millennia. The last native dynasty fell to the Persians in 341 B.C., who in turn were replaced by the Greeks, Romans, and Byzantines. It was the Arabs who introduced Islam and the Arabic language in the 7th century and who ruled for the next six centuries. A local military caste, the Mamluks took control about 1250 and continued to govern after the conquest of Egypt by the Ottoman Turks in 1517. Following the completion of the Suez Canal in 1869, Egypt became an important world transportation hub, but also fell heavily into debt. Ostensibly to protect its investments, Britain seized control of Egypt's government in 1882, but nominal allegiance to the Ottoman Empire continued until 1914. Partially independent from the UK in 1922, Egypt acquired full sovereignty with the overthrow of the British-backed monarchy in 1952. The completion of the Aswan High Dam in 1971 and the resultant Lake Nasser have altered the time-honored place of the Nile River in the agriculture and ecology of Egypt. A rapidly growing population (the largest in the Arab world), limited arable land, and dependence on the Nile all continue to overtax resources and stress society. The government has struggled to meet the demands of Egypt's growing population through economic reform and massive investment in communications and physical infrastructure.",
 	"geo": {
 		"Location": "Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes the Asian Sinai Peninsula",
-		"Geographic coordinates": "27 00 N, 30 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 27,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 30,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1,001,450 sq km",
+			"total:": {
+				"quantity": 1001,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "995,450 sq km",
-			"water:": "6,000 sq km"
+			"land:": {
+				"quantity": 995450,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 6000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than three times the size of New Mexico",
 		"Land boundaries": {
-			"total:": "2,665 km",
+			"total:": {
+				"quantity": 2665,
+				"unit": "km"
+			},
 			"border countries:": "Gaza Strip 11 km, Israel 266 km, Libya 1,115 km, Sudan 1,273 km"
 		},
-		"Coastline": "2,450 km",
+		"Coastline": {
+			"quantity": 2450,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "desert; hot, dry summers with moderate winters",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, iron ore, phosphates, manganese, limestone, gypsum, talc, asbestos, lead, rare earth elements, zinc",
 		"Land use": {
-			"arable land:": "2.92%",
-			"permanent crops:": "0.5%",
-			"other:": "96.58% (2005)"
+			"arable land:": {
+				"quantity": 2.92,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.58,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "35,300 sq km (2008)",
-		"Total renewable water resources": "86.8 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 35300,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 86.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "68.3  cu km/yr (8%/6%/86%)",
-			"per capita:": "923  cu m/yr (2000)"
+			"total:": {
+				"quantity": 68.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 923,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "periodic droughts; frequent earthquakes; flash floods; landslides; hot, driving windstorm called khamsin occurs in spring; dust storms; sandstorms",
 		"Environment - current issues": "agricultural land being lost to urbanization and windblown sands; increasing soil salination below Aswan High Dam; desertification; oil pollution threatening coral reefs, beaches, and marine habitats; other water pollution from agricultural pesticides, raw sewage, and industrial effluents; limited natural freshwater resources away from the Nile, which is the only perennial water source; rapid growth in population overstraining the Nile and natural resources",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "82,079,636 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "32.7% (male 13,725,282/female 13,112,157)",
-			"15-64 years:": "62.8% (male 26,187,921/female 25,353,947)",
+			"0-14 years:": {
+				"quantity": 32.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 62.8,
+				"unit": "%"
+			},
 			"65 years and over:": "4.5% (male 1,669,313/female 2,031,016) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "24.3 years",
-			"male:": "24 years",
-			"female:": "24.6 years (2011 est.)"
+			"total:": {
+				"quantity": 24.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 24,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 24.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.96% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.96,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "24.63 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 24.63,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.82 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.82,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,31 +161,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "43.4% of total population (2010)",
-			"rate of urbanization:": "2.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 43.4,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "CAIRO (capital) 10.902 million; Alexandria 4.387 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "25.2 deaths/1,000 live births",
+			"total:": {
+				"quantity": 25.2,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "26.8 deaths/1,000 live births",
-			"female:": "23.52 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 26.8,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 23.52,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "72.66 years",
+			"total population:": {
+				"quantity": 72.66,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "70.07 years",
-			"female:": "75.38 years (2011 est.)"
+			"male:": {
+				"quantity": 70.07,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.38,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.97 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.97,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -115,7 +235,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "11,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -139,14 +259,32 @@
 		"Languages": "Arabic (official), English and French widely understood by educated classes",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "71.4%",
-			"male:": "83%",
-			"female:": "59.4% (2005 est.)"
+			"total population:": {
+				"quantity": 71.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 83,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 59.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2004)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +299,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Cairo",
-			"geographic coordinates:": "30 03 N, 31 15 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 30,
+					"seconds": 3
+				},
+				"E": {
+					"minutes": 31,
+					"seconds": 15
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "29 governorates (muhafazat, singular - muhafazat); Ad Daqahliyah, Al Bahr al Ahmar (Red Sea), Al Buhayrah (El Beheira), Al Fayyum (El Faiyum), Al Gharbiyah, Al Iskandariyah (Alexandria), Al Isma'iliyah (Ismailia), Al Jizah (Giza), Al Minufiyah (El Monofia), Al Minya, Al Qahirah (Cairo), Al Qalyubiyah, Al Uqsur (Luxor), Al Wadi al Jadid (New Valley), As Suways (Suez), Ash Sharqiyah, Aswan, Asyut, Bani Suwayf (Beni Suef), Bur Sa'id (Port Said), Dumyat (Damietta), Helwan, Janub Sina' (South Sinai), Kafr ash Shaykh, Matruh (Western Desert), Qina (Qena), Shamal Sina' (North Sinai), Sittah Uktubar, Suhaj (Sohag)",
@@ -213,182 +360,307 @@
 	"economy": {
 		"Economy - overview": "Occupying the northeast corner of the African continent, Egypt is bisected by the highly fertile Nile valley, where most economic activity takes place. Egypt's economy was highly centralized during the rule of former President Gamal Abdel NASSER but opened up considerably under former Presidents Anwar EL-SADAT and Mohamed Hosni MUBARAK. Cairo from 2004 to 2008 aggressively pursued economic reforms to attract foreign investment and facilitate GDP growth. The global financial crisis slowed the reform efforts. The budget deficit climbed to over 8% of GDP and Egypt's GDP growth slowed to 4.6% in 2009, predominately due to reduced growth in export-oriented sectors, including manufacturing and tourism, and Suez Canal revenues. In 2010, the government spent more on infrastructure and public projects, and exports drove GDP growth to more than 5%, but GDP growth in 2011 is unlikely to bounce back to pre-global financial recession levels, when it stood at 7%. Despite the relatively high levels of economic growth over the past few years, living conditions for the average Egyptian remain poor.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$497.8 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 497800000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$218.5 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 218500000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$6,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "13.5%",
-			"industry:": "37.9%",
-			"services:": "48.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 37.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 48.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "26.1 million (2010 est.)",
+			"Labor force": 26100000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "32%",
-			"industry:": "17%",
-			"services:": "51% (2001 est.)"
+			"agriculture:": {
+				"quantity": 32,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 9.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "20% (2005 est.)",
+		"Population below poverty line": {
+			"quantity": 20,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.9%",
-			"highest 10%:": "27.6% (2005)"
+			"lowest 10%:": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 27.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "34.4 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "18.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 18.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$46.82 billion",
-			"expenditures:": "$64.19 billion (2010 est.)"
+			"revenues:": {
+				"usd": 46820000000
+			},
+			"expenditures:": {
+				"usd": 64190000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "80.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 80.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "12.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 12.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "8.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 8.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.98% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.98,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$37.8 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 37800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$166.2 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 166200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$145.6 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 145600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$89.95 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 89950000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cotton, rice, corn, wheat, beans, fruits, vegetables; cattle, water buffalo, sheep, goats",
 		"Industries": "textiles, food processing, tourism, chemicals, pharmaceuticals, hydrocarbons, construction, cement, metals, light manufactures",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "118.4 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 118400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "104.1 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 104100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "814 million kWh (2007 est.)",
-		"Electricity - imports": "251 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 814000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 251000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "680,500 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 680500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "683,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 683000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "89,300 bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 89300,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "48,450 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 48450,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "4.3 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 4300000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "62.7 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 62700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "42.5 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 42500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "8.55 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 8550000000.000001,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "1.656 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 1656000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$270 million (2010 est.)",
+			"Current account balance": {
+				"usd": 270000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$25.34 billion (2010 est.)",
+			"Exports": {
+				"usd": 25340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "crude oil and petroleum products, cotton, textiles, metal products, chemicals, processed food",
 		"Exports - partners": "US 7.95%, Italy 7.26%, Spain 6.78%, India 6.69%, Saudi Arabia 5.53%, Syria 5.3%, France 4.39%, South Korea 4.27% (2009)",
 		"Imports": {
-			"Imports": "$46.52 billion (2010 est.)",
+			"Imports": {
+				"usd": 46520000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, chemicals, wood products, fuels",
 		"Imports - partners": "US 9.92%, China 9.63%, Germany 6.98%, Italy 6.88%, Turkey 4.94% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$35.72 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 35720000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$30.61 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 30610000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$72.41 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 72410000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$4.9 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 4900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "10.313 million (2009)",
+			"Telephones - main lines in use": 10313000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "55.352 million (2009)",
+			"Telephones - mobile cellular": 55352000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -399,52 +671,64 @@
 		"Broadcast media": "mix of state-run and private broadcast media; state-run TV operates 2 national and 6 regional terrestrial networks as well as a few satellite channels; about 20 private satellite channels and a large number of Arabic satellite channels are available via subscription; state-run radio operates about 70 stations belonging to 8 networks; 2 privately-owned radio stations operational (2008)",
 		"Internet country code": ".eg",
 		"Internet hosts": {
-			"Internet hosts": "187,197 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "86 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "73",
-			"over 3,047 m:": "15",
-			"2,438 to 3,047 m:": "36",
-			"1,524 to 2,437 m:": "15",
-			"914 to 1,523 m:": "2"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "13",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "4 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "6 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 320 km; condensate/gas 13 km; gas 6,628 km; liquid petroleum gas 956 km; oil 4,332 km; oil/gas/water 3 km; refined products 895 km; water 13 km (2010)",
 		"Railways": {
-			"total:": "5,083 km",
+			"total:": {
+				"quantity": 5083,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "5,083 km 1.435-m gauge (62 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "65,050 km",
+			"total:": {
+				"quantity": 65050,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "47,500 km",
-			"unpaved:": "17,550 km (2009)"
+			"paved:": {
+				"quantity": 47500,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 17550,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "3,500 km (includes the Nile River, Lake Nasser, Alexandria-Cairo Waterway, and numerous smaller canals in Nile Delta; the Suez Canal (193.5 km including approaches) is navigable by oceangoing vessels drawing up to 17.68 m) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "66",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 11, cargo 24, container 3, passenger/cargo 7, petroleum tanker 12, roll on/roll off 9",
-			"foreign-owned:": "13 (Denmark 1, France 1, Greece 8, Jordan 2, Lebanon 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "52 (Cambodia 12, Cook Islands 1, Georgia 11, Honduras 2, Malta 1, Marshall Islands 1, Moldova 5, Panama 11, Saint Vincent and the Grenadines 4, Saudi Arabia 1, Sierra Leone 2, unknown 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -453,16 +737,16 @@
 		"Military branches": "Army, Navy, Air Force, Air Defense Command",
 		"Military service age and obligation": "18-30 years of age for male conscript military service; service obligation 12-36 months, followed by a 9-year reserve obligation (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "21,012,199",
-			"females age 16-49:": "20,145,021 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "18,060,543",
-			"females age 16-49:": "17,244,838 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "783,405",
-			"female:": "748,647 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

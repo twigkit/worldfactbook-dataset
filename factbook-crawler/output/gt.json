@@ -5,23 +5,53 @@
 	"background": "The Mayan civilization flourished in Guatemala and surrounding regions during the first millennium A.D. After almost three centuries as a Spanish colony, Guatemala won its independence in 1821. During the second half of the 20th century, it experienced a variety of military and civilian governments, as well as a 36-year guerrilla war. In 1996, the government signed a peace agreement formally ending the conflict, which had left more than 100,000 people dead and had created, by some estimates, some 1 million refugees.",
 	"geo": {
 		"Location": "Central America, bordering the North Pacific Ocean, between El Salvador and Mexico, and bordering the Gulf of Honduras (Caribbean Sea) between Honduras and Belize",
-		"Geographic coordinates": "15 30 N, 90 15 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 90,
+				"seconds": 15
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "108,889 sq km",
+			"total:": {
+				"quantity": 108889,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "107,159 sq km",
-			"water:": "1,730 sq km"
+			"land:": {
+				"quantity": 107159,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1730,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Tennessee",
 		"Land boundaries": {
-			"total:": "1,687 km",
+			"total:": {
+				"quantity": 1687,
+				"unit": "km"
+			},
 			"border countries:": "Belize 266 km, El Salvador 203 km, Honduras 256 km, Mexico 962 km"
 		},
-		"Coastline": "400 km",
+		"Coastline": {
+			"quantity": 400,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "tropical; hot, humid in lowlands; cooler in highlands",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "petroleum, nickel, rare woods, fish, chicle, hydropower",
 		"Land use": {
-			"arable land:": "13.22%",
-			"permanent crops:": "5.6%",
-			"other:": "81.18% (2005)"
+			"arable land:": {
+				"quantity": 13.22,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 5.6,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 81.18,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,000 sq km (2008)",
-		"Total renewable water resources": "111.3 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 2000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 111.3,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.01  cu km/yr (6%/13%/80%)",
-			"per capita:": "160  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.01,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 160,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "numerous volcanoes in mountains, with occasional violent earthquakes; Caribbean coast extremely susceptible to hurricanes and other tropical storms",
@@ -55,29 +106,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "13,824,463 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "38.1% (male 2,678,340/female 2,582,472)",
-			"15-64 years:": "58% (male 3,889,573/female 4,130,698)",
+			"0-14 years:": {
+				"quantity": 38.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 58,
+				"unit": "%"
+			},
 			"65 years and over:": "3.9% (male 252,108/female 291,272) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "20 years",
-			"male:": "19.4 years",
-			"female:": "20.7 years (2011 est.)"
+			"total:": {
+				"quantity": 20,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 19.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 20.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.986% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.986,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.96 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.96,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.98 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.98,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -85,43 +160,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "49% of total population (2010)",
-			"rate of urbanization:": "3.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 49,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "GUATEMALA CITY (capital) 1.075 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.94 male(s)/female",
-			"65 years and over:": "0.86 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.86,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "26.02 deaths/1,000 live births",
+			"total:": {
+				"quantity": 26.02,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "28.26 deaths/1,000 live births",
-			"female:": "23.67 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 28.26,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 23.67,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "70.88 years",
+			"total population:": {
+				"quantity": 70.88,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.03 years",
-			"female:": "72.83 years (2011 est.)"
+			"male:": {
+				"quantity": 69.03,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 72.83,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.27 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.27,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "62,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "2,600 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -143,14 +263,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "69.1%",
-			"male:": "75.4%",
-			"female:": "63.3% (2002 census)"
+			"total population:": {
+				"quantity": 69.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 75.4,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 63.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "10 years (2007)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 10,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -164,7 +302,16 @@
 		"Government type": "constitutional democratic republic",
 		"Capital": {
 			"name:": "Guatemala City",
-			"geographic coordinates:": "14 37 N, 90 31 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 14,
+					"seconds": 37
+				},
+				"W": {
+					"minutes": 90,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "22 departments (departamentos, singular - departamento); Alta Verapaz, Baja Verapaz, Chimaltenango, Chiquimula, El Progreso, Escuintla, Guatemala, Huehuetenango, Izabal, Jalapa, Jutiapa, Peten, Quetzaltenango, Quiche, Retalhuleu, Sacatepequez, San Marcos, Santa Rosa, Solola, Suchitepequez, Totonicapan, Zacapa",
@@ -210,133 +357,239 @@
 	"economy": {
 		"Economy - overview": "Guatemala is the most populous country in Central America with a GDP per capita roughly one-half that of the average for Latin America and the Caribbean. The agricultural sector accounts for nearly 15% of GDP and half of the labor force; key agricultural exports include coffee, sugar, and bananas. The 1996 peace accords, which ended 36 years of civil war, removed a major obstacle to foreign investment, and since then Guatemala has pursued important reforms and macroeconomic stabilization. The Dominican Republic-Central American Free Trade Agreement (CAFTA-DR) entered into force in July 2006 spurring increased investment and diversification of exports, with the largest increases in ethanol and non-traditional agricultural exports. While CAFTA-DR has helped improve the investment climate, concerns over security, the lack of skilled workers and poor infrastructure continue to hamper foreign direct investment. The distribution of income remains highly unequal with the richest 10% of the population accounting for more than 40% of Guatemala's overall consumption. More than half of the population is below the national poverty line and 15% lives in extreme poverty. Poverty among indigenous groups, which make up 38% of the population, averages 76% and extreme poverty rises to 28%. 43% of children under five are chronically malnourished, one of the highest malnutrition rates in the world. President COLOM entered into office with the promise to increase education, healthcare, and rural development, and in April 2008 he inaugurated a conditional cash transfer program, modeled after programs in Brazil and Mexico, that provide financial incentives for poor families to keep their children in school and get regular health check-ups. Given Guatemala's large expatriate community in the United States, it is the top remittance recipient in Central America, with inflows serving as a primary source of foreign income equivalent to nearly two-thirds of exports or one-tenth of GDP. Economic growth fell in 2009 as export demand from US and other Central American markets fell and foreign investment slowed amid the global recession, but the economy recovered gradually in 2010 and will likely return to more normal growth rates by 2012. President COLOM, in his last year in office, will likely face opposition to economic reform, particularly over a long-delayed tax reform and an IMF-recommended reform to strengthen the banking sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$70.15 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 70150000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$41.47 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 41470000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$5,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "13.3%",
-			"industry:": "24.4%",
-			"services:": "62.3% (2010 est.)"
+			"agriculture:": {
+				"quantity": 13.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 62.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.26 million (2010 est.)",
+			"Labor force": 4260000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "50%",
-			"industry:": "15%",
-			"services:": "35% (1999 est.)"
+			"agriculture:": {
+				"quantity": 50,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 35,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3.2% (2005 est.)",
+			"Unemployment rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "56.2% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 56.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.3%",
-			"highest 10%:": "42.4% (2006)"
+			"lowest 10%:": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 42.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "55.1 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "13.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 13.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$4.897 billion",
-			"expenditures:": "$6.124 billion (2010 est.)"
+			"revenues:": {
+				"usd": 4897000000
+			},
+			"expenditures:": {
+				"usd": 6124000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "29.6% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 29.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.9% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "13.85% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 13.85,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$6.6 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 6600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$25.4 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 25400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$15.58 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 15580000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "sugarcane, corn, bananas, coffee, beans, cardamom; cattle, sheep, pigs, chickens",
 		"Industries": "sugar, textiles and clothing, furniture, chemicals, petroleum, metals, rubber, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.6% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "8.425 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 8425000000.000001,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "7.115 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 7115000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "131.9 million kWh (2007 est.)",
-		"Electricity - imports": "8.11 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 131900000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 8109999.999999999,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "13,530 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 13530,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "79,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 79000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "21,850 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 21850,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "72,440 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 72440,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "83.07 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 83070000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "2.96 billion cu m (1 January 2006 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 2960000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -344,34 +597,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$8.47 billion (2010 est.)",
+			"Exports": {
+				"usd": 8470000000.000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, sugar, petroleum, apparel, bananas, fruits and vegetables, cardamom",
 		"Exports - partners": "US 40.41%, El Salvador 11.2%, Honduras 8.48%, Mexico 5.86% (2009)",
 		"Imports": {
-			"Imports": "$12.65 billion (2010 est.)",
+			"Imports": {
+				"usd": 12650000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "fuels, machinery and transport equipment, construction materials, grain, fertilizers, electricity",
 		"Imports - partners": "US 36.46%, Mexico 10.49%, China 5.88%, El Salvador 5.14% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$5.709 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 5709000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$17.47 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 17470000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.413 million (2009)",
+			"Telephones - main lines in use": 1413000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "17.308 million (2009)",
+			"Telephones - mobile cellular": 17308000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -382,41 +643,53 @@
 		"Broadcast media": "4 privately-owned national terrestrial TV channels dominate TV broadcasting; multi-channel satellite and cable services are available; 1 government-owned radio station and hundreds of privately-owned radio stations (2007)",
 		"Internet country code": ".gt",
 		"Internet hosts": {
-			"Internet hosts": "196,870 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "372 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "13",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "359",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "84",
-			"under 914 m:": "271 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 480 km (2010)",
 		"Railways": {
-			"total:": "332 km",
+			"total:": {
+				"quantity": 332,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "332 km 0.914-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "14,095 km",
+			"total:": {
+				"quantity": 14095,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,863 km (includes 75 km of expressways)",
-			"unpaved:": "9,232 km (2000)"
+			"paved:": {
+				"quantity": 4863,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 9232,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "990 km (260 km navigable year round; additional 730 km navigable during high-water season) (2010)",
@@ -428,16 +701,16 @@
 		"Military branches": "National Army of Guatemala (Ejercito Nacional de Guatemala, ENG), Guatemalan Navy (Marina Nacional, includes Marines), Guatemalan Air Force (Fuerza Aerea Guatemalteca, FAG) (2009)",
 		"Military service age and obligation": "all male citizens between the ages of 18 and 50 are liable for military service; conscript service obligation varies from 12 to 24 months; women can serve as officers (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "3,165,870",
-			"females age 16-49:": "3,371,217 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,590,843",
-			"females age 16-49:": "2,926,544 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "171,092",
-			"female:": "168,151 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

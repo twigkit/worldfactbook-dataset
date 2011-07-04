@@ -5,20 +5,50 @@
 	"background": "In 1979 the Federated States of Micronesia, a UN Trust Territory under US administration, adopted a constitution. In 1986 independence was attained under a Compact of Free Association with the US, which was amended and renewed in 2004. Present concerns include large-scale unemployment, overfishing, and overdependence on US aid.",
 	"geo": {
 		"Location": "Oceania, island group in the North Pacific Ocean, about three-quarters of the way from Hawaii to Indonesia",
-		"Geographic coordinates": "6 55 N, 158 15 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 6,
+				"seconds": 55
+			},
+			"E": {
+				"minutes": 158,
+				"seconds": 15
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "702 sq km",
+			"total:": {
+				"quantity": 702,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "702 sq km",
-			"water:": "0 sq km (fresh water only)"
+			"land:": {
+				"quantity": 702,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "four times the size of Washington, DC (land area only)",
-		"Land boundaries": "0 km",
-		"Coastline": "6,112 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 6112,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; heavy year-round rainfall, especially in the eastern islands; located on southern edge of the typhoon belt with occasionally severe damage",
 		"Terrain": "islands vary geologically from high mountainous islands to low, coral atolls; volcanic outcroppings on Pohnpei, Kosrae, and Chuuk",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "timber, marine products, deep-seabed minerals, phosphate",
 		"Land use": {
-			"arable land:": "5.71%",
-			"permanent crops:": "45.71%",
-			"other:": "48.58% (2005)"
+			"arable land:": {
+				"quantity": 5.71,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 45.71,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 48.58,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (June to December)",
@@ -43,29 +82,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "106,836 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "33.6% (male 18,223/female 17,639)",
-			"15-64 years:": "63.4% (male 33,566/female 34,215)",
+			"0-14 years:": {
+				"quantity": 33.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63.4,
+				"unit": "%"
+			},
 			"65 years and over:": "3% (male 1,375/female 1,818) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.7 years",
-			"male:": "22.2 years",
-			"female:": "23.3 years (2011 est.)"
+			"total:": {
+				"quantity": 22.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.313% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "22.22 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 22.22,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.35 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.35,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -73,31 +133,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "23% of total population (2010)",
-			"rate of urbanization:": "1.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 23,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PALIKIR (capital) 7,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.74 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.74,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "24.34 deaths/1,000 live births",
+			"total:": {
+				"quantity": 24.34,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "26.89 deaths/1,000 live births",
-			"female:": "21.66 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 26.89,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 21.66,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.52 years",
+			"total population:": {
+				"quantity": 71.52,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.58 years",
-			"female:": "73.55 years (2011 est.)"
+			"male:": {
+				"quantity": 69.58,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 73.55,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.74 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.74,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -114,9 +216,18 @@
 		"Languages": "English (official and common language), Chuukese, Kosrean, Pohnpeian, Yapese, Ulithian, Woleaian, Nukuoro, Kapingamarangi",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "89%",
-			"male:": "91%",
-			"female:": "88% (1980 est.)"
+			"total population:": {
+				"quantity": 89,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 91,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 88,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -132,7 +243,16 @@
 		"Government type": "constitutional government in free association with the US; the Compact of Free Association entered into force on 3 November 1986 and the Amended Compact entered into force in May 2004",
 		"Capital": {
 			"name:": "Palikir",
-			"geographic coordinates:": "6 55 N, 158 09 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 55
+				},
+				"E": {
+					"minutes": 158,
+					"seconds": 9
+				}
+			},
 			"time difference:": "UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "4 states; Chuuk (Truk), Kosrae (Kosaie), Pohnpei (Ponape), Yap",
@@ -178,102 +298,166 @@
 	"economy": {
 		"Economy - overview": "Economic activity consists primarily of subsistence farming and fishing. The islands have few mineral deposits worth exploiting, except for high-grade phosphate. The potential for a tourist industry exists, but the remote location, a lack of adequate facilities, and limited air connections hinder development. Under the original terms of the Compact of Free Association, the US provided $1.3 billion in grant aid during the period 1986-2001; the level of aid has been subsequently reduced. The Amended Compact of Free Association with the US guarantees the Federated States of Micronesia (FSM) millions of dollars in annual aid through 2023, and establishes a Trust Fund into which the US and the FSM make annual contributions in order to provide annual payouts to the FSM in perpetuity after 2023. The country's medium-term economic outlook appears fragile due not only to the reduction in US assistance but also to the current slow growth of the private sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$238.1 million (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 238100000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$238.1 million (2008)",
+		"GDP (official exchange rate)": {
+			"usd": 238100000
+		},
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,200 (2008 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "28.9%",
-			"industry:": "15.2%",
-			"services:": "55.9% (2004 est.)"
+			"agriculture:": {
+				"quantity": 28.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 55.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "16,360 (2008)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "0.9%",
-			"industry:": "34.4%",
-			"services:": "64.7%"
+			"agriculture:": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 34.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 64.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "22% (2000 est.)",
+			"Unemployment rate": {
+				"quantity": 22,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26.7% (2000)",
+		"Population below poverty line": {
+			"quantity": 26.7,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$166 million (FY07 est.)",
-			"expenditures:": "$152.7 million (FY07 est.)"
+			"revenues:": {
+				"usd": 166000000
+			},
+			"expenditures:": {
+				"usd": 152700000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.2% (2005)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "15.38% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 15.38,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$29.02 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 29020000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$114 million (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 114000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$65.68 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 65680000.00000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "black pepper, tropical fruits and vegetables, coconuts, bananas, cassava (tapioca), sakau (kava), Kosraen citrus, betel nuts, sweet potatoes; pigs, chickens; fish",
 		"Industries": "tourism, construction; fish processing, specialized aquaculture; craft items (from shell, wood, and pearls)",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "192 million kWh (2002)",
+			"Electricity - production": {
+				"quantity": 192000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "178.6 million kWh (2002)",
+			"Electricity - consumption": {
+				"quantity": 178600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2002)",
-		"Electricity - imports": "0 kWh (2002)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Current account balance": {
 			"Current account balance": "$-34.3 million (FY05 est.)",
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$14 million (2004 est.)",
+			"Exports": {
+				"usd": 14000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish, garments, bananas, black pepper, sakau (kava), betel nut",
 		"Imports": {
-			"Imports": "$132.7 million (2004)",
+			"Imports": {
+				"usd": 132699999.99999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, manufactured goods, machinery and equipment, beverages",
 		"Debt - external": {
-			"Debt - external": "$60.8 million (FY05 est.)",
+			"Debt - external": {
+				"usd": 60800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "8,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "38,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -284,29 +468,38 @@
 		"Broadcast media": "no television broadcast stations; each state has a multi-channel cable service with television transmissions carrying roughly 95% imported programming and 5% local programming; about a half dozen radio stations in operation (2009)",
 		"Internet country code": ".fm",
 		"Internet hosts": {
-			"Internet hosts": "3,097 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "6",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Roadways": {
-			"total:": "240 km",
+			"total:": {
+				"quantity": 240,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "42 km",
-			"unpaved:": "198 km (2000)"
+			"paved:": {
+				"quantity": 42,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 198,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "3",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, passenger/cargo 2 (2010)"
 		},
@@ -315,15 +508,15 @@
 	"military": {
 		"Military branches": "no regular military forces",
 		"Manpower available for military service": {
-			"males age 16-49:": "26,712 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "22,008",
-			"females age 16-49:": "23,501 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,276",
-			"female:": "1,253 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

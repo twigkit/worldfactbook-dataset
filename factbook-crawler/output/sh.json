@@ -6,27 +6,75 @@
 	"geo": {
 		"Location": "islands in the South Atlantic Ocean, about midway between South America and Africa; Ascension Island lies 700 nm northwest of Saint Helena; Tristan da Cunha lies 2,300 nm southwest of Saint Helena",
 		"Geographic coordinates": {
-			"Saint Helena:": "15 57 S, 5 42 W",
-			"Ascension Island:": "7 57 S, 14 22 W",
-			"Tristan da Cunha island group:": "37 15 S, 12 30 W"
+			"Saint Helena:": {
+				"S": {
+					"minutes": 15,
+					"seconds": 57
+				},
+				"W": {
+					"minutes": 5,
+					"seconds": 42
+				}
+			},
+			"Ascension Island:": {
+				"S": {
+					"minutes": 7,
+					"seconds": 57
+				},
+				"W": {
+					"minutes": 14,
+					"seconds": 22
+				}
+			},
+			"Tristan da Cunha island group:": {
+				"S": {
+					"minutes": 37,
+					"seconds": 15
+				},
+				"W": {
+					"minutes": 12,
+					"seconds": 30
+				}
+			}
 		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "308 sq km",
+			"total:": {
+				"quantity": 308,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
 			"land:": "Saint Helena Island 122 sq km; Ascension Island 88 sq km; Tristan da Cunha island group 98 sq km",
-			"water:": "0 sq km"
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of Washington, DC",
-		"Land boundaries": "0 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Coastline": {
-			"Saint Helena:": "60 km",
+			"Saint Helena:": {
+				"quantity": 60,
+				"unit": "km"
+			},
 			"Ascension Island:": "NA",
-			"Tristan da Cunha:": "40 km"
+			"Tristan da Cunha:": {
+				"quantity": 40,
+				"unit": "km"
+			}
 		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": {
 			"Saint Helena:": "tropical marine; mild, tempered by trade winds",
@@ -45,9 +93,18 @@
 		},
 		"Natural resources": "fish, lobster",
 		"Land use": {
-			"arable land:": "12.9%",
-			"permanent crops:": "0%",
-			"other:": "87.1% (2005)"
+			"arable land:": {
+				"quantity": 12.9,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.1,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": {
@@ -59,61 +116,127 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "7,700 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "17.8% (male 697/female 671)",
-			"15-64 years:": "70% (male 2,731/female 2,656)",
+			"0-14 years:": {
+				"quantity": 17.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 70,
+				"unit": "%"
+			},
 			"65 years and over:": "12.3% (male 468/female 477) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "38.8 years",
-			"male:": "38.8 years",
-			"female:": "38.7 years (2011 est.)"
+			"total:": {
+				"quantity": 38.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 38.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.377% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.377,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.65 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.65,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.88 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.88,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "40% of total population (2010)",
+			"urban population:": {
+				"quantity": 40,
+				"unit": "% of total population"
+			},
 			"rate of urbanization:": "-0.3% annual rate of change (2010-15 est.)"
 		},
 		"Major cities - population": "JAMESTOWN (capital) 1,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.04 male(s)/female",
-			"65 years and over:": "0.94 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "16.38 deaths/1,000 live births",
+			"total:": {
+				"quantity": 16.38,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "19.28 deaths/1,000 live births",
-			"female:": "13.34 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 19.28,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 13.34,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.76 years",
+			"total population:": {
+				"quantity": 78.76,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.83 years",
-			"female:": "81.83 years (2011 est.)"
+			"male:": {
+				"quantity": 75.83,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.83,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.57 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.57,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -128,9 +251,18 @@
 		"Languages": "English",
 		"Literacy": {
 			"definition:": "age 20 and over can read and write",
-			"total population:": "97%",
-			"male:": "97%",
-			"female:": "98% (1987 est.)"
+			"total population:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -144,7 +276,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Jamestown",
-			"geographic coordinates:": "15 56 S, 5 44 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 15,
+					"seconds": 56
+				},
+				"W": {
+					"minutes": 5,
+					"seconds": 44
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 administrative areas; Ascension, Saint Helena, Tristan da Cunha",
@@ -178,13 +319,17 @@
 	"economy": {
 		"Economy - overview": "The economy depends largely on financial assistance from the UK, which amounted to about $27 million in FY06/07 or more than twice the level of annual budgetary revenues. The local population earns income from fishing, raising livestock, and sales of handicrafts. Because there are few jobs, 25% of the work force has left to seek employment on Ascension Island, on the Falklands, and in the UK.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$18 million (1998 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 18000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (1998 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -193,16 +338,28 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "2,486",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "6%",
-			"industry:": "48%",
-			"services:": "46% (1987 est.)"
+			"agriculture:": {
+				"quantity": 6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 48,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 46,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "14% (1998 est.)",
+			"Unemployment rate": {
+				"quantity": 14,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -211,73 +368,126 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$10.23 million",
-			"expenditures:": "$25.14 million"
+			"revenues:": {
+				"usd": 10230000
+			},
+			"expenditures:": {
+				"usd": 25140000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.2% (1997 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coffee, corn, potatoes, vegetables; timber; fish, lobster; livestock",
 		"Industries": "construction, crafts (furniture, lacework, fancy woodwork), fishing, philatelic sales",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "8 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 8000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "7.44 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 7440000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "0 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "79.73 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 79.73,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$19 million (2004 est.)",
+			"Exports": {
+				"usd": 19000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish (frozen, canned, and salt-dried skipjack, tuna), coffee, handicrafts",
 		"Imports": {
-			"Imports": "$45 million (2004 est.)",
+			"Imports": {
+				"usd": 45000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, beverages, tobacco, fuel oils, animal feed, building materials, motor vehicles and parts, machinery and parts",
@@ -286,7 +496,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -297,28 +507,34 @@
 		"Broadcast media": "St. Helena has no local TV station; 2 local radio stations, one of which is relayed to Ascension Island; satellite TV stations rebroadcast terrestrially; Ascension Island has no local TV station, but has 1 local radio station and receives relays of broadcasts from 1 St. Helena radio station; broadcasts from the British Forces Broadcasting Service (BFBS) are available, as well as TV services for the US military; Tristan da Cunha has 1 local radio station and receives BFBS TV and radio broadcasts (2007)",
 		"Internet country code": ".sh; note - Ascension Island assigned .ac",
 		"Internet hosts": {
-			"Internet hosts": "6,873 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {
-			"Internet users": "900 (2009)",
+			"Internet users": null,
 			"country comparison to the world:": ""
 		},
 		"Communications - note": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Roadways": {
-			"total:": "198 km (Saint Helena 138 km, Ascension 40 km, Tristan da Cunha 20 km)",
+			"total:": {
+				"quantity": 198,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "168 km (Saint Helena 118 km, Ascension 40 km, Tristan da Cunha 10 km)",
+			"paved:": {
+				"quantity": 168,
+				"unit": "km"
+			},
 			"unpaved:": "30 km (Saint Helena 20 km, Ascension 0 km, Tristan da Cunha 10 km) (2002)"
 		},
 		"Ports and terminals": {
@@ -330,12 +546,12 @@
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,565",
-			"females age 16-49:": "1,579 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "49",
-			"female:": "48 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

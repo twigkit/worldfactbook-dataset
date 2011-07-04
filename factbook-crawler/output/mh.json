@@ -5,20 +5,50 @@
 	"background": "English and Irish colonists from St. Kitts first settled on Montserrat in 1632; the first African slaves arrived three decades later. The British and French fought for possession of the island for most of the 18th century, but it finally was confirmed as a British possession in 1783. The island's sugar plantation economy was converted to small farm landholdings in the mid 19th century. Much of this island was devastated and two-thirds of the population fled abroad because of the eruption of the Soufriere Hills Volcano that began on 18 July 1995. Montserrat has endured volcanic activity since, with the last eruption occurring in July 2003.",
 	"geo": {
 		"Location": "Caribbean, island in the Caribbean Sea, southeast of Puerto Rico",
-		"Geographic coordinates": "16 45 N, 62 12 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 16,
+				"seconds": 45
+			},
+			"W": {
+				"minutes": 62,
+				"seconds": 12
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "102 sq km",
+			"total:": {
+				"quantity": 102,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "102 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 102,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about 0.6 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "40 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 40,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; little daily or seasonal temperature variation",
 		"Terrain": "volcanic island, mostly mountainous, with small coastal lowland",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "NEGL",
 		"Land use": {
-			"arable land:": "20%",
-			"permanent crops:": "0%",
-			"other:": "80% (2005)"
+			"arable land:": {
+				"quantity": 20,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 80,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": {
@@ -42,60 +81,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,140 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.9% (male 717/female 665)",
-			"15-64 years:": "66.6% (male 1,648/female 1,777)",
+			"0-14 years:": {
+				"quantity": 26.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.6,
+				"unit": "%"
+			},
 			"65 years and over:": "6.5% (male 208/female 125) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "29.6 years",
-			"male:": "29.2 years",
-			"female:": "30.1 years (2011 est.)"
+			"total:": {
+				"quantity": 29.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 30.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.447% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.447,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.67 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.67,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.2 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.2,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "14% of total population (2010)",
-			"rate of urbanization:": "2.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 14,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.033 male(s)/female",
-			"under 15 years:": "1.09 male(s)/female",
-			"15-64 years:": "0.91 male(s)/female",
-			"65 years and over:": "2.03 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.033,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 2.03,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "15.23 deaths/1,000 live births",
+			"total:": {
+				"quantity": 15.23,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "11.54 deaths/1,000 live births",
-			"female:": "19.1 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 11.54,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 19.1,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.16 years",
+			"total population:": {
+				"quantity": 73.16,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "74.99 years",
-			"female:": "71.24 years (2011 est.)"
+			"male:": {
+				"quantity": 74.99,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 71.24,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.26 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.26,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -112,14 +220,32 @@
 		"Languages": "English",
 		"Literacy": {
 			"definition:": "age 15 and over has ever attended school",
-			"total population:": "97%",
-			"male:": "97%",
-			"female:": "97% (1970 est.)"
+			"total population:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "14 years",
-			"female:": "17 years (2007)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -132,7 +258,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Plymouth",
-			"geographic coordinates:": "16 42 N, 62 13 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 16,
+					"seconds": 42
+				},
+				"W": {
+					"minutes": 62,
+					"seconds": 13
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "3 parishes; Saint Anthony, Saint Georges, Saint Peter",
@@ -164,7 +299,9 @@
 	"economy": {
 		"Economy - overview": "Severe volcanic activity, which began in July 1995, has put a damper on this small, open economy. A catastrophic eruption in June 1997 closed the airports and seaports, causing further economic and social dislocation. Two-thirds of the 12,000 inhabitants fled the island. Some began to return in 1998 but lack of housing limited the number. The agriculture sector continued to be affected by the lack of suitable land for farming and the destruction of crops. Prospects for the economy depend largely on developments in relation to the volcanic activity and on public sector construction activity. The UK has launched a three-year $122.8 million aid program to help reconstruct the economy. Half of the island is expected to remain uninhabitable for another decade.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$29 million (2002 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 29000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
@@ -173,17 +310,31 @@
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,400 (2002 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.2%",
-			"industry:": "23.1%",
-			"services:": "75.7% (1999 est.)"
+			"agriculture:": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 75.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": "NA",
 		"Unemployment rate": {
-			"Unemployment rate": "6% (1998 est.)",
+			"Unemployment rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -192,109 +343,176 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$31.4 million",
-			"expenditures:": "$31.6 million (1997 est.)"
+			"revenues:": {
+				"usd": 31400000
+			},
+			"expenditures:": {
+				"usd": 31600000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.6% (2002 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "9.04% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 9.04,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$14.13 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 14130000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$69.63 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 69630000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$9.93 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 9930000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cabbages, carrots, cucumbers, tomatoes, onions, peppers; livestock products",
 		"Industries": "tourism, rum, textiles, electronic appliances",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "22 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 22000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "20.46 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 20460000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "520.6 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 520.6,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$700,000 (2001 est.)",
+			"Exports": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "electronic components, plastic bags, apparel; hot peppers, limes, live plants; cattle",
 		"Imports": {
-			"Imports": "$17 million (2001 est.)",
+			"Imports": {
+				"usd": 17000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transportation equipment, foodstuffs, manufactured goods, fuels, lubricants, and related materials",
 		"Debt - external": {
-			"Debt - external": "$8.9 million (1997)",
+			"Debt - external": {
+				"usd": 8900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,700 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3,000 (2008)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -305,19 +523,19 @@
 		"Broadcast media": "Radio Montserrat, a public radio broadcaster, transmits on 1 station and has a repeater transmission to a second station; repeater transmissions from the GEM Radio Network of Trinidad and Tobago provide another 2 radio stations; cable and satellite TV are obtainable (2007)",
 		"Internet country code": ".ms",
 		"Internet hosts": {
-			"Internet hosts": "552 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
 			"note:": "volcanic eruptions that began in 1995 destroyed most of the 227 km road system; a new road infrastructure has been built on the north end of the island (2008)"
@@ -327,15 +545,15 @@
 	"military": {
 		"Military branches": "no regular military forces; Royal Montserrat Police Force (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,353 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,135",
-			"females age 16-49:": "1,223 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "35",
-			"female:": "34 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

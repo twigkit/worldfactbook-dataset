@@ -5,23 +5,53 @@
 	"background": "British influence and control over what would become Nigeria and Africa's most populous country grew through the 19th century. A series of constitutions after World War II granted Nigeria greater autonomy; independence came in 1960. Following nearly 16 years of military rule, a new constitution was adopted in 1999, and a peaceful transition to civilian government was completed. The government continues to face the daunting task of reforming a petroleum-based economy, whose revenues have been squandered through corruption and mismanagement, and institutionalizing democracy. In addition, Nigeria continues to experience longstanding ethnic and religious tensions. Although both the 2003 and 2007 presidential elections were marred by significant irregularities and violence, Nigeria is currently experiencing its longest period of civilian rule since independence. The general elections of April 2007 marked the first civilian-to-civilian transfer of power in the country's history. In January 2010, Nigeria assumed a nonpermanent seat on the UN Security Council for the 2010-11 term.",
 	"geo": {
 		"Location": "Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon",
-		"Geographic coordinates": "10 00 N, 8 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 10,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 8,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "923,768 sq km",
+			"total:": {
+				"quantity": 923768,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "910,768 sq km",
-			"water:": "13,000 sq km"
+			"land:": {
+				"quantity": 910768,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 13000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of California",
 		"Land boundaries": {
-			"total:": "4,047 km",
+			"total:": {
+				"quantity": 4047,
+				"unit": "km"
+			},
 			"border countries:": "Benin 773 km, Cameroon 1,690 km, Chad 87 km, Niger 1,497 km"
 		},
-		"Coastline": "853 km",
+		"Coastline": {
+			"quantity": 853,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "varies; equatorial in south, tropical in center, arid in north",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "natural gas, petroleum, tin, iron ore, coal, limestone, niobium, lead, zinc, arable land",
 		"Land use": {
-			"arable land:": "33.02%",
-			"permanent crops:": "3.14%",
-			"other:": "63.84% (2005)"
+			"arable land:": {
+				"quantity": 33.02,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3.14,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 63.84,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,930 sq km (2008)",
-		"Total renewable water resources": "286.2 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 2930,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 286.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "8.01  cu km/yr (21%/10%/69%)",
-			"per capita:": "61  cu m/yr (2000)"
+			"total:": {
+				"quantity": 8.01,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 61,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "periodic droughts; flooding",
 		"Environment - current issues": "soil degradation; rapid deforestation; urban air and water pollution; desertification; oil pollution - water, air, and soil; has suffered serious damage from oil spills; loss of arable land; rapid urbanization",
@@ -52,29 +103,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "155,215,573 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "40.9% (male 32,476,681/female 31,064,539)",
-			"15-64 years:": "55.9% (male 44,296,228/female 42,534,542)",
+			"0-14 years:": {
+				"quantity": 40.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 55.9,
+				"unit": "%"
+			},
 			"65 years and over:": "3.1% (male 2,341,228/female 2,502,355) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "19.2 years",
-			"male:": "19.2 years",
-			"female:": "19.3 years (2011 est.)"
+			"total:": {
+				"quantity": 19.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 19.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.935% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.935,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "35.51 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 35.51,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "16.06 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 16.06,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,43 +157,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "50% of total population (2010)",
-			"rate of urbanization:": "3.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 50,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Lagos 10.203 million; Kano 3.304 million; Ibadan 2.762 million; ABUJA (capital) 1.857 million; Kaduna 1.519 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.06 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.04 male(s)/female",
-			"65 years and over:": "0.94 male(s)/female",
-			"total population:": "1.04 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "91.54 deaths/1,000 live births",
+			"total:": {
+				"quantity": 91.54,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "97.42 deaths/1,000 live births",
-			"female:": "85.31 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 97.42,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 85.31,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "47.56 years",
+			"total population:": {
+				"quantity": 47.56,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "46.76 years",
-			"female:": "48.41 years (2011 est.)"
+			"male:": {
+				"quantity": 46.76,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 48.41,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.73 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.73,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "3.6% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3.3 million (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": 3300000,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "220,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -139,14 +259,32 @@
 		"Languages": "English (official), Hausa, Yoruba, Igbo (Ibo), Fulani, over 500 additional indigenous languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "68%",
-			"male:": "75.7%",
-			"female:": "60.6% (2003 est.)"
+			"total population:": {
+				"quantity": 68,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 75.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 60.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "10 years",
-			"female:": "8 years (2005)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -158,7 +296,16 @@
 		"Government type": "federal republic",
 		"Capital": {
 			"name:": "Abuja",
-			"geographic coordinates:": "9 05 N, 7 32 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 9,
+					"seconds": 5
+				},
+				"E": {
+					"minutes": 7,
+					"seconds": 32
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "36 states and 1 territory*; Abia, Adamawa, Akwa Ibom, Anambra, Bauchi, Bayelsa, Benue, Borno, Cross River, Delta, Ebonyi, Edo, Ekiti, Enugu, Federal Capital Territory*, Gombe, Imo, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Lagos, Nassarawa, Niger, Ogun, Ondo, Osun, Oyo, Plateau, Rivers, Sokoto, Taraba, Yobe, Zamfara",
@@ -204,182 +351,307 @@
 	"economy": {
 		"Economy - overview": "Oil-rich Nigeria has been hobbled by political instability, corruption, inadequate infrastructure, and poor macroeconomic management but in 2008 began pursuing economic reforms. Nigeria's former military rulers failed to diversify the economy away from its overdependence on the capital-intensive oil sector, which provides 95% of foreign exchange earnings and about 80% of budgetary revenues. Following the signing of an IMF stand-by agreement in August 2000, Nigeria received a debt-restructuring deal from the Paris Club and a $1 billion credit from the IMF, both contingent on economic reforms. Nigeria pulled out of its IMF program in April 2002, after failing to meet spending and exchange rate targets, making it ineligible for additional debt forgiveness from the Paris Club. In November 2005, Abuja won Paris Club approval for a debt-relief deal that eliminated $18 billion of debt in exchange for $12 billion in payments - a total package worth $30 billion of Nigeria's total $37 billion external debt. Since 2008 the government has begun to show the political will to implement the market-oriented reforms urged by the IMF, such as modernizing the banking system, curbing inflation by blocking excessive wage demands, and resolving regional disputes over the distribution of earnings from the oil industry. GDP rose strongly in 2007-10 because of increased oil exports and high global crude prices in 2010. President JONATHAN has pledged to continue the economic reforms of his predecessor with emphasis on infrastructure improvements. Infrastructure is the main impediment to growth and in August 2010 JONATHAN unveiled a power sector blueprint that includes privatization of the state-run electricity generation and distribution facilities. The government also is working toward developing stronger public-private partnerships for roads. Nigeria's financial sector was hurt by the global financial and economic crises and the Central Bank governor has taken measures to strengthen that sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$377.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 377900000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$216.8 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 216800000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "8.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 8.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "31.9%",
-			"industry:": "32.9%",
-			"services:": "35.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 31.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 32.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 35.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "48.33 million (2010 est.)",
+			"Labor force": 48330000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "70%",
-			"industry:": "10%",
-			"services:": "20% (1999 est.)"
+			"agriculture:": {
+				"quantity": 70,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "4.9% (2007 est.)",
+			"Unemployment rate": {
+				"quantity": 4.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "70% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 70,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2%",
-			"highest 10%:": "32.4% (2004)"
+			"lowest 10%:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 32.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "43.7 (2003)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "11.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 11.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$18.16 billion",
-			"expenditures:": "$29.55 billion (2010 est.)"
+			"revenues:": {
+				"usd": 18160000000
+			},
+			"expenditures:": {
+				"usd": 29550000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "13.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 13.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "13.9% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 13.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "18.36% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 18.36,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$40.41 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 40410000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$91.97 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 91970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$77.43 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 77430000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$33.32 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 33320000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cocoa, peanuts, cotton, palm oil, corn, rice, sorghum, millet, cassava (tapioca), yams, rubber; cattle, sheep, goats, pigs; timber; fish",
 		"Industries": "crude oil, coal, tin, columbite; rubber products, wood; hides and skins, textiles, cement and other construction materials, food products, footwear, chemicals, fertilizer, printing, ceramics, steel",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "21.92 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 21920000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "19.21 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 19210000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "2.211 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 2211000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "280,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 280000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.327 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2327000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "170,000 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 170000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "37.5 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 37500000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "32.82 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 32820000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "12.28 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 12280000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "20.55 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 20550000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "5.246 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 5246000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$27.77 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 27770000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$76.33 billion (2010 est.)",
+			"Exports": {
+				"usd": 76330000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum and petroleum products 95%, cocoa, rubber",
 		"Exports - partners": "US 35.08%, India 10.43%, Brazil 9.32%, Spain 7.19%, France 4.65% (2009)",
 		"Imports": {
-			"Imports": "$34.18 billion (2010 est.)",
+			"Imports": {
+				"usd": 34180000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, chemicals, transport equipment, manufactured goods, food and live animals",
 		"Imports - partners": "China 14.89%, US 8.88%, Netherlands 8.18%, South Korea 5.46%, UK 4.63%, France 4.19% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$43.36 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 43360000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$11.02 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 11020000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$67.23 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 67230000000.00001
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$6.071 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 6071000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.419 million (2009)",
+			"Telephones - main lines in use": 1419000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "73.099 million (2009)",
+			"Telephones - mobile cellular": 73099000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -390,52 +662,64 @@
 		"Broadcast media": "nearly 70 federal-government-controlled national and regional TV stations; all 36 states operate TV stations; several private TV stations operational; cable and satellite TV subscription services are available; network of federal-government-controlled national, regional, and state radio stations; roughly 40 state-government-owned radio stations typically carry their own programs except for news broadcasts; about 20 private radio stations also operate; transmissions of international broadcasters are available (2007)",
 		"Internet country code": ".ng",
 		"Internet hosts": {
-			"Internet hosts": "1,378 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "54 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "38",
-			"over 3,047 m:": "9",
-			"2,438 to 3,047 m:": "11",
-			"1,524 to 2,437 m:": "10",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "16",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "11",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "4 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 26 km; gas 2,756 km; liquid petroleum gas 97 km; oil 3,441 km; refined products 4,090 km (2010)",
 		"Railways": {
-			"total:": "3,505 km",
+			"total:": {
+				"quantity": 3505,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "3,505 km 1.067-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "193,200 km",
+			"total:": {
+				"quantity": 193200,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "28,980 km",
-			"unpaved:": "164,220 km (2004)"
+			"paved:": {
+				"quantity": 28980,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 164220,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "8,600 km (Niger and Benue rivers and smaller rivers and creeks) (2009)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "98",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 4, chemical tanker 30, liquefied gas 2, passenger/cargo 1, petroleum tanker 60, specialized tanker 1",
-			"foreign-owned:": "4 (India 1, Spain 1, UK 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "37 (Bahamas 2, Belize 2, Bermuda 11, Comoros 1, Italy 1, Liberia 4, Malaysia 1, Malta 1, North Korea 1, Panama 7, Saint Vincent and the Grenadines 1, Seychelles 1, unknown 4) (2010)"
 		},
 		"Ports and terminals": "Bonny Inshore Terminal, Calabar, Lagos",
@@ -445,23 +729,23 @@
 		"Military branches": "Nigerian Armed Forces: Army, Navy, Air Force (2008)",
 		"Military service age and obligation": "18 years of age for voluntary military service (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": "37,087,711",
-			"females age 16-49:": "35,232,127 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "20,839,976",
-			"females age 16-49:": "19,867,683 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,767,428",
-			"female:": "1,687,719 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "Joint Border Commission with Cameroon reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately cedes sovereignty of the Bakassi Peninsula to Cameroon with a phase-out of Nigerian control within two years while resolving patriation issues; the ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but imprecisely defined coordinates in the ICJ decision and a sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River all contribute to the delay in implementation; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty which also includes the Chad-Niger and Niger-Nigeria boundaries; location of Benin-Niger-Nigeria tripoint is unresolved",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "5,778 (Liberia)",
+			"refugees (country of origin):": null,
 			"IDPs:": "undetermined (communal violence between Christians and Muslims since President OBASANJO's election in 1999; displacement is mostly short-term) (2007)"
 		},
 		"Illicit drugs": {}

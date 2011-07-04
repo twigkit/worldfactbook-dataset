@@ -5,23 +5,50 @@
 	"background": "Known as Persia until 1935, Iran became an Islamic republic in 1979 after the ruling monarchy was overthrown and Shah Mohammad Reza PAHLAVI was forced into exile. Conservative clerical forces established a theocratic system of government with ultimate political authority vested in a learned religious scholar referred to commonly as the Supreme Leader who, according to the constitution, is accountable only to the Assembly of Experts - a popularly elected 86-member body of clerics. US-Iranian relations have been strained since a group of Iranian students seized the US Embassy in Tehran on 4 November 1979 and held it until 20 January 1981. During 1980-88, Iran fought a bloody, indecisive war with Iraq that eventually expanded into the Persian Gulf and led to clashes between US Navy and Iranian military forces between 1987 and 1988. Iran has been designated a state sponsor of terrorism for its activities in Lebanon and elsewhere in the world and remains subject to US, UN, and EU economic sanctions and export controls because of its continued involvement in terrorism and its nuclear weapons ambitions. Following the election of reformer Hojjat ol-Eslam Mohammad KHATAMI as president in 1997 and a reformist Majles (legislature) in 2000, a campaign to foster political reform in response to popular dissatisfaction was initiated. The movement floundered as conservative politicians, through the control of unelected institutions, prevented reform measures from being enacted and increased repressive measures. Starting with nationwide municipal elections in 2003 and continuing through Majles elections in 2004, conservatives reestablished control over Iran's elected government institutions, which culminated with the August 2005 inauguration of hardliner Mahmud AHMADI-NEJAD as president. His controversial reelection in June 2009 sparked nationwide protests over allegations of electoral fraud. The UN Security Council has passed a number of resolutions (1696 in July 2006, 1737 in December 2006, 1747 in March 2007, 1803 in March 2008, and 1835 in September 2008 and 1929 in June 2010) calling for Iran to suspend its uranium enrichment and reprocessing activities and comply with its IAEA obligations and responsibilities. Resolutions 1737, 1477, 1803 and 1929 subject a number of Iranian individuals and entities involved in Iran's nuclear and ballistic missile programs to sanctions. Additionally, several Iranian entities are subject to US sanctions under Executive Order 13382 designations for proliferation activities and EO 13224 designations for support of terrorism. In mid-February 2011, opposition activists conducted the largest antiregime rallies since December 2009, spurred by the success of uprisings in Tunisia and Egypt. Protester turnout probably was at most tens of thousands and security forces were deployed to disperse protesters. Additional protests in March 2011 failed to elicit significant participation largely because of the robust security response, although discontent still smolders.",
 	"geo": {
 		"Location": "Middle East, bordering the Gulf of Oman, the Persian Gulf, and the Caspian Sea, between Iraq and Pakistan",
-		"Geographic coordinates": "32 00 N, 53 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 32,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 53,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "1,648,195 sq km",
+			"total:": {
+				"quantity": 1648,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,531,595 sq km",
-			"water:": "116,600 sq km"
+			"land:": {
+				"quantity": 1531,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 116600,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Alaska",
 		"Land boundaries": {
-			"total:": "5,440 km",
+			"total:": {
+				"quantity": 5440,
+				"unit": "km"
+			},
 			"border countries:": "Afghanistan 936 km, Armenia 35 km, Azerbaijan-proper 432 km, Azerbaijan-Naxcivan exclave 179 km, Iraq 1,458 km, Pakistan 909 km, Turkey 499 km, Turkmenistan 992 km"
 		},
 		"Coastline": "2,440 km; note - Iran also borders the Caspian Sea (740 km)",
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "bilateral agreements or median lines in the Persian Gulf",
 			"continental shelf:": "natural prolongation"
 		},
@@ -33,15 +60,36 @@
 		},
 		"Natural resources": "petroleum, natural gas, coal, chromium, copper, iron ore, lead, manganese, zinc, sulfur",
 		"Land use": {
-			"arable land:": "9.78%",
-			"permanent crops:": "1.29%",
-			"other:": "88.93% (2005)"
+			"arable land:": {
+				"quantity": 9.78,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.29,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 88.93,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "89,930 sq km (2008)",
-		"Total renewable water resources": "137.5 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 89930,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 137.5,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "72.88  cu km/yr (7%/2%/91%)",
-			"per capita:": "1,048  cu m/yr (2000)"
+			"total:": {
+				"quantity": 72.88,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1048,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "periodic droughts, floods; dust storms, sandstorms; earthquakes",
 		"Environment - current issues": "air pollution, especially in urban areas, from vehicle emissions, refinery operations, and industrial effluents; deforestation; overgrazing; desertification; oil pollution in the Persian Gulf; wetland losses from drought; soil degradation (salination); inadequate supplies of potable water; water pollution from raw sewage and industrial waste; urbanization",
@@ -53,29 +101,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "77,891,220 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "24.1% (male 9,608,342/female 9,128,427)",
-			"15-64 years:": "70.9% (male 28,083,193/female 27,170,445)",
+			"0-14 years:": {
+				"quantity": 24.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 70.9,
+				"unit": "%"
+			},
 			"65 years and over:": "5% (male 1,844,967/female 2,055,846) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.8 years",
-			"male:": "26.6 years",
-			"female:": "27.1 years (2011 est.)"
+			"total:": {
+				"quantity": 26.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 26.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 27.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.248% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.248,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "18.55 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 18.55,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.94 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.94,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +155,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "71% of total population (2010)",
-			"rate of urbanization:": "1.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 71,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TEHRAN (capital) 7.19 million; Mashhad 2.592 million; Esfahan 1.704 million; Karaj 1.531 million; Tabriz 1.459 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.91 male(s)/female",
-			"total population:": "1.02 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "42.26 deaths/1,000 live births",
+			"total:": {
+				"quantity": 42.26,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "42.75 deaths/1,000 live births",
-			"female:": "41.75 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 42.75,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 41.75,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "70.06 years",
+			"total population:": {
+				"quantity": 70.06,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.58 years",
-			"female:": "71.61 years (2011 est.)"
+			"male:": {
+				"quantity": 68.58,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 71.61,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.88 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.88,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "92,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "6,400 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -138,14 +255,32 @@
 		"Languages": "Persian and Persian dialects (official) 58%, Turkic and Turkic dialects 26%, Kurdish 9%, Luri 2%, Balochi 1%, Arabic 1%, Turkish 1%, other 2%",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "77%",
-			"male:": "83.5%",
-			"female:": "70.4% (2002 est.)"
+			"total population:": {
+				"quantity": 77,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 83.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 70.4,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2009)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +295,16 @@
 		"Government type": "theocratic republic",
 		"Capital": {
 			"name:": "Tehran",
-			"geographic coordinates:": "35 40 N, 51 25 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 35,
+					"seconds": 40
+				},
+				"E": {
+					"minutes": 51,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+3.5 (8.5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins fourth Tuesday in March; ends fourth Thursday in September"
 		},
@@ -196,80 +340,143 @@
 	"economy": {
 		"Economy - overview": "Iran's economy is marked by an inefficient state sector, reliance on the oil sector, which provides the majority of government revenues, and statist policies, which create major distortions throughout the system. Private sector activity is typically limited to small-scale workshops, farming, and services. Price controls, subsidies, and other rigidities weigh down the economy, undermining the potential for private-sector-led growth. Significant informal market activity flourishes. The legislature in late 2009 passed President Mahmud AHMADI-NEJAD's bill to reduce subsidies, particularly on food and energy. The bill would phase out subsidies - which benefit Iran's upper and middle classes the most - over three to five years and replace them with cash payments to Iran's lower classes. However, the start of the program was delayed repeatedly throughout 2010 over fears of public reaction to higher prices. This is the most extensive economic reform since the government implemented gasoline rationing in 2007. The recovery of world oil prices in the last year increased Iran's oil export revenue by at least $10 billion over 2009, easing some of the financial impact of the newest round of international sanctions. Although inflation has fallen substantially since the mid-2000s, Iran continues to suffer from double-digit unemployment and underemployment. Underemployment among Iran's educated youth has convinced many to seek jobs overseas, resulting in a significant \"brain drain.\"",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$818.7 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 818700000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$357.2 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 357200000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$10,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "11%",
-			"industry:": "45.9%",
-			"services:": "43.1% (2010 est.)"
+			"agriculture:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 45.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 43.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "25.7 million",
+			"Labor force": 25700000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "25%",
-			"industry:": "31%",
-			"services:": "45% (June 2007)"
+			"agriculture:": {
+				"quantity": 25,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 45,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "14.6% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 14.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "18% (2007 est.)",
+		"Population below poverty line": {
+			"quantity": 18,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "29.6% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 29.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "44.5 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "27.6% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 27.6,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$105.7 billion",
-			"expenditures:": "$98.83 billion (2010 est.)"
+			"revenues:": {
+				"usd": 105700000000
+			},
+			"expenditures:": {
+				"usd": 98830000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "16.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 16.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "11.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 11.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "12% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$50.37 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 50370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$167.4 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 167400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$132.2 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 132199999999.99998
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$63.3 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 63300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, rice, other grains, sugar beets, sugar cane, fruits, nuts, cotton; dairy products, wool; caviar",
@@ -279,29 +486,53 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "212.8 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 212800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "206.7 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 206700000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "6.15 billion kWh (2009 est.)",
-		"Electricity - imports": "2.06 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 6150000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 2060000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "4.172 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 4171999.9999999995,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1.809 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1809000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2.4 million bbl/day (2010 est.)",
+			"Oil - exports": {
+				"quantity": 2400000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "168,000 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 168000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
@@ -309,66 +540,95 @@
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "200 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 200000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "140 billion cu m",
+			"Natural gas - consumption": {
+				"quantity": 140000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "5.4 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 5400000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "5.2 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 5200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "29.61 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 29610000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$9.76 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 9760000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$78.69 billion (2010 est.)",
+			"Exports": {
+				"usd": 78690000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum 80%, chemical and petrochemical products, fruits and nuts, carpets",
 		"Exports - partners": "China 16.58%, Japan 11.9%, India 10.54%, South Korea 7.54%, Turkey 4.36% (2009)",
 		"Imports": {
-			"Imports": "$58.97 billion (2010 est.)",
+			"Imports": {
+				"usd": 58970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "industrial supplies, capital goods, foodstuffs and other consumer goods, technical services",
 		"Imports - partners": "UAE 15.14%, China 13.48%, Germany 9.66%, South Korea 7.16%, Italy 5.27%, Russia 4.81%, India 4.12% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$75.06 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 75060000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$12.84 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 12840000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$16.82 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 16820000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$2.075 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 2075000000.0000002
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "25.804 million (2009)",
+			"Telephones - main lines in use": 25804000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "52.555 million (2009)",
+			"Telephones - mobile cellular": 52555000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -379,53 +639,65 @@
 		"Broadcast media": "state-run broadcast media with no private, independent broadcasters; Islamic Republic of Iran Broadcasting (IRIB), the state-run TV broadcaster, operates 5 nationwide channels, a news channel, about 30 provincial channels, and several international channels; about 20 foreign Persian-language TV stations broadcasting on satellite TV are capable of being seen in Iran; satellite dishes are illegal and, while their use had been tolerated, authorities began confiscating satellite dishes following the unrest stemming from the 2009 presidential election; IRIB operates 8 nationwide radio networks, a number of provincial stations, and an external service; most major international broadcasters transmit to Iran (2009)",
 		"Internet country code": ".ir",
 		"Internet hosts": {
-			"Internet hosts": "119,947 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "319 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "133",
-			"over 3,047 m:": "42",
-			"2,438 to 3,047 m:": "27",
-			"1,524 to 2,437 m:": "24",
-			"914 to 1,523 m:": "34"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "186",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "9",
-			"914 to 1,523 m:": "142"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "19 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 7 km; condensate/gas 12 km; gas 20,155 km; liquid petroleum gas 570 km; oil 7,123 km; refined products 7,937 km (2010)",
 		"Railways": {
-			"total:": "8,442 km",
+			"total:": {
+				"quantity": 8442,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "94 km 1.676-m gauge",
 			"standard gauge:": "8,348 km 1.435-m gauge (148 km electrified) (2008)"
 		},
 		"Roadways": {
-			"total:": "172,927 km",
+			"total:": {
+				"quantity": 172927,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "125,908 km (includes 1,429 km of expressways)",
-			"unpaved:": "47,019 km (2006)"
+			"paved:": {
+				"quantity": 125908,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 47019,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "850 km (on Karun River; some navigation on Lake Urmia) (2009)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "74",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 11, cargo 40, chemical tanker 5, container 9, liquefied gas 1, passenger/cargo 3, petroleum tanker 1, refrigerated cargo 2, roll on/roll off 2",
-			"foreign-owned:": "1 (UAE 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "78 (Barbados 4, Bolivia 1, Cyprus 10, Hong Kong 1, Malta 56, Panama 5, Ukraine 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -434,16 +706,16 @@
 		"Military branches": "Islamic Republic of Iran Regular Forces (Artesh): Ground Forces, Navy, Air Force (IRIAF), Khatemolanbia Air Defense Headquarters; Islamic Revolutionary Guard Corps (Sepah-e Pasdaran-e Enqelab-e Eslami, IRGC): Ground Resistance Forces, Navy, Aerospace Force, Qods Force (special operations); Law Enforcement Forces (2011)",
 		"Military service age and obligation": "19 years of age for compulsory military service; 16 years of age for volunteers; 17 years of age for Law Enforcement Forces; 15 years of age for Basij Forces (Popular Mobilization Army); conscript military service obligation - 18 months; women exempt from military service (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "23,619,215",
-			"females age 16-49:": "22,628,341 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "20,149,222",
-			"females age 16-49:": "19,417,275 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "715,111",
-			"female:": "677,372 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

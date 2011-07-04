@@ -5,24 +5,57 @@
 	"background": "The French colonies of Senegal and the French Sudan were merged in 1959 and granted their independence as the Mali Federation in 1960. The union broke up after only a few months. Senegal joined with The Gambia to form the nominal confederation of Senegambia in 1982. The envisaged integration of the two countries was never carried out, and the union was dissolved in 1989. The Movement of Democratic Forces in the Casamance (MFDC) has led a low-level separatist insurgency in southern Senegal since the 1980s, and several peace deals have failed to resolve the conflict. Nevertheless, Senegal remains one of the most stable democracies in Africa. Senegal was ruled by a Socialist Party for 40 years until current President Abdoulaye WADE was elected in 2000. He was reelected in February 2007 and has amended Senegal's constitution over a dozen times to increase executive power and to weaken the opposition, part of the president's increasingly autocratic governing style. Senegal has a long history of participating in international peacekeeping and regional mediation.",
 	"geo": {
 		"Location": "Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Mauritania",
-		"Geographic coordinates": "14 00 N, 14 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 14,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 14,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "196,722 sq km",
+			"total:": {
+				"quantity": 196722,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "192,530 sq km",
-			"water:": "4,192 sq km"
+			"land:": {
+				"quantity": 192530,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 4192,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than South Dakota",
 		"Land boundaries": {
-			"total:": "2,640 km",
+			"total:": {
+				"quantity": 2640,
+				"unit": "km"
+			},
 			"border countries:": "The Gambia 740 km, Guinea 330 km, Guinea-Bissau 338 km, Mali 419 km, Mauritania 813 km"
 		},
-		"Coastline": "531 km",
+		"Coastline": {
+			"quantity": 531,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "tropical; hot, humid; rainy season (May to November) has strong southeast winds; dry season (December to April) dominated by hot, dry, harmattan wind",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "fish, phosphates, iron ore",
 		"Land use": {
-			"arable land:": "12.51%",
-			"permanent crops:": "0.24%",
-			"other:": "87.25% (2005)"
+			"arable land:": {
+				"quantity": 12.51,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.24,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.25,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,200 sq km (2008)",
-		"Total renewable water resources": "39.4 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 1200,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 39.4,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.22  cu km/yr (4%/3%/93%)",
-			"per capita:": "190  cu m/yr (2002)"
+			"total:": {
+				"quantity": 2.22,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 190,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "lowlands seasonally flooded; periodic droughts",
 		"Environment - current issues": "wildlife populations threatened by poaching; deforestation; overgrazing; soil erosion; desertification; overfishing",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "12,643,799 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "43.3% (male 2,748,457/female 2,722,633)",
-			"15-64 years:": "53.9% (male 3,200,056/female 3,611,173)",
+			"0-14 years:": {
+				"quantity": 43.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 53.9,
+				"unit": "%"
+			},
 			"65 years and over:": "2.9% (male 166,577/female 194,903) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18 years",
-			"male:": "17.2 years",
-			"female:": "18.9 years (2011 est.)"
+			"total:": {
+				"quantity": 18,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.557% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.557,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "36.73 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 36.73,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.26 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.26,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +161,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "42% of total population (2010)",
-			"rate of urbanization:": "3.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 42,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "DAKAR (capital) 2.777 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.87 male(s)/female",
-			"total population:": "0.99 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "56.42 deaths/1,000 live births",
+			"total:": {
+				"quantity": 56.42,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "62.94 deaths/1,000 live births",
-			"female:": "49.7 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 62.94,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 49.7,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "59.78 years",
+			"total population:": {
+				"quantity": 59.78,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "57.85 years",
-			"female:": "61.77 years (2011 est.)"
+			"male:": {
+				"quantity": 57.85,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 61.77,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.78 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.78,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.9% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "59,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "2,600 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -140,14 +263,32 @@
 		"Languages": "French (official), Wolof, Pulaar, Jola, Mandinka",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "39.3%",
-			"male:": "51.1%",
-			"female:": "29.2% (2002 est.)"
+			"total population:": {
+				"quantity": 39.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 51.1,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 29.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "8 years",
-			"male:": "8 years",
-			"female:": "7 years (2008)"
+			"total:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +303,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Dakar",
-			"geographic coordinates:": "14 40 N, 17 26 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 14,
+					"seconds": 40
+				},
+				"W": {
+					"minutes": 17,
+					"seconds": 26
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "14 regions (regions, singular - region); Dakar, Diourbel, Fatick, Kaffrine, Kaolack, Kedougou, Kolda, Louga, Matam, Saint-Louis, Sedhiou, Tambacounda, Thies, Ziguinchor",
@@ -212,128 +362,228 @@
 	"economy": {
 		"Economy - overview": "Senegal relies heavily on donor assistance. The country's key export industries are phosphate mining, fertilizer production, and commercial fishing. The country is also working on iron ore and oil exploration projects. In January 1994, Senegal undertook a bold and ambitious economic reform program with the support of the international donor community. Government price controls and subsidies have been steadily dismantled. After seeing its economy contract by 2.1% in 1993, Senegal made an important turnaround, thanks to the reform program, with real growth in GDP averaging over 5% annually during 1995-2007. Annual inflation had been pushed down to the single digits. The country was adversely affected by the global economic downturn in 2009 and GDP growth fell below 2%. As a member of the West African Economic and Monetary Union (WAEMU), Senegal is working toward greater regional integration with a unified external tariff and a more stable monetary policy. High unemployment, however, continues to prompt illegal migrants to flee Senegal in search of better job opportunities in Europe. Under the IMF's Highly Indebted Poor Countries (HIPC) debt relief program, Senegal benefited from eradication of two-thirds of its bilateral, multilateral, and private-sector debt. In 2007, Senegal and the IMF agreed to a new, non-disbursing, Policy Support Initiative program which was completed in 2010. Senegal received its first disbursement from the $540 million Millennium Challenge Account compact it signed in September 2009 for infrastructure and agriculture development. In 2010, the Senegalese people protested against frequent power cuts. The government pledged to expand capacity by 2012 and to promote renewable energy but until Senegal has more capacity, more protests are likely and economic activity will be hindered. During the year, bakers protested government price controls on bread. Foreign investment in Senegal is constrained by Senegal's business environment, which has slipped in recent years, and by perceptions of corruption.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$23.88 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 23880000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$12.88 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 12880000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,900 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "14.9%",
-			"industry:": "21.4%",
-			"services:": "63.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 14.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 21.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "5.53 million (2010 est.)",
+			"Labor force": 5530000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "77.5%",
-			"industry and services:": "22.5% (2007 est.)"
+			"agriculture:": {
+				"quantity": 77.5,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 22.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "48% (2007 est.)",
+			"Unemployment rate": {
+				"quantity": 48,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "54% (2001 est.)",
+		"Population below poverty line": {
+			"quantity": 54,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.5%",
-			"highest 10%:": "30.1% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.1,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "41.3 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "25.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 25.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.726 billion",
-			"expenditures:": "$3.315 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2726000000
+			},
+			"expenditures:": {
+				"usd": 3315000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "32.1% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 32.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.8 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$4.603 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 4603000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$3.516 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 3516000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "peanuts, millet, corn, sorghum, rice, cotton, tomatoes, green vegetables; cattle, poultry, pigs; fish",
 		"Industries": "agricultural and fish processing, phosphate mining, fertilizer production, petroleum refining; iron ore, zircon, and gold mining, construction materials, ship construction and repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.88 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 1880000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "1.384 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 1384000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "39,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 39000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "5,653 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 5653,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "42,850 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 42850,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "50 million cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 50000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "50 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 50000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": "NA cu m",
@@ -342,34 +592,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.112 billion (2010 est.)",
+			"Exports": {
+				"usd": 2112000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish, groundnuts (peanuts), petroleum products, phosphates, cotton",
 		"Exports - partners": "Mali 20.12%, India 9.84%, The Gambia 5.58%, France 5.02%, Italy 4.23% (2009)",
 		"Imports": {
-			"Imports": "$4.474 billion (2010 est.)",
+			"Imports": {
+				"usd": 4474000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food and beverages, capital goods, fuels",
 		"Imports - partners": "France 19.58%, UK 9.64%, China 8.08%, Netherlands 5.64%, Thailand 4.75%, US 3.97% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.2 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$3.885 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 3885000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "278,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "6.902 million (2009)",
+			"Telephones - mobile cellular": 6902000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,46 +638,58 @@
 		"Broadcast media": "state-run Radiodiffusion Television Senegalaise (RTS) operates 2 TV stations; a few private TV subscription channels rebroadcast foreign channels without providing any local news or programs; RTS operates a national radio network and a number of regional FM stations; a large number of community and private-broadcast radio stations are available; transmissions of at least 2 international broadcasters are accessible on FM in Dakar (2007)",
 		"Internet country code": ".sn",
 		"Internet hosts": {
-			"Internet hosts": "241 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "20 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "10",
-			"over 3,047 m:": "2",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "10",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "3",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 43 km; refined products 8 km (2010)",
 		"Railways": {
-			"total:": "906 km",
+			"total:": {
+				"quantity": 906,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "906 km 1.000-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "13,576 km",
+			"total:": {
+				"quantity": 13576,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,972 km (includes 7 km of expressways)",
-			"unpaved:": "9,604 km (2003)"
+			"paved:": {
+				"quantity": 3972,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 9604,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "1,000 km (primarily on the Senegal, Saloum, and Casamance rivers) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "1",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1 (2010)"
 		},
@@ -429,23 +699,23 @@
 		"Military branches": "Senegalese Armed Forces: Army, Senegalese Navy (Marine Senegalaise), Senegalese Air Force (Armee de l'Air du Senegal) (2009)",
 		"Military service age and obligation": "18 years of age for compulsory and voluntary military service; conscript service obligation - 2 years (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,699,196",
-			"females age 16-49:": "3,018,565 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,788,493",
-			"females age 16-49:": "2,133,370 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "145,509",
-			"female:": "145,064 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "The Gambia and Guinea-Bissau attempt to stem separatist violence, cross border raids, and arms smuggling into their countries from Senegal's Casamance region, and in 2006, respectively accepted 6,000 and 10,000 Casamance residents fleeing the conflict; 2,500 Guinea-Bissau residents fled into Senegal in 2006 to escape armed confrontations along the border",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "19,630 (Mauritania)",
+			"refugees (country of origin):": null,
 			"IDPs:": "22,400 (approximately 65% of the IDP population returned in 2005, but new displacement is occurring due to clashes between government troops and separatists in Casamance region) (2007)"
 		},
 		"Illicit drugs": {}

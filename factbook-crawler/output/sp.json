@@ -5,24 +5,57 @@
 	"background": "Spain's powerful world empire of the 16th and 17th centuries ultimately yielded command of the seas to England. Subsequent failure to embrace the mercantile and industrial revolutions caused the country to fall behind Britain, France, and Germany in economic and political power. Spain remained neutral in World Wars I and II but suffered through a devastating civil war (1936-39). A peaceful transition to democracy following the death of dictator Francisco FRANCO in 1975, and rapid economic modernization (Spain joined the EU in 1986) gave Spain a dynamic and rapidly growing economy and made it a global champion of freedom and human rights. The government continues to battle the Basque Fatherland and Liberty (ETA) terrorist organization, but its major focus for the immediate future will be on measures to reverse the severe economic recession that started in mid-2008.",
 	"geo": {
 		"Location": "Southwestern Europe, bordering the Mediterranean Sea, North Atlantic Ocean, Bay of Biscay, and Pyrenees Mountains; southwest of France",
-		"Geographic coordinates": "40 00 N, 4 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 40,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 4,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "505,370 sq km",
+			"total:": {
+				"quantity": 505370,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "498,980 sq km",
-			"water:": "6,390 sq km"
+			"land:": {
+				"quantity": 498980,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 6390,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of Oregon",
 		"Land boundaries": {
-			"total:": "1,917.8 km",
+			"total:": {
+				"quantity": 1917.8,
+				"unit": "km"
+			},
 			"border countries:": "Andorra 63.7 km, France 623 km, Gibraltar 1.2 km, Portugal 1,214 km, Morocco (Ceuta) 6.3 km, Morocco (Melilla) 9.6 km"
 		},
-		"Coastline": "4,964 km",
+		"Coastline": {
+			"quantity": 4964,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm (applies only to the Atlantic Ocean)"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast",
 		"Terrain": "large, flat to dissected plateau surrounded by rugged hills; Pyrenees Mountains in north",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "coal, lignite, iron ore, copper, lead, zinc, uranium, tungsten, mercury, pyrites, magnesite, fluorspar, gypsum, sepiolite, kaolin, potash, hydropower, arable land",
 		"Land use": {
-			"arable land:": "27.18%",
-			"permanent crops:": "9.85%",
-			"other:": "62.97% (2005)"
+			"arable land:": {
+				"quantity": 27.18,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 9.85,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 62.97,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "38,000 sq km (2008)",
-		"Total renewable water resources": "111.1 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 38000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 111.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "37.22  cu km/yr (13%/19%/68%)",
-			"per capita:": "864  cu m/yr (2002)"
+			"total:": {
+				"quantity": 37.22,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 864,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "periodic droughts, occasional flooding",
@@ -55,73 +109,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "46,754,784 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.1% (male 3,646,614/female 3,435,311)",
-			"15-64 years:": "67.7% (male 16,036,556/female 15,637,090)",
+			"0-14 years:": {
+				"quantity": 15.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.7,
+				"unit": "%"
+			},
 			"65 years and over:": "17.1% (male 3,389,681/female 4,609,532) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.5 years",
-			"male:": "39.3 years",
-			"female:": "41.9 years (2011 est.)"
+			"total:": {
+				"quantity": 40.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.574% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.574,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.66 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.66,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.8 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.8,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "3.89 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 3.89,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "77% of total population (2010)",
-			"rate of urbanization:": "1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 77,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MADRID (capital) 5.762 million; Barcelona 5.029 million; Valencia 812,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.065 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.72 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.065,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.72,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.39 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.39,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.74 deaths/1,000 live births",
-			"female:": "3.03 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.74,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.03,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.17 years",
+			"total population:": {
+				"quantity": 81.17,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.16 years",
-			"female:": "84.37 years (2011 est.)"
+			"male:": {
+				"quantity": 78.16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.37,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.47 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.47,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "130,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,600 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -135,14 +261,32 @@
 		"Languages": "Castilian Spanish (official) 74%, Catalan 17%, Galician 7%, and Basque 2% (official regionally)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "97.9%",
-			"male:": "98.7%",
-			"female:": "97.2% (2003 est.)"
+			"total population:": {
+				"quantity": 97.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,7 +300,16 @@
 		"Government type": "parliamentary monarchy",
 		"Capital": {
 			"name:": "Madrid",
-			"geographic coordinates:": "40 24 N, 3 41 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 40,
+					"seconds": 24
+				},
+				"W": {
+					"minutes": 3,
+					"seconds": 41
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -209,83 +362,146 @@
 	"economy": {
 		"Economy - overview": "Spain's mixed capitalist economy is the 12th largest in the world, and its per capita income roughly matches that of Germany and France. However, after almost 15 years of above average GDP growth, the Spanish economy began to slow in late 2007 and entered into a recession in the second quarter of 2008. GDP contracted by 3.7% in 2009, ending a 16-year growth trend, and by another 0.2% in 2010, making Spain the last major economy to emerge from the global recession. The reversal in Spain's economic growth reflected a significant decline in construction amid an oversupply of housing and falling consumer spending, while exports actually have begun to grow. Government efforts to boost the economy through stimulus spending, extended unemployment benefits, and loan guarantees did not prevent a sharp rise in the unemployment rate, which rose from a low of about 8% in 2007 to 20% in 2010. The government budget deficit worsened from 3.8% of GDP in 2008 to about 9.7% of GDP in 2010, more than three times the euro-zone limit. Spain's large budget deficit and poor economic growth prospects have made it vulnerable to financial contagion from other highly-indebted euro zone members despite the government's efforts to cut spending, privatize industries, and boost competitiveness through labor market reforms. Spanish banks' high exposure to the collapsed domestic construction and real estate market also poses a continued risk for the sector. The government oversaw a restructuring of the savings bank sector in 2010, and provided some $15 billion in capital to various institutions. Investors remain concerned that Madrid may need to bail out more troubled banks. The Bank of Spain, however, is seeking to boost confidence in the financial sector by pressuring banks to come clean about their losses and consolidate into stronger groups.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.369 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1369000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.41 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1410000000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-0.1% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$29,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.9%",
-			"industry:": "25.5%",
-			"services:": "71.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 25.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "22.96 million (2010 est.)",
+			"Labor force": 22960000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "4.2%",
-			"industry:": "24%",
-			"services:": "71.7% (2009 est.)"
+			"agriculture:": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "20% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "19.8% (2005)",
+		"Population below poverty line": {
+			"quantity": 19.8,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "26.6% (2000)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 26.6,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "32 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$515.8 billion",
-			"expenditures:": "$648.6 billion (2010 est.)"
+			"revenues:": {
+				"usd": 515799999999.99994
+			},
+			"expenditures:": {
+				"usd": 648600000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "63.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 63.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.72% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.72,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$849.2 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 849200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.264 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2264000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$3.683 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 3683000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.297 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1297000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grain, vegetables, olives, wine grapes, sugar beets, citrus; beef, pork, poultry, dairy products; fish",
@@ -295,53 +511,95 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "300.5 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 300500000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "276.1 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 276100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "16.92 billion kWh (2008 est.)",
-		"Electricity - imports": "5.88 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 16920000000.000002,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 5880000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "27,230 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 27230,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1.482 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1482000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "218,600 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 218600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1.716 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 1716000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "150 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 150000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "13 million cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 13000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "33.88 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 33880000000.000004,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "975 million cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 975000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "34.67 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 34670000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "2.548 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 2548000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -349,39 +607,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$268.3 billion (2010 est.)",
+			"Exports": {
+				"usd": 268300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery, motor vehicles; foodstuffs, pharmaceuticals, medicines, other consumer goods",
 		"Exports - partners": "France 19.27%, Germany 11.11%, Portugal 9.21%, Italy 8.24%, UK 6.18% (2009)",
 		"Imports": {
-			"Imports": "$324.6 billion (2010 est.)",
+			"Imports": {
+				"usd": 324600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, fuels, chemicals, semifinished goods, foodstuffs, consumer goods, measuring and medical control instruments",
 		"Imports - partners": "Germany 15.02%, France 12.82%, Italy 7.17%, China 5.8%, Netherlands 5.22%, UK 4.7% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$2.166 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 2166000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$668.5 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 668500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$641 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 641000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "20.057 million (2009)",
+			"Telephones - main lines in use": 20057000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "50.991 million (2009)",
+			"Telephones - mobile cellular": 50991000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -392,52 +660,61 @@
 		"Broadcast media": "a mixture of both publicly-operated and privately-owned TV and radio stations broadcasting; overall, hundreds of TV channels are available including national, regional, local, public, and international channels; satellite and cable TV systems are accessible; multiple national radio networks, a large number of regional radio networks, and a larger number of local radio stations broadcasting; overall, hundreds of radio stations operating (2008)",
 		"Internet country code": ".es",
 		"Internet hosts": {
-			"Internet hosts": "3.822 million (2010)",
+			"Internet hosts": 3822000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "154 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "97",
-			"over 3,047 m:": "18",
-			"2,438 to 3,047 m:": "13",
-			"1,524 to 2,437 m:": "18",
-			"914 to 1,523 m:": "24"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "57",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "16",
-			"under 914 m:": "38 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "9 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 9,359 km; oil 560 km; refined products 3,441 km (2010)",
 		"Railways": {
-			"total:": "15,288 km",
+			"total:": {
+				"quantity": 15288,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "11,919 km 1.668-m gauge (6,950 km electrified)",
 			"standard gauge:": "1,392 km 1.435-m gauge (1,054 km electrified)",
 			"narrow gauge:": "1,949 km 1.000-m gauge (815 km electrified); 28 km 0.914-m gauge (28 km electrified) (2008)"
 		},
 		"Roadways": {
-			"total:": "681,298 km",
+			"total:": {
+				"quantity": 681298,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "681,298 km (includes 15,152 km of expressways) (2008)"
 		},
 		"Waterways": {
-			"Waterways": "1,000 km (2009)",
+			"Waterways": {
+				"quantity": 1000,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "138",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 7, cargo 17, chemical tanker 12, container 8, liquefied gas 13, passenger 1, passenger/cargo 40, petroleum tanker 17, refrigerated cargo 5, roll on/roll off 13, vehicle carrier 5",
-			"foreign-owned:": "26 (Canada 5, Denmark 2, Germany 5, Italy 1, Mexico 2, Norway 10, Switzerland 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "107 (Angola 1, Argentina 3, Bahamas 9, Belize 1, Brazil 12, Cape Verde 1, Cyprus 7, France 1, Malta 10, Nigeria 1, Panama 40, Portugal 15, Uruguay 5, Venezuela 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -446,16 +723,16 @@
 		"Military branches": "Spanish Armed Forces: Army (Ejercito de Tierra), Spanish Navy (Armada Espanola, AE; includes Marine Corps), Spanish Air Force (Ejercito del Aire Espanola, EdA) (2010)",
 		"Military service age and obligation": "20 years of age (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "11,759,557",
-			"females age 16-49:": "11,204,688 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "9,603,939",
-			"females age 16-49:": "9,116,928 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "217,244",
-			"female:": "205,278 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,17 +5,38 @@
 	"background": "Ethnic Kazakhs, a mix of Turkic and Mongol nomadic tribes who migrated into the region in the 13th century, were rarely united as a single nation. The area was conquered by Russia in the 18th century, and Kazakhstan became a Soviet Republic in 1936. During the 1950s and 1960s agricultural \"Virgin Lands\" program, Soviet citizens were encouraged to help cultivate Kazakhstan's northern pastures. This influx of immigrants (mostly Russians, but also some other deported nationalities) skewed the ethnic mixture and enabled non-ethnic Kazakhs to outnumber natives. Independence in 1991 drove many of these newcomers to emigrate. Kazakhstan's economy is larger than those of all the other Central Asian states largely due to the country's vast natural resources. Current issues include: developing a cohesive national identity; expanding the development of the country's vast energy resources and exporting them to world markets; diversifying the economy outside the oil, gas, and mining sectors; enhancing Kazakhstan's economic competitiveness; developing a multiparty parliament and advancing political and social reform; and strengthening relations with neighboring states and other foreign powers.",
 	"geo": {
 		"Location": "Central Asia, northwest of China; a small portion west of the Ural (Zhayyq) River in eastern-most Europe",
-		"Geographic coordinates": "48 00 N, 68 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 48,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 68,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "2,724,900 sq km",
+			"total:": {
+				"quantity": 2724,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "2,699,700 sq km",
-			"water:": "25,200 sq km"
+			"land:": {
+				"quantity": 2699,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 25200,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than four times the size of Texas",
 		"Land boundaries": {
-			"total:": "12,185 km",
+			"total:": {
+				"quantity": 12185,
+				"unit": "km"
+			},
 			"border countries:": "China 1,533 km, Kyrgyzstan 1,224 km, Russia 6,846 km, Turkmenistan 379 km, Uzbekistan 2,203 km"
 		},
 		"Coastline": "0 km (landlocked); note - Kazakhstan borders the Aral Sea, now split into two bodies of water (1,070 km), and the Caspian Sea (1,894 km)",
@@ -28,15 +49,36 @@
 		},
 		"Natural resources": "major deposits of petroleum, natural gas, coal, iron ore, manganese, chrome ore, nickel, cobalt, copper, molybdenum, lead, zinc, bauxite, gold, uranium",
 		"Land use": {
-			"arable land:": "8.28%",
-			"permanent crops:": "0.05%",
-			"other:": "91.67% (2005)"
+			"arable land:": {
+				"quantity": 8.28,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.05,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91.67,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "35,560 sq km (2008)",
-		"Total renewable water resources": "109.6 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 35560,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 109.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "35  cu km/yr (2%/17%/82%)",
-			"per capita:": "2,360  cu m/yr (2000)"
+			"total:": {
+				"quantity": 35,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 2360,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "earthquakes in the south; mudslides around Almaty",
 		"Environment - current issues": "radioactive or toxic chemical sites associated with former defense industries and test ranges scattered throughout the country pose health risks for humans and animals; industrial pollution is severe in some cities; because the two main rivers that flowed into the Aral Sea have been diverted for irrigation, it is drying up and leaving behind a harmful layer of chemical pesticides and natural salts; these substances are then picked up by the wind and blown into noxious dust storms; pollution in the Caspian Sea; soil pollution from overuse of agricultural chemicals and salination from poor infrastructure and wasteful irrigation practices",
@@ -48,29 +90,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "15,522,373 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21.6% (male 1,709,929/female 1,637,132)",
-			"15-64 years:": "71% (male 5,373,755/female 5,654,461)",
+			"0-14 years:": {
+				"quantity": 21.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71,
+				"unit": "%"
+			},
 			"65 years and over:": "7.4% (male 392,689/female 754,407) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.2 years",
-			"male:": "28.7 years",
-			"female:": "31.9 years (2011 est.)"
+			"total:": {
+				"quantity": 30.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.4% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "16.65 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 16.65,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.38 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.38,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,39 +144,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "59% of total population (2010)",
-			"rate of urbanization:": "1.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 59,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Almaty 1.383 million; ASTANA (capital) 650,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.058 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.53 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.058,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.53,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "24.15 deaths/1,000 live births",
+			"total:": {
+				"quantity": 24.15,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "28.44 deaths/1,000 live births",
-			"female:": "19.62 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 28.44,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 19.62,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "68.51 years",
+			"total population:": {
+				"quantity": 68.51,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "63.24 years",
-			"female:": "74.08 years (2011 est.)"
+			"male:": {
+				"quantity": 63.24,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.08,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.87 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.87,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "13,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -128,14 +239,32 @@
 		"Languages": "Kazakh (Qazaq, state language) 64.4%, Russian (official, used in everyday business, designated the \"language of interethnic communication\") 95% (2001 est.)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.5%",
-			"male:": "99.8%",
-			"female:": "99.3% (1999 est.)"
+			"total population:": {
+				"quantity": 99.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "15 years",
-			"female:": "16 years (2010)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -150,7 +279,16 @@
 		"Government type": "republic; authoritarian presidential rule, with little power outside the executive branch",
 		"Capital": {
 			"name:": "Astana",
-			"geographic coordinates:": "51 10 N, 71 25 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 51,
+					"seconds": 10
+				},
+				"E": {
+					"minutes": 71,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -197,179 +335,301 @@
 	"economy": {
 		"Economy - overview": "Kazakhstan, geographically the largest of the former Soviet republics, excluding Russia, possesses enormous fossil fuel reserves and plentiful supplies of other minerals and metals, such as uranium, copper, and zinc. It also has a large agricultural sector featuring livestock and grain. In 2002 Kazakhstan became the first country in the former Soviet Union to receive an investment-grade credit rating, and from 2000 through 2007, Kazakhstan's economy grew more than 9% per year. Extractive industries, particularly hydrocarbons and mining, have been the engines of this growth. However, geographic limitations and decaying infrastructure present serious obstacles. Landlocked, with restricted access to the high seas, Kazakhstan relies on its neighbors to export its products, especially oil and gas. Although its Caspian Sea ports and rail lines carrying oil have been upgraded, civil aviation has been neglected. Telecoms are improving, but require considerable investment, as does the information technology base. Supply and distribution of electricity can be erratic. At the end of 2007, global financial markets froze up and the loss of capital inflows to Kazakhstani banks caused a credit crunch. The subsequent and sharp fall of oil and commodity prices in 2008 aggravated the economic situation, and Kazakhstan plunged into recession. While the global financial crisis took a significant toll on Kazakhstan's economy, it has rebounded well. In response to the crisis, Kazakhstan's government devalued the tenge (Kazakhstan's currency) to stabilize market pressures and injected $19 billion in economic stimulus. Rising commodity prices have helped revive Kazakhstan's economy, which registered 7% growth in 2010. Barring a dramatic decline in oil prices, strong growth is expected to continue in 2011. Despite solid macroeconomic indicators, the government realizes that its economy suffers from an overreliance on oil and extractive industries, the so-called \"Dutch disease.\" In response, Kazakhstan has embarked on an ambitious diversification program, aimed at developing targeted sectors like transport, pharmaceuticals, telecommunications, petrochemicals and food processing.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$196.4 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 196400000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$138.4 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 138400000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$12,700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "5.4%",
-			"industry:": "42.8%",
-			"services:": "51.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 5.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 42.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "8.718 million (2010 est.)",
+			"Labor force": 8718000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "28.2%",
-			"industry:": "18.2%",
-			"services:": "53.6% (2010)"
+			"agriculture:": {
+				"quantity": 28.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 18.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 53.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "5.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "8.2% (2009)",
+		"Population below poverty line": {
+			"quantity": 8.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.3%",
-			"highest 10%:": "26.5% (2004 est.)"
+			"lowest 10%:": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 26.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26.7 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "24.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 24.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$27.5 billion",
-			"expenditures:": "$31.6 billion (2010 est.)"
+			"revenues:": {
+				"usd": 27500000000
+			},
+			"expenditures:": {
+				"usd": 31600000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "16.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 16.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "7.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 7.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "7% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$15 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 15000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$58 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 58000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$44.53 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 44530000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$57.66 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 57660000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grain (mostly spring wheat), cotton; livestock",
 		"Industries": "oil, coal, iron ore, manganese, chromite, lead, zinc, copper, titanium, bauxite, gold, silver, phosphates, sulfur, uranium, iron and steel; tractors and other agricultural machinery, electric motors, construction materials",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7.3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "78.4 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 78400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "77.9 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 77900000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "3.617 billion kWh (2007 est.)",
-		"Electricity - imports": "1.94 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 3617000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1940000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "1.54 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 1540000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "241,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 241000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.345 million bbl/day (2009 est.)",
+			"Oil - exports": {
+				"quantity": 1345000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "164,000 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 164000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "30 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 30000000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "35.61 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 35610000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "33.68 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 33680000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "17.66 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 17660000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "3.72 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 3720000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "2.407 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 2407000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$6.993 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 6993000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$59.23 billion (2010 est.)",
+			"Exports": {
+				"usd": 59230000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "oil and oil products 59%, ferrous metals 19%, chemicals 5%, machinery 3%, grain, wool, meat, coal",
 		"Exports - partners": "China 16.34%, France 9.23%, Germany 8.32%, Russia 6.9%, Ukraine 5.52%, Romania 5.25%, Italy 5.12%, US 4.34% (2009)",
 		"Imports": {
-			"Imports": "$30.11 billion (2010 est.)",
+			"Imports": {
+				"usd": 30110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, metal products, foodstuffs",
 		"Imports - partners": "Russia 28.5%, China 26.72%, Germany 6.59%, Italy 5.58%, Ukraine 4.8% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$32.44 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 32439999999.999996
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$94.44 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 94440000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$83.3 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 83300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$7.208 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 7208000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3.763 million (2009)",
+			"Telephones - main lines in use": 3763000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "14.995 million (2009)",
+			"Telephones - mobile cellular": 14995000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,49 +640,61 @@
 		"Broadcast media": "state owns nearly all radio and TV transmission facilities and operates national TV and radio networks; nearly all nationwide TV networks are wholly or partly owned by the government; some former state-owned media outlets have been privatized and are controlled by the president's daughter, who heads the Khabar Agency that runs multiple TV and radio stations;  a number of privately-owned TV stations; households with satellite dishes have access to foreign media; a small number of  commercial radio stations operating along with state-run radio stations (2008)",
 		"Internet country code": ".kz",
 		"Internet hosts": {
-			"Internet hosts": "53,984 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "97 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "65",
-			"over 3,047 m:": "10",
-			"2,438 to 3,047 m:": "26",
-			"1,524 to 2,437 m:": "16",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "32",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "6",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "5"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 658 km; gas 12,317 km; oil 11,201 km; refined products 1,095 km; water 1,465 km (2010)",
 		"Railways": {
-			"total:": "15,079 km",
+			"total:": {
+				"quantity": 15079,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "15,079 km 1.520-m gauge (4,000 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "93,612 km",
+			"total:": {
+				"quantity": 93612,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "84,100 km",
-			"unpaved:": "9,512 km (2008)"
+			"paved:": {
+				"quantity": 84100,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 9512,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "4,000 km (on the Ertis (Irtysh) River (80%) and Syr Darya (Syrdariya) River) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "8",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "petroleum tanker 6, refrigerated cargo 1, specialized tanker 1",
 			"foreign-owned:": "1 (Ireland 1) (2010)"
@@ -433,16 +705,16 @@
 		"Military branches": "Kazakhstan Armed Forces: Ground Forces, Navy, Air Mobile Forces, Air Defense Forces (2010)",
 		"Military service age and obligation": "18 years of age for compulsory military service; conscript service obligation - 2 years; minimum age for volunteers NA (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "4,163,629",
-			"females age 16-49:": "4,179,051 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,909,999",
-			"females age 16-49:": "3,528,169 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "125,322",
-			"female:": "119,541 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

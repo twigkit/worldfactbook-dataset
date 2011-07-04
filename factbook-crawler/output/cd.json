@@ -5,20 +5,44 @@
 	"background": "Chad, part of France's African holdings until 1960, endured three decades of civil warfare as well as invasions by Libya before a semblance of peace was finally restored in 1990. The government eventually drafted a democratic constitution and held flawed presidential elections in 1996 and 2001. In 1998, a rebellion broke out in northern Chad, which has sporadically flared up despite several peace agreements between the government and the rebels. In 2005, new rebel groups emerged in western Sudan and made probing attacks into eastern Chad despite signing peace agreements in December 2006 and October 2007. Power remains in the hands of an ethnic minority. In June 2005, President Idriss DEBY held a referendum successfully removing constitutional term limits and won another controversial election in 2006. Sporadic rebel campaigns continued throughout 2006 and 2007. The capital experienced a significant rebel threat in early 2008.",
 	"geo": {
 		"Location": "Central Africa, south of Libya",
-		"Geographic coordinates": "15 00 N, 19 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 19,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1.284 million sq km",
+			"total:": {
+				"quantity": 1284000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,259,200 sq km",
-			"water:": "24,800 sq km"
+			"land:": {
+				"quantity": 1259,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 24800,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than three times the size of California",
 		"Land boundaries": {
-			"total:": "5,968 km",
+			"total:": {
+				"quantity": 5968,
+				"unit": "km"
+			},
 			"border countries:": "Cameroon 1,094 km, Central African Republic 1,197 km, Libya 1,055 km, Niger 1,175 km, Nigeria 87 km, Sudan 1,360 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "tropical in south, desert in north",
 		"Terrain": "broad, arid plains in center, desert in north, mountains in northwest, lowlands in south",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "petroleum, uranium, natron, kaolin, fish (Lake Chad), gold, limestone, sand and gravel, salt",
 		"Land use": {
-			"arable land:": "2.8%",
-			"permanent crops:": "0.02%",
-			"other:": "97.18% (2005)"
+			"arable land:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.02,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.18,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "300 sq km (2008)",
-		"Total renewable water resources": "43 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 300,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 43,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.23  cu km/yr (17%/0%/83%)",
-			"per capita:": "24  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.23,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 24,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hot, dry, dusty harmattan winds occur in north; periodic droughts; locust plagues",
 		"Environment - current issues": "inadequate supplies of potable water; improper waste disposal in rural areas contributes to soil and water pollution; desertification",
@@ -48,29 +93,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,758,945 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "46% (male 2,510,656/female 2,441,780)",
-			"15-64 years:": "51% (male 2,531,896/female 2,960,406)",
+			"0-14 years:": {
+				"quantity": 46,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51,
+				"unit": "%"
+			},
 			"65 years and over:": "2.9% (male 131,805/female 182,402) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.8 years",
-			"male:": "15.6 years",
-			"female:": "17.9 years (2011 est.)"
+			"total:": {
+				"quantity": 16.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.009% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.009,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "39.4 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 39.4,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "15.47 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 15.47,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,43 +147,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "28% of total population (2010)",
-			"rate of urbanization:": "4.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 28,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "N'DJAMENA (capital) 808,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.85 male(s)/female",
-			"65 years and over:": "0.73 male(s)/female",
-			"total population:": "0.92 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.85,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.73,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "95.31 deaths/1,000 live births",
+			"total:": {
+				"quantity": 95.31,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "101.18 deaths/1,000 live births",
-			"female:": "89.22 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 101.18,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 89.22,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "48.33 years",
+			"total population:": {
+				"quantity": 48.33,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "47.28 years",
-			"female:": "49.43 years (2011 est.)"
+			"male:": {
+				"quantity": 47.28,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 49.43,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.05 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.05,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "3.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "210,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "11,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +249,32 @@
 		"Languages": "French (official), Arabic (official), Sara (in south), more than 120 different languages and dialects",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write French or Arabic",
-			"total population:": "25.7%",
-			"male:": "40.8%",
-			"female:": "12.8% (2000 est.)"
+			"total population:": {
+				"quantity": 25.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 40.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 12.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "7 years",
-			"male:": "9 years",
-			"female:": "5 years (2009)"
+			"total:": {
+				"quantity": 7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 5,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,7 +288,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "N'Djamena",
-			"geographic coordinates:": "12 06 N, 15 02 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 12,
+					"seconds": 6
+				},
+				"E": {
+					"minutes": 15,
+					"seconds": 2
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "22 regions (regions, singular - region); Barh el Gazel, Batha, Borkou, Chari-Baguirmi, Ennedi, Guera, Hadjer-Lamis, Kanem, Lac, Logone Occidental, Logone Oriental, Mandoul, Mayo-Kebbi Est, Mayo-Kebbi Ouest, Moyen-Chari, Ouaddai, Salamat, Sila, Tandjile, Tibesti, Ville de N'Djamena, Wadi Fira",
@@ -203,121 +344,218 @@
 	"economy": {
 		"Economy - overview": "Chad's primarily agricultural economy will continue to be boosted by major foreign direct investment projects in the oil sector that began in 2000. At least 80% of Chad's population relies on subsistence farming and livestock raising for its livelihood. Chad's economy has long been handicapped by its landlocked position, high energy costs, and a history of instability. Chad relies on foreign assistance and foreign capital for most public and private sector investment projects. A consortium led by two US companies has been investing $3.7 billion to develop oil reserves - estimated at 1 billion barrels - in southern Chad. Chinese companies are also expanding exploration efforts and are currently building a 300-km pipeline and the country's first refinery. The nation's total oil reserves are estimated at 1.5 billion barrels. Oil production came on stream in late 2003. Chad began to export oil in 2004. Cotton, cattle, and gum arabic provide the bulk of Chad's non-oil export earnings.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$17.36 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 17360000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$7.848 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 7848000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "50.5%",
-			"industry:": "7%",
-			"services:": "42.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 50.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 42.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.293 million (2007)",
+			"Labor force": 4293000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "80% (subsistence farming, herding, and fishing)",
-			"industry and services:": "20% (2006 est.)"
+			"agriculture:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "80% (2001 est.)",
+		"Population below poverty line": {
+			"quantity": 80,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.6%",
-			"highest 10%:": "30.8% (2003)"
+			"lowest 10%:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30.8,
+				"unit": "%"
+			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "14.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 14.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.972 billion",
-			"expenditures:": "$2.859 billion (2010 est.)"
+			"revenues:": {
+				"usd": 1972000000
+			},
+			"expenditures:": {
+				"usd": 2859000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$920.9 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 920900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.257 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1257000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$943.8 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 943800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, sorghum, millet, peanuts, rice, potatoes, manioc (tapioca); cattle, sheep, goats, camels",
 		"Industries": "oil, cotton textiles, meatpacking, brewing, natron (sodium carbonate), soap, cigarettes, construction materials",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "100 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "93 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 93000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "115,000 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 115000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "157,900 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 157900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1,571 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1571,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "1.5 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 1500000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -325,19 +563,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$3.036 billion (2010 est.)",
+			"Exports": {
+				"usd": 3036000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "oil, cattle, cotton, gum arabic",
 		"Exports - partners": "US 90.06%, France 4.81%, China 1.6% (2009)",
 		"Imports": {
-			"Imports": "$2.631 billion (2010 est.)",
+			"Imports": {
+				"usd": 2631000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transportation equipment, industrial goods, foodstuffs, textiles",
 		"Imports - partners": "France 17.74%, Cameroon 12.7%, China 11.23%, US 7.59%, Italy 6.54%, Ukraine 5.33%, Netherlands 4.37% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$868 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 868000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": "$NA (31 December 2010 est.)",
@@ -347,11 +591,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "13,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.686 million (2009)",
+			"Telephones - mobile cellular": 2686000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -362,36 +606,45 @@
 		"Broadcast media": "1 state-owned TV broadcast station; state-owned radio network, Radiodiffusion Nationale Tchadienne (RNT), operates national and regional stations; about 10 private radio stations; some stations rebroadcast programs from international broadcasters (2007)",
 		"Internet country code": ".td",
 		"Internet hosts": {
-			"Internet hosts": "5 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "56 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "8",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "2",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "48",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "15",
-			"914 to 1,523 m:": "21",
-			"under 914 m:": "10 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 265 km (2010)",
 		"Roadways": {
-			"total:": "33,400 km",
+			"total:": {
+				"quantity": 33400,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "267 km",
-			"unpaved:": "33,133 km (2002)"
+			"paved:": {
+				"quantity": 267,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 33133,
+				"unit": "km"
+			}
 		},
 		"Waterways": {}
 	},
@@ -399,16 +652,16 @@
 		"Military branches": "Armed Forces: Chadian National Army (Armee Nationale du Tchad, ANT), Chadian Air Force (Force Aerienne Tchadienne, FAT), Gendarmerie (2008)",
 		"Military service age and obligation": "20 years of age for conscripts, with 3-year service obligation; 18 years of age for volunteers; no minimum age restriction for volunteers with consent from a parent or guardian; women are subject to 1 year of compulsory military or civic service at age of 21 (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,090,244",
-			"females age 16-49:": "2,441,321 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,183,242",
-			"females age 16-49:": "1,395,811 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "128,723",
-			"female:": "128,244 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
@@ -416,7 +669,7 @@
 		"Disputes - international": "since 2003, Janjawid armed militia and the Sudanese military have driven hundreds of thousands of Darfur residents into Chad; Chad remains an important mediator in the Sudanese civil conflict, reducing tensions with Sudan arising from cross-border banditry; Chadian Aozou rebels reside in southern Libya; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "234,000 (Sudan); 54,200 (Central African Republic)",
-			"IDPs:": "178,918 (2007)"
+			"IDPs:": null
 		},
 		"Trafficking in persons": {}
 	}

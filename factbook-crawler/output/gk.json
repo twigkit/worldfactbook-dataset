@@ -5,20 +5,50 @@
 	"background": "Guernsey and the other Channel Islands represent the last remnants of the medieval Dukedom of Normandy, which held sway in both France and England. The islands were the only British soil occupied by German troops in World War II. Guernsey is a British crown dependency but is not part of the UK or of the European Union. However, the UK Government is constitutionally responsible for its defense and international representation.",
 	"geo": {
 		"Location": "Western Europe, islands in the English Channel, northwest of France",
-		"Geographic coordinates": "49 28 N, 2 35 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 49,
+				"seconds": 28
+			},
+			"W": {
+				"minutes": 2,
+				"seconds": 35
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "78 sq km",
+			"total:": {
+				"quantity": 78,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "78 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 78,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about one-half the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "50 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 50,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
-			"exclusive fishing zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "temperate with mild winters and cool summers; about 50% of days are overcast",
 		"Terrain": "mostly level with low hills in southwest",
@@ -39,60 +69,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "65,068 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "14.9% (male 5,036/female 4,670)",
-			"15-64 years:": "68% (male 22,195/female 22,049)",
+			"0-14 years:": {
+				"quantity": 14.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68,
+				"unit": "%"
+			},
 			"65 years and over:": "17.1% (male 4,952/female 6,166) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.2 years",
-			"male:": "41.1 years",
-			"female:": "43.2 years (2011 est.)"
+			"total:": {
+				"quantity": 42.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 41.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.438% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.438,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.13 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.13,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.44 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.44,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.69 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.69,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "31% of total population (2010)",
-			"rate of urbanization:": "0.8% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 31,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.8,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.98 male(s)/female",
-			"65 years and over:": "0.77 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.77,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.55 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.55,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.87 deaths/1,000 live births",
-			"female:": "3.21 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.87,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.21,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "82.16 years",
+			"total population:": {
+				"quantity": 82.16,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "79.5 years",
-			"female:": "84.95 years (2011 est.)"
+			"male:": {
+				"quantity": 79.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.95,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.54 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.54,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -118,7 +217,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Saint Peter Port",
-			"geographic coordinates:": "49 27 N, 2 32 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 49,
+					"seconds": 27
+				},
+				"W": {
+					"minutes": 2,
+					"seconds": 32
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -152,29 +260,50 @@
 	"economy": {
 		"Economy - overview": "Financial services - banking, fund management, insurance - account for about 23% of employment and about 55% of total income in this tiny, prosperous Channel Island economy. Tourism, manufacturing, and horticulture, mainly tomatoes and cut flowers, have been declining. Financial services, construction, retail, and the public sector have been growing. Light tax and death duties make Guernsey a popular tax haven. The evolving economic integration of the EU nations is changing the environment under which Guernsey operates.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.742 billion (2005)",
+			"GDP (purchasing power parity)": {
+				"usd": 2742000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.742 billion (2005)",
+		"GDP (official exchange rate)": {
+			"usd": 2742000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3% (2005 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$44,600 (2005)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "3%",
-			"industry:": "10%",
-			"services:": "87% (2000)"
+			"agriculture:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 87,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "31,470 (March 2006)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "0.9% (March 2006 est.)",
+			"Unemployment rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -183,11 +312,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$563.6 million",
-			"expenditures:": "$530.9 million (2005)"
+			"revenues:": {
+				"usd": 563600000
+			},
+			"expenditures:": {
+				"usd": 530900000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.4% (June 2006)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "tomatoes, greenhouse flowers, sweet peppers, eggplant, fruit; Guernsey cattle",
@@ -195,8 +331,14 @@
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": "NA kWh",
 		"Electricity - consumption": "NA kWh",
-		"Electricity - exports": "0 kWh (2002)",
-		"Electricity - imports": "0 kWh (2002)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Exports": "$NA",
 		"Exports - commodities": "tomatoes, flowers and ferns, sweet peppers, eggplant, other vegetables",
 		"Imports": "$NA",
@@ -206,11 +348,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "45,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "43,800 (2004)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -221,31 +363,31 @@
 		"Broadcast media": "multiple UK terrestrial television broadcasts - received via a transmitter in Jersey with relays in Jersey, Guernsey, and Alderney - will begin switching from analog to digital broadcasts in November 2010; satellite packages are available; BBC Radio Guernsey and 1 other radio station operating (2009)",
 		"Internet country code": ".gg",
 		"Internet hosts": {
-			"Internet hosts": "197 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "2 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "12,493",
-			"females age 16-49:": "12,272 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "354",
-			"female:": "342 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

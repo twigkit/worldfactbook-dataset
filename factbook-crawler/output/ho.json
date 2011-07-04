@@ -5,24 +5,54 @@
 	"background": "Once part of Spain's vast empire in the New World, Honduras became an independent nation in 1821. After two and a half decades of mostly military rule, a freely elected civilian government came to power in 1982. During the 1980s, Honduras proved a haven for anti-Sandinista contras fighting the Marxist Nicaraguan Government and an ally to Salvadoran Government forces fighting leftist guerrillas. The country was devastated by Hurricane Mitch in 1998, which killed about 5,600 people and caused approximately $2 billion in damage. Since then, the economy has slowly rebounded.",
 	"geo": {
 		"Location": "Central America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the Gulf of Fonseca (North Pacific Ocean), between El Salvador and Nicaragua",
-		"Geographic coordinates": "15 00 N, 86 30 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 86,
+				"seconds": 30
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "112,090 sq km",
+			"total:": {
+				"quantity": 112090,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "111,890 sq km",
-			"water:": "200 sq km"
+			"land:": {
+				"quantity": 111890,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 200,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Tennessee",
 		"Land boundaries": {
-			"total:": "1,520 km",
+			"total:": {
+				"quantity": 1520,
+				"unit": "km"
+			},
 			"border countries:": "Guatemala 256 km, El Salvador 342 km, Nicaragua 922 km"
 		},
 		"Coastline": "Caribbean Sea 669 km; Gulf of Fonseca 163 km",
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "natural extension of territory or to 200 nm"
 		},
 		"Climate": "subtropical in lowlands, temperate in mountains",
@@ -33,15 +63,36 @@
 		},
 		"Natural resources": "timber, gold, silver, copper, lead, zinc, iron ore, antimony, coal, fish, hydropower",
 		"Land use": {
-			"arable land:": "9.53%",
-			"permanent crops:": "3.21%",
-			"other:": "87.26% (2005)"
+			"arable land:": {
+				"quantity": 9.53,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 3.21,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.26,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "800 sq km (2008)",
-		"Total renewable water resources": "95.9 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 800,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 95.9,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.86  cu km/yr (8%/12%/80%)",
-			"per capita:": "119  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.86,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 119,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "frequent, but generally mild, earthquakes; extremely susceptible to damaging hurricanes and floods along the Caribbean coast",
 		"Environment - current issues": "urban population expanding; deforestation results from logging and the clearing of land for agricultural purposes; further land degradation and soil erosion hastened by uncontrolled development and improper land use practices such as farming of marginal lands; mining activities polluting Lago de Yojoa (the country's largest source of fresh water), as well as several rivers and streams, with heavy metals",
@@ -53,29 +104,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "8,143,564 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "36.7% (male 1,528,271/female 1,464,428)",
-			"15-64 years:": "59.5% (male 2,431,607/female 2,412,951)",
+			"0-14 years:": {
+				"quantity": 36.7,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 59.5,
+				"unit": "%"
+			},
 			"65 years and over:": "3.8% (male 136,035/female 170,272) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21 years",
-			"male:": "20.6 years",
-			"female:": "21.4 years (2011 est.)"
+			"total:": {
+				"quantity": 21,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 20.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.888% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.888,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "25.14 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 25.14,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.02 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.02,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +158,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "52% of total population (2010)",
-			"rate of urbanization:": "3.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 52,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TEGUCIGALPA (capital) 1 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "20.44 deaths/1,000 live births",
+			"total:": {
+				"quantity": 20.44,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "23.14 deaths/1,000 live births",
-			"female:": "17.61 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 23.14,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 17.61,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "70.61 years",
+			"total population:": {
+				"quantity": 70.61,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.93 years",
-			"female:": "72.37 years (2011 est.)"
+			"male:": {
+				"quantity": 68.93,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 72.37,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.09 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.09,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "39,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "2,500 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -139,14 +259,32 @@
 		"Languages": "Spanish (official), Amerindian dialects",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "80%",
-			"male:": "79.8%",
-			"female:": "80.2% (2001 census)"
+			"total population:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 79.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 80.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "12 years (2008)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +298,16 @@
 		"Government type": "democratic constitutional republic",
 		"Capital": {
 			"name:": "Tegucigalpa",
-			"geographic coordinates:": "14 06 N, 87 13 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 14,
+					"seconds": 6
+				},
+				"W": {
+					"minutes": 87,
+					"seconds": 13
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)",
 			"daylight saving time:": "none scheduled for 2011"
 		},
@@ -209,133 +356,239 @@
 	"economy": {
 		"Economy - overview": "Honduras, the second poorest country in Central America, suffers from extraordinarily unequal distribution of income, as well as high underemployment. While historically dependent on the export of bananas and coffee, Honduras has diversified its export base to include apparel and automobile wire harnessing. Nearly half of Honduras's economic activity is directly tied to the US, with exports to the US accounting for 30% of GDP and remittances for another 20%. The US-Central America Free Trade Agreement (CAFTA) came into force in 2006 and has helped foster foreign direct investment, but physical and political insecurity, as well as crime and perceptions of corruption, may deter potential investors; about 70% of FDI is from US firms. The economy registered sluggish economic growth in 2010, insufficient to improve living standards for the nearly 60% of the population in poverty. The LOBO administration inherited a difficult fiscal position with off-budget debts accrued in previous administrations and government salaries nearly equivalent to tax collections. His government has displayed a commitment to improving tax collection and cutting expenditures, and attracting foreign investment. This enabled Tegucigalpa to secure an IMF Precautionary Stand-By agreement in October 2010. The IMF agreement has helped renew multilateral and bilateral donor confidence in Honduras following the ZELAYA administration's economic mismanagement and the 2009 coup.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$33.63 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 33630000000.000004
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$15.35 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 15350000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "12.4%",
-			"industry:": "26.9%",
-			"services:": "60.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 12.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 26.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 60.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.394 million (2010 est.)",
+			"Labor force": 3394000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "39.2%",
-			"industry:": "20.9%",
-			"services:": "39.8% (2005 est.)"
+			"agriculture:": {
+				"quantity": 39.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 39.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "5.1% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "65% (2010)",
+		"Population below poverty line": {
+			"quantity": 65,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.7%",
-			"highest 10%:": "42.2% (2006)"
+			"lowest 10%:": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 42.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "53.8 (2003)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "23.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 23.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.923 billion",
-			"expenditures:": "$3.651 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2923000000
+			},
+			"expenditures:": {
+				"usd": 3651000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "26.1% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 26.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.6% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "19.16% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 19.16,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.296 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1296000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$7.618 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 7618000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$7.581 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 7581000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "bananas, coffee, citrus, corn, African palm; beef; timber; shrimp, tilapia, lobster",
 		"Industries": "sugar, coffee, woven and knit apparel, wood products, cigars",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "6.58 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 6580000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "6.54 billion kWh",
+			"Electricity - consumption": {
+				"quantity": 6540000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "11.8 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 11800000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "56,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 56000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "46,130 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 46130,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -343,34 +596,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.879 billion (2010 est.)",
+			"Exports": {
+				"usd": 5879000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "apparel, coffee, shrimp, wire harnesses, cigars, bananas, gold, palm oil, fruit, lobster, lumber",
 		"Exports - partners": "US 59.6%, El Salvador 5.61%, Guatemala 5.28%, Mexico 4.19%, Germany 4.04% (2009)",
 		"Imports": {
-			"Imports": "$8.878 billion (2010 est.)",
+			"Imports": {
+				"usd": 8878000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, industrial raw materials, chemical products, fuels, foodstuffs",
 		"Imports - partners": "US 46.81%, Guatemala 8.92%, El Salvador 7.13%, Mexico 5.54%, Costa Rica 4.91% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.302 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2302000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$3.54 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 3540000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "830,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "7.714 million (2009)",
+			"Telephones - mobile cellular": 7714000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -381,38 +642,47 @@
 		"Broadcast media": "multiple privately-owned terrestrial television networks, supplemented by multiple cable TV networks; Radio Honduras is the lone government-owned radio network; roughly 300 privately-owned radio stations (2007)",
 		"Internet country code": ".hn",
 		"Internet hosts": {
-			"Internet hosts": "16,075 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "104 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "12",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "92",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "16",
-			"under 914 m:": "74 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "75 km",
+			"total:": {
+				"quantity": 75,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "75 km 1.067-m gauge (2009)"
 		},
 		"Roadways": {
-			"total:": "14,239 km",
+			"total:": {
+				"quantity": 14239,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,159 km",
+			"paved:": {
+				"quantity": 3159,
+				"unit": "km"
+			},
 			"unpaved:": "11,080 km (1,420 km summer only) (2009)"
 		},
 		"Waterways": {
@@ -420,7 +690,7 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "104",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 8, cargo 50, carrier 2, chemical tanker 7, container 1, passenger 3, passenger/cargo 2, petroleum tanker 22, refrigerated cargo 6, roll on/roll off 3",
 			"foreign-owned:": "49 (Bahrain 5, Canada 1, China 2, Egypt 2, Greece 4, Hong Kong 1, Israel 1, Japan 4, Lebanon 2, Mexico 1, Montenegro 2, Panama 1, Singapore 12, South Korea 6, Taiwan 2, Tanzania 1, UK 1, Vietnam 1) (2010)"
@@ -431,16 +701,16 @@
 		"Military branches": "Army, Navy (includes Naval Infantry), Honduran Air Force (Fuerza Aerea Hondurena, FAH) (2008)",
 		"Military service age and obligation": "18 years of age for voluntary 2 to 3 year military service (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,045,914",
-			"females age 16-49:": "1,991,418 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,525,578",
-			"females age 16-49:": "1,539,688 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "95,895",
-			"female:": "92,087 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

@@ -5,20 +5,41 @@
 	"background": "Although sighted by Christopher COLUMBUS in 1493 and claimed for Spain, it was the Dutch who occupied the island in 1631 and set about exploiting its salt deposits. The Spanish retook the island in 1633, but continued to be harassed by the Dutch. The Spanish finally relinquished Saint Martin to the French and Dutch, who divided it between themselves in 1648. Friction between the two sides caused the border to frequently fluctuate over the next two centuries, with the French eventually holding the greater portion of the island (about 57%). The cultivation of sugar cane introduced slavery to the island in the late 18th century; the practice was not abolished until 1848. The island became a free port in 1939; the tourism industry was dramatically expanded during the 1970s and 1980s. In 2003, the populace of Saint Martin voted to secede from Guadeloupe and in 2007, the northern portion of the island became a French overseas collectivity. In 2010, the Dutch portion of the island became an independent nation within the Kingdom of the Netherlands.",
 	"geo": {
 		"Location": "Caribbean, located in the Leeward Islands (northern) group; French part of the island of Saint Martin in the Caribbean Sea; Saint Martin lies east of the US Virgin Islands",
-		"Geographic coordinates": "18 05 N, 63 57 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 18,
+				"seconds": 5
+			},
+			"W": {
+				"minutes": 63,
+				"seconds": 57
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "54.4 sq km",
+			"total:": {
+				"quantity": 54.4,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "54.4 sq km",
+			"land:": {
+				"quantity": 54.4,
+				"unit": "sq km"
+			},
 			"water:": "NEGL"
 		},
 		"Area - comparative": "more than one-third the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "15 km",
+			"total:": {
+				"quantity": 15,
+				"unit": "km"
+			},
 			"border countries:": "Sint Maarten 15 km"
 		},
-		"Coastline": "58.9 km (for entire island)",
+		"Coastline": {
+			"quantity": 58.9,
+			"unit": "km"
+		},
 		"Climate": "temperature averages 80-85 degrees all year long; low humidity, gentle trade winds, brief, intense rain showers; July-November is the hurricane season",
 		"Elevation extremes": {
 			"lowest point:": "Caribbean Ocean 0 m",
@@ -31,25 +52,55 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "30,615 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "26.9% (male 4,086/female 4,139)",
-			"15-64 years:": "67.1% (male 9,807/female 10,737)",
+			"0-14 years:": {
+				"quantity": 26.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.1,
+				"unit": "%"
+			},
 			"65 years and over:": "6% (male 829/female 1,017) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "31 years",
-			"male:": "29.9 years",
-			"female:": "31.8 years (2011 est.)"
+			"total:": {
+				"quantity": 31,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 29.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31.8,
+				"unit": "years"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "0.99 male(s)/female",
-			"15-64 years:": "0.91 male(s)/female",
-			"65 years and over:": "0.82 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.82,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Ethnic groups": "creole (mulatto), black, Guadeloupe Mestizo (French-East Asia), white, East Indian",
 		"Religions": "Roman Catholic, Jehovah's Witnesses, Protestant, Hindu",
@@ -67,7 +118,16 @@
 		"Dependency status": "overseas collectivity of France",
 		"Capital": {
 			"name:": "Marigot",
-			"geographical coordinates:": "18 04 N, 63 05 W",
+			"geographical coordinates:": {
+				"N": {
+					"minutes": 18,
+					"seconds": 4
+				},
+				"W": {
+					"minutes": 63,
+					"seconds": 5
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Independence": "none (overseas collectivity of France)",
@@ -98,9 +158,18 @@
 	"economy": {
 		"Economy - overview": "The economy of Saint Martin centers around tourism with 85% of the labor force engaged in this sector. Over one million visitors come to the island each year with most arriving through the Princess Juliana International Airport in Sint Maarten. No significant agriculture and limited local fishing means that almost all food must be imported. Energy resources and manufactured goods are also imported, primarily from Mexico and the United States. Saint Martin is reported to have the highest per capita income in the Caribbean.",
 		"GDP - composition by sector": {
-			"agriculture:": "1%",
-			"industry:": "15%",
-			"services:": "84% (2000)"
+			"agriculture:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 84,
+				"unit": "%"
+			}
 		},
 		"Labor force - by occupation": "85% directly or indirectly employed in tourist industry",
 		"Industries": "tourism, light industry and manufacturing, heavy industry",
@@ -118,23 +187,23 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
 		"Transportation - note": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,435",
-			"females age 16-49:": "6,967 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "168",
-			"female:": "168 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

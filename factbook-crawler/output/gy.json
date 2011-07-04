@@ -5,23 +5,53 @@
 	"background": "Originally a Dutch colony in the 17th century, by 1815 Guyana had become a British possession. The abolition of slavery led to black settlement of urban areas and the importation of indentured servants from India to work the sugar plantations. This ethnocultural divide has persisted and has led to turbulent politics. Guyana achieved independence from the UK in 1966, and since then it has been ruled mostly by socialist-oriented governments. In 1992, Cheddi JAGAN was elected president in what is considered the country's first free and fair election since independence. After his death five years later, his wife, Janet JAGAN, became president but resigned in 1999 due to poor health. Her successor, Bharrat JAGDEO, was reelected in 2001 and again in 2006.",
 	"geo": {
 		"Location": "Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela",
-		"Geographic coordinates": "5 00 N, 59 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 5,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 59,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "214,969 sq km",
+			"total:": {
+				"quantity": 214969,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "196,849 sq km",
-			"water:": "18,120 sq km"
+			"land:": {
+				"quantity": 196849,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 18120,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Idaho",
 		"Land boundaries": {
-			"total:": "2,949 km",
+			"total:": {
+				"quantity": 2949,
+				"unit": "km"
+			},
 			"border countries:": "Brazil 1,606 km, Suriname 600 km, Venezuela 743 km"
 		},
-		"Coastline": "459 km",
+		"Coastline": {
+			"quantity": 459,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the outer edge of the continental margin"
 		},
 		"Climate": "tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "bauxite, gold, diamonds, hardwood timber, shrimp, fish",
 		"Land use": {
-			"arable land:": "2.23%",
-			"permanent crops:": "0.14%",
-			"other:": "97.63% (2005)"
+			"arable land:": {
+				"quantity": 2.23,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.14,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.63,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,500 sq km (2008)",
-		"Total renewable water resources": "241 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 1500,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 241,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.64  cu km/yr (2%/1%/98%)",
-			"per capita:": "2,187  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.64,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 2187,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "flash floods are a constant threat during rainy seasons",
 		"Environment - current issues": "water pollution from sewage and agricultural and industrial chemicals; deforestation",
@@ -52,29 +103,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "744,768 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "31.9% (male 120,981/female 116,654)",
-			"15-64 years:": "63.3% (male 235,566/female 235,717)",
+			"0-14 years:": {
+				"quantity": 31.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63.3,
+				"unit": "%"
+			},
 			"65 years and over:": "4.8% (male 14,801/female 21,049) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "23.9 years",
-			"male:": "23.2 years",
-			"female:": "24.6 years (2011 est.)"
+			"total:": {
+				"quantity": 23.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 23.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 24.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.44% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.12 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.12,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.2 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.2,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,39 +154,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "29% of total population (2010)",
-			"rate of urbanization:": "0.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 29,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "GEORGETOWN (capital) 132,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.71 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.71,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "36.76 deaths/1,000 live births",
+			"total:": {
+				"quantity": 36.76,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "41.09 deaths/1,000 live births",
-			"female:": "32.2 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 41.09,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 32.2,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "67.08 years",
+			"total population:": {
+				"quantity": 67.08,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "63.27 years",
-			"female:": "71.07 years (2011 est.)"
+			"male:": {
+				"quantity": 63.27,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 71.07,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.34 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.34,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "5,900 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -138,14 +255,32 @@
 		"Languages": "English, Amerindian dialects, Creole, Caribbean Hindustani (a dialect of Hindi), Urdu",
 		"Literacy": {
 			"definition:": "age 15 and over has ever attended school",
-			"total population:": "91.8%",
-			"male:": "92%",
-			"female:": "91.6% (2002 Census)"
+			"total population:": {
+				"quantity": 91.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 92,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 91.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -158,7 +293,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Georgetown",
-			"geographic coordinates:": "6 48 N, 58 10 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 6,
+					"seconds": 48
+				},
+				"W": {
+					"minutes": 58,
+					"seconds": 10
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 regions; Barima-Waini, Cuyuni-Mazaruni, Demerara-Mahaica, East Berbice-Corentyne, Essequibo Islands-West Demerara, Mahaica-Berbice, Pomeroon-Supenaam, Potaro-Siparuni, Upper Demerara-Berbice, Upper Takutu-Upper Essequibo",
@@ -204,25 +348,43 @@
 	"economy": {
 		"Economy - overview": "The Guyanese economy exhibited moderate economic growth in recent years and is based largely on agriculture and extractive industries. The economy is heavily dependent upon the export of six commodities - sugar, gold, bauxite, shrimp, timber, and rice - which represent nearly 60% of the country's GDP and are highly susceptible to adverse weather conditions and fluctuations in commodity prices. Guyana's entrance into the Caricom Single Market and Economy (CSME) in January 2006 has broadened the country's export market, primarily in the raw materials sector. Economic recovery since a 2005 flood-related contraction was buoyed by increases in remittances and foreign direct investment in the sugar and rice industries as well as the mining sector. Chronic problems include a shortage of skilled labor and a deficient infrastructure. The government is juggling a sizable external debt against the urgent need for expanded public investment. In March 2007, the Inter-American Development Bank, Guyana's principal donor, canceled Guyana's nearly $470 million debt, equivalent to nearly 48% of GDP, which along with other Highly Indebted Poor Country (HIPC) debt forgiveness brought the debt-to-GDP ratio down from 183% in 2006 to 120% in 2007. Guyana became heavily indebted as a result of the inward-looking, state-led development model pursued in the 1970s and 1980s. Growth slowed in 2009-10 as a result of the world recession. The slowdown in the domestic economy and lower import costs helped to narrow the country's current account deficit, despite generally lower earnings from exports.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$5.379 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 5379000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.215 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2215000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.6% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$7,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "24.3%",
-			"industry:": "24.7%",
-			"services:": "51% (2010 est.)"
+			"agriculture:": {
+				"quantity": 24.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 51,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "333,900 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -231,52 +393,86 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "11% (2007)",
+			"Unemployment rate": {
+				"quantity": 11,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.3%",
-			"highest 10%:": "33.8% (1999)"
+			"lowest 10%:": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 33.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "43.2 (1999)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "34.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 34.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$619.5 million",
-			"expenditures:": "$655.7 million (2010 est.)"
+			"revenues:": {
+				"usd": 619500000
+			},
+			"expenditures:": {
+				"usd": 655700000
+			}
 		},
 		"Public debt": {
-			"Public debt": "57% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 57,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "6.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 6.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6.75% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 6.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.54% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.54,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$386.9 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 386900000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.303 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1303000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$754 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 754000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -286,57 +482,102 @@
 		"Agriculture - products": "sugarcane, rice, edible oils; shrimp, fish, beef, pork, poultry",
 		"Industries": "bauxite, sugar, rice milling, timber, textiles, gold mining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "2.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "821 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 821000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "667 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 667000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "10,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 10000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "10,550 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 10550,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -344,34 +585,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$814 million (2010 est.)",
+			"Exports": {
+				"usd": 814000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "sugar, gold, bauxite, alumina, rice, shrimp, molasses, rum, timber",
 		"Exports - partners": "Canada 27.52%, US 16.93%, UK 10.84%, Ukraine 5.54%, Netherlands 5%, Trinidad and Tobago 4.33%, Jamaica 4.12% (2009)",
 		"Imports": {
-			"Imports": "$1.366 billion (2010 est.)",
+			"Imports": {
+				"usd": 1366000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "manufactures, machinery, petroleum, food",
 		"Imports - partners": "US 25.23%, Trinidad and Tobago 23.23%, Cuba 6.41%, China 6.05% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$506 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 506000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$804.3 million (30 September 2008)",
+			"Debt - external": {
+				"usd": 804300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "130,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "281,400 (2005)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -382,39 +631,48 @@
 		"Broadcast media": "government-dominated broadcast media; the National Communications Network (NCN) TV is state-owned; a few private TV stations relay satellite services; the state owns and operates 2 radio stations broadcasting on multiple frequencies capable of reaching the entire country; government limits on licensing of new private radio stations continue to constrain competition in broadcast media (2007)",
 		"Internet country code": ".gy",
 		"Internet hosts": {
-			"Internet hosts": "8,840 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "96 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "10",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "7 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "86",
-			"914 to 1,523 m:": "13",
-			"under 914 m:": "73 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "7,970 km",
+			"total:": {
+				"quantity": 7970,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "590 km",
-			"unpaved:": "7,380 km (2000)"
+			"paved:": {
+				"quantity": 590,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 7380,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "330 km (the Berbice, Demerara, and Essequibo rivers are navigable by oceangoing vessels for 150 km, 100 km, and 80 km respectively) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "8",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 6, petroleum tanker 1, refrigerated cargo 1",
 			"registered in other countries:": "3 (Saint Vincent and the Grenadines 2, unknown 1) (2010)"
@@ -425,15 +683,15 @@
 		"Military branches": "Guyana Defense Force: Army (includes Coast Guard, Air Corps) (2009)",
 		"Military service age and obligation": "18-25 years of age for voluntary military service; no conscription (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "189,840 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "133,239",
-			"females age 16-49:": "147,719 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "8,849",
-			"female:": "8,460 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

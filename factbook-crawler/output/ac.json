@@ -5,21 +5,54 @@
 	"background": "The Siboney were the first to inhabit the islands of Antigua and Barbuda in 2400 B.C., but Arawak Indians populated the islands when COLUMBUS landed on his second voyage in 1493. Early settlements by the Spanish and French were succeeded by the English who formed a colony in 1667. Slavery, established to run the sugar plantations on Antigua, was abolished in 1834. The islands became an independent state within the British Commonwealth of Nations in 1981.",
 	"geo": {
 		"Location": "Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico",
-		"Geographic coordinates": "17 03 N, 61 48 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 17,
+				"seconds": 3
+			},
+			"W": {
+				"minutes": 61,
+				"seconds": 48
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "442.6 sq km (Antigua 280 sq km; Barbuda 161 sq km)",
+			"total:": {
+				"quantity": 442.6,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "442.6 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 442.6,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "2.5 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "153 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 153,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "tropical maritime; little seasonal temperature variation",
@@ -30,15 +63,36 @@
 		},
 		"Natural resources": "NEGL; pleasant climate fosters tourism",
 		"Land use": {
-			"arable land:": "18.18%",
-			"permanent crops:": "4.55%",
-			"other:": "77.27% (2005)"
+			"arable land:": {
+				"quantity": 18.18,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 4.55,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 77.27,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1.3 sq km (2008)",
-		"Total renewable water resources": "0.1 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 1.3,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 0.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.005  cu km/yr (60%/20%/20%)",
-			"per capita:": "63  cu m/yr (1990)"
+			"total:": {
+				"quantity": 0.005,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 63,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "hurricanes and tropical storms (July to October); periodic droughts",
 		"Environment - current issues": "water management - a major concern because of limited natural freshwater resources - is further hampered by the clearing of trees to increase crop production, causing rainfall to run off quickly",
@@ -50,61 +104,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "87,884 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "25.8% (male 11,530/female 11,174)",
-			"15-64 years:": "67.4% (male 27,599/female 31,592)",
+			"0-14 years:": {
+				"quantity": 25.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.4,
+				"unit": "%"
+			},
 			"65 years and over:": "6.8% (male 2,592/female 3,397) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "30.3 years",
-			"male:": "28.7 years",
-			"female:": "31.7 years (2011 est.)"
+			"total:": {
+				"quantity": 30.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 31.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.289% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.289,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "16.31 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 16.31,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.73 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.73,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.32 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.32,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "30% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 30,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SAINT JOHN'S (capital) 27,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "0.87 male(s)/female",
-			"65 years and over:": "0.76 male(s)/female",
-			"total population:": "0.9 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.87,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.76,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.9,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "14.63 deaths/1,000 live births",
+			"total:": {
+				"quantity": 14.63,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "16.85 deaths/1,000 live births",
-			"female:": "12.29 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 16.85,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 12.29,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.48 years",
+			"total population:": {
+				"quantity": 75.48,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "73.47 years",
-			"female:": "77.59 years (2011 est.)"
+			"male:": {
+				"quantity": 73.47,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 77.59,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.05 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.05,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -121,14 +244,26 @@
 		"Languages": "English (official), local dialects",
 		"Literacy": {
 			"definition:": "age 15 and over has completed five or more years of schooling",
-			"total population:": "85.8%",
+			"total population:": {
+				"quantity": 85.8,
+				"unit": "%"
+			},
 			"male:": "NA",
 			"female:": "NA (2003 est.)"
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "14 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -140,7 +275,16 @@
 		"Government type": "constitutional monarchy with a parliamentary system of government and a Commonwealth realm",
 		"Capital": {
 			"name:": "Saint John's",
-			"geographic coordinates:": "17 07 N, 61 51 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 17,
+					"seconds": 7
+				},
+				"W": {
+					"minutes": 61,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "6 parishes and 2 dependencies*; Barbuda*, Redonda*, Saint George, Saint John, Saint Mary, Saint Paul, Saint Peter, Saint Philip",
@@ -179,34 +323,61 @@
 	"economy": {
 		"Economy - overview": "Tourism continues to dominate Antigua and Barbuda's economy, accounting for nearly 60% of GDP and 40% of investment. The dual-island nation's agricultural production is focused on the domestic market and constrained by a limited water supply and a labor shortage stemming from the lure of higher wages in tourism and construction. Manufacturing comprises enclave-type assembly for export with major products being bedding, handicrafts, and electronic components. Prospects for economic growth in the medium term will continue to depend on tourist arrivals from the US, Canada, and Europe and potential damages from natural disasters. After taking office in 2004, the SPENCER government adopted an ambitious fiscal reform program, and was successful in reducing its public debt-to-GDP ratio from 120% to about 90% in 2008. However, the global financial crisis that began in 2008, has led to a significant increase in the national debt, which topped 130% at the end of 2010. The Antiguan economy experienced solid growth from 2003 to 2007, reaching over 12% in 2006 driven by a construction boom in hotels and housing associated with the Cricket World Cup, but growth dropped off in 2008 with the end of the boom. In 2009, Antigua's economy was severely hit by the global economic crisis, suffering from the collapse of its largest financial institution and a steep decline in tourism. This decline continued in 2010 as the country struggled with a yawning budget deficit.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.425 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1425000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.105 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1105000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-4.1% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$16,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "3.8%",
-			"industry:": "22%",
-			"services:": "74.3% (2002 est.)"
+			"agriculture:": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 74.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "30,000 (1991)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "7%",
-			"industry:": "11%",
-			"services:": "82% (1983)"
+			"agriculture:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 82,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "11% (2001 est.)",
+			"Unemployment rate": {
+				"quantity": 11,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -215,84 +386,145 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$229.5 million",
-			"expenditures:": "$293.4 million (2009 est.)"
+			"revenues:": {
+				"usd": 229500000
+			},
+			"expenditures:": {
+				"usd": 293400000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.5% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "6.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.07% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.07,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$233.5 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 233500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.186 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 1186000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.13 billion (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 1130000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cotton, fruits, vegetables, bananas, coconuts, cucumbers, mangoes, sugarcane; livestock",
 		"Industries": "tourism, construction, light manufacturing (clothing, alcohol, household appliances)",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "110 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 110000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "102.3 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 102300000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "5,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 5000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "219 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 219,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,690 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4690,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -300,28 +532,34 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$84.3 million (2007 est.)",
+			"Exports": {
+				"usd": 84300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum products, bedding, handicrafts, electronic components, transport equipment, food and live animals",
 		"Imports": {
-			"Imports": "$522.8 million (2007 est.)",
+			"Imports": {
+				"usd": 522799999.99999994
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food and live animals, machinery and transport equipment, manufactures, chemicals, oil",
 		"Debt - external": {
-			"Debt - external": "$359.8 million (June 2006)",
+			"Debt - external": {
+				"usd": 359800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "37,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "134,900 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -332,33 +570,42 @@
 		"Broadcast media": "state-controlled Antigua and Barbuda Broadcasting Service (ABS) operates 1 TV station; multi-channel cable TV subscription services are available; 1 radio station operated by ABS;  roughly 15 radio stations, some broadcasting on multiple frequencies (2007)",
 		"Internet country code": ".ag",
 		"Internet hosts": {
-			"Internet hosts": "9,795 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "3 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"2,438 to 3,047 m:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "1",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "1,165 km",
+			"total:": {
+				"quantity": 1165,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "384 km",
-			"unpaved:": "781 km (2002)"
+			"paved:": {
+				"quantity": 384,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 781,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "1,219",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 53, cargo 703, carrier 6, chemical tanker 4, container 412, liquefied gas 12, petroleum tanker 1, refrigerated cargo 9, roll on/roll off 16, vehicle carrier 2",
 			"foreign-owned:": "1,186 (Albania 1, Colombia 1, Denmark 20, Estonia 20, Germany 1050, Greece 5, Iceland 9, Isle of Man 2, Latvia 16, Lithuania 4, Mexico 2, Netherlands 18, Norway 9, NZ 2, Poland 2, Russia 3, Slovenia 1, Sweden 1, Switzerland 7, Turkey 7, US 6)"
@@ -369,16 +616,16 @@
 		"Military branches": "Royal Antigua and Barbuda Defense Force (includes Antigua and Barbuda Coast Guard) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "21,141",
-			"females age 16-49:": "24,056 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "17,676",
-			"females age 16-49:": "19,960 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "806",
-			"female:": "799 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

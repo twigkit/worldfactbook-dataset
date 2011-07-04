@@ -12,11 +12,56 @@
 			"Mayotte:": "Southern Indian Ocean, island in the Mozambique Channel, about half way between northern Madagascar and northern Mozambique"
 		},
 		"Geographic coordinates": {
-			"metropolitan France:": "46 00 N, 2 00 E",
-			"French Guiana:": "4 00 N, 53 00 W",
-			"Guadeloupe:": "16 15 N, 61 35 W",
-			"Martinique:": "14 40 N, 61 00 W",
-			"Mayotte:": "12 50 S, 45 10 E"
+			"metropolitan France:": {
+				"N": {
+					"minutes": 46,
+					"seconds": 0
+				},
+				"E": {
+					"minutes": 2,
+					"seconds": 0
+				}
+			},
+			"French Guiana:": {
+				"N": {
+					"minutes": 4,
+					"seconds": 0
+				},
+				"W": {
+					"minutes": 53,
+					"seconds": 0
+				}
+			},
+			"Guadeloupe:": {
+				"N": {
+					"minutes": 16,
+					"seconds": 15
+				},
+				"W": {
+					"minutes": 61,
+					"seconds": 35
+				}
+			},
+			"Martinique:": {
+				"N": {
+					"minutes": 14,
+					"seconds": 40
+				},
+				"W": {
+					"minutes": 61,
+					"seconds": 0
+				}
+			},
+			"Mayotte:": {
+				"S": {
+					"minutes": 12,
+					"seconds": 50
+				},
+				"E": {
+					"minutes": 45,
+					"seconds": 10
+				}
+			}
 		},
 		"Map references": {
 			"metropolitan France:": "Europe",
@@ -33,18 +78,39 @@
 		},
 		"Area - comparative": "slightly less than the size of Texas",
 		"Land boundaries": {
-			"metropolitan France - total:": "2,889 km",
+			"metropolitan France - total:": {
+				"quantity": 2889,
+				"unit": "km"
+			},
 			"border countries:": "Brazil 673 km, Suriname 510 km",
-			"French Guiana - total:": "1,183 km"
+			"French Guiana - total:": {
+				"quantity": 1183,
+				"unit": "km"
+			}
 		},
 		"Coastline": {
-			"total:": "4,853 km",
-			"metropolitan France:": "3,427 km"
+			"total:": {
+				"quantity": 4853,
+				"unit": "km"
+			},
+			"metropolitan France:": {
+				"quantity": 3427,
+				"unit": "km"
+			}
 		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm (does not apply to the Mediterranean)",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": {
@@ -70,18 +136,39 @@
 			"French Guiana:": "gold deposits, petroleum, kaolin, niobium, tantalum, clay"
 		},
 		"Land use": {
-			"arable land:": "33.46%",
-			"permanent crops:": "2.03%",
-			"other:": "64.51%"
+			"arable land:": {
+				"quantity": 33.46,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.03,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 64.51,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": {
 			"total:": "26,950 sq km;",
-			"metropolitan France:": "26,700 sq km (2008)"
+			"metropolitan France:": {
+				"quantity": 26700,
+				"unit": "sq km"
+			}
 		},
-		"Total renewable water resources": "189 cu km (2005)",
+		"Total renewable water resources": {
+			"quantity": 189,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "33.16  cu km/yr (16%/74%/10%)",
-			"per capita:": "548  cu m/yr (2000)"
+			"total:": {
+				"quantity": 33.16,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 548,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"metropolitan France:": "flooding; avalanches; midwinter windstorms; drought; forest fires in south near the Mediterranean",
@@ -96,73 +183,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "65,312,249 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "18.5% (male 6,180,905/female 5,886,849)",
-			"15-64 years:": "64.7% (male 21,082,175/female 21,045,867)",
+			"0-14 years:": {
+				"quantity": 18.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 64.7,
+				"unit": "%"
+			},
 			"65 years and over:": "16.8% (male 4,578,089/female 6,328,834) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "39.9 years",
-			"male:": "38.4 years",
-			"female:": "41.5 years (2011 est.)"
+			"total:": {
+				"quantity": 39.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 41.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.5% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.29 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.29,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.76 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.76,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "1.46 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 1.46,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "85% of total population (2010)",
-			"rate of urbanization:": "1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 85,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PARIS (capital) 10.41 million; Marseille-Aix-en-Provence 1.457 million; Lyon 1.456 million; Lille 1.028 million; Nice-Cannes 977,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.051 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.72 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.051,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.72,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.29 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.29,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.61 deaths/1,000 live births",
-			"female:": "2.96 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.61,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 2.96,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.19 years",
+			"total population:": {
+				"quantity": 81.19,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.02 years",
-			"female:": "84.54 years (2011 est.)"
+			"male:": {
+				"quantity": 78.02,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.54,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.96 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.96,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "150,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -185,14 +344,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "16 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -206,7 +383,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Paris",
-			"geographic coordinates:": "48 52 N, 2 20 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 48,
+					"seconds": 52
+				},
+				"E": {
+					"minutes": 2,
+					"seconds": 20
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -268,139 +454,250 @@
 	"economy": {
 		"Economy - overview": "France is in the midst of transition from a well-to-do modern economy that has featured extensive government ownership and intervention to one that relies more on market mechanisms. The government has partially or fully privatized many large companies, banks, and insurers, and has ceded stakes in such leading firms as Air France, France Telecom, Renault, and Thales. It maintains a strong presence in some sectors, particularly power, public transport, and defense industries. With at least 75 million foreign tourists per year, France is the most visited country in the world and maintains the third largest income in the world from tourism. France's leaders remain committed to a capitalism in which they maintain social equity by means of laws, tax policies, and social spending that reduce income disparity and the impact of free markets on public health and welfare. France has weathered the global economic crisis better than most other big EU economies because of the relative resilience of domestic consumer spending, a large public sector, and less exposure to the downturn in global demand than in some other countries. Nonetheless, France's real GDP contracted 2.5% in 2009, but recovered somewhat in 2010, while the unemployment rate increased from 7.4% in 2008 to 9.5% in 2010. The government pursuit of aggressive stimulus and investment measures in response to the economic crisis, however, are contributing to a deterioration of France's public finances. The government budget deficit rose sharply from 3.4% of GDP in 2008 to 7.8% of GDP in 2010, while France's public debt rose from 68% of GDP to 84% over the same period. Paris is terminating stimulus measures, eliminating tax credits, and freezing most government spending to bring the budget deficit under the 3% euro-zone ceiling by 2013, and to highlight France's commitment to fiscal discipline at a time of intense financial market scrutiny of euro zone debt levels. President SARKOZY - who secured passage of pension reform in 2010 - is expected to seek passage of some tax reforms in 2011, but he may delay additional, more costly, reforms until after the 2012 election.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.145 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2145000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.583 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2583000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$33,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.8%",
-			"industry:": "19.2%",
-			"services:": "79% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 19.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 79,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "28.21 million (2010 est.)",
+			"Labor force": 28210000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "3.8%",
-			"industry:": "24.3%",
-			"services:": "71.8% (2005)"
+			"agriculture:": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 9.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "6.2% (2004)",
+		"Population below poverty line": {
+			"quantity": 6.2,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3%",
-			"highest 10%:": "24.8% (2004)"
+			"lowest 10%:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 24.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "32.7 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.9% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.241 trillion",
-			"expenditures:": "$1.441 trillion (2010 est.)"
+			"revenues:": {
+				"usd": 1241000000000
+			},
+			"expenditures:": {
+				"usd": 1441000000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "83.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 83.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.46% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.46,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$858.6 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 858600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.292 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2292000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$4.319 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 4319000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.972 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1972000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, cereals, sugar beets, potatoes, wine grapes; beef, dairy products; fish",
 		"Industries": "machinery, chemicals, automobiles, metallurgy, aircraft, electronics; textiles, food processing; tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "535.7 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 535700000000.00006,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "447.2 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 447200000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "58.69 billion kWh (2008 est.)",
-		"Electricity - imports": "10.68 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 58690000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 10680000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "70,820 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 70820,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1.875 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1875000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "597,800 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 597800,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "2.386 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 2386000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "101.2 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 101200000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "877 million cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 877000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "44.84 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 44840000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "1.931 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 1931000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "45.85 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 45850000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "7.079 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 7079000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -408,28 +705,38 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$508.7 billion (2010 est.)",
+			"Exports": {
+				"usd": 508700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and transportation equipment, aircraft, plastics, chemicals, pharmaceutical products, iron and steel, beverages",
 		"Exports - partners": "Germany 15.88%, Italy 8.16%, Spain 7.8%, Belgium 7.44%, UK 7.04%, US 5.65%, Netherlands 3.99% (2009)",
 		"Imports": {
-			"Imports": "$577.7 billion (2010 est.)",
+			"Imports": {
+				"usd": 577700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, crude oil, aircraft, plastics, chemicals",
 		"Imports - partners": "Germany 19.41%, Belgium 11.61%, Italy 7.97%, Netherlands 7.15%, Spain 6.68%, UK 4.9%, US 4.72%, China 4.44% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$4.698 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 4698000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$1.207 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 1207000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$1.837 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 1837000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
@@ -459,31 +766,37 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "475 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "297",
-			"over 3,047 m:": "14",
-			"2,438 to 3,047 m:": "27",
-			"1,524 to 2,437 m:": "98",
-			"914 to 1,523 m:": "83"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "177",
-			"914 to 1,523 m:": "69",
-			"under 914 m:": "108 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 15,276 km; oil 2,939 km; refined products 5,084 km (2010)",
 		"Railways": {
-			"total:": "29,640 km",
+			"total:": {
+				"quantity": 29640,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "29,473 km 1.435-m gauge (15,361 km electrified)",
 			"narrow gauge:": "167 km 1.000-m gauge (63 km electrified) (2009)"
 		},
 		"Roadways": {
-			"total:": "1,027,183 km (metropolitan France; includes 10,958 km of expressways)",
+			"total:": {
+				"quantity": 1027,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
@@ -491,10 +804,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "167",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 2, cargo 8, chemical tanker 36, container 25, liquefied gas 12, passenger 11, passenger/cargo 44, petroleum tanker 17, refrigerated cargo 1, roll on/roll off 11",
-			"foreign-owned:": "57 (Belgium 7, China 5, Denmark 12, French Polynesia 12, Germany 1, New Caledonia 3, Norway 1, NZ 1, Singapore 3, Spain 1, Sweden 6, Switzerland 5)",
+			"foreign-owned:": null,
 			"registered in other countries:": "146 (Bahamas 19, Belgium 5, Bermuda 1, Canada 1, Cyprus 16, Egypt 1, Hong Kong 3, Indonesia 1, Italy 2, Luxembourg 16, Malta 13, Morocco 4, Netherlands 2, Norway 4, Panama 13, Saint Vincent and the Grenadines 2, Singapore 3, South Korea 1, Taiwan 1, UK 33, US 4, unknown 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -503,16 +816,16 @@
 		"Military branches": "Army (Armee de Terre; includes Marines, Foreign Legion, Army Light Aviation), Navy (Marine Nationale, includes Naval Air, Maritime Gendarmerie (Coast Guard)), Air Force (Armee de l'Air (AdlA), includes Air Defense), National Gendarmerie (2011)",
 		"Military service age and obligation": "17-40 years of age for male and female voluntary military service (with parental consent); no conscription; 12-month service obligation; women serve in noncombat posts (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "14,563,662",
-			"females age 16-49:": "14,238,434 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "12,025,341",
-			"females age 16-49:": "11,721,827 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "396,050",
-			"female:": "377,839 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

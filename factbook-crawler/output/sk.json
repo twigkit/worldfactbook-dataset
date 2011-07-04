@@ -5,23 +5,53 @@
 	"background": "Although sighted by Christopher COLUMBUS in 1493 and claimed for Spain, it was the Dutch who occupied the island in 1631 and set about exploiting its salt deposits. The Spanish retook the island in 1633, but continued to be harassed by the Dutch. The Spanish finally relinquished the island of Saint Martin to the French and Dutch, who divided it amongst themselves in 1648. The establishment of cotton, tobacco, and sugar plantations dramatically expanded slavery on the island in the 18th and 19th centuries; the practice was not abolished in the Dutch half until 1863. The island's economy declined until 1939 when it became a free port; the tourism industry was dramatically expanded beginning in the 1950s. In 1954, Sint Maarten and several other Dutch Caribbean possessions became part of the Kingdom of the Netherlands as the Netherlands Antilles. In a 2000 referendum, the citizens of Sint Maarten voted to become a self-governing country within the Kingdom of the Netherlands. The change in status became effective in October of 2010 with the dissolution of the Netherlands Antilles.",
 	"geo": {
 		"Location": "Caribbean, located in the Leeward Islands (northern) group; Dutch part of the island of Saint Martin in the Caribbean Sea; Sint Maarten lies east of the US Virgin Islands",
-		"Geographic coordinates": "18 4 N, 63 4 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 18,
+				"seconds": 4
+			},
+			"W": {
+				"minutes": 63,
+				"seconds": 4
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "34 sq km",
+			"total:": {
+				"quantity": 34,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "34 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 34,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "one-fifth the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "15 km",
+			"total:": {
+				"quantity": 15,
+				"unit": "km"
+			},
 			"border countries:": "Saint Martin (France) 15 km"
 		},
-		"Coastline": "364 km",
+		"Coastline": {
+			"quantity": 364,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical marine climate, ameliorated by northeast trade winds, results in moderate temperatures; average rainfall of 1500 mm/year; July-November is the hurricane season",
 		"Terrain": "low, hilly terrain, volcanic origin",
@@ -31,9 +61,18 @@
 		},
 		"Natural resources": "fish, salt",
 		"Land use": {
-			"arable land:": "10%",
-			"permanent crops:": "0%",
-			"other:": "90%"
+			"arable land:": {
+				"quantity": 10,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 90,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "subject to hurricanes from July to November",
@@ -42,38 +81,74 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "37,429 (January 2010 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "23.4% (male 4,299/female 4,455)",
-			"15-64 years:": "73% (male 13,053/female 14,259)",
+			"0-14 years:": {
+				"quantity": 23.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 73,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 608/female 755) (2010 est.)"
 		},
 		"Population growth rate": "NA",
 		"Birth rate": "NA",
 		"Death rate": {
-			"Death rate": "3 deaths/1,000 population (2009)",
+			"Death rate": {
+				"quantity": 3,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "14.24 migrant(s)/1,000 population (2008)",
+			"Net migration rate": {
+				"quantity": 14.24,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Sex ratio": {
-			"at birth:": "0.98 male(s)/female",
-			"under 15 years:": "0.96 male(s)/female",
-			"15-64 years:": "0.92 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "0.92 male(s)/female (2010)"
+			"at birth:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			}
 		},
 		"Life expectancy at birth": {
 			"total population:": "NA",
-			"male:": "73.1 years",
-			"female:": "78.2 years (2009)"
+			"male:": {
+				"quantity": 73.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.2,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.7 children born/woman (2009)",
+			"Total fertility rate": {
+				"quantity": 1.7,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -96,7 +171,16 @@
 		"Government type": "parliamentary",
 		"Capital": {
 			"name:": "Philipsburg",
-			"geographic coordinates:": "18 1 N, 63 2 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 18,
+					"seconds": 1
+				},
+				"W": {
+					"minutes": 63,
+					"seconds": 2
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (part of the Kingdom of the Netherlands)",
@@ -128,44 +212,80 @@
 	"economy": {
 		"Economy - overview": "The economy of Sint Maarten centers around tourism with nearly four-fifths of the labor force engaged in this sector. Over one million visitors come to the island each year - 1.3 million in 2008 - with most arriving through the Princess Juliana International Airport. Cruise ships and yachts also call on Sint Maarten's numerous ports and harbors. No significant agriculture and limited local fishing means that almost all food must be imported. Energy resources and manufactured goods are also imported. Sint Maarten had the highest per capita income among the five islands that formerly comprised the Netherlands Antilles.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$794.7 million (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 794700000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$794.7 million (2008)",
+		"GDP (official exchange rate)": {
+			"usd": 794700000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.6% (2008 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$15,400 (2008 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.4%",
-			"industry:": "18.3%",
-			"services:": "81.3% (2008 est.)"
+			"agriculture:": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 18.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 81.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "23,200 (2008 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "1.1%",
-			"industry:": "15.2%",
-			"services:": "83.7% (2008 est.)"
+			"agriculture:": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 83.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10.6% (2008 est.)",
+			"Unemployment rate": {
+				"quantity": 10.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.7% (2009 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "sugar",
 		"Industries": "tourism, light industry, and manufacturing",
 		"Electricity - production": {
-			"Electricity - production": "304.3 million kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 304300000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "sugar",
@@ -175,7 +295,7 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "5,153 (2001)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": "NA",
@@ -190,15 +310,18 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Roadways": {
-			"total:": "53 km",
+			"total:": {
+				"quantity": 53,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Ports and terminals": {}

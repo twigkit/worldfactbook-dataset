@@ -5,20 +5,50 @@
 	"background": "These uninhabited, barren, sub-Antarctic islands were transferred from the UK to Australia in 1947. Populated by large numbers of seal and bird species, the islands have been designated a nature preserve.",
 	"geo": {
 		"Location": "islands in the Indian Ocean, about two-thirds of the way from Madagascar to Antarctica",
-		"Geographic coordinates": "53 06 S, 72 31 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 53,
+				"seconds": 6
+			},
+			"E": {
+				"minutes": 72,
+				"seconds": 31
+			}
+		},
 		"Map references": "Antarctic Region",
 		"Area": {
-			"total:": "412 sq km",
+			"total:": {
+				"quantity": 412,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "412 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 412,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than two times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "101.9 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 101.9,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "antarctic",
 		"Terrain": "Heard Island - 80% ice-covered, bleak and mountainous, dominated by a large massif (Big Ben) and an active volcano (Mawson Peak); McDonald Islands - small and rocky",
@@ -28,11 +58,23 @@
 		},
 		"Natural resources": "fish",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "Mawson Peak, an active volcano, is on Heard Island",
 		"Environment - current issues": "NA",
 		"Geography - note": {}

@@ -5,20 +5,50 @@
 	"background": "This uninhabited island was claimed by the US in 1857 for its guano. Mining took place between 1865 and 1898. The lighthouse, built in 1917, was shut down in 1996 and administration of Navassa Island transferred from the Coast Guard to the Department of the Interior. A 1998 scientific expedition to the island described it as a unique preserve of Caribbean biodiversity; the following year it became a National Wildlife Refuge and annual scientific expeditions have continued.",
 	"geo": {
 		"Location": "Caribbean, island in the Caribbean Sea, 35 miles west of Tiburon Peninsula of Haiti",
-		"Geographic coordinates": "18 25 N, 75 02 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 18,
+				"seconds": 25
+			},
+			"W": {
+				"minutes": 75,
+				"seconds": 2
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "5.4 sq km",
+			"total:": {
+				"quantity": 5.4,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "5.4 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 5.4,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about nine times the size of The Mall in Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "8 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 8,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "marine, tropical",
 		"Terrain": "raised coral and limestone plateau, flat to undulating; ringed by vertical white cliffs (9 to 15 m high)",
@@ -28,9 +58,18 @@
 		},
 		"Natural resources": "guano",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Natural hazards": "hurricanes",
 		"Environment - current issues": "NA",

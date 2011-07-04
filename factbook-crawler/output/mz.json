@@ -5,23 +5,53 @@
 	"background": "Almost five centuries as a Portuguese colony came to a close with independence in 1975. Large-scale emigration, economic dependence on South Africa, a severe drought, and a prolonged civil war hindered the country's development until the mid 1990s. The ruling Front for the Liberation of Mozambique (Frelimo) party formally abandoned Marxism in 1989, and a new constitution the following year provided for multiparty elections and a free market economy. A UN-negotiated peace agreement between Frelimo and rebel Mozambique National Resistance (Renamo) forces ended the fighting in 1992. In December 2004, Mozambique underwent a delicate transition as Joaquim CHISSANO stepped down after 18 years in office. His elected successor, Armando Emilio GUEBUZA, promised to continue the sound economic policies that have encouraged foreign investment. President GUEBUZA was reelected to a second term in October 2009. However, the elections were flawed by voter fraud, questionable disqualification of candidates, and Frelimo use of government resources during the campaign. As a result, Freedom House removed Mozambique from its list of electoral democracies.",
 	"geo": {
 		"Location": "Southeastern Africa, bordering the Mozambique Channel, between South Africa and Tanzania",
-		"Geographic coordinates": "18 15 S, 35 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 18,
+				"seconds": 15
+			},
+			"E": {
+				"minutes": 35,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "799,380 sq km",
+			"total:": {
+				"quantity": 799380,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "786,380 sq km",
-			"water:": "13,000 sq km"
+			"land:": {
+				"quantity": 786380,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 13000,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of California",
 		"Land boundaries": {
-			"total:": "4,571 km",
+			"total:": {
+				"quantity": 4571,
+				"unit": "km"
+			},
 			"border countries:": "Malawi 1,569 km, South Africa 491 km, Swaziland 105 km, Tanzania 756 km, Zambia 419 km, Zimbabwe 1,231 km"
 		},
-		"Coastline": "2,470 km",
+		"Coastline": {
+			"quantity": 2470,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical to subtropical",
 		"Terrain": "mostly coastal lowlands, uplands in center, high plateaus in northwest, mountains in west",
@@ -31,15 +61,36 @@
 		},
 		"Natural resources": "coal, titanium, natural gas, hydropower, tantalum, graphite",
 		"Land use": {
-			"arable land:": "5.43%",
-			"permanent crops:": "0.29%",
-			"other:": "94.28% (2005)"
+			"arable land:": {
+				"quantity": 5.43,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.29,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 94.28,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,180 sq km (2008)",
-		"Total renewable water resources": "216 cu km (1992)",
+		"Irrigated land": {
+			"quantity": 1180,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 216,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.63  cu km/yr (11%/2%/87%)",
-			"per capita:": "32  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.63,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 32,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "severe droughts; devastating cyclones and floods in central and southern provinces",
 		"Environment - current issues": "a long civil war and recurrent drought in the hinterlands have resulted in increased migration of the population to urban and coastal areas with adverse environmental consequences; desertification; pollution of surface and coastal waters; elephant poaching for ivory is a problem",
@@ -51,29 +102,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "22,948,858 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "45.9% (male 5,295,776/female 5,245,485)",
-			"15-64 years:": "51.1% (male 5,550,501/female 6,174,668)",
+			"0-14 years:": {
+				"quantity": 45.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51.1,
+				"unit": "%"
+			},
 			"65 years and over:": "3% (male 313,892/female 368,536) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.8 years",
-			"male:": "16.1 years",
-			"female:": "17.4 years (2011 est.)"
+			"total:": {
+				"quantity": 16.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.444% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.444,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "39.62 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 39.62,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "13 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 13,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -81,43 +156,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "38% of total population (2010)",
-			"rate of urbanization:": "4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 38,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MAPUTO (capital) 1.589 million; Matola 761,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.017 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.96 male(s)/female",
-			"65 years and over:": "0.71 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.017,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.71,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "78.95 deaths/1,000 live births",
+			"total:": {
+				"quantity": 78.95,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "81.18 deaths/1,000 live births",
-			"female:": "76.68 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 81.18,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 76.68,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "51.78 years",
+			"total population:": {
+				"quantity": 51.78,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "51.01 years",
-			"female:": "52.57 years (2011 est.)"
+			"male:": {
+				"quantity": 51.01,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 52.57,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "5.46 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 5.46,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "11.5% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 11.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1.4 million (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": 1400000,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "74,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -138,14 +258,32 @@
 		"Languages": "Emakhuwa 25.3%, Portuguese (official) 10.7%, Xichangana 10.3%, Cisena 7.5%, Elomwe 7%, Echuwabo 5.1%, other Mozambican languages 30.1%, other 4% (2007 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "47.8%",
-			"male:": "63.5%",
-			"female:": "32.7% (2003 est.)"
+			"total population:": {
+				"quantity": 47.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 63.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 32.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "9 years",
-			"male:": "10 years",
-			"female:": "8 years (2007)"
+			"total:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 8,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -160,7 +298,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Maputo",
-			"geographic coordinates:": "25 57 S, 32 35 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 25,
+					"seconds": 57
+				},
+				"E": {
+					"minutes": 32,
+					"seconds": 35
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "10 provinces (provincias, singular - provincia), 1 city (cidade)*; Cabo Delgado, Gaza, Inhambane, Manica, Maputo, Cidade de Maputo*, Nampula, Niassa, Sofala, Tete, Zambezia",
@@ -205,136 +352,245 @@
 	"economy": {
 		"Economy - overview": "At independence in 1975, Mozambique was one of the world's poorest countries. Socialist mismanagement and a brutal civil war from 1977-92 exacerbated the situation. In 1987, the government embarked on a series of macroeconomic reforms designed to stabilize the economy. These steps, combined with donor assistance and with political stability since the multi-party elections in 1994, have led to dramatic improvements in the country's growth rate. Fiscal reforms, including the introduction of a value-added tax and reform of the customs service, have improved the government's revenue collection abilities. In spite of these gains, Mozambique remains dependent upon foreign assistance for more than half of its annual budget, and the majority of the population remains below the poverty line. Subsistence agriculture continues to employ the vast majority of the country's work force and smallholder agricultural productivity and productivity growth is weak. A substantial trade imbalance persists although the opening of the Mozal aluminum smelter, the country's largest foreign investment project to date, has increased export earnings. At the end of 2007, and after years of negotiations, the government took over Portugal's majority share of the Cahora Bassa Hydroelectricity (HCB) company, a dam that was not transferred to Mozambique at independence because of the ensuing civil war and unpaid debts. More electrical power capacity is needed for additional investment projects in titanium extraction and processing and garment manufacturing that could further close the import/export gap. Mozambique's once substantial foreign debt has been reduced through forgiveness and rescheduling under the IMF's Heavily Indebted Poor Countries (HIPC) and Enhanced HIPC initiatives, and is now at a manageable level. In July 2007 the Millennium Challenge Corporation (MCC) signed a compact with Mozambique; the compact entered into force in September 2008 and will continue for five years. Compact projects will focus on improving sanitation, roads, agriculture, and the business regulation environment in an effort to spur economic growth in the four northern provinces of the country. Mozambique grew at an average annual rate of 9% in the decade up to 2007, one of Africa's strongest performances. However, heavy reliance on aluminum, which accounts for about one-third of exports, subjects the economy to volatile international prices. The sharp decline in aluminum prices during the global economic crisis lowered GDP growth by several percentage points. Despite 8.3% GDP growth in 2010, the increasing cost of living prompted citizens to riot in September 2010, after fuel, water, electricity, and bread price increases were announced. In an attempt to contain the cost of living, the government implemented subsidies, decreased taxes and tariffs, and instituted other fiscal measures.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$21.81 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 21810000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$9.893 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 9893000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "28.8%",
-			"industry:": "26%",
-			"services:": "45.2% (2010 est.)"
+			"agriculture:": {
+				"quantity": 28.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 26,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 45.2,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "9.87 million (2010 est.)",
+			"Labor force": 9870000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "81%",
-			"industry:": "6%",
-			"services:": "13% (1997 est.)"
+			"agriculture:": {
+				"quantity": 81,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 13,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "21% (1997 est.)",
+			"Unemployment rate": {
+				"quantity": 21,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "70% (2001 est.)",
+		"Population below poverty line": {
+			"quantity": 70,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.1%",
-			"highest 10%:": "39.2% (2003)"
+			"lowest 10%:": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 39.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "47.3 (2002)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "17.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 17.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.346 billion",
-			"expenditures:": "$2.898 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2346000000
+			},
+			"expenditures:": {
+				"usd": 2898000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "40.8% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 40.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "13.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "9.95% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 9.95,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "15.68% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 15.68,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.657 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2657000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$3.803 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 3803000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.74 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2740000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, cashew nuts, sugarcane, tea, cassava (tapioca), corn, coconuts, sisal, citrus and tropical fruits, potatoes, sunflowers; beef, poultry",
 		"Industries": "food, beverages, chemicals (fertilizer, soap, paints), aluminum, petroleum products, textiles, cement, glass, asbestos, tobacco",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "15.91 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 15910000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "10.16 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 10160000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "11.82 billion kWh (2007 est.)",
-		"Electricity - imports": "8.278 billion kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 11820000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 8278000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "18,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 18000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "13,760 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 13760,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "3.3 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 3300000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "100 million cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "3.2 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 3200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "127.4 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 127400000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -342,34 +598,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.517 billion (2010 est.)",
+			"Exports": {
+				"usd": 2517000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "aluminum, prawns, cashews, cotton, sugar, citrus, timber; bulk electricity",
 		"Exports - partners": "Netherlands 47.62%, South Africa 11.6% (2009)",
 		"Imports": {
-			"Imports": "$3.527 billion (2010 est.)",
+			"Imports": {
+				"usd": 3527000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, fuel, chemicals, metal products, foodstuffs, textiles",
 		"Imports - partners": "South Africa 33.54%, Netherlands 8.42%, India 5.93%, China 4.24% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.982 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1982000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$4.99 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 4990000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "82,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.971 million (2009)",
+			"Telephones - mobile cellular": 5971000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -380,48 +644,60 @@
 		"Broadcast media": "1 state-run TV station supplemented by private TV station; Portuguese state TV's African service, RTP Africa, and Brazilian-owned TV Miramar are available; state-run radio provides nearly 100% territorial coverage and broadcasts in multiple languages; a number of privately-owned and community-operated stations also broadcast; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".mz",
 		"Internet hosts": {
-			"Internet hosts": "21,172 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "106 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "23",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "10",
-			"914 to 1,523 m:": "4"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "83",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "9",
-			"914 to 1,523 m:": "34",
-			"under 914 m:": "39 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 918 km; refined products 278 km (2010)",
 		"Railways": {
-			"total:": "4,787 km",
+			"total:": {
+				"quantity": 4787,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "4,787 km 1.067-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "30,400 km",
+			"total:": {
+				"quantity": 30400,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "5,685 km",
-			"unpaved:": "24,715 km (2000)"
+			"paved:": {
+				"quantity": 5685,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 24715,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "460 km (Zambezi River navigable to Tete and along Cahora Bassa Lake) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "2",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2",
 			"foreign-owned:": "2 (Belgium 2) (2010)"
@@ -432,15 +708,15 @@
 		"Military branches": "Mozambique Armed Defense Forces (Forcas Armadas de Defesa de Mocambique, FADM): Mozambique Army, Mozambique Navy (Marinha de Guerra de Mocambique, MGM), Mozambique Air Force (Forca Aerea de Mocambique, FAM) (2011)",
 		"Military service age and obligation": "registration for military service is mandatory for all males and females at 18 years of age; 18-35 years of age for selective compulsory military service; 18 years of age for voluntary service; 2-year service obligation; women may serve as officers or enlisted (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "4,613,367 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,677,473",
-			"females age 16-49:": "2,941,073 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "274,602",
-			"female:": "280,008 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

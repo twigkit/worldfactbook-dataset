@@ -5,24 +5,57 @@
 	"background": "Prior to the arrival of the Spanish in the 16th century, the Inca ruled northern Chile while the indigenous Mapuche inhabited central and southern Chile. Although Chile declared its independence in 1810, decisive victory over the Spanish was not achieved until 1818. In the War of the Pacific (1879-83), Chile defeated Peru and Bolivia and won its present northern regions. It was not until the 1880s that the Mapuche Indians were completely subjugated. After a series of elected governments, the three-year-old Marxist government of Salvador ALLENDE was overthrown in 1973 by a military coup led by Augusto PINOCHET, who ruled until a freely elected president was installed in 1990. Sound economic policies, maintained consistently since the 1980s, have contributed to steady growth, reduced poverty rates by over half, and have helped secure the country's commitment to democratic and representative government. Chile has increasingly assumed regional and international leadership roles befitting its status as a stable, democratic nation.",
 	"geo": {
 		"Location": "Southern South America, bordering the South Pacific Ocean, between Argentina and Peru",
-		"Geographic coordinates": "30 00 S, 71 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 30,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 71,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "756,102 sq km",
+			"total:": {
+				"quantity": 756102,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "743,812 sq km",
-			"water:": "12,290 sq km"
+			"land:": {
+				"quantity": 743812,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 12290,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than twice the size of Montana",
 		"Land boundaries": {
-			"total:": "6,339 km",
+			"total:": {
+				"quantity": 6339,
+				"unit": "km"
+			},
 			"border countries:": "Argentina 5,308 km, Bolivia 860 km, Peru 171 km"
 		},
-		"Coastline": "6,435 km",
+		"Coastline": {
+			"quantity": 6435,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200/350 nm"
 		},
 		"Climate": "temperate; desert in north; Mediterranean in central region; cool and damp in south",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "copper, timber, iron ore, nitrates, precious metals, molybdenum, hydropower",
 		"Land use": {
-			"arable land:": "2.62%",
-			"permanent crops:": "0.43%",
-			"other:": "96.95% (2005)"
+			"arable land:": {
+				"quantity": 2.62,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.43,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 96.95,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "19,000 sq km (2008)",
-		"Total renewable water resources": "922 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 19000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 922,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "12.55  cu km/yr (11%/25%/64%)",
-			"per capita:": "770  cu m/yr (2000)"
+			"total:": {
+				"quantity": 12.55,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 770,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "severe earthquakes; active volcanism; tsunamis",
@@ -56,69 +110,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "16,888,760 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "22.3% (male 1,928,210/female 1,840,839)",
-			"15-64 years:": "68.1% (male 5,751,091/female 5,744,014)",
+			"0-14 years:": {
+				"quantity": 22.3,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.1,
+				"unit": "%"
+			},
 			"65 years and over:": "9.6% (male 680,450/female 944,156) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "32.1 years",
-			"male:": "31.1 years",
-			"female:": "33.1 years (2011 est.)"
+			"total:": {
+				"quantity": 32.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 31.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 33.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.836% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.836,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "14.33 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 14.33,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.97 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.97,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "89% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 89,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SANTIAGO (capital) 5.883 million; Valparaiso 865,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.72 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.72,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "7.34 deaths/1,000 live births",
+			"total:": {
+				"quantity": 7.34,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "8.1 deaths/1,000 live births",
-			"female:": "6.55 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 8.1,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 6.55,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.7 years",
+			"total population:": {
+				"quantity": 77.7,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "74.44 years",
-			"female:": "81.13 years (2011 est.)"
+			"male:": {
+				"quantity": 74.44,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 81.13,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.88 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.88,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "40,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": "NA",
@@ -133,14 +259,32 @@
 		"Languages": "Spanish (official), Mapudungun, German, English",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "95.7%",
-			"male:": "95.8%",
-			"female:": "95.6% (2002 census)"
+			"total population:": {
+				"quantity": 95.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 95.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "15 years",
-			"female:": "15 years (2008)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +298,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Santiago",
-			"geographic coordinates:": "33 27 S, 70 40 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 33,
+					"seconds": 27
+				},
+				"W": {
+					"minutes": 70,
+					"seconds": 40
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins third Sunday in August; ends second Sunday in May; note - the end of DST was delayed until 8 May 2011 due to the ongoing energy crisis"
 		},
@@ -208,182 +361,307 @@
 	"economy": {
 		"Economy - overview": "Chile has a market-oriented economy characterized by a high level of foreign trade and a reputation for strong financial institutions and sound policy that have given it the strongest sovereign bond rating in South America. Exports account for more than one-fourth of GDP, with commodities making up some three-quarters of total exports. Copper alone provides one-third of government revenue. During the early 1990s, Chile's reputation as a role model for economic reform was strengthened when the democratic government of Patricio AYLWIN - which took over from the military in 1990 - deepened the economic reform initiated by the military government. Since 1999, growth has averaged 4% per year. Chile deepened its longstanding commitment to trade liberalization with the signing of a free trade agreement with the US, which took effect on 1 January 2004. Chile claims to have more bilateral or regional trade agreements than any other country. It has 57 such agreements (not all of them full free trade agreements), including with the European Union, Mercosur, China, India, South Korea, and Mexico. Over the past seven years, foreign direct investment inflows have quadrupled to some $15 billion in 2010, but FDI had dropped to about $7 billion in 2009 in the face of diminished investment throughout the world. The Chilean government conducts a rule-based countercyclical fiscal policy, accumulating surpluses in sovereign wealth funds during periods of high copper prices and economic growth, and allowing deficit spending only during periods of low copper prices and growth. As of September 2008, those sovereign wealth funds - kept mostly outside the country and separate from Central Bank reserves - amounted to more than $20 billion. Chile used $4 billion from this fund to finance a fiscal stimulus package to fend off recession. In December 2009, the OECD invited Chile to become a full member, after a two year period of compliance with organization mandates, and in May 2010 Chile signed the OECD Convention, becoming the first South American country to join the OECD. The economy started to show signs of a rebound in the fourth quarter of 2009, and GDP grew more than 5% in 2010. Chile achieved this growth despite the magnitude 8.8 earthquake that struck Chile in February 2010, which was one of the top ten strongest earthquakes on record. The earthquake and subsequent tsunamis it generated caused considerable damage near the epicenter, located about 70 miles from Concepcion - and about 200 miles southwest of Santiago. The Chilean Ministry of Finance estimates the total immediate losses were close to 17% of GDP.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$257.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 257899999999.99997
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$203.3 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 203300000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$15,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "5.6%",
-			"industry:": "40.5%",
-			"services:": "53.9% (2009 est.)"
+			"agriculture:": {
+				"quantity": 5.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 40.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 53.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "7.58 million (2010 est.)",
+			"Labor force": 7580000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "13.2%",
-			"industry:": "23%",
-			"services:": "63.9% (2005)"
+			"agriculture:": {
+				"quantity": 13.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.9,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8.7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "11.5% (2009)",
+		"Population below poverty line": {
+			"quantity": 11.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.6%",
-			"highest 10%:": "41.7% (2006)"
+			"lowest 10%:": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 41.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "52.4 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "23.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 23.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$40.97 billion",
-			"expenditures:": "$45.07 billion (2010 est.)"
+			"revenues:": {
+				"usd": 40970000000
+			},
+			"expenditures:": {
+				"usd": 45070000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "6.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 6.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.25% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$29.81 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 29810000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$160.3 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 160300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$153.6 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 153600000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$209.5 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 209500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grapes, apples, pears, onions, wheat, corn, oats, peaches, garlic, asparagus, beans; beef, poultry, wool; fish; timber",
 		"Industries": "copper, lithium, other minerals, foodstuffs, fish processing, iron and steel, wood and wood products, transport equipment, cement, textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.2% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "60.6 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 60600000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "57.29 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 57290000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "1.628 billion kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 1628000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "10,850 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 10850,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "277,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 277000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "49,250 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 49250,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "311,200 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 311200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "150 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 150000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "1.65 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 1650000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "2.34 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 2340000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "690 million cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 690000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "97.97 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 97970000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$1.033 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 1032999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$64.28 billion (2010 est.)",
+			"Exports": {
+				"usd": 64280000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copper, fruit, fish products, paper and pulp, chemicals, wine",
 		"Exports - partners": "China 16.46%, US 11.31%, Japan 9.06%, South Korea 6.49%, Brazil 4.64%, Mexico 4.09% (2009)",
 		"Imports": {
-			"Imports": "$54.23 billion (2010 est.)",
+			"Imports": {
+				"usd": 54230000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum and petroleum products, chemicals, electrical and telecommunications equipment, industrial machinery, vehicles, natural gas",
 		"Imports - partners": "US 21.77%, China 12.76%, Argentina 9.55%, Brazil 6.46%, South Korea 5.35% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$26.08 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 26080000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$84.51 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 84510000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$136.3 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 136300000000.00002
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$51.15 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 51150000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "3.575 million (2009)",
+			"Telephones - main lines in use": 3575000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "16.45 million (2009)",
+			"Telephones - mobile cellular": 16450000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -394,48 +672,60 @@
 		"Broadcast media": "national and local terrestrial television channels, coupled with extensive cable TV networks; the state-owned Television Nacional de Chile (TVN) network is self-financed through commercial advertising revenues and is not under direct government control; large number of privately-owned TV stations; about 250 radio stations (2007)",
 		"Internet country code": ".cl",
 		"Internet hosts": {
-			"Internet hosts": "1.056 million (2010)",
+			"Internet hosts": 1056000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "366 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "84",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "8",
-			"1,524 to 2,437 m:": "23",
-			"914 to 1,523 m:": "24"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "282",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "12",
-			"914 to 1,523 m:": "50",
-			"under 914 m:": "217 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 3,064 km; liquid petroleum gas 517 km; oil 895 km; refined products 768 km (2010)",
 		"Railways": {
-			"total:": "7,082 km",
+			"total:": {
+				"quantity": 7082,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "3,435 km 1.676-m gauge (850 km electrified)",
 			"narrow gauge:": "3,647 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "80,505 km",
+			"total:": {
+				"quantity": 80505,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "16,745 km (includes 2,414 km of expressways)",
-			"unpaved:": "63,760 km (2004)"
+			"paved:": {
+				"quantity": 16745,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 63760,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "48",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 11, cargo 10, chemical tanker 8, container 1, liquefied gas 2, passenger 4, passenger/cargo 3, petroleum tanker 8, roll on/roll off 1",
-			"foreign-owned:": "1 (Norway 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "48 (Argentina 6, Belize 1, Brazil 1, Cyprus 1, Isle of Man 8, Liberia 7, Panama 17, Singapore 7) (2010)"
 		},
 		"Ports and terminals": {}
@@ -444,16 +734,16 @@
 		"Military branches": "Army of the Nation, Chilean Navy (Armada de Chile, includes Naval Aviation, Marine Corps, and Maritime Territory and Merchant Marine Directorate (Directemar)), Chilean Air Force (Fuerza Aerea de Chile, FACh), Carabineros Corps (Cuerpo de Carabineros) (2011)",
 		"Military service age and obligation": "18-45 years of age for voluntary male and female military service, although the right to compulsory recruitment is retained; service obligation - 12 months for Army, 22 months for Navy and Air Force (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "4,324,732",
-			"females age 16-49:": "4,251,954 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "3,621,475",
-			"females age 16-49:": "3,561,099 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "141,500",
-			"female:": "135,709 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

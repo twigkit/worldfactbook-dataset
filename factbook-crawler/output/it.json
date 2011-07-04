@@ -5,22 +5,49 @@
 	"background": "Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy was a charter member of NATO and the European Economic Community (EEC). It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include illegal immigration, organized crime, corruption, high unemployment, sluggish economic growth, and the low incomes and technical standards of southern Italy compared with the prosperous north.",
 	"geo": {
 		"Location": "Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia",
-		"Geographic coordinates": "42 50 N, 12 50 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 42,
+				"seconds": 50
+			},
+			"E": {
+				"minutes": 12,
+				"seconds": 50
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "301,340 sq km",
+			"total:": {
+				"quantity": 301340,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "294,140 sq km",
-			"water:": "7,200 sq km"
+			"land:": {
+				"quantity": 294140,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 7200,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Arizona",
 		"Land boundaries": {
-			"total:": "1,899.2 km",
+			"total:": {
+				"quantity": 1899.2,
+				"unit": "km"
+			},
 			"border countries:": "Austria 430 km, France 488 km, Holy See (Vatican City) 3.2 km, San Marino 39 km, Slovenia 199 km, Switzerland 740 km"
 		},
-		"Coastline": "7,600 km",
+		"Coastline": {
+			"quantity": 7600,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "predominantly Mediterranean; Alpine in far north; hot, dry in south",
@@ -31,15 +58,36 @@
 		},
 		"Natural resources": "coal, mercury, zinc, potash, marble, barite, asbestos, pumice, fluorspar, feldspar, pyrite (sulfur), natural gas and crude oil reserves, fish, arable land",
 		"Land use": {
-			"arable land:": "26.41%",
-			"permanent crops:": "9.09%",
-			"other:": "64.5% (2005)"
+			"arable land:": {
+				"quantity": 26.41,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 9.09,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 64.5,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "39,500 sq km (2008)",
-		"Total renewable water resources": "175 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 39500,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 175,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "41.98  cu km/yr (18%/37%/45%)",
-			"per capita:": "723  cu m/yr (1998)"
+			"total:": {
+				"quantity": 41.98,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 723,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding; land subsidence in Venice",
@@ -54,69 +102,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "61,016,804 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "13.8% (male 4,315,292/female 4,124,624)",
-			"15-64 years:": "65.9% (male 19,888,901/female 20,330,495)",
+			"0-14 years:": {
+				"quantity": 13.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.9,
+				"unit": "%"
+			},
 			"65 years and over:": "20.3% (male 5,248,418/female 7,109,074) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "43.5 years",
-			"male:": "42.4 years",
-			"female:": "44.7 years (2011 est.)"
+			"total:": {
+				"quantity": 43.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 42.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 44.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.42% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.42,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.18 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.18,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.84 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.84,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "4.86 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 4.86,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "68% of total population (2010)",
-			"rate of urbanization:": "0.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 68,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ROME (capital) 3.357 million; Milan 2.962 million; Naples 2.27 million; Turin 1.662 million; Palermo 872,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.059 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.03 male(s)/female",
-			"65 years and over:": "0.72 male(s)/female",
-			"total population:": "0.96 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.059,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.72,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.38 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.38,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.59 deaths/1,000 live births",
-			"female:": "3.16 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.59,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.16,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "81.77 years",
+			"total population:": {
+				"quantity": 81.77,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "79.16 years",
-			"female:": "84.53 years (2011 est.)"
+			"male:": {
+				"quantity": 79.16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.53,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.39 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.39,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "140,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -133,14 +253,32 @@
 		"Languages": "Italian (official), German (parts of Trentino-Alto Adige region are predominantly German speaking), French (small French-speaking minority in Valle d'Aosta region), Slovene (Slovene-speaking minority in the Trieste-Gorizia area)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98.4%",
-			"male:": "98.8%",
-			"female:": "98% (2001 census)"
+			"total population:": {
+				"quantity": 98.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 98.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -155,7 +293,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Rome",
-			"geographic coordinates:": "41 54 N, 12 29 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 41,
+					"seconds": 54
+				},
+				"E": {
+					"minutes": 12,
+					"seconds": 29
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -212,139 +359,247 @@
 	"economy": {
 		"Economy - overview": "Italy has a diversified industrial economy, which is divided into a developed industrial north, dominated by private companies, and a less-developed, welfare-dependent, agricultural south, with high unemployment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 15% of GDP. These activities are most common within the agriculture, construction, and service sectors. Italy has moved slowly on implementing needed structural reforms, such as reducing graft, overhauling costly entitlement programs, and increasing employment opportunities for young workers, particularly women. The international financial crisis worsened conditions in Italy's labor market, with unemployment rising from 6.2% in 2007 to 8.4% in 2010, but in the longer-term Italy's low fertility rate and quota-driven immigration policies will increasingly strain its economy. A rise in exports and investment driven by the global economic recovery nevertheless helped the economy grow by about 1% in 2010 following a 5% contraction in 2009. The Italian government has struggled to limit government spending, but Italy's exceedingly high public debt remains above 115% of GDP, and its fiscal deficit - just 1.5% of GDP in 2007 - exceeded 5% in 2009 and 2010, as the costs of servicing the country's debt rose.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.774 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1774000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.055 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2055000000000.0002
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$30,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.8%",
-			"industry:": "24.9%",
-			"services:": "73.3% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "25.05 million (2010 est.)",
+			"Labor force": 25050000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "4.2%",
-			"industry:": "30.7%",
-			"services:": "65.1% (2005)"
+			"agriculture:": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 65.1,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8.4% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.3%",
-			"highest 10%:": "26.8% (2000)"
+			"lowest 10%:": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 26.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "32 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$940.3 billion",
-			"expenditures:": "$1.042 trillion (2010 est.)"
+			"revenues:": {
+				"usd": 940300000000
+			},
+			"expenditures:": {
+				"usd": 1042000000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "118.1% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 118.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "10.26% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 10.26,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.234 trillion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1234000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.884 trillion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1884000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$3.274 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 3274000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$317.3 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 317300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fruits, vegetables, grapes, potatoes, sugar beets, soybeans, grain, olives; beef, dairy products; fish",
 		"Industries": "tourism, machinery, iron and steel, chemicals, food processing, textiles, motor vehicles, clothing, footwear, ceramics",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "0.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "289.7 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 289700000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "315 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 315000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "3.431 billion kWh (2008 est.)",
-		"Electricity - imports": "43 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 3431000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 43000000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "146,500 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 146500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "1.537 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 1537000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "586,900 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 586900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1.911 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 1911000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "423.7 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 423700000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "8.119 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 8119000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "78.12 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 78120000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "124 million cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 124000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "69.24 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 69240000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "69.83 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 69830000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -352,39 +607,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$458.4 billion (2010 est.)",
+			"Exports": {
+				"usd": 458400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "engineering products, textiles and clothing, production machinery, motor vehicles, transport equipment, chemicals; food, beverages and tobacco; minerals, and nonferrous metals",
 		"Exports - partners": "Germany 12.6%, France 11.57%, US 5.92%, Spain 5.69%, UK 5.13%, Switzerland 4.69% (2009)",
 		"Imports": {
-			"Imports": "$459.7 billion (2010 est.)",
+			"Imports": {
+				"usd": 459700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "engineering products, chemicals, transport equipment, energy products, minerals and nonferrous metals, textiles and clothing; food, beverages, and tobacco",
 		"Imports - partners": "Germany 16.68%, France 8.82%, China 6.53%, Netherlands 5.63%, Spain 4.3%, Russia 4.12%, Belgium 4.08% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$2.223 trillion (30 June 2010 est.)",
+			"Debt - external": {
+				"usd": 2223000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$405.1 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 405100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$601.1 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 601100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "21.3 million (2009)",
+			"Telephones - main lines in use": 21300000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "90.613 million (2009)",
+			"Telephones - mobile cellular": 90613000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -395,39 +660,45 @@
 		"Broadcast media": "two Italian media giants - the publicly-owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately-owned Mediaset with 3 national terrestrial stations - dominate; additional broadcasts by a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; some 1,300 commercial radio stations (2007)",
 		"Internet country code": ".it",
 		"Internet hosts": {
-			"Internet hosts": "23.16 million (2010)",
+			"Internet hosts": 23160000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "132 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "101",
-			"over 3,047 m:": "9",
-			"2,438 to 3,047 m:": "30",
-			"1,524 to 2,437 m:": "18",
-			"914 to 1,523 m:": "31"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "31",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "11",
-			"under 914 m:": "19 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "6 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 18,348 km; oil 1,241 km (2010)",
 		"Railways": {
-			"total:": "20,254 km",
+			"total:": {
+				"quantity": 20254,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "18,611 km 1.435-m gauge (12,662 km electrified)",
 			"narrow gauge:": "123 km 1.000-m gauge (123 km electrified); 1,290 km 0.950-m gauge (151 km electrified); 231 km 0.850-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "487,700 km",
+			"total:": {
+				"quantity": 487700,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "487,700 km (includes 6,700 km of expressways) (2007)"
 		},
@@ -436,10 +707,10 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "667",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 81, cargo 47, carrier 1, chemical tanker 169, container 22, liquefied gas 25, passenger 23, passenger/cargo 160, petroleum tanker 56, refrigerated cargo 4, roll on/roll off 34, specialized tanker 11, vehicle carrier 34",
-			"foreign-owned:": "78 (Denmark 4, France 2, Germany 1, Greece 8, Luxembourg 12, Nigeria 1, Norway 6, Sweden 1, Switzerland 6, Taiwan 11, Turkey 3, UK 2, US 21)",
+			"foreign-owned:": null,
 			"registered in other countries:": "213 (Bahamas 5, Belize 3, Cayman Islands 6, Cyprus 6, Georgia 2, Gibraltar 4, Greece 5, Kiribati 1, Liberia 48, Malta 52, Marshall Islands 1, Netherlands 9, Norway 3, Panama 23, Portugal 10, Russia 9, Saint Kitts and Nevis 1, Saint Vincent and the Grenadines 5, Singapore 3, Slovakia 2, Spain 1, Sweden 5, Turkey 2, UK 4, unknown 3) (2010)"
 		},
 		"Ports and terminals": {}
@@ -448,16 +719,16 @@
 		"Military branches": "Italian Armed Forces: Army (Esercito Italiano, EI), Navy (Marina Militare Italiana, MMI), Italian Air Force (Aeronautica Militare Italiana, AMI), Carabinieri Corps (Arma dei Carabinieri, CC) (2011)",
 		"Military service age and obligation": "18-27 year of age for voluntary military service; conscription abolished January 2005; women may serve in any military branch; 10-month service obligation, with a reserve obligation to age 45 (Army and Air Force) or 39 (Navy) (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "13,865,688",
-			"females age 16-49:": "14,003,755 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "11,247,446",
-			"females age 16-49:": "11,348,695 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "288,188",
-			"female:": "281,671 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

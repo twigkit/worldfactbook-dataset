@@ -5,24 +5,57 @@
 	"background": "The inhabitants of the area of Oman have long prospered on Indian Ocean trade. In the late 18th century, a newly established sultanate in Muscat signed the first in a series of friendship treaties with Britain. Over time, Oman's dependence on British political and military advisors increased, but it never became a British colony. In 1970, QABOOS bin Said Al-Said overthrew the restrictive rule of his father; he has ruled as sultan ever since. His extensive modernization program has opened the country to the outside world while preserving the longstanding close ties with the UK. Oman's moderate, independent foreign policy has sought to maintain good relations with all Middle Eastern countries. Inspired by the popular uprisings that swept the Middle East and North Africa in 2010-11, Omanis began staging marches and demonstrations - a small number of which turned violent in clashes with government security forces - to demand economic benefits, an end to corruption, and greater political rights. In February and March 2011, in response to protester demands, QABOOS reshuffled his cabinet, pledged to create more government jobs, and promised to implement economic and political reforms, such as granting legislative and regulatory powers to the Council of Oman.",
 	"geo": {
 		"Location": "Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and UAE",
-		"Geographic coordinates": "21 00 N, 57 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 21,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 57,
+				"seconds": 0
+			}
+		},
 		"Map references": "Middle East",
 		"Area": {
-			"total:": "309,500 sq km",
+			"total:": {
+				"quantity": 309500,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "309,500 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 309500,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Kansas",
 		"Land boundaries": {
-			"total:": "1,374 km",
+			"total:": {
+				"quantity": 1374,
+				"unit": "km"
+			},
 			"border countries:": "Saudi Arabia 676 km, UAE 410 km, Yemen 288 km"
 		},
-		"Coastline": "2,092 km",
+		"Coastline": {
+			"quantity": 2092,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "dry desert; hot, humid along coast; hot, dry interior; strong southwest summer monsoon (May to September) in far south",
 		"Terrain": "central desert plain, rugged mountains in north and south",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "petroleum, copper, asbestos, some marble, limestone, chromium, gypsum, natural gas",
 		"Land use": {
-			"arable land:": "0.12%",
-			"permanent crops:": "0.14%",
-			"other:": "99.74% (2005)"
+			"arable land:": {
+				"quantity": 0.12,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.14,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.74,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "590 sq km (2008)",
-		"Total renewable water resources": "1 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 590,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.36  cu km/yr (7%/2%/90%)",
-			"per capita:": "529  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.36,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 529,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "summer winds often raise large sandstorms and dust storms in interior; periodic droughts",
 		"Environment - current issues": "rising soil salinity; beach pollution from oil spills; limited natural freshwater resources",
@@ -52,29 +106,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,027,959 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "31.2% (male 484,292/female 460,066)",
-			"15-64 years:": "65.7% (male 1,133,329/female 856,701)",
+			"0-14 years:": {
+				"quantity": 31.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.7,
+				"unit": "%"
+			},
 			"65 years and over:": "3.1% (male 47,786/female 45,785) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "24.1 years",
-			"male:": "25.5 years",
-			"female:": "22.4 years (2011 est.)"
+			"total:": {
+				"quantity": 24.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 25.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.023% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.023,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "24.15 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 24.15,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "3.45 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 3.45,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,39 +160,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "73% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 73,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MUSCAT (capital) 634,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.34 male(s)/female",
-			"65 years and over:": "1.06 male(s)/female",
-			"total population:": "1.23 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.34,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.23,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "15.47 deaths/1,000 live births",
+			"total:": {
+				"quantity": 15.47,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "15.78 deaths/1,000 live births",
-			"female:": "15.15 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 15.78,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.15,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "74.22 years",
+			"total population:": {
+				"quantity": 74.22,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.38 years",
-			"female:": "76.16 years (2011 est.)"
+			"male:": {
+				"quantity": 72.38,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.16,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.87 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.87,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1,100 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -132,14 +255,32 @@
 		"Languages": "Arabic (official), English, Baluchi, Urdu, Indian dialects",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "81.4%",
-			"male:": "86.8%",
-			"female:": "73.5% (2003 census)"
+			"total population:": {
+				"quantity": 81.4,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 86.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 73.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,11 +295,20 @@
 		"Government type": "monarchy",
 		"Capital": {
 			"name:": "Muscat",
-			"geographic coordinates:": "23 37 N, 58 35 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 23,
+					"seconds": 37
+				},
+				"E": {
+					"minutes": 58,
+					"seconds": 35
+				}
+			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "5 regions (manatiq, singular - mintaqat) and 4 governorates* (muhafazat, singular - muhafazat) Ad Dakhiliyah, Al Batinah, Al Buraymi*, Al Wusta, Ash Sharqiyah, Az Zahirah, Masqat (Muscat)*, Musandam*, Zufar (Dhofar)*",
-		"Independence": "1650 (expulsion of the Portuguese)",
+		"Independence": null,
 		"National holiday": "Birthday of Sultan QABOOS, 18 November (1940)",
 		"Constitution": "none; note - on 6 November 1996, Sultan QABOOS issued a royal decree promulgating a basic law considered by the government to be a constitution which, among other things, clarifies the royal succession, provides for a prime minister, bars ministers from holding interests in companies doing business with the government, establishes a bicameral legislature, and guarantees basic civil liberties for Omani citizens",
 		"Legal system": "mixed legal system of Anglo-Saxon law and Islamic law",
@@ -200,25 +350,43 @@
 	"economy": {
 		"Economy - overview": "Oman is a middle-income economy that is heavily dependent on dwindling oil resources. Because of declining reserves, Muscat has actively pursued a development plan that focuses on diversification, industrialization, and privatization, with the objective of reducing the oil sector's contribution to GDP to 9% by 2020. Tourism and gas-based industries are key components of the government's diversification strategy. By using enhanced oil recovery techniques, Oman succeeded in increasing oil production, giving the country more time to diversify, and the increase in global oil prices throughout 2010 provides the government greater financial resources to invest in non-oil sectors.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$75.84 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 75840000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$55.62 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 55620000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$25,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.4%",
-			"industry:": "48.2%",
-			"services:": "50.3% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 48.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 50.3,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "968,800",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -227,7 +395,10 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "15% (2004 est.)",
+			"Unemployment rate": {
+				"quantity": 15,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -236,123 +407,205 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "26.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 26.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$20.5 billion",
-			"expenditures:": "$20.1 billion (2010 est.)"
+			"revenues:": {
+				"usd": 20500000000
+			},
+			"expenditures:": {
+				"usd": 20100000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "4.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 4.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.05% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 0.05,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.44% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.44,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$7.257 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 7257000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$22.35 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 22350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$22.05 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 22050000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$17.3 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 17300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "dates, limes, bananas, alfalfa, vegetables; camels, cattle; fish",
 		"Industries": "crude oil production and refining, natural and liquefied natural gas (LNG) production; construction, cement, copper, steel, chemicals, optic fiber",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "13.58 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 13580000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "11.36 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 11360000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "816,000 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 816000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "84,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 84000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "593,700 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 593700,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "17,290 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 17290,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "5.5 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 5500000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "24 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 24000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "13.46 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 13460000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "10.89 billion cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 10890000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "350 million cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 350000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "849.5 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 849500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$2.724 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 2724000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$36.12 billion (2010 est.)",
+			"Exports": {
+				"usd": 36120000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "petroleum, reexports, fish, metals, textiles",
 		"Exports - partners": "China 26.98%, South Korea 17.19%, Japan 12.12%, UAE 11.23%, Thailand 7.64% (2009)",
 		"Imports": {
-			"Imports": "$19.3 billion (2010 est.)",
+			"Imports": {
+				"usd": 19300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, food, livestock, lubricants",
 		"Imports - partners": "UAE 22.9%, Japan 13.99%, US 6.46%, China 5.64%, India 5.27%, France 5.19%, South Korea 4.65% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$14 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 14000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$8.829 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 8829000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -361,11 +614,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "300,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.971 million (2009)",
+			"Telephones - mobile cellular": 3971000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -376,39 +629,48 @@
 		"Broadcast media": "1 state-run TV broadcaster; TV stations transmitting from Saudi Arabia, the UAE, and Yemen are accessible via satellite TV; state-run radio operates multiple stations; first private radio station began operation in 2007 and 2 additional stations now operating (2007)",
 		"Internet country code": ".om",
 		"Internet hosts": {
-			"Internet hosts": "9,114 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "130 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "11",
-			"over 3,047 m:": "6",
-			"2,438 to 3,047 m:": "4",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "119",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "7",
-			"1,524 to 2,437 m:": "51",
-			"914 to 1,523 m:": "33"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "3 (2010)",
+		"Heliports": null,
 		"Pipelines": "condensate 107 km; gas 4,209 km; oil 3,558 km; refined products 263 km (2010)",
 		"Roadways": {
-			"total:": "53,430 km",
+			"total:": {
+				"quantity": 53430,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "23,223 km (includes 1,384 km of expressways)",
-			"unpaved:": "30,207 km (2008)"
+			"paved:": {
+				"quantity": 23223,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 30207,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "4",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "chemical tanker 1, passenger 1, passenger/cargo 2",
 			"registered in other countries:": "9 (Panama 8, Saint Vincent and the Grenadines 1) (2010)"
@@ -419,16 +681,16 @@
 		"Military branches": "Sultan's Armed Forces (SAF): Royal Army of Oman, Royal Navy of Oman, Royal Air Force of Oman (al-Quwwat al-Jawwiya al-Sultanat) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "985,957",
-			"females age 16-49:": "737,812 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "837,886",
-			"females age 16-49:": "642,427 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "31,959",
-			"female:": "30,264 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

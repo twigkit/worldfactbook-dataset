@@ -5,22 +5,49 @@
 	"background": "After centuries of Danish, Swedish, German, and Russian rule, Estonia attained independence in 1918. Forcibly incorporated into the USSR in 1940 - an action never recognized by the US - it regained its freedom in 1991 with the collapse of the Soviet Union. Since the last Russian troops left in 1994, Estonia has been free to promote economic and political ties with the West. It joined both NATO and the EU in the spring of 2004.",
 	"geo": {
 		"Location": "Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia",
-		"Geographic coordinates": "59 00 N, 26 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 59,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 26,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "45,228 sq km",
+			"total:": {
+				"quantity": 45228,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "42,388 sq km",
-			"water:": "2,840 sq km"
+			"land:": {
+				"quantity": 42388,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2840,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than New Hampshire and Vermont combined",
 		"Land boundaries": {
-			"total:": "633 km",
+			"total:": {
+				"quantity": 633,
+				"unit": "km"
+			},
 			"border countries:": "Latvia 343 km, Russia 290 km"
 		},
-		"Coastline": "3,794 km",
+		"Coastline": {
+			"quantity": 3794,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"exclusive economic zone:": "limits fixed in coordination with neighboring states"
 		},
 		"Climate": "maritime; wet, moderate winters, cool summers",
@@ -31,15 +58,36 @@
 		},
 		"Natural resources": "oil shale, peat, rare earth elements, phosphorite, clay, limestone, sand, dolomite, arable land, sea mud",
 		"Land use": {
-			"arable land:": "12.05%",
-			"permanent crops:": "0.35%",
-			"other:": "87.6% (2005)"
+			"arable land:": {
+				"quantity": 12.05,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.35,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.6,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "40 sq km (2008)",
-		"Total renewable water resources": "21.1 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 40,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 21.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.41  cu km/yr (56%/39%/5%)",
-			"per capita:": "1,060  cu m/yr (2002)"
+			"total:": {
+				"quantity": 1.41,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1060,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "sometimes flooding occurs in the spring",
 		"Environment - current issues": "air polluted with sulfur dioxide from oil-shale burning power plants in northeast; however, the amount of pollutants emitted to the air have fallen steadily, the emissions of 2000 were 80% less than in 1980; the amount of unpurified wastewater discharged to water bodies in 2000 was 1/20 the level of 1980; in connection with the start-up of new water purification plants, the pollution load of wastewater decreased; Estonia has more than 1,400 natural and manmade lakes, the smaller of which in agricultural areas need to be monitored; coastal seawater is polluted in certain locations",
@@ -51,29 +99,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,282,963 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.1% (male 99,919/female 94,066)",
-			"15-64 years:": "67.2% (male 410,132/female 451,736)",
+			"0-14 years:": {
+				"quantity": 15.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.2,
+				"unit": "%"
+			},
 			"65 years and over:": "17.7% (male 74,803/female 152,307) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.5 years",
-			"male:": "37 years",
-			"female:": "43.9 years (2011 est.)"
+			"total:": {
+				"quantity": 40.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 37,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.641% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.45 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.45,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "13.55 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 13.55,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -81,39 +150,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "69% of total population (2010)",
-			"rate of urbanization:": "0.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 69,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "TALLINN (capital) 399,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.063 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "0.91 male(s)/female",
-			"65 years and over:": "0.49 male(s)/female",
-			"total population:": "0.84 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.063,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.49,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.84,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "7.06 deaths/1,000 live births",
+			"total:": {
+				"quantity": 7.06,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "8.21 deaths/1,000 live births",
-			"female:": "5.85 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 8.21,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.85,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.33 years",
+			"total population:": {
+				"quantity": 73.33,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.02 years",
-			"female:": "78.97 years (2011 est.)"
+			"male:": {
+				"quantity": 68.02,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.97,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.44 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.44,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.2% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "9,900 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -136,14 +250,32 @@
 		"Languages": "Estonian (official) 67.3%, Russian 29.7%, other 2.3%, unknown 0.7% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.8%",
-			"male:": "99.8%",
-			"female:": "99.8% (2000 census)"
+			"total population:": {
+				"quantity": 99.8,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "15 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -158,7 +290,16 @@
 		"Government type": "parliamentary republic",
 		"Capital": {
 			"name:": "Tallinn",
-			"geographic coordinates:": "59 26 N, 24 43 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 59,
+					"seconds": 26
+				},
+				"E": {
+					"minutes": 24,
+					"seconds": 43
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -206,178 +347,300 @@
 	"economy": {
 		"Economy - overview": "Estonia, a 2004 European Union entrant, has a modern market-based economy and one of the higher per capita income levels in Central Europe and the Baltic region. Estonia's successive governments have pursued a free market, pro-business economic agenda and have wavered little in their commitment to pro-market reforms. The current government has followed relatively sound fiscal policies that have resulted in balanced budgets and very low public debt. The economy benefits from strong electronics and telecommunications sectors and strong trade ties with Finland, Sweden, and Germany. Tallinn's priority has been to sustain high growth rates - on average 8% per year from 2003 to 2007. Estonia's economy slowed down markedly and fell sharply into recession in mid-2008, primarily as a result of an investment and consumption slump following the bursting of the real estate market bubble. GDP dropped nearly 14% in 2009, among the world's highest rates of contraction. Rising exports to Sweden and Finland lead an economic recovery in 2010, but unemployment stands above 17%. Estonia joined the OECD in December 2010 and adopted the euro in January 2011.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$24.69 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 24690000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$19.78 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 19780000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$19,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.5%",
-			"industry:": "28.7%",
-			"services:": "68.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 28.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 68.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "688,000 (2010 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "2.8%",
-			"industry:": "22.7%",
-			"services:": "74.5% (2008)"
+			"agriculture:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 74.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "17.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 17.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "19.7% (2008)",
+		"Population below poverty line": {
+			"quantity": 19.7,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.7%",
-			"highest 10%:": "27.7% (2004)"
+			"lowest 10%:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 27.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "31.4 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.5% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$7.851 billion",
-			"expenditures:": "$8.21 billion (2010 est.)"
+			"revenues:": {
+				"usd": 7851000000
+			},
+			"expenditures:": {
+				"usd": 8210000000.000001
+			}
 		},
 		"Public debt": {
-			"Public debt": "7.7% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 7.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "9.39% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 9.39,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$5.345 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 5345000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$10.7 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 10700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$18.94 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 18940000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$2.654 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 2654000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grain, potatoes, vegetables; livestock and dairy products; fish",
 		"Industries": "engineering, electronics, wood and wood products, textiles; information technology, telecommunications",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "10% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "8.779 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 8779000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "7.08 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 7080000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "2.943 billion kWh (2009 est.)",
-		"Electricity - imports": "3.025 billion kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 2943000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 3025000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "7,600 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 7600,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "30,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 30000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "7,280 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 7280,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "30,590 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 30590,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "1.02 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 1020000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.02 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 1020000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$265 million (2010 est.)",
+			"Current account balance": {
+				"usd": 265000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$11.5 billion (2010 est.)",
+			"Exports": {
+				"usd": 11500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and electrical equipment 21%, wood and wood products 9%, metals 9%, furniture 7%, vehicles and parts 5%, food products and beverages 4%, textiles 4%, plastics 3%",
 		"Exports - partners": "Finland 18.57%, Sweden 12.52%, Latvia 9.51%, Russia 9.33%, Germany 6.09%, Lithuania 4.76%, US 4.26% (2009)",
 		"Imports": {
-			"Imports": "$12.17 billion (2010 est.)",
+			"Imports": {
+				"usd": 12170000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and electrical equipment 22%, mineral fuels 18%, chemical products 3%, foodstuffs 6%, plastics 6%, textiles 5%",
 		"Imports - partners": "Finland 14.52%, Lithuania 10.84%, Latvia 10.47%, Germany 10.33%, Russia 8.59%, Sweden 8.34%, Poland 5.63% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$3.641 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 3641000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$25.13 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 25130000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$17.53 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 17530000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$7.134 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 7134000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "492,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.72 million (2009)",
+			"Telephones - mobile cellular": 2720000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -388,51 +651,63 @@
 		"Broadcast media": "the publicly-owned broadcaster, Eesti Rahvusringhaaling (ERR), operates 2 television channels; national private TV channels expanding service; a range of channels are aimed at Russian-speaking viewers; high penetration rate for cable TV services with more than half of Estonian households connected; publicly-owned broadcaster, ERR, operates 4 radio networks and there are a growing number of private commercial radio stations broadcasting nationally, regionally, and locally (2008)",
 		"Internet country code": ".ee",
 		"Internet hosts": {
-			"Internet hosts": "729,534 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "19 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "13",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "7",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "6",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 859 km (2010)",
 		"Railways": {
-			"total:": "1,196 km",
+			"total:": {
+				"quantity": 1196,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "1,196 km 1.520-m and 1.524-m gauge (131 km electrified) (2010)"
 		},
 		"Roadways": {
-			"total:": "58,034 km",
+			"total:": {
+				"quantity": 58034,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "34,936 km (includes 104 km of expressways)",
-			"unpaved:": "23,098 km (2009)"
+			"paved:": {
+				"quantity": 34936,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 23098,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "335 km (320 km are navigable year round) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "24",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 4, chemical tanker 1, passenger/cargo 17, petroleum tanker 2",
-			"foreign-owned:": "3 (Germany 1, Norway 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "77 (Antigua and Barbuda 20, Belize 1, Cambodia 1, Cyprus 7, Dominica 6, Finland 2, Latvia 4, Malta 16, former Netherlands Antilles 1, Norway 1, Saint Kitts and Nevis 3, Saint Vincent and the Grenadines 10, Sierra Leone 1, Sweden 3, Venezuela 1) (2010)"
 		},
 		"Ports and terminals": {}
@@ -441,16 +716,16 @@
 		"Military branches": "Estonian Defense Forces: Land Force, Navy, Air Force (Eesti Ohuvagi), Defense League (Kaitseliit, KL) (2011)",
 		"Military service age and obligation": "obligation for compulsory service ages 16-60, with conscription \"likely\" ages 18-27; service requirement 8-11 months (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "291,801",
-			"females age 16-49:": "302,696 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "210,854",
-			"females age 16-49:": "251,185 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "6,668",
-			"female:": "6,309 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

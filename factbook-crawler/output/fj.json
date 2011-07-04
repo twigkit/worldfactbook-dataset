@@ -5,21 +5,51 @@
 	"background": "Fiji became independent in 1970 after nearly a century as a British colony. Democratic rule was interrupted by two military coups in 1987 caused by concern over a government perceived as dominated by the Indian community (descendants of contract laborers brought to the islands by the British in the 19th century). The coups and a 1990 constitution that cemented native Melanesian control of Fiji led to heavy Indian emigration; the population loss resulted in economic difficulties, but ensured that Melanesians became the majority. A new constitution enacted in 1997 was more equitable. Free and peaceful elections in 1999 resulted in a government led by an Indo-Fijian, but a civilian-led coup in May 2000 ushered in a prolonged period of political turmoil. Parliamentary elections held in August 2001 provided Fiji with a democratically elected government led by Prime Minister Laisenia QARASE. Re-elected in May 2006, QARASE was ousted in a December 2006 military coup led by Commodore Voreqe BAINIMARAMA, who initially appointed himself acting president but in January 2007 became interim prime minister. Since taking power BAINIMARAMA has neutralized his opponents, crippled Fiji's democratic institutions, and refused to hold elections.",
 	"geo": {
 		"Location": "Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand",
-		"Geographic coordinates": "18 00 S, 175 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 18,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 175,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "18,274 sq km",
+			"total:": {
+				"quantity": 18274,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "18,274 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 18274,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than New Jersey",
-		"Land boundaries": "0 km",
-		"Coastline": "1,129 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1129,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"Maritime claims": "measured from claimed archipelagic straight baselines",
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation; rectilinear shelf claim added"
 		},
 		"Climate": "tropical marine; only slight seasonal temperature variation",
@@ -30,15 +60,36 @@
 		},
 		"Natural resources": "timber, fish, gold, copper, offshore oil potential, hydropower",
 		"Land use": {
-			"arable land:": "10.95%",
-			"permanent crops:": "4.65%",
-			"other:": "84.4% (2005)"
+			"arable land:": {
+				"quantity": 10.95,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 4.65,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 84.4,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "30 sq km (2008)",
-		"Total renewable water resources": "28.6 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 30,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 28.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.07  cu km/yr (14%/14%/71%)",
-			"per capita:": "82  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.07,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 82,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "cyclonic storms can occur from November to January",
 		"Environment - current issues": "deforestation; soil erosion",
@@ -50,29 +101,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "883,125 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "28.9% (male 130,409/female 124,870)",
-			"15-64 years:": "65.9% (male 297,071/female 284,643)",
+			"0-14 years:": {
+				"quantity": 28.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.9,
+				"unit": "%"
+			},
 			"65 years and over:": "5.2% (male 21,187/female 24,945) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "26.9 years",
-			"male:": "26.7 years",
-			"female:": "27.1 years (2011 est.)"
+			"total:": {
+				"quantity": 26.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 26.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 27.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.798% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.798,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "21.11 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 21.11,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.9 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.9,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -80,35 +155,80 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "52% of total population (2010)",
-			"rate of urbanization:": "1.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 52,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SUVA (capital) 174,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "11 deaths/1,000 live births",
+			"total:": {
+				"quantity": 11,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "12.12 deaths/1,000 live births",
-			"female:": "9.82 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 12.12,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 9.82,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.31 years",
+			"total population:": {
+				"quantity": 71.31,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.73 years",
-			"female:": "74.03 years (2011 est.)"
+			"male:": {
+				"quantity": 68.73,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.03,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.61 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.61,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
@@ -128,14 +248,32 @@
 		"Languages": "English (official), Fijian (official), Hindustani",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "93.7%",
-			"male:": "95.5%",
-			"female:": "91.9% (2003 est.)"
+			"total population:": {
+				"quantity": 93.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 91.9,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "13 years",
-			"female:": "13 years (2005)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -149,7 +287,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Suva (on Viti Levu)",
-			"geographic coordinates:": "18 08 S, 178 25 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 18,
+					"seconds": 8
+				},
+				"E": {
+					"minutes": 178,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins fourth Sunday in October; ends first Sunday in March"
 		},
@@ -195,66 +342,115 @@
 	"economy": {
 		"Economy - overview": "Fiji, endowed with forest, mineral, and fish resources, is one of the most developed of the Pacific island economies though still with a large subsistence sector. Sugar exports, remittances from Fijians working abroad, and a growing tourist industry - with 400,000 to 500,000 tourists annually - are the major sources of foreign exchange. Fiji's sugar has special access to European Union markets but will be harmed by the EU's decision to cut sugar subsidies. Sugar processing makes up one-third of industrial activity but is not efficient. Fiji's tourism industry was damaged by the December 2006 coup and is facing an uncertain recovery time. In 2007 tourist arrivals were down almost 6%, with substantial job losses in the service sector, and GDP dipped. The coup has created a difficult business climate. The EU has suspended all aid until the interim government takes steps toward new elections. Long-term problems include low investment, uncertain land ownership rights, and the government's inability to manage its budget. Overseas remittances from Fijians working in Kuwait and Iraq have decreased significantly. Fiji's current account deficit reached 23% of GDP in 2006.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.869 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3869000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$3.131 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 3131000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "8.9%",
-			"industry:": "13.5%",
-			"services:": "77.6% (2004 est.)"
+			"agriculture:": {
+				"quantity": 8.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 77.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "335,000 (2007 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "70%",
-			"industry and services:": "30% (2001 est.)"
+			"agriculture:": {
+				"quantity": 70,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 30,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.6% (1999)",
+			"Unemployment rate": {
+				"quantity": 7.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "25.5% (FY90/91)",
+		"Population below poverty line": {
+			"quantity": 25.5,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$1.363 billion",
-			"expenditures:": "$1.376 billion (2006)"
+			"revenues:": {
+				"usd": 1363000000
+			},
+			"expenditures:": {
+				"usd": 1376000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.8% (2007)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "3% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "7.85% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 7.85,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$748 million (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 748000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.76 billion (31 December 2008)",
+			"Stock of broad money": {
+				"usd": 1760000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.799 billion",
+			"Stock of domestic credit": {
+				"usd": 1799000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
@@ -265,53 +461,95 @@
 		"Industries": "tourism, sugar, clothing, copra, gold, silver, lumber, small cottage industries",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "928 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 928000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "863 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 863000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "11,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 11000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2,455 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2455,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "20,340 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 20340,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -319,19 +557,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.202 billion (2006)",
+			"Exports": {
+				"usd": 1202000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "sugar, garments, gold, timber, fish, molasses, coconut oil",
 		"Exports - partners": "US 15.21%, Australia 12.11%, UK 11.23%, Samoa 5.39%, Tonga 4.74%, Japan 4.44% (2009)",
 		"Imports": {
-			"Imports": "$3.12 billion (2006)",
+			"Imports": {
+				"usd": 3120000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "manufactured goods, machinery and transport equipment, petroleum products, food, chemicals",
 		"Imports - partners": "Singapore 27.27%, Australia 19.36%, NZ 15.15%, China 6.92%, India 5.23%, Thailand 4.25% (2009)",
 		"Debt - external": {
-			"Debt - external": "$127 million (2004 est.)",
+			"Debt - external": {
+				"usd": 127000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA",
@@ -340,11 +584,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "136,800 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "640,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -355,44 +599,56 @@
 		"Broadcast media": "Fiji TV, a publicly-traded company, operates a free-to-air channel as well as the Sky Fiji and Sky Pacific multi-channel pay-TV services; state-owned commercial company, Fiji Broadcasting Corporation, Ltd, operates 6 radio stations - 2 public broadcasters and 4 commercial broadcasters with multiple repeaters; 5 radio stations with repeaters operated by Communications Fiji, Ltd; transmissions of multiple international broadcasters are available (2009)",
 		"Internet country code": ".fj",
 		"Internet hosts": {
-			"Internet hosts": "17,088 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "28 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "24",
-			"914 to 1,523 m:": "5",
-			"under 914 m:": "19 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Railways": {
-			"total:": "597 km",
+			"total:": {
+				"quantity": 597,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "597 km 0.600-m gauge"
 		},
 		"Roadways": {
-			"total:": "3,440 km",
+			"total:": {
+				"quantity": 3440,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "1,692 km",
-			"unpaved:": "1,748 km (2000)"
+			"paved:": {
+				"quantity": 1692,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 1748,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "203 km (122 km are navigable by motorized craft and 200-metric-ton barges) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "10",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger 4, passenger/cargo 4, roll on/roll off 2",
 			"foreign-owned:": "2 (Australia 2) (2010)"
@@ -403,16 +659,16 @@
 		"Military branches": "Republic of Fiji Military Forces (RFMF): Land Forces, Naval Forces (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "233,240",
-			"females age 16-49:": "222,587 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "183,730",
-			"females age 16-49:": "188,325 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "8,403",
-			"female:": "8,039 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

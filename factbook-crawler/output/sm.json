@@ -5,20 +5,44 @@
 	"background": "The third smallest state in Europe (after the Holy See and Monaco), San Marino also claims to be the world's oldest republic. According to tradition, it was founded by a Christian stonemason named Marinus in A.D. 301. San Marino's foreign policy is aligned with that of the European Union, although it is not a member; social and political trends in the republic track closely with those of its larger neighbor, Italy.",
 	"geo": {
 		"Location": "Southern Europe, an enclave in central Italy",
-		"Geographic coordinates": "43 46 N, 12 25 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 43,
+				"seconds": 46
+			},
+			"E": {
+				"minutes": 12,
+				"seconds": 25
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "61 sq km",
+			"total:": {
+				"quantity": 61,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "61 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 61,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about one third times the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "39 km",
+			"total:": {
+				"quantity": 39,
+				"unit": "km"
+			},
 			"border countries:": "Italy 39 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "Mediterranean; mild to cool winters; warm, sunny summers",
 		"Terrain": "rugged mountains",
@@ -28,9 +52,18 @@
 		},
 		"Natural resources": "building stone",
 		"Land use": {
-			"arable land:": "16.67%",
-			"permanent crops:": "0%",
-			"other:": "83.33% (2005)"
+			"arable land:": {
+				"quantity": 16.67,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 83.33,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "NA",
@@ -43,60 +76,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "31,817 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "16.6% (male 2,821/female 2,474)",
-			"15-64 years:": "65.4% (male 10,076/female 10,734)",
+			"0-14 years:": {
+				"quantity": 16.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.4,
+				"unit": "%"
+			},
 			"65 years and over:": "18% (male 2,537/female 3,175) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "42.5 years",
-			"male:": "41.7 years",
-			"female:": "43.2 years (2011 est.)"
+			"total:": {
+				"quantity": 42.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 41.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.043% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.043,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.02 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.02,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "7.89 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 7.89,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "9.3 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 9.3,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "94% of total population (2010)",
-			"rate of urbanization:": "0.6% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 94,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.6,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.095 male(s)/female",
-			"under 15 years:": "1.14 male(s)/female",
-			"15-64 years:": "0.94 male(s)/female",
-			"65 years and over:": "0.8 male(s)/female",
-			"total population:": "0.94 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.095,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.14,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.72 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.72,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "4.9 deaths/1,000 live births",
-			"female:": "4.52 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 4.9,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.52,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "83.01 years",
+			"total population:": {
+				"quantity": 83.01,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "80.5 years",
-			"female:": "85.74 years (2011 est.)"
+			"male:": {
+				"quantity": 80.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 85.74,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.47 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.47,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -111,9 +213,18 @@
 		"Languages": "Italian",
 		"Literacy": {
 			"definition:": "age 10 and over can read and write",
-			"total population:": "96%",
-			"male:": "97%",
-			"female:": "95%"
+			"total population:": {
+				"quantity": 96,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 97,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 95,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -128,7 +239,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "San Marino",
-			"geographic coordinates:": "43 56 N, 12 25 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 43,
+					"seconds": 56
+				},
+				"E": {
+					"minutes": 12,
+					"seconds": 25
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -167,34 +287,61 @@
 	"economy": {
 		"Economy - overview": "San Marino's economy relies heavily on its tourism and banking industries, as well as on the manufacture and export of ceramics, clothing, fabrics, furniture, paints, spirits, tiles, and wine. The per capita level of output and standard of living are comparable to those of the most prosperous regions of Italy, which supplies much of its food. San Marino boasts the world's longest life expectancy for men with 80 years. The economy benefits from foreign investment due to its relatively low corporate taxes and low taxes on interest earnings. San Marino has recently faced increased international pressure to improve cooperation with foreign tax authorities and transparency within its own banking sector, which generates about one-fifth of the country's tax revenues. Italy's implementation in October 2009 of a tax amnesty to repatriate untaxed funds held abroad has resulted in financial outflows from San Marino to Italy worth more than $4.5 billion. Such outflows, combined with a money-laundering scandal at San Marino's largest financial institution and the recent global economic downturn, have contributed to a deep recession and growing budget deficit. Industrial production declined sharply in 2010, especially in the textile sector. However, San Marino has little national debt, and an unemployment rate less than half the size of Italy's. The San Marino government has adopted measures to counter the downturn, including subsidized credit to businesses. San Marino also continues to work towards harmonizing its fiscal laws with EU members and international standards. In September 2009, the OECD removed San Marino from its list of tax havens that have yet to fully implement global tax standards, and in 2010 San Marino signed Tax Information Exchange Agreements with most major countries. The future of the country's economy will be heavily influenced by the signing of a financial information exchange agreement with Italy, which many Italian investors see as fundamental for their business operations with San Marino.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.137 billion (2009)",
+			"GDP (purchasing power parity)": {
+				"usd": 1137000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.535 billion (2009)",
+		"GDP (official exchange rate)": {
+			"usd": 1535000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-13% (2009 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$36,200 (2009)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.1%",
-			"industry:": "39.2%",
-			"services:": "60.7% (2009)"
+			"agriculture:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 39.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 60.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "22,950 (June 2010)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "0.2%",
-			"industry:": "36.3%",
-			"services:": "63.5% (June 2010 est.)"
+			"agriculture:": {
+				"quantity": 0.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 36.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3.8% (November 2010)",
+			"Unemployment rate": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -203,21 +350,33 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$882.1 million",
-			"expenditures:": "$940.4 million (2009)"
+			"revenues:": {
+				"usd": 882100000
+			},
+			"expenditures:": {
+				"usd": 940400000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.8% (June 2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.39% (September 2010)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.39,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": "$NA (31 December 2008)",
 		"Stock of broad money": "$NA (31 December 2008)",
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$8.822 billion (30 September 2010)",
+			"Stock of domestic credit": {
+				"usd": 8822000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -228,12 +387,16 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$2.436 billion (2009)",
+			"Exports": {
+				"usd": 2436000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "building stone, lime, wood, chestnuts, wheat, wine, baked goods, hides, ceramics",
 		"Imports": {
-			"Imports": "$2.165 billion (2009)",
+			"Imports": {
+				"usd": 2165000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "wide variety of consumer manufactures, food",
@@ -242,11 +405,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "21,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "24,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -257,7 +420,7 @@
 		"Broadcast media": "state-owned public broadcaster operates 1 TV station and 2 radio stations; receives radio and TV broadcasts from Italy (2008)",
 		"Internet country code": ".sm",
 		"Internet hosts": {
-			"Internet hosts": "8,895 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
@@ -269,15 +432,15 @@
 		"Military branches": "no regular military forces; voluntary Military Force (Corpi Militari) performs ceremonial duties and limited police support functions (2010)",
 		"Military service age and obligation": "16-55 for voluntary service in Voluntary Military Force (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "6,892 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "5,565",
-			"females age 16-49:": "6,067 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "186",
-			"female:": "166 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

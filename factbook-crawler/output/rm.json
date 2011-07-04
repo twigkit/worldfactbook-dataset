@@ -5,21 +5,54 @@
 	"background": "After almost four decades under US administration as the easternmost part of the UN Trust Territory of the Pacific Islands, the Marshall Islands attained independence in 1986 under a Compact of Free Association. Compensation claims continue as a result of US nuclear testing on some of the atolls between 1947 and 1962. The Marshall Islands hosts the US Army Kwajalein Atoll (USAKA) Reagan Missile Test Site, a key installation in the US missile defense network.",
 	"geo": {
 		"Location": "Oceania, two archipelagic island chains of 29 atolls, each made up of many small islets, and five single islands in the North Pacific Ocean, about half way between Hawaii and Australia",
-		"Geographic coordinates": "9 00 N, 168 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 9,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 168,
+				"seconds": 0
+			}
+		},
 		"Map references": "Oceania",
 		"Area": {
-			"total:": "181 sq km",
+			"total:": {
+				"quantity": 181,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "181 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 181,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "370.4 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 370.4,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot and humid; wet season May to November; islands border typhoon belt",
 		"Terrain": "low coral limestone and sand islands",
@@ -29,11 +62,23 @@
 		},
 		"Natural resources": "coconut products, marine products, deep seabed minerals",
 		"Land use": {
-			"arable land:": "11.11%",
-			"permanent crops:": "44.44%",
-			"other:": "44.45% (2005)"
+			"arable land:": {
+				"quantity": 11.11,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 44.44,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 44.45,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "infrequent typhoons",
 		"Environment - current issues": "inadequate supplies of potable water; pollution of Majuro lagoon from household waste and discharges from fishing vessels",
 		"Environment - international agreements": {
@@ -44,29 +89,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "67,182 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "38.2% (male 13,062/female 12,576)",
-			"15-64 years:": "58.8% (male 20,171/female 19,340)",
+			"0-14 years:": {
+				"quantity": 38.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 58.8,
+				"unit": "%"
+			},
 			"65 years and over:": "3% (male 988/female 1,045) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.8 years",
-			"male:": "21.8 years",
-			"female:": "21.8 years (2011 est.)"
+			"total:": {
+				"quantity": 21.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.8,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.954% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.954,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "29.11 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 29.11,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.38 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.38,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -74,31 +143,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "72% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 72,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MAJURO (capital) 30,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.04 male(s)/female",
-			"65 years and over:": "0.94 male(s)/female",
-			"total population:": "1.04 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "23.74 deaths/1,000 live births",
+			"total:": {
+				"quantity": 23.74,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "26.69 deaths/1,000 live births",
-			"female:": "20.64 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 26.69,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 20.64,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.76 years",
+			"total population:": {
+				"quantity": 71.76,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "69.67 years",
-			"female:": "73.95 years (2011 est.)"
+			"male:": {
+				"quantity": 69.67,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 73.95,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.44 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.44,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -117,14 +228,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "93.7%",
-			"male:": "93.6%",
-			"female:": "93.7% (1999)"
+			"total population:": {
+				"quantity": 93.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 93.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 93.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "13 years",
-			"male:": "11 years",
-			"female:": "11 years (2003)"
+			"total:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -139,7 +268,16 @@
 		"Government type": "constitutional government in free association with the US; the Compact of Free Association entered into force on 21 October 1986 and the Amended Compact entered into force in May 2004",
 		"Capital": {
 			"name:": "Majuro",
-			"geographic coordinates:": "7 06 N, 171 23 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 7,
+					"seconds": 6
+				},
+				"E": {
+					"minutes": 171,
+					"seconds": 23
+				}
+			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "33 municipalities; Ailinginae, Ailinglaplap, Ailuk, Arno, Aur, Bikar, Bikini, Bokak, Ebon, Enewetak, Erikub, Jabat, Jaluit, Jemo, Kili, Kwajalein, Lae, Lib, Likiep, Majuro, Maloelap, Mejit, Mili, Namorik, Namu, Rongelap, Rongrik, Toke, Ujae, Ujelang, Utirik, Wotho, Wotje",
@@ -185,34 +323,61 @@
 	"economy": {
 		"Economy - overview": "US Government assistance is the mainstay of this tiny island economy. The Marshall Islands received more than $1 billion in aid from the US from 1986-2002. Agricultural production, primarily subsistence, is concentrated on small farms; the most important commercial crops are coconuts and breadfruit. Small-scale industry is limited to handicrafts, tuna processing, and copra. The tourist industry, now a small source of foreign exchange employing less than 10% of the labor force, remains the best hope for future added income. The islands have few natural resources, and imports far exceed exports. Under the terms of the Amended Compact of Free Association, the US will provide millions of dollars per year to the Marshall Islands (RMI) through 2023, at which time a Trust Fund made up of US and RMI contributions will begin perpetual annual payouts. Government downsizing, drought, a drop in construction, the decline in tourism, and less income from the renewal of fishing vessel licenses have held GDP growth to an average of 1% over the past decade.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$133.5 million (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 133500000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$161.7 million (2008 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 161700000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-0.3% (2008 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2008 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "31.7%",
-			"industry:": "14.9%",
-			"services:": "53.4% (2004 est.)"
+			"agriculture:": {
+				"quantity": 31.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 14.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 53.4,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "14,680 (2000)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "21.4%",
-			"industry:": "20.9%",
-			"services:": "57.7% (2000)"
+			"agriculture:": {
+				"quantity": 21.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 57.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "36% (2006 est.)",
+			"Unemployment rate": {
+				"quantity": 36,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -221,39 +386,52 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$123.3 million",
-			"expenditures:": "$1.213 billion (2008)"
+			"revenues:": {
+				"usd": 123300000
+			},
+			"expenditures:": {
+				"usd": 1213000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "12.9% (2008 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 12.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coconuts, tomatoes, melons, taro, breadfruit, fruits; pigs, chickens",
 		"Industries": "copra, tuna processing, tourism, craft items (from seashells, wood, and pearls)",
 		"Industrial production growth rate": "NA%",
 		"Exports": {
-			"Exports": "$19.4 million (2008 est.)",
+			"Exports": {
+				"usd": 19400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "copra cake, coconut oil, handicrafts, fish",
 		"Imports": {
-			"Imports": "$79.4 million (2008 est.)",
+			"Imports": {
+				"usd": 79400000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, fuels, beverages and tobacco",
 		"Debt - external": {
-			"Debt - external": "$87 million (2008 est.)",
+			"Debt - external": {
+				"usd": 87000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -264,32 +442,32 @@
 		"Broadcast media": "no television broadcast station; a cable network is available on Majuro with programming via videotape replay and satellite relays; 4 radio broadcast stations; American Armed Forces Radio and Television Service (AFRTS) provides satellite radio and television service to Kwajalein Atoll (2009)",
 		"Internet country code": ".mh",
 		"Internet hosts": {
-			"Internet hosts": "3 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "15 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "11",
-			"914 to 1,523 m:": "10",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
 			"total:": "2,028 km (includes 75 km of expressways) (2007)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "1,381",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 415, cargo 63, chemical tanker 314, combination ore/oil 2, container 206, liquefied gas 83, passenger 7, passenger/cargo 1, petroleum tanker 259, refrigerated cargo 14, roll on/roll off 9, vehicle carrier 7",
 			"foreign-owned:": "1,284 (Australia 1, Bermuda 34, Brazil 1, Canada 4, China 16, Croatia 12, Cyprus 38, Denmark 7, Egypt 1, Germany 247, Greece 358, Hong Kong 3, India 8, Iraq 2, Isle of Man 2, Israel 1, Italy 1, Japan 41, Jersey 9, Latvia 18, Malaysia 11, Mexico 4, Monaco 21, Netherlands 16, Norway 57, Pakistan 1, Qatar 24, Romania 2, Russia 6, Singapore 28, Slovenia 6, South Korea 25, Switzerland 12, Taiwan 2, Turkey 72, UAE 17, UK 7, Ukraine 1, US 168)"
@@ -299,15 +477,15 @@
 	"military": {
 		"Military branches": "no regular military forces; under the 1983 Compact of Free Association, the US has full authority and responsibility for security and defense of the Marshall Islands; Marshall Islands Police (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "16,446 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "13,568",
-			"females age 16-49:": "13,606 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "653",
-			"female:": "631 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

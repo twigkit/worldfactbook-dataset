@@ -5,19 +5,46 @@
 	"background": "The population of the Faroe Islands is largely descended from Viking settlers who arrived in the 9th century. The islands have been connected politically to Denmark since the 14th century. A high degree of self government was granted the Faroese in 1948, who have autonomy over most internal affairs while Denmark is responsible for justice, defense, and foreign affairs. The Faroe Islands are not part of the European Union.",
 	"geo": {
 		"Location": "Northern Europe, island group between the Norwegian Sea and the North Atlantic Ocean, about half way between Iceland and Norway",
-		"Geographic coordinates": "62 00 N, 7 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 62,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 7,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "1,393 sq km",
+			"total:": {
+				"quantity": 1393,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,393 sq km",
-			"water:": "0 sq km (some lakes and streams)"
+			"land:": {
+				"quantity": 1393,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "eight times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "1,117 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1117,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or agreed boundaries or median line",
 			"exclusive fishing zone:": "200 nm or agreed boundaries or median line"
 		},
@@ -29,11 +56,23 @@
 		},
 		"Natural resources": "fish, whales, hydropower, possible oil and gas",
 		"Land use": {
-			"arable land:": "2.14%",
-			"permanent crops:": "0%",
-			"other:": "97.86% (2005)"
+			"arable land:": {
+				"quantity": 2.14,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.86,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "0 sq km",
+		"Irrigated land": {
+			"quantity": 0,
+			"unit": "sq km"
+		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "NA",
 		"Environment - international agreements": {
@@ -43,60 +82,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "49,267 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "21% (male 5,362/female 4,975)",
-			"15-64 years:": "64.2% (male 16,837/female 14,788)",
+			"0-14 years:": {
+				"quantity": 21,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 64.2,
+				"unit": "%"
+			},
 			"65 years and over:": "14.8% (male 3,487/female 3,818) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "37.3 years",
-			"male:": "36.6 years",
-			"female:": "38.1 years (2011 est.)"
+			"total:": {
+				"quantity": 37.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 38.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.428% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.428,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "12.95 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 12.95,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.67 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.67,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "40% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 40,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.071 male(s)/female",
-			"under 15 years:": "1.07 male(s)/female",
-			"15-64 years:": "1.15 male(s)/female",
-			"65 years and over:": "0.9 male(s)/female",
-			"total population:": "1.09 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.071,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.15,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.9,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.06 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.06,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "6.31 deaths/1,000 live births",
-			"female:": "5.79 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 6.31,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.79,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "79.72 years",
+			"total population:": {
+				"quantity": 79.72,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "77.25 years",
-			"female:": "82.35 years (2011 est.)"
+			"male:": {
+				"quantity": 77.25,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.35,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.42 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.42,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -124,7 +232,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Torshavn",
-			"geographic coordinates:": "62 01 N, 6 46 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 62,
+					"seconds": 1
+				},
+				"W": {
+					"minutes": 6,
+					"seconds": 46
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -158,34 +275,64 @@
 	"economy": {
 		"Economy - overview": "The Faroese economy is dependent on fishing, which makes the economy vulnerable to price swings. The sector accounts for about 95% of exports and nearly half of GDP. In early 2008 the Faroese economy began to slow as a result of smaller catches and historically high oil prices that continue to trouble the economy. Reduced catches, especially of cod and haddock, have continued to strain the Faroese economy. GDP grew 0.5% in 2008-09. The slowdown in the Faroese economy followed a strong performance since the mid-1990s with annual growth rates averaging close to 6%, mostly a result of increased fish landings and salmon farming, and high export prices. Unemployment reached its lowest level in the first half of 2008, but increased to 3.9% in 2009 and is rising. The Faroese Home Rule Government produced increasing budget surpluses that helped to reduce the large public debt, most of it to Denmark. However, total dependence on fishing and salmon farming make the Faroese economy very vulnerable to fluctuations in world demand. In addition, budget surpluses turned to deficits in 2008-09, and the economy at both the country and local level is running large deficits. Initial discoveries of oil in the Faroese area give hope for eventual oil production, which may provide a foundation for a more diversified economy and less dependence on Danish economic assistance. Aided by an annual subsidy from Denmark amounting to about 6% of Faroese GDP, the Faroese have a standard of living almost equal to that of Denmark and Greenland.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$1.59 billion (2008 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 1590000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.45 billion (2008 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2450000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.5% (2008 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$32,900 (2008 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "16%",
-			"industry:": "29%",
-			"services:": "55% (2007 est.)"
+			"agriculture:": {
+				"quantity": 16,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 29,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 55,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "34,680 (November 2008)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "10.2%",
-			"industry:": "20.5%",
-			"services:": "69.2% (2008)"
+			"agriculture:": {
+				"quantity": 10.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 69.2,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "3.9% (2009)",
+			"Unemployment rate": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -194,8 +341,12 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$1.163 billion",
-			"expenditures:": "$1.139 billion"
+			"revenues:": {
+				"usd": 1163000000
+			},
+			"expenditures:": {
+				"usd": 1139000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
 			"Inflation rate (consumer prices)": "-1.1% (2009)",
@@ -204,84 +355,135 @@
 		"Agriculture - products": "milk, potatoes, vegetables; sheep; salmon, other fish",
 		"Industries": "fishing, fish processing, small ship repair and refurbishment, handicrafts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8% (2007 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "275.8 million kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 275800000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "264.4 million kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 264399999.99999997,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008)",
-		"Electricity - imports": "0 kWh (2008)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "5,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 5000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2008)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,922 bbl/day (2008)",
+			"Oil - imports": {
+				"quantity": 4922,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$848 million (2008)",
+			"Exports": {
+				"usd": 848000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish and fish products 94%, stamps, ships",
 		"Exports - partners": "Hungary 36.26%, Denmark 21.36%, UK 12.21%, Nigeria 7.72%, US 6.49%, Norway 5.46% (2009)",
 		"Imports": {
-			"Imports": "$983 million (2008)",
+			"Imports": {
+				"usd": 983000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "consumer goods 36%, raw materials and semi-manufactures 32%, machinery and transport equipment 29%, fuels, fish, salt",
 		"Imports - partners": "Denmark 54.42%, Norway 20.76%, Sweden 4.79% (2009)",
 		"Debt - external": {
-			"Debt - external": "$68.1 million (2006)",
+			"Debt - external": {
+				"usd": 68100000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "20,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "57,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -292,26 +494,29 @@
 		"Broadcast media": "1 publicly-owned TV station; the Faroese telecommunications company distributes local and international channels through its digital terrestrial network; publicly-owned radio station supplemented by 2 privately-owned stations broadcasting over multiple frequencies (2008)",
 		"Internet country code": ".fo",
 		"Internet hosts": {
-			"Internet hosts": "8,936 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null
 		},
 		"Roadways": {
-			"total:": "463 km (2006)",
+			"total:": {
+				"quantity": 463,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "26",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 11, chemical tanker 6, container 2, passenger 1, passenger/cargo 3, refrigerated cargo 2, roll on/roll off 1",
 			"foreign-owned:": "11 (Norway 6, Sweden 5) (2010)"
@@ -321,15 +526,15 @@
 	"military": {
 		"Military branches": "no regular military forces",
 		"Manpower available for military service": {
-			"males age 16-49:": "11,831 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "9,827",
-			"females age 16-49:": "8,418 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "372",
-			"female:": "373 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": "NA",
 		"Military - note": {}

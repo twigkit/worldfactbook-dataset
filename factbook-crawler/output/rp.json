@@ -5,20 +5,47 @@
 	"background": "The Philippine Islands became a Spanish colony during the 16th century; they were ceded to the US in 1898 following the Spanish-American War. In 1935 the Philippines became a self-governing commonwealth. Manuel QUEZON was elected president and was tasked with preparing the country for independence after a 10-year transition. In 1942 the islands fell under Japanese occupation during World War II, and US forces and Filipinos fought together during 1944-45 to regain control. On 4 July 1946 the Republic of the Philippines attained its independence. A 20-year rule by Ferdinand MARCOS ended in 1986, when a \"people power\" movement in Manila (\"EDSA 1\") forced him into exile and installed Corazon AQUINO as president. Her presidency was hampered by several coup attempts that prevented a return to full political stability and economic development. Fidel RAMOS was elected president in 1992. His administration was marked by increased stability and by progress on economic reforms. In 1992, the US closed its last military bases on the islands. Joseph ESTRADA was elected president in 1998. He was succeeded by his vice-president, Gloria MACAPAGAL-ARROYO, in January 2001 after ESTRADA's stormy impeachment trial on corruption charges broke down and another \"people power\" movement (\"EDSA 2\") demanded his resignation. MACAPAGAL-ARROYO was elected to a six-year term as president in May 2004. Her presidency was marred by several corruption allegations but the Philippine economy was one of the few to avoid contraction following the 2008 global financial crisis, expanding each year of her administration. Benigno AQUINO III was elected to a six-year term as president in May 2010. The Philippine Government faces threats from several groups on the US Government's Foreign Terrorist Organization list. Manila has waged a decades-long struggle against ethnic Moro insurgencies in the southern Philippines, which has led to a peace accord with the Moro National Liberation Front and on-again/off-again peace talks with the Moro Islamic Liberation Front. The decades-long Maoist-inspired New People's Army insurgency also operates through much of the country.",
 	"geo": {
 		"Location": "Southeastern Asia, archipelago between the Philippine Sea and the South China Sea, east of Vietnam",
-		"Geographic coordinates": "13 00 N, 122 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 13,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 122,
+				"seconds": 0
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "300,000 sq km",
+			"total:": {
+				"quantity": 300000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "298,170 sq km",
-			"water:": "1,830 sq km"
+			"land:": {
+				"quantity": 298170,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 1830,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Arizona",
-		"Land boundaries": "0 km",
-		"Coastline": "36,289 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 36289,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"territorial sea:": "irregular polygon extending up to 100 nm from coastline as defined by 1898 treaty; since late 1970s has also claimed polygonal-shaped area in South China Sea up to 285 nm in breadth",
-			"exclusive economic zone:": "200 nm",
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "to depth of exploitation"
 		},
 		"Climate": "tropical marine; northeast monsoon (November to April); southwest monsoon (May to October)",
@@ -29,15 +56,36 @@
 		},
 		"Natural resources": "timber, petroleum, nickel, cobalt, silver, gold, salt, copper",
 		"Land use": {
-			"arable land:": "19%",
-			"permanent crops:": "16.67%",
-			"other:": "64.33% (2005)"
+			"arable land:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 16.67,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 64.33,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "152,500 sq km (2008)",
-		"Total renewable water resources": "479 cu km (1999)",
+		"Irrigated land": {
+			"quantity": 152500,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 479,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "28.52  cu km/yr (17%/9%/74%)",
-			"per capita:": "343  cu m/yr (2000)"
+			"total:": {
+				"quantity": 28.52,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 343,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "astride typhoon belt, usually affected by 15 and struck by five to six cyclonic storms per year; landslides; active volcanoes; destructive earthquakes; tsunamis",
@@ -52,29 +100,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "101,833,938 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "34.6% (male 17,999,279/female 17,285,040)",
-			"15-64 years:": "61.1% (male 31,103,967/female 31,097,203)",
+			"0-14 years:": {
+				"quantity": 34.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 61.1,
+				"unit": "%"
+			},
 			"65 years and over:": "4.3% (male 1,876,805/female 2,471,644) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.9 years",
-			"male:": "22.4 years",
-			"female:": "23.4 years (2011 est.)"
+			"total:": {
+				"quantity": 22.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 23.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.903% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.903,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "25.34 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 25.34,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.02 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.02,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,31 +154,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "49% of total population (2010)",
-			"rate of urbanization:": "2.3% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 49,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.3,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MANILA (capital) 11.449 million; Davao 1.48 million; Cebu City 845,000; Zamboanga 827,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.76 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.76,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "19.34 deaths/1,000 live births",
+			"total:": {
+				"quantity": 19.34,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "21.84 deaths/1,000 live births",
-			"female:": "16.71 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 21.84,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 16.71,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.66 years",
+			"total population:": {
+				"quantity": 71.66,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.72 years",
-			"female:": "74.74 years (2011 est.)"
+			"male:": {
+				"quantity": 68.72,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 74.74,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.19 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.19,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -114,7 +228,7 @@
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "8,700 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -138,14 +252,32 @@
 		"Languages": "Filipino (official; based on Tagalog) and English (official); eight major dialects - Tagalog, Cebuano, Ilocano, Hiligaynon or Ilonggo, Bicol, Waray, Pampango, and Pangasinan",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92.6%",
-			"male:": "92.5%",
-			"female:": "92.7% (2000 census)"
+			"total population:": {
+				"quantity": 92.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 92.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 92.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2008)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -159,7 +291,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Manila",
-			"geographic coordinates:": "14 35 N, 121 00 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 14,
+					"seconds": 35
+				},
+				"E": {
+					"minutes": 121,
+					"seconds": 0
+				}
+			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -211,182 +352,307 @@
 	"economy": {
 		"Economy - overview": "Philippine GDP grew 7.3% in 2010, spurred by consumer demand, a rebound in exports and investments, and election-related spending. The economy weathered the 2008-09 global recession better than its regional peers due to minimal exposure to troubled international securities, lower dependence on exports, relatively resilient domestic consumption, large remittances from four- to five-million overseas Filipino workers, and a growing business process outsourcing industry. Economic growth in the Philippines averaged 4.5% during the MACAPAGAL-ARROYO administration. Despite this growth, poverty worsened, because of a high population growth rate and inequitable distribution of income. The AQUINO administration is working to reduce the government deficit from 3.9% of GDP, when it took office, to 2% of GDP by 2013. The government has had little difficulty issuing debt both locally and internationally to finance the deficits. AQUINO's first budget emphasizes education, health, conditional cash transfers for the poor, and other social spending programs, relying on the private sector to finance important infrastructure projects. Weak tax collection, exacerbated by new tax breaks and incentives, has limited the government's ability to address major challenges. The AQUINO administration has vowed to focus on improving tax collection efficiency - rather than imposing new taxes - as a part of its good governance platform.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$351.4 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 351400000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$188.7 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 188700000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.3% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$3,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "13.9%",
-			"industry:": "31.3%",
-			"services:": "54.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 13.9,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 54.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "38.9 million (2010 est.)",
+			"Labor force": 38900000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "33%",
-			"industry:": "15%",
-			"services:": "52% (2010 est.)"
+			"agriculture:": {
+				"quantity": 33,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 52,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.3% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "32.9% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 32.9,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.4%",
-			"highest 10%:": "31.2% (2006)"
+			"lowest 10%:": {
+				"quantity": 2.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 31.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "45.8 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "16% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 16,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$26.84 billion",
-			"expenditures:": "$33.82 billion (2010 est.)"
+			"revenues:": {
+				"usd": 26840000000
+			},
+			"expenditures:": {
+				"usd": 33820000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "56.5% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 56.5,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.39% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.39,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$30.65 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 30650000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$97.35 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 97350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$97.63 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 97630000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$202.3 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 202300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "sugarcane, coconuts, rice, corn, bananas, cassavas, pineapples, mangoes; pork, eggs, beef; fish",
 		"Industries": "electronics assembly, garments, footwear, pharmaceuticals, chemicals, wood products, food processing, petroleum refining, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "12.1% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 12.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "61.93 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 61930000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "54.4 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 54400000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2009 est.)",
-		"Electricity - imports": "0 kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "9,671 bbl/day (July 2010 est.)",
+			"Oil - production": {
+				"quantity": 9671,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "307,200 bbl/day (September 2010 est.)",
+			"Oil - consumption": {
+				"quantity": 307200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "28,900 bbl/day (September 2010 est.)",
+			"Oil - exports": {
+				"quantity": 28900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "338,400 bbl/day (September 2010 est.)",
+			"Oil - imports": {
+				"quantity": 338400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "168 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 168000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "2.94 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 2940000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "2.94 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 2940000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "108.7 billion cu m (1 January 2011 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 108700000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$9.51 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 9510000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$50.72 billion (2010 est.)",
+			"Exports": {
+				"usd": 50720000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "semiconductors and electronic products, transport equipment, garments, copper products, petroleum products, coconut oil, fruits",
 		"Exports - partners": "US 17.6%, Japan 16.2%, Netherlands 9.8%, Hong Kong 8.6%, China 7.7%, Germany 6.5%, Singapore 6.2%, South Korea 4.8% (2009 est.)",
 		"Imports": {
-			"Imports": "$59.9 billion (2010 est.)",
+			"Imports": {
+				"usd": 59900000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "electronic products, mineral fuels, machinery and transport equipment, iron and steel, textile fabrics, grains, chemicals, plastic",
 		"Imports - partners": "Japan 12.5%, US 12%, China 8.8%, Singapore 8.7%, South Korea 7.9%, Taiwan 7.1%, Thailand 5.7% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$62.37 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 62370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$59.77 billion (30 September 2010 est.)",
+			"Debt - external": {
+				"usd": 59770000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$24.5 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 24500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$6.495 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 6495000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "6.783 million (2010)",
+			"Telephones - main lines in use": 6783000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "92.227 million (2010)",
+			"Telephones - mobile cellular": 92227000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -397,51 +663,63 @@
 		"Broadcast media": "multiple national private TV and radio networks; multi-channel satellite and cable TV systems available; five national or major TV networks; three government-owned networks; five major cable TV networks and a government-operated national TV and radio network; about 300 analog television stations; more than 1,000 radio stations (2010)",
 		"Internet country code": ".ph",
 		"Internet hosts": {
-			"Internet hosts": "394,990 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "254 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "85",
-			"over 3,047 m:": "4",
-			"2,438 to 3,047 m:": "8",
-			"1,524 to 2,437 m:": "29",
-			"914 to 1,523 m:": "34"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "169",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "66",
-			"under 914 m:": "99 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 7 km; oil 107 km; refined products 181 km (2010)",
 		"Railways": {
-			"total:": "995 km",
+			"total:": {
+				"quantity": 995,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "995 km 1.067-m gauge (484 km are in operation) (2010)"
 		},
 		"Roadways": {
-			"total:": "213,151 km",
+			"total:": {
+				"quantity": 213151,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "54,481 km",
-			"unpaved:": "158,670 km (2009)"
+			"paved:": {
+				"quantity": 54481,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 158670,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "3,219 km (limited to vessels with draft less than 1.5 m) (2011)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "428",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 75, cargo 135, carrier 16, chemical tanker 26, container 13, liquefied gas 5, passenger 7, passenger/cargo 68, petroleum tanker 45, refrigerated cargo 17, roll on/roll off 12, vehicle carrier 9",
-			"foreign-owned:": "156 (Bermuda 43, China 4, Greece 4, Japan 82, Malaysia 1, Netherlands 18, Singapore 1, South Korea 1, Taiwan 1, UAE 1)",
+			"foreign-owned:": null,
 			"registered in other countries:": "7 (Cyprus 1, Panama 6) (2010)"
 		},
 		"Ports and terminals": "Batangas, Cagayan de Oro, Cebu, Davao, Liman, Manila",
@@ -451,16 +729,16 @@
 		"Military branches": "Armed Forces of the Philippines (AFP): Army, Navy (includes Marine Corps and Coast Guard), Air Force (2011)",
 		"Military service age and obligation": "18-25 years of age (officers 21-29) for compulsory and voluntary military service; applicants must be single male or female Philippine citizens (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "25,614,135",
-			"females age 16-49:": "25,035,061 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "20,142,940",
-			"females age 16-49:": "21,427,792 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "1,060,319",
-			"female:": "1,021,069 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

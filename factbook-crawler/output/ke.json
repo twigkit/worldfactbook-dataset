@@ -5,23 +5,53 @@
 	"background": "Founding president and liberation struggle icon Jomo KENYATTA led Kenya from independence in 1963 until his death in 1978, when President Daniel Toroitich arap MOI took power in a constitutional succession. The country was a de facto one-party state from 1969 until 1982 when the ruling Kenya African National Union (KANU) made itself the sole legal party in Kenya. MOI acceded to internal and external pressure for political liberalization in late 1991. The ethnically fractured opposition failed to dislodge KANU from power in elections in 1992 and 1997, which were marred by violence and fraud, but were viewed as having generally reflected the will of the Kenyan people. President MOI stepped down in December 2002 following fair and peaceful elections. Mwai KIBAKI, running as the candidate of the multiethnic, united opposition group, the National Rainbow Coalition (NARC), defeated KANU candidate Uhuru KENYATTA and assumed the presidency following a campaign centered on an anticorruption platform. KIBAKI's NARC coalition splintered in 2005 over a constitutional review process. Government defectors joined with KANU to form a new opposition coalition, the Orange Democratic Movement, which defeated the government's draft constitution in a popular referendum in November 2005. KIBAKI's reelection in December 2007 brought charges of vote rigging from ODM candidate Raila ODINGA and unleashed two months of violence in which as many as 1,500 people died. UN-sponsored talks in late February produced a powersharing accord bringing ODINGA into the government in the restored position of prime minister. Kenya in August 2010 adopted a new constitution that eliminates the role of prime minister after the next presidential election.",
 	"geo": {
 		"Location": "Eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania",
-		"Geographic coordinates": "1 00 N, 38 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 1,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 38,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "580,367 sq km",
+			"total:": {
+				"quantity": 580367,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "569,140 sq km",
-			"water:": "11,227 sq km"
+			"land:": {
+				"quantity": 569140,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 11227,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of Nevada",
 		"Land boundaries": {
-			"total:": "3,477 km",
+			"total:": {
+				"quantity": 3477,
+				"unit": "km"
+			},
 			"border countries:": "Ethiopia 861 km, Somalia 682 km, Sudan 232 km, Tanzania 769 km, Uganda 933 km"
 		},
-		"Coastline": "536 km",
+		"Coastline": {
+			"quantity": 536,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "varies from tropical along coast to arid in interior",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "limestone, soda ash, salt, gemstones, fluorspar, zinc, diatomite, gypsum, wildlife, hydropower",
 		"Land use": {
-			"arable land:": "8.01%",
-			"permanent crops:": "0.97%",
-			"other:": "91.02% (2005)"
+			"arable land:": {
+				"quantity": 8.01,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.97,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 91.02,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,030 sq km (2008)",
-		"Total renewable water resources": "30.2 cu km (1990)",
+		"Irrigated land": {
+			"quantity": 1030,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 30.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.58  cu km/yr (30%/6%/64%)",
-			"per capita:": "46  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.58,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 46,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "recurring drought; flooding during rainy seasons",
@@ -55,73 +106,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "41,070,934 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42.2% (male 8,730,845/female 8,603,270)",
-			"15-64 years:": "55.1% (male 11,373,997/female 11,260,402)",
+			"0-14 years:": {
+				"quantity": 42.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 55.1,
+				"unit": "%"
+			},
 			"65 years and over:": "2.7% (male 497,389/female 605,031) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.9 years",
-			"male:": "18.8 years",
-			"female:": "19 years (2011 est.)"
+			"total:": {
+				"quantity": 18.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.462% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.462,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "33.54 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 33.54,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.93 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.93,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "22% of total population (2010)",
-			"rate of urbanization:": "4.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 22,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "NAIROBI (capital) 3.375 million; Mombassa 966,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.02 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "52.29 deaths/1,000 live births",
+			"total:": {
+				"quantity": 52.29,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "55.03 deaths/1,000 live births",
-			"female:": "49.49 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 55.03,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 49.49,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "59.48 years",
+			"total population:": {
+				"quantity": 59.48,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.91 years",
-			"female:": "60.07 years (2011 est.)"
+			"male:": {
+				"quantity": 58.91,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 60.07,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.19 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.19,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "6.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 6.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1.5 million (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": 1500000,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "80,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -144,14 +267,32 @@
 		"Languages": "English (official), Kiswahili (official), numerous indigenous languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "85.1%",
-			"male:": "90.6%",
-			"female:": "79.7% (2003 est.)"
+			"total population:": {
+				"quantity": 85.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 90.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 79.7,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years",
-			"male:": "11 years",
-			"female:": "11 years (2009)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -166,7 +307,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Nairobi",
-			"geographic coordinates:": "1 17 S, 36 49 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 1,
+					"seconds": 17
+				},
+				"E": {
+					"minutes": 36,
+					"seconds": 49
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 provinces and 1 area*; Central, Coast, Eastern, Nairobi Area*, North Eastern, Nyanza, Rift Valley, Western; note - the constitution promulgated in August 2010 designates 47 yet-to-be-defined counties as first-order administrative units",
@@ -215,135 +365,240 @@
 	"economy": {
 		"Economy - overview": "Although the regional hub for trade and finance in East Africa, Kenya has been hampered by corruption and by reliance upon several primary goods whose prices have remained low. In 1997, the IMF suspended Kenya's Enhanced Structural Adjustment Program due to the government's failure to maintain reforms and curb corruption. The IMF, which had resumed loans in 2000 to help Kenya through a drought, again halted lending in 2001 when the government failed to institute several anticorruption measures. In the key December 2002 elections, Daniel Arap MOI's 24-year-old reign ended, and a new opposition government took on the formidable economic problems facing the nation. After some early progress in rooting out corruption and encouraging donor support, the KIBAKI government was rocked by high-level graft scandals in 2005 and 2006. In 2006, the World Bank and IMF delayed loans pending action by the government on corruption. The international financial institutions and donors have since resumed lending, despite little action on the government's part to deal with corruption. Post-election violence in early 2008, coupled with the effects of the global financial crisis on remittance and exports, reduced GDP growth to 1.7 in 2008, but the economy rebounded in 2009-10.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$66.03 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 66030000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$32.16 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 32159999999.999996
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "22%",
-			"industry:": "16%",
-			"services:": "62% (2010 est.)"
+			"agriculture:": {
+				"quantity": 22,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 62,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "17.94 million (2010 est.)",
+			"Labor force": 17940000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "75%",
-			"industry and services:": "25% (2007 est.)"
+			"agriculture:": {
+				"quantity": 75,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 25,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "40% (2008 est.)",
+			"Unemployment rate": {
+				"quantity": 40,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "50% (2000 est.)",
+		"Population below poverty line": {
+			"quantity": 50,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.8%",
-			"highest 10%:": "37.8% (2005)"
+			"lowest 10%:": {
+				"quantity": 1.8,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 37.8,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "42.5 (2008 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "21.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 21.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$7.017 billion",
-			"expenditures:": "$9.045 billion (2010 est.)"
+			"revenues:": {
+				"usd": 7017000000
+			},
+			"expenditures:": {
+				"usd": 9045000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "50.9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 50.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.2% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.8% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$6.333 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 6333000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$15.38 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 15380000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$14.11 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 14110000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$10.76 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 10760000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "tea, coffee, corn, wheat, sugarcane, fruit, vegetables; dairy products, beef, pork, poultry, eggs",
 		"Industries": "small-scale consumer goods (plastic, furniture, batteries, textiles, clothing, soap, cigarettes, flour), agricultural products, horticulture, oil refining; aluminum, steel, lead; cement, commercial ship repair, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "5.223 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 5223000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "4.863 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 4863000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "58.3 million kWh (2007 est.)",
-		"Electricity - imports": "22.5 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 58300000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 22500000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "76,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 76000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "7,270 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 7270,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "80,530 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 80530,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -351,42 +606,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$5.141 billion (2010 est.)",
+			"Exports": {
+				"usd": 5141000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "tea, horticultural products, coffee, petroleum products, fish, cement",
 		"Exports - partners": "UK 11.31%, Netherlands 9.81%, Uganda 9.07%, Tanzania 8.83%, US 5.93%, Pakistan 5.63% (2009)",
 		"Imports": {
-			"Imports": "$10.4 billion (2010 est.)",
+			"Imports": {
+				"usd": 10400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transportation equipment, petroleum products, motor vehicles, iron and steel, resins and plastics",
 		"Imports - partners": "India 11.67%, China 10.58%, UAE 9.32%, South Africa 8.36%, Saudi Arabia 6.53%, US 6.25%, Japan 5.1% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.585 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4585000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$7.935 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 7935000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$2.337 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 2337000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$338 million (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 338000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "664,100 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "19.365 million (2009)",
+			"Telephones - mobile cellular": 19365000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -397,44 +664,56 @@
 		"Broadcast media": "about a half-dozen privately-owned TV stations and a state-owned television broadcaster that operates 2 channels; satellite and cable TV subscription services are available; state-owned radio broadcaster operates 2 national radio channels and provides regional and local radio services in multiple languages; a large number of private radio broadcasters, including provincial stations broadcasting in local languages; transmissions of several international broadcasters are available (2007)",
 		"Internet country code": ".ke",
 		"Internet hosts": {
-			"Internet hosts": "47,676 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "191 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "17",
-			"over 3,047 m:": "4",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "6"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "174",
-			"1,524 to 2,437 m:": "12",
-			"914 to 1,523 m:": "107",
-			"under 914 m:": "55 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "oil 4 km; refined products 928 km (2010)",
 		"Railways": {
-			"total:": "2,066 km",
+			"total:": {
+				"quantity": 2066,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "2,066 km 1.000-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "160,886 km",
+			"total:": {
+				"quantity": 160886,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "11,197 km",
-			"unpaved:": "149,689 km (2008)"
+			"paved:": {
+				"quantity": 11197,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 149689,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(the only significant inland waterway in the country is the part of Lake Victoria within the boundaries of Kenya; Kisumu is the main port and has ferry connections to Uganda and Tanzania) (2010)",
 		"Merchant marine": {
-			"total:": "1",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "petroleum tanker 1",
 			"registered in other countries:": "5 (Comoros 1, Saint Vincent and the Grenadines 2, Tuvalu 1, unknown 1) (2010)"
@@ -445,16 +724,16 @@
 		"Military branches": "Kenya Armed Forces: Kenya Army, Kenya Navy, Kenya Air Force (2010)",
 		"Military service age and obligation": "18-26 years of age for voluntary service (under 18 with parental consent), with a 9-year obligation (7 years for Kenyan Navy); applicants must be Kenyan citizens and provide a national identity card (obtained at age 18) and a school-leaving certificate (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "9,768,140",
-			"females age 16-49:": "9,466,257 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,361,268",
-			"females age 16-49:": "6,106,870 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "422,104",
-			"female:": "416,927 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

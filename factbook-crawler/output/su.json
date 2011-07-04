@@ -5,23 +5,53 @@
 	"background": "Military regimes favoring Islamic-oriented governments have dominated national politics since independence from the UK in 1956. Sudan was embroiled in two prolonged civil wars during most of the remainder of the 20th century. These conflicts were rooted in northern economic, political, and social domination of largely non-Muslim, non-Arab southern Sudanese. The first civil war ended in 1972 but broke out again in 1983. The second war and famine-related effects resulted in more than four million people displaced and, according to rebel estimates, more than two million deaths over a period of two decades. Peace talks gained momentum in 2002-04 with the signing of several accords. The final North/South Comprehensive Peace Agreement (CPA), signed in January 2005, granted the southern rebels autonomy for six years followed by a referendum on independence for Southern Sudan. The referendum was held in January 2011 and indicated overwhelming support for independence. A separate conflict, which broke out in the western region of Darfur in 2003, has displaced nearly two million people and caused an estimated 200,000 to 400,000 deaths. The UN took command of the Darfur peacekeeping operation from the African Union in December 2007. Peacekeeping troops have struggled to stabilize the situation, which has become increasingly regional in scope and has brought instability to eastern Chad. Sudan also has faced large refugee influxes from neighboring countries primarily Ethiopia and Chad. Armed conflict, poor transport infrastructure, and lack of government support have chronically obstructed the provision of humanitarian assistance to affected populations.",
 	"geo": {
 		"Location": "Northern Africa, bordering the Red Sea, between Egypt and Eritrea",
-		"Geographic coordinates": "15 00 N, 30 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 30,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "2,505,813 sq km",
+			"total:": {
+				"quantity": 2505,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "2.376 million sq km",
-			"water:": "129,813 sq km"
+			"land:": {
+				"quantity": 2376000,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 129813,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than one-quarter the size of the US",
 		"Land boundaries": {
-			"total:": "7,687 km",
+			"total:": {
+				"quantity": 7687,
+				"unit": "km"
+			},
 			"border countries:": "Central African Republic 1,165 km, Chad 1,360 km, Democratic Republic of the Congo 628 km, Egypt 1,273 km, Eritrea 605 km, Ethiopia 1,606 km, Kenya 232 km, Libya 383 km, Uganda 435 km"
 		},
-		"Coastline": "853 km",
+		"Coastline": {
+			"quantity": 853,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "18 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 18,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "tropical in south; arid desert in north; rainy season varies by region (April to November)",
@@ -32,15 +62,36 @@
 		},
 		"Natural resources": "petroleum; small reserves of iron ore, copper, chromium ore, zinc, tungsten, mica, silver, gold; hydropower",
 		"Land use": {
-			"arable land:": "6.78%",
-			"permanent crops:": "0.17%",
-			"other:": "93.05% (2005)"
+			"arable land:": {
+				"quantity": 6.78,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.17,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 93.05,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "18,630 sq km (2008)",
-		"Total renewable water resources": "154 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 18630,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 154,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "37.32  cu km/yr (3%/1%/97%)",
-			"per capita:": "1,030  cu m/yr (2000)"
+			"total:": {
+				"quantity": 37.32,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1030,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "dust storms and periodic persistent droughts",
 		"Environment - current issues": "inadequate supplies of potable water; wildlife populations threatened by excessive hunting; soil erosion; desertification; periodic drought",
@@ -52,29 +103,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "45,047,502 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42.1% (male 9,696,726/female 9,286,894)",
-			"15-64 years:": "55.2% (male 12,282,082/female 12,571,424)",
+			"0-14 years:": {
+				"quantity": 42.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 55.2,
+				"unit": "%"
+			},
 			"65 years and over:": "2.7% (male 613,817/female 596,559) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.5 years",
-			"male:": "18.1 years",
-			"female:": "18.9 years (2011 est.)"
+			"total:": {
+				"quantity": 18.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 18.9,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.484% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.484,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "36.12 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 36.12,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "11 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 11,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -82,43 +157,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "40% of total population (2010)",
-			"rate of urbanization:": "3.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 40,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "KHARTOUM (capital) 5.021 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "1.05 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "68.07 deaths/1,000 live births",
+			"total:": {
+				"quantity": 68.07,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "68.77 deaths/1,000 live births",
-			"female:": "67.34 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 68.77,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 67.34,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "55.42 years",
+			"total population:": {
+				"quantity": 55.42,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "54.18 years",
-			"female:": "56.71 years (2011 est.)"
+			"male:": {
+				"quantity": 54.18,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 56.71,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.84 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.84,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "260,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "12,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -141,12 +261,24 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "61.1%",
-			"male:": "71.8%",
-			"female:": "50.5% (2003 est.)"
+			"total population:": {
+				"quantity": 61.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 71.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 50.5,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "4 years (2000)"
+			"total:": {
+				"quantity": 4,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +293,16 @@
 		"Government type": "Government of National Unity (GNU) - the National Congress Party (NCP) and Sudan People's Liberation Movement (SPLM) formed a power-sharing government under the 2005 Comprehensive Peace Agreement (CPA); the NCP, which came to power by military coup in 1989, is the majority partner; the agreement stipulated national elections in 2009, but these were subsequently rescheduled; elections took place in April 2010 and the NCP was elected as the majority party; due to the CPA stipulations, there is also an autonomous government in Southern Sudan where SPLM holds the majority of positions.",
 		"Capital": {
 			"name:": "Khartoum",
-			"geographic coordinates:": "15 36 N, 32 32 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 15,
+					"seconds": 36
+				},
+				"E": {
+					"minutes": 32,
+					"seconds": 32
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "25 states (wilayat, singular - wilayah); A'ali an Nil (Upper Nile), Al Bahr al Ahmar (Red Sea), Al Buhayrat (Lakes), Al Jazira (Gezira), Al Khartoum (Khartoum), Al Qadarif (Gedaref), Al Wahda (Unity), An Nil al Abyad (White Nile), An Nil al Azraq (Blue Nile), Ash Shimaliyya (Northern), Bahr al Jabal (Central Equatoria), Gharb al Istiwa'iyya (Western Equatoria), Gharb Bahr al Ghazal (Western Bahr el Ghazal), Gharb Darfur (Western Darfur), Janub Darfur (Southern Darfur), Janub Kurdufan (Southern Kordofan), Junqoley (Jonglei), Kassala (Kassala), Nahr an Nil (River Nile), Shimal Bahr al Ghazal (Northern Bahr el Ghazal), Shimal Darfur (Northern Darfur), Shimal Kurdufan (Northern Kordofan), Sharq al Istiwa'iyya (Eastern Equatoria), Sinnar (Sinnar), Warab (Warrap)",
@@ -208,124 +349,221 @@
 	"economy": {
 		"Economy - overview": "Since 1997, Sudan has been working with the IMF to implement macroeconomic reforms including a managed float of the exchange rate and a large reserve of foreign exchange. A new currency, the Sudanese Pound, was introduced in January 2007 at an initial exchange rate of $1.00 equals 2 Sudanese Pounds. Sudan began exporting crude oil in the last quarter of 1999 and the economy boomed on the back of increases in oil production, high oil prices, and significant inflows of foreign direct investment until the second half of 2008. The Darfur conflict, the aftermath of two decades of civil war in the south, the lack of basic infrastructure in large areas, and a reliance by much of the population on subsistence agriculture ensure much of the population will remain at or below the poverty line for years to come despite rapid rises in average per capita income. Sudan's real GDP expanded by 5.2% during 2010, an improvement over 2009's 4.2% growth but significantly below the more than 10% per year growth experienced prior to the global financial crisis in 2006 and 2007. While the oil sector continues to drive growth, services and utilities play an increasingly important role in the economy with agriculture production remaining important as it employs 80% of the work force and contributes a third of GDP. In the lead up to the referendum on southern secession, which took place in January 2011, Sudan saw its currency depreciate considerably on the black market with the Central Bank's official rate also losing value as the Sudanese people started to hoard foreign currency. The Central Bank of Sudan intervened heavily in the currency market to defend the value of the pound and the Sudanese government introduced a number of measures to restrain excess local demand for hard currency, but uncertainty about the secession has meant that foreign exchange remains in heavy demand.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$100 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 100000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$68.44 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 68440000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "5.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "32.1%",
-			"industry:": "29%",
-			"services:": "38.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 32.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 29,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 38.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "11.92 million (2007 est.)",
+			"Labor force": 11920000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "80%",
-			"industry:": "7%",
-			"services:": "13% (1998 est.)"
+			"agriculture:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 13,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "18.7% (2002 est.)",
+			"Unemployment rate": {
+				"quantity": 18.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "40% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 40,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "20.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 20.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$11.06 billion",
-			"expenditures:": "$13.15 billion (2010 est.)"
+			"revenues:": {
+				"usd": 11060000000
+			},
+			"expenditures:": {
+				"usd": 13150000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "94.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 94.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "11.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 11.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$7.713 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 7713000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$13.5 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 13500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$10.15 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 10150000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, groundnuts (peanuts), sorghum, millet, wheat, gum arabic, sugarcane, cassava (tapioca), mangos, papaya, bananas, sweet potatoes, sesame; sheep and other livestock",
 		"Industries": "oil, cotton ginning, textiles, cement, edible oils, sugar, soap distilling, shoes, petroleum refining, pharmaceuticals, armaments, automobile/light truck assembly",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "4.341 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 4341000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "3.438 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 3438000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "486,700 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 486700,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "84,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 84000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "303,800 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 303800,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "11,400 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 11400,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "6.8 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 6800000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "84.95 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 84950000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -333,34 +571,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$9.777 billion (2010 est.)",
+			"Exports": {
+				"usd": 9777000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "oil and petroleum products; cotton, sesame, livestock, groundnuts, gum arabic, sugar",
 		"Exports - partners": "China 58.29%, Japan 14.7%, Indonesia 8.83%, India 4.86% (2009)",
 		"Imports": {
-			"Imports": "$8.483 billion (2010 est.)",
+			"Imports": {
+				"usd": 8483000000.000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, manufactured goods, refinery and transport equipment, medicines and chemicals, textiles, wheat",
 		"Imports - partners": "China 21.87%, Saudi Arabia 7.22%, Egypt 6.1%, India 5.53%, UAE 5.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.063 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2063000000.0000002
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$37.98 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 37980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "370,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "15.34 million (2009)",
+			"Telephones - mobile cellular": 15340000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -371,48 +617,60 @@
 		"Broadcast media": "in the north, the Sudanese Government directly controls TV and radio, requiring that both media reflect government policies; TV has a permanent military censor; a private radio station is in operation; in southern Sudan, TV is controlled by the regional government; several private FM stations are operational in southern Sudan; some foreign radio broadcasts are available (2007)",
 		"Internet country code": ".sd",
 		"Internet hosts": {
-			"Internet hosts": "70 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "140 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "19",
-			"over 3,047 m:": "3",
-			"2,438 to 3,047 m:": "10",
-			"1,524 to 2,437 m:": "5",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "121",
-			"1,524 to 2,437 m:": "21",
-			"914 to 1,523 m:": "62",
-			"under 914 m:": "38 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "5 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 156 km; oil 4,070 km; refined products 1,613 km (2010)",
 		"Railways": {
-			"total:": "5,978 km",
+			"total:": {
+				"quantity": 5978,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "4,578 km 1.067-m gauge; 1,400 km 0.600-m gauge for cotton plantations (2008)"
 		},
 		"Roadways": {
-			"total:": "11,900 km",
+			"total:": {
+				"quantity": 11900,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,320 km",
-			"unpaved:": "7,580 km (2000)"
+			"paved:": {
+				"quantity": 4320,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 7580,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "4,068 km (1,723 km open year round on White and Blue Nile rivers) (2008)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "2",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2 (2010)"
 		},
@@ -422,16 +680,16 @@
 		"Military branches": "Sudanese Armed Forces (SAF): Land Forces, Navy (includes Marines), Sudanese Air Force (Sikakh al-Jawwiya as-Sudaniya), Popular Defense Forces; Sudan People's Liberation Army (SPLA): Popular Army, Air Force (2011)",
 		"Military service age and obligation": "18-33 years of age for male and female compulsory and voluntary military service; 12-24 month service obligation; a requirement that completion of national sevice was mandatory before entering public or private sector employment has been cancelled (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "10,433,973",
-			"females age 16-49:": "10,411,443 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "6,475,530",
-			"females age 16-49:": "6,840,885 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "532,030",
-			"female:": "512,476 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

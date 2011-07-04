@@ -5,22 +5,49 @@
 	"background": "The UN awarded Eritrea to Ethiopia in 1952 as part of a federation. Ethiopia's annexation of Eritrea as a province 10 years later sparked a 30-year struggle for independence that ended in 1991 with Eritrean rebels defeating governmental forces; independence was overwhelmingly approved in a 1993 referendum. A two-and-a-half-year border war with Ethiopia that erupted in 1998 ended under UN auspices in December 2000. Eritrea hosted a UN peacekeeping operation that monitored a 25 km-wide Temporary Security Zone (TSZ) on the border with Ethiopia. Eritrea's denial of fuel to the mission caused the UN to withdraw the mission and terminate its mandate 31 July 2008. An international commission, organized to resolve the border dispute, posted its findings in 2002. However, both parties have been unable to reach agreement on implementing the decision. On 30 November 2007, the Eritrea-Ethiopia Boundary Commission remotely demarcated the border by coordinates and dissolved itself, leaving Ethiopia still occupying several tracts of disputed territory, including the town of Badme. Eritrea accepted the EEBC's \"virtual demarcation\" decision and called on Ethiopia to remove its troops from the TSZ that it states is Eritrean territory. Ethiopia has not accepted the virtual demarcation decision. In 2009 the UN imposed sanctions on Eritrea after accusing it of backing anti-Ethiopian Islamist insurgents in Somalia.",
 	"geo": {
 		"Location": "Eastern Africa, bordering the Red Sea, between Djibouti and Sudan",
-		"Geographic coordinates": "15 00 N, 39 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 15,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 39,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "117,600 sq km",
+			"total:": {
+				"quantity": 117600,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "101,000 sq km",
-			"water:": "16,600 sq km"
+			"land:": {
+				"quantity": 101000,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 16600,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Pennsylvania",
 		"Land boundaries": {
-			"total:": "1,626 km",
+			"total:": {
+				"quantity": 1626,
+				"unit": "km"
+			},
 			"border countries:": "Djibouti 109 km, Ethiopia 912 km, Sudan 605 km"
 		},
-		"Coastline": "2,234 km (mainland on Red Sea 1,151 km, islands in Red Sea 1,083 km)",
+		"Coastline": {
+			"quantity": 2234,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			}
 		},
 		"Climate": "hot, dry desert strip along Red Sea coast; cooler and wetter in the central highlands (up to 61 cm of rainfall annually, heaviest June to September); semiarid in western hills and lowlands",
 		"Terrain": "dominated by extension of Ethiopian north-south trending highlands, descending on the east to a coastal desert plain, on the northwest to hilly terrain and on the southwest to flat-to-rolling plains",
@@ -30,15 +57,36 @@
 		},
 		"Natural resources": "gold, potash, zinc, copper, salt, possibly oil and natural gas, fish",
 		"Land use": {
-			"arable land:": "4.78%",
-			"permanent crops:": "0.03%",
-			"other:": "95.19% (2005)"
+			"arable land:": {
+				"quantity": 4.78,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.03,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 95.19,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "210 sq km (2008)",
-		"Total renewable water resources": "6.3 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 210,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 6.3,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.3  cu km/yr (3%/0%/97%)",
-			"per capita:": "68  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.3,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 68,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "frequent droughts; locust swarms",
@@ -53,73 +101,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,939,484 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "42.1% (male 1,256,384/female 1,244,569)",
-			"15-64 years:": "54.3% (male 1,580,535/female 1,641,911)",
+			"0-14 years:": {
+				"quantity": 42.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 54.3,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 96,627/female 119,458) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "18.7 years",
-			"male:": "18.3 years",
-			"female:": "19.1 years (2011 est.)"
+			"total:": {
+				"quantity": 18.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 18.3,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 19.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.472% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.472,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "32.8 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 32.8,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.08 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.08,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "22% of total population (2010)",
-			"rate of urbanization:": "5.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 22,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 5.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ASMARA (capital) 649,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.96 male(s)/female",
-			"65 years and over:": "0.82 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.96,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.82,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "41.33 deaths/1,000 live births",
+			"total:": {
+				"quantity": 41.33,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "46.77 deaths/1,000 live births",
-			"female:": "35.72 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 46.77,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 35.72,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "62.52 years",
+			"total population:": {
+				"quantity": 62.52,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "60.4 years",
-			"female:": "64.69 years (2011 est.)"
+			"male:": {
+				"quantity": 60.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 64.69,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4.48 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4.48,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "25,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,700 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -138,14 +258,32 @@
 		"Languages": "Tigrinya (official), Arabic (official), English (official), Tigre, Kunama, Afar, other Cushitic languages",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "58.6%",
-			"male:": "69.9%",
-			"female:": "47.6% (2003 est.)"
+			"total population:": {
+				"quantity": 58.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 69.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 47.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "5 years",
-			"male:": "6 years",
-			"female:": "4 years (2009)"
+			"total:": {
+				"quantity": 5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 4,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +300,16 @@
 		},
 		"Capital": {
 			"name:": "Asmara (Asmera)",
-			"geographic coordinates:": "15 20 N, 38 56 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 15,
+					"seconds": 20
+				},
+				"E": {
+					"minutes": 38,
+					"seconds": 56
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "6 regions (zobatat, singular - zoba); Anseba, Debub (South), Debubawi K'eyih Bahri (Southern Red Sea), Gash Barka, Ma'akel (Central), Semenawi Keyih Bahri (Northern Red Sea)",
@@ -207,116 +354,204 @@
 	"economy": {
 		"Economy - overview": "Since independence from Ethiopia in 1993, Eritrea has faced the economic problems of a small, desperately poor country, accentuated by the recent implementation of restrictive economic policies. Eritrea has a command economy under the control of the sole political party, the People's Front for Democracy and Justice (PFDJ). Like the economies of many African nations, a large share of the population - nearly 80% - is engaged in subsistence agriculture, but they produce only a small share of total output. Since the conclusion of the Ethiopian-Eritrea war in 2000, the government has maintained a firm grip on the economy, expanding the use of the military and party-owned businesses to complete Eritrea's development agenda. The government strictly controls the use of foreign currency by limiting access and availability. Few private enterprises remain in Eritrea. Eritrea's economy depends heavily on taxes paid by members of the diaspora. Erratic rainfall and the delayed demobilization of agriculturalists from the military continue to interfere with agricultural production, and Eritrea's recent harvests have been unable to meet the food needs of the country. The Government continues to place its hope for additional revenue on the development of several international mining projects. Despite difficulties for international companies in working with the Eritrean Government, a Canadian mining company signed a contract with the government in 2007 and began mineral extraction in 2010. Eritrea's economic future depends upon its ability to master social problems such as illiteracy, unemployment, and low skills, and more importantly, on the government's willingness to support a true market economy.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.625 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3625000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$2.117 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 2117000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "11.8%",
-			"industry:": "20.4%",
-			"services:": "67.7% (2010 est.)"
+			"agriculture:": {
+				"quantity": 11.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 67.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.935 million (2007)",
+			"Labor force": 1935000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "80%",
-			"industry and services:": "20% (2004 est.)"
+			"agriculture:": {
+				"quantity": 80,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 20,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "50% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 50,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "10.3% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 10.3,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$463.4 million",
-			"expenditures:": "$920.1 million (2010 est.)"
+			"revenues:": {
+				"usd": 463400000
+			},
+			"expenditures:": {
+				"usd": 920100000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "20% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.382 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1382000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.872 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2872000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.919 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 2919000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "sorghum, lentils, vegetables, corn, cotton, tobacco, sisal; livestock, goats; fish",
 		"Industries": "food processing, beverages, clothing and textiles, light manufacturing, salt, cement",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "271 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 271000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "228 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 228000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "5,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 5000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "4,790 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 4790,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -324,19 +559,25 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$25 million (2010 est.)",
+			"Exports": {
+				"usd": 25000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "livestock, sorghum, textiles, food, small manufactures",
 		"Exports - partners": "India 25.3%, Italy 20.7%, Sudan 14.1%, China 12.9%, France 5.5%, Saudi Arabia 5.4% (2008)",
 		"Imports": {
-			"Imports": "$738 million (2010 est.)",
+			"Imports": {
+				"usd": 738000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, petroleum products, food, manufactured goods",
 		"Imports - partners": "Saudi Arabia 20.7%, India 13.6%, Italy 12.6%, China 9.9%, US 5.1%, Germany 4.6% (2008)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$104 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 104000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": "$NA (31 December 2010 est.)",
@@ -344,11 +585,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "48,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "141,100 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -359,42 +600,54 @@
 		"Broadcast media": "government controls broadcast media with private ownership prohibited; 1 state-owned TV station; state-owned radio operates 2 networks; purchases of satellite dishes and subscriptions to international broadcast media are permitted (2007)",
 		"Internet country code": ".er",
 		"Internet hosts": {
-			"Internet hosts": "1,241 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "13 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "9",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "5",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "306 km",
+			"total:": {
+				"quantity": 306,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "306 km 0.950-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "4,010 km",
+			"total:": {
+				"quantity": 4010,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "874 km",
-			"unpaved:": "3,136 km (2000)"
+			"paved:": {
+				"quantity": 874,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 3136,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "4",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, petroleum tanker 1, roll on/roll off 1 (2010)"
 		},
@@ -404,16 +657,16 @@
 		"Military branches": "Eritrean Armed Forces: Ground Forces, Navy, Air Force (2011)",
 		"Military service age and obligation": "18-40 years of age for male and female voluntary and compulsory military service; 16-month conscript service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,350,446",
-			"females age 16-49:": "1,362,575 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "896,096",
-			"females age 16-49:": "953,757 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "66,829",
-			"female:": "66,731 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

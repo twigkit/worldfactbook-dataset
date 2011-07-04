@@ -5,18 +5,36 @@
 	"background": "By terms of the 1960 Treaty of Establishment that created the independent Republic of Cyprus, the UK retained full sovereignty and jurisdiction over two areas of almost 254 square kilometers - Akrotiri and Dhekelia. The southernmost and smallest of these is the Akrotiri Sovereign Base Area, which is also referred to as the Western Sovereign Base Area.",
 	"geo": {
 		"Location": "Eastern Mediterranean, peninsula on the southwest coast of Cyprus",
-		"Geographic coordinates": "34 37 N, 32 58 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 34,
+				"seconds": 37
+			},
+			"E": {
+				"minutes": 32,
+				"seconds": 58
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "123 sq km",
+			"total:": {
+				"quantity": 123,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Area - comparative": "about 0.7 times the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "47.4 km",
+			"total:": {
+				"quantity": 47.4,
+				"unit": "km"
+			},
 			"border countries:": "Cyprus 47.4 km"
 		},
-		"Coastline": "56.3 km",
+		"Coastline": {
+			"quantity": 56.3,
+			"unit": "km"
+		},
 		"Climate": "temperate; Mediterranean with hot, dry summers and cool winters",
 		"Environment - current issues": "hunting around the salt lake; note - breeding place for loggerhead and green turtles; only remaining colony of griffon vultures is on the base",
 		"Geography - note": {}
@@ -38,7 +56,16 @@
 		"Dependency status": "a special form of UK overseas territory; administered by an administrator who is also the Commander, British Forces Cyprus",
 		"Capital": {
 			"name:": "Episkopi Cantonment (base administrative center for Akrotiri and Dhekelia)",
-			"geographic coordinates:": "34 40 N, 32 51 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 34,
+					"seconds": 40
+				},
+				"E": {
+					"minutes": 32,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},

@@ -5,20 +5,44 @@
 	"background": "Slovakia's roots can be traced to the 9th century state of Great Moravia. Subsequently, the Slovaks became part of the Hungarian Kingdom, where they remained for the next 1,000 years. Following the formation of the dual Austro-Hungarian monarchy in 1867, language and education policies favoring the use of Hungarian (Magyarization) resulted in a strengthening of Slovak nationalism and a cultivation of cultural ties with the closely related Czechs, who were themselves ruled by the Austrians. After the dissolution of the Austro-Hungarian Empire at the close of World War I, the Slovaks joined the Czechs to form Czechoslovakia. Following the chaos of World War II, Czechoslovakia became a Communist nation within Soviet-dominated Eastern Europe. Soviet influence collapsed in 1989 and Czechoslovakia once more became free. The Slovaks and the Czechs agreed to separate peacefully on 1 January 1993. Slovakia joined both NATO and the EU in the spring of 2004 and the euro area on 1 January 2009.",
 	"geo": {
 		"Location": "Central Europe, south of Poland",
-		"Geographic coordinates": "48 40 N, 19 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 48,
+				"seconds": 40
+			},
+			"E": {
+				"minutes": 19,
+				"seconds": 30
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "49,035 sq km",
+			"total:": {
+				"quantity": 49035,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "48,105 sq km",
-			"water:": "930 sq km"
+			"land:": {
+				"quantity": 48105,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 930,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about twice the size of New Hampshire",
 		"Land boundaries": {
-			"total:": "1,474 km",
+			"total:": {
+				"quantity": 1474,
+				"unit": "km"
+			},
 			"border countries:": "Austria 91 km, Czech Republic 197 km, Hungary 676 km, Poland 420 km, Ukraine 90 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate; cool summers; cold, cloudy, humid winters",
 		"Terrain": "rugged mountains in the central and northern part and lowlands in the south",
@@ -28,15 +52,33 @@
 		},
 		"Natural resources": "brown coal and lignite; small amounts of iron ore, copper and manganese ore; salt; arable land",
 		"Land use": {
-			"arable land:": "29.23%",
-			"permanent crops:": "2.67%",
-			"other:": "68.1% (2005)"
+			"arable land:": {
+				"quantity": 29.23,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.67,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 68.1,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,660 sq km (2008)",
-		"Total renewable water resources": "50.1 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 1660,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 50.1,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.04",
-			"per capita:": "193  cu m/yr (2003)"
+			"total:": null,
+			"per capita:": {
+				"quantity": 193,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "air pollution from metallurgical plants presents human health risks; acid rain damaging forests",
@@ -48,61 +90,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "5,477,038 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.6% (male 437,755/female 417,797)",
-			"15-64 years:": "71.6% (male 1,955,031/female 1,965,554)",
+			"0-14 years:": {
+				"quantity": 15.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71.6,
+				"unit": "%"
+			},
 			"65 years and over:": "12.8% (male 262,363/female 438,538) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "37.6 years",
-			"male:": "36.1 years",
-			"female:": "39.2 years (2011 est.)"
+			"total:": {
+				"quantity": 37.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 39.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.117% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.117,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "10.48 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 10.48,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.6 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.6,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.29 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.29,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "55% of total population (2010)",
-			"rate of urbanization:": "0.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 55,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BRATISLAVA (capital) 428,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.051 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.6 male(s)/female",
-			"total population:": "0.94 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.051,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.6,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.59 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.59,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "7.69 deaths/1,000 live births",
-			"female:": "5.43 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 7.69,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.43,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.83 years",
+			"total population:": {
+				"quantity": 75.83,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "71.92 years",
-			"female:": "79.93 years (2011 est.)"
+			"male:": {
+				"quantity": 71.92,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.93,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.37 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.37,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -128,14 +239,32 @@
 		"Languages": "Slovak (official) 83.9%, Hungarian 10.7%, Roma 1.8%, Ukrainian 1%, other or unspecified 2.6% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.6%",
-			"male:": "99.7%",
-			"female:": "99.6% (2004)"
+			"total population:": {
+				"quantity": 99.6,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "15 years",
-			"male:": "14 years",
-			"female:": "16 years (2008)"
+			"total:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -149,7 +278,16 @@
 		"Government type": "parliamentary democracy",
 		"Capital": {
 			"name:": "Bratislava",
-			"geographic coordinates:": "48 09 N, 17 07 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 48,
+					"seconds": 9
+				},
+				"E": {
+					"minutes": 17,
+					"seconds": 7
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -203,136 +341,244 @@
 	"economy": {
 		"Economy - overview": "Slovakia has made significant economic reforms since its separation from the Czech Republic in 1993. Reforms to the taxation, healthcare, pension, and social welfare systems helped Slovakia consolidate its budget and get on track to join the EU in 2004 and to adopt the euro in January 2009. Major privatizations are nearly complete, the banking sector is almost entirely in foreign hands, and the government has helped facilitate a foreign investment boom with business friendly policies. Slovakia's economic growth exceeded expectations in 2001-08 despite a general European slowdown. Unemployment, at an unacceptable 18% in 2003-04, dropped to 7.7% in 2008 but remains the economy's Achilles heel. Foreign direct investment (FDI) accounted for much of the growth until 2008. Cheap and skilled labor, low taxes, a 19% flat tax for corporations and individuals, no dividend taxes, a relatively liberal labor code and a favorable geographical location are Slovakia's main advantages for foreign investors. Foreign investment in the automotive and electronic sectors has been especially strong. To maintain a stable operating environment for investors, the European Bank for Reconstruction and Development advised the Slovak government to refrain from intervening in important sectors of the economy. However, Bratislava's approach to mitigating the economic slowdown has included substantial government intervention and the option to nationalize strategic companies. RADICOVA's government, in power since July 2010, has allowed the budget deficit to rise slightly, to 7.4% of GDP in 2010. GDP fell nearly 5% in 2009 before gaining back 4% in 2010, and unemployment rose above 12% in 2010, as the global recession impacted many segments of the economy.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$120.2 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 120200000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$87.45 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 87450000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$22,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.7%",
-			"industry:": "35.6%",
-			"services:": "61.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 35.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 61.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.673 million (2010 est.)",
+			"Labor force": 2673000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "3.5%",
-			"industry:": "27%",
-			"services:": "69.4% (December 2009)"
+			"agriculture:": {
+				"quantity": 3.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 69.4,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13.5% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 13.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "21% (2002)",
+		"Population below poverty line": {
+			"quantity": 21,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.1%",
-			"highest 10%:": "20.9% (1996)"
+			"lowest 10%:": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 20.9,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "26 (2005)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$28.45 billion",
-			"expenditures:": "$35.01 billion (2010 est.)"
+			"revenues:": {
+				"usd": 28450000000
+			},
+			"expenditures:": {
+				"usd": 35010000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "41% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 41,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$34.37 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 34370000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$52.63 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 52630000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$65.09 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 65090000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$4.672 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 4672000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grains, potatoes, sugar beets, hops, fruit; pigs, cattle, poultry; forest products",
 		"Industries": "metal and metal products; food and beverages; electricity, gas, coke, oil, nuclear fuel; chemicals and manmade fibers; machinery; paper and printing; earthenware and ceramics; transport vehicles; textiles; electrical and optical apparatus; rubber products",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7.5% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "25.9 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 25900000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "28.75 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 28750000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "8.891 billion kWh (2008 est.)",
-		"Electricity - imports": "9.412 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 8891000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 9412000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "4,114 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 4114,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "79,930 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 79930,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "75,110 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 75110,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "144,000 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 144000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "9 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 9000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "103 million cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 103000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "6.493 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 6493000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "15 million cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 15000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "6.974 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 6974000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "14.16 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 14160000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -340,42 +586,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$64.18 billion (2010 est.)",
+			"Exports": {
+				"usd": 64180000000.00001
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and electrical equipment 35.9%, vehicles 21%, base metals 11.3%, chemicals and minerals 8.1%, plastics 4.9% (2009 est.)",
 		"Exports - partners": "Germany 20.1%, Czech Republic 12.9%, France 7.8%, Poland 7.2%, Hungary 6.3%, Italy 6.1%, Austria 5.8%, UK 4.8% (2009 est.)",
 		"Imports": {
-			"Imports": "$62.43 billion (2010 est.)",
+			"Imports": {
+				"usd": 62430000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment 31%, mineral products 13%, vehicles 12%, base metals 9%, chemicals 8%, plastics 6% (2009 est.)",
 		"Imports - partners": "Germany 16.8%, Czech Republic 12.3%, Russia 9%, South Korea 6.8%, China 5.8%, Hungary 5.3%, Poland 4% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.16 billion (31 January  2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1160000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$59.33 billion (30 June 2010 est.)",
+			"Debt - external": {
+				"usd": 59330000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$52.2 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 52200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$2.643 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 2643000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.022 million (2009)",
+			"Telephones - main lines in use": 1022000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "5.498 million (2009)",
+			"Telephones - mobile cellular": 5498000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,49 +644,61 @@
 		"Broadcast media": "state-owned public broadcaster, Slovak Television (STV), operates 3 national TV stations; roughly 35 privately-owned television broadcast stations operating nationally, regionally, and locally; about 40% of households are connected to multi-channel cable or satellite TV systems; channels from the Czech Republic and Hungary are widely viewed; state-owned public radio operates multiple national and regional networks; more than 20 privately-owned radio stations (2008)",
 		"Internet country code": ".sk",
 		"Internet hosts": {
-			"Internet hosts": "1.133 million (2010)",
+			"Internet hosts": 1133000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "36 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "20",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "3"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "16",
-			"914 to 1,523 m:": "9",
-			"under 914 m:": "7 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 6,769 km; oil 416 km (2010)",
 		"Railways": {
-			"total:": "3,622 km",
+			"total:": {
+				"quantity": 3622,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "99 km 1.520-m gauge",
 			"standard gauge:": "3,473 km 1.435-m gauge (1,577 km electrified)",
 			"narrow gauge:": "50 km 1.000-m or 0.750-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "43,761 km",
+			"total:": {
+				"quantity": 43761,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "38,085 km (includes 384 km of expressways)",
-			"unpaved:": "5,676 km (2008)"
+			"paved:": {
+				"quantity": 38085,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 5676,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "172 km (on Danube River) (2009)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "23",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 19, refrigerated cargo 3",
 			"foreign-owned:": "21 (Germany 4, Greece 1, Ireland 1, Italy 2, Montenegro 1, Poland 2, Slovenia 1, Turkey 2, Ukraine 7) (2010)"
@@ -439,16 +709,16 @@
 		"Military branches": "Armed Forces of the Slovak Republic (Ozbrojene Sily Slovenskej Republiky): Land Forces (Pozemne Sily), Air Forces (Vzdusne Sily) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; conscription abolished in 2006; women are eligible to serve (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,405,310",
-			"females age 16-49:": "1,369,897 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,156,113",
-			"females age 16-49:": "1,139,380 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "31,646",
-			"female:": "30,219 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

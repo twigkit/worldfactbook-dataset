@@ -5,23 +5,50 @@
 	"background": "Belize was the site of several Mayan city states until their decline at the end of the first millennium A.D. The British and Spanish disputed the region in the 17th and 18th centuries; it formally became the colony of British Honduras in 1854. Territorial disputes between the UK and Guatemala delayed the independence of Belize until 1981. Guatemala refused to recognize the new nation until 1992 and the two countries are involved in an ongoing border dispute. Guatemala and Belize plan to hold a simultaneous referendum to determine if this dispute will go before the International Court of Justice at The Hague, though they have not yet set a date. Tourism has become the mainstay of the economy. Current concerns include the country's heavy foreign debt burden, high unemployment, growing involvement in the Mexican and South American drug trade, high crime rates, and one of the highest prevalence rates of HIV/AIDS in Central America.",
 	"geo": {
 		"Location": "Central America, bordering the Caribbean Sea, between Guatemala and Mexico",
-		"Geographic coordinates": "17 15 N, 88 45 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 17,
+				"seconds": 15
+			},
+			"W": {
+				"minutes": 88,
+				"seconds": 45
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "22,966 sq km",
+			"total:": {
+				"quantity": 22966,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "22,806 sq km",
-			"water:": "160 sq km"
+			"land:": {
+				"quantity": 22806,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 160,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Massachusetts",
 		"Land boundaries": {
-			"total:": "516 km",
+			"total:": {
+				"quantity": 516,
+				"unit": "km"
+			},
 			"border countries:": "Guatemala 266 km, Mexico 250 km"
 		},
-		"Coastline": "386 km",
+		"Coastline": {
+			"quantity": 386,
+			"unit": "km"
+		},
 		"Maritime claims": {
 			"territorial sea:": "12 nm in the north, 3 nm in the south; note - from the mouth of the Sarstoon River to Ranguana Cay, Belize's territorial sea is 3 nm; according to Belize's Maritime Areas Act, 1992, the purpose of this limitation is to provide a framework for negotiating a definitive agreement on territorial differences with Guatemala",
-			"exclusive economic zone:": "200 nm"
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; very hot and humid; rainy season (May to November); dry season (February to May)",
 		"Terrain": "flat, swampy coastal plain; low mountains in south",
@@ -31,15 +58,36 @@
 		},
 		"Natural resources": "arable land potential, timber, fish, hydropower",
 		"Land use": {
-			"arable land:": "3.05%",
-			"permanent crops:": "1.39%",
-			"other:": "95.56% (2005)"
+			"arable land:": {
+				"quantity": 3.05,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.39,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 95.56,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "40 sq km (2008)",
-		"Total renewable water resources": "18.6 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 40,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 18.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.15  cu km/yr (7%/73%/20%)",
-			"per capita:": "556  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.15,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 556,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "frequent, devastating hurricanes (June to November) and coastal flooding (especially in south)",
 		"Environment - current issues": "deforestation; water pollution from sewage, industrial effluents, agricultural runoff; solid and sewage waste disposal",
@@ -51,69 +99,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "321,115 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "36.8% (male 60,327/female 57,933)",
-			"15-64 years:": "59.6% (male 96,886/female 94,605)",
+			"0-14 years:": {
+				"quantity": 36.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 59.6,
+				"unit": "%"
+			},
 			"65 years and over:": "3.5% (male 5,404/female 5,960) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21 years",
-			"male:": "20.8 years",
-			"female:": "21.2 years (2011 est.)"
+			"total:": {
+				"quantity": 21,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 20.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "2.056% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 2.056,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "26.43 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 26.43,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.87 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.87,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "52% of total population (2010)",
-			"rate of urbanization:": "2.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 52,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BELMOPAN (capital) 20,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.91 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "21.95 deaths/1,000 live births",
+			"total:": {
+				"quantity": 21.95,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "24.43 deaths/1,000 live births",
-			"female:": "19.35 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 24.43,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 19.35,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "68.23 years",
+			"total population:": {
+				"quantity": 68.23,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "66.53 years",
-			"female:": "70.02 years (2011 est.)"
+			"male:": {
+				"quantity": 66.53,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 70.02,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.21 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.21,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "2.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "4,800 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -137,14 +257,32 @@
 		"Languages": "Spanish 46%, Creole 32.9%, Mayan dialects 8.9%, English 3.9% (official), Garifuna 3.4% (Carib), German 3.3%, other 1.4%, unknown 0.2% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "76.9%",
-			"male:": "76.7%",
-			"female:": "77.1% (2000 census)"
+			"total population:": {
+				"quantity": 76.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 76.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 77.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "13 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 13,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -157,7 +295,16 @@
 		"Government type": "parliamentary democracy and a Commonwealth realm",
 		"Capital": {
 			"name:": "Belmopan",
-			"geographic coordinates:": "17 15 N, 88 46 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 17,
+					"seconds": 15
+				},
+				"W": {
+					"minutes": 88,
+					"seconds": 46
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "6 districts; Belize, Cayo, Corozal, Orange Walk, Stann Creek, Toledo",
@@ -204,132 +351,235 @@
 	"economy": {
 		"Economy - overview": "Tourism is the number one foreign exchange earner in this small economy, followed by exports of marine products, citrus, cane sugar, bananas, and garments. The government's expansionary monetary and fiscal policies, initiated in September 1998, led to GDP growth averaging nearly 4% in 1999-2007. Oil discoveries in 2006 bolstered this growth. Exploration efforts have continued and production has increased a small amount. In February 2007, the government restructured nearly all of its public external commercial debt, which helped reduce interest payments and relieved some of the country's liquidity concerns. Growth slipped to 0% in 2009 and 1.5% in 2010 as a result of the global slowdown, natural disasters, and the drop in the price of oil. With weak economic growth and a large public debt burden, fiscal spending is likely to be tight. A key government objective remains the reduction of poverty and inequality with the help of international donors. Although Belize has the second highest per capita income in Central America, the average income figure masks a huge income disparity between rich and poor. The 2010 Poverty Assessment shows that more than 4 out of 10 people live in poverty. The sizable trade deficit and heavy foreign debt burden continue to be major concerns.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$2.651 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 2651000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.396 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1396000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$8,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "29%",
-			"industry:": "16.9%",
-			"services:": "54.1% (2008 est.)"
+			"agriculture:": {
+				"quantity": 29,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 54.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "120,500",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "10.2%",
-			"industry:": "18.1%",
-			"services:": "71.7% (2007)"
+			"agriculture:": {
+				"quantity": 10.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 18.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 71.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "13.1% (2009)",
+			"Unemployment rate": {
+				"quantity": 13.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "43% (2010 est.)",
+		"Population below poverty line": {
+			"quantity": 43,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "26.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 26.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$370.5 million",
-			"expenditures:": "$418 million (2010 est.)"
+			"revenues:": {
+				"usd": 370500000
+			},
+			"expenditures:": {
+				"usd": 418000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "80% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 80,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "12% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.08% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.08,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$389.5 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 389500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.351 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 1351000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$1.291 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 1291000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "bananas, cacao, citrus, sugar; fish, cultured shrimp; lumber",
 		"Industries": "garment production, food processing, tourism, construction, oil",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "1.4% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "213.5 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 213500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "198.5 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 198500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "248.4 million kWh (2005)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 248400000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "3,990 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 3990,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "7,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 7000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2,260 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2260,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "7,204 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 7204,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "6.7 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 6700000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -337,34 +587,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$404 million (2010 est.)",
+			"Exports": {
+				"usd": 404000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "sugar, bananas, citrus, clothing, fish products, molasses, wood, crude oil",
 		"Exports - partners": "US 30.7%, UK 29.77%, Nigeria 4.9%, Cote d'Ivoire 4.45% (2009)",
 		"Imports": {
-			"Imports": "$740 million (2010 est.)",
+			"Imports": {
+				"usd": 740000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods; fuels, chemicals, pharmaceuticals; food, beverages, tobacco",
 		"Imports - partners": "US 33.65%, Mexico 14.17%, Cuba 8.51%, Guatemala 6.75%, Spain 6.07%, China 4.12% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$219 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 219000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$1.01 billion (2009 est.)",
+			"Debt - external": {
+				"usd": 1010000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "31,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "161,800 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -375,40 +633,49 @@
 		"Broadcast media": "8 privately-owned TV stations; multi-channel cable TV provides access to foreign stations; about 25 radio stations broadcasting on roughly 50 different frequencies; state-run radio was privatized in 1998 (2007)",
 		"Internet country code": ".bz",
 		"Internet hosts": {
-			"Internet hosts": "2,880 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "45 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "41",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "13",
-			"under 914 m:": "27 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "3,007 km",
+			"total:": {
+				"quantity": 3007,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "575 km",
-			"unpaved:": "2,432 km (2006)"
+			"paved:": {
+				"quantity": 575,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 2432,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "825 km (navigable only by small craft) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "231",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 37, cargo 146, chemical tanker 1, passenger 1, passenger/cargo 1, petroleum tanker 7, refrigerated cargo 27, roll on/roll off 10",
 			"foreign-owned:": "171 (Chile 1, China 64, Croatia 1, Cyprus 1, Estonia 1, Germany 1, Greece 2, Iceland 2, Italy 3, Japan 1, Latvia 10, Lithuania 2, Netherlands 1, Nigeria 2, Norway 3, Peru 1, Russia 32, Singapore 7, Spain 1, Syria 2, Turkey 18, UAE 5, UK 4, Ukraine 6) (2010)"
@@ -419,16 +686,16 @@
 		"Military branches": "Belize Defense Force (BDF): Army, BDF Air Wing (includes Special Boat Unit), BDF Volunteer Guard (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; law allows for conscription only if volunteers are insufficient; conscription has never been implemented; volunteers typically outnumber available positions by 3:1 (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "81,284",
-			"females age 16-49:": "79,185 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "59,431",
-			"females age 16-49:": "57,221 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "3,723",
-			"female:": "3,584 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

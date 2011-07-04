@@ -5,20 +5,50 @@
 	"background": "Mayotte was ceded to France along with the other islands of the Comoros group in 1843. It was the only island in the archipelago that voted in 1974 to retain its link with France and forego independence. In March 2009, Mayotte voted overwhelmingly to become France's 101st department - and fifth overseas department - a change scheduled to become official in 2011.",
 	"geo": {
 		"Location": "Southern Indian Ocean, island in the Mozambique Channel, about half way between northern Madagascar and northern Mozambique",
-		"Geographic coordinates": "12 50 S, 45 10 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 12,
+				"seconds": 50
+			},
+			"E": {
+				"minutes": 45,
+				"seconds": 10
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "374 sq km",
+			"total:": {
+				"quantity": 374,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "374 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 374,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than twice the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "185.2 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 185.2,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; marine; hot, humid, rainy season during northeastern monsoon (November to May); dry season is cooler (May to November)",
 		"Terrain": "generally undulating, with deep ravines and ancient volcanic peaks",
@@ -39,29 +69,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "209,530 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "46.5% (male 49,249/female 48,287)",
-			"15-64 years:": "51% (male 49,665/female 57,209)",
+			"0-14 years:": {
+				"quantity": 46.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51,
+				"unit": "%"
+			},
 			"65 years and over:": "2.4% (male 2,559/female 2,561) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.7 years",
-			"male:": "15.7 years",
-			"female:": "17.6 years (2011 est.)"
+			"total:": {
+				"quantity": 16.7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15.7,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.533% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.533,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "31.67 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 31.67,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "2.6 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 2.6,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -69,31 +123,73 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "50% of total population (2010)",
-			"rate of urbanization:": "2.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 50,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "MAMOUDZOU (capital) 6,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "1.15 male(s)/female",
-			"65 years and over:": "1.05 male(s)/female",
-			"total population:": "1.08 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.15,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "16.17 deaths/1,000 live births",
+			"total:": {
+				"quantity": 16.17,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "16.78 deaths/1,000 live births",
-			"female:": "15.55 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 16.78,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 15.55,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "76.83 years",
+			"total population:": {
+				"quantity": 76.83,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "74.73 years",
-			"female:": "78.99 years (2011 est.)"
+			"male:": {
+				"quantity": 74.73,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 78.99,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "4 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 4,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -106,7 +202,10 @@
 		"Ethnic groups": "NA",
 		"Religions": "Muslim 97%, Christian (mostly Roman Catholic) 3%",
 		"Languages": "Mahorian (a Swahili dialect), French (official language) spoken by 35% of the population",
-		"Literacy": "86%",
+		"Literacy": {
+			"quantity": 86,
+			"unit": "%"
+		},
 		"Education expenditures": {}
 	},
 	"government": {
@@ -118,7 +217,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Mamoudzou",
-			"geographic coordinates:": "12 46 S, 45 13 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 12,
+					"seconds": 46
+				},
+				"E": {
+					"minutes": 45,
+					"seconds": 13
+				}
+			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none (territorial overseas collectivity of France)",
@@ -152,13 +260,17 @@
 	"economy": {
 		"Economy - overview": "Economic activity is based primarily on the agricultural sector, including fishing and livestock raising. Mayotte is not self sufficient and must import a large portion of its food requirements, mainly from France. The economy and future development of the island are heavily dependent on French financial assistance, an important supplement to GDP. Mayotte's remote location is an obstacle to the development of tourism.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$953.6 million (2005 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 953600000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$4,900 (2005 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -167,11 +279,14 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "44,560 (2002)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "25.4% (2005)",
+			"Unemployment rate": {
+				"quantity": 25.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -180,11 +295,18 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$420 million",
-			"expenditures:": "$394 million (2005)"
+			"revenues:": {
+				"usd": 420000000
+			},
+			"expenditures:": {
+				"usd": 394000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.7% (2005)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -193,16 +315,23 @@
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": "NA kWh",
 		"Electricity - consumption": {
-			"Electricity - consumption": "139.2 million kWh (2005)",
+			"Electricity - consumption": {
+				"quantity": 139200000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$6.5 million (2005)",
+			"Exports": {
+				"usd": 6500000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "ylang-ylang (perfume essence), vanilla, copra, coconuts, coffee, cinnamon",
 		"Imports": {
-			"Imports": "$341 million (2005)",
+			"Imports": {
+				"usd": 341000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, machinery and equipment, transportation equipment, metals, chemicals",
@@ -211,11 +340,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "10,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "48,100 (2005)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -229,23 +358,23 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": "34,769",
-			"females age 16-49:": "42,005 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "2,395",
-			"female:": "2,487 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

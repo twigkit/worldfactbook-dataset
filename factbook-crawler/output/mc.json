@@ -5,20 +5,44 @@
 	"background": "Colonized by the Portuguese in the 16th century, Macau was the first European settlement in the Far East. Pursuant to an agreement signed by China and Portugal on 13 April 1987, Macau became the Macau Special Administrative Region (SAR) of the People's Republic of China on 20 December 1999. In this agreement, China promised that, under its \"one country, two systems\" formula, China's socialist economic system would not be practiced in Macau, and that Macau would enjoy a high degree of autonomy in all matters except foreign and defense affairs for the next 50 years.",
 	"geo": {
 		"Location": "Eastern Asia, bordering the South China Sea and China",
-		"Geographic coordinates": "22 10 N, 113 33 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 22,
+				"seconds": 10
+			},
+			"E": {
+				"minutes": 113,
+				"seconds": 33
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "28.2 sq km",
+			"total:": {
+				"quantity": 28.2,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "28.2 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 28.2,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "less than one-sixth the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "0.34 km",
+			"total:": {
+				"quantity": 0.34,
+				"unit": "km"
+			},
 			"regional border:": "China 0.34 km"
 		},
-		"Coastline": "41 km",
+		"Coastline": {
+			"quantity": 41,
+			"unit": "km"
+		},
 		"Maritime claims": "not specified",
 		"Climate": "subtropical; marine with cool winters, warm summers",
 		"Terrain": "generally flat",
@@ -28,9 +52,18 @@
 		},
 		"Natural resources": "NEGL",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
-			"other:": "100% (2005)"
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA; note - included in the total for China (2008)",
 		"Natural hazards": "typhoons",
@@ -42,60 +75,129 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "573,003 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15% (male 45,635/female 40,523)",
-			"15-64 years:": "76.8% (male 205,998/female 233,820)",
+			"0-14 years:": {
+				"quantity": 15,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 76.8,
+				"unit": "%"
+			},
 			"65 years and over:": "8.2% (male 22,043/female 24,984) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "36.2 years",
-			"male:": "36.8 years",
-			"female:": "35.6 years (2011 est.)"
+			"total:": {
+				"quantity": 36.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 36.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 35.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.879% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.879,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.03 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.03,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "3.72 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 3.72,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "3.49 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 3.49,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.14 male(s)/female",
-			"15-64 years:": "0.88 male(s)/female",
-			"65 years and over:": "0.88 male(s)/female",
-			"total population:": "0.92 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.14,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.88,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.18 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.18,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.34 deaths/1,000 live births",
-			"female:": "3.02 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.34,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.02,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "84.41 years",
+			"total population:": {
+				"quantity": 84.41,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "81.45 years",
-			"female:": "87.52 years (2011 est.)"
+			"male:": {
+				"quantity": 81.45,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 87.52,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "0.92 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 0.92,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -110,14 +212,32 @@
 		"Languages": "Cantonese 85.7%, Hokkien 4%, Mandarin 3.2%, other Chinese dialects 2.7%, English 1.5%, Tagalog 1.3%, other 1.6% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "91.3%",
-			"male:": "95.3%",
-			"female:": "87.8% (2001 census)"
+			"total population:": {
+				"quantity": 91.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 87.8,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "15 years",
-			"female:": "14 years (2009)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,36 +282,72 @@
 	"economy": {
 		"Economy - overview": "Macau's economy slowed dramatically in 2009 as a result of the global economic slowdown, but strong growth resumed in 2010, largely on the back of strong tourism and gaming sectors. After opening up its locally-controlled casino industry to foreign competition in 2001, the territory attracted tens of billions of dollars in foreign investment, transforming Macau into one of the world's largest gaming center. Macau's gaming and tourism businesses were fueled by China's decision to relax travel restrictions on Chinese citizens wishing to visit Macau. By 2006, Macau's gaming revenue surpassed that of the Las Vegas strip, and gaming-related taxes accounted for more than 70% of total government revenue. In 2008, Macau introduced measures to cool the rapidly developing sector. This city of nearly 552,300 hosted nearly 25 million visitors in 2010. Almost 53% came from mainland China. Macau's traditional manufacturing industry has virtually disappeared since the termination of the Multi-Fiber Agreement in 2005. In 2010, total exports were less than US$900 million, while gaming receipts were almost US$24 billion, a 58% increase over 2009. The Macau government plans to tighten control over the opening of new casinos and strengthen supervision of local casino operations in 2011 and has introduced measures to diversify the economy. The Closer Economic Partnership Agreement (CEPA) between Macau and mainland China that came into effect on 1 January 2004 offers Macau-made products tariff-free access to the mainland; nevertheless, China is Macau's second largest goods export market, behind Hong Kong, and followed by the United States. Macau's currency, the pataca, is closely tied to the Hong Kong dollar, which is also freely accepted in the territory.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$18.47 billion (2009 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 18470000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$22.1 billion (2009 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 22100000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1% (2009 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$33,000 (2009)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0.1%",
-			"industry:": "2.8%",
-			"services:": "97.1% (2009 est.)"
+			"agriculture:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 97.1,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "330,900 (2010 est.)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"manufacturing:": "4.3%",
-			"construction:": "8.7%",
-			"transport and communications:": "5.5%",
-			"wholesale and retail trade:": "13.3%",
-			"restaurants and hotels:": "12.7%"
+			"manufacturing:": {
+				"quantity": 4.3,
+				"unit": "%"
+			},
+			"construction:": {
+				"quantity": 8.7,
+				"unit": "%"
+			},
+			"transport and communications:": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
+			"wholesale and retail trade:": {
+				"quantity": 13.3,
+				"unit": "%"
+			},
+			"restaurants and hotels:": {
+				"quantity": 12.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.9% (2010)",
+			"Unemployment rate": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -200,31 +356,49 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$9.95 billion",
-			"expenditures:": "$7.18 billion (2010)"
+			"revenues:": {
+				"usd": 9950000000
+			},
+			"expenditures:": {
+				"usd": 7180000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.8% (2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.25% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.34 billion (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 4340000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$30.41 billion (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 30410000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$16.33 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 16329999999.999998
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$46.1 billion (31 February 2011 est.)",
+			"Market value of publicly traded shares": {
+				"usd": 46100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "only 2% of land area is cultivated, mainly by vegetable growers; fishing, mostly for crustaceans, is important; some of the catch is exported to Hong Kong",
@@ -234,96 +408,152 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "1.1 billion kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 1100000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "3.66 billion kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 3660000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2010 est.)",
-		"Electricity - imports": "2.79 billion kWh (2010 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 2790000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2010 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "6,490 bbl/day (2010 est.)",
+			"Oil - consumption": {
+				"quantity": 6490,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2010 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "6,284 bbl/day (2010 est.)",
+			"Oil - imports": {
+				"quantity": 6284,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2011 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "154.7 million cu m (2010)",
+			"Natural gas - consumption": {
+				"quantity": 154700000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "154.5 million cu m (2010 est.)",
+			"Natural gas - imports": {
+				"quantity": 154500000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "174,000 cu m (2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 174000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$6.23 billion (2009)",
+			"Current account balance": {
+				"usd": 6230000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$870 million (2010 est.)",
+			"Exports": {
+				"usd": 870000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "clothing, textiles, footwear, toys, electronics, machinery and parts",
 		"Exports - partners": "Hong Kong 38.7%, US 17.9%, China 14.4%, Germany 4% (2009 est.)",
 		"Imports": {
-			"Imports": "$5.5 billion (2010 est.)",
+			"Imports": {
+				"usd": 5500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "raw materials and semi-manufactured goods, consumer goods (foodstuffs, beverages, tobacco), capital goods, mineral fuels and oils",
 		"Imports - partners": "China 31.1%, Hong Kong 10.8%, Japan 8.1%, France 8%, US 6.2% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$23.73 billion (2010)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 23730000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$0 (2010)",
+			"Debt - external": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$12.1 billion (2008 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 12100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$240 million (2009 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 240000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "168,903 (2010)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.109 million (2010)",
+			"Telephones - mobile cellular": 1109000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -334,40 +564,46 @@
 		"Broadcast media": "local government dominates broadcast media; 2 television stations operated by the government with one broadcasting in Portuguese and the other in Cantonese and Mandarin; cable and satellite TV services are available; 3 radio stations broadcasting, of which 2 are government-operated (2010)",
 		"Internet country code": ".mo",
 		"Internet hosts": {
-			"Internet hosts": "252 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "1 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
-		"Heliports": "2 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "413 km",
+			"total:": {
+				"quantity": 413,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "413 km (2009)"
+			"paved:": {
+				"quantity": 413,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "no regular military forces",
 		"Manpower available for military service": {
-			"males age 16-49:": "150,780 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "124,189",
-			"females age 16-49:": "149,514 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "4,274",
-			"female:": "3,674 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},

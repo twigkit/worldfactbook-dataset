@@ -5,24 +5,57 @@
 	"background": "The native Taino Amerindians - who inhabited the island of Hispaniola when it was discovered by COLUMBUS in 1492 - were virtually annihilated by Spanish settlers within 25 years. In the early 17th century, the French established a presence on Hispaniola. In 1697, Spain ceded to the French the western third of the island, which later became Haiti. The French colony, based on forestry and sugar-related industries, became one of the wealthiest in the Caribbean but only through the heavy importation of African slaves and considerable environmental degradation. In the late 18th century, Haiti's nearly half million slaves revolted under Toussaint L'OUVERTURE. After a prolonged struggle, Haiti became the first black republic to declare independence in 1804. The poorest country in the Western Hemisphere, Haiti has been plagued by political violence for most of its history. After an armed rebellion led to the forced resignation and exile of President Jean-Bertrand ARISTIDE in February 2004, an interim government took office to organize new elections under the auspices of the United Nations Stabilization Mission in Haiti (MINUSTAH). Continued violence and technical delays prompted repeated postponements, but Haiti finally did inaugurate a democratically elected president and parliament in May of 2006. A massive magnitude 7.0 earthquake struck Haiti in January 2010 with an epicenter about 15 km southwest of the capital, Port-au-Prince. An estimated 2 million people lived within the zone of heavy to moderate structural damage. The earthquake was assessed as the worst in this region over the last 200 years and massive international assistance will be required to help the country recover.",
 	"geo": {
 		"Location": "Caribbean, western one-third of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, west of the Dominican Republic",
-		"Geographic coordinates": "19 00 N, 72 25 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 19,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 72,
+				"seconds": 25
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "27,750 sq km",
+			"total:": {
+				"quantity": 27750,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "27,560 sq km",
-			"water:": "190 sq km"
+			"land:": {
+				"quantity": 27560,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 190,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "360 km",
+			"total:": {
+				"quantity": 360,
+				"unit": "km"
+			},
 			"border countries:": "Dominican Republic 360 km"
 		},
-		"Coastline": "1,771 km",
+		"Coastline": {
+			"quantity": 1771,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "to depth of exploitation"
 		},
 		"Climate": "tropical; semiarid where mountains in east cut off trade winds",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "bauxite, copper, calcium carbonate, gold, marble, hydropower",
 		"Land use": {
-			"arable land:": "28.11%",
-			"permanent crops:": "11.53%",
-			"other:": "60.36% (2005)"
+			"arable land:": {
+				"quantity": 28.11,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 11.53,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 60.36,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "920 sq km (2008)",
-		"Total renewable water resources": "14 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 920,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 14,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.99  cu km/yr (5%/1%/94%)",
-			"per capita:": "116  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.99,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 116,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "lies in the middle of the hurricane belt and subject to severe storms from June to October; occasional flooding and earthquakes; periodic droughts",
 		"Environment - current issues": "extensive deforestation (much of the remaining forested land is being cleared for agriculture and used as fuel); soil erosion; inadequate supplies of potable water",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "9,719,932 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "35.9% (male 1,748,677/female 1,742,199)",
-			"15-64 years:": "60.1% (male 2,898,251/female 2,947,272)",
+			"0-14 years:": {
+				"quantity": 35.9,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 60.1,
+				"unit": "%"
+			},
 			"65 years and over:": "3.9% (male 170,584/female 212,949) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.4 years",
-			"male:": "21.1 years",
-			"female:": "21.6 years (2011 est.)"
+			"total:": {
+				"quantity": 21.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.787%",
+			"Population growth rate": {
+				"quantity": 0.787,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "24.4 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 24.4,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.21 deaths/1,000 population",
+			"Death rate": {
+				"quantity": 8.21,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +161,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "52% of total population (2010)",
-			"rate of urbanization:": "3.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 52,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "PORT-AU-PRINCE (capital) 2.143 million (2010)",
 		"Sex ratio": {
-			"at birth:": "1.011 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.62 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.011,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.62,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "54.02 deaths/1,000 live births",
+			"total:": {
+				"quantity": 54.02,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "58.16 deaths/1,000 live births",
-			"female:": "49.83 deaths/1,000 live births"
+			"male:": {
+				"quantity": 58.16,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 49.83,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "62.17 years",
+			"total population:": {
+				"quantity": 62.17,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "60.84 years",
-			"female:": "63.53 years"
+			"male:": {
+				"quantity": 60.84,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 63.53,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.07 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.07,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "1.9% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 1.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "120,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "7,100 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -141,9 +264,18 @@
 		"Languages": "French (official), Creole (official)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "52.9%",
-			"male:": "54.8%",
-			"female:": "51.2% (2003 est.)"
+			"total population:": {
+				"quantity": 52.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 54.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 51.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -158,7 +290,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Port-au-Prince",
-			"geographic coordinates:": "18 32 N, 72 20 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 18,
+					"seconds": 32
+				},
+				"W": {
+					"minutes": 72,
+					"seconds": 20
+				}
+			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)",
 			"daylight saving time:": "no DST planned for 2011"
 		},
@@ -207,71 +348,126 @@
 	"economy": {
 		"Economy - overview": "Haiti is a free market economy that enjoys the advantages of low labor costs and tariff-free access to the US for many of its exports. Poverty, corruption, and poor access to education for much of the population are among Haiti's most serious disadvantages. Over the longer term, Haiti needs to create jobs for its young workforce and to build institutional capacity. Haiti's economy suffered a severe setback when a 7.0 magnitude earthquake destroyed much of its capital city, Port-au-Prince, and neighboring areas in January 2010. Already the poorest country in the Western Hemisphere with 80% of the population living under the poverty line and 54% in abject poverty, the damage to Port-au-Prince caused the country's GDP to contract an estimated 5.1% in 2010. Two-thirds of all Haitians depend on the agricultural sector, mainly small-scale subsistence farming, and remain vulnerable to damage from frequent natural disasters, exacerbated by the country's widespread deforestation. US economic engagement under the Haitian Hemispheric Opportunity through Partnership Encouragement (HOPE) Act, passed in December 2006, has boosted apparel exports and investment by providing duty-free access to the US. Congress voted in 2010 to extend the legislation until 2020 under the Haitian Economic Lift Act (HELP); the apparel sector accounts for three-quarters of Haitian exports and nearly one-tenth of GDP. Remittances are the primary source of foreign exchange, equaling nearly 20% of GDP and more than twice the earnings from exports. Haiti suffers from a lack of investment, partly because of limited infrastructure and a lack of security. In 2005, Haiti paid its arrears to the World Bank, paving the way for reengagement with the Bank. Haiti received debt forgiveness for over $1 billion through the Highly-Indebted Poor Country (HIPC) initiative in mis-2009. The remainder of its outstanding external debt was cancelled by donor countries in early 2010 but has since risen to about $400 million. The government relies on formal international economic assistance for fiscal sustainability, with over half of its annual budget coming from outside sources.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$11.48 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 11480000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$6.632 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 6632000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-5.1% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$1,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "25%",
-			"industry:": "16%",
-			"services:": "59% (2010 est.)"
+			"agriculture:": {
+				"quantity": 25,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 59,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.81 million",
+			"Labor force": 4810000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "38.1%",
-			"industry:": "11.5%",
-			"services:": "50.4% (2010)"
+			"agriculture:": {
+				"quantity": 38.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 11.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 50.4,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "40.6% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 40.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "80% (2003 est.)",
+		"Population below poverty line": {
+			"quantity": 80,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "0.7%",
-			"highest 10%:": "47.7% (2001)"
+			"lowest 10%:": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 47.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "59.2 (2001)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "25% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 25,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$900 million",
-			"expenditures:": "$2.6 billion (2010 est.)"
+			"revenues:": {
+				"usd": 900000000
+			},
+			"expenditures:": {
+				"usd": 2600000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "4.7% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "8% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$970 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$3.249 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 3249000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$960.1 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 960100000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
@@ -282,53 +478,92 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "650 million kWh (2010 est.)",
+			"Electricity - production": {
+				"quantity": 650000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "309 million kWh (2010 est.)",
+			"Electricity - consumption": {
+				"quantity": 309000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - exports": "NA kWh (2010 est.)",
-		"Electricity - imports": "0 kWh (2010 est.)",
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "12,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 12000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "12,280 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 12280,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -336,34 +571,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$530.2 million (2010 est.)",
+			"Exports": {
+				"usd": 530200000.00000006
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "apparel, manufactures, oils, cocoa, mangoes, coffee",
 		"Exports - partners": "US 79.76%, Dominican Republic 7.24%, Canada 2.96% (2009)",
 		"Imports": {
-			"Imports": "$2.727 billion (2010 est.)",
+			"Imports": {
+				"usd": 2727000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, manufactured goods, machinery and transport equipment, fuels, raw materials",
 		"Imports - partners": "US 33.11%, Dominican Republic 23.53%, Netherlands Antilles 10.75%, China 5.36% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.587 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1587000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$350 million (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 350000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "108,300 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3.648 million (2009)",
+			"Telephones - mobile cellular": 3648000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -374,47 +617,56 @@
 		"Broadcast media": "several television stations, including 1 government-owned; cable TV subscription service is available; government-owned radio network; more than 250 private and community radio stations operating with about 50 FM stations in Port-au-Prince alone (2007)",
 		"Internet country code": ".ht",
 		"Internet hosts": {
-			"Internet hosts": "273 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "14 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "3 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "10",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "8 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "4,160 km",
+			"total:": {
+				"quantity": 4160,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "1,011 km",
-			"unpaved:": "3,149 km (2000)"
+			"paved:": {
+				"quantity": 1011,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 3149,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},
 	"military": {
 		"Military branches": "no regular military forces - small Coast Guard; the regular Haitian Armed Forces (FAdH) - Army, Navy, and Air Force - have been demobilized but still exist on paper until or unless they are constitutionally abolished (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,398,804",
-			"females age 16-49:": "2,415,039 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,666,324",
-			"females age 16-49:": "1,704,364 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "115,246",
-			"female:": "115,282 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

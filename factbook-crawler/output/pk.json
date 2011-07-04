@@ -5,24 +5,57 @@
 	"background": "The Indus Valley civilization, one of the oldest in the world and dating back at least 5,000 years, spread over much of what is presently Pakistan. During the second millennium B.C., remnants of this culture fused with the migrating Indo-Aryan peoples. The area underwent successive invasions in subsequent centuries from the Persians, Greeks, Scythians, Arabs (who brought Islam), Afghans, and Turks. The Mughal Empire flourished in the 16th and 17th centuries; the British came to dominate the region in the 18th century. The separation in 1947 of British India into the Muslim state of Pakistan (with West and East sections) and largely Hindu India was never satisfactorily resolved, and India and Pakistan fought two wars - in 1947-48 and 1965 - over the disputed Kashmir territory. A third war between these countries in 1971 - in which India capitalized on Islamabad's marginalization of Bengalis in Pakistani politics - resulted in East Pakistan becoming the separate nation of Bangladesh. In response to Indian nuclear weapons testing, Pakistan conducted its own tests in 1998. India-Pakistan relations have been rocky since the November 2008 Mumbai attacks, but both countries are taking small steps to put relations back on track. In February 2008, Pakistan held parliamentary elections and in September 2008, after the resignation of former President MUSHARRAF, elected Asif Ali ZARDARI to the presidency. Pakistani government and military leaders are struggling to control domestic insurgents, many of whom are located in the tribal areas adjacent to the border with Afghanistan.",
 	"geo": {
 		"Location": "Southern Asia, bordering the Arabian Sea, between India on the east and Iran and Afghanistan on the west and China in the north",
-		"Geographic coordinates": "30 00 N, 70 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 30,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 70,
+				"seconds": 0
+			}
+		},
 		"Map references": "Asia",
 		"Area": {
-			"total:": "796,095 sq km",
+			"total:": {
+				"quantity": 796095,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "770,875 sq km",
-			"water:": "25,220 sq km"
+			"land:": {
+				"quantity": 770875,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 25220,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of California",
 		"Land boundaries": {
-			"total:": "6,774 km",
+			"total:": {
+				"quantity": 6774,
+				"unit": "km"
+			},
 			"border countries:": "Afghanistan 2,430 km, China 523 km, India 2,912 km, Iran 909 km"
 		},
-		"Coastline": "1,046 km",
+		"Coastline": {
+			"quantity": 1046,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "mostly hot, dry desert; temperate in northwest; arctic in north",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "land, extensive natural gas reserves, limited petroleum, poor quality coal, iron ore, copper, salt, limestone",
 		"Land use": {
-			"arable land:": "24.44%",
-			"permanent crops:": "0.84%",
-			"other:": "74.72% (2005)"
+			"arable land:": {
+				"quantity": 24.44,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.84,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 74.72,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "198,700 sq km (2008)",
-		"Total renewable water resources": "233.8 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 198700,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 233.8,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "169.39  cu km/yr (2%/2%/96%)",
-			"per capita:": "1,072  cu m/yr (2000)"
+			"total:": {
+				"quantity": 169.39,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1072,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "frequent earthquakes, occasionally severe especially in north and west; flooding along the Indus after heavy rains (July and August)",
 		"Environment - current issues": "water pollution from raw sewage, industrial wastes, and agricultural runoff; limited natural freshwater resources; most of the population does not have access to potable water; deforestation; soil erosion; desertification",
@@ -53,29 +107,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "187,342,721 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "35.4% (male 34,093,853/female 32,278,462)",
-			"15-64 years:": "60.4% (male 58,401,016/female 54,671,873)",
+			"0-14 years:": {
+				"quantity": 35.4,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 60.4,
+				"unit": "%"
+			},
 			"65 years and over:": "4.2% (male 3,739,647/female 4,157,870) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "21.6 years",
-			"male:": "21.5 years",
-			"female:": "21.6 years (2011 est.)"
+			"total:": {
+				"quantity": 21.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 21.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 21.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.573% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.573,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "24.81 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 24.81,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.92 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.92,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -83,43 +161,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "36% of total population (2010)",
-			"rate of urbanization:": "3.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 36,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 3.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "Karachi 13.125 million; Lahore 7.132 million; Faisalabad 2.849 million; Rawalpindi 2.026 million; ISLAMABAD (capital) 832,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.09 male(s)/female",
-			"65 years and over:": "0.92 male(s)/female",
-			"total population:": "1.07 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.92,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "63.26 deaths/1,000 live births",
+			"total:": {
+				"quantity": 63.26,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "66.52 deaths/1,000 live births",
-			"female:": "59.85 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 66.52,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 59.85,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "65.99 years",
+			"total population:": {
+				"quantity": 65.99,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "64.18 years",
-			"female:": "67.9 years (2011 est.)"
+			"male:": {
+				"quantity": 64.18,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 67.9,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.17 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.17,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "98,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "5,800 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -139,14 +262,32 @@
 		"Languages": "Punjabi 48%, Sindhi 12%, Siraiki (a Punjabi variant) 10%, Pashtu 8%, Urdu (official) 8%, Balochi 3%, Hindko 2%, Brahui 1%, English (official; lingua franca of Pakistani elite and most government ministries), Burushaski, and other 8%",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "49.9%",
-			"male:": "63%",
-			"female:": "36% (2005 est.)"
+			"total population:": {
+				"quantity": 49.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 63,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 36,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "7 years",
-			"male:": "8 years",
-			"female:": "6 years (2009)"
+			"total:": {
+				"quantity": 7,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 6,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +302,16 @@
 		"Government type": "federal republic",
 		"Capital": {
 			"name:": "Islamabad",
-			"geographic coordinates:": "33 42 N, 73 10 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 33,
+					"seconds": 42
+				},
+				"E": {
+					"minutes": 73,
+					"seconds": 10
+				}
+			},
 			"time difference:": "UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -213,136 +363,244 @@
 	"economy": {
 		"Economy - overview": "Pakistan, an impoverished and underdeveloped country, has suffered from decades of internal political disputes and low levels of foreign investment. Between 2001-07, however, poverty levels decreased by 10%, as Islamabad steadily raised development spending. During 2004-07, GDP growth in the 5-8% range was spurred by gains in the industrial and service sectors - despite severe electricity shortfalls - but growth slowed in 2008-09 and unemployment rose. Inflation remains the top concern among the public, climbing from 7.7% in 2007 to more than 13% in 2010. In addition, the Pakistani rupee has depreciated since 2007 as a result of political and economic instability. The government agreed to an International Monetary Fund Standby Arrangement in November 2008 in response to a balance of payments crisis, but during 2009-10 its current account strengthened and foreign exchange reserves stabilized - largely because of lower oil prices and record remittances from workers abroad. Record floods in July-August 2010 lowered agricultural output and contributed to a jump in inflation, and reconstruction costs will strain the limited resources of the government. Textiles account for most of Pakistan's export earnings, but Pakistan's failure to expand a viable export base for other manufactures has left the country vulnerable to shifts in world demand. Other long term challenges include expanding investment in education, healthcare, and electricity production, and reducing dependence on foreign donors.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$464.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 464900000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$174.9 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 174900000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "21.8%",
-			"industry:": "23.6%",
-			"services:": "54.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 21.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23.6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 54.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "55.77 million",
+			"Labor force": 55770000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "43%",
-			"industry:": "20.3%",
-			"services:": "36.6% (2005 est.)"
+			"agriculture:": {
+				"quantity": 43,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 36.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "15% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 15,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "24% (FY05/06 est.)",
+		"Population below poverty line": {
+			"quantity": 24,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.9%",
-			"highest 10%:": "26.5% (2005)"
+			"lowest 10%:": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 26.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "30.6 (FY07/08)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "15% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 15,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$25.33 billion",
-			"expenditures:": "$36.24 billion (2010 est.)"
+			"revenues:": {
+				"usd": 25330000000
+			},
+			"expenditures:": {
+				"usd": 36240000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "49.9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 49.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "13.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 13.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "12.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 12.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$59.75 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 59750000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$85.22 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 85220000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$71.45 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 71450000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$33.24 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 33240000000.000004
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "cotton, wheat, rice, sugarcane, fruits, vegetables; milk, beef, mutton, eggs",
 		"Industries": "textiles and apparel, food processing, pharmaceuticals, construction materials, paper products, fertilizer, shrimp",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "4.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 4.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "90.8 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 90800000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "72.2 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 72200000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "59,140 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 59140,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "373,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 373000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "30,090 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 30090,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "319,500 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 319500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "436.2 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 436200000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "37.5 billion cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 37500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "37.5 billion cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 37500000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "840.2 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 840200000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -350,42 +608,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$20.29 billion (2010 est.)",
+			"Exports": {
+				"usd": 20290000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "textiles (garments, bed linen, cotton cloth, yarn), rice, leather goods, sports goods, chemicals, manufactures, carpets and rugs",
 		"Exports - partners": "US 15.87%, UAE 12.35%, Afghanistan 8.48%, UK 4.7%, China 4.44% (2009)",
 		"Imports": {
-			"Imports": "$32.71 billion (2010 est.)",
+			"Imports": {
+				"usd": 32710000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "petroleum, petroleum products, machinery, plastics, transportation equipment, edible oils, paper and paperboard, iron and steel, tea",
 		"Imports - partners": "China 15.35%, Saudi Arabia 10.54%, UAE 9.8%, US 4.81%, Kuwait 4.73%, Malaysia 4.43%, India 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$16.1 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 16100000000.000002
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$57.21 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 57210000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$30.09 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 30090000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$1.047 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 1046999999.9999999
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4.058 million (2009)",
+			"Telephones - main lines in use": 4058000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "103 million (2009)",
+			"Telephones - mobile cellular": 103000000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -396,45 +666,57 @@
 		"Broadcast media": "media is government regulated; 1 dominant state-owned TV broadcaster, Pakistan Television Corporation (PTV), operates a network consisting of 6 channels; private TV broadcasters are permitted and some foreign satellite channels are carried by cable TV operators; the state-owned radio network operates more than 40 stations; privately-owned radio stations mostly limit programming to music and talk shows (2007)",
 		"Internet country code": ".pk",
 		"Internet hosts": {
-			"Internet hosts": "330,466 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "148 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "101",
-			"over 3,047 m:": "15",
-			"2,438 to 3,047 m:": "20",
-			"1,524 to 2,437 m:": "39",
-			"914 to 1,523 m:": "18"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "47",
-			"1,524 to 2,437 m:": "11",
-			"914 to 1,523 m:": "11",
-			"under 914 m:": "25 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "20 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 10,514 km; oil 2,013 km; refined products 787 km (2010)",
 		"Railways": {
-			"total:": "7,791 km",
+			"total:": {
+				"quantity": 7791,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "7,479 km 1.676-m gauge (293 km electrified)",
 			"narrow gauge:": "312 km 1.000-m gauge (2007)"
 		},
 		"Roadways": {
-			"total:": "259,197 km",
+			"total:": {
+				"quantity": 259197,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "172,827 km (includes 711 km of expressways)",
-			"unpaved:": "86,370 km (2007)"
+			"paved:": {
+				"quantity": 172827,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 86370,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "10",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 4, petroleum tanker 5",
 			"registered in other countries:": "14 (Comoros 3, Georgia 1, Marshall Islands 1, Panama 5, Saint Kitts and Nevis 3, Saint Vincent and the Grenadines 1) (2010)"
@@ -445,23 +727,23 @@
 		"Military branches": "Army (includes National Guard), Navy (includes Marines and Maritime Security Agency), Pakistan Air Force (Pakistan Fiza'ya) (2010)",
 		"Military service age and obligation": "17-23 years of age for voluntary military service; soldiers cannot be deployed for combat until age 18; the Pakistani Air Force and Pakistani Navy have inducted their first female pilots and sailors (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "48,453,305",
-			"females age 16-49:": "44,898,096 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "37,945,440",
-			"females age 16-49:": "37,381,549 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "2,237,723",
-			"female:": "2,104,906 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "various talks and confidence-building measures cautiously have begun to defuse tensions over Kashmir, particularly since the October 2005 earthquake in the region; Kashmir nevertheless remains the site of the world's largest and most militarized territorial dispute with portions under the de facto administration of China (Aksai Chin), India (Jammu and Kashmir), and Pakistan (Azad Kashmir and Northern Areas); UN Military Observer Group in India and Pakistan (UNMOGIP) has maintained a small group of peacekeepers since 1949; India does not recognize Pakistan's ceding historic Kashmir lands to China in 1964; India and Pakistan have maintained their 2004 cease fire in Kashmir and initiated discussions on defusing the armed stand-off in the Siachen glacier region; Pakistan protests India's fencing the highly militarized Line of Control and construction of the Baglihar Dam on the Chenab River in Jammu and Kashmir, which is part of the larger dispute on water sharing of the Indus River and its tributaries; to defuse tensions and prepare for discussions on a maritime boundary, India and Pakistan seek technical resolution of the disputed boundary in Sir Creek estuary at the mouth of the Rann of Kutch in the Arabian Sea; Pakistani maps continue to show the Junagadh claim in India's Gujarat State; by 2005, Pakistan, with UN assistance, repatriated 2.3 million Afghan refugees leaving slightly more than a million, many of whom remain at their own choosing; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan, which serve as bases for foreign terrorists and other illegal activities; Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": "1,043,984 (Afghanistan)",
+			"refugees (country of origin):": null,
 			"IDPs:": "undetermined (government strikes on Islamic militants in South Waziristan); 34,000 (October 2005 earthquake; most of those displaced returned to their home villages in the spring of 2006) (2007)"
 		},
 		"Illicit drugs": {}

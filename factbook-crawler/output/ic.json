@@ -5,20 +5,50 @@
 	"background": "Settled by Norwegian and Celtic (Scottish and Irish) immigrants during the late 9th and 10th centuries A.D., Iceland boasts the world's oldest functioning legislative assembly, the Althing, established in 930. Independent for over 300 years, Iceland was subsequently ruled by Norway and Denmark. Fallout from the Askja volcano of 1875 devastated the Icelandic economy and caused widespread famine. Over the next quarter century, 20% of the island's population emigrated, mostly to Canada and the US. Limited home rule from Denmark was granted in 1874 and complete independence attained in 1944. The second half of the 20th century saw substantial economic growth driven primarily by the fishing industry. The economy diversified greatly after the country joined the European Economic Area in 1994, but Iceland was especially hard hit by the global financial crisis in the years following 2008. Literacy, longevity, and social cohesion are first rate by world standards.",
 	"geo": {
 		"Location": "Northern Europe, island between the Greenland Sea and the North Atlantic Ocean, northwest of the United Kingdom",
-		"Geographic coordinates": "65 00 N, 18 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 65,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 18,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "103,000 sq km",
+			"total:": {
+				"quantity": 103000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "100,250 sq km",
-			"water:": "2,750 sq km"
+			"land:": {
+				"quantity": 100250,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2750,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Kentucky",
-		"Land boundaries": "0 km",
-		"Coastline": "4,970 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 4970,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 nm or to the edge of the continental margin"
 		},
 		"Climate": "temperate; moderated by North Atlantic Current; mild, windy winters; damp, cool summers",
@@ -29,15 +59,33 @@
 		},
 		"Natural resources": "fish, hydropower, geothermal power, diatomite",
 		"Land use": {
-			"arable land:": "0.07%",
-			"permanent crops:": "0%",
-			"other:": "99.93% (2005)"
+			"arable land:": {
+				"quantity": 0.07,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 99.93,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "170 cu km (2005)",
+		"Total renewable water resources": {
+			"quantity": 170,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.17  cu km/yr (34%/66%/0%)",
-			"per capita:": "567  cu m/yr (2003)"
+			"total:": {
+				"quantity": 0.17,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 567,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "earthquakes and volcanic activity",
@@ -52,65 +100,137 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "311,058 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.2% (male 31,929/female 31,034)",
-			"15-64 years:": "67.1% (male 105,541/female 103,202)",
+			"0-14 years:": {
+				"quantity": 20.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 67.1,
+				"unit": "%"
+			},
 			"65 years and over:": "12.7% (male 17,974/female 21,378) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "35.6 years",
-			"male:": "35.2 years",
-			"female:": "36.1 years (2011 est.)"
+			"total:": {
+				"quantity": 35.6,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 35.2,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 36.1,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.687% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.687,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "13.29 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 13.29,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.96 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.96,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.53 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.53,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "93% of total population (2010)",
-			"rate of urbanization:": "1.5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 93,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "REYKJAVIK (capital) 198,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.04 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "1.02 male(s)/female",
-			"65 years and over:": "0.83 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.83,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.2 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.2,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.34 deaths/1,000 live births",
-			"female:": "3.05 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.34,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.05,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "80.9 years",
+			"total population:": {
+				"quantity": 80.9,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "78.72 years",
-			"female:": "83.17 years (2011 est.)"
+			"male:": {
+				"quantity": 78.72,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 83.17,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.89 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.89,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
@@ -132,14 +252,32 @@
 		"Languages": "Icelandic, English, Nordic languages, German widely spoken",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "18 years",
-			"male:": "17 years",
-			"female:": "20 years (2008)"
+			"total:": {
+				"quantity": 18,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 20,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -153,7 +291,16 @@
 		"Government type": "constitutional republic",
 		"Capital": {
 			"name:": "Reykjavik",
-			"geographic coordinates:": "64 09 N, 21 57 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 64,
+					"seconds": 9
+				},
+				"W": {
+					"minutes": 21,
+					"seconds": 57
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "8 regions; Austurland, Hofudhborgarsvaedhi, Nordhurland Eystra, Nordhurland Vestra, Sudhurland, Sudhurnes, Vestfirdhir, Vesturland",
@@ -198,34 +345,61 @@
 	"economy": {
 		"Economy - overview": "Iceland's Scandinavian-type social-market economy combines a capitalist structure and free-market principles with an extensive welfare system. Prior to the 2008 crisis, Iceland had achieved high growth, low unemployment, and a remarkably even distribution of income. The economy depends heavily on the fishing industry, which provides 40% of export earnings, more than 12% of GDP, and employs 7% of the work force. It remains sensitive to declining fish stocks as well as to fluctuations in world prices for its main exports: fish and fish products, aluminum, and ferrosilicon. Iceland's economy has been diversifying into manufacturing and service industries in the last decade, particularly within the fields of software production, biotechnology, and tourism. Abundant geothermal and hydropower sources have attracted substantial foreign investment in the aluminum sector and boosted economic growth, although the financial crisis has put several investment projects on hold. Much of Iceland's economic growth in recent years came as the result of a boom in domestic demand following the rapid expansion of the country's financial sector. Domestic banks expanded aggressively in foreign markets, and consumers and businesses borrowed heavily in foreign currencies, following the privatization of the banking sector in the early 2000s. Worsening global financial conditions throughout 2008 resulted in a sharp depreciation of the krona vis-a-vis other major currencies. The foreign exposure of Icelandic banks, whose loans and other assets totaled more than 10 times the country's GDP, became unsustainable. Iceland's three largest banks collapsed in late 2008. The country secured over $10 billion in loans from the IMF and other countries to stabilize its currency and financial sector, and to back government guarantees for foreign deposits in Icelandic banks. GDP fell 6.8% in 2009, and unemployment peaked at 9.4% in February 2009. GDP fell 3.4% in 2010. Since the collapse of Iceland's financial sector, government economic priorities have included: stabilizing the krona, reducing Iceland's high budget deficit, containing inflation, restructuring the financial sector, and diversifying the economy. Three new banks were established to take over the domestic assets of the collapsed banks. Two of them have foreign majority ownership, while the State holds a majority of the shares of the third. British and Dutch authorities have pressed claims totaling over $5 billion against Iceland to compensate their citizens for losses suffered on deposits held in the failed Icelandic bank, Landsbanki Islands. Iceland agreed to new terms with the UK and the Netherlands to compensate British and Dutch depositors, but the agreement must first be approved by the Icelandic President. Iceland began accession negotiations with the EU in July 2010; however, public support has dropped substantially because of concern about losing control over fishing resources and in reaction to measures taken by Brussels during the ongoing Eurozone crisis.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$11.82 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 11820000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$12.59 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 12590000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-3.5% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$38,300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "5.5%",
-			"industry:": "24.7%",
-			"services:": "69.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 24.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 69.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "178,800 (2010)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "4.8%",
-			"industry:": "22.2%",
-			"services:": "73% (2008)"
+			"agriculture:": {
+				"quantity": 4.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 73,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "8.3% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 8.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
@@ -234,47 +408,74 @@
 			"highest 10%:": "NA%"
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "28 (2006)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "12.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 12.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$4.81 billion",
-			"expenditures:": "$5.673 billion (2010 est.)"
+			"revenues:": {
+				"usd": 4810000000
+			},
+			"expenditures:": {
+				"usd": 5673000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "123.8% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 123.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.5% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "14.55% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 14.55,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "18.99% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 18.99,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.413 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 4413000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$19.97 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 19970000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$46.03 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 46030000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.128 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1128000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "potatoes, green vegetables; mutton, chicken, pork, beef, dairy products; fish",
@@ -284,53 +485,95 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "16.84 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 16840000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "16.48 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 16480000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "18,900 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 18900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1,915 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 1915,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "16,390 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 16390,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -338,23 +581,31 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$4.619 billion (2010 est.)",
+			"Exports": {
+				"usd": 4619000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "fish and fish products 40%, aluminum, animal products, ferrosilicon, diatomite",
 		"Exports - partners": "Netherlands 30.71%, UK 12.73%, Germany 11.21%, Norway 5.75%, Spain 4.82% (2009)",
 		"Imports": {
-			"Imports": "$3.677 billion (2010 est.)",
+			"Imports": {
+				"usd": 3677000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, petroleum products, foodstuffs, textiles",
 		"Imports - partners": "Norway 12.97%, Netherlands 8.62%, Germany 8.3%, Sweden 8.03%, Denmark 7.27%, US 6.94%, China 4.98%, UK 4.55%, Brazil 4.09% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.206 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4206000000.0000005
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$3.073 billion (2002)",
+			"Debt - external": {
+				"usd": 3073000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": "$NA (31 December 2010)",
@@ -363,11 +614,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "185,200 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "349,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -378,36 +629,45 @@
 		"Broadcast media": "state-owned public television broadcaster operates 1 TV channel nationally; several privately-owned TV stations broadcast nationally and roughly another half-dozen operate locally; about half the households utilize multi-channel cable or satellite TV services; state-owned public radio broadcaster operates 2 national networks and 4 regional stations; 2 privately-owned radio stations operate nationally and another 15 provide more limited coverage (2007)",
 		"Internet country code": ".is",
 		"Internet hosts": {
-			"Internet hosts": "344,748 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "99 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "6",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "93",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "27",
-			"under 914 m:": "63 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "12,869 km",
+			"total:": {
+				"quantity": 12869,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved/oiled gravel:": "4,438 km (does not include urban roads)",
-			"unpaved:": "8,431 km (2009)"
+			"paved/oiled gravel:": {
+				"quantity": 4438,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 8431,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "2",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 2",
 			"registered in other countries:": "19 (Antigua and Barbuda 9, Belize 2, Denmark 3, Finland 1, Gibraltar 1, Norway 3) (2010)"
@@ -417,18 +677,21 @@
 	"military": {
 		"Military branches": "no regular military forces; Icelandic National Police (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "75,337 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "62,781",
-			"females age 16-49:": "61,511 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "2,277",
-			"female:": "2,200 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {
-			"Military expenditures": "0% of GDP (2005 est.)",
+			"Military expenditures": {
+				"quantity": 0,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Military - note": {}

@@ -5,20 +5,44 @@
 	"background": "Part of Romania during the interwar period, Moldova was incorporated into the Soviet Union at the close of World War II. Although the country has been independent from the USSR since 1991, Russian forces have remained on Moldovan territory east of the Dniester River supporting the Slavic majority population, mostly Ukrainians and Russians, who have proclaimed a \"Transnistria\" republic. One of the poorest nations in Europe, Moldova became the first former Soviet state to elect a Communist, Vladimir VORONIN, as its president in 2001. VORONIN served as Moldova's president until he resigned in September 2009, following the opposition's gain of a narrow majority in July parliamentary elections and the Communist Party's (PCRM) subsequent inability to attract the three-fifths of parliamentary votes required to elect a president. Moldova's four opposition parties formed a new coalition, the Alliance for European Integration (AIE), which acted as Moldova's governing coalition until December 2010. Moldova experienced significant political uncertainty in 2009 and 2010, holding three general elections (in April 2009, July 2009, and November 2010) and four presidential ballots in parliament, all of which failed to secure a president. Following the November 2010 parliamentary elections, a reconstituted AIE-coalition of three parties formed a government, but remains two votes short of the three-fifths majority required to elect a president. \r\n",
 	"geo": {
 		"Location": "Eastern Europe, northeast of Romania",
-		"Geographic coordinates": "47 00 N, 29 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 47,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 29,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "33,851 sq km",
+			"total:": {
+				"quantity": 33851,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "32,891 sq km",
-			"water:": "960 sq km"
+			"land:": {
+				"quantity": 32891,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 960,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Maryland",
 		"Land boundaries": {
-			"total:": "1,390 km",
+			"total:": {
+				"quantity": 1390,
+				"unit": "km"
+			},
 			"border countries:": "Romania 450 km, Ukraine 940 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "moderate winters, warm summers",
 		"Terrain": "rolling steppe, gradual slope south to Black Sea",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "lignite, phosphorites, gypsum, arable land, limestone",
 		"Land use": {
-			"arable land:": "54.52%",
-			"permanent crops:": "8.81%",
-			"other:": "36.67% (2005)"
+			"arable land:": {
+				"quantity": 54.52,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 8.81,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 36.67,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "2,283 sq km (2008)",
-		"Total renewable water resources": "11.7 cu km (1997)",
+		"Irrigated land": {
+			"quantity": 2283,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 11.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.31  cu km/yr (10%/58%/33%)",
-			"per capita:": "549  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.31,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 549,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "landslides",
 		"Environment - current issues": "heavy use of agricultural chemicals, including banned pesticides such as DDT, has contaminated soil and groundwater; extensive soil erosion from poor farming methods",
@@ -48,29 +93,50 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,314,377 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.5% (male 344,101/female 325,995)",
-			"15-64 years:": "74% (male 1,550,386/female 1,643,108)",
+			"0-14 years:": {
+				"quantity": 15.5,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 74,
+				"unit": "%"
+			},
 			"65 years and over:": "10.4% (male 164,512/female 286,275) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "35.4 years",
-			"male:": "33.5 years",
-			"female:": "37.4 years (2011 est.)"
+			"total:": {
+				"quantity": 35.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 33.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 37.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.072% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "11.16 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 11.16,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.74 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.74,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -78,39 +144,84 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "47% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 47,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "CHISINAU (capital) 650,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.059 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "0.94 male(s)/female",
-			"65 years and over:": "0.58 male(s)/female",
-			"total population:": "0.91 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.059,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.94,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.58,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.91,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "12.43 deaths/1,000 live births",
+			"total:": {
+				"quantity": 12.43,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "13.85 deaths/1,000 live births",
-			"female:": "10.92 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 13.85,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 10.92,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "71.37 years",
+			"total population:": {
+				"quantity": 71.37,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "67.68 years",
-			"female:": "75.28 years (2011 est.)"
+			"male:": {
+				"quantity": 67.68,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 75.28,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.29 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.29,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.4% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "12,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -130,14 +241,32 @@
 		"Languages": "Moldovan (official, virtually the same as the Romanian language), Russian, Gagauz (a Turkish dialect)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99.1%",
-			"male:": "99.7%",
-			"female:": "98.6% (2005 est.)"
+			"total population:": {
+				"quantity": 99.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 98.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2009)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -152,7 +281,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Chisinau in Romanian (Kishinev in Russian)",
-			"geographic coordinates:": "47 00 N, 28 51 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 47,
+					"seconds": 0
+				},
+				"E": {
+					"minutes": 28,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -207,132 +345,240 @@
 	"economy": {
 		"Economy - overview": "Moldova remains one of the poorest countries in Europe despite recent progress from its small economic base. It enjoys a favorable climate and good farmland but has no major mineral deposits. As a result, the economy depends heavily on agriculture, featuring fruits, vegetables, wine, and tobacco. Moldova must import almost all of its energy supplies. Moldova's dependence on Russian energy was underscored at the end of 2005, when a Russian-owned electrical station in Moldova's separatist Transnistria region cut off power to Moldova and Russia's Gazprom cut off natural gas in disputes over pricing. In January 2009, gas supplies were cut during a dispute between Russia and Ukraine. Russia's decision to ban Moldovan wine and agricultural products, coupled with its decision to double the price Moldova paid for Russian natural gas, have hurt growth. The onset of the global financial crisis and poor economic conditions in Moldova's main foreign markets caused GDP to fall 6% in 2009. Unemployment almost doubled and inflation disappeared - at -0.1%, a record low. Moldova's IMF agreement expired in May 2009. In fall 2009, the IMF allocated $186 million to Moldova to cover its immediate budgetary needs, and the government signed a new agreement with the IMF in January 2010 for a program worth $574 million. In 2010, an upturn in the world economy boosted GDP growth to 6.5% and inflation to 7.3%. Economic reforms have been slow because of corruption and strong political forces backing government controls. Nevertheless, the government's primary goal of EU integration has resulted in some market-oriented progress. The granting of EU trade preferences and increased exports to Russia will encourage higher growth rates, but the agreements are unlikely to serve as a panacea, given the extent to which export success depends on higher quality standards and other factors. The economy has made a modest recovery, but remains vulnerable to political uncertainty, weak administrative capacity, vested bureaucratic interests, higher fuel prices, poor agricultural weather, and the skepticism of foreign investors as well as the presence of an illegal separatist regime in Moldova's Transnistria region.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$10.99 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 10990000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$5.81 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 5810000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.9% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,500 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "16.3%",
-			"industry:": "20.1%",
-			"services:": "63.6% (2010 est.)"
+			"agriculture:": {
+				"quantity": 16.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 20.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.6,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.203 million (2010 est.)",
+			"Labor force": 1203000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "40.6%",
-			"industry:": "16%",
-			"services:": "43.3% (2005)"
+			"agriculture:": {
+				"quantity": 40.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 16,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 43.3,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "6.5% (3rd quarter, 2010 est.)",
+			"Unemployment rate": {
+				"quantity": 6.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "26.3% (2009)",
+		"Population below poverty line": {
+			"quantity": 26.3,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3%",
-			"highest 10%:": "28.2% (2004)"
+			"lowest 10%:": {
+				"quantity": 3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 28.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "37.4 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "21.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 21.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.164 billion",
-			"expenditures:": "$2.462 billion (2010 est.)"
+			"revenues:": {
+				"usd": 2164000000
+			},
+			"expenditures:": {
+				"usd": 2462000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "25% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 25,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "7.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "20.54% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 20.54,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.293 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1293000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$2.038 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 2037999999.9999998
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$2.097 billion (31 December 2010)",
+			"Stock of domestic credit": {
+				"usd": 2097000000
+			},
 			"country comparison to the world:": ""
 		},
-		"Market value of publicly traded shares": "$573.9 million (2004)",
+		"Market value of publicly traded shares": {
+			"usd": 573900000
+		},
 		"Agriculture - products": "vegetables, fruits, grapes, grain, sugar beets, sunflower seed, tobacco; beef, milk; wine",
 		"Industries": "sugar, vegetable oil, food processing, agricultural machinery; foundry equipment, refrigerators and freezers, washing machines; hosiery, shoes, textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7% (2010)",
+			"Industrial production growth rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "3.617 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 3617000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "4.37 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 4370000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "240 million kWh (2007 est.)",
-		"Electricity - imports": "2.931 billion kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 240000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 2931000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "19,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 19000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "36.49 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 36.49,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "14,230 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 14230,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "60,000 cu m (2010 est.)",
+			"Natural gas - production": {
+				"quantity": 60000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "3.176 billion cu m (2010 est.)",
+			"Natural gas - consumption": {
+				"quantity": 3176000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2010 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "3.176 billion cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 3176000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -340,42 +586,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.45 billion (2010 est.)",
+			"Exports": {
+				"usd": 1450000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "foodstuffs, textiles, machinery",
 		"Exports - partners": "Russia 23.77%, Italy 14.11%, Romania 12.74%, Germany 6.92%, Turkey 6.08%, Belarus 5.38% (2009)",
 		"Imports": {
-			"Imports": "$3.66 billion (2010 est.)",
+			"Imports": {
+				"usd": 3660000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "mineral products and fuel, machinery and equipment, chemicals, textiles",
 		"Imports - partners": "Ukraine 19.9%, Romania 15.1%, Russia 14.52%, Germany 8.69%, Italy 5.7%, Belarus 4.38% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$1.71 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 1710000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$4.618 billion (30 September 2010 est.)",
+			"Debt - external": {
+				"usd": 4618000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$2.649 billion (1 January 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 2649000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$62.44 million (1 January 2010)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 62440000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.139 million (2009)",
+			"Telephones - main lines in use": 1139000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.785 million (2009)",
+			"Telephones - mobile cellular": 2785000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -386,39 +644,51 @@
 		"Broadcast media": "state-owned national radio-TV broadcaster operates 2 television and 2 radio stations; a total of nearly 40 terrestrial TV channels and some 50 radio stations are in operation; Russian and Romanian channels also are available (2007)",
 		"Internet country code": ".md",
 		"Internet hosts": {
-			"Internet hosts": "492,181 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "11 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "5",
-			"over 3,047 m:": "1",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "6",
-			"1,524 to 2,437 m:": "3",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 1,906 km (2010)",
 		"Railways": {
-			"total:": "1,190 km",
+			"total:": {
+				"quantity": 1190,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "1,176 km 1.520-m gauge",
 			"standard gauge:": "14 km 1.435-m gauge (2010)"
 		},
 		"Roadways": {
-			"total:": "9,343 km",
+			"total:": {
+				"quantity": 9343,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "8,810 km",
-			"unpaved:": "533 km (2008)"
+			"paved:": {
+				"quantity": 8810,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 533,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "558 km (in public use on Danube, Dniester and Prut rivers) (2008)",
@@ -430,16 +700,16 @@
 		"Military branches": "National Army: Land Forces Command (includes special forces), Air Forces Command (includes air defense unit), Logistics Command (2010)",
 		"Military service age and obligation": "18 years of age for compulsory military service; 17 years of age for voluntary service; male registration required at age 16; 12-month service obligation (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,143,440",
-			"females age 16-49:": "1,156,958 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "875,224",
-			"females age 16-49:": "969,903 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "28,213",
-			"female:": "26,614 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

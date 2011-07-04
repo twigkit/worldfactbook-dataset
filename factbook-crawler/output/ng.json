@@ -5,20 +5,44 @@
 	"background": "Niger became independent from France in 1960 and experienced single-party and military rule until 1991, when Gen. Ali SAIBOU was forced by public pressure to allow multiparty elections, which resulted in a democratic government in 1993. Political infighting brought the government to a standstill and in 1996 led to a coup by Col. Ibrahim BARE. In 1999, BARE was killed in a counter coup by military officers who restored democratic rule and held elections that brought Mamadou TANDJA to power in December of that year. TANDJA was reelected in 2004 and in 2009 spearheaded a constitutional amendment that would allow him to extend his term as president. In February 2010, a military coup deposed TANDJA, immediately suspended the constitution and dissolved the Cabinet, and promised that elections would be held following a transitional period of unspecified duration. Niger is one of the poorest countries in the world with minimal government services and insufficient funds to develop its resource base. The largely agrarian and subsistence-based economy is frequently disrupted by extended droughts common to the Sahel region of Africa. A predominately Tuareg ethnic group emerged in February 2007, the Nigerien Movement for Justice, and attacked several military targets in Niger's northern region throughout 2007 and 2008. Successful government offensives in 2009 limited the rebels' operational capabilities.",
 	"geo": {
 		"Location": "Western Africa, southeast of Algeria",
-		"Geographic coordinates": "16 00 N, 8 00 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 16,
+				"seconds": 0
+			},
+			"E": {
+				"minutes": 8,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "1.267 million sq km",
+			"total:": {
+				"quantity": 1267000,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "1,266,700 sq km",
-			"water:": "300 sq km"
+			"land:": {
+				"quantity": 1266,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 300,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly less than twice the size of Texas",
 		"Land boundaries": {
-			"total:": "5,697 km",
+			"total:": {
+				"quantity": 5697,
+				"unit": "km"
+			},
 			"border countries:": "Algeria 956 km, Benin 266 km, Burkina Faso 628 km, Chad 1,175 km, Libya 354 km, Mali 821 km, Nigeria 1,497 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "desert; mostly hot, dry, dusty; tropical in extreme south",
 		"Terrain": "predominately desert plains and sand dunes; flat to rolling plains in south; hills in north",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "uranium, coal, iron ore, tin, phosphates, gold, molybdenum, gypsum, salt, petroleum",
 		"Land use": {
-			"arable land:": "11.43%",
-			"permanent crops:": "0.01%",
-			"other:": "88.56% (2005)"
+			"arable land:": {
+				"quantity": 11.43,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.01,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 88.56,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "740 sq km (2008)",
-		"Total renewable water resources": "33.7 cu km (2003)",
+		"Irrigated land": {
+			"quantity": 740,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 33.7,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.18  cu km/yr (4%/0%/95%)",
-			"per capita:": "156  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.18,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 156,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "recurring droughts",
 		"Environment - current issues": "overgrazing; soil erosion; deforestation; desertification; wildlife populations (such as elephant, hippopotamus, giraffe, and lion) threatened because of poaching and habitat destruction",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "16,468,886 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "49.6% (male 4,129,164/female 4,045,412)",
-			"15-64 years:": "48% (male 3,944,586/female 3,964,249)",
+			"0-14 years:": {
+				"quantity": 49.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 48,
+				"unit": "%"
+			},
 			"65 years and over:": "2.3% (male 170,741/female 214,734) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "15.2 years",
-			"male:": "15 years",
-			"female:": "15.4 years (2011 est.)"
+			"total:": {
+				"quantity": 15.2,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 15.4,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.643% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.643,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "50.54 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 50.54,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "14.11 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 14.11,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "17% of total population (2010)",
-			"rate of urbanization:": "4.7% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 17,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.7,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "NIAMEY (capital) 1.004 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.02 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.8 male(s)/female",
-			"total population:": "1 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.02,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.8,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "112.22 deaths/1,000 live births",
+			"total:": {
+				"quantity": 112.22,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "117.19 deaths/1,000 live births",
-			"female:": "107.1 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 117.19,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 107.1,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "53.4 years",
+			"total population:": {
+				"quantity": 53.4,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "52.13 years",
-			"female:": "54.7 years (2011 est.)"
+			"male:": {
+				"quantity": 52.13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 54.7,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "7.6 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 7.6,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "61,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "4,300 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +252,32 @@
 		"Languages": "French (official), Hausa, Djerma",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "28.7%",
-			"male:": "42.9%",
-			"female:": "15.1% (2005 est.)"
+			"total population:": {
+				"quantity": 28.7,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 42.9,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 15.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "5 years",
-			"male:": "6 years",
-			"female:": "5 years (2010)"
+			"total:": {
+				"quantity": 5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 5,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -156,7 +291,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Niamey",
-			"geographic coordinates:": "13 31 N, 2 07 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 13,
+					"seconds": 31
+				},
+				"E": {
+					"minutes": 2,
+					"seconds": 7
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "8 regions (regions, singular - region) includes 1 capital district* (communite urbaine); Agadez, Diffa, Dosso, Maradi, Niamey*, Tahoua, Tillaberi, Zinder",
@@ -203,122 +347,219 @@
 	"economy": {
 		"Economy - overview": "Niger is a landlocked, Sub-Saharan nation, whose economy centers on subsistence crops, livestock, and some of the world's largest uranium deposits. Drought, desertification, and strong population growth have undercut the economy. Niger shares a common currency, the CFA franc, and a common central bank, the Central Bank of West African States (BCEAO), with seven other members of the West African Monetary Union. In December 2000, Niger qualified for enhanced debt relief under the International Monetary Fund program for Highly Indebted Poor Countries (HIPC) and concluded an agreement with the Fund on a Poverty Reduction and Growth Facility (PRGF). Debt relief provided under the enhanced HIPC initiative significantly reduces Niger's annual debt service obligations, freeing funds for expenditures on basic health care, primary education, HIV/AIDS prevention, rural infrastructure, and other programs geared at poverty reduction. In December 2005, Niger received 100% multilateral debt relief from the IMF, which translates into the forgiveness of approximately US $86 million in debts to the IMF, excluding the remaining assistance under HIPC. In 2010, the Niger economy was recovering from the effects of a 2009 drought that reduced grain and cowpea production and decimated livestock herds. The economy was also hurt when the international community cut off non-humanitarian aid in response to TANDJA's moves to extend his term as president. Nearly half of the government's budget is derived from foreign donor resources. Future growth may be sustained by exploitation of oil, gold, coal, and other mineral resources.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$11.05 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 11050000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$5.577 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 5577000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "7.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 7.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$700 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "39%",
-			"industry:": "17%",
-			"services:": "44% (2001)"
+			"agriculture:": {
+				"quantity": 39,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 17,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 44,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.688 million (2007)",
+			"Labor force": 4688000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "90%",
-			"industry:": "6%",
-			"services:": "4% (1995)"
+			"agriculture:": {
+				"quantity": 90,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 6,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 4,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "63% (1993 est.)",
+		"Population below poverty line": {
+			"quantity": 63,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.3%",
-			"highest 10%:": "35.7% (2005)"
+			"lowest 10%:": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 35.7,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "50.5 (1995)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$320 million (includes $134 million from foreign sources)",
-			"expenditures:": "$320 million (2002 est.)"
+			"revenues:": {
+				"usd": 320000000
+			},
+			"expenditures:": {
+				"usd": 320000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.1% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "4.25% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 4.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": "$782.6 million (31 December 2009)",
+			"Stock of narrow money": {
+				"usd": 782600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$1.038 billion (31 December 2009 est.)",
+			"Stock of broad money": {
+				"usd": 1038000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$683.6 million (31 December 2009)",
+			"Stock of domestic credit": {
+				"usd": 683600000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cowpeas, cotton, peanuts, millet, sorghum, cassava (tapioca), rice; cattle, sheep, goats, camels, donkeys, horses, poultry",
 		"Industries": "uranium mining, cement, brick, soap, textiles, food processing, chemicals, slaughterhouses",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "5.1% (2003 est.)",
+			"Industrial production growth rate": {
+				"quantity": 5.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "150 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 150000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "589.5 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 589500000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "450 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 450000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "6,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 6000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "5,367 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 5367,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -326,30 +567,36 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$428 million (2006)",
+			"Exports": {
+				"usd": 428000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "uranium ore, livestock, cowpeas, onions",
 		"Exports - partners": "France 52.63%, Nigeria 22.43%, US 18.24% (2009)",
 		"Imports": {
-			"Imports": "$800 million (2006)",
+			"Imports": {
+				"usd": 800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "foodstuffs, machinery, vehicles and parts, petroleum, cereals",
 		"Imports - partners": "China 16.32%, France 15.95%, Netherlands 7.66%, Algeria 7.15%, French Polynesia 6.11%, Nigeria 5.48%, Cote d'Ivoire 4.15%, US 4.05% (2009)",
 		"Debt - external": {
-			"Debt - external": "$2.1 billion (2003 est.)",
+			"Debt - external": {
+				"usd": 2100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "65,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "2.599 million (2009)",
+			"Telephones - mobile cellular": 2599000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -360,33 +607,42 @@
 		"Broadcast media": "state-run TV station; 3 private TV stations provide a mix of local and foreign programming; only national radio station with national reach is state-run; about 30 private radio stations operate locally; as many as 100 community radio stations broadcast; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".ne",
 		"Internet hosts": {
-			"Internet hosts": "172 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "27 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "10",
-			"2,438 to 3,047 m:": "3",
-			"1,524 to 2,437 m:": "6",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "17",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "14",
-			"under 914 m:": "1 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "18,949 km",
+			"total:": {
+				"quantity": 18949,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "3,912 km",
-			"unpaved:": "15,037 km (2008)"
+			"paved:": {
+				"quantity": 3912,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 15037,
+				"unit": "km"
+			}
 		},
 		"Waterways": {}
 	},
@@ -394,16 +650,16 @@
 		"Military branches": "Nigerien Armed Forces (Forces Armees Nigeriennes, FAN): Army, Nigerien Air Force (Force Aerienne du Niger) (2010)",
 		"Military service age and obligation": "17-21 years of age for selective compulsory or voluntary military service; enlistees must be Nigerien citizens and unmarried; 2-year service term; women may serve in health care (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "3,329,184",
-			"females age 16-49:": "3,267,669 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,194,570",
-			"females age 16-49:": "2,219,416 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "186,348",
-			"female:": "180,779 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

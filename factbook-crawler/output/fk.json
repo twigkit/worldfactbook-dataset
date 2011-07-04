@@ -5,21 +5,54 @@
 	"background": "Although first sighted by an English navigator in 1592, the first landing (English) did not occur until almost a century later in 1690, and the first settlement (French) was not established until 1764. The colony was turned over to Spain two years later and the islands have since been the subject of a territorial dispute, first between Britain and Spain, then between Britain and Argentina. The UK asserted its claim to the islands by establishing a naval garrison there in 1833. Argentina invaded the islands on 2 April 1982. The British responded with an expeditionary force that landed seven weeks later and after fierce fighting forced an Argentine surrender on 14 June 1982.",
 	"geo": {
 		"Location": "Southern South America, islands in the South Atlantic Ocean, east of southern Argentina",
-		"Geographic coordinates": "51 45 S, 59 00 W",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 51,
+				"seconds": 45
+			},
+			"W": {
+				"minutes": 59,
+				"seconds": 0
+			}
+		},
 		"Map references": "South America",
 		"Area": {
-			"total:": "12,173 sq km",
+			"total:": {
+				"quantity": 12173,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "12,173 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 12173,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Connecticut",
-		"Land boundaries": "0 km",
-		"Coastline": "1,288 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 1288,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"continental shelf:": "200 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "cold marine; strong westerly winds, cloudy, humid; rain occurs on more than half of days in year; average annual rainfall is 24 inches in Stanley; occasional snow all year, except in January and February, but typically does not accumulate",
 		"Terrain": "rocky, hilly, mountainous with some boggy, undulating plains",
@@ -29,8 +62,14 @@
 		},
 		"Natural resources": "fish, squid, wildlife, calcified seaweed, sphagnum moss",
 		"Land use": {
-			"arable land:": "0%",
-			"permanent crops:": "0%",
+			"arable land:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
 			"other:": "100% (99% permanent pastures, 1% other) (2005)"
 		},
 		"Irrigated land": "NA",
@@ -40,7 +79,7 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "3,140 (July 2008 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -49,15 +88,24 @@
 			"65 years and over:": "NA"
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.011% (2009 est.)",
+			"Population growth rate": {
+				"quantity": 0.011,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
 		"Net migration rate": "NA",
 		"Urbanization": {
-			"urban population:": "74% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 74,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "STANLEY (capital) 2,000 (2009)",
 		"Infant mortality rate": {
@@ -94,7 +142,16 @@
 		"Government type": "NA",
 		"Capital": {
 			"name:": "Stanley",
-			"geographic coordinates:": "51 42 S, 57 51 W",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 51,
+					"seconds": 42
+				},
+				"W": {
+					"minutes": 57,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins first Sunday in September; ends third Sunday in April; note - DST will be observed throughout 2011 on a trial basis"
 		},
@@ -127,26 +184,41 @@
 	"economy": {
 		"Economy - overview": "The economy was formerly based on agriculture, mainly sheep farming, but today fishing contributes the bulk of economic activity. In 1987, the government began selling fishing licenses to foreign trawlers operating within the Falkland Islands' exclusive fishing zone. These license fees total more than $40 million per year, which help support the island's health, education, and welfare system. Squid accounts for 75% of the fish taken. Dairy farming supports domestic consumption; crops furnish winter fodder. Foreign exchange earnings come from shipments of high-grade wool to the UK and the sale of postage stamps and coins. The islands are now self-financing except for defense. The British Geological Survey announced a 200-mile oil exploration zone around the islands in 1993, and early seismic surveys suggest substantial reserves capable of producing 500,000 barrels per day; to date, no exploitable site has been identified. An agreement between Argentina and the UK in 1995 seeks to defuse licensing and sovereignty conflicts that would dampen foreign interest in exploiting potential oil reserves. Political tensions between the UK and Argentina rose in early 2010 after a UK company began oil drilling activities in the waters around the Falkland Islands but abated somewhat when the drilling operation failed to discover commercially exploitable oil reserves. Tourism, especially eco-tourism, is increasing rapidly, with about 30,000 visitors in 2001. Another large source of income is interest paid on money the government has in the bank. The British military presence also provides a sizeable economic boost.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$105.1 million (2002 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 105100000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$105.1 million (2002 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 105100000
+		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$35,400 (2002 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "95%",
+			"agriculture:": {
+				"quantity": 95,
+				"unit": "%"
+			},
 			"industry:": "NA%",
 			"services:": "NA% (1996)"
 		},
 		"Labor force": {
-			"Labor force": "1,724 (1996)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "95% (mostly sheepherding and fishing)",
-			"industry and services:": "5% (1996)"
+			"agriculture:": {
+				"quantity": 95,
+				"unit": "%"
+			},
+			"industry and services:": {
+				"quantity": 5,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
@@ -155,73 +227,126 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$66.2 million",
-			"expenditures:": "$67.9 million (FY98/99 est.)"
+			"revenues:": {
+				"usd": 66200000
+			},
+			"expenditures:": {
+				"usd": 67900000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "3.6% (1998)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "fodder and vegetable crops; sheep, dairy products; fish, squid",
 		"Industries": "fish and wool processing; tourism",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "16 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 16000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "14.88 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 14880000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
-		"Electricity - imports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "0 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "270.9 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 270.9,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$125 million (2004 est.)",
+			"Exports": {
+				"usd": 125000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "wool, hides, meat, fish, squid",
 		"Imports": {
-			"Imports": "$90 million (2004 est.)",
+			"Imports": {
+				"usd": 90000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "fuel, food and drink, building materials, clothing",
@@ -230,11 +355,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,000 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "3,300 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -245,30 +370,39 @@
 		"Broadcast media": "television service provided by a multi-channel service provider; radio services provided by the public broadcaster Falkland Islands Radio Service (FIRS), broadcasting on both AM and FM frequencies, and by the British Forces Broadcasting Service (BFBS) (2007)",
 		"Internet country code": ".fk",
 		"Internet hosts": {
-			"Internet hosts": "91 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "7 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"2,438 to 3,047 m:": "1",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "5",
-			"under 914 m:": "5 (2010)"
+			"total:": null,
+			"under 914 m:": null
 		},
 		"Roadways": {
-			"total:": "440 km",
+			"total:": {
+				"quantity": 440,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "50 km",
-			"unpaved:": "390 km (2008)"
+			"paved:": {
+				"quantity": 50,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 390,
+				"unit": "km"
+			}
 		},
 		"Ports and terminals": {}
 	},

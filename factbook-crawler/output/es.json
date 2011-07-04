@@ -5,24 +5,57 @@
 	"background": "El Salvador achieved independence from Spain in 1821 and from the Central American Federation in 1839. A 12-year civil war, which cost about 75,000 lives, was brought to a close in 1992 when the government and leftist rebels signed a treaty that provided for military and political reforms.",
 	"geo": {
 		"Location": "Central America, bordering the North Pacific Ocean, between Guatemala and Honduras",
-		"Geographic coordinates": "13 50 N, 88 55 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 13,
+				"seconds": 50
+			},
+			"W": {
+				"minutes": 88,
+				"seconds": 55
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "21,041 sq km",
+			"total:": {
+				"quantity": 21041,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "20,721 sq km",
-			"water:": "320 sq km"
+			"land:": {
+				"quantity": 20721,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 320,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Massachusetts",
 		"Land boundaries": {
-			"total:": "545 km",
+			"total:": {
+				"quantity": 545,
+				"unit": "km"
+			},
 			"border countries:": "Guatemala 203 km, Honduras 342 km"
 		},
-		"Coastline": "307 km",
+		"Coastline": {
+			"quantity": 307,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; rainy season (May to October); dry season (November to April); tropical on coast; temperate in uplands",
 		"Terrain": "mostly mountains with narrow coastal belt and central plateau",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "hydropower, geothermal power, petroleum, arable land",
 		"Land use": {
-			"arable land:": "31.37%",
-			"permanent crops:": "11.88%",
-			"other:": "56.75% (2005)"
+			"arable land:": {
+				"quantity": 31.37,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 11.88,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 56.75,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "450 sq km (2008)",
-		"Total renewable water resources": "25.2 cu km (2001)",
+		"Irrigated land": {
+			"quantity": 450,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 25.2,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "1.28  cu km/yr (25%/16%/59%)",
-			"per capita:": "186  cu m/yr (2000)"
+			"total:": {
+				"quantity": 1.28,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 186,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "known as the Land of Volcanoes; frequent and sometimes destructive earthquakes and volcanic activity; extremely susceptible to hurricanes",
@@ -55,29 +109,53 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "6,071,774 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "30.6% (male 953,842/female 905,688)",
-			"15-64 years:": "63% (male 1,802,113/female 2,021,191)",
+			"0-14 years:": {
+				"quantity": 30.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 63,
+				"unit": "%"
+			},
 			"65 years and over:": "6.4% (male 173,363/female 215,577) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "24.3 years",
-			"male:": "22.9 years",
-			"female:": "25.7 years (2011 est.)"
+			"total:": {
+				"quantity": 24.3,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 25.7,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.318% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.318,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "17.75 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 17.75,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.62 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.62,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
@@ -85,43 +163,88 @@
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "64% of total population (2010)",
-			"rate of urbanization:": "1.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 64,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SAN SALVADOR (capital) 1.534 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "0.89 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.89,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "20.3 deaths/1,000 live births",
+			"total:": {
+				"quantity": 20.3,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "22.36 deaths/1,000 live births",
-			"female:": "18.15 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 22.36,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 18.15,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "73.44 years",
+			"total population:": {
+				"quantity": 73.44,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "70.16 years",
-			"female:": "76.87 years (2011 est.)"
+			"male:": {
+				"quantity": 70.16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 76.87,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.08 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.08,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.8% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "34,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "1,400 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -141,14 +264,32 @@
 		"Languages": "Spanish (official), Nahua (among some Amerindians)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "81.1%",
-			"male:": "82.8%",
-			"female:": "79.6% (2007 census)"
+			"total population:": {
+				"quantity": 81.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 82.8,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 79.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2008)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +303,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "San Salvador",
-			"geographic coordinates:": "13 42 N, 89 12 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 13,
+					"seconds": 42
+				},
+				"W": {
+					"minutes": 89,
+					"seconds": 12
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)",
 			"daylight saving time:": "none scheduled for 2011"
 		},
@@ -211,135 +361,243 @@
 	"economy": {
 		"Economy - overview": "Despite being the smallest country geographically in Central America, El Salvador has the third largest economy in the region. The economy took a hit from the global recession and real GDP contracted by 3.5% in 2009. The economy began a slow recovery in 2010 on the back of improved export and remittances figures. Remittances accounted for 16% of GDP in 2009, and about a third of all households receive these transfers. In 2006 El Salvador was the first country to ratify the Dominican Republic-Central American Free Trade Agreement (CAFTA-DR), which has bolstered the export of processed foods, sugar, and ethanol, and supported investment in the apparel sector amid increased Asian competition and the expiration of the Multi-Fiber Agreement in 2005. El Salvador has promoted an open trade and investment environment, and has embarked on a wave of privatizations extending to telecom, electricity distribution, banking, and pension funds. In late 2006, the government and the Millennium Challenge Corporation signed a five-year, $461 million compact to stimulate economic growth and reduce poverty in the country's northern region, the primary conflict zone during the civil war, through investments in education, public services, enterprise development, and transportation infrastructure. With the adoption of the US dollar as its currency in 2001, El Salvador lost control over monetary policy. Any counter-cyclical policy response to the downturn must be through fiscal policy, which is constrained by legislative requirements for a two-thirds majority to approve any international financing, and by already high levels of debt.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$43.57 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 43570000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$21.7 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 21700000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "0.7% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$7,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "11%",
-			"industry:": "29.1%",
-			"services:": "59.9% (2010 est.)"
+			"agriculture:": {
+				"quantity": 11,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 29.1,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 59.9,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.94 million (2010 est.)",
+			"Labor force": 2940000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "19%",
-			"industry:": "23%",
-			"services:": "58% (2006 est.)"
+			"agriculture:": {
+				"quantity": 19,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 58,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "37.8% (2009 est.)",
+		"Population below poverty line": {
+			"quantity": 37.8,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1%",
-			"highest 10%:": "37% (2005)"
+			"lowest 10%:": {
+				"quantity": 1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 37,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "52.4 (2002)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "13.7% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 13.7,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$3.894 billion",
-			"expenditures:": "$4.915 billion (2010 est.)"
+			"revenues:": {
+				"usd": 3894000000
+			},
+			"expenditures:": {
+				"usd": 4915000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "55% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 55,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "0.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 0.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "6.59% (31 December 2010)",
+			"Commercial bank prime lending rate": {
+				"quantity": 6.59,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$2.534 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 2534000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$9.666 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 9666000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$10.01 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 10010000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$4.432 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 4432000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "coffee, sugar, corn, rice, beans, oilseed, cotton, sorghum; beef, dairy products",
 		"Industries": "food processing, beverages, petroleum, chemicals, fertilizer, textiles, furniture, light metals",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "0.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "5.445 billion kWh (2009 est.)",
+			"Electricity - production": {
+				"quantity": 5445000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "4.524 billion kWh (2009 est.)",
+			"Electricity - consumption": {
+				"quantity": 4524000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "78.7 million kWh (2009 est.)",
-		"Electricity - imports": "208.4 million kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 78700000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 208400000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "46,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 46000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1,927 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 1927,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "46,310 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 46310,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -347,42 +605,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$4.377 billion (2010 est.)",
+			"Exports": {
+				"usd": 4377000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "offshore assembly exports, coffee, sugar, textiles and apparel, gold, ethanol, chemicals, electricity, iron and steel manufactures",
 		"Exports - partners": "US 43.86%, Guatemala 13.92%, Honduras 13.22%, Nicaragua 5.65% (2009)",
 		"Imports": {
-			"Imports": "$7.98 billion (2010 est.)",
+			"Imports": {
+				"usd": 7980000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "raw materials, consumer goods, capital goods, fuels, foodstuffs, petroleum, electricity",
 		"Imports - partners": "US 29.79%, Mexico 10.26%, Guatemala 9.7%, China 4.5%, Honduras 4.4% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$2.882 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 2882000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$11.45 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 11450000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$7.522 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 7522000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$273 million (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 273000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.099 million (2009)",
+			"Telephones - main lines in use": 1099000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "7.566 million (2009)",
+			"Telephones - mobile cellular": 7566000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -393,39 +663,51 @@
 		"Broadcast media": "multiple privately-owned national terrestrial television networks, supplemented by cable TV networks that carry international channels; hundreds of commercial radio broadcast stations and 1 government-owned radio broadcast station (2007)",
 		"Internet country code": ".sv",
 		"Internet hosts": {
-			"Internet hosts": "13,849 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "65 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "4",
-			"over 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "2 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "61",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "13",
-			"under 914 m:": "47 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Railways": {
-			"total:": "283 km",
+			"total:": {
+				"quantity": 283,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "283 km 0.600-m gauge"
 		},
 		"Roadways": {
-			"total:": "10,886 km",
+			"total:": {
+				"quantity": 10886,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,827 km (includes 327 km of expressways)",
-			"unpaved:": "8,059 km (2000)"
+			"paved:": {
+				"quantity": 2827,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 8059,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(Rio Lempa is partially navigable for small craft) (2010)",
 		"Ports and terminals": {}
@@ -434,16 +716,16 @@
 		"Military branches": "Salvadoran Army (ES), Salvadoran Navy (FNES), Salvadoran Air Force (Fuerza Aerea Salvadorena, FAS) (2011)",
 		"Military service age and obligation": "18 years of age for selective compulsory military service; 16-22 years of age for voluntary male or female service; service obligation - 12 months, with 11 months for officers and NCOs (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,449,214",
-			"females age 16-49:": "1,611,248 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,079,038",
-			"females age 16-49:": "1,373,368 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "71,530",
-			"female:": "68,971 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

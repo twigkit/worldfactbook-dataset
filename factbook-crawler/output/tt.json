@@ -5,24 +5,57 @@
 	"background": "The Portuguese began to trade with the island of Timor in the early 16th century and colonized it in mid-century. Skirmishing with the Dutch in the region eventually resulted in an 1859 treaty in which Portugal ceded the western portion of the island. Imperial Japan occupied Portuguese Timor from 1942 to 1945, but Portugal resumed colonial authority after the Japanese defeat in World War II. East Timor declared itself independent from Portugal on 28 November 1975 and was invaded and occupied by Indonesian forces nine days later. It was incorporated into Indonesia in July 1976 as the province of Timor Timur (East Timor). An unsuccessful campaign of pacification followed over the next two decades, during which an estimated 100,000 to 250,000 individuals lost their lives. On 30 August 1999, in a UN-supervised popular referendum, an overwhelming majority of the people of Timor-Leste voted for independence from Indonesia. Between the referendum and the arrival of a multinational peacekeeping force in late September 1999, anti-independence Timorese militias - organized and supported by the Indonesian military - commenced a large-scale, scorched-earth campaign of retribution. The militias killed approximately 1,400 Timorese and forcibly pushed 300,000 people into western Timor as refugees. Most of the country's infrastructure, including homes, irrigation systems, water supply systems, and schools, and nearly 100% of the country's electrical grid were destroyed. On 20 September 1999, the Australian-led peacekeeping troops of the International Force for East Timor (INTERFET) deployed to the country and brought the violence to an end. On 20 May 2002, Timor-Leste was internationally recognized as an independent state. In late April 2006, internal tensions threatened the new nation's security when a military strike led to violence and a near breakdown of law and order. At Dili's request, an Australian-led International Stabilization Force (ISF) deployed to Timor-Leste in late May. In August, the UN Security Council established the UN Integrated Mission in Timor-Leste (UNMIT), which included an authorized police presence of over 1,600 personnel. The ISF and UNMIT restored stability, allowing for presidential and parliamentary elections in April and June 2007 in a largely peaceful atmosphere. In February 2008, a rebel group staged an unsuccessful attack against the president and prime minister. The ringleader was killed in the attack and most of the rebels surrendered in April 2008. Since the unsuccessful attacks the government has enjoyed one of its longest periods of post-independence stability.",
 	"geo": {
 		"Location": "Southeastern Asia, northwest of Australia in the Lesser Sunda Islands at the eastern end of the Indonesian archipelago; note - Timor-Leste includes the eastern half of the island of Timor, the Oecussi (Ambeno) region on the northwest portion of the island of Timor, and the islands of Pulau Atauro and Pulau Jaco",
-		"Geographic coordinates": "8 50 S, 125 55 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 8,
+				"seconds": 50
+			},
+			"E": {
+				"minutes": 125,
+				"seconds": 55
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "14,874 sq km",
+			"total:": {
+				"quantity": 14874,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "14,874 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 14874,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly larger than Connecticut",
 		"Land boundaries": {
-			"total:": "228 km",
+			"total:": {
+				"quantity": 228,
+				"unit": "km"
+			},
 			"border countries:": "Indonesia 228 km"
 		},
-		"Coastline": "706 km",
+		"Coastline": {
+			"quantity": 706,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive fishing zone:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive fishing zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical; hot, humid; distinct rainy and dry seasons",
 		"Terrain": "mountainous",
@@ -32,11 +65,23 @@
 		},
 		"Natural resources": "gold, petroleum, natural gas, manganese, marble",
 		"Land use": {
-			"arable land:": "8.2%",
-			"permanent crops:": "4.57%",
-			"other:": "87.23% (2005)"
+			"arable land:": {
+				"quantity": 8.2,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 4.57,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 87.23,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "140 sq km (2008)",
+		"Irrigated land": {
+			"quantity": 140,
+			"unit": "sq km"
+		},
 		"Natural hazards": "floods and landslides are common; earthquakes; tsunamis; tropical cyclones",
 		"Environment - current issues": "widespread use of slash and burn agriculture has led to deforestation and soil erosion",
 		"Environment - international agreements": {
@@ -47,61 +92,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "1,177,834",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "33.8% (male 202,431/female 195,895)",
-			"15-64 years:": "62.5% (male 374,659/female 361,983)",
+			"0-14 years:": {
+				"quantity": 33.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 62.5,
+				"unit": "%"
+			},
 			"65 years and over:": "3.6% (male 20,160/female 22,706) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "22.5 years",
-			"male:": "22.5 years",
-			"female:": "22.5 years (2011 est.)"
+			"total:": {
+				"quantity": 22.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 22.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 22.5,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.981% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.981,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "25.7 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 25.7,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "5.89 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 5.89,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "28% of total population (2010)",
-			"rate of urbanization:": "5% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 28,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 5,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "DILI (capital) 166,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.03 male(s)/female",
-			"15-64 years:": "1.04 male(s)/female",
-			"65 years and over:": "0.9 male(s)/female",
-			"total population:": "1.03 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.9,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "38.01 deaths/1,000 live births",
+			"total:": {
+				"quantity": 38.01,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "43.79 deaths/1,000 live births",
-			"female:": "31.95 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 43.79,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 31.95,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "67.95 years",
+			"total population:": {
+				"quantity": 67.95,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "65.54 years",
-			"female:": "70.47 years (2011 est.)"
+			"male:": {
+				"quantity": 65.54,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 70.47,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "3.13 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 3.13,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -125,12 +239,18 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "58.6%",
+			"total population:": {
+				"quantity": 58.6,
+				"unit": "%"
+			},
 			"male:": "NA",
 			"female:": "NA (2002)"
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "11 years (2004)"
+			"total:": {
+				"quantity": 11,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -145,7 +265,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Dili",
-			"geographic coordinates:": "8 35 S, 125 36 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 8,
+					"seconds": 35
+				},
+				"E": {
+					"minutes": 125,
+					"seconds": 36
+				}
+			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": {
@@ -192,118 +321,205 @@
 	"economy": {
 		"Economy - overview": "In late 1999, about 70% of the economic infrastructure of Timor-Leste was laid waste by Indonesian troops and anti-independence militias. Three hundred thousand people fled westward. Over the next three years a massive international program, manned by 5,000 peacekeepers (8,000 at peak) and 1,300 police officers, led to substantial reconstruction in both urban and rural areas. By the end of 2005, refugees had returned or had settled in Indonesia. The country continues to face great challenges in rebuilding its infrastructure, strengthening the civil administration, and generating jobs for young people entering the work force. The development of oil and gas resources in offshore waters has greatly supplemented government revenues. This technology-intensive industry, however, has done little to create jobs for the unemployed because there are no production facilities in Timor-Leste. Gas is piped to Australia. In June 2005, the National Parliament unanimously approved the creation of a Petroleum Fund to serve as a repository for all petroleum revenues and to preserve the value of Timor-Leste's petroleum wealth for future generations. The Fund held assets of US$6.6 billion as of October 2010. The economy continues to recover strongly from the mid-2006 outbreak of violence and civil unrest, which disrupted both private and public sector economic activity. The government in 2008 resettled tens of thousands of an estimated 100,000 internally displaced persons (IDPs); most IDPs returned home by early 2009. Government spending increased markedly in 2009 and 2010, primarily on basic infrastructure, including electricity and roads. Limited experience in procurement and infrastructure building has hampered these projects. The underlying economic policy challenge the country faces remains how best to use oil-and-gas wealth to lift the non-oil economy onto a higher growth path and to reduce poverty.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.051 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3051000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$628 million (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 628000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "6.1% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 6.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$2,600 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "32.2%",
-			"industry:": "12.8%",
-			"services:": "55% (2005)"
+			"agriculture:": {
+				"quantity": 32.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 12.8,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 55,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "414,200 (2007)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "90%",
+			"agriculture:": {
+				"quantity": 90,
+				"unit": "%"
+			},
 			"industry:": "NA%",
 			"services:": "NA% (2006 est.)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "20% (2006 est.)",
+			"Unemployment rate": {
+				"quantity": 20,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "42% (2003 est.)",
+		"Population below poverty line": {
+			"quantity": 42,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2.9%",
-			"highest 10%:": "31.3% (2001)"
+			"lowest 10%:": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 31.3,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "38 (2002 est.)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$1.481 billion",
-			"expenditures:": "$838 million (2010 est.)"
+			"revenues:": {
+				"usd": 1481000000
+			},
+			"expenditures:": {
+				"usd": 838000000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "7.8% (2007 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 7.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.17% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.17,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$102.8 million (31 December 2008)",
+			"Stock of narrow money": {
+				"usd": 102800000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$268.4 million (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 268399999.99999997
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$127.1 million (31 December 2008 est.)",
+			"Stock of domestic credit": {
+				"usd": 127100000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, rice, corn, cassava, sweet potatoes, soybeans, cabbage, mangoes, bananas, vanilla",
 		"Industries": "printing, soap manufacturing, handicrafts, woven cloth",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "8.5% (2004 est.)",
+			"Industrial production growth rate": {
+				"quantity": 8.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": "NA kWh (2009 est.)",
 		"Electricity - consumption": "NA kWh",
-		"Electricity - exports": "0 kWh (2009 est.)",
-		"Electricity - imports": "0 kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "96,270 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 96270,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "2,500 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 2500,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "100,900 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 100900,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "553.8 million bbl (1 January 2008)",
+			"Oil - proved reserves": {
+				"quantity": 553800000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "200 billion cu m (1 January 2006 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 200000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$1.161 billion (2007 est.)",
+			"Current account balance": {
+				"usd": 1161000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
@@ -312,7 +528,9 @@
 		},
 		"Exports - commodities": "coffee, sandalwood, marble; note - potential for oil and vanilla exports",
 		"Imports": {
-			"Imports": "$202 million (2004 est.)",
+			"Imports": {
+				"usd": 202000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "food, gasoline, kerosene, machinery",
@@ -320,11 +538,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,400 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "116,000 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -335,35 +553,44 @@
 		"Broadcast media": "1 public TV broadcast station broadcasting nationally and 1 public radio broadcaster with stations in each of the 13 administrative districts; one commercial TV broadcast station broadcasting in parts of Dili only, a few commercial radio stations, and roughly a dozen community radio stations (2009)",
 		"Internet country code": ".tl",
 		"Internet hosts": {
-			"Internet hosts": "206 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "6 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "1 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "4",
-			"914 to 1,523 m:": "2",
-			"under 914 m:": "2 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "8 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "6,040 km",
+			"total:": {
+				"quantity": 6040,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "2,600 km",
-			"unpaved:": "3,440 km (2005)"
+			"paved:": {
+				"quantity": 2600,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 3440,
+				"unit": "km"
+			}
 		},
 		"Merchant marine": {
-			"total:": "1",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1 (2010)"
 		},
@@ -373,23 +600,23 @@
 		"Military branches": "Timor-Leste Defense Force (Forcas de Defesa de Timor-L'este, Falintil (F-FDTL)): Army, Navy (Armada) (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription; 18-month service obligation (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "305,643",
-			"females age 16-49:": "293,052 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "243,120",
-			"females age 16-49:": "251,061 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "12,737",
-			"female:": "12,389 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},
 	"issues": {
 		"Disputes - international": "Timor-Leste-Indonesia Boundary Committee has resolved all but some sections of border along Timor-Leste's Oecussi exclave; maritime boundaries with Indonesia remain unresolved; many refugees who left Timor-Leste in 2003 still reside in Indonesia and refuse repatriation; in 2007, Australia and Timor-Leste signed a 50-year development zone and revenue sharing agreement in lieu of a maritime boundary",
 		"Refugees and internally displaced persons": {
-			"IDPs:": "100,000 (2007)"
+			"IDPs:": null
 		},
 		"Illicit drugs": {}
 	}

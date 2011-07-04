@@ -5,24 +5,57 @@
 	"background": "Although explored by the Spanish early in the 16th century, initial attempts at colonizing Costa Rica proved unsuccessful due to a combination of factors, including: disease from mosquito-infested swamps, brutal heat, resistance by natives, and pirate raids. It was not until 1563 that a permanent settlement of Cartago was established in the cooler, fertile central highlands. The area remained a colony for some two and a half centuries. In 1821, Costa Rica became one of several Central American provinces that jointly declared their independence from Spain. Two years later it joined the United Provinces of Central America, but this federation disintegrated in 1838, at which time Costa Rica proclaimed its sovereignty and independence. Since the late 19th century, only two brief periods of violence have marred the country's democratic development. In 1949, Costa Rica dissolved its armed forces. Although it still maintains a large agricultural sector, Costa Rica has expanded its economy to include strong technology and tourism industries. The standard of living is relatively high. Land ownership is widespread.",
 	"geo": {
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Nicaragua and Panama",
-		"Geographic coordinates": "10 00 N, 84 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 10,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 84,
+				"seconds": 0
+			}
+		},
 		"Map references": "Central America and the Caribbean",
 		"Area": {
-			"total:": "51,100 sq km",
+			"total:": {
+				"quantity": 51100,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "51,060 sq km",
-			"water:": "40 sq km"
+			"land:": {
+				"quantity": 51060,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 40,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than West Virginia",
 		"Land boundaries": {
-			"total:": "639 km",
+			"total:": {
+				"quantity": 639,
+				"unit": "km"
+			},
 			"border countries:": "Nicaragua 309 km, Panama 330 km"
 		},
-		"Coastline": "1,290 km",
+		"Coastline": {
+			"quantity": 1290,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"exclusive economic zone:": "200 nm",
-			"continental shelf:": "200 nm"
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
+			"continental shelf:": {
+				"quantity": 200,
+				"unit": "nm"
+			}
 		},
 		"Climate": "tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands",
 		"Terrain": "coastal plains separated by rugged mountains including over 100 volcanic cones, of which several are major volcanoes",
@@ -32,15 +65,36 @@
 		},
 		"Natural resources": "hydropower",
 		"Land use": {
-			"arable land:": "4.4%",
-			"permanent crops:": "5.87%",
-			"other:": "89.73% (2005)"
+			"arable land:": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 5.87,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 89.73,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "1,080 sq km (2008)",
-		"Total renewable water resources": "112.4 cu km (2000)",
+		"Irrigated land": {
+			"quantity": 1080,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 112.4,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "2.68  cu km/yr (29%/17%/53%)",
-			"per capita:": "619  cu m/yr (2000)"
+			"total:": {
+				"quantity": 2.68,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 619,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "occasional earthquakes, hurricanes along Atlantic coast; frequent flooding of lowlands at onset of rainy season and landslides; active volcanoes",
@@ -55,69 +109,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,576,562 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "24.6% (male 574,876/female 549,664)",
-			"15-64 years:": "69.1% (male 1,588,940/female 1,571,573)",
+			"0-14 years:": {
+				"quantity": 24.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 69.1,
+				"unit": "%"
+			},
 			"65 years and over:": "6.4% (male 135,017/female 156,492) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "28.8 years",
-			"male:": "28.4 years",
-			"female:": "29.2 years (2011 est.)"
+			"total:": {
+				"quantity": 28.8,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 28.4,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 29.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "1.308% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 1.308,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "16.54 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 16.54,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.33 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.33,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0.87 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0.87,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "64% of total population (2010)",
-			"rate of urbanization:": "2.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 64,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 2.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "SAN JOSE (capital) 1.416 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.05 male(s)/female",
-			"under 15 years:": "1.05 male(s)/female",
-			"15-64 years:": "1.01 male(s)/female",
-			"65 years and over:": "0.86 male(s)/female",
-			"total population:": "1.01 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.05,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.86,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "9.45 deaths/1,000 live births",
+			"total:": {
+				"quantity": 9.45,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "10.3 deaths/1,000 live births",
-			"female:": "8.56 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 10.3,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 8.56,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "77.72 years",
+			"total population:": {
+				"quantity": 77.72,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.1 years",
-			"female:": "80.46 years (2011 est.)"
+			"male:": {
+				"quantity": 75.1,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.46,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.93 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.93,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "9,800 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -140,14 +266,32 @@
 		"Languages": "Spanish (official), English",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "94.9%",
-			"male:": "94.7%",
-			"female:": "95.1% (2000 census)"
+			"total population:": {
+				"quantity": 94.9,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 94.7,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 95.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "12 years",
-			"female:": "12 years (2005)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -161,7 +305,16 @@
 		"Government type": "democratic republic",
 		"Capital": {
 			"name:": "San Jose",
-			"geographic coordinates:": "9 56 N, 84 05 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 9,
+					"seconds": 56
+				},
+				"W": {
+					"minutes": 84,
+					"seconds": 5
+				}
+			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "7 provinces (provincias, singular - provincia); Alajuela, Cartago, Guanacaste, Heredia, Limon, Puntarenas, San Jose",
@@ -209,139 +362,250 @@
 	"economy": {
 		"Economy - overview": "Prior to the global economic crisis, Costa Rica enjoyed stable economic growth. The economy contracted 0.7% in 2009, but resumed growth at more than 3% in 2010. While the traditional agricultural exports of bananas, coffee, sugar, and beef are still the backbone of commodity export trade, a variety of industrial and specialized agricultural products have broadened export trade in recent years. High value added goods and services, including microchips, have further bolstered exports. Tourism continues to bring in foreign exchange, as Costa Rica's impressive biodiversity makes it a key destination for ecotourism. Foreign investors remain attracted by the country's political stability and relatively high education levels, as well as the fiscal incentives offered in the free-trade zones; and Costa Rica has attracted one of the highest levels of foreign direct investment per capita in Latin America. However, many business impediments, such as high levels of bureaucracy, difficulty of enforcing contracts, and weak investor protection, remain. Poverty has remained around 15-20% for nearly 20 years, and the strong social safety net that had been put into place by the government has eroded due to increased financial constraints on government expenditures. Unlike the rest of Central America, Costa Rica is not highly dependent on remittances as they only represent about 2% of GDP. Immigration from Nicaragua has increasingly become a concern for the government. The estimated 300,000-500,000 Nicaraguans in Costa Rica legally and illegally are an important source of - mostly unskilled - labor, but also place heavy demands on the social welfare system. The US-Central American-Dominican Republic Free Trade Agreement (CAFTA-DR) entered into force on 1 January 2009, after significant delays within the Costa Rican legislature. CAFTA-DR will likely lead to increased foreign direct investment in key sectors of the economy, including the insurance and telecommunications sectors recently opened to private investors. President CHINCHILLA is likely to push for fiscal reform in the coming year, seeking to boost revenue, possibly through revised tax legislation, to fund an increase in security services and education.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$51.17 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 51170000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$35.78 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 35780000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "4.2% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 4.2,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$11,300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6.3%",
-			"industry:": "22.9%",
-			"services:": "70.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 6.3,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.9,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 70.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "2.17 million",
+			"Labor force": 2170000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "14%",
-			"industry:": "22%",
-			"services:": "64% (2006 est.)"
+			"agriculture:": {
+				"quantity": 14,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 64,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "7.3% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 7.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "16% (2006 est.)",
+		"Population below poverty line": {
+			"quantity": 16,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "1.5%",
-			"highest 10%:": "35.5% (2005)"
+			"lowest 10%:": {
+				"quantity": 1.5,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 35.5,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "48 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "20.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 20.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$5.085 billion",
-			"expenditures:": "$6.921 billion (2010 est.)"
+			"revenues:": {
+				"usd": 5085000000
+			},
+			"expenditures:": {
+				"usd": 6921000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "42.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 42.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "5.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 5.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "23% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 23,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "17.4% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 17.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$4.504 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 4504000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$16.81 billion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 16809999999.999998
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$15.82 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 15820000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$1.452 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 1452000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "bananas, pineapples, coffee, melons, ornamental plants, sugar, corn, rice, beans, potatoes; beef, poultry, dairy; timber",
 		"Industries": "microprocessors, food processing, medical equipment, textiles and clothing, construction materials, fertilizer, plastic products",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "9.29 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 9290000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "8.25 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 8250000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "77.16 million kWh (2008 est.)",
-		"Electricity - imports": "203.2 million kWh (2007 est.)",
+		"Electricity - exports": {
+			"quantity": 77160000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 203200000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2008 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "44,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 44000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "2,117 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 2117,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "46,260 bbl/day (2009 est.)",
+			"Oil - imports": {
+				"quantity": 46260,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -349,42 +613,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$10.01 billion (2010 est.)",
+			"Exports": {
+				"usd": 10010000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "bananas, pineapples, coffee, melons, ornamental plants, sugar; beef; seafood; electronic components, medical equipment",
 		"Exports - partners": "US 32.61%, Netherlands 12.82%, China 11.81%, Mexico 4.2% (2009)",
 		"Imports": {
-			"Imports": "$13.32 billion (2010 est.)",
+			"Imports": {
+				"usd": 13320000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "raw materials, consumer goods, capital equipment, petroleum, construction materials",
 		"Imports - partners": "US 44.72%, Mexico 7.65%, Venezuela 5.56%, China 5.15%, Japan 4.36% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$4.584 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 4584000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$8.55 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 8550000000.000001
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$13.92 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 13920000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$547 million (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 547000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.493 million (2009)",
+			"Telephones - main lines in use": 1493000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "1.95 million (2009)",
+			"Telephones - mobile cellular": 1950000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -395,46 +671,58 @@
 		"Broadcast media": "multiple privately-owned television stations and 1 publicly-owned television station; cable network services are widely available; more than 100 privately-owned radio stations and a public radio network (2007)",
 		"Internet country code": ".cr",
 		"Internet hosts": {
-			"Internet hosts": "34,024 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "151 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "39",
-			"2,438 to 3,047 m:": "2",
-			"1,524 to 2,437 m:": "2",
-			"914 to 1,523 m:": "23",
-			"under 914 m:": "12 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "112",
-			"914 to 1,523 m:": "18",
-			"under 914 m:": "94 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "refined products 662 km (2010)",
 		"Railways": {
-			"total:": "278 km",
+			"total:": {
+				"quantity": 278,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"narrow gauge:": "278 km 1.067-m gauge"
 		},
 		"Roadways": {
-			"total:": "35,330 km",
+			"total:": {
+				"quantity": 35330,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "8,621 km",
-			"unpaved:": "26,709 km (2004)"
+			"paved:": {
+				"quantity": 8621,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 26709,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "730 km (seasonally navigable by small craft) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "1",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1 (2010)"
 		},
@@ -443,16 +731,16 @@
 	"military": {
 		"Military branches": "no regular military forces; Ministry of Public Security, Government, and Police (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,255,798",
-			"females age 16-49:": "1,230,202 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,058,419",
-			"females age 16-49:": "1,037,053 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "42,201",
-			"female:": "40,444 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

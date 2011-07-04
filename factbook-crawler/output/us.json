@@ -5,24 +5,57 @@
 	"background": "Britain's American colonies broke with the mother country in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783. During the 19th and 20th centuries, 37 new states were added to the original 13 as the nation expanded across the North American continent and acquired a number of overseas possessions. The two most traumatic experiences in the nation's history were the Civil War (1861-65), in which a northern Union of states defeated a secessionist Confederacy of 11 southern slave states, and the Great Depression of the 1930s, an economic downturn during which about a quarter of the labor force lost its jobs. Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation state. Over a span of more than five decades, the economy has achieved steady growth, low unemployment and inflation, and rapid advances in technology.",
 	"geo": {
 		"Location": "North America, bordering both the North Atlantic Ocean and the North Pacific Ocean, between Canada and Mexico",
-		"Geographic coordinates": "38 00 N, 97 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 38,
+				"seconds": 0
+			},
+			"W": {
+				"minutes": 97,
+				"seconds": 0
+			}
+		},
 		"Map references": "North America",
 		"Area": {
-			"total:": "9,826,675 sq km",
+			"total:": {
+				"quantity": 9826,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "9,161,966 sq km",
-			"water:": "664,709 sq km"
+			"land:": {
+				"quantity": 9161,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 664709,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "about half the size of Russia; about three-tenths the size of Africa; about half the size of South America (or slightly larger than Brazil); slightly larger than China; more than twice the size of the European Union",
 		"Land boundaries": {
-			"total:": "12,034 km",
+			"total:": {
+				"quantity": 12034,
+				"unit": "km"
+			},
 			"border countries:": "Canada 8,893 km (including 2,477 km with Alaska), Mexico 3,141 km"
 		},
-		"Coastline": "19,924 km",
+		"Coastline": {
+			"quantity": 19924,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "not specified"
 		},
 		"Climate": "mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains",
@@ -35,15 +68,36 @@
 			"Natural resources": "coal, copper, lead, molybdenum, phosphates, rare earth elements, uranium, bauxite, gold, iron, mercury, nickel, potash, silver, tungsten, zinc, petroleum, natural gas, timber"
 		},
 		"Land use": {
-			"arable land:": "18.01%",
-			"permanent crops:": "0.21%",
-			"other:": "81.78% (2005)"
+			"arable land:": {
+				"quantity": 18.01,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0.21,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 81.78,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "230,000 sq km (2008)",
-		"Total renewable water resources": "3,069 cu km (1985)",
+		"Irrigated land": {
+			"quantity": 230000,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 3069,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "477  cu km/yr (13%/46%/41%)",
-			"per capita:": "1,600  cu m/yr (2000)"
+			"total:": {
+				"quantity": 477,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1600,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "tsunamis; volcanoes; earthquake activity around Pacific Basin; hurricanes along the Atlantic and Gulf of Mexico coasts; tornadoes in the Midwest and Southeast; mud slides in California; forest fires in the west; flooding; permafrost in northern Alaska, a major impediment to development",
@@ -58,73 +112,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "313,232,044 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "20.1% (male 32,107,900/female 30,781,823)",
-			"15-64 years:": "66.8% (male 104,411,352/female 104,808,064)",
+			"0-14 years:": {
+				"quantity": 20.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 66.8,
+				"unit": "%"
+			},
 			"65 years and over:": "13.1% (male 17,745,363/female 23,377,542) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "36.9 years",
-			"male:": "35.6 years",
-			"female:": "38.2 years (2011 est.)"
+			"total:": {
+				"quantity": 36.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 35.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 38.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.963% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.963,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "13.83 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 13.83,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "8.38 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 8.38,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "4.18 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 4.18,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "82% of total population (2010)",
-			"rate of urbanization:": "1.2% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 82,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.2,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "New York-Newark 19.3 million; Los Angeles-Long Beach-Santa Ana 12.675 million; Chicago 9.134 million; Miami 5.699 million; WASHINGTON, D.C. (capital) 4.421 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.047 male(s)/female",
-			"under 15 years:": "1.04 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.75 male(s)/female",
-			"total population:": "0.97 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.047,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.04,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.75,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.06 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.06,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "6.72 deaths/1,000 live births",
-			"female:": "5.37 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 6.72,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 5.37,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.37 years",
+			"total population:": {
+				"quantity": 78.37,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.92 years",
-			"female:": "80.93 years (2011 est.)"
+			"male:": {
+				"quantity": 75.92,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 80.93,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "2.06 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 2.06,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.6% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "1.2 million (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": 1200000,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "17,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Drinking water source": {},
@@ -142,14 +268,32 @@
 		},
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "99%",
-			"male:": "99%",
-			"female:": "99% (2003 est.)"
+			"total population:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 99,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "15 years",
-			"female:": "17 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 15,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -162,7 +306,16 @@
 		"Government type": "Constitution-based federal republic; strong democratic tradition",
 		"Capital": {
 			"name:": "Washington, DC",
-			"geographic coordinates:": "38 53 N, 77 02 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 38,
+					"seconds": 53
+				},
+				"W": {
+					"minutes": 77,
+					"seconds": 2
+				}
+			},
 			"time difference:": "UTC-5 (during Standard Time)",
 			"daylight saving time:": "+1hr, begins second Sunday in March; ends first Sunday in November"
 		},
@@ -200,141 +353,258 @@
 	"economy": {
 		"Economy - overview": "The US has the largest and most technologically powerful economy in the world, with a per capita GDP of $47,200. In this market-oriented economy, private individuals and business firms make most of the decisions, and the federal and state governments buy needed goods and services predominantly in the private marketplace. US business firms enjoy greater flexibility than their counterparts in Western Europe and Japan in decisions to expand capital plant, to lay off surplus workers, and to develop new products. At the same time, they face higher barriers to enter their rivals' home markets than foreign firms face entering US markets. US firms are at or near the forefront in technological advances, especially in computers and in medical, aerospace, and military equipment; their advantage has narrowed since the end of World War II. The onrush of technology largely explains the gradual development of a \"two-tier labor market\" in which those at the bottom lack the education and the professional/technical skills of those at the top and, more and more, fail to get comparable pay raises, health insurance coverage, and other benefits. Since 1975, practically all the gains in household income have gone to the top 20% of households. The war in March-April 2003 between a US-led coalition and Iraq, and the subsequent occupation of Iraq, required major shifts in national resources to the military. Soaring oil prices between 2005 and the first half of 2008 threatened inflation and unemployment, as higher gasoline prices ate into consumers' budgets. Imported oil accounts for about 60% of US consumption. Long-term problems include inadequate investment in economic infrastructure, rapidly rising medical and pension costs of an aging population, sizable trade and budget deficits, and stagnation of family income in the lower economic groups. The merchandise trade deficit reached a record $840 billion in 2008 before shrinking to $506 billion in 2009, and ramping back up to $630 billion in 2010. The global economic downturn, the sub-prime mortgage crisis, investment bank failures, falling home prices, and tight credit pushed the United States into a recession by mid-2008. GDP contracted until the third quarter of 2009, making this the deepest and longest downturn since the Great Depression. To help stabilize financial markets, the US Congress established a $700 billion Troubled Asset Relief Program (TARP) in October 2008. The government used some of these funds to purchase equity in US banks and other industrial corporations, much of which had been returned to the government by early 2011. In January 2009 the US Congress passed and President Barack OBAMA signed a bill providing an additional $787 billion fiscal stimulus to be used over 10 years - two-thirds on additional spending and one-third on tax cuts - to create jobs and to help the economy recover. Approximately two-thirds of these funds were injected into the economy by the end of 2010. In March 2010, President OBAMA signed a health insurance reform bill into law that will extend coverage to an additional 32 million American citizens by 2016, through private health insurance for the general population and Medicaid for the impoverished. In July 2010, the president signed the DODD-FRANK Wall Street Reform and Consumer Protection Act, a bill designed to promote financial stability by protecting consumers from financial abuses, ending taxpayer bailouts of financial firms, dealing with troubled banks that are \"too big to fail,\" and improving accountability and transparency in the financial system - in particular, by requiring certain financial derivatives to be traded in markets that are subject to government regulation and oversight. In November 2010, in an attempt to keep interest rates from rising and snuffing out the nascent recovery, the US Federal Reserve Bank (The Fed) announced that it would purchase $600 billion worth of US Government bonds by June 2011.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$14.66 trillion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 14660000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$14.66 trillion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 14660000000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "2.8% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$47,200 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "1.2%",
-			"industry:": "22.2%",
-			"services:": "76.7% (2010 est.)"
+			"agriculture:": {
+				"quantity": 1.2,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 22.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 76.7,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "154.9 million",
+			"Labor force": 154900000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"farming, forestry, and fishing:": "0.7%",
-			"manufacturing, extraction, transportation, and crafts:": "20.3%",
-			"managerial, professional, and technical:": "37.3%",
-			"sales and office:": "24.2%",
-			"other services:": "17.6%"
+			"farming, forestry, and fishing:": {
+				"quantity": 0.7,
+				"unit": "%"
+			},
+			"manufacturing, extraction, transportation, and crafts:": {
+				"quantity": 20.3,
+				"unit": "%"
+			},
+			"managerial, professional, and technical:": {
+				"quantity": 37.3,
+				"unit": "%"
+			},
+			"sales and office:": {
+				"quantity": 24.2,
+				"unit": "%"
+			},
+			"other services:": {
+				"quantity": 17.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "9.7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 9.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "12% (2004 est.)",
+		"Population below poverty line": {
+			"quantity": 12,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "2%",
-			"highest 10%:": "30% (2007 est.)"
+			"lowest 10%:": {
+				"quantity": 2,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 30,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "45 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "12.8% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 12.8,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$2.092 trillion",
-			"expenditures:": "$3.397 trillion (2010 est.)"
+			"revenues:": {
+				"usd": 2092000000000
+			},
+			"expenditures:": {
+				"usd": 3397000000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "58.9% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 58.9,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.4% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "0.5% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 0.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "3.25% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 3.25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$1.74 trillion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 1740000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$12.39 trillion (31 December 2009)",
+			"Stock of broad money": {
+				"usd": 12390000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$32.61 trillion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 32610000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$15.08 trillion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 15080000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, corn, other grains, fruits, vegetables, cotton; beef, pork, poultry, dairy products; fish; forest products",
 		"Industries": "highly diversified, world leading, high-technology innovator, second largest industrial output in world; petroleum, steel, motor vehicles, aerospace, telecommunications, chemicals, electronics, food processing, consumer goods, lumber, mining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "3.3% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "4.11 trillion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 4110000000000.0005,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "3.873 trillion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 3873000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "24.08 billion kWh (2008 est.)",
-		"Electricity - imports": "57.02 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 24080000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 57020000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "9.056 million bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 9056000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "18.69 million bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 18690000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.704 million bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 1704000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "11.31 million bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 11310000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "19.12 billion bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 19120000000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "593.4 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 593400000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "646.6 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 646600000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "30.35 billion cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 30350000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "106.1 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 106100000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "6.928 trillion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 6928000000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -342,39 +612,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$1.27 trillion (2010 est.)",
+			"Exports": {
+				"usd": 1270000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "agricultural products (soybeans, fruit, corn) 9.2%, industrial supplies (organic chemicals) 26.8%, capital goods (transistors, aircraft, motor vehicle parts, computers, telecommunications equipment) 49.0%, consumer goods (automobiles, medicines) 15.0%",
 		"Exports - partners": "Canada 19.37%, Mexico 12.21%, China 6.58%, Japan 4.84%, UK 4.33%, Germany 4.1% (2009)",
 		"Imports": {
-			"Imports": "$1.903 trillion (2010 est.)",
+			"Imports": {
+				"usd": 1903000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "agricultural products 4.9%, industrial supplies 32.9% (crude oil 8.2%), capital goods 30.4% (computers, telecommunications equipment, motor vehicle parts, office machines, electric power machinery), consumer goods 31.8% (automobiles, clothing, medicines, furniture, toys)",
 		"Imports - partners": "China 19.3%, Canada 14.24%, Mexico 11.12%, Japan 6.14%, Germany 4.53% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$13.98 trillion (30 June 2010)",
+			"Debt - external": {
+				"usd": 13980000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$2.581 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 2581000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$3.597 trillion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 3597000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "141 million (2009)",
+			"Telephones - main lines in use": 141000000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "286 million (2009)",
+			"Telephones - mobile cellular": 286000000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -392,45 +672,57 @@
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "15,079 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "5,194",
-			"over 3,047 m:": "189",
-			"2,438 to 3,047 m:": "235",
-			"1,524 to 2,437 m:": "1,479",
-			"914 to 1,523 m:": "2,316"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "9,885",
-			"2,438 to 3,047 m:": "7",
-			"1,524 to 2,437 m:": "155",
-			"914 to 1,523 m:": "1,752",
-			"under 914 m:": "7,971 (2010)"
+			"total:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "126 (2010)",
+		"Heliports": null,
 		"Pipelines": "petroleum products 244,620 km; natural gas 548,665 km (2010)",
 		"Railways": {
-			"total:": "226,427 km",
+			"total:": {
+				"quantity": 226427,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "226,427 km 1.435-m gauge (2007)"
 		},
 		"Roadways": {
-			"total:": "6,506,204 km",
+			"total:": {
+				"quantity": 6506,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "4,374,784 km (includes 75,238 km of expressways)",
-			"unpaved:": "2,131,420 km (2008)"
+			"paved:": {
+				"quantity": 4374,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 2131,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "41,009 km (19,312 km used for commerce; Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, is shared with Canada) (2008)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "418",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 6, bulk carrier 58, cargo 58, carrier 3, chemical tanker 30, container 87, passenger 18, passenger/cargo 56, petroleum tanker 45, refrigerated cargo 3, roll on/roll off 27, vehicle carrier 27",
-			"foreign-owned:": "86 (Australia 1, Bermuda 5, Canada 1, Denmark 34, France 4, Germany 3, Malaysia 2, Norway 10, Singapore 17, Sweden 5, UK 4)",
+			"foreign-owned:": null,
 			"registered in other countries:": "734 (Antigua and Barbuda 6, Australia 2, Bahamas 100, Belgium 2, Bermuda 25, Cambodia 4, Canada 9, Cayman Islands 54, Comoros 2, Cyprus 7, Georgia 1, Greece 7, Hong Kong 31, Indonesia 2, Ireland 2, Isle of Man 2, Italy 21, Liberia 39, Luxembourg 3, Malta 35, Marshall Islands 168, Netherlands 15, Norway 9, Panama 102, Portugal 4, Saint Kitts and Nevis 1, Saint Vincent and the Grenadines 19, Sierra Leone 1, Singapore 33, South Korea 8, UK 11, unknown 8) (2010)"
 		},
 		"Ports and terminals": {}
@@ -439,16 +731,16 @@
 		"Military branches": "United States Armed Forces: US Army, US Navy (includes Marine Corps), US Air Force, US Coast Guard; note - Coast Guard administered in peacetime by the Department of Homeland Security, but in wartime reports to the Department of the Navy (2009)",
 		"Military service age and obligation": "18 years of age (17 years of age with parental consent) for male and female voluntary service; maximum enlistment age 42 (Army), 27 (Air Force), 34 (Navy), 28 (Marines); service obligation 8 years, including 2-5 years active duty (Army), 2 years active (Navy), 4 years active (Air Force, Marines) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "73,270,043",
-			"females age 16-49:": "71,941,969 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "60,620,143",
-			"females age 16-49:": "59,401,941 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "2,161,727",
-			"female:": "2,055,685 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

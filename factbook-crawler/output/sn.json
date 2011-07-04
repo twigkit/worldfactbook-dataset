@@ -5,19 +5,46 @@
 	"background": "Singapore was founded as a British trading colony in 1819. It joined the Malaysian Federation in 1963 but separated two years later and became independent. Singapore subsequently became one of the world's most prosperous countries with strong international trading links (its port is one of the world's busiest in terms of tonnage handled) and with per capita GDP equal to that of the leading nations of Western Europe.",
 	"geo": {
 		"Location": "Southeastern Asia, islands between Malaysia and Indonesia",
-		"Geographic coordinates": "1 22 N, 103 48 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 1,
+				"seconds": 22
+			},
+			"E": {
+				"minutes": 103,
+				"seconds": 48
+			}
+		},
 		"Map references": "Southeast Asia",
 		"Area": {
-			"total:": "697 sq km",
+			"total:": {
+				"quantity": 697,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "687 sq km",
-			"water:": "10 sq km"
+			"land:": {
+				"quantity": 687,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 10,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly more than 3.5 times the size of Washington, DC",
-		"Land boundaries": "0 km",
-		"Coastline": "193 km",
+		"Land boundaries": {
+			"quantity": 0,
+			"unit": "km"
+		},
+		"Coastline": {
+			"quantity": 193,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "3 nm",
+			"territorial sea:": {
+				"quantity": 3,
+				"unit": "nm"
+			},
 			"exclusive fishing zone:": "within and beyond territorial sea, as defined in treaties and practice"
 		},
 		"Climate": "tropical; hot, humid, rainy; two distinct monsoon seasons - Northeastern monsoon (December to March) and Southwestern monsoon (June to September); inter-monsoon - frequent afternoon and early evening thunderstorms",
@@ -28,15 +55,33 @@
 		},
 		"Natural resources": "fish, deepwater ports",
 		"Land use": {
-			"arable land:": "1.47%",
-			"permanent crops:": "1.47%",
-			"other:": "97.06% (2005)"
+			"arable land:": {
+				"quantity": 1.47,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 1.47,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.06,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
-		"Total renewable water resources": "0.6 cu km (1975)",
+		"Total renewable water resources": {
+			"quantity": 0.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.19  cu km/yr (45%/51%/4%)",
-			"per capita:": "44  cu m/yr (1975)"
+			"total:": {
+				"quantity": 0.19,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 44,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "NA",
 		"Environment - current issues": "industrial pollution; limited natural freshwater resources; limited land availability presents waste disposal problems; seasonal smoke/haze resulting from forest fires in Indonesia",
@@ -48,68 +93,140 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,740,737 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "13.8% (male 338,419/female 314,704)",
-			"15-64 years:": "77% (male 1,774,444/female 1,874,985)",
+			"0-14 years:": {
+				"quantity": 13.8,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 77,
+				"unit": "%"
+			},
 			"65 years and over:": "9.2% (male 196,101/female 242,084) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.1 years",
-			"male:": "39.6 years",
-			"female:": "40.6 years (2011 est.)"
+			"total:": {
+				"quantity": 40.1,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 40.6,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.817% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.817,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "8.5 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 8.5,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "4.95 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 4.95,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "4.63 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 4.63,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "100% of total population (2010)",
-			"rate of urbanization:": "0.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 100,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Sex ratio": {
-			"at birth:": "1.077 male(s)/female",
-			"under 15 years:": "1.08 male(s)/female",
-			"15-64 years:": "0.95 male(s)/female",
-			"65 years and over:": "0.81 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.077,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.08,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.81,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "2.32 deaths/1,000 live births",
+			"total:": {
+				"quantity": 2.32,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "2.52 deaths/1,000 live births",
-			"female:": "2.11 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 2.52,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 2.11,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "82.14 years",
+			"total population:": {
+				"quantity": 82.14,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "79.53 years",
-			"female:": "84.96 years (2011 est.)"
+			"male:": {
+				"quantity": 79.53,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.96,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.11 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.11,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "3,400 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -127,9 +244,18 @@
 		"Languages": "Mandarin (official) 35%, English (official) 23%, Malay (official) 14.1%, Hokkien 11.4%, Cantonese 5.7%, Teochew 4.9%, Tamil (official) 3.2%, other Chinese dialects 1.8%, other 0.9% (2000 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "92.5%",
-			"male:": "96.6%",
-			"female:": "88.6% (2000 census)"
+			"total population:": {
+				"quantity": 92.5,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 96.6,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 88.6,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
 		"Education expenditures": {}
@@ -144,7 +270,16 @@
 		"Government type": "parliamentary republic",
 		"Capital": {
 			"name:": "Singapore",
-			"geographic coordinates:": "1 17 N, 103 51 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 1,
+					"seconds": 17
+				},
+				"E": {
+					"minutes": 103,
+					"seconds": 51
+				}
+			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "none",
@@ -191,178 +326,297 @@
 	"economy": {
 		"Economy - overview": "Singapore has a highly developed and successful free-market economy. It enjoys a remarkably open and corruption-free environment, stable prices, and a per capita GDP higher than that of most developed countries. The economy depends heavily on exports, particularly in consumer electronics, information technology products, pharmaceuticals, and on a growing financial services sector. Real GDP growth averaged 7.1% between 2004 and 2007. The economy contracted 1.3% in 2009 as a result of the global financial crisis, but rebounded nearly 14.7% in 2010, on the strength of renewed exports. Over the longer term, the government hopes to establish a new growth path that focuses on raising productivity, which has sunk to 1% growth per year in the last decade. Singapore has attracted major investments in pharmaceuticals and medical technology production and will continue efforts to establish Singapore as Southeast Asia's financial and high-tech hub.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$291.9 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 291900000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$222.7 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 222700000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "14.5% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 14.5,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$62,100 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "0%",
-			"industry:": "27.2%",
-			"services:": "72.8% (2010 est.)"
+			"agriculture:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 72.8,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "3.075 million (2010 est.)",
+			"Labor force": 3075000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "0.1%",
-			"industry:": "30.2%",
-			"services:": "69.7% (2010)"
+			"agriculture:": {
+				"quantity": 0.1,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 30.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 69.7,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.1% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 2.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "4.4%",
-			"highest 10%:": "23.2% (2008)"
+			"lowest 10%:": {
+				"quantity": 4.4,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 23.2,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "47.8 (2009)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "27.2% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 27.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$29.87 billion",
-			"expenditures:": "$34.01 billion"
+			"revenues:": {
+				"usd": 29870000000
+			},
+			"expenditures:": {
+				"usd": 34009999999.999996
+			}
 		},
 		"Public debt": {
-			"Public debt": "102.4% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 102.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "2.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 2.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "5.38% (31 December 2010 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 5.38,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$82.13 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 82130000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$294.4 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 294400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$199.8 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 199800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$620.5 billion (31 December 2010)",
+			"Market value of publicly traded shares": {
+				"usd": 620500000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "orchids, vegetables; poultry, eggs; fish, ornamental fish",
 		"Industries": "electronics, chemicals, financial services, oil drilling equipment, petroleum refining, rubber processing and rubber products, processed food and beverages, ship repair, offshore platform construction, life sciences, entrepot trade",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "25% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 25,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "39.21 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 39210000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "37.11 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 37110000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2009 est.)",
-		"Electricity - imports": "0 kWh (2009 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "10,910 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 10910,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "927,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 927000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "1.374 million bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 1374000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "1.195 million bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 1195000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "8.341 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 8340999999.999999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "8.341 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 8340999999.999999,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
-			"Current account balance": "$44.08 billion (2010 est.)",
+			"Current account balance": {
+				"usd": 44080000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$351.2 billion (2010 est.)",
+			"Exports": {
+				"usd": 351200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "machinery and equipment (including electronics), consumer goods, pharmaceuticals and other chemicals, mineral fuels",
 		"Exports - partners": "Hong Kong 11.6%, Malaysia 11.5%, US 11.2%, Indonesia 9.7%, China 9.7%, Japan 4.6%, Hong Kong 11.6% (2009 est.)",
 		"Imports": {
-			"Imports": "$310.4 billion (2010 est.)",
+			"Imports": {
+				"usd": 310400000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery and equipment, mineral fuels, chemicals, foodstuffs, consumer goods",
 		"Imports - partners": "US 14.7%, Malaysia 11.6%, China 10.5%, Japan 7.6%, Indonesia 5.8%, South Korea 5.7% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$225.8 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 225800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$21.66 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 21660000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$274.6 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 274600000000.00003
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$172.1 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 172100000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.852 million (2009)",
+			"Telephones - main lines in use": 1852000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "6.652 million (2009)",
+			"Telephones - mobile cellular": 6652000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -373,31 +627,34 @@
 		"Broadcast media": "state controls broadcast media; 8 domestic TV stations operated by MediaCorp, wholly owned by a state investment company; broadcasts from Malaysian and Indonesian stations available; satellite dishes banned; multi-channel cable TV service is accessible; a total of 18 domestic radio stations broadcasting with MediaCorp operating more than a dozen and another 4 stations are closely linked to the ruling party or controlled by the Singapore Armed Forces Reservists Association; large number of Malaysian and Indonesian radio stations are available (2008)",
 		"Internet country code": ".sg",
 		"Internet hosts": {
-			"Internet hosts": "992,786 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "8 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "8",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "1",
-			"1,524 to 2,437 m:": "4",
-			"914 to 1,523 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Pipelines": "gas 111 km (2010)",
 		"Roadways": {
-			"total:": "3,356 km",
+			"total:": {
+				"quantity": 3356,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"paved:": "3,356 km (includes 161 km of expressways) (2009)"
 		},
 		"Merchant marine": {
-			"total:": "1,422",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 183, cargo 88, carrier 6, chemical tanker 233, container 321, liquefied gas 117, petroleum tanker 404, refrigerated cargo 5, roll on/roll off 13, vehicle carrier 52",
 			"foreign-owned:": "850 (Australia 11, Bangladesh 2, Bermuda 21, Chile 7, China 26, Cyprus 3, Denmark 125, France 3, Germany 30, Greece 19, Hong Kong 38, India 19, Indonesia 53, Italy 3, Japan 146, Malaysia 27, Netherlands 1, Norway 132, Slovenia 1, South Africa 3, South Korea 9, Sweden 9, Switzerland 4, Taiwan 79, Thailand 30, UAE 10, UK 6, US 33)"
@@ -409,15 +666,15 @@
 		"Military branches": "Singapore Armed Forces: Army, Navy, Air Force (includes Air Defense) (2010)",
 		"Military service age and obligation": "18-21 years of age for male compulsory military service; 16 years of age for volunteers; 2-year conscript service obligation, with a reserve obligation to age 40 (enlisted) or age 50 (officers) (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,255,902 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,018,839",
-			"females age 16-49:": "1,087,134 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "27,098",
-			"female:": "25,368 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

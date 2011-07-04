@@ -5,22 +5,49 @@
 	"background": "The lands that today comprise Croatia were part of the Austro-Hungarian Empire until the close of World War I. In 1918, the Croats, Serbs, and Slovenes formed a kingdom known after 1929 as Yugoslavia. Following World War II, Yugoslavia became a federal independent Communist state under the strong hand of Marshal TITO. Although Croatia declared its independence from Yugoslavia in 1991, it took four years of sporadic, but often bitter, fighting before occupying Serb armies were mostly cleared from Croatian lands. Under UN supervision, the last Serb-held enclave in eastern Slavonia was returned to Croatia in 1998. In April 2009, Croatia joined NATO; it is a candidate for eventual EU accession.",
 	"geo": {
 		"Location": "Southeastern Europe, bordering the Adriatic Sea, between Bosnia and Herzegovina and Slovenia",
-		"Geographic coordinates": "45 10 N, 15 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 45,
+				"seconds": 10
+			},
+			"E": {
+				"minutes": 15,
+				"seconds": 30
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "56,594 sq km",
+			"total:": {
+				"quantity": 56594,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "55,974 sq km",
-			"water:": "620 sq km"
+			"land:": {
+				"quantity": 55974,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 620,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than West Virginia",
 		"Land boundaries": {
-			"total:": "1,982 km",
+			"total:": {
+				"quantity": 1982,
+				"unit": "km"
+			},
 			"border countries:": "Bosnia and Herzegovina 932 km, Hungary 329 km, Serbia 241 km, Montenegro 25 km, Slovenia 455 km"
 		},
-		"Coastline": "5,835 km (mainland 1,777 km, islands 4,058 km)",
+		"Coastline": {
+			"quantity": 5835,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers along coast",
@@ -31,12 +58,27 @@
 		},
 		"Natural resources": "oil, some coal, bauxite, low-grade iron ore, calcium, gypsum, natural asphalt, silica, mica, clays, salt, hydropower",
 		"Land use": {
-			"arable land:": "25.82%",
-			"permanent crops:": "2.19%",
-			"other:": "71.99% (2005)"
+			"arable land:": {
+				"quantity": 25.82,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 2.19,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 71.99,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "310 sq km (2008)",
-		"Total renewable water resources": "105.5 cu km (1998)",
+		"Irrigated land": {
+			"quantity": 310,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 105.5,
+			"unit": "cu km"
+		},
 		"Natural hazards": "destructive earthquakes",
 		"Environment - current issues": "air pollution (from metallurgical plants) and resulting acid rain is damaging the forests; coastal pollution from industrial and domestic waste; landmine removal and reconstruction of infrastructure consequent to 1992-95 civil strife",
 		"Environment - international agreements": {
@@ -47,61 +89,127 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "4,483,804 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.1% (male 346,553/female 328,677)",
-			"15-64 years:": "68.1% (male 1,516,884/female 1,536,065)",
+			"0-14 years:": {
+				"quantity": 15.1,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 68.1,
+				"unit": "%"
+			},
 			"65 years and over:": "16.9% (male 296,268/female 459,357) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "41.4 years",
-			"male:": "39.5 years",
-			"female:": "43.3 years (2011 est.)"
+			"total:": {
+				"quantity": 41.4,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 39.5,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 43.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
 			"Population growth rate": "-0.076% (2011 est.)",
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.6 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.6,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "11.91 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 11.91,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "1.55 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 1.55,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "58% of total population (2010)",
-			"rate of urbanization:": "0.4% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 58,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 0.4,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ZAGREB (capital) 685,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.055 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "0.99 male(s)/female",
-			"65 years and over:": "0.64 male(s)/female",
-			"total population:": "0.93 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.055,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.64,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.93,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "6.16 deaths/1,000 live births",
+			"total:": {
+				"quantity": 6.16,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "6.24 deaths/1,000 live births",
-			"female:": "6.08 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 6.24,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 6.08,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "75.79 years",
+			"total population:": {
+				"quantity": 75.79,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "72.17 years",
-			"female:": "79.6 years (2011 est.)"
+			"male:": {
+				"quantity": 72.17,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 79.6,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.43 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.43,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
@@ -132,14 +240,32 @@
 		"Languages": "Croatian (official) 96.1%, Serbian 1%, other and undesignated (including Italian, Hungarian, Czech, Slovak, and German) 2.9% (2001 census)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "98.1%",
-			"male:": "99.3%",
-			"female:": "97.1% (2001 census)"
+			"total population:": {
+				"quantity": 98.1,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 99.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 97.1,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "14 years",
-			"male:": "13 years",
-			"female:": "14 years (2008)"
+			"total:": {
+				"quantity": 14,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 13,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 14,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -154,7 +280,16 @@
 		"Government type": "presidential/parliamentary democracy",
 		"Capital": {
 			"name:": "Zagreb",
-			"geographic coordinates:": "45 48 N, 16 00 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 45,
+					"seconds": 48
+				},
+				"E": {
+					"minutes": 16,
+					"seconds": 0
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -205,83 +340,146 @@
 	"economy": {
 		"Economy - overview": "Once one of the wealthiest of the Yugoslav republics, Croatia's economy suffered badly during the 1991-95 war as output collapsed and the country missed the early waves of investment in Central and Eastern Europe that followed the fall of the Berlin Wall. Between 2000 and 2007, however, Croatia's economic fortunes began to improve slowly, with moderate but steady GDP growth between 4% and 6% led by a rebound in tourism and credit-driven consumer spending. Inflation over the same period has remained tame and the currency, the kuna, stable. Nevertheless, difficult problems still remain, including a stubbornly high unemployment rate, a growing trade deficit and uneven regional development. The state retains a large role in the economy, as privatization efforts often meet stiff public and political resistance. While macroeconomic stabilization has largely been achieved, structural reforms lag because of deep resistance on the part of the public and lack of strong support from politicians. The EU accession process should accelerate fiscal and structural reform. While long term growth prospects for the economy remain strong, Croatia will face significant pressure as a result of the global financial crisis. Croatia's high foreign debt, anemic export sector, strained state budget, and over-reliance on tourism revenue will result in higher risk to economic stability over the medium term.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$78.09 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 78090000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$60.59 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 60590000000
+		},
 		"GDP - real growth rate": {
 			"GDP - real growth rate": "-1.4% (2010 est.)",
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$17,400 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "6.8%",
-			"industry:": "27.2%",
-			"services:": "66% (2010 est.)"
+			"agriculture:": {
+				"quantity": 6.8,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 27.2,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 66,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "1.762 million (2010 est.)",
+			"Labor force": 1762000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "5%",
-			"industry:": "31.3%",
-			"services:": "63.6% (2008)"
+			"agriculture:": {
+				"quantity": 5,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 31.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 63.6,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "17.6% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 17.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "17% (2008)",
+		"Population below poverty line": {
+			"quantity": 17,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.6%",
-			"highest 10%:": "23.1% (2005 est.)"
+			"lowest 10%:": {
+				"quantity": 3.6,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 23.1,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "29 (2008)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "22.4% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 22.4,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$22 billion",
-			"expenditures:": "$24.29 billion (2010 est.)"
+			"revenues:": {
+				"usd": 22000000000
+			},
+			"expenditures:": {
+				"usd": 24290000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "55% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 55,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.3% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "9% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "11.55% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 11.55,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$8.72 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 8720000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$40.8 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 40800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$48.62 billion (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 48620000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$25.64 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 25640000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "wheat, corn, sugar beets, sunflower seed, barley, alfalfa, clover, olives, citrus, grapes, soybeans, potatoes; livestock, dairy products",
@@ -291,53 +489,95 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "11.49 billion kWh (2008 est.)",
+			"Electricity - production": {
+				"quantity": 11490000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "18 billion kWh (2008 est.)",
+			"Electricity - consumption": {
+				"quantity": 18000000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "5.668 billion kWh (2008 est.)",
-		"Electricity - imports": "12.24 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 5668000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 12240000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "23,960 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 23960,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "106,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 106000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "43,750 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 43750,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "122,100 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 122100,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "73.35 million bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 73350000,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "2.847 billion cu m (2009 est.)",
+			"Natural gas - production": {
+				"quantity": 2847000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "3.205 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 3205000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "695.5 million cu m (2009 est.)",
+			"Natural gas - exports": {
+				"quantity": 695500000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "1.22 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 1220000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "30.58 billion cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 30580000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -345,42 +585,54 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$11.51 billion (2010 est.)",
+			"Exports": {
+				"usd": 11510000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "transport equipment, machinery, textiles, chemicals, foodstuffs, fuels",
 		"Exports - partners": "Italy 19.1%, Bosnia and Herzegovina 12.98%, Germany 11.06%, Slovenia 7.47%, Austria 5.44%, Serbia 5.41% (2009)",
 		"Imports": {
-			"Imports": "$20.93 billion (2010 est.)",
+			"Imports": {
+				"usd": 20930000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "machinery, transport and electrical equipment; chemicals, fuels and lubricants; foodstuffs",
 		"Imports - partners": "Italy 15.46%, Germany 13.57%, Russia 9.29%, China 6.83%, Slovenia 5.75%, Austria 5.04% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$13.79 billion (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 13790000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$59.7 billion (31 December 2010 est.)",
+			"Debt - external": {
+				"usd": 59700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$34.63 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 34630000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$6.334 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 6334000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1.859 million (2009)",
+			"Telephones - main lines in use": 1859000,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "6.035 million (2009)",
+			"Telephones - mobile cellular": 6035000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -391,33 +643,36 @@
 		"Broadcast media": "the national state-owned public broadcaster, Croatian Radiotelevision (HRT), operates 2 terrestrial TV networks, a satellite channel that rebroadcasts programs for Croatians living abroad, and 6 regional TV centers; 2 private broadcasters operate national terrestrial networks; about 15 privately-owned regional TV stations; multi-channel cable and satellite TV subscription services are available; state-owned public broadcaster operates 3 national radio networks and a number of regional radio stations; 2 privately-owned national radio networks and a large number of regional, county, city, and community radio stations (2007)",
 		"Internet country code": ".hr",
 		"Internet hosts": {
-			"Internet hosts": "1.287 million (2010)",
+			"Internet hosts": 1287000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "69 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "23",
-			"over 3,047 m:": "2",
-			"2,438 to 3,047 m:": "6",
-			"1,524 to 2,437 m:": "3",
-			"914 to 1,523 m:": "3"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "46",
-			"1,524 to 2,437 m:": "1",
-			"914 to 1,523 m:": "7",
-			"under 914 m:": "38 (2010)"
+			"total:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Pipelines": "gas 1,686 km; oil 532 km (2010)",
 		"Railways": {
-			"total:": "2,722 km",
+			"total:": {
+				"quantity": 2722,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"standard gauge:": "2,722 km 1.435-m gauge (985 km electrified) (2009)"
 		},
@@ -426,14 +681,17 @@
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
-			"Waterways": "785 km (2009)",
+			"Waterways": {
+				"quantity": 785,
+				"unit": "km"
+			},
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "75",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 24, cargo 7, chemical tanker 6, passenger/cargo 27, petroleum tanker 10, refrigerated cargo 1",
-			"foreign-owned:": "2 (Norway 2)",
+			"foreign-owned:": null,
 			"registered in other countries:": "33 (Bahamas 1, Belize 1, Liberia 2, Malta 7, Marshall Islands 12, Panama 2, Saint Vincent and the Grenadines 8) (2010)"
 		},
 		"Ports and terminals": {}
@@ -442,16 +700,16 @@
 		"Military branches": "Armed Forces of the Republic of Croatia (Oruzane Snage Republike Hrvatske, OSRH), consists of five major commands directly subordinate to a General Staff: Ground Forces (Hrvatska Kopnena Vojska, HKoV), Naval Forces (Hrvatska Ratna Mornarica, HRM; includes coast guard), Air Force and Air Defense Command, Joint Education and Training Command, Logistics Command; Military Police Force supports each of the three Croatian military forces (2010)",
 		"Military service age and obligation": "18-27 years of age for voluntary military service; 16 years of age with parental consent; 6-month service obligation; conscription abolished 1 January 2008 (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "1,016,234",
-			"females age 16-49:": "1,017,355 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "770,710",
-			"females age 16-49:": "839,732 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "28,334",
-			"female:": "27,015 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

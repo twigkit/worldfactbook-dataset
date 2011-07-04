@@ -5,20 +5,44 @@
 	"background": "Burundi's first democratically elected president was assassinated in October 1993 after only 100 days in office, triggering widespread ethnic violence between Hutu and Tutsi factions. More than 200,000 Burundians perished during the conflict that spanned almost a dozen years. Hundreds of thousands of Burundians were internally displaced or became refugees in neighboring countries. An internationally brokered power-sharing agreement between the Tutsi-dominated government and the Hutu rebels in 2003 paved the way for a transition process that led to an integrated defense force, established a new constitution in 2005, and elected a majority Hutu government in 2005. The new government, led by President Pierre NKURUNZIZA, signed a South African brokered ceasefire with the country's last rebel group in September of 2006 but still faces many challenges.",
 	"geo": {
 		"Location": "Central Africa, east of Democratic Republic of the Congo",
-		"Geographic coordinates": "3 30 S, 30 00 E",
+		"Geographic coordinates": {
+			"S": {
+				"minutes": 3,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 30,
+				"seconds": 0
+			}
+		},
 		"Map references": "Africa",
 		"Area": {
-			"total:": "27,830 sq km",
+			"total:": {
+				"quantity": 27830,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "25,680 sq km",
-			"water:": "2,150 sq km"
+			"land:": {
+				"quantity": 25680,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 2150,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Maryland",
 		"Land boundaries": {
-			"total:": "974 km",
+			"total:": {
+				"quantity": 974,
+				"unit": "km"
+			},
 			"border countries:": "Democratic Republic of the Congo 233 km, Rwanda 290 km, Tanzania 451 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "equatorial; high plateau with considerable altitude variation (772 m to 2,670 m above sea level); average annual temperature varies with altitude from 23 to 17 degrees centigrade but is generally moderate as the average altitude is about 1,700 m; average annual rainfall is about 150 cm; two wet seasons (February to May and September to November), and two dry seasons (June to August and December to January)",
 		"Terrain": "hilly and mountainous, dropping to a plateau in east, some plains",
@@ -28,15 +52,36 @@
 		},
 		"Natural resources": "nickel, uranium, rare earth oxides, peat, cobalt, copper, platinum, vanadium, arable land, hydropower, niobium, tantalum, gold, tin, tungsten, kaolin, limestone",
 		"Land use": {
-			"arable land:": "35.57%",
-			"permanent crops:": "13.12%",
-			"other:": "51.31% (2005)"
+			"arable land:": {
+				"quantity": 35.57,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 13.12,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 51.31,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "230 sq km (2008)",
-		"Total renewable water resources": "3.6 cu km (1987)",
+		"Irrigated land": {
+			"quantity": 230,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 3.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "0.29  cu km/yr (17%/6%/77%)",
-			"per capita:": "38  cu m/yr (2000)"
+			"total:": {
+				"quantity": 0.29,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 38,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": "flooding; landslides; drought",
 		"Environment - current issues": "soil erosion as a result of overgrazing and the expansion of agriculture into marginal lands; deforestation (little forested land remains because of uncontrolled cutting of trees for fuel); habitat loss threatens wildlife populations",
@@ -48,73 +93,145 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,216,190 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "46% (male 2,360,214/female 2,335,541)",
-			"15-64 years:": "51.6% (male 2,598,011/female 2,669,376)",
+			"0-14 years:": {
+				"quantity": 46,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 51.6,
+				"unit": "%"
+			},
 			"65 years and over:": "2.5% (male 101,207/female 151,841) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "16.9 years",
-			"male:": "16.6 years",
-			"female:": "17.2 years (2011 est.)"
+			"total:": {
+				"quantity": 16.9,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16.6,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 17.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "3.462% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 3.462,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "41.01 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 41.01,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "9.61 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 9.61,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "3.22 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 3.22,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "11% of total population (2010)",
-			"rate of urbanization:": "4.9% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 11,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 4.9,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "BUJUMBURA (capital) 455,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.03 male(s)/female",
-			"under 15 years:": "1.01 male(s)/female",
-			"15-64 years:": "0.97 male(s)/female",
-			"65 years and over:": "0.67 male(s)/female",
-			"total population:": "0.98 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.03,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.01,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 0.97,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.67,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.98,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "61.82 deaths/1,000 live births",
+			"total:": {
+				"quantity": 61.82,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "66.4 deaths/1,000 live births",
-			"female:": "57.1 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 66.4,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 57.1,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "58.78 years",
+			"total population:": {
+				"quantity": 58.78,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "57.09 years",
-			"female:": "60.52 years (2011 est.)"
+			"male:": {
+				"quantity": 57.09,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 60.52,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "6.16 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 6.16,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "3.3% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 3.3,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "180,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "15,000 (2009 est.)",
+			"HIV/AIDS - deaths": null,
 			"country comparison to the world:": ""
 		},
 		"Major infectious diseases": {
@@ -135,14 +252,32 @@
 		"Languages": "Kirundi (official), French (official), Swahili (along Lake Tanganyika and in the Bujumbura area)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "59.3%",
-			"male:": "67.3%",
-			"female:": "52.2% (2000 est.)"
+			"total population:": {
+				"quantity": 59.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 67.3,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 52.2,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "10 years",
-			"male:": "9 years",
-			"female:": "7 years (2009)"
+			"total:": {
+				"quantity": 10,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 9,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 7,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -157,7 +292,16 @@
 		"Government type": "republic",
 		"Capital": {
 			"name:": "Bujumbura",
-			"geographic coordinates:": "3 22 S, 29 21 E",
+			"geographic coordinates:": {
+				"S": {
+					"minutes": 3,
+					"seconds": 22
+				},
+				"E": {
+					"minutes": 29,
+					"seconds": 21
+				}
+			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "17 provinces; Bubanza, Bujumbura Mairie, Bujumbura Rural, Bururi, Cankuzo, Cibitoke, Gitega, Karuzi, Kayanza, Kirundo, Makamba, Muramvya, Muyinga, Mwaro, Ngozi, Rutana, Ruyigi",
@@ -207,129 +351,229 @@
 	"economy": {
 		"Economy - overview": "Burundi is a landlocked, resource-poor country with an underdeveloped manufacturing sector. The economy is predominantly agricultural which accounts for just over 30% of GDP and employs more than 90% of the population. Burundi's primary exports are coffee and tea, which account for 90% of foreign exchange earnings, though exports are a relatively small share of GDP. Burundi's export earnings - and its ability to pay for imports - rests primarily on weather conditions and international coffee and tea prices. The Tutsi minority, 14% of the population, dominates the coffee trade. An ethnic-based war that lasted for over a decade resulted in more than 200,000 deaths, forced more than 48,000 refugees into Tanzania, and displaced 140,000 others internally. Only one in two children go to school, and approximately one in 15 adults has HIV/AIDS. Food, medicine, and electricity remain in short supply. Less than 2% of the population has electricity in its homes. Burundi's GDP grew around 4% annually in 2006-10. Political stability and the end of the civil war have improved aid flows and economic activity has increased, but underlying weaknesses - a high poverty rate, poor education rates, a weak legal system, a poor transportation network, overburdened utilities, and low administrative capacity - risk undermining planned economic reforms. The purchasing power of most Burundians has decreased as wage increases have not kept up with inflation. Burundi will continue to remain heavily dependent on aid from bilateral and multilateral donors; the delay of funds after a corruption scandal cut off bilateral aid in 2007 reduced government's revenues and its ability to pay salaries. Burundi joined the East African Community, which should boost Burundi's regional trade ties, and received $700 million in debt relief in 2009. Government corruption is also hindering the development of a healthy private sector as companies seek to navigate an environment with ever-changing rules.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.397 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3397000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$1.489 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 1489000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.9% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$300 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "31.6%",
-			"industry:": "21.4%",
-			"services:": "47% (2010 est.)"
+			"agriculture:": {
+				"quantity": 31.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 21.4,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 47,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "4.245 million (2007)",
+			"Labor force": 4245000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "93.6%",
-			"industry:": "2.3%",
-			"services:": "4.1% (2002 est.)"
+			"agriculture:": {
+				"quantity": 93.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 2.3,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 4.1,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": "NA%",
-		"Population below poverty line": "68% (2002 est.)",
+		"Population below poverty line": {
+			"quantity": 68,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "4.1%",
-			"highest 10%:": "28% (2006)"
+			"lowest 10%:": {
+				"quantity": 4.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 28,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "42.4 (1998)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "25.1% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 25.1,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$386.3 million",
-			"expenditures:": "$476.2 million (2010 est.)"
+			"revenues:": {
+				"usd": 386300000
+			},
+			"expenditures:": {
+				"usd": 476200000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "9.8% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 9.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "10% (31 December 2009)",
+			"Central bank discount rate": {
+				"quantity": 10,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "14.08% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 14.08,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$329.3 million (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 329300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$568.3 million (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 568300000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$465.7 million (31 December 2010 est.)",
+			"Stock of domestic credit": {
+				"usd": 465700000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, cotton, tea, corn, sorghum, sweet potatoes, bananas, manioc (tapioca); beef, milk, hides",
 		"Industries": "light consumer goods such as blankets, shoes, soap; assembly of imported components; public works construction; food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "7% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "92 million kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 92000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "125.6 million kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 125600000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "0 kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 0,
+			"unit": "kWh"
+		},
 		"Electricity - imports": "40 million kWh; note - supplied by the Democratic Republic of the Congo (2007 est.)",
 		"Oil - production": {
-			"Oil - production": "0 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "3,000 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 3000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "0 bbl/day (2007 est.)",
+			"Oil - exports": {
+				"quantity": 0,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "2,495 bbl/day (2007 est.)",
+			"Oil - imports": {
+				"quantity": 2495,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": "0 cu m (2008 est.)",
+			"Natural gas - production": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "0 cu m (2008 est.)",
+			"Natural gas - consumption": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "0 cu m (2008 est.)",
+			"Natural gas - imports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -337,34 +581,42 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$71 million (2010 est.)",
+			"Exports": {
+				"usd": 71000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "coffee, tea, sugar, cotton, hides",
 		"Exports - partners": "Germany 21.6%, Switzerland 14.86%, Belgium 9.32%, Sweden 8.94%, Pakistan 5.82% (2009)",
 		"Imports": {
-			"Imports": "$336 million (2010 est.)",
+			"Imports": {
+				"usd": 336000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "capital goods, petroleum products, foodstuffs",
 		"Imports - partners": "Saudi Arabia 16.87%, Belgium 11.17%, Uganda 8.62%, Kenya 7.57%, China 5.66%, France 5.35%, Germany 4.46%, India 4.24%, Tanzania 4.21% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": "$320 million (31 December 2010 est.)",
+			"Reserves of foreign exchange and gold": {
+				"usd": 320000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": "$1.2 billion (2003)",
+			"Debt - external": {
+				"usd": 1200000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "31,500 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "838,400 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -375,31 +627,40 @@
 		"Broadcast media": "state-controlled La Radiodiffusion et Television Nationale de Burundi (RTNB) operates the lone TV broadcast station and the only national radio network; about 10 privately-owned radio broadcast stations; transmissions of several international broadcasters are available in Bujumbura (2007)",
 		"Internet country code": ".bi",
 		"Internet hosts": {
-			"Internet hosts": "201 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "8 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "1",
-			"over 3,047 m:": "1 (2010)"
+			"total:": null,
+			"over 3,047 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "7",
-			"914 to 1,523 m:": "4",
-			"under 914 m:": "3 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
-		"Heliports": "1 (2010)",
+		"Heliports": null,
 		"Roadways": {
-			"total:": "12,322 km",
+			"total:": {
+				"quantity": 12322,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "1,286 km",
-			"unpaved:": "11,036 km (2004)"
+			"paved:": {
+				"quantity": 1286,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 11036,
+				"unit": "km"
+			}
 		},
 		"Waterways": "(mainly on Lake Tanganyika between Bujumbura, Burundi's principal port, and lake ports in Tanzania, Zambia, and the Democratic Republic of Congo) (2010)",
 		"Ports and terminals": {}
@@ -408,16 +669,16 @@
 		"Military branches": "National Defense Forces (Forces de Defense Nationale, FDN): Army (includes naval detachment, Air Wing, and Coast Guard), National Gendarmerie (2011)",
 		"Military service age and obligation": "military service is voluntary; the armed forces law of 31 December 2004 did not specify a minimum age for enlistment, but the government had previously said each recruit must have a primary school-leaving certificate; mandatory retirement age 45 (enlisted), 50 (NCOs), and 55 (officers) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,182,327",
-			"females age 16-49:": "2,202,125 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "1,398,769",
-			"females age 16-49:": "1,481,417 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "117,956",
-			"female:": "116,956 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

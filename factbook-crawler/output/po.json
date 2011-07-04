@@ -5,24 +5,57 @@
 	"background": "Following its heyday as a global maritime power during the 15th and 16th centuries, Portugal lost much of its wealth and status with the destruction of Lisbon in a 1755 earthquake, occupation during the Napoleonic Wars, and the independence of its wealthiest colony of Brazil in 1822. A 1910 revolution deposed the monarchy; for most of the next six decades, repressive governments ran the country. In 1974, a left-wing military coup installed broad democratic reforms. The following year, Portugal granted independence to all of its African colonies. Portugal is a founding member of NATO and entered the EC (now the EU) in 1986. In January 2011, Portugal assumed a nonpermanent seat on the UN Security Council for the 2011-12 term.",
 	"geo": {
 		"Location": "Southwestern Europe, bordering the North Atlantic Ocean, west of Spain",
-		"Geographic coordinates": "39 30 N, 8 00 W",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 39,
+				"seconds": 30
+			},
+			"W": {
+				"minutes": 8,
+				"seconds": 0
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "92,090 sq km",
+			"total:": {
+				"quantity": 92090,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "91,470 sq km",
-			"water:": "620 sq km"
+			"land:": {
+				"quantity": 91470,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 620,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "slightly smaller than Indiana",
 		"Land boundaries": {
-			"total:": "1,214 km",
+			"total:": {
+				"quantity": 1214,
+				"unit": "km"
+			},
 			"border countries:": "Spain 1,214 km"
 		},
-		"Coastline": "1,793 km",
+		"Coastline": {
+			"quantity": 1793,
+			"unit": "km"
+		},
 		"Maritime claims": {
-			"territorial sea:": "12 nm",
-			"contiguous zone:": "24 nm",
-			"exclusive economic zone:": "200 nm",
+			"territorial sea:": {
+				"quantity": 12,
+				"unit": "nm"
+			},
+			"contiguous zone:": {
+				"quantity": 24,
+				"unit": "nm"
+			},
+			"exclusive economic zone:": {
+				"quantity": 200,
+				"unit": "nm"
+			},
 			"continental shelf:": "200 m depth or to the depth of exploitation"
 		},
 		"Climate": "maritime temperate; cool and rainy in north, warmer and drier in south",
@@ -33,15 +66,36 @@
 		},
 		"Natural resources": "fish, forests (cork), iron ore, copper, zinc, tin, tungsten, silver, gold, uranium, marble, clay, gypsum, salt, arable land, hydropower",
 		"Land use": {
-			"arable land:": "17.29%",
-			"permanent crops:": "7.84%",
-			"other:": "74.87% (2005)"
+			"arable land:": {
+				"quantity": 17.29,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 7.84,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 74.87,
+				"unit": "%"
+			}
 		},
-		"Irrigated land": "5,840 sq km (2008)",
-		"Total renewable water resources": "73.6 cu km (2005)",
+		"Irrigated land": {
+			"quantity": 5840,
+			"unit": "sq km"
+		},
+		"Total renewable water resources": {
+			"quantity": 73.6,
+			"unit": "cu km"
+		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": "11.09  cu km/yr (10%/12%/78%)",
-			"per capita:": "1,056  cu m/yr (1998)"
+			"total:": {
+				"quantity": 11.09,
+				"unit": "cu km/yr"
+			},
+			"per capita:": {
+				"quantity": 1056,
+				"unit": "cu m/yr"
+			}
 		},
 		"Natural hazards": {
 			"Natural hazards": "Azores subject to severe earthquakes",
@@ -56,69 +110,141 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "10,760,305 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "16.2% (male 910,012/female 835,025)",
-			"15-64 years:": "65.8% (male 3,539,457/female 3,541,989)",
+			"0-14 years:": {
+				"quantity": 16.2,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 65.8,
+				"unit": "%"
+			},
 			"65 years and over:": "18% (male 791,950/female 1,141,872) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40 years",
-			"male:": "38 years",
-			"female:": "42.3 years (2011 est.)"
+			"total:": {
+				"quantity": 40,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 38,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 42.3,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.212% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.212,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.94 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.94,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "10.8 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 10.8,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "2.98 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 2.98,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "61% of total population (2010)",
-			"rate of urbanization:": "1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 61,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "LISBON (capital) 2.808 million; Porto 1.344 million (2009)",
 		"Sex ratio": {
-			"at birth:": "1.067 male(s)/female",
-			"under 15 years:": "1.09 male(s)/female",
-			"15-64 years:": "1 male(s)/female",
-			"65 years and over:": "0.7 male(s)/female",
-			"total population:": "0.95 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.067,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.7,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 0.95,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "4.66 deaths/1,000 live births",
+			"total:": {
+				"quantity": 4.66,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "5.11 deaths/1,000 live births",
-			"female:": "4.18 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 5.11,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 4.18,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "78.54 years",
+			"total population:": {
+				"quantity": 78.54,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "75.28 years",
-			"female:": "82.01 years (2011 est.)"
+			"male:": {
+				"quantity": 75.28,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 82.01,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.5 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.5,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.6% (2009 est.)",
+			"HIV/AIDS - adult prevalence rate": {
+				"quantity": 0.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "42,000 (2009 est.)",
+			"HIV/AIDS - people living with HIV/AIDS": null,
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - deaths": {
@@ -136,14 +262,32 @@
 		"Languages": "Portuguese (official), Mirandese (official, but locally used)",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "93.3%",
-			"male:": "95.5%",
-			"female:": "91.3% (2003 est.)"
+			"total population:": {
+				"quantity": 93.3,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 95.5,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 91.3,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "16 years",
-			"male:": "16 years",
-			"female:": "16 years (2008)"
+			"total:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 16,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 16,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -157,7 +301,16 @@
 		"Government type": "republic; parliamentary democracy",
 		"Capital": {
 			"name:": "Lisbon",
-			"geographic coordinates:": "38 43 N, 9 08 W",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 38,
+					"seconds": 43
+				},
+				"W": {
+					"minutes": 9,
+					"seconds": 8
+				}
+			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
@@ -205,136 +358,244 @@
 	"economy": {
 		"Economy - overview": "Portugal has become a diversified and increasingly service-based economy since joining the European Community - the EU's predecessor - in 1986. Over the past two decades, successive governments have privatized many state-controlled firms and liberalized key areas of the economy, including the financial and telecommunications sectors. The country qualified for the Economic and Monetary Union (EMU) in 1998 and began circulating the euro on 1 January 2002 along with 11 other EU members. The economy had grown by more than the EU average for much of the 1990s, but fell back in 2001-08, and contracted 2.6% in 2009, before growing 1% in 2010. GDP per capita stands at roughly two-thirds of the EU-27 average. A poor educational system and a rigid labor market have been obstacles to greater productivity and growth. Portugal also has been increasingly overshadowed by lower-cost producers in Central Europe and Asia as a destination for foreign direct investment. Portugal's low competitiveness, low growth prospects, and high levels of public debt have made it vulnerable to bond market turbulence. The government is implementing austerity measures, including a 5% public salary cut which went into effect on January 1, 2011 and a 2% increase in the value-added tax, to reduce the budget deficit from 9.3% of GDP in 2009 to 4.6% in 2011, but some investors have expressed concern about the government's ability to achieve these targets and cover its sovereign debt. Without the option for stimulus measures, the government is focusing instead on boosting exports and implementing labor market reforms to try to raise GDP growth and increase Portugal's competitiveness - which, over time, may help mitigate investor concerns.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$247 billion (2010 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 247000000000
+			},
 			"country comparison to the world:": ""
 		},
-		"GDP (official exchange rate)": "$229.3 billion (2010 est.)",
+		"GDP (official exchange rate)": {
+			"usd": 229300000000
+		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "1.4% (2010 est.)",
+			"GDP - real growth rate": {
+				"quantity": 1.4,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$23,000 (2010 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
-			"agriculture:": "2.6%",
-			"industry:": "23%",
-			"services:": "74.5% (2010 est.)"
+			"agriculture:": {
+				"quantity": 2.6,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 23,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 74.5,
+				"unit": "%"
+			}
 		},
 		"Labor force": {
-			"Labor force": "5.57 million (2010 est.)",
+			"Labor force": 5570000,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "11.7%",
-			"industry:": "28.5%",
-			"services:": "59.8% (2009 est.)"
+			"agriculture:": {
+				"quantity": 11.7,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 28.5,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 59.8,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "10.7% (2010 est.)",
+			"Unemployment rate": {
+				"quantity": 10.7,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
-		"Population below poverty line": "18% (2006)",
+		"Population below poverty line": {
+			"quantity": 18,
+			"unit": "%"
+		},
 		"Household income or consumption by percentage share": {
-			"lowest 10%:": "3.1%",
-			"highest 10%:": "28.4% (1995 est.)"
+			"lowest 10%:": {
+				"quantity": 3.1,
+				"unit": "%"
+			},
+			"highest 10%:": {
+				"quantity": 28.4,
+				"unit": "%"
+			}
 		},
 		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": "38.5 (2007)",
+			"Distribution of family income - Gini index": null,
 			"country comparison to the world:": ""
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": "19% of GDP (2010 est.)",
+			"Investment (gross fixed)": {
+				"quantity": 19,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Budget": {
-			"revenues:": "$93.61 billion",
-			"expenditures:": "$110.2 billion (2010 est.)"
+			"revenues:": {
+				"usd": 93610000000
+			},
+			"expenditures:": {
+				"usd": 110200000000
+			}
 		},
 		"Public debt": {
-			"Public debt": "83.2% of GDP (2010 est.)",
+			"Public debt": {
+				"quantity": 83.2,
+				"unit": "% of GDP"
+			},
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.1% (2010 est.)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.1,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": "1.75% (31 December 2010)",
+			"Central bank discount rate": {
+				"quantity": 1.75,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "6.12% (31 December 2009 est.)",
+			"Commercial bank prime lending rate": {
+				"quantity": 6.12,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": "$98.23 billion (31 December 2010 est.)",
+			"Stock of narrow money": {
+				"usd": 98230000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": "$282 billion (31 December 2010 est.)",
+			"Stock of broad money": {
+				"usd": 282000000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": "$556.3 billion (31 December 2009 est.)",
+			"Stock of domestic credit": {
+				"usd": 556300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$98.65 billion (31 December 2009)",
+			"Market value of publicly traded shares": {
+				"usd": 98650000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "grain, potatoes, tomatoes, olives, grapes; sheep, cattle, goats, pigs, poultry, dairy products; fish",
 		"Industries": "textiles, clothing, footwear, wood and cork, paper, chemicals, auto-parts manufacturing, base metals, dairy products, wine and other foods, porcelain and ceramics, glassware, technology, telecommunications; ship construction and refurbishment; tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": "0.9% (2010 est.)",
+			"Industrial production growth rate": {
+				"quantity": 0.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": "44.47 billion kWh (2007 est.)",
+			"Electricity - production": {
+				"quantity": 44470000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "48.78 billion kWh (2007 est.)",
+			"Electricity - consumption": {
+				"quantity": 48780000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "1.313 billion kWh (2008 est.)",
-		"Electricity - imports": "10.74 billion kWh (2008 est.)",
+		"Electricity - exports": {
+			"quantity": 1313000000,
+			"unit": "kWh"
+		},
+		"Electricity - imports": {
+			"quantity": 10740000000,
+			"unit": "kWh"
+		},
 		"Oil - production": {
-			"Oil - production": "4,721 bbl/day (2009 est.)",
+			"Oil - production": {
+				"quantity": 4721,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - consumption": {
-			"Oil - consumption": "272,200 bbl/day (2009 est.)",
+			"Oil - consumption": {
+				"quantity": 272200,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - exports": {
-			"Oil - exports": "53,660 bbl/day (2008 est.)",
+			"Oil - exports": {
+				"quantity": 53660,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": "323,000 bbl/day (2008 est.)",
+			"Oil - imports": {
+				"quantity": 323000,
+				"unit": "bbl/day"
+			},
 			"country comparison to the world:": ""
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": "0 bbl (1 January 2010 est.)",
+			"Oil - proved reserves": {
+				"quantity": 0,
+				"unit": "bbl"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": "NA",
 		"Natural gas - consumption": {
-			"Natural gas - consumption": "4.846 billion cu m (2009 est.)",
+			"Natural gas - consumption": {
+				"quantity": 4846000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": "0 cu m (2008 est.)",
+			"Natural gas - exports": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": "4.895 billion cu m (2009 est.)",
+			"Natural gas - imports": {
+				"quantity": 4895000000,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": "0 cu m (1 January 2010 est.)",
+			"Natural gas - proved reserves": {
+				"quantity": 0,
+				"unit": "cu m"
+			},
 			"country comparison to the world:": ""
 		},
 		"Current account balance": {
@@ -342,39 +603,49 @@
 			"country comparison to the world:": ""
 		},
 		"Exports": {
-			"Exports": "$46.27 billion (2010 est.)",
+			"Exports": {
+				"usd": 46270000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "agricultural products, food products, wine, oil products, chemical products, plastics and rubber, hides, leather, wood and cork, wood pulp and paper, textile materials, clothing, footwear, machinery and tools",
 		"Exports - partners": "Spain 26.25%, Germany 12.99%, France 12.04%, Angola 7.21%, UK 5.54% (2009)",
 		"Imports": {
-			"Imports": "$68.22 billion (2010 est.)",
+			"Imports": {
+				"usd": 68220000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "agricultural products, chemical products, vehicles and other transport material, and optical and precision instruments, computer accessories and parts, semi-conductors and related devices",
 		"Imports - partners": "Spain 31.58%, Germany 12.41%, France 8.58%, Italy 5.55%, Netherlands 5.31% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": "$497.8 billion (30 June 2010)",
+			"Debt - external": {
+				"usd": 497800000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": "$105.7 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - at home": {
+				"usd": 105700000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": "$63.64 billion (31 December 2010 est.)",
+			"Stock of direct foreign investment - abroad": {
+				"usd": 63640000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exchange rates": {}
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "4.049 million (2009)",
+			"Telephones - main lines in use": 4049000.0000000005,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "15.178 million (2009)",
+			"Telephones - mobile cellular": 15178000,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -385,50 +656,62 @@
 		"Broadcast media": "the publicly-owned TV broadcaster operates 2 domestic channels and external service channels to Africa; overall, roughly 40 domestic TV stations; viewers have widespread access to international broadcasters with more than half of all households connected to multi-channel cable or satellite TV systems; publicly-owned radio operates 3 national networks and provides regional and external services; several privately-owned national radio stations and some 300 regional and local commercial radio stations (2008)",
 		"Internet country code": ".pt",
 		"Internet hosts": {
-			"Internet hosts": "3.267 million (2010)",
+			"Internet hosts": 3267000,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
 	},
 	"transport": {
 		"Airports": {
-			"Airports": "65 (2010)",
+			"Airports": null,
 			"country comparison to the world:": ""
 		},
 		"Airports - with paved runways": {
-			"total:": "43",
-			"over 3,047 m:": "5",
-			"2,438 to 3,047 m:": "8",
-			"1,524 to 2,437 m:": "7",
-			"914 to 1,523 m:": "13"
+			"total:": null,
+			"over 3,047 m:": null,
+			"2,438 to 3,047 m:": null,
+			"1,524 to 2,437 m:": null,
+			"914 to 1,523 m:": null
 		},
 		"Airports - with unpaved runways": {
-			"total:": "22",
-			"914 to 1,523 m:": "1",
-			"under 914 m:": "21 (2010)"
+			"total:": null,
+			"914 to 1,523 m:": null,
+			"under 914 m:": null
 		},
 		"Pipelines": "gas 1,307 km; oil 11 km; refined products 188 km (2010)",
 		"Railways": {
-			"total:": "2,786 km",
+			"total:": {
+				"quantity": 2786,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
 			"broad gauge:": "2,603 km 1.668-m gauge (1,351 km electrified)",
 			"narrow gauge:": "183 km 1.000-m gauge (2008)"
 		},
 		"Roadways": {
-			"total:": "82,900 km",
+			"total:": {
+				"quantity": 82900,
+				"unit": "km"
+			},
 			"country comparison to the world:": "",
-			"paved:": "71,294 km (includes 2,613 km of expressways)",
-			"unpaved:": "11,606 km (2008)"
+			"paved:": {
+				"quantity": 71294,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 11606,
+				"unit": "km"
+			}
 		},
 		"Waterways": {
 			"Waterways": "210 km (on Douro River from Porto) (2010)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": "111",
+			"total:": null,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 8, cargo 33, carrier 1, chemical tanker 17, container 8, liquefied gas 9, passenger 13, passenger/cargo 5, petroleum tanker 7, roll on/roll off 1, vehicle carrier 9",
-			"foreign-owned:": "80 (Belgium 8, Denmark 4, Germany 13, Greece 5, Italy 10, Japan 9, Mexico 1, Netherlands 1, Norway 1, Spain 15, Sweden 6, Switzerland 3, US 4)",
+			"foreign-owned:": null,
 			"registered in other countries:": "14 (Cyprus 2, Malta 3, Panama 9) (2010)"
 		},
 		"Ports and terminals": {}
@@ -437,16 +720,16 @@
 		"Military branches": "Portuguese Army (Exercito Portuguesa), Portuguese Navy (Marinha Portuguesa; includes Marine Corps), Portuguese Air Force (Forca Aerea Portuguesa, FAP) (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no compulsory military service; women serve in the armed forces, on naval ships since 1993, but are prohibited from serving in some combatant specialties; reserve obligation to age 35 (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "2,566,264",
-			"females age 16-49:": "2,458,297 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "2,103,080",
-			"females age 16-49:": "2,018,004 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "62,208",
-			"female:": "54,786 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military expenditures": {}
 	},

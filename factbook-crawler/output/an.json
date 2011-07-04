@@ -5,20 +5,44 @@
 	"background": "For 715 years, from 1278 to 1993, Andorrans lived under a unique co-principality, ruled by French and Spanish leaders (from 1607 onward, the French chief of state and the Spanish bishop of Seu d'Urgell). In 1993, this feudal system was modified with the titular heads of state retained, but the government transformed into a parliamentary democracy. For decades Andorra enjoyed its status as a small refuge of fiscal and banking freedom and benefitted from Spanish and French tourists attracted to the country's duty-free shopping. The situation has changed in recent years as Andorra started to tax foreign investment and other sectors. Tourism accounts for over 80% of Andorra's gross domestic product.",
 	"geo": {
 		"Location": "Southwestern Europe, Pyrenees mountains, on the border between France and Spain",
-		"Geographic coordinates": "42 30 N, 1 30 E",
+		"Geographic coordinates": {
+			"N": {
+				"minutes": 42,
+				"seconds": 30
+			},
+			"E": {
+				"minutes": 1,
+				"seconds": 30
+			}
+		},
 		"Map references": "Europe",
 		"Area": {
-			"total:": "468 sq km",
+			"total:": {
+				"quantity": 468,
+				"unit": "sq km"
+			},
 			"country comparison to the world:": "",
-			"land:": "468 sq km",
-			"water:": "0 sq km"
+			"land:": {
+				"quantity": 468,
+				"unit": "sq km"
+			},
+			"water:": {
+				"quantity": 0,
+				"unit": "sq km"
+			}
 		},
 		"Area - comparative": "2.5 times the size of Washington, DC",
 		"Land boundaries": {
-			"total:": "120.3 km",
+			"total:": {
+				"quantity": 120.3,
+				"unit": "km"
+			},
 			"border countries:": "France 56.6 km, Spain 63.7 km"
 		},
-		"Coastline": "0 km (landlocked)",
+		"Coastline": {
+			"quantity": 0,
+			"unit": "km"
+		},
 		"Maritime claims": "none (landlocked)",
 		"Climate": "temperate; snowy, cold winters and warm, dry summers",
 		"Terrain": "rugged mountains dissected by narrow valleys",
@@ -28,9 +52,18 @@
 		},
 		"Natural resources": "hydropower, mineral water, timber, iron ore, lead",
 		"Land use": {
-			"arable land:": "2.13%",
-			"permanent crops:": "0%",
-			"other:": "97.87% (2005)"
+			"arable land:": {
+				"quantity": 2.13,
+				"unit": "%"
+			},
+			"permanent crops:": {
+				"quantity": 0,
+				"unit": "%"
+			},
+			"other:": {
+				"quantity": 97.87,
+				"unit": "%"
+			}
 		},
 		"Irrigated land": "NA",
 		"Natural hazards": "avalanches",
@@ -43,61 +76,130 @@
 	},
 	"people": {
 		"Population": {
-			"Population": "84,825 (July 2011 est.)",
+			"Population": null,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
-			"0-14 years:": "15.6% (male 6,799/female 6,440)",
-			"15-64 years:": "71.4% (male 31,545/female 29,037)",
+			"0-14 years:": {
+				"quantity": 15.6,
+				"unit": "%"
+			},
+			"15-64 years:": {
+				"quantity": 71.4,
+				"unit": "%"
+			},
 			"65 years and over:": "13% (male 5,502/female 5,502) (2011 est.)"
 		},
 		"Median age": {
-			"total:": "40.5 years",
-			"male:": "40.8 years",
-			"female:": "40.2 years (2011 est.)"
+			"total:": {
+				"quantity": 40.5,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 40.8,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 40.2,
+				"unit": "years"
+			}
 		},
 		"Population growth rate": {
-			"Population growth rate": "0.33% (2011 est.)",
+			"Population growth rate": {
+				"quantity": 0.33,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Birth rate": {
-			"Birth rate": "9.66 births/1,000 population (2011 est.)",
+			"Birth rate": {
+				"quantity": 9.66,
+				"unit": "births/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Death rate": {
-			"Death rate": "6.35 deaths/1,000 population (July 2011 est.)",
+			"Death rate": {
+				"quantity": 6.35,
+				"unit": "deaths/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population (2011 est.)",
+			"Net migration rate": {
+				"quantity": 0,
+				"unit": "migrant(s)/1,000 population"
+			},
 			"country comparison to the world:": ""
 		},
 		"Urbanization": {
-			"urban population:": "88% of total population (2010)",
-			"rate of urbanization:": "1.1% annual rate of change (2010-15 est.)"
+			"urban population:": {
+				"quantity": 88,
+				"unit": "% of total population"
+			},
+			"rate of urbanization:": {
+				"quantity": 1.1,
+				"unit": "% annual rate of change"
+			}
 		},
 		"Major cities - population": "ANDORRA LA VELLA (capital) 25,000 (2009)",
 		"Sex ratio": {
-			"at birth:": "1.066 male(s)/female",
-			"under 15 years:": "1.06 male(s)/female",
-			"15-64 years:": "1.09 male(s)/female",
-			"65 years and over:": "0.99 male(s)/female",
-			"total population:": "1.07 male(s)/female (2011 est.)"
+			"at birth:": {
+				"quantity": 1.066,
+				"unit": "male(s)/female"
+			},
+			"under 15 years:": {
+				"quantity": 1.06,
+				"unit": "male(s)/female"
+			},
+			"15-64 years:": {
+				"quantity": 1.09,
+				"unit": "male(s)/female"
+			},
+			"65 years and over:": {
+				"quantity": 0.99,
+				"unit": "male(s)/female"
+			},
+			"total population:": {
+				"quantity": 1.07,
+				"unit": "male(s)/female"
+			}
 		},
 		"Infant mortality rate": {
-			"total:": "3.8 deaths/1,000 live births",
+			"total:": {
+				"quantity": 3.8,
+				"unit": "deaths/1,000 live births"
+			},
 			"country comparison to the world:": "",
-			"male:": "3.76 deaths/1,000 live births",
-			"female:": "3.84 deaths/1,000 live births (2011 est.)"
+			"male:": {
+				"quantity": 3.76,
+				"unit": "deaths/1,000 live births"
+			},
+			"female:": {
+				"quantity": 3.84,
+				"unit": "deaths/1,000 live births"
+			}
 		},
 		"Life expectancy at birth": {
-			"total population:": "82.43 years",
+			"total population:": {
+				"quantity": 82.43,
+				"unit": "years"
+			},
 			"country comparison to the world:": "",
-			"male:": "80.35 years",
-			"female:": "84.64 years (2011 est.)"
+			"male:": {
+				"quantity": 80.35,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 84.64,
+				"unit": "years"
+			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": "1.35 children born/woman (2011 est.)",
+			"Total fertility rate": {
+				"quantity": 1.35,
+				"unit": "children born/woman"
+			},
 			"country comparison to the world:": ""
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
@@ -114,14 +216,32 @@
 		"Languages": "Catalan (official), French, Castilian, Portuguese",
 		"Literacy": {
 			"definition:": "age 15 and over can read and write",
-			"total population:": "100%",
-			"male:": "100%",
-			"female:": "100%"
+			"total population:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 100,
+				"unit": "%"
+			}
 		},
 		"School life expectancy (primary to tertiary education)": {
-			"total:": "12 years",
-			"male:": "11 years",
-			"female:": "12 years (2008)"
+			"total:": {
+				"quantity": 12,
+				"unit": "years"
+			},
+			"male:": {
+				"quantity": 11,
+				"unit": "years"
+			},
+			"female:": {
+				"quantity": 12,
+				"unit": "years"
+			}
 		},
 		"Education expenditures": {}
 	},
@@ -135,12 +255,21 @@
 		"Government type": "parliamentary democracy (since March 1993) that retains as its chiefs of state a coprincipality; the two princes are the president of France and bishop of Seu d'Urgell, Spain, who are represented in Andorra by the coprinces' representatives",
 		"Capital": {
 			"name:": "Andorra la Vella",
-			"geographic coordinates:": "42 30 N, 1 31 E",
+			"geographic coordinates:": {
+				"N": {
+					"minutes": 42,
+					"seconds": 30
+				},
+				"E": {
+					"minutes": 1,
+					"seconds": 31
+				}
+			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
 		"Administrative divisions": "7 parishes (parroquies, singular - parroquia); Andorra la Vella, Canillo, Encamp, Escaldes-Engordany, La Massana, Ordino, Sant Julia de Loria",
-		"Independence": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Seu d'Urgel)",
+		"Independence": null,
 		"National holiday": "Our Lady of Meritxell Day, 8 September (1278)",
 		"Constitution": "Andorra's first written constitution was drafted in 1991; approved by referendum 14 March 1993; effective 28 April 1993",
 		"Legal system": "mixed legal system of civil and customary law with canon (religious) law influences",
@@ -179,16 +308,23 @@
 	"economy": {
 		"Economy - overview": "Tourism, commerce, and finance are the mainstays of Andorra's tiny, well-to-do economy, accounting for more than three-quarters of GDP. An estimated 9 million tourists visit annually, attracted by Andorra's duty-free status for some products and by its summer and winter resorts. Andorra's comparative advantage eroded when the borders of neighboring France and Spain opened, providing broader availability of goods and lower tariffs. The banking sector also contributes substantially to the economy. Agricultural production is limited - only 2% of the land is arable - and most food has to be imported. The principal livestock activity is sheep raising. Manufacturing output and exports consist mainly of perfumes and cosmetic products, products of the printing industry, electrical machinery and equipment, clothing, tobacco products, and furniture. Andorra is a member of the EU Customs Union and is treated as an EU member for trade in manufactured goods (no tariffs) and as a non-EU member for agricultural products.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": "$3.3 billion (2009 est.)",
+			"GDP (purchasing power parity)": {
+				"usd": 3300000000
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": "3.8% (2009 est.)",
+			"GDP - real growth rate": {
+				"quantity": 3.8,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": "$46,700 (2009 est.)",
+			"GDP - per capita (PPP)": {
+				"usd": null
+			},
 			"country comparison to the world:": ""
 		},
 		"GDP - composition by sector": {
@@ -197,16 +333,28 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": "38,220 (2010)",
+			"Labor force": null,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
-			"agriculture:": "0.4%",
-			"industry:": "4.7%",
-			"services:": "94.9% (2010)"
+			"agriculture:": {
+				"quantity": 0.4,
+				"unit": "%"
+			},
+			"industry:": {
+				"quantity": 4.7,
+				"unit": "%"
+			},
+			"services:": {
+				"quantity": 94.9,
+				"unit": "%"
+			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": "2.9% (2009)",
+			"Unemployment rate": {
+				"quantity": 2.9,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Population below poverty line": "NA (2008)",
@@ -215,35 +363,58 @@
 			"highest 10%:": "NA%"
 		},
 		"Budget": {
-			"revenues:": "$872 million",
-			"expenditures:": "$868.4 million (2009)"
+			"revenues:": {
+				"usd": 872000000
+			},
+			"expenditures:": {
+				"usd": 868400000
+			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "1.6% (2010)",
+			"Inflation rate (consumer prices)": {
+				"quantity": 1.6,
+				"unit": "%"
+			},
 			"country comparison to the world:": ""
 		},
 		"Agriculture - products": "small quantities of rye, wheat, barley, oats, vegetables; sheep",
 		"Industries": "tourism (particularly skiing), cattle raising, timber, banking, tobacco, furniture",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": "101 million kWh (2009)",
+			"Electricity - production": {
+				"quantity": 101000000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": "598.7 million kWh (2009)",
+			"Electricity - consumption": {
+				"quantity": 598700000,
+				"unit": "kWh"
+			},
 			"country comparison to the world:": ""
 		},
-		"Electricity - exports": "9 million kWh (2009)",
+		"Electricity - exports": {
+			"quantity": 9000000,
+			"unit": "kWh"
+		},
 		"Electricity - imports": {
-			"Electricity - imports": "497.7 million kWh"
+			"Electricity - imports": {
+				"quantity": 497700000,
+				"unit": "kWh"
+			}
 		},
 		"Exports": {
-			"Exports": "$64 million (2009)",
+			"Exports": {
+				"usd": 64000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Exports - commodities": "tobacco products, furniture",
 		"Imports": {
-			"Imports": "$1.474 billion (2009)",
+			"Imports": {
+				"usd": 1474000000
+			},
 			"country comparison to the world:": ""
 		},
 		"Imports - commodities": "consumer goods, food, electricity",
@@ -252,11 +423,11 @@
 	},
 	"commerce": {
 		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "37,900 (2009)",
+			"Telephones - main lines in use": null,
 			"country comparison to the world:": ""
 		},
 		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "64,500 (2009)",
+			"Telephones - mobile cellular": null,
 			"country comparison to the world:": ""
 		},
 		"Telephone system": {
@@ -267,7 +438,7 @@
 		"Broadcast media": "1 public television station and 2 public radio stations; about 10 commercial radio stations operating; good reception of radio and TV broadcasts from stations in France and Spain; upgraded to terrestrial digital television broadcasting in 2007; roughly 25 international television channels available (2010)",
 		"Internet country code": ".ad",
 		"Internet hosts": {
-			"Internet hosts": "26,773 (2010)",
+			"Internet hosts": null,
 			"country comparison to the world:": ""
 		},
 		"Internet users": {}
@@ -278,15 +449,15 @@
 	"military": {
 		"Military branches": "no regular military forces, Police Service of Andorra (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": "22,390 (2010 est.)"
+			"males age 16-49:": null
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": "17,977",
-			"females age 16-49:": "17,069 (2010 est.)"
+			"males age 16-49:": null,
+			"females age 16-49:": null
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": "397",
-			"female:": "347 (2010 est.)"
+			"male:": null,
+			"female:": null
 		},
 		"Military - note": {}
 	},
