@@ -47,6 +47,15 @@ var p = {
 	space : "[ ]"
 };
 
+var fields = {
+	"Constitution" : function( val ){
+		//var input = val.split(';');
+		//var pattern = /([^,]+),([0-9]+) ([a-z]+);/i;
+		
+		console.log(val);
+	}
+};
+
 function parseNumber(str){ return parseFloat(str.replace(",",""),10); }
 
 p.units = units.join("|");
@@ -62,7 +71,7 @@ var regex = {
 		},
 		format : function(){
 			var number = parseNumber(RegExp.$1);
-			var multiplier = typeof(RegExp.$2) === 'string' ? multipliers[RegExp.$2] : 1;
+			var multiplier = RegExp.$2 ? multipliers[RegExp.$2] : 1;
 			return number * multiplier;
 		}
 	},
@@ -120,12 +129,12 @@ var regex = {
 	},*/
 	geo : {
 		pattern : function(){
-			return /([0-9]+) ([0-9]+) (N|S), ([0-9]+) ([0-9]+) (W|E)/i; // matches "12 30 N, 69 58 W"
+			return /^([0-9]+) ([0-9]+) (N|S), ([0-9]+) ([0-9]+) (W|E)$/i; // matches "12 30 N, 69 58 W"
 		},
 		format : function(){
 			var result = {};
-			result[RegExp.$3] = { minutes:parseFloat(RegExp.$1,10), seconds:parseFloat(RegExp.$2,10) };
-			result[RegExp.$6] = { minutes:parseFloat(RegExp.$4,10), seconds:parseFloat(RegExp.$5,10) };
+			result[RegExp.$3] = { deg:parseFloat(RegExp.$1,10), min:parseFloat(RegExp.$2,10) };
+			result[RegExp.$6] = { deg:parseFloat(RegExp.$4,10), min:parseFloat(RegExp.$5,10) };
 			return result;
 		}
 	}
@@ -136,11 +145,12 @@ function traverse( obj ){
 		
 		var objType = typeof(obj[property]);
 		
-		if ( objType === 'object' ) traverse(obj[property]); // recurse nested objects
+		if ( fields[property] ) obj[property] = fields[property]( obj[property] ); // custom field behaviour 
+		else if ( objType === 'object' ) traverse(obj[property]); // recurse nested objects
 		else if ( objType === 'string' )
 		{
 			// process string value
-			obj[property] = process(obj[property]);
+			obj[property] = examine(obj[property]);
 		}
 		else if ( obj[property] ) {
 			// all values should be strings because they've just been scraped off HTML
@@ -149,7 +159,8 @@ function traverse( obj ){
 	}
 }
 
-function process( str ){
+function examine( str ){
+	
 	if ( str && str.length < 200 )
 	{
 		for ( var type in regex )

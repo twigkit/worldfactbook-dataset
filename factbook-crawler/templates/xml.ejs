@@ -1,0 +1,53 @@
+<country>
+	<code><%= doc.code %></code>
+	<name><%= doc.name %></name>
+	<region><%= doc.region %></region>
+	<background><%= doc.background %></background>
+	<geo>
+		<location>
+			<desc><%= doc.geo.Location %></desc>
+			<coordinates>TO DO</coordinates>
+		</location>
+		<area><% var area = doc.geo.Area %>
+			<total unit="<%= area['total:'].unit %>"><%= area['total:'].quantity %></total>
+			<land unit="<%= area['land:'].unit %>"><%= area['land:'].quantity %></land>
+			<water unit="<%= area['water:'].unit %>"><%= area['water:'].quantity %></water>
+			<comparison><%= doc.geo["Area - comparative"] %></comparison>
+		</area>
+		<boundaries>
+			<borders unit="<%= doc.geo['Land boundaries'].unit %>"><%= doc.geo['Land boundaries'].quantity%></borders>
+			<coastline unit="<%= doc.geo['Coastline'].unit %>"><%= doc.geo['Coastline'].quantity %></coastline>
+		</boundaries>
+		<maritime><% var maritime = doc.geo["Maritime claims"] %>
+			<% if ( maritime["territorial sea:"] ) { %><territorial unit="<%= maritime["territorial sea:"].unit %>"><%= maritime["territorial sea:"].quantity %></territorial>
+			<% } %><% if ( maritime["contiguous zone:"] ) { %><contiguous unit="<%= maritime["contiguous zone:"].unit %>"><%= maritime["contiguous zone:"].quantity %></contiguous>
+			<% } %><% if ( maritime["exclusive economic zone:"] ) { %><economic unit="<%= maritime["exclusive economic zone:"].unit %>"><%= maritime["exclusive economic zone:"].quantity %></economic><% } %>
+		</maritime>
+		<climate><%= doc.geo.Climate %></climate>
+		<terrain><%= doc.geo.Terrain %></terrain>
+		<elevation>
+			<high><%= doc.geo["Elevation extremes"]["highest point:"] %></high>
+			<low><%= doc.geo["Elevation extremes"]["lowest point:"] %></low>
+		</elevation>
+		<resources><%= doc.geo["Natural resources"] %></resources>
+		<land-use><% var land = doc.geo["Land use"] %>
+			<% if ( land["arable land:"] ) { %><arable unit="<%= land["arable land:"].unit %>"><%= land["arable land:"].quantity %></arable>
+			<% } %><% if ( land["permanent crops:"] ) { %><crops unit="<%= land["permanent crops:"].unit %>"><%= land["permanent crops:"].quantity %></crops>
+			<% } %><% if ( land["other:"] ) { %><other unit="<%= land["other:"].unit %>"><%= land["other:"].quantity %></other><% } %>
+		</land-use>
+		
+		<!--
+		"Irrigated land": "NA (2008)",
+		"Natural hazards": "hurricanes; lies outside the Caribbean hurricane belt and is rarely threatened",
+		"Environment - current issues": "NA",
+		"Geography - note": "a flat, riverless island renowned for its white sand beaches; its tropical climate is moderated by constant trade winds from the Atlantic Ocean; the temperature is almost constant at about 27 degrees Celsius (81 degrees Fahrenheit)"
+		-->
+	</geo>
+	<people><%= doc.people %></people>
+	<government><%= doc.government %></government>
+	<economy><%= doc.economy %></economy>
+	<communications><%= doc.communications %></communications>
+	<transport><%= doc.transport %></transport>
+	<military><%= doc.military %></military>
+	<issues><%= doc.issues %></issues>
+</country>

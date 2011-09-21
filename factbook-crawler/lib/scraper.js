@@ -48,7 +48,7 @@ exports.country = function( code, html, callback ){
 			country.people = multiple('#CollapsiblePanel1_People','.category a','.category_data',dom);
 			country.government = multiple('#CollapsiblePanel1_Govt','.category a','.category_data',dom);
 			country.economy = multiple('#CollapsiblePanel1_Econ','.category a','.category_data',dom);
-			country.commerce = multiple('#CollapsiblePanel1_Comm','.category a','.category_data',dom);
+			country.communications = multiple('#CollapsiblePanel1_Comm','.category a','.category_data',dom);
 			country.transport = multiple('#CollapsiblePanel1_Trans','.category a','.category_data',dom);
 			country.military = multiple('#CollapsiblePanel1_Military','.category a','.category_data',dom);
 			country.issues = multiple('#CollapsiblePanel1_Issues','.category a','.category_data',dom);
@@ -76,6 +76,7 @@ function multiple(selector,title,value,dom){
 	{
 		var row = rows[i];
 		var newSubSectionTitle = subSection(row);
+		//if ( currentSubSectionName == 'Internet users' ) console.log('row',row);
 		if ( newSubSectionTitle ) // subsection heading row, e.g. Location
 		{
 			// Persist the previous subsection
@@ -86,11 +87,13 @@ function multiple(selector,title,value,dom){
 			// Prepare the new subsection
 			currentSubSectionName = newSubSectionTitle;
 			currentSubSection = {};
+//if ( currentSubSectionName == 'Internet users' ) console.log('here');
 			//console.log('SUBSECTION',currentSubSectionName);
 		}
-		else if ( isEmptyRow(row) )
+		else if ( isEmptyRow(row, currentSubSectionName) )
 		{
 			// do nothing
+//if ( currentSubSectionName == 'Internet users' ) console.log('empty');
 			//console.log("empty row",util.inspect(row,true,10));
 			
 		}
@@ -100,8 +103,8 @@ function multiple(selector,title,value,dom){
 		}
 		else if ( isComplexSubsection(row) ) {
 			//console.log("complex",select(row,'#data div'));
-			//var elements = select(row,'div');
-			
+			//var elements = select(row,'div.category');
+//if ( currentSubSectionName == 'Internet users' ) console.log(currentSubSectionName,'complex');
 			// Get all keys and values in DOM order, as the tags and structure are mixed up
 			var elements = domUtils.getElements({class:function(value){
 				return value == 'category' || value == 'category_data';
@@ -113,35 +116,20 @@ function multiple(selector,title,value,dom){
 				if ( elements[j].attribs.class == 'category' ) key = getText(elements[j]);
 				else if ( key && elements[j].attribs.class == 'category_data' ){
 					currentSubSection[key] = getText(elements[j]);
-					//if (!currentSubSection[key]) console.warn('MISSING FIELD',currentSubSectionName,key);
+//if (!currentSubSection[key]) console.warn('MISSING FIELD',currentSubSectionName,key);
 					key = undefined;
 				}
 			}
-			/*var key = select(row,'#data .category');
-			var value = select(row,'#data .category_data');
-			if ( key && value )
-			{
-				for ( var j = 0; j < key.length; j++ )
-				{
-					if ( value[j] && value[j].children && value[j].children.length == 1 )
-					{
-						currentSubSection[getText(key[j])] = getText(value[j]);
-					}
-					else
-					{
-						console.warn('UNHANDLED COMPLEX SECTION ROW',currentSubSectionName);//,value[j]);
-					}
-				}
-			}*/
 		}
 		else
 		{
-			var el = select(row,'.category_data');
+			var el = select(row,'div.category_data');
 			for ( var j = 0; j < el.length; j++ )
 			{
 				var text = getText(el[j]);
 				if ( text )
 				{
+//if ( currentSubSectionName == 'Internet users' ) console.log(currentSubSectionName,text);
 					currentSubSection = text;
 					break;
 				}
@@ -163,13 +151,20 @@ function getText(element){
 	return undefined;
 }
 
-function isEmptyRow(row){
-	var top = select(row,'a[href=#top]'); // detect the "return to top" links
+function isEmptyRow(row, currentSubSectionName){
+	
+	var data = select(row,'#data'); // detect data element
+	if ( data.length > 0 ) return false;
+	
+	var top = select(row,'a[href=top]'); // detect the "return to top" links
+//if ( currentSubSectionName == 'Internet users' ) console.log('checking top link',top.length > 0);
 	if ( top.length > 0 ) return true;
 	
 	var td = select(row,'td'); // detect empty row
+//if ( currentSubSectionName == 'Internet users' ) console.log('td',td.length );
 	for ( var i = 0; i < td.length; i++ )
 	{
+//if ( currentSubSectionName == 'Internet users' ) console.log('td empty', !td[i] || !td[i].children || td[i].children[0].length == 0 );
 		if ( !td[i] || !td[i].children || td[i].children[0].length == 0 ) return true;
 	}
 	
@@ -177,7 +172,7 @@ function isEmptyRow(row){
 }
 
 function isComplexSubsection(row){
-	var cats = select(row,'.category');
+	var cats = select(row,'div.category');
 	return ( cats.length > 0 );
 }
 
