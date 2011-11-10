@@ -7,15 +7,15 @@
 		"Location": "Oceania, island in the South Pacific Ocean, east of Australia",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 29,
-				"seconds": 2
+				"deg": 29,
+				"min": 2
 			},
 			"E": {
-				"minutes": 167,
-				"seconds": 57
+				"deg": 167,
+				"min": 57
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 36,
@@ -74,13 +74,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (especially May to July)",
 		"Environment - current issues": "NA",
-		"Geography - note": {}
+		"Geography - note": "most of the 32 km coastline consists of almost inaccessible cliffs, but the land slopes down to the sea in one small southern area on Sydney Bay, where the capital of Kingston is situated"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 2169,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 20.2,
@@ -96,11 +93,8 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.006,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.006,
+			"unit": "%"
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
@@ -129,7 +123,7 @@
 		"Languages": "English (official), Norfolk (a mixture of 18th century English and ancient Tahitian)",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -142,12 +136,12 @@
 			"name:": "Kingston",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 29,
-					"seconds": 3
+					"deg": 29,
+					"min": 3
 				},
 				"E": {
-					"minutes": 167,
-					"seconds": 58
+					"deg": 167,
+					"min": 58
 				}
 			},
 			"time difference:": "UTC+11.5 (16.5 hours ahead of Washington, DC during Standard Time)"
@@ -155,7 +149,6 @@
 		"Administrative divisions": "none (territory of Australia)",
 		"Independence": "none (territory of Australia)",
 		"National holiday": "Bounty Day (commemorates the arrival of Pitcairn Islanders), 8 June (1856)",
-		"Constitution": "Norfolk Island Act of 1979 as amended in 2005",
 		"Legal system": "English common law and the laws of Australia",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -178,15 +171,15 @@
 		"Flag description": {
 			"Flag description": "three vertical bands of green (hoist side), white, and green with a large green Norfolk Island pine tree centered in the slightly wider white band; green stands for the rich vegetation on the island, and the pine tree - endemic to the island - is a symbol of Norfolk Island"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Come Ye Blessed\"",
+			"lyrics/music:": "New Testament/John Prindle SCOTT"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism, the primary economic activity, has steadily increased over the years and has brought a level of prosperity unusual among inhabitants of the Pacific islands. The agricultural sector has become self sufficient in the production of beef, poultry, and eggs.",
 		"GDP (purchasing power parity)": "$NA",
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 978,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 10,
@@ -214,17 +207,11 @@
 		"Imports": "$NA",
 		"Imports - commodities": "NA",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Australian dollars (AUD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "2,532; note - a mix of analog (2,500) and digital (32) circuits (2004)",
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": "2,532; note - a mix of analog (2,500) and digital (32) circuits (2004)",
+		"Telephones - mobile cellular": 0,
 		"Telephone system": {
 			"general assessment:": "adequate",
 			"domestic:": "free local calls",
@@ -232,16 +219,13 @@
 		},
 		"Broadcast media": "1 local radio station; broadcasts of several Australian radio and television stations are received via satellite (2009)",
 		"Internet country code": ".nf",
-		"Internet hosts": {}
+		"Internet hosts": 93
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -258,12 +242,12 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Kingston"
 	},
 	"military": {
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of Australia"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

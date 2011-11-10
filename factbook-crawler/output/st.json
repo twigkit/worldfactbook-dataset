@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island between the Caribbean Sea and North Atlantic Ocean, north of Trinidad and Tobago",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 53
+				"deg": 13,
+				"min": 53
 			},
 			"W": {
-				"minutes": 60,
-				"seconds": 58
+				"deg": 60,
+				"min": 58
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 616,
@@ -81,7 +81,7 @@
 			"unit": "sq km"
 		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": null,
+			"total:": 0.01,
 			"per capita:": {
 				"quantity": 81,
 				"unit": "cu m/yr"
@@ -93,13 +93,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the twin Pitons (Gros Piton and Petit Piton), striking cone-shaped peaks south of Soufriere, are one of the scenic natural highlights of the Caribbean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 161557,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 22.8,
@@ -126,30 +123,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.389,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.389,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 14.63,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.63,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.73 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.73 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 28,
@@ -214,11 +199,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.81,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.81,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -261,7 +243,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -273,12 +258,12 @@
 			"name:": "Castries",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 1
+					"deg": 14,
+					"min": 1
 				},
 				"W": {
-					"minutes": 61,
-					"seconds": 0
+					"deg": 61,
+					"min": 0
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -286,7 +271,6 @@
 		"Administrative divisions": "11 quarters; Anse-la-Raye, Castries, Choiseul, Dauphin, Dennery, Gros-Islet, Laborie, Micoud, Praslin, Soufriere, Vieux-Fort",
 		"Independence": "22 February 1979 (from the UK)",
 		"National holiday": "Independence Day, 22 February (1979)",
-		"Constitution": "22 February 1979",
 		"Legal system": "English common law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -314,7 +298,10 @@
 		},
 		"Diplomatic representation from the US": "the US does not have an embassy in Saint Lucia; the US Ambassador to Barbados is accredited to Saint Lucia",
 		"Flag description": "blue, with a gold isosceles triangle below a black arrowhead; the upper edges of the arrowhead have a white border; the blue color represents the sky and sea, gold stands for sunshine and prosperity, and white and black the racial composition of the island (with the latter being dominant); the two major triangles invoke the twin Pitons (Gros Piton and Petit Piton), cone-shaped volcanic plugs that are a symbol of the island",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Sons and Daughters of St. Lucia\"",
+			"lyrics/music:": "Charles JESSE/Leton Felix THOMAS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The island nation has been able to attract foreign business and investment, especially in its offshore banking and tourism industries, with a surge in foreign direct investment in 2006, attributed to the construction of several tourism projects. Although crops such as bananas, mangos, and avocados continue to be grown for export, tourism provides Saint Lucia's main source of income and the industry is the island's biggest employer. Tourism is the main source of foreign exchange, although tourism sector revenues declined with the global economic downturn as US and European travel dropped in 2009. The manufacturing sector is the most diverse in the Eastern Caribbean area, and the government is trying to revitalize the banana industry, although recent hurricanes have caused exports to contract. Saint Lucia is vulnerable to a variety of external shocks including volatile tourism receipts, natural disasters, and dependence on foreign oil. The public debt-to-GDP ratio is about 77% and high debt servicing obligations constrain the KING administration's ability to respond to adverse external shocks. Economic fundamentals remain solid, even though unemployment needs to be reduced.",
@@ -328,11 +315,8 @@
 			"usd": 985000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -354,10 +338,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 79700,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 21.7,
@@ -373,11 +354,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 20,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -393,60 +371,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.58,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.58,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 244300000
-			},
-			"country comparison to the world:": ""
+			"usd": 244300000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1094000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1094000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1378000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1378000000
 		},
 		"Agriculture - products": "bananas, coconuts, vegetables, citrus, root crops, cocoa",
 		"Industries": "clothing, assembly of electronic components, beverages, corrugated cardboard boxes, tourism; lime processing, coconut processing",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 325000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 325000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 302200000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 302200000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -457,112 +411,64 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 3000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2747,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2747,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-199 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-199 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 288000000
-			},
-			"country comparison to the world:": ""
+			"usd": 288000000
 		},
 		"Exports - commodities": "bananas 41%, clothing, cocoa, vegetables, fruits, coconut oil",
 		"Exports - partners": "Spain 29.41%, UK 15.28%, South Korea 10.54%, US 9.75%, India 9.52% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 791000000
-			},
-			"country comparison to the world:": ""
+			"usd": 791000000
 		},
 		"Imports - commodities": "food 23%, manufactured goods 21%, machinery and transportation equipment 19%, chemicals, fuels",
 		"Imports - partners": "Brazil 83.44%, US 4.67%, Trinidad and Tobago 4.56% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 257000000
-			},
-			"country comparison to the world:": ""
+			"usd": 257000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "East Caribbean dollars (XCD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 41000,
+		"Telephones - mobile cellular": 176000,
 		"Telephone system": {
 			"general assessment:": "an adequate system that is automatically switched",
 			"domestic:": "fixed-line teledensity is 25 per 100 persons and mobile-cellular teledensity is roughly 110 per 100 persons",
@@ -570,21 +476,15 @@
 		},
 		"Broadcast media": "3 privately-owned television stations; 1 public television station operating on a cable network; multi-channel cable TV service is obtainable; a mix of state-owned and privately-owned broadcasters operate nearly 25 radio stations including repeater transmission stations (2007)",
 		"Internet country code": ".lc",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 106,
+		"Internet users": 142900
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 2,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 2,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -593,25 +493,25 @@
 			},
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Castries, Cul-de-Sac, Vieux-Fort"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Royal Saint Lucia Police Force (includes Special Service Unit and Coast Guard) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 41414
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 32688,
+			"females age 16-49:": 36289
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1574,
+			"female:": 1502
 		},
-		"Military expenditures": {}
+		"Military expenditures": "NA"
 	},
 	"issues": {
 		"Disputes - international": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UNCLOS, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
-		"Illicit drugs": {}
+		"Illicit drugs": "transit point for South American drugs destined for the US and Europe"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Mediterranean Sea, between Egypt and Lebanon",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 31,
-				"seconds": 30
+				"deg": 31,
+				"min": 30
 			},
 			"E": {
-				"minutes": 34,
-				"seconds": 45
+				"deg": 34,
+				"min": 45
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 20770,
@@ -95,11 +95,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "Lake Tiberias (Sea of Galilee) is an important freshwater source; there are about 355 Israeli civilian sites including about 145 small outpost communities in the West Bank, 41 sites in the Golan Heights, and 32 in East Jerusalem (2010 est.)"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 7473,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -128,32 +128,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.584,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.584,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.24,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.24,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.47,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.47,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.08,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.08,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -219,27 +207,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.7,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.7,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 7500,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -278,7 +254,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -292,12 +271,12 @@
 			"name:": "Jerusalem",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 31,
-					"seconds": 46
+					"deg": 31,
+					"min": 46
 				},
 				"E": {
-					"minutes": 35,
-					"seconds": 14
+					"deg": 35,
+					"min": 14
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -306,7 +285,6 @@
 		"Administrative divisions": "6 districts (mehozot, singular - mehoz); Central, Haifa, Jerusalem, Northern, Southern, Tel Aviv",
 		"Independence": "14 May 1948 (from League of Nations mandate under British administration)",
 		"National holiday": "Independence Day, 14 May (1948); note - Israel declared independence on 14 May 1948, but the Jewish calendar is lunar and the holiday may occur in April or May",
-		"Constitution": "no formal constitution; some of the functions of a constitution are filled by the Declaration of Establishment (1948), the Basic Laws of the parliament (Knesset), and the Israeli citizenship law; note - since May 2003 the Constitution, Law, and Justice Committee of the Knesset has been working on a draft constitution",
 		"Legal system": "mixed legal system of English common law, British Mandate regulations, and Jewish, Christian, and Muslim religious laws",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; withdrew acceptance of ICCt jurisdiction in 2002",
 		"Suffrage": "18 years of age; universal",
@@ -341,7 +319,10 @@
 			"consulate(s) general:": "Jerusalem; note - an independent US mission, established in 1928, whose members are not accredited to a foreign government"
 		},
 		"Flag description": "white with a blue hexagram (six-pointed linear star) known as the Magen David (Shield of David) centered between two equal horizontal blue bands near the top and bottom edges of the flag; the basic design resembles a Jewish prayer shawl (tallit), which is white with blue stripes; the hexagram as a Jewish symbol dates back to medieval times",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Hatikvah\" (The Hope)",
+			"lyrics/music:": "Naftali Herz IMBER/traditional, arranged by Samuel COHEN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Israel has a technologically advanced market economy. It depends on imports of crude oil, grains, raw materials, and military equipment. Despite limited natural resources, Israel has intensively developed its agricultural and industrial sectors over the past 20 years. Cut diamonds, high-technology equipment, and agricultural products (fruits and vegetables) are the leading exports. Israel usually posts sizable trade deficits, which are covered by large transfer payments from abroad and by foreign loans. Roughly half of the government's external debt is owed to the US, its major source of economic and military aid. Israel's GDP, after contracting slightly in 2001 and 2002 due to the Palestinian conflict and troubles in the high-technology sector, grew about 5% per year from 2004-07. The global financial crisis of 2008-09 spurred a brief recession in Israel, but the country entered the crisis with solid fundamentals - following years of prudent fiscal policy and a series of liberalizing reforms - and a resilient banking sector, and the economy has shown signs of an early recovery. Following GDP growth of 4% in 2008, Israel's GDP slipped to 0.2% in 2009, but reached 3.4% in 2010, as exports rebounded. The global economic downturn affected Israel's economy primarily through reduced demand for Israel's exports in the United States and EU, Israel's top trading partners. Exports of goods and services account for about 40% of the country's GDP. The Israeli Government responded to the recession by implementing a modest fiscal stimulus package and an aggressive expansionary monetary policy - including cutting interest rates to record lows, purchasing government bonds, and intervening in the foreign currency market. The Bank of Israel began raising interest rates in the summer of 2009 when inflation rose above the upper end of the Bank's target and the economy began to show signs of recovery.",
@@ -355,11 +336,8 @@
 			"usd": 213100000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -381,10 +359,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3080000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3080000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2,
@@ -400,11 +375,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.4,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"Population below poverty line": {
@@ -422,16 +394,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 16.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -442,79 +408,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 77.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 3.73,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.73,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 27580000000
-			},
-			"country comparison to the world:": ""
+			"usd": 27580000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 208800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 208800000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 169900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 169900000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 182100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 182100000000
 		},
 		"Agriculture - products": "citrus, vegetables, cotton; beef, poultry, dairy products",
 		"Industries": "high-technology products (including aviation, communications, computer-aided design and manufactures, medical electronics, fiber optics), wood and paper products, potash and phosphates, food, beverages, and tobacco, caustic soda, cement, construction, metals products, chemical products, plastics, diamond cutting, textiles, footwear",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 5.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 54500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 54500000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 46380000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46380000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 2081000000,
@@ -525,126 +458,72 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3806,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3806,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 231000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 231000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 69580,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 69580,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 318900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 318900,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1940000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1940000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 1190000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1190000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1190000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1190000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": "NA",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 30440000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30440000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 6269000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6269000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 54310000000
-			},
-			"country comparison to the world:": ""
+			"usd": 54310000000
 		},
 		"Exports - commodities": "machinery and equipment, software, cut diamonds, agricultural products, chemicals, textiles and apparel",
 		"Exports - partners": "US 35.05%, Hong Kong 6.02%, Belgium 4.95% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 55600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 55600000000
 		},
 		"Imports - commodities": "raw materials, military equipment, investment goods, rough diamonds, fuels, grain, consumer goods",
 		"Imports - partners": "US 12.35%, China 7.43%, Germany 7.1%, Switzerland 6.94%, Belgium 5.42%, Italy 4.49%, UK 4.03%, Netherlands 3.98% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 66980000000.00001
-			},
-			"country comparison to the world:": ""
+			"usd": 66980000000.00001
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 89680000000
-			},
-			"country comparison to the world:": ""
+			"usd": 89680000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 64819999999.99999
-			},
-			"country comparison to the world:": ""
+			"usd": 64819999999.99999
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 58420000000
-			},
-			"country comparison to the world:": ""
+			"usd": 58420000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "new Israeli shekels (ILS) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3250000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 9022000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3250000,
+		"Telephones - mobile cellular": 9022000,
 		"Telephone system": {
 			"general assessment:": "most highly developed system in the Middle East although not the largest",
 			"domestic:": "good system of coaxial cable and microwave radio relay; all systems are digital; four privately-owned mobile-cellular service providers with countrywide coverage",
@@ -652,31 +531,25 @@
 		},
 		"Broadcast media": "state broadcasting network, operated by the Israel Broadcasting Authority (IBA), broadcasts on 2 channels, one in Hebrew and the other in Arabic; 5 commercial channels including a channel broadcasting in Russian, a channel broadcasting Knesset proceedings, and a music channel supervised by a public body; multi-channel satellite and cable TV packages provide access to foreign channels; IBA broadcasts on 8 radio networks with multiple repeaters and Israel Defense Forces Radio broadcasts over multiple stations; about 15 privately-owned radio stations; overall more than 100 stations and repeater stations operating (2008)",
 		"Internet country code": ".il",
-		"Internet hosts": {
-			"Internet hosts": 1689000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1689000,
+		"Internet users": 4525000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 48,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 30,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 6,
+			"914 to 1,523 m:": 11
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 18,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 14
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "gas 211 km; oil 442 km; refined products 261 km (2010)",
 		"Railways": {
 			"total:": {
@@ -695,35 +568,38 @@
 			"paved:": "18,290 km (includes 146 km of expressways) (2009)"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 10,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, container 8",
 			"registered in other countries:": "51 (Bermuda 3, Cyprus 1, Georgia 1, Honduras 1, Liberia 31, Malta 5, Marshall Islands 1, Moldova 4, Panama 1, Saint Vincent and the Grenadines 3) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Ashdod, Elat (Eilat), Hadera, Haifa"
 	},
 	"military": {
 		"Military branches": "Israel Defense Forces (IDF), Israel Naval Forces (IN), Israel Air Force (IAF) (2010)",
 		"Military service age and obligation": "18 years of age for compulsory (Jews, Druzes) and voluntary (Christians, Muslims, Circassians) military service; both sexes are obligated to military service; conscript service obligation - 36 months for enlisted men, 21 months for enlisted women, 48 months for officers; pilots commit to 9 years service; reserve obligation to age 41-51 (men), 24 (women) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1797,
+			"females age 16-49:": 1713
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1517,
+			"females age 16-49:": 1446
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 62304,
+			"female:": 59418
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 7.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "West Bank and Gaza Strip are Israeli-occupied with current status subject to the Israeli-Palestinian Interim Agreement - permanent status to be determined through further negotiation; Israel continues construction of a \"seam line\" separation barrier along parts of the Green Line and within the West Bank; Israel withdrew its settlers and military from the Gaza Strip and from four settlements in the West Bank in August 2005; Golan Heights is Israeli-occupied (Lebanon claims the Shab'a Farms area of Golan Heights); since 1948, about 350 peacekeepers from the UN Truce Supervision Organization (UNTSO) headquartered in Jerusalem monitor ceasefires, supervise armistice agreements, prevent isolated incidents from escalating, and assist other UN personnel in the region",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "150,000-420,000 (Arab villagers displaced from homes in northern Israel) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "increasingly concerned about ecstasy, cocaine, and heroin abuse; drugs arrive in country from Lebanon and, increasingly, from Jordan; money-laundering center"
 	}
 }

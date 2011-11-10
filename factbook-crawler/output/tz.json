@@ -7,15 +7,15 @@
 		"Location": "Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 6,
-				"seconds": 0
+				"deg": 6,
+				"min": 0
 			},
 			"E": {
-				"minutes": 35,
-				"seconds": 0
+				"deg": 35,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 947300,
@@ -101,11 +101,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "Kilimanjaro is highest point in Africa; bordered by three of the largest lakes on the continent: Lake Victoria (the world's second-largest freshwater lake) in the north, Lake Tanganyika (the world's second deepest) in the west, and Lake Nyasa (Lake Malawi) in the southwest"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 42746,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -134,30 +134,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.002,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.002,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 32.64,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 32.64,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 12.09,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.09,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.53 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.53 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 26,
@@ -222,27 +210,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.16,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.16,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 5.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.6,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": 1400000,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 1400000,
+		"HIV/AIDS - deaths": 86000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -290,7 +266,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -305,12 +284,12 @@
 			"name:": "Dar es Salaam",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 6,
-					"seconds": 48
+					"deg": 6,
+					"min": 48
 				},
 				"E": {
-					"minutes": 39,
-					"seconds": 17
+					"deg": 39,
+					"min": 17
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -318,7 +297,6 @@
 		"Administrative divisions": "26 regions; Arusha, Dar es Salaam, Dodoma, Iringa, Kagera, Kigoma, Kilimanjaro, Lindi, Manyara, Mara, Mbeya, Morogoro, Mtwara, Mwanza, Pemba North, Pemba South, Pwani, Rukwa, Ruvuma, Shinyanga, Singida, Tabora, Tanga, Zanzibar Central/South, Zanzibar North, Zanzibar Urban/West",
 		"Independence": "26 April 1964; Tanganyika became independent on 9 December 1961 (from UK-administered UN trusteeship); Zanzibar became independent on 19 December 1963 (from UK); Tanganyika united with Zanzibar on 26 April 1964 to form the United Republic of Tanganyika and Zanzibar; renamed United Republic of Tanzania on 29 October 1964",
 		"National holiday": "Union Day (Tanganyika and Zanzibar), 26 April (1964)",
-		"Constitution": "25 April 1977; major revisions October 1984",
 		"Legal system": "English common law; judicial review of legislative acts limited to matters of interpretation",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -351,7 +329,10 @@
 			"FAX:": "[255] (22) 266-8238, 266-8373"
 		},
 		"Flag description": "divided diagonally by a yellow-edged black band from the lower hoist-side corner; the upper triangle (hoist side) is green and the lower triangle is blue; the banner combines colors found on the flags of Tanganyika and Zanzibar; green represents the natural vegetation of the country, gold its rich mineral deposits, black the native Swahili people, and blue the country's many lakes and rivers, as well as the Indian Ocean",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Mungu ibariki Afrika\" (God Bless Africa)",
+			"lyrics/music:": "collective/Enoch Mankayi SONTONGA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tanzania is one of the world's poorest economies in terms of per capita income, however, Tanzania average 7% GDP growth per year between 2000 and 2008 on strong gold production and tourism. The economy depends heavily on agriculture, which accounts for more than 40% of GDP, provides 85% of exports, and employs about 80% of the work force. The World Bank, the IMF, and bilateral donors have provided funds to rehabilitate Tanzania's aging economic infrastructure, including rail and port infrastructure that are important trade links for inland countries. Recent banking reforms have helped increase private-sector growth and investment, and the government has increased spending on agriculture to 7% of its budget. Continued donor assistance and solid macroeconomic policies supported a positive growth rate, despite the world recession. In 2008, Tanzania received the world's largest Millennium Challenge Compact grant, worth $698 million. Dar es Salaam used fiscal stimulus and loosened monetary policy to ease the impact of the global recession. GDP growth in 2009-10 was a respectable 6% per year due to high gold prices and increased production.",
@@ -365,11 +346,8 @@
 			"usd": 22670000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -391,10 +369,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 21860000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 21860000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 80,
@@ -420,16 +395,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 34.6,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 17.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -440,77 +409,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 23.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.7,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 15.03,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.03,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3394000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3394000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 7440000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7440000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 4163000.0000000005
-			},
-			"country comparison to the world:": ""
+			"usd": 4163000.0000000005
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2009)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2009)",
 		"Agriculture - products": "coffee, sisal, tea, cotton, pyrethrum (insecticide made from chrysanthemums), cashew nuts, tobacco, cloves, corn, wheat, cassava (tapioca), bananas, fruits, vegetables; cattle, sheep, goats",
 		"Industries": "agricultural processing (sugar, beer, cigarettes, sisal twine); diamond, gold, and iron mining, salt, soda ash; cement, oil refining, shoes, apparel, wood products, fertilizer",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3786000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3786000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 3182000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3182000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -521,92 +457,53 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 34000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 28070,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28070,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 560700000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 560700000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 560700000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 560700000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 6513000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6513000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.523 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.523 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 3809000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3809000000
 		},
 		"Exports - commodities": "gold, coffee, cashew nuts, manufactures, cotton",
 		"Exports - partners": "India 8.51%, China 7.55%, Japan 7.12%, Netherlands 6.21%, UAE 5.71%, Germany 5.17% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 6334000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6334000000
 		},
 		"Imports - commodities": "consumer goods, machinery and transportation equipment, industrial raw materials, crude oil",
 		"Imports - partners": "India 13.97%, China 13.71%, South Africa 7.8%, Kenya 6.89%, UAE 4.65%, Japan 4.34% (2009)",
@@ -617,24 +514,15 @@
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 7576000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7576000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Tanzanian shillings (TZS) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 17677000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 173552,
+		"Telephones - mobile cellular": 17677000,
 		"Telephone system": {
 			"general assessment:": "telecommunications services are marginal; system operating below capacity and being modernized for better service; small aperture terminal (VSAT) system under construction",
 			"domestic:": "fixed-line telephone network inadequate with less than 1 connection per 100 persons; mobile-cellular service, aided by multiple providers, is increasing rapidly; trunk service provided by open-wire, microwave radio relay, tropospheric scatter, and fiber-optic cable; some links being made digital",
@@ -642,29 +530,23 @@
 		},
 		"Broadcast media": "a state-owned TV station and multiple privately-owned TV stations; state-owned national radio station supplemented by more than 40 privately-owned radio stations; transmissions of several international broadcasters are available (2007)",
 		"Internet country code": ".tz",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 24182,
+		"Internet users": 678000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 124,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 9,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 115,
+			"1,524 to 2,437 m:": 19,
+			"914 to 1,523 m:": 63,
+			"under 914 m:": 33
 		},
 		"Pipelines": "gas 254 km; oil 888 km; refined products 8 km (2010)",
 		"Railways": {
@@ -692,36 +574,39 @@
 		},
 		"Waterways": "(Lake Tanganyika, Lake Victoria, and Lake Nyasa (Lake Malawi) are the principal avenues of commerce with neighboring countries; the rivers are not navigable) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 72,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 43, carrier 4, chemical tanker 2, container 1, passenger 1, passenger/cargo 2, petroleum tanker 15",
-			"foreign-owned:": null,
+			"foreign-owned:": 25,
 			"registered in other countries:": "3 (Honduras 1, Panama 2) (2010)"
 		},
 		"Ports and terminals": "Dar es Salaam, Zanzibar",
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports that shipping in territorial and offshore waters in the Indian Ocean remain at risk for piracy and armed robbery against ships, especially as Somali-based pirates extend their activities south; numerous commercial vessels have been attacked and hijacked both at anchor and while underway; crews have been robbed and stores or cargoes stolen"
 	},
 	"military": {
 		"Military branches": "Tanzanian People's Defense Force (Jeshi la Wananchi la Tanzania, JWTZ): Army, Naval Wing (includes Coast Guard), Air Defense Command (includes Air Wing), National Service (2007)",
 		"Military service age and obligation": "18 years of age for voluntary military service (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 9985
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5860,
+			"females age 16-49:": 5882
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 512294,
+			"female:": 514164
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Tanzania still hosts more than a half-million refugees, more than any other African country, mainly from Burundi and the Democratic Republic of the Congo, despite the international community's efforts at repatriation; disputes with Malawi over the boundary in Lake Nyasa (Lake Malawi) and the meandering Songwe River remain dormant",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "352,640 (Burundi); 127,973 (Democratic Republic of the Congo) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "targeted by traffickers moving hashish, Afghan heroin, and South American cocaine transported down the East African coastline, through airports, or overland through Central Africa; Zanzibar likely used by traffickers for drug smuggling; traffickers in the past have recruited Tanzanian couriers to move drugs through Iran into East Asia."
 	}
 }

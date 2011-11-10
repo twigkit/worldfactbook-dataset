@@ -7,15 +7,15 @@
 		"Location": "Central Africa, northeast of Angola",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 0,
-				"seconds": 0
+				"deg": 0,
+				"min": 0
 			},
 			"E": {
-				"minutes": 25,
-				"seconds": 0
+				"deg": 25,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2344,
@@ -98,11 +98,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "Environmental Modification"
 		},
-		"Geography - note": {}
+		"Geography - note": "straddles equator; has narrow strip of land that controls the lower Congo River and is only outlet to South Atlantic Ocean; dense tropical rain forest in central river basin and eastern highlands"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 71712,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -131,30 +131,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.614,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.614,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 37.74,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 37.74,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.06,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.06,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.54 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.54 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 35,
@@ -219,11 +207,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.24,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.24,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -273,7 +258,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +273,12 @@
 			"name:": "Kinshasa",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 4,
-					"seconds": 19
+					"deg": 4,
+					"min": 19
 				},
 				"E": {
-					"minutes": 15,
-					"seconds": 18
+					"deg": 15,
+					"min": 18
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -303,7 +288,6 @@
 		},
 		"Independence": "30 June 1960 (from Belgium)",
 		"National holiday": "Independence Day, 30 June (1960)",
-		"Constitution": "18 February 2006",
 		"Legal system": "civil legal system based on Belgian version of French civil law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -337,7 +321,10 @@
 			"FAX:": "[243] (81) 301-0561"
 		},
 		"Flag description": "sky blue field divided diagonally from the lower hoist corner to upper fly corner by a red stripe bordered by two narrow yellow stripes; a yellow, five-pointed star appears in the upper hoist corner; blue represents peace and hope, red the blood of the country's martyrs, and yellow the country's wealth and prosperity; the star symbolizes unity and the brilliant future for the country",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Debout Congolaise\" (Arise Congolese)",
+			"lyrics/music:": "Joseph LUTUMBA/Simon-Pierre BOKA di Mpasi Londi"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy of the Democratic Republic of the Congo - a nation endowed with vast potential wealth - is slowly recovering from decades of decline. Systemic corruption since independence in 1960 and conflict that began in May 1997 has dramatically reduced national output and government revenue, increased external debt, and resulted in the deaths of more than 5 million people from violence, famine, and disease. Foreign businesses curtailed operations due to uncertainty about the outcome of the conflict, lack of infrastructure, and the difficult operating environment. Conditions began to improve in late 2002 with the withdrawal of a large portion of the invading foreign troops. The transitional government reopened relations with international financial institutions and international donors, and President KABILA began implementing reforms. Progress has been slow and the International Monetary Fund curtailed their program for the DRC at the end of March 2006 because of fiscal overruns. Much economic activity still occurs in the informal sector, and is not reflected in GDP data. Renewed activity in the mining sector, the source of most export income, boosted Kinshasa's fiscal position and GDP growth from 2006-2008, however, the government's review of mining contracts that began in 2006, combined with a fall in world market prices for the DRC's key mineral exports temporarily weakened output in 2009, leading to a balance of payments crisis. The recovery in mineral prices beginning in mid 2009 boosted mineral exports, and emergency funds from the IMF boosted foreign reserves. An uncertain legal framework, corruption, and a lack of transparency in government policy are long-term problems for the mining sector and for the economy as a whole. The global recession cut economic growth in 2009 to less than half its 2008 level, but growth returned to 6% in 2010. The DRC signed a Poverty Reduction and Growth Facility with the IMF in 2009 and received $12 billion in multilateral and bilateral debt relief in 2010.",
@@ -351,11 +338,8 @@
 			"usd": 13130000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -377,10 +361,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 23530000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 23530000,
 		"Labor force - by occupation": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
@@ -410,37 +391,22 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 26.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 70,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 70,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 65.42,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 65.42,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 613900000
-			},
-			"country comparison to the world:": ""
+			"usd": 613900000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1562000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1562000000
 		},
 		"Stock of domestic credit": "$NA (31 December 2010)",
 		"Market value of publicly traded shares": "$NA",
@@ -448,18 +414,12 @@
 		"Industries": "mining (diamonds, gold, copper, cobalt, coltan, zinc, tin, diamonds), mineral processing, consumer products (including textiles, plastics, footwear, cigarettes, metal products, processed foods and beverages), timber, cement, commercial ship repair",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 8217000000.000001,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8217000000.000001,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 5997000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5997000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 1916000000,
@@ -470,118 +430,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 16360,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16360,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 10000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 20090,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20090,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 11350,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11350,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 180000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 180000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 991100000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 991100000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.47 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.47 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 3800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3800000000
 		},
 		"Exports - commodities": "diamonds, gold, copper, cobalt, wood products, crude oil, coffee",
 		"Exports - partners": "China 46.75%, US 15.35%, Belgium 10.68%, Zambia 5.78%, Finland 4.38% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 5300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5300000000
 		},
 		"Imports - commodities": "foodstuffs, mining and other machinery, transport equipment, fuels",
 		"Imports - partners": "South Africa 18.22%, Belgium 10.2%, China 8.34%, Zambia 7.77%, France 7.28%, Zimbabwe 6.52%, Kenya 5.48%, Netherlands 4.13%, Italy 3.96% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1010000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1010000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 13500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13500000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Congolese francs (CDF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 10163000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 40000,
+		"Telephones - mobile cellular": 10163000,
 		"Telephone system": {
 			"general assessment:": "barely adequate wire and microwave radio relay service in and between urban areas; domestic satellite system with 14 earth stations; inadequate fixed line infrastructure",
 			"domestic:": "state-owned operator providing less than 1 fixed-line connection per 1000 persons; given the backdrop of a wholly inadequate fixed-line infrastructure, the use of mobile-cellular services has surged and subscribership in 2009 exceeded 10 million - roughly 15 per 100 persons",
@@ -589,29 +498,23 @@
 		},
 		"Broadcast media": "state-owned TV broadcast station with near national coverage; more than a dozen privately-owned TV stations with 2 having near national coverage; 2 state-owned radio stations are supplemented by more than 100 private radio stations; transmissions of at least 2 international broadcasters are available (2007)",
 		"Internet country code": ".cd",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3006,
+		"Internet users": 290000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 198,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 26,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 17,
+			"914 to 1,523 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 172,
+			"1,524 to 2,437 m:": 20,
+			"914 to 1,523 m:": 91,
+			"under 914 m:": 61
 		},
 		"Pipelines": "gas 37 km; oil 39 km; refined products 756 km (2010)",
 		"Railways": {
@@ -637,33 +540,33 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "15,000 km (including the Congo, its tributaries, and unconnected lakes) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "15,000 km (including the Congo, its tributaries, and unconnected lakes) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1,
 			"country comparison to the world:": "",
 			"by type:": "petroleum tanker 1",
 			"foreign-owned:": "1 (Republic of the Congo 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Banana, Boma, Bukavu, Bumba, Goma, Kalemie, Kindu, Kinshasa, Kisangani, Matadi, Mbandaka"
 	},
 	"military": {
 		"Military branches": "Armed Forces of the Democratic Republic of the Congo (Forces d'Armees de la Republique Democratique du Congo, FARDC): Army, National Navy (La Marine Nationale), Congolese Air Force (Force Aerienne Congolaise, FAC) (2011)",
 		"Military service age and obligation": "18-45 years of age for voluntary military service (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 15980
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 10168,
+			"females age 16-49:": 10331
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 877684,
+			"female:": 871880
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "heads of the Great Lakes states and UN pledged in 2004 to abate tribal, rebel, and militia fighting in the region, including northeast Congo, where the UN Organization Mission in the Democratic Republic of the Congo (MONUC), organized in 1999, maintains over 16,500 uniformed peacekeepers; members of Uganda's Lords Resistance Army forces continue to seek refuge in Congo's Garamba National Park as peace talks with the Uganda government evolve; the location of the boundary in the broad Congo River with the Republic of the Congo is indefinite except in the Pool Malebo/Stanley Pool area; Uganda and DRC dispute Rukwanzi island in Lake Albert and other areas on the Semliki River with hydrocarbon potential; boundary commission continues discussions over Congolese-administered triangle of land on the right bank of the Lunkinda river claimed by Zambia near the DRC village of Pweto; DRC accuses Angola of shifting monuments",
@@ -675,6 +578,6 @@
 			"current situation:": "Democratic Republic of the Congo is a source and destination country for men, women, and children subjected to trafficking for the purposes of forced labor and forced prostitution; the majority of this trafficking is internal, and much of it is perpetrated by armed groups and government forces outside government control within the country's unstable eastern provinces",
 			"tier rating:": "Tier 3 - Government of the Democratic Republic of the Congo does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government did not show evidence of progress in prosecuting and punishing labor or sex trafficking offenders, including members of its own armed forces; providing protective services for the vast majority of trafficking victims; or raising public awareness of human trafficking; in addition, the government's anti-trafficking law enforcement efforts decreased during the reporting period (2010)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "one of Africa's biggest producers of cannabis, but mostly for domestic consumption; traffickers exploit lax shipping controls to transit pseudoephedrine through the capital; while rampant corruption and inadequate supervision leaves the banking system vulnerable to money laundering, the lack of a well-developed financial system limits the country's utility as a money-laundering center (2008)"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, east of the Dominican Republic",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 18,
-				"seconds": 15
+				"deg": 18,
+				"min": 15
 			},
 			"W": {
-				"minutes": 66,
-				"seconds": 30
+				"deg": 66,
+				"min": 30
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 13790,
@@ -77,13 +77,10 @@
 		},
 		"Natural hazards": "periodic droughts; hurricanes",
 		"Environment - current issues": "erosion; occasional drought causing water shortages",
-		"Geography - note": {}
+		"Geography - note": "important location along the Mona Passage - a key shipping lane to the Panama Canal; San Juan is one of the biggest and best natural harbors in the Caribbean; many small rivers and high central mountains ensure land is well watered; south coast relatively dry; fertile coastal plain belt in north"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 3989,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18.8,
@@ -110,30 +107,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.254,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.254,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.35,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.35,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.95,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.95,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.86 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.86 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 99,
@@ -198,17 +183,11 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.62,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.62,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 7397,
 		"HIV/AIDS - deaths": "NA",
 		"Nationality": {
 			"noun:": "Puerto Rican(s) (US citizens)",
@@ -233,7 +212,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -246,12 +225,12 @@
 			"name:": "San Juan",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 18,
-					"seconds": 28
+					"deg": 18,
+					"min": 28
 				},
 				"W": {
-					"minutes": 66,
-					"seconds": 7
+					"deg": 66,
+					"min": 7
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -259,7 +238,6 @@
 		"Administrative divisions": "none (territory of the US with commonwealth status); there are no first-order administrative divisions as defined by the US Government, but there are 78 municipalities (municipios, singular - municipio) at the second order; Adjuntas, Aguada, Aguadilla, Aguas Buenas, Aibonito, Anasco, Arecibo, Arroyo, Barceloneta, Barranquitas, Bayamon, Cabo Rojo, Caguas, Camuy, Canovanas, Carolina, Catano, Cayey, Ceiba, Ciales, Cidra, Coamo, Comerio, Corozal, Culebra, Dorado, Fajardo, Florida, Guanica, Guayama, Guayanilla, Guaynabo, Gurabo, Hatillo, Hormigueros, Humacao, Isabela, Jayuya, Juana Diaz, Juncos, Lajas, Lares, Las Marias, Las Piedras, Loiza, Luquillo, Manati, Maricao, Maunabo, Mayaguez, Moca, Morovis, Naguabo, Naranjito, Orocovis, Patillas, Penuelas, Ponce, Quebradillas, Rincon, Rio Grande, Sabana Grande, Salinas, San German, San Juan, San Lorenzo, San Sebastian, Santa Isabel, Toa Alta, Toa Baja, Trujillo Alto, Utuado, Vega Alta, Vega Baja, Vieques, Villalba, Yabucoa, Yauco",
 		"Independence": "none (territory of the US with commonwealth status)",
 		"National holiday": "US Independence Day, 4 July (1776); Puerto Rico Constitution Day, 25 July (1952)",
-		"Constitution": "ratified 3 March 1952; approved by US Congress 3 July 1952; effective 25 July 1952",
 		"Legal system": "civil law system based on the Spanish civil code and within the framework of the US federal system",
 		"Suffrage": "18 years of age; universal; island residents are US citizens but do not vote in US presidential elections",
 		"Executive branch": {
@@ -283,7 +261,10 @@
 		"Flag description": {
 			"Flag description": "five equal horizontal bands of red (top and bottom) alternating with white; a blue isosceles triangle based on the hoist side bears a large, white, five-pointed star in the center; the white star symbolizes Puerto Rico; the three sides of the triangle signify the executive, legislative and judicial parts of the government; blue stands for the sky and the coastal waters; red symbolizes the blood shed by warriors, while white represents liberty, victory, and peace"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"La Borinquena\" (The Puerto Rican)",
+			"lyrics/music:": "Manuel Fernandez JUNCOS/Felix Astol ARTES"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Puerto Rico has one of the most dynamic economies in the Caribbean region. A diverse industrial sector has far surpassed agriculture as the primary locus of economic activity and income. Encouraged by duty-free access to the US and by tax incentives, US firms have invested heavily in Puerto Rico since the 1950s. US minimum wage laws apply. Sugar production has lost out to dairy production and other livestock products as the main source of income in the agricultural sector. Tourism has traditionally been an important source of income with estimated arrivals of more than 3.6 million tourists in 2008.",
@@ -296,10 +277,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 93520000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-5.8% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-5.8% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -320,10 +298,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1479000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1479000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.1,
@@ -339,11 +314,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 12,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -359,29 +331,20 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "sugarcane, coffee, pineapples, plantains, bananas; livestock products, chickens",
 		"Industries": "pharmaceuticals, electronics, apparel, food products, tourism",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 23720000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23720000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 22060000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22060000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -392,101 +355,59 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1783,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1783,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 164100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 164100,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 16520,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16520,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 225000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 225000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 806600000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 806600000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 806600000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 806600000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 46900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 46900000000
 		},
 		"Exports - commodities": "chemicals, electronics, apparel, canned tuna, rum, beverage concentrates, medical equipment",
 		"Imports": {
-			"Imports": {
-				"usd": 29100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 29100000000
 		},
 		"Imports - commodities": "chemicals, machinery and equipment, clothing, food, fish, petroleum products",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2716000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 870100,
+		"Telephones - mobile cellular": 2716000,
 		"Telephone system": {
 			"general assessment:": "modern system integrated with that of the US by high-capacity submarine cable and Intelsat with high-speed data capability",
 			"domestic:": "digital telephone system; mobile-cellular services",
@@ -494,29 +415,23 @@
 		},
 		"Broadcast media": "more than 30 television stations operating; cable TV subscription services are available; roughly 125 radio stations operating (2007)",
 		"Internet country code": ".pr",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 482,
+		"Internet users": 1000000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 29,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 17,
+			"over 3,047 m:": 3,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 7,
+			"under 914 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 12,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 10
 		},
 		"Roadways": {
 			"total:": {
@@ -534,27 +449,27 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 3,
 			"country comparison to the world:": "",
 			"by type:": "roll on/roll off 3",
-			"foreign-owned:": null,
+			"foreign-owned:": 3,
 			"registered in other countries:": "1 (Saint Vincent and the Grenadines 1) (2008)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Ensenada Honda, Mayaguez, Playa de Guayanilla, Playa de Ponce, San Juan"
 	},
 	"military": {
 		"Military branches": "no regular indigenous military forces; paramilitary National Guard, Police Force",
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 700443,
+			"females age 16-49:": 786035
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 30517,
+			"female:": 29010
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "increasing numbers of illegal migrants from the Dominican Republic cross the Mona Passage to Puerto Rico each year looking for work"
 	}
 }

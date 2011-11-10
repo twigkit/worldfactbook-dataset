@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the Gulf of Fonseca (North Pacific Ocean), between El Salvador and Nicaragua",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 15,
-				"seconds": 0
+				"deg": 15,
+				"min": 0
 			},
 			"W": {
-				"minutes": 86,
-				"seconds": 30
+				"deg": 86,
+				"min": 30
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 112090,
@@ -100,11 +100,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "has only a short Pacific coast but a long Caribbean shoreline, including the virtually uninhabited eastern Mosquito Coast"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 8143,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -133,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.888,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.888,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 25.14,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.14,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.02,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.02,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.25 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.25 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 52,
@@ -221,27 +209,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.09,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.09,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.8,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 39000,
+		"HIV/AIDS - deaths": 2500,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -286,7 +262,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -300,12 +276,12 @@
 			"name:": "Tegucigalpa",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 6
+					"deg": 14,
+					"min": 6
 				},
 				"W": {
-					"minutes": 87,
-					"seconds": 13
+					"deg": 87,
+					"min": 13
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)",
@@ -314,7 +290,6 @@
 		"Administrative divisions": "18 departments (departamentos, singular - departamento); Atlantida, Choluteca, Colon, Comayagua, Copan, Cortes, El Paraiso, Francisco Morazan, Gracias a Dios, Intibuca, Islas de la Bahia, La Paz, Lempira, Ocotepeque, Olancho, Santa Barbara, Valle, Yoro",
 		"Independence": "15 September 1821 (from Spain)",
 		"National holiday": "Independence Day, 15 September (1821)",
-		"Constitution": "11 January 1982, effective 20 January 1982; amended many times",
 		"Legal system": "civil law system",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -351,7 +326,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of blue (top), white, and blue, with five blue, five-pointed stars arranged in an X pattern centered in the white band; the stars represent the members of the former Federal Republic of Central America - Costa Rica, El Salvador, Guatemala, Honduras, and Nicaragua; the blue bands symbolize the Pacific Ocean and the Caribbean Sea; the white band represents the land between the two bodies of water and the peace and prosperity of its people"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional de Honduras\" (National Anthem of Honduras)",
+			"lyrics/music:": "Augusto Constancio COELLO/Carlos HARTLING"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Honduras, the second poorest country in Central America, suffers from extraordinarily unequal distribution of income, as well as high underemployment. While historically dependent on the export of bananas and coffee, Honduras has diversified its export base to include apparel and automobile wire harnessing. Nearly half of Honduras's economic activity is directly tied to the US, with exports to the US accounting for 30% of GDP and remittances for another 20%. The US-Central America Free Trade Agreement (CAFTA) came into force in 2006 and has helped foster foreign direct investment, but physical and political insecurity, as well as crime and perceptions of corruption, may deter potential investors; about 70% of FDI is from US firms. The economy registered sluggish economic growth in 2010, insufficient to improve living standards for the nearly 60% of the population in poverty. The LOBO administration inherited a difficult fiscal position with off-budget debts accrued in previous administrations and government salaries nearly equivalent to tax collections. His government has displayed a commitment to improving tax collection and cutting expenditures, and attracting foreign investment. This enabled Tegucigalpa to secure an IMF Precautionary Stand-By agreement in October 2010. The IMF agreement has helped renew multilateral and bilateral donor confidence in Honduras following the ZELAYA administration's economic mismanagement and the 2009 coup.",
@@ -365,11 +343,8 @@
 			"usd": 15350000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -391,10 +366,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3394000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3394000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 39.2,
@@ -430,16 +402,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 53.8,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 23.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.3,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -450,61 +416,37 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 26.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.1,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 19.16,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.16,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1296000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1296000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 7618000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7618000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 7581000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7581000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "bananas, coffee, citrus, corn, African palm; beef; timber; shrimp, tilapia, lobster",
 		"Industries": "sugar, coffee, woven and knit apparel, wood products, cigars",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 6580000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6580000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
 			"Electricity - consumption": {
@@ -522,118 +464,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 56000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 56000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 46130,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46130,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.048 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.048 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 5879000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5879000000
 		},
 		"Exports - commodities": "apparel, coffee, shrimp, wire harnesses, cigars, bananas, gold, palm oil, fruit, lobster, lumber",
 		"Exports - partners": "US 59.6%, El Salvador 5.61%, Guatemala 5.28%, Mexico 4.19%, Germany 4.04% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 8878000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8878000000
 		},
 		"Imports - commodities": "machinery and transport equipment, industrial raw materials, chemical products, fuels, foodstuffs",
 		"Imports - partners": "US 46.81%, Guatemala 8.92%, El Salvador 7.13%, Mexico 5.54%, Costa Rica 4.91% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 2302000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2302000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 3540000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3540000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "lempiras (HNL) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 7714000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 830000,
+		"Telephones - mobile cellular": 7714000,
 		"Telephone system": {
 			"general assessment:": "the number of fixed-line connections are increasing but still limited; competition among multiple providers of mobile-cellular services is contributing to a sharp increase in the number of subscribers",
 			"domestic:": "beginning in 2003, private sub-operators allowed to provide fixed-lines in order to expand telephone coverage contributing to an increase in fixed-line teledensity to roughly 10 per 100 persons; mobile-cellular subscribership reached 100 per 100 persons in 2009",
@@ -641,29 +532,23 @@
 		},
 		"Broadcast media": "multiple privately-owned terrestrial television networks, supplemented by multiple cable TV networks; Radio Honduras is the lone government-owned radio network; roughly 300 privately-owned radio stations (2007)",
 		"Internet country code": ".hn",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 16075,
+		"Internet users": 731700
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 104,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 12,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 92,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 16,
+			"under 914 m:": 74
 		},
 		"Railways": {
 			"total:": {
@@ -685,37 +570,37 @@
 			},
 			"unpaved:": "11,080 km (1,420 km summer only) (2009)"
 		},
-		"Waterways": {
-			"Waterways": "465 km (most navigable only by small craft) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "465 km (most navigable only by small craft) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 104,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 8, cargo 50, carrier 2, chemical tanker 7, container 1, passenger 3, passenger/cargo 2, petroleum tanker 22, refrigerated cargo 6, roll on/roll off 3",
 			"foreign-owned:": "49 (Bahrain 5, Canada 1, China 2, Egypt 2, Greece 4, Hong Kong 1, Israel 1, Japan 4, Lebanon 2, Mexico 1, Montenegro 2, Panama 1, Singapore 12, South Korea 6, Taiwan 2, Tanzania 1, UK 1, Vietnam 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "La Ceiba, Puerto Cortes, San Lorenzo, Tela"
 	},
 	"military": {
 		"Military branches": "Army, Navy (includes Naval Infantry), Honduran Air Force (Fuerza Aerea Hondurena, FAH) (2008)",
 		"Military service age and obligation": "18 years of age for voluntary 2 to 3 year military service (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2045,
+			"females age 16-49:": 1991
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1525,
+			"females age 16-49:": 1539
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 95895,
+			"female:": 92087
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "International Court of Justice (ICJ) ruled on the delimitation of \"bolsones\" (disputed areas) along the El Salvador-Honduras border in 1992 with final settlement by the parties in 2006 after an Organization of American States (OAS) survey and a further ICJ ruling in 2003; the 1992 ICJ ruling advised a tripartite resolution to a maritime boundary in the Gulf of Fonseca with consideration of Honduran access to the Pacific; El Salvador continues to claim tiny Conejo Island, not mentioned in the ICJ ruling, off Honduras in the Gulf of Fonseca; Honduras claims the Belizean-administered Sapodilla Cays off the coast of Belize in its constitution, but agreed to a joint ecological park around the cays should Guatemala consent to a maritime corridor in the Caribbean under the OAS-sponsored 2002 Belize-Guatemala Differendum; memorials and countermemorials were filed by the parties in Nicaragua's 1999 and 2001 proceedings against Honduras and Colombia at the ICJ over the maritime boundary and territorial claims in the western Caribbean Sea - final public hearings are scheduled for 2007",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for drugs and narcotics; illicit producer of cannabis, cultivated on small plots and used principally for local consumption; corruption is a major problem; some money-laundering activity"
 	}
 }

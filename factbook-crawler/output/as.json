@@ -7,15 +7,15 @@
 		"Location": "Oceania, continent between the Indian Ocean and the South Pacific Ocean",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 27,
-				"seconds": 0
+				"deg": 27,
+				"min": 0
 			},
 			"E": {
-				"minutes": 133,
-				"seconds": 0
+				"deg": 133,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 7741,
@@ -105,13 +105,10 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "world's smallest continent but sixth-largest country; population concentrated along the eastern and southeastern coasts; the invigorating sea breeze known as the \"Fremantle Doctor\" affects the city of Perth on the west coast and is one of the most consistent winds in the world"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 21766,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18.3,
@@ -138,32 +135,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.148,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.148,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 12.33,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.33,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.88,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.88,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 6.03,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.03,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -229,27 +214,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.78,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.78,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 20000,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -288,7 +261,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -300,12 +276,12 @@
 			"name:": "Canberra",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 35,
-					"seconds": 17
+					"deg": 35,
+					"min": 17
 				},
 				"E": {
-					"minutes": 149,
-					"seconds": 13
+					"deg": 149,
+					"min": 13
 				}
 			},
 			"time difference:": "UTC+10 (15 hours ahead of Washington, DC during Standard Time)",
@@ -315,7 +291,6 @@
 		"Dependent areas": "Ashmore and Cartier Islands, Christmas Island, Cocos (Keeling) Islands, Coral Sea Islands, Heard Island and McDonald Islands, Macquarie Island, Norfolk Island",
 		"Independence": "1 January 1901 (from the federation of UK colonies)",
 		"National holiday": "Australia Day, 26 January (1788); ANZAC Day (commemorates the anniversary of the landing of troops of the Australian and New Zealand Army Corps during World War I at Gallipoli, Turkey), 25 April (1915)",
-		"Constitution": "9 July 1900; effective 1 January 1901",
 		"Legal system": "common law system based on the English model",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -351,7 +326,10 @@
 			"FAX:": "[61] (02) 6214-5970"
 		},
 		"Flag description": "blue with the flag of the UK in the upper hoist-side quadrant and a large seven-pointed star in the lower hoist-side quadrant known as the Commonwealth or Federation Star, representing the federation of the colonies of Australia in 1901; the star depicts one point for each of the six original states and one representing all of Australia's internal and external territories; on the fly half is a representation of the Southern Cross constellation in white with one small five-pointed star and four larger, seven-pointed stars",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Advance Australia Fair\"",
+			"lyrics/music:": "Peter Dodds McCORMICK"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Australia's abundant and diverse natural resources attract high levels of foreign investment and include extensive reserves of coal, iron ore, copper, gold, natural gas, uranium, and renewable energy sources. A series of major investments, such as the US$40 billion Gorgon Liquid Natural Gas project, will significantly expand the resources sector. Australia also has a large services sector and is a significant exporter of natural resources, energy, and food. Key tenets of Australia's trade policy include support for open trade and the successful culmination of the Doha Round of multilateral trade negotiations, particularly for agriculture and services. The Australian economy grew for 17 consecutive years before the global financial crisis. Subsequently, the Rudd government introduced a fiscal stimulus package worth over US$50 billion to offset the effect of the slowing world economy, while the Reserve Bank of Australia cut interest rates to historic lows. These policies - and continued demand for commodities, especially from China - helped the Australian economy rebound after just one quarter of negative growth. The economy grew by 1.2% during 2009 - the best performance in the OECD - and by 3.3% in 2010. Unemployment, originally expected to reach 8-10%, peaked at 5.7% in late 2009 and fell to 5.1% in 2010. As a result of an improved economy, the budget deficit is expected to peak below 4.2% of GDP and the government could return to budget surpluses as early as 2015. Australia was one of the first advanced economies to raise interest rates, with seven rate hikes between October 2009 and November 2010. The GILLARD government is focused on raising Australia's economic productivity to ensure the sustainability of growth, and continues to manage the symbiotic, but sometimes tense, economic relationship with China. Australia is engaged in the Trans-Pacific Partnership talks and ongoing free trade agreement negotiations with China, Japan, and Korea.",
@@ -365,11 +343,8 @@
 			"usd": 1236000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -391,10 +366,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 11620000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 11620000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.6,
@@ -410,11 +382,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 5.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.1,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -427,16 +396,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 30.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 27.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -447,18 +410,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 22.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -468,58 +425,34 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 6.02,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.02,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 347100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 347100000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1134000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1134000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1731000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1731000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1258000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1258000000000
 		},
 		"Agriculture - products": "wheat, barley, sugarcane, fruits; cattle, sheep, poultry",
 		"Industries": "mining, industrial and transportation equipment, food processing, chemicals, steel",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 239900000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 239900000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 222000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 222000000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -530,130 +463,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 589200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 589200,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 946300,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 946300,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 311900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 311900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 716700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 716700,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 3318000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3318000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 42330000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42330000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 26590000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26590000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 22300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22300000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 6560000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6560000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 3115000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3115000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-35.23 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-35.23 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 210700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 210700000000
 		},
 		"Exports - commodities": "coal, iron ore, gold, meat, wool, alumina, wheat, machinery and transport equipment",
 		"Exports - partners": "China 21.81%, Japan 19.19%, South Korea 7.88%, India 7.51%, US 4.95%, UK 4.37%, NZ 4.1% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 200400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 200400000000
 		},
 		"Imports - commodities": "machinery and transport equipment, computers and office machines, telecommunication equipment and parts; crude oil and petroleum products",
 		"Imports - partners": "China 17.94%, US 11.26%, Japan 8.36%, Thailand 5.81%, Singapore 5.54%, Germany 5.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 38620000000
-			},
-			"country comparison to the world:": ""
+			"usd": 38620000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1169000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1169000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 329100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 329100000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 245900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 245900000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Australian dollars (AUD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 9020000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 24220000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 9020000,
+		"Telephones - mobile cellular": 24220000,
 		"Telephone system": {
 			"general assessment:": "excellent domestic and international service",
 			"domestic:": "domestic satellite system; significant use of radiotelephone in areas of low population density; rapid growth of mobile telephones",
@@ -661,31 +537,25 @@
 		},
 		"Broadcast media": "the Australian Broadcasting Corporation (ABC) runs multiple national and local radio networks and TV stations, as well as Australia Network, a TV service that broadcasts throughout the Asia-Pacific region and is the main public broadcaster; Special Broadcasting Service (SBS), a second large public broadcaster, operates radio and TV networks broadcasting in multiple languages; several large national commercial TV networks, a large number of local commercial TV stations, and hundreds of commercial radio stations are accessible; cable and satellite systems are available (2008)",
 		"Internet country code": ".au",
-		"Internet hosts": {
-			"Internet hosts": 13361000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 13361000,
+		"Internet users": 15810000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 465,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 326,
+			"over 3,047 m:": 11,
+			"2,438 to 3,047 m:": 13,
+			"1,524 to 2,437 m:": 148,
+			"914 to 1,523 m:": 140
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 139,
+			"1,524 to 2,437 m:": 17,
+			"914 to 1,523 m:": 110,
+			"under 914 m:": 12
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 27,900 km; liquid petroleum gas 240 km; oil 3,257 km; oil/gas/water 1 km (2010)",
 		"Railways": {
 			"total:": {
@@ -712,38 +582,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,000 km (mainly used for recreation on Murray and Murray-Darling river systems) (2006)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "2,000 km (mainly used for recreation on Murray and Murray-Darling river systems) (2006)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 45,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 10, cargo 8, liquefied gas 4, passenger 6, passenger/cargo 6, petroleum tanker 6, roll on/roll off 5",
-			"foreign-owned:": null,
+			"foreign-owned:": 20,
 			"registered in other countries:": "29 (Dominica 1, Fiji 2, Liberia 2, Marshall Islands 1, Netherlands 1, NZ 1, Panama 5, Singapore 11, Tonga 1, UK 1, US 1, Vanuatu 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Brisbane, Cairns, Dampier, Darwin, Fremantle, Gladstone, Geelong, Hay Point, Hobart, Jervis Bay, Melbourne, Newcastle, Port Adelaide, Port Dalrymple, Port Hedland, Port Kembla, Port Lincoln, Port Walcott, Sydney"
 	},
 	"military": {
 		"Military branches": "Australian Defense Force (ADF): Australian Army, Royal Australian Navy, Royal Australian Air Force, Special Operations Command (2006)",
 		"Military service age and obligation": "17 years of age for voluntary military service (with parental consent); no conscription; women allowed to serve in Army combat units in non-combat support roles (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5316,
+			"females age 16-49:": 5116
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4411,
+			"females age 16-49:": 4239
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 143565,
+			"female:": 135800
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "In 2007, Australia and Timor-Leste signed agreed to a 50-year development zone and revenue sharing arrangement and deferred a maritime boundary; Australia asserts land and maritime claims to Antarctica; Australia's 2004 submission to Commission on the Limits of the Continental Shelf (CLCS) extends its continental margins over 3.37 million square kilometers, expanding its seabed roughly 30 percent beyond its claimed exclusive economic zone; a 1997 treaty between Indonesia and Australia settled some parts of their maritime boundary but some outstanding issues, especially around Timor Leste, remain; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia has closed parts of the Ashmore and Cartier reserve to Indonesian traditional fishing",
-		"Illicit drugs": {}
+		"Illicit drugs": "Tasmania is one of the world's major suppliers of licit opiate products; government maintains strict controls over areas of opium poppy cultivation and output of poppy straw concentrate; major consumer of cocaine and amphetamines"
 	}
 }

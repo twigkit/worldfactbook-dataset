@@ -7,15 +7,15 @@
 		"Location": "Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 20,
-				"seconds": 0
+				"deg": 20,
+				"min": 0
 			},
 			"W": {
-				"minutes": 12,
-				"seconds": 0
+				"deg": 12,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1030,
@@ -103,13 +103,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "most of the population is concentrated in the cities of Nouakchott and Nouadhibou and along the Senegal River in the southern part of the country"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 3281,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 40.4,
@@ -136,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.349,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.349,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 33.23,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33.23,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.83,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.83,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.91 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.91 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 41,
@@ -224,27 +209,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.3,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.3,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.7,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 14000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -290,7 +263,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -304,12 +280,12 @@
 			"name:": "Nouakchott",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 18,
-					"seconds": 7
+					"deg": 18,
+					"min": 7
 				},
 				"W": {
-					"minutes": 16,
-					"seconds": 2
+					"deg": 16,
+					"min": 2
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
@@ -317,7 +293,6 @@
 		"Administrative divisions": "13 regions (wilayas, singular - wilaya); Adrar, Assaba, Brakna, Dakhlet Nouadhibou, Gorgol, Guidimaka, Hodh ech Chargui, Hodh El Gharbi, Inchiri, Nouakchott, Tagant, Tiris Zemmour, Trarza",
 		"Independence": "28 November 1960 (from France)",
 		"National holiday": "Independence Day, 28 November (1960)",
-		"Constitution": "12 July 1991",
 		"Legal system": "mixed legal system of Islamic and French civil law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -354,7 +329,10 @@
 			"FAX:": "[222] 525-1592"
 		},
 		"Flag description": "green with a yellow five-pointed star above a yellow, horizontal crescent; the closed side of the crescent is down; the crescent, star, and color green are traditional symbols of Islam; the gold color stands for the sands of the Sahara",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Hymne National de la Republique Islamique de Mauritanie\" (National Anthem of the Islamic Republic of Mauritania)",
+			"lyrics/music:": "Baba Ould CHEIKH/traditional, arranged by Tolia NIKIPROWETZKY"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Half the population still depends on agriculture and livestock for a livelihood, even though many of the nomads and subsistence farmers were forced into the cities by recurrent droughts in the 1970s and 1980s. Mauritania has extensive deposits of iron ore, which account for nearly 40% of total exports. The nation's coastal waters are among the richest fishing areas in the world but overexploitation by foreigners threatens this key source of revenue. The country's first deepwater port opened near Nouakchott in 1986. Before 2000, drought and economic mismanagement resulted in a buildup of foreign debt. In February 2000, Mauritania qualified for debt relief under the Heavily Indebted Poor Countries (HIPC) initiative and nearly all of its foreign debt has since been forgiven. A new investment code approved in December 2001 improved the opportunities for direct foreign investment. Mauritania and the IMF agreed to a three-year Poverty Reduction and Growth Facility (PRGF) arrangement in 2006. Mauritania made satisfactory progress, but the IMF, World Bank, and other international actors suspended assistance and investment in Mauritania after the August 2008 coup. Since the presidential election in July 2009, donors have resumed assistance. Oil prospects, while initially promising, have largely failed to materialize, and the government has placed a priority on attracting private investment to spur economic growth. The Government also emphasizes reduction of poverty, improvement of health and education, and privatization of the economy.",
@@ -368,11 +346,8 @@
 			"usd": 3799000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -394,10 +369,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1318000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1318000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 50,
@@ -413,11 +385,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 30,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 40,
@@ -433,10 +402,7 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39,
 		"Budget": {
 			"revenues:": {
 				"usd": 770000000
@@ -446,16 +412,10 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
-		"Central bank discount rate": {
-			"Central bank discount rate": "NA% (31 December 2009)",
-			"country comparison to the world:": ""
-		},
+		"Central bank discount rate": "NA% (31 December 2009)",
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of domestic credit": "$NA",
 		"Market value of publicly traded shares": "$NA",
@@ -464,25 +424,16 @@
 			"Industries": "fish processing, oil production, mining of iron ore, gold, and copper"
 		},
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 415300000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 415300000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 386200000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 386200000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -493,107 +444,62 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 16510,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16510,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 20000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 30620,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30620,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 20610,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20610,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 100000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 100000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 28320000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28320000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-184 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-184 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1395000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1395000000
 		},
 		"Exports - commodities": "iron ore, fish and fish products, gold, copper, petroleum",
 		"Exports - partners": "China 42.06%, Italy 9.71%, Japan 7.57%, Cote d'Ivoire 6.16%, Spain 5.63%, Netherlands 4.32% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1475000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1475000000
 		},
 		"Imports - commodities": "machinery and equipment, petroleum products, capital goods, foodstuffs, consumer goods",
 		"Imports - partners": "France 14.3%, Netherlands 10.33%, China 9.94%, Brazil 5.58%, Belgium 4.87%, Germany 4.04%, Spain 4.02% (2009)",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "ouguiyas (MRO) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2182000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 74500,
+		"Telephones - mobile cellular": 2182000,
 		"Telephone system": {
 			"general assessment:": "limited system of cable and open-wire lines, minor microwave radio relay links, and radiotelephone communications stations; mobile-cellular services expanding rapidly",
 			"domestic:": "Mauritel, the national telecommunications company, was privatized in 2001 but remains the monopoly provider of fixed-line services; fixed-line teledensity 2 per 100 persons; mobile-cellular network coverage extends mainly to urban areas with a teledensity of 70 per 100 persons; mostly cable and open-wire lines; a domestic satellite telecommunications system links Nouakchott with regional capitals",
@@ -601,27 +507,21 @@
 		},
 		"Broadcast media": "broadcast media state-owned; 1 state-run TV and 1 state-run radio network; Television de Mauritanie, the state-run TV station, has an additional 6 regional TV stations that provide local programming (2008)",
 		"Internet country code": ".mr",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 23,
+		"Internet users": 75000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 28,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 9,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 19,
+			"1,524 to 2,437 m:": 9,
+			"914 to 1,523 m:": 8,
+			"under 914 m:": 2
 		},
 		"Railways": {
 			"Railways": {
@@ -646,27 +546,33 @@
 			}
 		},
 		"Waterways": "(some is navigation possible on the Senegal River) (2010)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Nouadhibou, Nouakchott"
 	},
 	"military": {
 		"Military branches": "Mauritanian Armed Forces: Army, Mauritanian Navy (Marine Mauritanienne; includes naval infantry), Islamic Air Force of Mauritania (Force Aerienne Islamique de Mauritanie, FAIM) (2010)",
 		"Military service age and obligation": "18 years of age (est.); conscript service obligation - 2 years; majority of servicemen believed to be volunteers; service in Air Force and Navy is voluntary (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 718713,
+			"females age 16-49:": 804622
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 480042,
+			"females age 16-49:": 581473
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 36116,
+			"female:": 36826
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 5.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Mauritanian claims to Western Sahara remain dormant",
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Mauritania is a source and destination country for children trafficked for forced labor and sexual exploitation; slavery-related practices, rooted in ancestral master-slave relationships, continue to exist in isolated parts of the country; Mauritanian boys called talibe are trafficked within the country by religious teachers for forced begging; children are also trafficked by street gangs within the country that force them to steal, beg, and sell drugs; girls are trafficked internally for domestic servitude and sexual exploitation; women and children from neighboring states are trafficked into Mauritania for purposes of forced begging, domestic servitude, and sexual exploitation",
+			"tier rating:": "Tier 3 - the Government of Mauritania does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government did not show evidence of overall progress in prosecuting and punishing trafficking offenders, protecting trafficking victims, or preventing new incidents of trafficking during the past year; progress that the previous government demonstrated in 2007 through enactment of strengthened anti-slavery legislation and deepened political will to eliminate slavery and trafficking has stalled; law enforcement efforts to address human trafficking including traditional slavery practices decreased (2009)"
+		}
 	}
 }

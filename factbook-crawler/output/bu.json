@@ -7,15 +7,15 @@
 		"Location": "Southeastern Europe, bordering the Black Sea, between Romania and Turkey",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 43,
-				"seconds": 0
+				"deg": 43,
+				"min": 0
 			},
 			"E": {
-				"minutes": 25,
-				"seconds": 0
+				"deg": 25,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 110879,
@@ -102,13 +102,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location near Turkish Straits; controls key land routes from Europe to Middle East and Asia"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 7093,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.9,
@@ -134,28 +131,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.781% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.781% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.32,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.32,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 14.32,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.32,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.82 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.82 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 71,
@@ -217,27 +202,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.42,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.42,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 3800,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -276,7 +249,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.1,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -290,12 +266,12 @@
 			"name:": "Sofia",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 42,
-					"seconds": 41
+					"deg": 42,
+					"min": 41
 				},
 				"E": {
-					"minutes": 23,
-					"seconds": 19
+					"deg": 23,
+					"min": 19
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -304,7 +280,6 @@
 		"Administrative divisions": "28 provinces (oblasti, singular - oblast); Blagoevgrad, Burgas, Dobrich, Gabrovo, Khaskovo, Kurdzhali, Kyustendil, Lovech, Montana, Pazardzhik, Pernik, Pleven, Plovdiv, Razgrad, Ruse, Shumen, Silistra, Sliven, Smolyan, Sofiya (Sofia), Sofiya-Grad (Sofia City), Stara Zagora, Turgovishte, Varna, Veliko Turnovo, Vidin, Vratsa, Yambol",
 		"Independence": "3 March 1878 (as an autonomous principality within the Ottoman Empire); 22 September 1908 (complete independence from the Ottoman Empire)",
 		"National holiday": "Liberation Day, 3 March (1878)",
-		"Constitution": "adopted 12 July 1991",
 		"Legal system": "civil law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -344,7 +319,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of white (top), green, and red; the pan-Slavic white-blue-red colors were modified by substituting a green band (representing freedom) for the blue"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Mila Rodino\" (Dear Homeland)",
+			"lyrics/music:": "Tsvetan Tsvetkov RADOSLAVOV"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Bulgaria, a former Communist country that entered the EU on 1 January 2007, averaged more than 6% annual growth from 2004 to 2008, driven by significant amounts of foreign direct investment and consumption. Successive governments have demonstrated a commitment to economic reforms and responsible fiscal planning, but the global downturn sharply reduced domestic demand, exports, capital inflows, and industrial production. GDP contracted by approximately 5% in 2009, and stagnated in 2010, despite a significant recovery in exports. The economy is expected to grow modestly in 2011, however. Corruption in the public administration, a weak judiciary, and the presence of organized crime remain significant challenges.",
@@ -358,11 +336,8 @@
 			"usd": 47700000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -384,10 +359,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3400000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3400000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 7.1,
@@ -403,11 +375,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 9.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.2,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 21.8,
@@ -423,16 +392,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 33.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -443,18 +406,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 16.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.2,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -463,58 +420,34 @@
 			}
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.34,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.34,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 12700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12700000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 35370000000
-			},
-			"country comparison to the world:": ""
+			"usd": 35370000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 34540000000
-			},
-			"country comparison to the world:": ""
+			"usd": 34540000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 6354000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6354000000
 		},
 		"Agriculture - products": "vegetables, fruits, tobacco, wine, wheat, barley, sunflowers, sugar beets; livestock",
 		"Industries": "electricity, gas, water; food, beverages, tobacco; machinery and equipment, base metals, chemical products, coke, refined petroleum, nuclear fuel",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 4309000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4309000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 28300000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28300000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 7073000000,
@@ -525,130 +458,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3227,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3227,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 125000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 125000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 76570,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 76570,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 189000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 189000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 15000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 54000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 54000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 2620000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2620000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 2480000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2480000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 5663000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5663000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-12.8 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-12.8 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 19330000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19330000000
 		},
 		"Exports - commodities": "clothing, footwear, iron and steel, machinery and equipment, fuels",
 		"Exports - partners": "Germany 11.21%, Greece 9.43%, Italy 9.24%, Romania 8.52%, Turkey 7.33%, Belgium 5.61%, France 4.44% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 22780000000
-			},
-			"country comparison to the world:": ""
+			"usd": 22780000000
 		},
 		"Imports - commodities": "machinery and equipment; metals and ores; chemicals and plastics; fuels, minerals, and raw materials",
 		"Imports - partners": "Russia 13.14%, Germany 12.23%, Italy 7.78%, Greece 6.17%, Romania 5.65%, Turkey 5.48%, Ukraine 4.81%, Austria 4.08% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 17270000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17270000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 47150000000
-			},
-			"country comparison to the world:": ""
+			"usd": 47150000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 51280000000
-			},
-			"country comparison to the world:": ""
+			"usd": 51280000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1372000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1372000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "leva (BGN) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 2164000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 10617000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2164000,
+		"Telephones - mobile cellular": 10617000,
 		"Telephone system": {
 			"general assessment:": "inherited an extensive but antiquated telecommunications network from the Soviet era; quality has improved with a modern digital trunk line now connecting switching centers in most of the regions; remaining areas are connected by digital microwave radio relay",
 			"domestic:": "the Bulgaria Telecommunications Company's fixed-line monopoly terminated in 2005 in an effort to upgrade fixed-line services; mobile-cellular teledensity, fostered by multiple service providers, approached 150 telephones per 100 persons in 2009",
@@ -656,31 +532,25 @@
 		},
 		"Broadcast media": "4 national terrestrial television stations with 1 state-owned and 3 privately-owned; a vast array of TV stations are available from cable and satellite TV providers; state-owned national radio broadcasts over 3 networks; large number of private radio stations broadcasting, especially in urban areas (2010)",
 		"Internet country code": ".bg",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 785546,
+		"Internet users": 3395000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 210,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 130,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 17,
+			"1,524 to 2,437 m:": 15,
+			"under 914 m:": 96
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 80,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 6,
+			"under 914 m:": 73
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "gas 2,844 km; oil 346 km; refined products 156 km (2010)",
 		"Railways": {
 			"total:": {
@@ -707,40 +577,40 @@
 			}
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 470,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 470,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 37,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 16, cargo 10, chemical tanker 1, liquefied gas 2, passenger/cargo 1, petroleum tanker 2, roll on/roll off 4, specialized tanker 1",
-			"foreign-owned:": null,
+			"foreign-owned:": 27,
 			"registered in other countries:": "31 (Comoros 8, Malta 7, Panama 6, Saint Vincent and the Grenadines 10) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Burgas, Varna"
 	},
 	"military": {
 		"Military branches": "Bulgarian Armed Forces: Ground Forces, Naval Forces, Bulgarian Air Forces (Bulgarski Voennovazdyshni Sily, BVVS) (2011)",
 		"Military service age and obligation": "18-27 years of age for voluntary military service; conscription ended in January 2008; service obligation 6-9 months (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1637,
+			"females age 16-49:": 1621
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1320,
+			"females age 16-49:": 1337
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 33444,
+			"female:": 32075
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "major European transshipment point for Southwest Asian heroin and, to a lesser degree, South American cocaine for the European market; limited producer of precursor chemicals; vulnerable to money laundering because of corruption, organized crime; some money laundering of drug-related proceeds through financial institutions (2008)"
 	}
 }

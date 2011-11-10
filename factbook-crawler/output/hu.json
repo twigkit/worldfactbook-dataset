@@ -7,15 +7,15 @@
 		"Location": "Central Europe, northwest of Romania",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 47,
-				"seconds": 0
+				"deg": 47,
+				"min": 0
 			},
 			"E": {
-				"minutes": 20,
-				"seconds": 0
+				"deg": 20,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 93028,
@@ -88,13 +88,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; strategic location astride main land routes between Western Europe and Balkan Peninsula as well as between Ukraine and Mediterranean basin; the north-south flowing Duna (Danube) and Tisza Rivers divide the country into three large regions"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 9976,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 14.9,
@@ -120,30 +117,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.17% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.17% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.6,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.6,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 12.68,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.68,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.39,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.39,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -209,24 +194,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.4,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 3000,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea and hepatitis A",
@@ -270,7 +243,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -284,12 +260,12 @@
 			"name:": "Budapest",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 47,
-					"seconds": 30
+					"deg": 47,
+					"min": 30
 				},
 				"E": {
-					"minutes": 19,
-					"seconds": 5
+					"deg": 19,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -303,9 +279,6 @@
 		},
 		"Independence": "16 November 1918 (republic proclaimed); notable earlier dates: 25 December 1000 (crowning of King STEPHEN I, traditional founding date); 30 March 1867 (Austro-Hungarian dual monarchy established)",
 		"National holiday": "Saint Stephen's Day, 20 August; note - commemorates the date when his remains were transferred to Buda (now Budapest)",
-		"Constitution": {
-			"Constitution": "18 August 1949, effective 20 August 1949; revised 19 April 1972; 18 October 1989; and 1997"
-		},
 		"Legal system": "civil legal system influenced by the German model",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -340,7 +313,10 @@
 			"FAX:": "[36] (1) 475-4764"
 		},
 		"Flag description": "three equal horizontal bands of red (top), white, and green; the flag dates to the national movement of the 18th and 19th centuries, and fuses the medieval colors of the Hungarian coat of arms with the revolutionary tricolor form of the French flag; folklore attributes virtues to the colors: red for strength, white for faithfulness, and green for hope; alternatively, the red is seen as being for the blood spilled in defense of the land, white for freedom, and green for the pasturelands that make up so much of the country",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himnusz\" (Hymn)",
+			"lyrics/music:": "Ferenc KOLCSEY/Ferenc ERKEL"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Hungary has made the transition from a centrally planned to a market economy, with a per capita income nearly two-thirds that of the EU-25 average. The private sector accounts for more than 80% of GDP. Foreign ownership of and investment in Hungarian firms are widespread, with cumulative foreign direct investment worth more than $70 billion. The government's austerity measures, imposed since late 2006, have reduced the budget deficit from over 9% of GDP in 2006 to 3.2% in 2010, with a target of less than 3% in 2011. Hungary's impending inability to service its short-term debt - brought on by the global financial crisis in late 2008 - led Budapest to obtain an IMF/EU/World Bank-arranged financial assistance package worth over $25 billion. The global economic downturn, declining exports, and low domestic consumption and fixed asset accumulation, dampened by government austerity measures, resulted in an economic contraction of 6.3% in 2009. In 2010 the new government implemented a number of changes including cutting business and personal income taxes, but imposed \"crisis taxes\" on financial institutions, energy and telecom companies, and retailers. The economy rebounded in 2010 with a big boost from exports, especially to Germany, and growth of more than 2.5% is expected in 2011. Unemployment remained high, at more than 10% in 2010.",
@@ -354,11 +330,8 @@
 			"usd": 129000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -380,10 +353,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4300000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4300000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 4.7,
@@ -399,11 +369,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 10.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.7,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 13.9,
@@ -419,16 +386,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 24.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -439,79 +400,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 79.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 79.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 5.75,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.75,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.1,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 31810000000
-			},
-			"country comparison to the world:": ""
+			"usd": 31810000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 68870000000
-			},
-			"country comparison to the world:": ""
+			"usd": 68870000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 108100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 108100000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 27880000000
-			},
-			"country comparison to the world:": ""
+			"usd": 27880000000
 		},
 		"Agriculture - products": "wheat, corn, sunflower seed, potatoes, sugar beets; pigs, cattle, poultry, dairy products",
 		"Industries": "mining, metallurgy, construction materials, processed foods, textiles, chemicals (especially pharmaceuticals), motor vehicles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 11,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 37550000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 37550000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 42700000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42700000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 4703000000,
@@ -522,130 +450,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 21430,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21430,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 137300,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 137300,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 171600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 171600,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 26570000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26570000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 2609000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2609000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 11050000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11050000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 227000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 227000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 9630000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9630000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 8098000000.000001,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8098000000.000001,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.128 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.128 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 93740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 93740000000
 		},
 		"Exports - commodities": "machinery and equipment 61.1%, other manufactures 28.7%, food products 6.5%, raw materials 2%, fuels and electricity 1.6% (2009 est.)",
 		"Exports - partners": "Germany 25.5%, Italy 5.5%, UK 5.4%, Romania 5.3%, Slovakia 5.1%, France 4.9%, Austria 4.7% (2010 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 87440000000
-			},
-			"country comparison to the world:": ""
+			"usd": 87440000000
 		},
 		"Imports - commodities": "machinery and equipment 50%, fuels and electricity 11%, food products, raw materials",
 		"Imports - partners": "Germany 26.1%, Russia 7.7%, China 6.8%, Austria 5.9%, Netherlands 4.4%, Poland 4.3%, Italy 4.2% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 44990000000
-			},
-			"country comparison to the world:": ""
+			"usd": 44990000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 148400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 148400000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 82070000000
-			},
-			"country comparison to the world:": ""
+			"usd": 82070000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 19800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19800000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "forints (HUF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3069000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 11793000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3069000,
+		"Telephones - mobile cellular": 11793000,
 		"Telephone system": {
 			"general assessment:": "the telephone system has been modernized; the system is digital and highly automated; trunk services are carried by fiber-optic cable and digital microwave radio relay; a program for fiber-optic subscriber connections was initiated in 1996",
 			"domestic:": "competition among mobile-cellular service providers has led to a sharp increase in the use of mobile-cellular phones since 2000 and a decrease in the number of fixed-line connections",
@@ -653,31 +524,25 @@
 		},
 		"Broadcast media": "mixed system of state-supported public service broadcast media and private broadcasters; the 3 publicly-owned TV channels and the 2 main privately-owned TV stations are the major national broadcasters; a large number of special interest channels have emerged; highly developed market for satellite and cable TV services with about two-thirds of viewers utilizing multi-channel services; 3 state-supported public-service radio networks and 2 major national commercial stations; a large number of local stations including commercial, public service, nonprofit, and community radio stations; digital transition postponed to the end of 2012 (2007)",
 		"Internet country code": ".hu",
-		"Internet hosts": {
-			"Internet hosts": 2655000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2655000,
+		"Internet users": 6176000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 43,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 22,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 7,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 6
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 21,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 8,
+			"under 914 m:": 11
 		},
-		"Heliports": null,
+		"Heliports": 5,
 		"Pipelines": "gas 4,716 km; oil 984 km; refined products 361 km (2010)",
 		"Railways": {
 			"total:": {
@@ -704,31 +569,31 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,622 km (most on Danube River) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "1,622 km (most on Danube River) (2010)",
+		"Ports and terminals": "Budapest, Dunaujvaros, Gyor-Gonyu, Csepel, Baja, Mohacs"
 	},
 	"military": {
 		"Military branches": "Land Forces, Hungarian Air Force (Magyar Legiero, ML) (2011)",
 		"Military service age and obligation": "18-25 years of age for voluntary military service; no conscription; 6-month service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2349,
+			"females age 16-49:": 2290
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1902,
+			"females age 16-49:": 1897
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 59237,
+			"female:": 55533
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.75,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "bilateral government, legal, technical and economic working group negotiations continue in 2006 with Slovakia over Hungary's failure to complete its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Hungary has implemented the strict Schengen border rules",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for Southwest Asian heroin and cannabis and for South American cocaine destined for Western Europe; limited producer of precursor chemicals, particularly for amphetamine and methamphetamine; efforts to counter money laundering, related to organized crime and drug trafficking are improving but remain vulnerable; significant consumer of ecstasy"
 	}
 }

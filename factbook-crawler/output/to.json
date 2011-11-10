@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the Bight of Benin, between Benin and Ghana",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 8,
-				"seconds": 0
+				"deg": 8,
+				"min": 0
 			},
 			"E": {
-				"minutes": 1,
-				"seconds": 10
+				"deg": 1,
+				"min": 10
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 56785,
@@ -98,11 +98,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the country's length allows it to stretch through six distinct geographic regions; climate varies from tropical to savanna"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 6771,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -131,32 +131,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.762,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.762,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 35.58,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35.58,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.96,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.96,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -222,27 +210,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.69,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.69,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 120000,
+		"HIV/AIDS - deaths": 7700,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -288,7 +264,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -303,12 +282,12 @@
 			"name:": "Lome",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 6,
-					"seconds": 8
+					"deg": 6,
+					"min": 8
 				},
 				"E": {
-					"minutes": 1,
-					"seconds": 13
+					"deg": 1,
+					"min": 13
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
@@ -316,7 +295,6 @@
 		"Administrative divisions": "5 regions (regions, singular - region); Centrale, Kara, Maritime, Plateaux, Savanes",
 		"Independence": "27 April 1960 (from French-administered UN trusteeship)",
 		"National holiday": "Independence Day, 27 April (1960)",
-		"Constitution": "adopted by public referendum 27 September 1992",
 		"Legal system": "customary law system",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -352,7 +330,10 @@
 		"Flag description": {
 			"Flag description": "five equal horizontal bands of green (top and bottom) alternating with yellow; a white five-pointed star on a red square is in the upper hoist-side corner; the five horizontal stripes stand for the five different regions of the country; the red square is meant to express the loyalty and patriotism of the people; green symbolizes hope, fertility, and agriculture; yellow represents mineral wealth and faith that hard work and strength will bring prosperity; the star symbolizes life, purity, peace, dignity, and Togo's independence"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Salut a toi, pays de nos aieux\" (Hail to Thee, Land of Our Forefathers)",
+			"lyrics/music:": "Alex CASIMIR-DOSSEH"
+		}
 	},
 	"economy": {
 		"Economy - overview": "This small, sub-Saharan economy suffers from anemic economic growth and depends heavily on both commercial and subsistence agriculture, which provides employment for 65% of the labor force. Some basic foodstuffs must still be imported. Cocoa, coffee, and cotton generate about 40% of export earnings with cotton being the most important cash crop. Togo is the world's fourth-largest producer of phosphate. The government's decade-long effort, supported by the World Bank and the IMF, to implement economic reform measures, encourage foreign investment, and bring revenues in line with expenditures has moved slowly. Progress depends on follow through on privatization, increased openness in government financial operations, progress toward legislative elections, and continued support from foreign donors. Togo is on track with its IMF Extended Credit Facility and reached a HIPC debt relief completion point in 2010 at which 95% of the country's debt was forgiven. Economic growth prospects remain marginal due to declining cotton production and underinvestment in phosphate mining.",
@@ -366,11 +347,8 @@
 			"usd": 3194000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -392,10 +370,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 2595000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 2595000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 65,
@@ -426,11 +401,8 @@
 			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -441,61 +413,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 754500000
-			},
-			"country comparison to the world:": ""
+			"usd": 754500000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1238000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1238000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 817700000
-			},
-			"country comparison to the world:": ""
+			"usd": 817700000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, cocoa, cotton, yams, cassava (tapioca), corn, beans, rice, millet, sorghum; livestock; fish",
 		"Industries": "phosphate mining, agricultural processing, cement, handicrafts, textiles, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 230000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 230000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 640000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 640000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -503,113 +451,65 @@
 		},
 		"Electricity - imports": "514 million kWh; note - electricity supplied by Ghana (2007 est.)",
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 21000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1547,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1547,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 15270,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15270,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-339 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-339 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 859000000
-			},
-			"country comparison to the world:": ""
+			"usd": 859000000
 		},
 		"Exports - commodities": "reexports, cotton, phosphates, coffee, cocoa",
 		"Exports - partners": "Germany 17.57%, Ghana 12.74%, Burkina Faso 11.02%, India 10.22%, Belgium 7.1%, Benin 6.92%, Netherlands 5.94%, Mali 4.41% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1337000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1337000000
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, petroleum products",
 		"Imports - partners": "China 36.58%, France 8.64%, Netherlands 6.76%, India 5.06%, US 4.4% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 686000000
-			},
-			"country comparison to the world:": ""
+			"usd": 686000000
 		},
 		"Debt - external": "$NA (31 December 2010)",
-		"Exchange rates": {}
+		"Exchange rates": "Communaute Financiere Africaine francs (XOF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2187000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 178700,
+		"Telephones - mobile cellular": 2187000,
 		"Telephone system": {
 			"general assessment:": "fair system based on a network of microwave radio relay routes supplemented by open-wire lines and a mobile-cellular system",
 			"domestic:": "microwave radio relay and open-wire lines for conventional system; combined fixed-line and mobile-cellular teledensity roughly 40 telephones per 100 persons with mobile-cellular use predominating",
@@ -617,25 +517,19 @@
 		},
 		"Broadcast media": "2 state-owned TV stations with multiple transmission sites; 5 private TV stations broadcast locally; cable TV service is available; state-owned radio network with multiple stations; several dozen private radio stations and a few community radio stations; transmissions of multiple international broadcasters are obtainable (2007)",
 		"Internet country code": ".tg",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 860,
+		"Internet users": 356300
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 8,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 2,
+			"2,438 to 3,047 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 6,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 2
 		},
 		"Railways": {
 			"total:": {
@@ -660,41 +554,41 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "50 km (seasonally navigable by small craft on the Mono River depending on rainfall) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "50 km (seasonally navigable by small craft on the Mono River depending on rainfall) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 53,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 5, cargo 40, chemical tanker 2, container 2, petroleum tanker 2, refrigerated cargo 1, roll on/roll off 1",
 			"foreign-owned:": "23 (China 2, Greece 1, Lebanon 6, Romania 1, Syria 5, Turkey 4, UAE 1, UK 3) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Kpeme, Lome"
 	},
 	"military": {
 		"Military branches": "Togolese Armed Forces (Forces Armees Togolaise, FAT): Ground Forces, Togolese Navy (Marine du Togo), Togolese Air Force (Force Aerienne Togolaise, TAF), National Gendarmerie (2011)",
 		"Military service age and obligation": "18 years of age for selective compulsory and voluntary military service; 2-year service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1577,
+			"females age 16-49:": 1589
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1104,
+			"females age 16-49:": 1158
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 74036,
+			"female:": 73515
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2001, Benin claimed Togo moved boundary monuments - joint commission continues to resurvey the boundary; in 2006, 14,000 Togolese refugees remain in Benin and Ghana out of the 40,000 who fled there in 2005; talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
-			"IDPs:": null
+			"refugees (country of origin):": 5000,
+			"IDPs:": 1500
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transit hub for Nigerian heroin and cocaine traffickers; money laundering not a significant problem"
 	}
 }

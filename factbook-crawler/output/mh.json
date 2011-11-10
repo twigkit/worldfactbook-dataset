@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island in the Caribbean Sea, southeast of Puerto Rico",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 16,
-				"seconds": 45
+				"deg": 16,
+				"min": 45
 			},
 			"W": {
-				"minutes": 62,
-				"seconds": 12
+				"deg": 62,
+				"min": 12
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 102,
@@ -77,11 +77,11 @@
 			"volcanism:": "Soufriere Hills volcano, at a height of 915 m (3,010 ft), has erupted continuously since 1995; a massive eruption in 1997 destroyed most of the capital, Plymouth, and resulted in approximately half of the island becoming uninhabitable"
 		},
 		"Environment - current issues": "land erosion occurs on slopes that have been cleared for cultivation",
-		"Geography - note": {}
+		"Geography - note": "the island is entirely volcanic in origin and comprised of three major volcanic centers of differing ages"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 5140,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -110,32 +110,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.447,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.447,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.67,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.67,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.2,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.2,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -200,11 +188,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.26,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.26,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -247,7 +232,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -260,12 +248,12 @@
 			"name:": "Plymouth",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 16,
-					"seconds": 42
+					"deg": 16,
+					"min": 42
 				},
 				"W": {
-					"minutes": 62,
-					"seconds": 13
+					"deg": 62,
+					"min": 13
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -273,7 +261,6 @@
 		"Administrative divisions": "3 parishes; Saint Anthony, Saint Georges, Saint Peter",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "Birthday of Queen ELIZABETH II, second Saturday in June (1926)",
-		"Constitution": "effective 19 December 1989",
 		"Legal system": "English common law",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -294,26 +281,19 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK)",
 		"Flag description": "blue, with the flag of the UK in the upper hoist-side quadrant and the Montserratian coat of arms centered in the outer half of the flag; the arms feature a woman in green dress, Erin, the female personification of Ireland, standing beside a yellow harp and embracing a large dark cross with her right arm; Erin and the harp are symbols of Ireland reflecting the territory's Irish ancestry; blue represents awareness, trustworthiness, determination, and righteousness",
-		"National anthem": {}
+		"National anthem": {
+			"note:": "as a territory of the United Kingdom, \"God Save the Queen\" is official (see United Kingdom)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Severe volcanic activity, which began in July 1995, has put a damper on this small, open economy. A catastrophic eruption in June 1997 closed the airports and seaports, causing further economic and social dislocation. Two-thirds of the 12,000 inhabitants fled the island. Some began to return in 1998 but lack of housing limited the number. The agriculture sector continued to be affected by the lack of suitable land for farming and the destruction of crops. Prospects for the economy depend largely on developments in relation to the volcanic activity and on public sector construction activity. The UK has launched a three-year $122.8 million aid program to help reconstruct the economy. Half of the island is expected to remain uninhabitable for another decade.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 29000000
-			},
-			"country comparison to the world:": ""
+			"usd": 29000000
 		},
 		"GDP (official exchange rate)": "$NA",
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-1% (2002 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-1% (2002 est.)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -331,11 +311,8 @@
 		},
 		"Labor force": "NA",
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -351,60 +328,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 9.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.04,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 14130000
-			},
-			"country comparison to the world:": ""
+			"usd": 14130000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 69630000
-			},
-			"country comparison to the world:": ""
+			"usd": 69630000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 9930000
-			},
-			"country comparison to the world:": ""
+			"usd": 9930000
 		},
 		"Agriculture - products": "cabbages, carrots, cucumbers, tomatoes, onions, peppers; livestock products",
 		"Industries": "tourism, rum, textiles, electronic appliances",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 22000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 20460000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20460000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -415,106 +368,61 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 520.6,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 520.6,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"Exports - commodities": "electronic components, plastic bags, apparel; hot peppers, limes, live plants; cattle",
 		"Imports": {
-			"Imports": {
-				"usd": 17000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17000000
 		},
 		"Imports - commodities": "machinery and transportation equipment, foodstuffs, manufactured goods, fuels, lubricants, and related materials",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 8900000
-			},
-			"country comparison to the world:": ""
+			"usd": 8900000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "East Caribbean dollars (XCD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2700,
+		"Telephones - mobile cellular": 3000,
 		"Telephone system": {
 			"general assessment:": "modern and fully digitalized",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity exceeds 100 per 100 persons",
@@ -522,43 +430,37 @@
 		},
 		"Broadcast media": "Radio Montserrat, a public radio broadcaster, transmits on 1 station and has a repeater transmission to a second station; repeater transmissions from the GEM Radio Network of Trinidad and Tobago provide another 2 radio stations; cable and satellite TV are obtainable (2007)",
 		"Internet country code": ".ms",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 552,
+		"Internet users": 1200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 2,
 		"Airports - with paved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"under 914 m:": 2
 		},
 		"Roadways": {
 			"note:": "volcanic eruptions that began in 1995 destroyed most of the 227 km road system; a new road infrastructure has been built on the north end of the island (2008)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Little Bay, Plymouth"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Royal Montserrat Police Force (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 1353
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1135,
+			"females age 16-49:": 1223
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 35,
+			"female:": 34
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for South American narcotics destined for the US and Europe"
 	}
 }

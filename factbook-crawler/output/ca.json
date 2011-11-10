@@ -7,15 +7,15 @@
 		"Location": "Northern North America, bordering the North Atlantic Ocean on the east, North Pacific Ocean on the west, and the Arctic Ocean on the north, north of the conterminous US",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 60,
-				"seconds": 0
+				"deg": 60,
+				"min": 0
 			},
 			"W": {
-				"minutes": 95,
-				"seconds": 0
+				"deg": 95,
+				"min": 0
 			}
 		},
-		"Map references": "North America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 9984,
@@ -106,13 +106,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "Air Pollution-Volatile Organic Compounds, Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "second-largest country in world (after Russia); strategic location between Russia and US via north polar route; approximately 90% of the population is concentrated within 160 km of the US border"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 34030,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.7,
@@ -139,32 +136,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.794,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.794,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.28,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.28,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.98,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.98,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 5.65,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.65,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -230,27 +215,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.58,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.58,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 68000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -289,7 +262,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -301,12 +277,12 @@
 			"name:": "Ottawa",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 45,
-					"seconds": 25
+					"deg": 45,
+					"min": 25
 				},
 				"W": {
-					"minutes": 75,
-					"seconds": 42
+					"deg": 75,
+					"min": 42
 				}
 			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)",
@@ -315,7 +291,6 @@
 		"Administrative divisions": "10 provinces and 3 territories*; Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories*, Nova Scotia, Nunavut*, Ontario, Prince Edward Island, Quebec, Saskatchewan, Yukon Territory*",
 		"Independence": "1 July 1867 (union of British North American colonies); 11 December 1931 (recognized by UK per Statute of Westminster)",
 		"National holiday": "Canada Day, 1 July (1867)",
-		"Constitution": "made up of unwritten and written acts, customs, judicial decisions, and traditions; the written part of the constitution consists of the Constitution Act of 29 March 1867, which created a federation of four provinces, and the Constitution Act of 17 April 1982, which transferred formal control over the constitution from Britain to Canada, and added a Canadian Charter of Rights and Freedoms as well as procedures for constitutional amendments",
 		"Legal system": "common law system except in Quebec where civil law based on the French civil code prevails",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -351,7 +326,10 @@
 			"FAX:": "[1] (613) 688-3082"
 		},
 		"Flag description": "two vertical bands of red (hoist and fly side, half width) with white square between them; an 11-pointed red maple leaf is centered in the white square; the maple leaf has long been a Canadian symbol; the official colors of Canada are red and white",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"O Canada\"",
+			"lyrics/music:": "Adolphe-Basile ROUTHIER [French], Robert Stanley WEIR [English]/Calixa LAVALLEE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "As an affluent, high-tech industrial society in the trillion-dollar class, Canada resembles the US in its market-oriented economic system, pattern of production, and affluent living standards. Since World War II, the impressive growth of the manufacturing, mining, and service sectors has transformed the nation from a largely rural economy into one primarily industrial and urban. The 1989 US-Canada Free Trade Agreement (FTA) and the 1994 North American Free Trade Agreement (NAFTA) (which includes Mexico) touched off a dramatic increase in trade and economic integration with the US, its principal trading partner. Canada enjoys a substantial trade surplus with the US, which absorbs about three-fourths of Canadian exports each year. Canada is the US's largest foreign supplier of energy, including oil, gas, uranium, and electric power. Given its great natural resources, skilled labor force, and modern capital plant, Canada enjoyed solid economic growth from 1993 through 2007. Buffeted by the global economic crisis, the economy dropped into a sharp recession in the final months of 2008, and Ottawa posted its first fiscal deficit in 2009 after 12 years of surplus. Canada's major banks, however, emerged from the financial crisis of 2008-09 among the strongest in the world, owing to the financial sector's tradition of conservative lending practices and strong capitalization. During 2010, Canada's economy grew only 3%, due to decreased global demand and a highly valued Canadian dollar.",
@@ -365,11 +343,8 @@
 			"usd": 1574000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -391,10 +366,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 18590000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 18590000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2,
@@ -418,11 +390,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"Population below poverty line": {
@@ -440,16 +409,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 32.1,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -460,79 +423,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 34,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 560800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 560800000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1469000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1469000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 2963000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2963000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1681000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1681000000000
 		},
 		"Agriculture - products": "wheat, barley, oilseed, tobacco, fruits, vegetables; dairy products; forest products; fish",
 		"Industries": "transportation equipment, chemicals, processed and unprocessed minerals, food products, wood and paper products, fish products, petroleum and natural gas",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 5.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 620700000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 620700000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 536100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 536100000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 55730000000,
@@ -543,32 +473,20 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3289000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3289000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2151000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2151000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2001000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2001000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1192000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1192000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
 			"Oil - proved reserves": {
@@ -578,90 +496,51 @@
 			"country comparison to the world:": ""
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 161300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 161300000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 94620000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 94620000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 94670000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 94670000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 16590000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16590000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 1754000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1754000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-40.21 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-40.21 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 406800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 406800000000
 		},
 		"Exports - commodities": "motor vehicles and parts, industrial machinery, aircraft, telecommunications equipment; chemicals, plastics, fertilizers; wood pulp, timber, crude petroleum, natural gas, electricity, aluminum",
 		"Exports - partners": "US 75.02%, UK 3.37%, China 3.09% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 406400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 406400000000
 		},
 		"Imports - commodities": "machinery and equipment, motor vehicles and parts, crude oil, chemicals, electricity, durable consumer goods",
 		"Imports - partners": "US 51.1%, China 10.88%, Mexico 4.56% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1008999999999.9999
-			},
-			"country comparison to the world:": ""
+			"usd": 1008999999999.9999
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 528700000000.00006
-			},
-			"country comparison to the world:": ""
+			"usd": 528700000000.00006
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 602500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 602500000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Canadian dollars (CAD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 18251000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 23081000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 18251000,
+		"Telephones - mobile cellular": 23081000,
 		"Telephone system": {
 			"general assessment:": "excellent service provided by modern technology",
 			"domestic:": "domestic satellite system with about 300 earth stations",
@@ -669,31 +548,25 @@
 		},
 		"Broadcast media": "2 public television broadcasting networks each with a large number of network affiliates; several private-commercial networks also with multiple network affiliates; overall, about 150 TV stations; multi-channel satellite and cable systems provide access to a wide range of stations including US stations; mix of public and commercial radio broadcasters with the Canadian Broadcasting Corporation (CBC), the public radio broadcaster, operating 4 radio networks, Radio Canada International, and radio services to indigenous populations in the north; roughly 2,000 licensed radio stations in Canada (2008)",
 		"Internet country code": ".ca",
-		"Internet hosts": {
-			"Internet hosts": 7770000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 7770000,
+		"Internet users": 26960000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1404,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 514,
+			"over 3,047 m:": 18,
+			"2,438 to 3,047 m:": 20,
+			"1,524 to 2,437 m:": 148,
+			"914 to 1,523 m:": 249
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 890,
+			"1,524 to 2,437 m:": 73,
+			"914 to 1,523 m:": 377,
+			"under 914 m:": 440
 		},
-		"Heliports": null,
+		"Heliports": 12,
 		"Pipelines": "gas 835 km; liquid petroleum gas 75,000 km (2010)",
 		"Railways": {
 			"total:": {
@@ -718,38 +591,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "636 km (Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, shared with United States) (2008)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "636 km (Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, shared with United States) (2008)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 184,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 66, cargo 12, carrier 1, chemical tanker 14, combination ore/oil 1, container 2, passenger 6, passenger/cargo 64, petroleum tanker 12, roll on/roll off 6",
-			"foreign-owned:": null,
+			"foreign-owned:": 15,
 			"registered in other countries:": "223 (Australia 7, Bahamas 102, Barbados 13, Cambodia 2, Cyprus 2, Honduras 1, Hong Kong 70, Liberia 4, Malta 1, Marshall Islands 4, Norway 1, Panama 5, Spain 5, US 1, Vanuatu 5) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Fraser River Port, Halifax, Hamilton, Montreal, Port-Cartier, Quebec City, Saint John (New Brunswick), Sept-Isles, Vancouver"
 	},
 	"military": {
 		"Military branches": "Canadian Forces: Land Forces Command (LFC), Maritime Command (MARCOM), Air Command (AIRCOM), Canada Command (homeland security) (2011)",
 		"Military service age and obligation": "17 years of age for voluntary male and female military service (with parental consent); 16 years of age for reserve and military college applicants; Canadian citizenship or permanent residence status required; maximum 34 years of age; service obligation 3-9 years (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 8031,
+			"females age 16-49:": 7755
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6633,
+			"females age 16-49:": 6389
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 218069,
+			"female:": 206195
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "managed maritime boundary disputes with the US at Dixon Entrance, Beaufort Sea, Strait of Juan de Fuca, and the Gulf of Maine including the disputed Machias Seal Island and North Rock; Canada and the United States dispute how to divide the Beaufort Sea and the status of the Northwest Passage but continue to work cooperatively to survey the Arctic continental shelf; US works closely with Canada to intensify security measures for monitoring and controlling legal and illegal movement of people, transport, and commodities across the international border; sovereignty dispute with Denmark over Hans Island in the Kennedy Channel between Ellesmere Island and Greenland; commencing the collection of technical evidence for submission to the Commission on the Limits of the Continental Shelf in support of claims for continental shelf beyond 200 nautical miles from its declared baselines in the Arctic, as stipulated in Article 76, paragraph 8, of the United Nations Convention on the Law of the Sea",
-		"Illicit drugs": {}
+		"Illicit drugs": "illicit producer of cannabis for the domestic drug market and export to US; use of hydroponics technology permits growers to plant large quantities of high-quality marijuana indoors; increasing ecstasy production, some of which is destined for the US; vulnerable to narcotics money laundering because of its mature financial services sector"
 	}
 }

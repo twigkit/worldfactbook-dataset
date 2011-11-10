@@ -7,15 +7,15 @@
 		"Location": "Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 33,
-				"seconds": 0
+				"deg": 33,
+				"min": 0
 			},
 			"W": {
-				"minutes": 56,
-				"seconds": 0
+				"deg": 56,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 176215,
@@ -103,13 +103,10 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Marine Dumping, Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "second-smallest South American country (after Suriname); most of the low-lying landscape (three-quarters of the country) is grassland, ideal for cattle and sheep raising"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 3308,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 22.2,
@@ -136,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.231,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.231,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 13.52,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.52,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.58,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.58,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.63 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.63 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 92,
@@ -224,23 +209,14 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.89,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.89,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 9900,
 		"HIV/AIDS - deaths": "NA",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
@@ -280,7 +256,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -295,12 +274,12 @@
 			"name:": "Montevideo",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 34,
-					"seconds": 53
+					"deg": 34,
+					"min": 53
 				},
 				"W": {
-					"minutes": 56,
-					"seconds": 11
+					"deg": 56,
+					"min": 11
 				}
 			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)",
@@ -309,7 +288,6 @@
 		"Administrative divisions": "19 departments (departamentos, singular - departamento); Artigas, Canelones, Cerro Largo, Colonia, Durazno, Flores, Florida, Lavalleja, Maldonado, Montevideo, Paysandu, Rio Negro, Rivera, Rocha, Salto, San Jose, Soriano, Tacuarembo, Treinta y Tres",
 		"Independence": "25 August 1825 (from Brazil)",
 		"National holiday": "Independence Day, 25 August (1825)",
-		"Constitution": "27 November 1966; effective 15 February 1967; suspended 27 June 1973; revised 26 November 1989 and 7 January 1997",
 		"Legal system": "civil law system based on the Spanish civil code",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -349,7 +327,10 @@
 		"Flag description": {
 			"Flag description": "nine equal horizontal stripes of white (top and bottom) alternating with blue; a white square in the upper hoist-side corner with a yellow sun bearing a human face known as the Sun of May with 16 rays that alternate between triangular and wavy; the stripes represent the nine original departments of Uruguay; the sun symbol evokes the legend of the sun breaking through the clouds on 25 May 1810 as independence was first declared from Spain (Uruguay subsequently won its independence from Brazil)"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional\" (National Anthem of Uruguay)",
+			"lyrics/music:": "Francisco Esteban ACUNA de Figueroa/Francisco Jose DEBALI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Uruguay's economy is characterized by an export-oriented agricultural sector, a well-educated work force, and high levels of social spending. Following financial difficulties in the late 1990s and early 2000s, economic growth for Uruguay averaged 8% annually during the period 2004-08. The 2008-09 global financial crisis put a brake on Uruguay's vigorous growth, which decelerated to 2.9% in 2009. Nevertheless, the country managed to avoid a recession and keep positive growth rates, mainly through higher public expenditure and investment, and GDP growth exceeded 8% in 2010.",
@@ -363,11 +344,8 @@
 			"usd": 40270000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -389,10 +367,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1637000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1637000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 13,
@@ -408,11 +383,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.8,
+			"unit": "%"
 		},
 		"Population below poverty line": "20.9% of households (2009)",
 		"Household income or consumption by percentage share": {
@@ -425,16 +397,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 47.1,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -445,79 +411,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 56,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 56,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 20,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.6,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3980000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3980000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 14220000000
-			},
-			"country comparison to the world:": ""
+			"usd": 14220000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 9550000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9550000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 238000000
-			},
-			"country comparison to the world:": ""
+			"usd": 238000000
 		},
 		"Agriculture - products": "beef, soybeans, cellulose, rice, wheat, lumber, dairy products; fish",
 		"Industries": "food processing, electrical machinery, transportation equipment, petroleum products, textiles, chemicals, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 16.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 9890000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9890000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 7570000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7570000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 711400000,
@@ -528,130 +461,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 40110,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40110,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 34670,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34670,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 4353,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4353,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 53110,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 53110,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 70000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 70000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 76600000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 76600000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-377 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-377 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 6700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6700000000
 		},
 		"Exports - commodities": "beef, soybeans, cellulose, rice, wheat, wood, dairy products; wool",
 		"Exports - partners": "Brazil 21%, Nueva Palmira Free Zone 10.2%, Argentina 7.5%, Chile 5.5%, Russia 5.3% (2010 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 8300000000.000001
-			},
-			"country comparison to the world:": ""
+			"usd": 8300000000.000001
 		},
 		"Imports - commodities": "crude oil (13.4%), refined oil (4.9%), passenger vehicles (3.5%), transportation vehicles (2.7%), vehicles parts (2.2%), cellular phones (2.1%), insecticides (1.7%)",
 		"Imports - partners": "Brazil 18.6%, Argentina 16.7%, China 13.5%, Venezuela 9.1%, US 8.3%, Russia 4.2% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 7700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7700000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 13390000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13390000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 9100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9100000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 300000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Uruguayan pesos (UYU) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 4112000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 953400,
+		"Telephones - mobile cellular": 4112000,
 		"Telephone system": {
 			"general assessment:": "fully digitalized",
 			"domestic:": "most modern facilities concentrated in Montevideo; new nationwide microwave radio relay network; overall fixed-line and mobile-cellular teledensity approaching 150 telephones per 100 persons",
@@ -659,29 +535,23 @@
 		},
 		"Broadcast media": "mixture of privately-owned and state-run broadcast media; more than 100 commercial radio stations and about 20 television channels broadcasting; cable TV is available; large number of community radio and TV stations; adopted the hybrid Japanese/Brazilian HDTV standard (ISDB-T) in December 2010 (2010)",
 		"Internet country code": ".uy",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 765525,
+		"Internet users": 1405000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 58,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 9,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 49,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 20,
+			"under 914 m:": 26
 		},
 		"Pipelines": "gas 226 km; oil 155 km (2010)",
 		"Railways": {
@@ -708,40 +578,40 @@
 			}
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 1600,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1600,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 18,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 2, chemical tanker 4, passenger/cargo 7, petroleum tanker 3, roll on/roll off 1",
-			"foreign-owned:": null,
+			"foreign-owned:": 9,
 			"registered in other countries:": "1 (Liberia 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Montevideo"
 	},
 	"military": {
 		"Military branches": "Uruguayan Armed Forces: Uruguayan National Army (Ejercito Nacional Uruguaya, ENU), Uruguayan National Navy (Armada Nacional del Uruguay; includes naval air arm, Naval Rifle Corps (Cuerpo de Fusileros Navales, Fusna), Maritime Prefecture in wartime), Uruguayan Air Force (Fuerza Aerea Uruguaya, FAU) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; up to 40 years of age for specialists; enlistment is voluntary in peacetime, but the government has the authority to conscript in emergencies; minimum 6-year education (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 771159,
+			"females age 16-49:": 780932
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 649025,
+			"females age 16-49:": 654903
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 27564,
+			"female:": 26811
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2010, the ICJ ruled in favor of Uruguay's operation of two paper mills on the Uruguay River, which forms the border with Argentina; the two countries formed a joint pollution monitoring regime; uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border",
-		"Illicit drugs": {}
+		"Illicit drugs": "small-scale transit country for drugs mainly bound for Europe, often through sea-borne containers; law enforcement corruption; money laundering because of strict banking secrecy laws; weak border control along Brazilian frontier; increasing consumption of cocaine base and synthetic drugs"
 	}
 }

@@ -4,50 +4,304 @@
 	<region><%= doc.region %></region>
 	<background><%= doc.background %></background>
 	<geo>
+		<note><%= getField( doc,'geo', 'Geography - note') %></note>
 		<location>
-			<desc><%= doc.geo.Location %></desc>
+			<desc><%= getField( doc, 'geo', 'Location' ) %></desc>
 			<coordinates>TO DO</coordinates>
 		</location>
-		<area><% var area = doc.geo.Area %>
-			<total unit="<%= area['total:'].unit %>"><%= area['total:'].quantity %></total>
-			<land unit="<%= area['land:'].unit %>"><%= area['land:'].quantity %></land>
-			<water unit="<%= area['water:'].unit %>"><%= area['water:'].quantity %></water>
-			<comparison><%= doc.geo["Area - comparative"] %></comparison>
+		<area>
+			<total unit="<%= getField( doc,'geo','Area','total:','unit') %>"><%= getField(doc,'geo','Area','total:','quantity') %></total>
+			<land unit="<%= getField( doc,'geo','Area','land:','unit') %>"><%= getField(doc,'geo','Area','land:','quantity') %></land>
+			<water unit="<%= getField( doc,'geo','Area','water:','unit') %>"><%= getField(doc,'geo','Area','water:','quantity') %></water>
+			<comparison><%= getField( doc,'geo','Area - comparative') %></comparison>
 		</area>
 		<boundaries>
-			<borders unit="<%= doc.geo['Land boundaries'].unit %>"><%= doc.geo['Land boundaries'].quantity%></borders>
-			<coastline unit="<%= doc.geo['Coastline'].unit %>"><%= doc.geo['Coastline'].quantity %></coastline>
+			<borders unit="<%= getField( doc,'geo','Land boundaries','unit') %>"><%= getField( doc,'geo','Land boundaries','quantity') %></borders>
+			<coastline unit="<%= getField( doc,'geo','Coastline','unit') %>"><%= getField( doc,'geo','Coastline','quantity') %></coastline>
 		</boundaries>
-		<maritime><% var maritime = doc.geo["Maritime claims"] %>
-			<% if ( maritime["territorial sea:"] ) { %><territorial unit="<%= maritime["territorial sea:"].unit %>"><%= maritime["territorial sea:"].quantity %></territorial>
-			<% } %><% if ( maritime["contiguous zone:"] ) { %><contiguous unit="<%= maritime["contiguous zone:"].unit %>"><%= maritime["contiguous zone:"].quantity %></contiguous>
-			<% } %><% if ( maritime["exclusive economic zone:"] ) { %><economic unit="<%= maritime["exclusive economic zone:"].unit %>"><%= maritime["exclusive economic zone:"].quantity %></economic><% } %>
-		</maritime>
-		<climate><%= doc.geo.Climate %></climate>
-		<terrain><%= doc.geo.Terrain %></terrain>
+		<maritime-claims>
+			<territorial unit="<%= getField( doc,'geo','Maritime claims','territorial sea:','unit') %>"><%= getField( doc,'geo','Maritime claims','territorial sea:','quantity') %></territorial>
+			<contiguous unit="<%= getField( doc,'geo','Maritime claims','contiguous zone:','unit') %>"><%= getField( doc,'geo','Maritime claims','contiguous zone:','quantity') %></contiguous>
+			<economic unit="<%= getField( doc,'geo','Maritime claims','exclusive economic zone:','unit') %>"><%= getField( doc,'geo','Maritime claims','exclusive economic zone:','quantity') %></economic>
+			<continental-shelf><%= getField( doc,'geo','Maritime claims','continental shelf:') %></continental-shelf>
+		</maritime-claims>
+		<climate><%= getField( doc,'geo','Climate') %></climate>
+		<terrain><%= getField( doc,'geo','Terrain' ) %></terrain>
 		<elevation>
-			<high><%= doc.geo["Elevation extremes"]["highest point:"] %></high>
-			<low><%= doc.geo["Elevation extremes"]["lowest point:"] %></low>
+			<high><%= getField( doc,'geo','Elevation extremes','highest point:')%></high>
+			<low><%= getField( doc,'geo','Elevation extremes','lowest point:')%></low>
 		</elevation>
-		<resources><%= doc.geo["Natural resources"] %></resources>
-		<land-use><% var land = doc.geo["Land use"] %>
-			<% if ( land["arable land:"] ) { %><arable unit="<%= land["arable land:"].unit %>"><%= land["arable land:"].quantity %></arable>
-			<% } %><% if ( land["permanent crops:"] ) { %><crops unit="<%= land["permanent crops:"].unit %>"><%= land["permanent crops:"].quantity %></crops>
-			<% } %><% if ( land["other:"] ) { %><other unit="<%= land["other:"].unit %>"><%= land["other:"].quantity %></other><% } %>
+		<resources><%= getField( doc,'geo','Natural resources') %></resources>
+		<land-use>
+			<arable unit="<%= getField( doc,'geo','Land use','arable land:','unit') %>"><%= getField( doc,'geo','Land use','arable land:','quantity') %></arable>
+			<crops unit="<%= getField( doc,'geo','Land use','permanent crops:','unit') %>"><%= getField( doc,'geo','Land use','permanent crops:','quantity') %></crops>
+			<other unit="<%= getField( doc,'geo','Land use','other:','unit') %>"><%= getField( doc,'geo','Land use','other:','quantity') %></other>
 		</land-use>
-		
+		<hazards><%= getField( doc,'geo','Natural hazards') %></hazards>
+		<issues><%= getField( doc,'geo','Environment - current issues') %></issues>
+		<water>
+			<irrigated-land unit="<%= getField( doc,'geo','Irrigated land','unit') %>"><%= getField( doc,'geo','Irrigated land','quantity') %></irrigated-land>
+			<renewable-water unit="<%= getField( doc,'geo','Total renewable water resources','unit') %>"><%= getField( doc,'geo','Total renewable water resources','quantity') %></renewable-water>
+			<freshwater-withdrawal>
+				<total unit="<%= getField( doc,'geo','Freshwater withdrawal (domestic/industrial/agricultural)','total:','unit') %>"><%= getField( doc,'geo','Freshwater withdrawal (domestic/industrial/agricultural)','total:','quantity') %></total>
+				<per-capita unit="<%= getField( doc,'geo','Freshwater withdrawal (domestic/industrial/agricultural)','per capita:','unit') %>"><%= getField( doc,'geo','Freshwater withdrawal (domestic/industrial/agricultural)','per capita:','quantity') %></per-capita>
+			</freshwater-withdrawal>
+		</water>
 		<!--
-		"Irrigated land": "NA (2008)",
-		"Natural hazards": "hurricanes; lies outside the Caribbean hurricane belt and is rarely threatened",
-		"Environment - current issues": "NA",
-		"Geography - note": "a flat, riverless island renowned for its white sand beaches; its tropical climate is moderated by constant trade winds from the Atlantic Ocean; the temperature is almost constant at about 27 degrees Celsius (81 degrees Fahrenheit)"
+"geo": {
+
+		"Natural hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
+		"Environment - current issues": "air pollution, principally from vehicle and power plant emissions; nitrogen and phosphorus pollution of the North Sea; drinking and surface water becoming polluted from animal wastes and pesticides",
+		"Environment - international agreements": {
+			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
+			"signed, but not ratified:": "none of the selected agreements"
+		},
+		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
+
 		-->
 	</geo>
-	<people><%= doc.people %></people>
-	<government><%= doc.government %></government>
-	<economy><%= doc.economy %></economy>
-	<communications><%= doc.communications %></communications>
-	<transport><%= doc.transport %></transport>
-	<military><%= doc.military %></military>
-	<issues><%= doc.issues %></issues>
+	<people>
+		<population>
+			<total><%= getField( doc,'people','Population','Population') || getField( doc,'people','Population')  %></total>
+			<birth unit="<%= getField(doc,'people','Birth rate','unit') %>"><%= getField(doc,'people','Birth rate','quantity') %></birth>
+			<death unit="<%= getField(doc,'people','Death rate','unit') %>"><%= getField(doc,'people','Death rate','quantity') %></birth>
+			<migration unit="<%= getField(doc,'people','Net migration rate','unit') %>"><%= getField(doc,'people','Net migration rate','quantity') %></migration>
+			<growth unit="<%= getField(doc,'people','Population growth rate','unit') %>"><%= getField(doc,'people','Population growth rate','quantity') %></growth>
+		</population>
+		<age-distribution unit="percent">
+			<group min="0" max="14"><%= getField(doc,'people','Age structure','0-14 years:','quantity') %></group>
+			<group min="15" max="64"><%= getField(doc,'people','Age structure','15-64 years:','quantity') %></group>
+			<group min="65"><%= getField(doc,'people','Age structure','65 years and over:','quantity') %></group>
+		</age-distribution>
+		<median-age unit="years">
+			<total><%= getField(doc,'people','Median age','total:','quantity') %></total>
+			<male><%= getField(doc,'people','Median age','male:','quantity') %></male>
+			<female><%= getField(doc,'people','Median age','female:','quantity') %></female>
+		</median-age>
+		<urbanization>
+			<urban unit="<%= getField(doc,'people','Urbanization','urban population:','unit') %>"><%= getField(doc,'people','Urbanization','urban population:','quantity') %></urban>
+			<rate unit="<%= getField(doc,'people','Urbanization','rate of urbanization:','unit') %>"><%= getField(doc,'people','Urbanization','rate of urbanization:','quantity') %></urban>
+			<cities><%= getField(doc,'people','Major cities - population') %></cities>
+		</urbanization>
+		<sex unit="male(s)/female">
+			<group name="at birth" max="0"><%= getField(doc,'people','Sex ratio','at birth:','quantity') %></group>
+			<group name="0 to 14" min="0" max="14"><%= getField(doc,'people','Sex ratio','under 15 years:','quantity') %></group>
+			<group name="15 to 64" min="15" max="64"><%= getField(doc,'people','Sex ratio','15-64 years:','quantity') %></group>
+			<group name="65 and over" min="65" max="0"><%= getField(doc,'people','Sex ratio','65 years and over:','quantity') %></group>
+			<group name="total" min="0"><%= getField(doc,'people','Sex ratio','total population:','quantity') %></group>
+		</sex>
+		<infant-mortality>
+			<total unit="<%= getField(doc,'people','Infant mortality rate','total:','unit') %>"><%= getField(doc,'people','Infant mortality rate','total:','quantity') %></total>
+			<male unit="<%= getField(doc,'people','Infant mortality rate','male:','unit') %>"><%= getField(doc,'people','Infant mortality rate','male:','quantity') %></male>
+			<female unit="<%= getField(doc,'people','Infant mortality rate','female:','unit') %>"><%= getField(doc,'people','Infant mortality rate','female:','quantity') %></female>
+		</infant-mortality>
+		<life-expectancy-at-birth>
+			<total unit="<%= getField(doc,'people','Life expectancy at birth','total population:','unit') %>"><%= getField(doc,'people','Life expectancy at birth','total population:','quantity') %></total>
+			<male unit="<%= getField(doc,'people','Life expectancy at birth','male:','unit') %>"><%= getField(doc,'people','Life expectancy at birth','male:','quantity') %></male>
+			<female unit="<%= getField(doc,'people','Life expectancy at birth','female:','unit') %>"><%= getField(doc,'people','Life expectancy at birth','female:','quantity') %></female>
+		</life-expectancy-at-birth>
+		<fertility-rate unit="<%= getField(doc,'people','Total fertility rate','quantity') %>"><%= getField(doc,'people','Total fertility rate','unit') %></fertility-rate>
+		<hiv>
+			<prevalence><%= getField(doc,'people','HIV/AIDS - adult prevalence rate') %></prevalence>
+			<total><%= getField(doc,'people','HIV/AIDS - people living with HIV/AIDS') %></total>
+			<deaths><%= getField(doc,'people','HIV/AIDS - deaths') %></deaths>
+		</hiv>
+		<infectious-disease risk="<%= getField(doc,'people','Major infectious diseases','degree of risk:') %>">
+			<food-or-waterborne><%= getField(doc,'people','Major infectious diseases','food or waterborne diseases:') %></food-or-waterborne>
+			<vectorborne><%= getField(doc,'people','Major infectious diseases','vectorborne diseases:') %></vectorborne>
+			<water-contact><%= getField(doc,'people','Major infectious diseases','water contact diseases:') %></water-contact>
+		</infectious-disease>
+		<drinking-water-source><%= getField(doc,'people','Drinking water source') %></drinking-water-source>
+		<sanitation-access><%= getField(doc,'people','Sanitation facility access') %></sanitation-access>
+		<nationality>
+			<noun><%= getField(doc,'people','Nationality','noun:') %></noun>
+			<adjective><%= getField(doc,'people','Nationality','adjective:') %></adjective>
+		</nationality>
+		<ethnic-groups><%= getField(doc,'people','Ethnic groups') %></ethnic-groups>
+		<religions><%= getField(doc,'people','Religions') %></religions>
+		<languages><%= getField(doc,'people','Languages') %></languages>
+		<literacy>
+			<definition><%= getField(doc,'people','Literacy','definition:') %></definition>
+			<total unit="<%= getField(doc,'people','Literacy','total population:','unit') %>"><%= getField(doc,'people','Literacy','total population:','quantity') %></total>
+			<male unit="<%= getField(doc,'people','Literacy','male:','unit') %>"><%= getField(doc,'people','Literacy','male:','quantity') %></male>
+			<female unit="<%= getField(doc,'people','Literacy','female:','unit') %>"><%= getField(doc,'people','Literacy','female:','quantity') %></female>
+		</literacy>
+		<school-expectancy unit="<%= getField(doc,'people','School life expectancy (primary to tertiary education)','total:','unit') %>"><%= getField(doc,'people','School life expectancy (primary to tertiary education)','total:','quantity') %></school-expectancy>
+		<education-expenditure unit="<%= getField(doc,'people','Education expenditures','unit') %>"><%= getField(doc,'people','Education expenditures','quantity') %></school-expectancy>
+	</people>
+	<government>
+		<country-name>
+			<long><%= getField(doc,'government','Country name','conventional long form:') %></long>
+			<short><%= getField(doc,'government','Country name','conventional short form:') %></short>
+		</country-name>
+		<dependency><%= getField(doc,'government','Dependency status') %></dependency>
+		<government-type><%= getField(doc,'government','Government type') %></government-type>
+		<capital>
+			<name><%= getField(doc,'government','Capital','name:') %></name>
+			<coordinates><%= getField(doc,'government','Capital','geographic coordinates:') %></coordinates>
+			<time-difference><%= getField(doc,'government','Capital','time difference:') %></time-difference>
+		</capital>
+		<administrative-divisions><%= getField(doc,'government','Administrative divisions') %></administrative-divisions>
+		<independence><%= getField(doc,'government','Independence') %></independence>
+		<national-holiday><%= getField(doc,'government','National holiday') %></national-holiday>
+		<legal-system><%= getField(doc,'government','Legal system') %></legal-system>
+		<suffrage><%= getField(doc,'government','Suffrage') %></suffrage>
+		<executive>
+			<head-of-state><%= getField(doc,'government','Executive branch','chief of state:') %></head-of-state>
+			<head-of-government><%= getField(doc,'government','Executive branch','head of government:') %></head-of-government>
+			<cabinet><%= getField(doc,'government','Executive branch','cabinet:') %></cabinet>
+			<elections><%= getField(doc,'government','Executive branch','elections:') %></elections>
+			<election-results><%= getField(doc,'government','Executive branch','election results:') %></election-results>
+		</executive>
+		<legislative>
+			<description><%= getField(doc,'government','Legislative branch','Legislative branch') %></description>
+			<elections><%= getField(doc,'government','Legislative branch','elections:') %></elections>
+			<election-results><%= getField(doc,'government','Legislative branch','election results:') %></election-results>
+		</legislative>
+		<judicial><%= getField(doc,'government','Judicial branch') %></judicial>
+		<parties><%= getField(doc,'government','Political parties and leaders') %></parties>
+		<pressure-groups>TO DO</pressure-groups>
+		<membership><%= getField(doc,'government','International organization participation') %></membership>
+		<representation-in-usa>
+			<chief><%= getField(doc,'government','Diplomatic representation in the US','chief of mission:') %></chief>
+			<chancery><%= getField(doc,'government','Diplomatic representation in the US','chancery:') %></chancery>
+			<telephone><%= getField(doc,'government','Diplomatic representation in the US','telephone:') %></telephone>
+			<FAX><%= getField(doc,'government','Diplomatic representation in the US','FAX:') %></FAX>
+			<consulates><%= getField(doc,'government','Diplomatic representation in the US','consulate(s) general:') %></consulates>
+		</representation-in-usa>
+		<representation-from-usa>
+			<chief><%= getField(doc,'government','Diplomatic representation from the US','chief of mission:') %></chief>
+			<embassy><%= getField(doc,'government','Diplomatic representation from the US','embassy:') %></embassy>
+			<mailing-address><%= getField(doc,'government','Diplomatic representation from the US','mailing address:') %></mailing-address>
+			<telephone><%= getField(doc,'government','Diplomatic representation from the US','telephone:') %></telephone>
+			<FAX><%= getField(doc,'government','Diplomatic representation from the US','FAX:') %></FAX>
+		</representation-from-usa>
+		<flag><%= getField(doc,'government','Flag description') %></flag>
+		<anthem>
+			<name><%= getField(doc,'government','National anthem','name:') %></name>
+			<by><%= getField(doc,'government','National anthem','lyrics/music:') %></by>
+		</anthem>
+	</government>
+	<economy>
+		<overview><%= getField(doc,'economy','Economy - overview') %></overview>
+		<gdp>
+			<purchasing-power-parity><%= getField(doc,'economy','GDP (purchasing power parity)') %></purchasing-power-parity>
+			<official-exchange-rate><%= getField(doc,'economy','GDP (official exchange rate)') %></official-exchange-rate>
+			<real-growth-rate><%= getField(doc,'economy','GDP - real growth rate') %></real-growth-rate>
+			<per-capita><%= getField(doc,'economy','GDP - per capita (PPP)') %></per-capita>
+			<sector unit="%">
+				<agriculture><%= getField(doc,'economy','GDP - composition by sector','agriculture','quantity') %></agriculture>
+				<industry><%= getField(doc,'economy','GDP - composition by sector','industry','quantity') %></industry>
+				<services><%= getField(doc,'economy','GDP - composition by sector','services','quantity') %></services>
+			</sector>
+		</gdp>
+		<labour>
+			<force><%= getField(doc,'economy','Labor force') %></force>
+			<sector>
+				<agriculture><%= getField(doc,'economy','Labor force - by occupation','agriculture') %></agriculture>
+				<industry><%= getField(doc,'economy','Labor force - by occupation','industry') %></industry>
+				<services><%= getField(doc,'economy','Labor force - by occupation','services') %></services>
+			</sector>
+			<unemployment unit="<%= getField(doc,'economy','Unemployment rate','unit') %>"><%= getField(doc,'economy','Unemployment rate','quantity') %></unemployment>
+		</labour>
+		<poverty><%= getField(doc,'economy','Population below poverty line') %></poverty>
+		<household-income>TO DO</household-income>
+		<budget>
+			<revenue unit="USD"><%= getField(doc,'economy','Budget','revenues','usd') %></revenue>
+			<expenditure unit="USD"><%= getField(doc,'economy','Budget','expenditures','usd') %></expenditure>
+		</budget>
+		<public-debt unit="<%= getField(doc,'economy','Public debt','unit') %>"><%= getField(doc,'economy','Public debt','quantity') %></public-debt>
+		<consumer-inflation unit="%"><%= getField(doc,'economy','Inflation rate (consumer prices)','quantity') %></consumer-inflation>
+		<central-bank-discount-rate unit="%"><%= getField(doc,'economy','Central bank discount rate','quantity') %></central-bank-discount-rate>
+		<commercial-prime-lending-rate unit="%"><%= getField(doc,'economy','Commercial bank prime lending rate','quantity') %></commercial-prime-lending-rate>
+		<narrow-money-stock unit="USD"><%= getField(doc,'economy','Stock of narrow money','usd') %></narrow-money-stock>
+		<broad-money-stock unit="USD"><%= getField(doc,'economy','Stock of broad money','usd') %></broad-money-stock>
+		<domestic-credit-stock unit="USD"><%= getField(doc,'economy','Stock of domestic credit','usd') %></domestic-credit-stock>
+		<agriculture-products><%= getField(doc,'economy','Agriculture - products') %></agriculture-products>
+		<industries><%= getField(doc,'economy','Industries') %></industries>
+		<industrial-production-growth><%= getField(doc,'economy','Industrial production growth rate') %></industrial-production-growth>
+		<electricity unit="kWh">
+			<production><%= getField(doc,'economy','Electricity - production','quantity') %></production>
+			<consumption><%= getField(doc,'economy','Electricity - consumption','quantity') %></consumption>
+			<exports><%= getField(doc,'economy','Electricity - exports','quantity') %></exports>
+			<imports><%= getField(doc,'economy','Electricity - imports','quantity') %></imports>
+		</electricity>
+		<oil>
+			<production unit="<%= getField(doc,'economy','Oil - production','unit') %>"><%= getField(doc,'economy','Oil - production','quantity') %></production>
+			<consumption unit="<%= getField(doc,'economy','Oil - consumption','unit') %>"><%= getField(doc,'economy','Oil - consumption','quantity') %></consumption>
+			<exports unit="<%= getField(doc,'economy','Oil - exports','unit') %>"><%= getField(doc,'economy','Oil - exports','quantity') %></exports>
+			<imports unit="<%= getField(doc,'economy','Oil - imports','unit') %>"><%= getField(doc,'economy','Oil - imports','quantity') %></imports>
+			<reserves unit="<%= getField(doc,'economy','Oil - proved reserves','unit') %>"><%= getField(doc,'economy','Oil - proved reserves','quantity') %></reserves>
+		</oil>
+		<natural-gas>
+			<production unit="<%= getField(doc,'economy','Natural gas - production','unit') %>"><%= getField(doc,'economy','Natural gas - production','quantity') %></production>
+			<consumption unit="<%= getField(doc,'economy','Natural gas - consumption','unit') %>"><%= getField(doc,'economy','Natural gas - consumption','quantity') %></consumption>
+			<exports unit="<%= getField(doc,'economy','Natural gas - exports','unit') %>"><%= getField(doc,'economy','Natural gas - exports','quantity') %></exports>
+			<imports unit="<%= getField(doc,'economy','Natural gas - imports','unit') %>"><%= getField(doc,'economy','Natural gas - imports','quantity') %></imports>
+			<reserves unit="<%= getField(doc,'economy','Natural gas - proved reserves','unit') %>"><%= getField(doc,'economy','Natural gas - proved reserves','quantity') %></reserves>
+		</natural-gas>
+		<exports>
+			<total unit="USD"><%= getField(doc,'economy','Exports','Exports','usd') %></total>
+			<commodities><%= getField(doc,'economy','Exports - commodities') %></commodities>
+			<partners><%= getField(doc,'economy','Exports - partners') %></partners>
+		</exports>
+		<imports>
+			<total unit="USD"><%= getField(doc,'economy','Imports','usd') %></total>
+			<commodities><%= getField(doc,'economy','Imports - commodities') %></commodities>
+			<partners><%= getField(doc,'economy','Imports - partners') %></partners>
+		</imports>
+		<external-debt unit="USD"><%= getField(doc,'economy','Debt - external','usd') %></external-debt>
+		<exchange-rates><%= getField(doc,'economy','Exchange rates') %></exchange-rates>
+	</economy>
+	<communications>
+		<telephones>
+			<assessment><%= getField(doc,'communications','Telephone system','general assessment:') %></assessment>
+			<domestic><%= getField(doc,'communications','Telephone system','domestic:') %></domestic>
+			<international><%= getField(doc,'communications','Telephone system','international:') %></international>
+			<land-lines><%= getField(doc,'communications','Telephones - main lines in use') %></land-lines>
+			<mobile><%= getField(doc,'communications','Telephones - mobile cellular') %></mobile>
+		</telephones>
+		<broadcast><%= getField(doc,'communications','Broadcast media') %></broadcast>
+		<internet>
+			<tld><%= getField(doc,'communications','Internet country code') %></tld>
+			<hosts><%= getField(doc,'communications','Internet hosts') %></hosts>
+			<users><%= getField(doc,'communications','Internet users') %></users>
+		</internet>
+	</communications>
+	<transport>
+		<airports>
+			<total><%= getField(doc,'transport','Airports') %></total>
+			<paved>
+				<altitude min="*" max="*"><%= getField(doc,'transport','Airports - with paved runways','total') %></altitude>
+				<altitude min="3047m" max="*"><%= getField(doc,'transport','Airports - with paved runways','over 3,047 m:') %></altitude>
+				<altitude min="2438m" max="3047m"><%= getField(doc,'transport','Airports - with paved runways','2,438 to 3,047 m:') %></altitude>
+				<altitude min="1524m" max="2437m"><%= getField(doc,'transport','Airports - with paved runways','1,524 to 2,437 m:') %></altitude>
+				<altitude min="914m" max="1524m"><%= getField(doc,'transport','Airports - with paved runways','914 to 1,523 m:') %></altitude>
+				<altitude min="*" max="914m"><%= getField(doc,'transport','Airports - with paved runways','under 914 m:') %></altitude>
+			</paved>
+		</airports>
+		<ports-and-terminals><%= getField(doc,'transport','Ports and terminals') %></ports-and-terminals>
+	</transport>
+	<military>
+		<branches><%= getField(doc,'military','Military branches') %></branches>
+		<manpower>
+			<population-available>
+				<male><%= getField(doc,'military','Manpower available for military service','males age 16-49:')%></male>
+				<female><%= getField(doc,'military','Manpower available for military service','females age 16-49:')%></female>
+			</population-available>
+			<fit-for-service>
+				<male><%= getField(doc,'military','Manpower fit for military service','males age 16-49:')%></male>
+				<female><%= getField(doc,'military','Manpower fit for military service','females age 16-49:')%></female>
+			</fit-for-service>
+			<reaching-maturity>
+				<male><%= getField(doc,'military','Manpower reaching militarily significant age annually','male:')%></male>
+				<female><%= getField(doc,'military','Manpower reaching militarily significant age annually','female:')%></female>
+			</reaching-maturity>
+			<notes><%= getField(doc,'military','Military - note') %></notes>
+		</manpower>
+	</military>
+	<issues>
+		<disputes><%= getField(doc,'issues','Disputes - international') %></disputes>
+		<drugs><%= getField(doc,'issues','Illicit drugs') %></drugs>
+	</issues>
 </country>

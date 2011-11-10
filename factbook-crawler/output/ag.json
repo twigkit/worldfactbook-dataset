@@ -7,15 +7,15 @@
 		"Location": "Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 28,
-				"seconds": 0
+				"deg": 28,
+				"min": 0
 			},
 			"E": {
-				"minutes": 3,
-				"seconds": 0
+				"deg": 3,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2381,
@@ -95,13 +95,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "second-largest country in Africa (after Sudan)"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 34994,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 24.2,
@@ -128,30 +125,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.173,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.173,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.69,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.69,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.69,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.69,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.27 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.27 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 66,
@@ -216,24 +201,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.75,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.75,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1%; 0.1% note - no country specific models provided (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "0.1%; 0.1% note - no country specific models provided (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 18000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -274,7 +247,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +264,12 @@
 			"name:": "Algiers",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 36,
-					"seconds": 45
+					"deg": 36,
+					"min": 45
 				},
 				"E": {
-					"minutes": 3,
-					"seconds": 3
+					"deg": 3,
+					"min": 3
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -301,7 +277,6 @@
 		"Administrative divisions": "48 provinces (wilayat, singular - wilaya); Adrar, Ain Defla, Ain Temouchent, Alger, Annaba, Batna, Bechar, Bejaia, Biskra, Blida, Bordj Bou Arreridj, Bouira, Boumerdes, Chlef, Constantine, Djelfa, El Bayadh, El Oued, El Tarf, Ghardaia, Guelma, Illizi, Jijel, Khenchela, Laghouat, Mascara, Medea, Mila, Mostaganem, M'Sila, Naama, Oran, Ouargla, Oum el Bouaghi, Relizane, Saida, Setif, Sidi Bel Abbes, Skikda, Souk Ahras, Tamanghasset, Tebessa, Tiaret, Tindouf, Tipaza, Tissemsilt, Tizi Ouzou, Tlemcen",
 		"Independence": "5 July 1962 (from France)",
 		"National holiday": "Revolution Day, 1 November (1954)",
-		"Constitution": "8 September 1963; revised 19 November 1976; effective 22 November 1976; revised 3 November 1988, 23 February 1989, 28 November 1996, 10 April 2002, and 12 November 2008",
 		"Legal system": "mixed legal system of French civil law and Islamic law; judicial review of legislative acts in ad hoc Constitutional Council composed of various public officials including several Supreme Court justices",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -337,7 +312,10 @@
 			"FAX:": "[213] 21-60-7355"
 		},
 		"Flag description": "two equal vertical bands of green (hoist side) and white; a red, five-pointed star within a red crescent centered over the two-color boundary; the colors represent Islam (green), purity and peace (white), and liberty (red); the crescent and star are also Islamic symbols, but the crescent is more closed than those of other Muslim countries because the Algerians believe the long crescent horns bring happiness",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Kassaman\" (We Pledge)",
+			"lyrics/music:": "Mufdi ZAKARIAH/Mohamed FAWZI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Algeria's economy remains dominated by the state, a legacy of the country's socialist post-independence development model. Gradual liberalization since the mid-1990s has opened up more of the economy, but in recent years Algeria has imposed new restrictions on foreign involvement in its economy and largely halted the privatization of state-owned industries. Hydrocarbons have long been the backbone of the economy, accounting for roughly 60% of budget revenues, 30% of GDP, and over 95% of export earnings. Algeria has the eighth-largest reserves of natural gas in the world and is the fourth-largest gas exporter. It ranks 16th in oil reserves. Thanks to strong hydrocarbon revenues, Algeria has a cushion of $150 billion in foreign currency reserves and a large hydrocarbon stabilization fund. In addition, Algeria's external debt is extremely low at about 1% of GDP. Algeria has struggled to develop industries outside of hydrocarbons in part because of high costs and an inert state bureaucracy. The government's efforts to diversify the economy by attracting foreign and domestic investment outside the energy sector have done little to reduce high poverty and youth unemployment rates. In 2010, Algeria began a five-year, $286 billion development program to update the country's infrastructure and provide jobs. The costly program will boost Algeria's economy in 2011 but worsen the country's budget deficit. Long-term economic challenges include diversification from hydrocarbons, relaxing state control of the economy, and providing adequate jobs for younger Algerians.",
@@ -351,11 +329,8 @@
 			"usd": 160300000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -377,10 +352,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 9877000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 9877000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 14,
@@ -404,11 +376,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 9.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.9,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 23,
@@ -424,16 +393,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 35.3,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 27.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -444,74 +407,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 25.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 79070000000
-			},
-			"country comparison to the world:": ""
+			"usd": 79070000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 109700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 109700000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 12290000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12290000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "wheat, barley, oats, grapes, olives, citrus, fruits; sheep, cattle",
 		"Industries": "petroleum, natural gas, light industries, mining, electrical, petrochemical, food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 34980000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34980000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 28340000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28340000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 273000000,
@@ -522,132 +455,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 2125000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2125000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 325000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 325000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1891000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1891000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 14320,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14320,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 13420000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13420000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 86500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 86500000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 26830000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26830000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 59670000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 59670000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 4502000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4502000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 3959000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3959000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 52660000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52660000000
 		},
 		"Exports - commodities": "petroleum, natural gas, and petroleum products 97%",
 		"Exports - partners": "US 23.2%, Italy 17.23%, Spain 10.83%, France 7.97%, Canada 7.65%, Netherlands 5.19%, Turkey 4.22% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 37070000000
-			},
-			"country comparison to the world:": ""
+			"usd": 37070000000
 		},
 		"Imports - commodities": "capital goods, foodstuffs, consumer goods",
 		"Imports - partners": "France 19.7%, China 11.72%, Italy 10.19%, Spain 8.13%, Germany 5.77%, Turkey 5.05% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 150100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 150100000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4138000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4138000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 19340000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19340000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1844000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1844000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Algerian dinars (DZD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 2576000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 32729999.999999996,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2576000,
+		"Telephones - mobile cellular": 32729999.999999996,
 		"Telephone system": {
 			"general assessment:": "privatization of Algeria's telecommunications sector began in 2000; three mobile cellular licenses have been issued and, in 2005, a consortium led by Egypt's Orascom Telecom won a 15-year license to build and operate a fixed-line network in Algeria; the license will allow Orascom to develop high-speed data and other specialized services and contribute to meeting the large unfulfilled demand for basic residential telephony; Internet broadband services began in 2003",
 			"domestic:": "a limited network of fixed lines with a teledensity of less than 10 telephones per 100 persons is offset by the rapid increase in mobile-cellular subscribership; in 2009, combined fixed-line and mobile-cellular teledensity was roughly 100 telephones per 100 persons",
@@ -655,32 +531,26 @@
 		},
 		"Broadcast media": "state-run Radio-Television Algerienne operates the broadcast media and carries programming in Arabic, Berber dialects, and French; use of satellite dishes is widespread, providing easy access to European and Arab satellite stations; state-run radio operates several national networks and roughly 40 regional radio stations (2007)",
 		"Internet country code": ".dz",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 572,
+		"Internet users": 4700000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 143,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 57,
+			"over 3,047 m:": 12,
+			"2,438 to 3,047 m:": 28,
+			"1,524 to 2,437 m:": 11,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 86,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 19,
+			"914 to 1,523 m:": 41,
+			"under 914 m:": 23
 		},
-		"Heliports": null,
+		"Heliports": 2,
 		"Pipelines": "condensate 2,600 km; gas 16,360 km; liquid petroleum gas 3,447 km; oil 7,611 km; refined products 144 km (2010)",
 		"Railways": {
 			"total:": {
@@ -707,36 +577,42 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 35,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 6, cargo 8, chemical tanker 2, liquefied gas 9, passenger/cargo 3, petroleum tanker 4, roll on/roll off 3",
 			"foreign-owned:": "12 (UK 12) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Algiers, Annaba, Arzew, Bejaia, Djendjene, Jijel, Mostaganem, Oran, Skikda"
 	},
 	"military": {
 		"Military branches": "People's National Army (Armee Nationale Populaire, ANP), Land Forces (Forces Terrestres, FT), Navy of the Republic of Algeria (Marine de la Republique Algerienne, MRA), Air Force (Al-Quwwat al-Jawwiya al-Jaza'eriya, QJJ), Territorial Air Defense Force (2009)",
 		"Military service age and obligation": "19-30 years of age for compulsory military service; conscript service obligation - 18 months (6 months basic training, 12 months civil projects) (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 10273,
+			"females age 16-49:": 10114
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 8622,
+			"females age 16-49:": 8626
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 342895,
+			"female:": 330098
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Algeria, and many other states, rejects Moroccan administration of Western Sahara; the Polisario Front, exiled in Algeria, represents the Sahrawi Arab Democratic Republic; Algeria's border with Morocco remains an irritant to bilateral relations, each nation accusing the other of harboring militants and arms smuggling; dormant disputes include Libyan claims of about 32,000 sq km still reflected on its maps of southeastern Algeria and the FLN's assertions of a claim to Chirac Pastures in southeastern Morocco",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 90000,
 			"IDPs:": "undetermined (civil war during 1990s) (2007)"
 		},
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Algeria is a transit country for men and women trafficked from sub-Saharan Africa to Europe for the purposes of commercial sexual exploitation and involuntary servitude; criminal networks of sub-Saharan nationals in southern Algeria facilitate transit by arranging transportation, forged documents, and promises of employment",
+			"tier rating:": "Tier 2 Watch List - Algeria is placed on the Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking, however, it is making significant efforts to do so; in January 2009, the government approved new legislation that criminalizes trafficking in persons for the purposes of labor and sexual exploitation representing an important step toward complying with international standards; despite these efforts, the government did not show overall progress in punishing trafficking crimes and protecting trafficking victims and continued to lack adequate measures to protect victims and prevent trafficking (2009)"
+		}
 	}
 }

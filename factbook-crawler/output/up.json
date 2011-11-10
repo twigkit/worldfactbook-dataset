@@ -7,15 +7,15 @@
 		"Location": "Eastern Europe, bordering the Black Sea, between Poland, Romania, and Moldova in the west and Russia in the east",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 49,
-				"seconds": 0
+				"deg": 49,
+				"min": 0
 			},
 			"E": {
-				"minutes": 32,
-				"seconds": 0
+				"deg": 32,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 603550,
@@ -99,13 +99,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Sulfur 85, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic position at the crossroads between Europe and Asia; second-largest country in Europe"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 45134,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.7,
@@ -131,28 +128,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.622% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.622% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.62,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.62,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 15.74,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.74,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.09 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.09 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 69,
@@ -214,27 +199,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.28,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.28,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 350000,
+		"HIV/AIDS - deaths": 24000,
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -273,7 +246,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +264,12 @@
 			"name:": "Kyiv (Kiev)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 50,
-					"seconds": 26
+					"deg": 50,
+					"min": 26
 				},
 				"E": {
-					"minutes": 30,
-					"seconds": 31
+					"deg": 30,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -304,7 +280,6 @@
 		},
 		"Independence": "24 August 1991 (from the Soviet Union); notable earlier dates: ca. A.D. 982 (VOLODYMYR I consolidates Kyivan Rus), 1648 (establishment of Cossack Hetmanate)",
 		"National holiday": "Independence Day, 24 August (1991); note - 22 January 1918, the day Ukraine first declared its independence (from Soviet Russia) and the day the short-lived Western and Greater (Eastern) Ukrainian republics united (1919), is now celebrated as Unity Day",
-		"Constitution": "adopted 28 June 1996",
 		"Legal system": "civil law system; judicial review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -338,7 +313,10 @@
 			"FAX:": "[380] (44) 490-4085"
 		},
 		"Flag description": "two equal horizontal bands of azure (top) and golden yellow represent grain fields under a blue sky",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Sche ne vmerla Ukraina\" (Ukraine Has Not Yet Perished)",
+			"lyrics/music:": "Paul CHUBYNSKYI/Mikhail VERBYTSKYI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "After Russia, the Ukrainian republic was far and away the most important economic component of the former Soviet Union, producing about four times the output of the next-ranking republic. Its fertile black soil generated more than one-fourth of Soviet agricultural output, and its farms provided substantial quantities of meat, milk, grain, and vegetables to other republics. Likewise, its diversified heavy industry supplied the unique equipment (for example, large diameter pipes) and raw materials to industrial and mining sites (vertical drilling apparatus) in other regions of the former USSR. Shortly after independence in August 1991, the Ukrainian Government liberalized most prices and erected a legal framework for privatization, but widespread resistance to reform within the government and the legislature soon stalled reform efforts and led to some backtracking. Output by 1999 had fallen to less than 40% of the 1991 level. Ukraine's dependence on Russia for energy supplies and the lack of significant structural reform have made the Ukrainian economy vulnerable to external shocks. Ukraine depends on imports to meet about three-fourths of its annual oil and natural gas requirements and 100% of its nuclear fuel needs. After a two-week dispute that saw gas supplies cutoff to Europe, Ukraine agreed to 10-year gas supply and transit contracts with Russia in January 2009 that brought gas prices to \"world\" levels. The strict terms of the contracts have further hobbled Ukraine's cash-strapped state gas company, Naftohaz. Outside institutions - particularly the IMF - have encouraged Ukraine to quicken the pace and scope of reforms. Ukrainian Government officials eliminated most tax and customs privileges in a March 2005 budget law, bringing more economic activity out of Ukraine's large shadow economy, but more improvements are needed, including fighting corruption, developing capital markets, and improving the legislative framework. Ukraine's economy was buoyant despite political turmoil between the prime minister and president until mid-2008. Real GDP growth exceeded 7% in 2006-07, fueled by high global prices for steel - Ukraine's top export - and by strong domestic consumption, spurred by rising pensions and wages. Ukraine reached an agreement with the IMF for a $16.4 billion Stand-By Arrangement in November 2008 to deal with the economic crisis, but the Ukrainian Government's lack of progress in implementing reforms has twice delayed the release of IMF assistance funds. The drop in steel prices and Ukraine's exposure to the global financial crisis due to aggressive foreign borrowing lowered growth in 2008 and the economy contracted more than 15% in 2009, among the worst economic performances in the world; growth resumed in 2010, buoyed by exports. External conditions are likely to hamper efforts for economic recovery in 2011.",
@@ -352,11 +330,8 @@
 			"usd": 136400000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -378,10 +353,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 22060000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 22060000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 15.8,
@@ -417,16 +389,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 31,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 16.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -437,79 +403,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 38.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 9.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 10.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 20.86,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.86,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 34970000000
-			},
-			"country comparison to the world:": ""
+			"usd": 34970000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 73910000000
-			},
-			"country comparison to the world:": ""
+			"usd": 73910000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 110800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 110800000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 16790000000
-			},
-			"country comparison to the world:": ""
+			"usd": 16790000000
 		},
 		"Agriculture - products": "grain, sugar beets, sunflower seeds, vegetables; beef, milk",
 		"Industries": "coal, electric power, ferrous and nonferrous metals, machinery and transport equipment, chemicals, food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 172900000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 172900000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 134600000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 134600000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 4000000000,
@@ -520,132 +453,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 99930,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 99930,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 348000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 348000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 154400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 154400,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 147600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 147600,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 395000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 395000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 21200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 52000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 52000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 5000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 26830000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26830000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 1104000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1104000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 603000000
-			},
-			"country comparison to the world:": ""
+			"usd": 603000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 49710000000
-			},
-			"country comparison to the world:": ""
+			"usd": 49710000000
 		},
 		"Exports - commodities": "ferrous and nonferrous metals, fuel and petroleum products, chemicals, machinery and transport equipment, food products",
 		"Exports - partners": "Russia 21.1%, Turkey 5.3%, China 3.8% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 53540000000
-			},
-			"country comparison to the world:": ""
+			"usd": 53540000000
 		},
 		"Imports - commodities": "energy, machinery and equipment, chemicals",
 		"Imports - partners": "Russia 28%, Germany 8.6%, China 6.1%, Kazakhstan 4.9%, Poland 4.9% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 32909999999.999996
-			},
-			"country comparison to the world:": ""
+			"usd": 32909999999.999996
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 97500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 97500000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 52310000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52310000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 2327000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2327000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "hryvnia (UAH) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 13026000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 55333000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 13026000,
+		"Telephones - mobile cellular": 55333000,
 		"Telephone system": {
 			"general assessment:": "Ukraine's telecommunication development plan emphasizes improving domestic trunk lines, international connections, and the mobile-cellular system",
 			"domestic:": "at independence in December 1991, Ukraine inherited a telephone system that was antiquated, inefficient, and in disrepair; more than 3.5 million applications for telephones could not be satisfied; telephone density is rising and the domestic trunk system is being improved; about one-third of Ukraine's networks are digital and a majority of regional centers now have digital switching stations; improvements in local networks and local exchanges continue to lag; the mobile-cellular telephone system's expansion has slowed, largely due to saturation of the market which has reached 120 mobile phones per 100 people",
@@ -653,32 +529,26 @@
 		},
 		"Broadcast media": "TV coverage is provided by Ukraine's state-controlled nationwide broadcast channel (UT1) and a number of privately-owned television broadcast networks; Russian television broadcasts have a small audience nationwide, but larger audiences in the eastern and southern regions; multi-channel cable and satellite TV services are available; Ukraine's radio broadcast market, a mix of independent and state-owned networks, is comprised of some 300 stations (2007)",
 		"Internet country code": ".ua",
-		"Internet hosts": {
-			"Internet hosts": 1098000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1098000,
+		"Internet users": 7770000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 425,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 189,
+			"over 3,047 m:": 12,
+			"2,438 to 3,047 m:": 51,
+			"1,524 to 2,437 m:": 24,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 236,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 7,
+			"914 to 1,523 m:": 12,
+			"under 914 m:": 214
 		},
-		"Heliports": null,
+		"Heliports": 7,
 		"Pipelines": "gas 36,493 km; oil 4,514 km; refined products 4,211 km (2010)",
 		"Railways": {
 			"total:": {
@@ -703,38 +573,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,150 km (most on Dnieper River) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "2,150 km (most on Dnieper River) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 160,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 123, chemical tanker 1, passenger 5, passenger/cargo 5, petroleum tanker 9, refrigerated cargo 11, specialized tanker 2",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "197 (Belize 6, Cambodia 37, Comoros 10, Cyprus 2, Dominica 2, Georgia 15, Liberia 16, Malta 30, Marshall Islands 1, Moldova 12, Mongolia 1, Panama 11, Russia 12, Saint Kitts and Nevis 10, Saint Vincent and the Grenadines 12, Sierra Leone 5, Slovakia 7, Tuvalu 1, Vanuatu 3, unknown 4) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Feodosiya (Theodosia), Illichivsk, Mariupol', Mykolayiv, Odesa, Yuzhnyy"
 	},
 	"military": {
 		"Military branches": "Ground Forces, Naval Forces, Air and Air Defense Forces (Viyskovo-Povitryani Syly, VPS) (2010)",
 		"Military service age and obligation": "18-25 years of age for compulsory and voluntary military service; conscript service obligation - 12 months for Army and Air Force, 18 months for Navy (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
+			"males age 16-49:": 10984,
 			"females age 16-49:": 11260000
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6893,
+			"females age 16-49:": 8792
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 246397,
+			"female:": 234916
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "1997 boundary delimitation treaty with Belarus remains un-ratified due to unresolved financial claims, stalling demarcation and reducing border security; delimitation of land boundary with Russia is complete with preparations for demarcation underway; the dispute over the boundary between Russia and Ukraine through the Kerch Strait and Sea of Azov remains unresolved despite a December 2003 framework agreement and ongoing expert-level discussions; Moldova and Ukraine operate joint customs posts to monitor transit of people and commodities through Moldova's break-away Transnistria Region, which remains under OSCE supervision; the ICJ gave Ukraine until December 2006 to reply, and Romania until June 2007 to rejoin, in their dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
-		"Illicit drugs": {}
+		"Illicit drugs": "limited cultivation of cannabis and opium poppy, mostly for CIS consumption; some synthetic drug production for export to the West; limited government eradication program; used as transshipment point for opiates and other illicit drugs from Africa, Latin America, and Turkey to Europe and Russia; Ukraine has improved anti-money-laundering controls, resulting in its removal from the Financial Action Task Force's (FATF's) Noncooperative Countries and Territories List in February 2004; Ukraine's anti-money-laundering regime continues to be monitored by FATF"
 	}
 }

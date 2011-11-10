@@ -7,15 +7,15 @@
 		"Location": "Northern Africa, bordering the North Atlantic Ocean, between Mauritania and Morocco",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 24,
-				"seconds": 30
+				"deg": 24,
+				"min": 30
 			},
 			"W": {
-				"minutes": 13,
-				"seconds": 0
+				"deg": 13,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 266000,
@@ -71,11 +71,11 @@
 		"Environment - international agreements": {
 			"party to:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the waters off the coast are particularly rich fishing areas"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 507160,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -104,25 +104,16 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.097,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.097,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 32.1,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 32.1,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.96,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.96,
+			"unit": "deaths/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -188,11 +179,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.3,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.3,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -206,7 +194,7 @@
 		"Languages": "Hassaniya Arabic, Moroccan Arabic",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -226,23 +214,17 @@
 		"Political pressure groups and leaders": "none",
 		"International organization participation": "AU, WFTU",
 		"Diplomatic representation in the US": "none",
-		"Diplomatic representation from the US": {}
+		"Diplomatic representation from the US": "none"
 	},
 	"economy": {
 		"Economy - overview": "Western Sahara has a small market-based economy whose main industries are fishing, phosphate mining, and pastoral nomadism. The territory's arid desert climate makes sedentary agriculture difficult, and Western Sahara imports much of its food. The Moroccan Government administers Western Sahara's economy and is a source of employment, infrastructure development, and social spending in the territory. Western Sahara's unresolved legal status makes the exploitation of its natural resources a contentious issue between Morocco and the Polisario. Morocco and the EU in July 2006 signed a four-year agreement allowing European vessels to fish off the coast of Morocco, including the disputed waters off the coast of Western Sahara. Oil has never been found in Western Sahara in commercially significant quantities, but Morocco and the Polisario have quarreled over who has the right to authorize and benefit from oil exploration in the territory. Western Sahara's main long-term economic challenge is the development of a more diverse set of industries capable of providing greater employment and income to the territory.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 900000000
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
@@ -252,10 +234,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 144000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 50,
@@ -281,18 +260,12 @@
 		"Industries": "phosphate mining, handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 90000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 90000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 83700000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 83700000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -303,121 +276,88 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1702,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1702,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": "$NA",
 		"Exports - commodities": "phosphates 62%",
 		"Imports": "$NA",
 		"Imports - commodities": "fuel for fishing fleet, foodstuffs",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Moroccan dirhams (MAD) per US dollar -"
 	},
-	"commerce": {
+	"communications": {
 		"Telephones - main lines in use": "about 2,000 (1999 est.)",
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+		"Telephones - mobile cellular": 0,
 		"Telephone system": {
 			"general assessment:": "sparse and limited system",
 			"domestic:": "NA",
 			"international:": "country code - 212; tied into Morocco's system by microwave radio relay, tropospheric scatter, and satellite; satellite earth stations - 2 Intelsat (Atlantic Ocean) linked to Rabat, Morocco"
 		},
 		"Broadcast media": "Morocco's state-owned broadcaster, Radio-Television Marocaine (RTM), operates a radio service from Laayoune and relays TV service; a Polisario-backed radio station also broadcasts (2008)",
-		"Internet country code": {}
+		"Internet country code": ".eh"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 6,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 3,
+			"2,438 to 3,047 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 3,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 1
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Ad Dakhla, Laayoune (El Aaiun)"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 79489,
+			"females age 16-49:": 87362
 		},
-		"Manpower reaching militarily significant age annually": {}
+		"Manpower reaching militarily significant age annually": {
+			"male:": 5523,
+			"female:": 5429
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Many neighboring states reject Moroccan administration of Western Sahara; several states have extended diplomatic relations to the \"Sahrawi Arab Democratic Republic\" represented by the Polisario Front in exile in Algeria, while others recognize Moroccan sovereignty over Western Sahara; most of the approximately 102,000 Sahrawi refugees are sheltered in camps in Tindouf, Algeria"
 	}
 }

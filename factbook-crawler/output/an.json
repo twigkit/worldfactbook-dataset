@@ -7,15 +7,15 @@
 		"Location": "Southwestern Europe, Pyrenees mountains, on the border between France and Spain",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 42,
-				"seconds": 30
+				"deg": 42,
+				"min": 30
 			},
 			"E": {
-				"minutes": 1,
-				"seconds": 30
+				"deg": 1,
+				"min": 30
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 468,
@@ -72,13 +72,10 @@
 			"party to:": "Biodiversity, Desertification, Hazardous Wastes, Ozone Layer Protection",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; straddles a number of important crossroads in the Pyrenees"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 84825,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.6,
@@ -105,32 +102,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.33,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.33,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.66,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.66,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.35,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.35,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -196,11 +181,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.35,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.35,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -243,7 +225,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -257,21 +242,20 @@
 			"name:": "Andorra la Vella",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 42,
-					"seconds": 30
+					"deg": 42,
+					"min": 30
 				},
 				"E": {
-					"minutes": 1,
-					"seconds": 31
+					"deg": 1,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
 			"daylight saving time:": "+1hr, begins last Sunday in March; ends last Sunday in October"
 		},
 		"Administrative divisions": "7 parishes (parroquies, singular - parroquia); Andorra la Vella, Canillo, Encamp, Escaldes-Engordany, La Massana, Ordino, Sant Julia de Loria",
-		"Independence": null,
+		"Independence": 1278,
 		"National holiday": "Our Lady of Meritxell Day, 8 September (1278)",
-		"Constitution": "Andorra's first written constitution was drafted in 1991; approved by referendum 14 March 1993; effective 28 April 1993",
 		"Legal system": "mixed legal system of civil and customary law with canon (religious) law influences",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -303,39 +287,30 @@
 		"Flag description": {
 			"Flag description": "three vertical bands of blue (hoist side), yellow, and red, with the national coat of arms centered in the yellow band; the latter band is slightly wider than the other two so that the ratio of band widths is 8:9:8; the coat of arms features a quartered shield with the emblems of (starting in the upper left and proceeding clockwise): Urgell, Foix, Bearn, and Catalonia; the motto reads VIRTUS UNITA FORTIOR (Strength United is Stronger); the flag combines the blue and red French colors with the red and yellow of Spain to show Franco-Spanish protection"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"El Gran Carlemany\" (The Great Charlemagne)",
+			"lyrics/music:": "Joan BENLLOCH i VIVO/Enric MARFANY BONS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism, commerce, and finance are the mainstays of Andorra's tiny, well-to-do economy, accounting for more than three-quarters of GDP. An estimated 9 million tourists visit annually, attracted by Andorra's duty-free status for some products and by its summer and winter resorts. Andorra's comparative advantage eroded when the borders of neighboring France and Spain opened, providing broader availability of goods and lower tariffs. The banking sector also contributes substantially to the economy. Agricultural production is limited - only 2% of the land is arable - and most food has to be imported. The principal livestock activity is sheep raising. Manufacturing output and exports consist mainly of perfumes and cosmetic products, products of the printing industry, electrical machinery and equipment, clothing, tobacco products, and furniture. Andorra is a member of the EU Customs Union and is treated as an EU member for trade in manufactured goods (no tariffs) and as a non-EU member for agricultural products.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 3300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3300000000
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 38220,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 0.4,
@@ -351,11 +326,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 2.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.9,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA (2008)",
 		"Household income or consumption by percentage share": {
@@ -371,28 +343,19 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"Agriculture - products": "small quantities of rye, wheat, barley, oats, vegetables; sheep",
 		"Industries": "tourism (particularly skiing), cattle raising, timber, banking, tobacco, furniture",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 101000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 101000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 598700000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 598700000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 9000000,
@@ -405,31 +368,19 @@
 			}
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 64000000
-			},
-			"country comparison to the world:": ""
+			"usd": 64000000
 		},
 		"Exports - commodities": "tobacco products, furniture",
 		"Imports": {
-			"Imports": {
-				"usd": 1474000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1474000000
 		},
 		"Imports - commodities": "consumer goods, food, electricity",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 37900,
+		"Telephones - mobile cellular": 64500,
 		"Telephone system": {
 			"general assessment:": "modern automatic telephone system",
 			"domestic:": "modern system with microwave radio relay connections between exchanges",
@@ -437,31 +388,34 @@
 		},
 		"Broadcast media": "1 public television station and 2 public radio stations; about 10 commercial radio stations operating; good reception of radio and TV broadcasts from stations in France and Spain; upgraded to terrestrial digital television broadcasting in 2007; roughly 25 international television channels available (2010)",
 		"Internet country code": ".ad",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 26773,
+		"Internet users": 67100
 	},
 	"transport": {
-		"Roadways": {}
+		"Roadways": {
+			"total:": {
+				"quantity": 320,
+				"unit": "km"
+			},
+			"country comparison to the world:": ""
+		}
 	},
 	"military": {
 		"Military branches": "no regular military forces, Police Service of Andorra (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 22390
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 17977,
+			"females age 16-49:": 17069
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 397,
+			"female:": 347
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France and Spain"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

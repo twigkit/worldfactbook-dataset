@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of 33 coral atolls in the Pacific Ocean, straddling the Equator, as well as the International Date Line; the capital Tarawa is about half way between Hawaii and Australia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 1,
-				"seconds": 25
+				"deg": 1,
+				"min": 25
 			},
 			"E": {
-				"minutes": 173,
-				"seconds": 0
+				"deg": 173,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 811,
@@ -78,13 +78,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "21 of the 33 islands are inhabited; Banaba (Ocean Island) in Kiribati is one of the three great phosphate rock islands in the Pacific Ocean - the others are Makatea in French Polynesia, and Nauru; Kiribati is the only country in the world to fall into all four hemispheres (northern, southern, eastern, and western)"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 100743,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 33.9,
@@ -111,30 +108,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.249,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.249,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 22.73,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.73,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.4,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.4,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.85 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.85 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 44,
@@ -199,11 +184,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.78,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.78,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -232,7 +214,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -246,12 +228,12 @@
 			"name:": "Tarawa",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 1,
-					"seconds": 19
+					"deg": 1,
+					"min": 19
 				},
 				"E": {
-					"minutes": 172,
-					"seconds": 58
+					"deg": 172,
+					"min": 58
 				}
 			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
@@ -259,7 +241,6 @@
 		"Administrative divisions": "3 units; Gilbert Islands, Line Islands, Phoenix Islands; note - in addition, there are 6 districts (Banaba, Central Gilberts, Line Islands, Northern Gilberts, Southern Gilberts, Tarawa) and 21 island councils - one for each of the inhabited islands (Abaiang, Abemama, Aranuka, Arorae, Banaba, Beru, Butaritari, Kanton, Kiritimati, Kuria, Maiana, Makin, Marakei, Nikunau, Nonouti, Onotoa, Tabiteuea, Tabuaeran, Tamana, Tarawa, Teraina)",
 		"Independence": "12 July 1979 (from the UK)",
 		"National holiday": "Independence Day, 12 July (1979)",
-		"Constitution": "12 July 1979",
 		"Legal system": "English common law supplemented by customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -284,7 +265,10 @@
 		"Diplomatic representation in the US": "Kiribati does not have an embassy in the US; there is an honorary consulate in Honolulu",
 		"Diplomatic representation from the US": "the US does not have an embassy in Kiribati; the US ambassador to Fiji is accredited to Kiribati",
 		"Flag description": "the upper half is red with a yellow frigate bird flying over a yellow rising sun, and the lower half is blue with three horizontal wavy white stripes to represent the Pacific ocean; the white stripes represent the three island groups - the Gilbert, Line, and Phoenix Islands; the 17 rays of the sun represent the 16 Gilbert Islands and Banaba (formerly Ocean Island); the frigate bird symbolizes authority and freedom",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Teirake kaini Kiribati\" (Stand Up, Kiribati)",
+			"lyrics/music:": "Urium Tamuera IOTEBA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "A remote country of 33 scattered coral atolls, Kiribati has few natural resources and is one of the least developed Pacific Islands. Commercially viable phosphate deposits were exhausted at the time of independence from the UK in 1979. Copra and fish now represent the bulk of production and exports. The economy has fluctuated widely in recent years. Economic development is constrained by a shortage of skilled workers, weak infrastructure, and remoteness from international markets. Tourism provides more than one-fifth of GDP. Private sector initiatives and a financial sector are in the early stages of development. Foreign financial aid from the EU, UK, US, Japan, Australia, New Zealand, Canada, UN agencies, and Taiwan accounts for 20-25% of GDP. Remittances from seamen on merchant ships abroad account for more than $5 million each year. Kiribati receives around $15 million annually for the government budget from an Australian trust fund.",
@@ -298,11 +282,8 @@
 			"usd": 147000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -324,10 +305,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": "7,870 economically active, not including subsistence farmers (2001 est.)",
-			"country comparison to the world:": ""
-		},
+		"Labor force": "7,870 economically active, not including subsistence farmers (2001 est.)",
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.7,
@@ -343,11 +321,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -363,29 +338,20 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "copra, taro, breadfruit, sweet potatoes, vegetables; fish",
 		"Industries": "fishing, handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 14000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 13020000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13020000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -396,110 +362,62 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 260.8,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 260.8,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-21 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-21 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 17000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17000000
 		},
 		"Exports - commodities": "copra 62%, coconuts, seaweed, fish",
 		"Imports": {
-			"Imports": {
-				"usd": 62000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62000000
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, miscellaneous manufactured goods, fuel",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 10000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Australian dollars (AUD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 4000,
+		"Telephones - mobile cellular": 1000,
 		"Telephone system": {
 			"general assessment:": "generally good quality national and international service",
 			"domestic:": "wire line service available on Tarawa and Kiritimati (Christmas Island); connections to outer islands by HF/VHF radiotelephone; wireless service available in Tarawa since 1999",
@@ -507,25 +425,19 @@
 		},
 		"Broadcast media": "1 television broadcast station that provides about 1 hour of local programming Monday-Friday; multi-channel TV packages provide access to Australian and US stations; 1 government-operated radio station broadcasting on AM, FM, and shortwave (2009)",
 		"Internet country code": ".ki",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 31,
+		"Internet users": 7800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 19,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 4,
+			"1,524 to 2,437 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 15,
+			"914 to 1,523 m:": 11,
+			"under 914 m:": 4
 		},
 		"Roadways": {
 			"total:": {
@@ -534,35 +446,32 @@
 			},
 			"country comparison to the world:": ""
 		},
-		"Waterways": {
-			"Waterways": "5 km (small network of canals in Line Islands) (2007)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "5 km (small network of canals in Line Islands) (2007)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 71,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 6, cargo 32, chemical tanker 6, passenger/cargo 1, petroleum tanker 11, refrigerated cargo 15",
 			"foreign-owned:": "51 (China 28, Hong Kong 1, Italy 1, Singapore 11, South Korea 2, Taiwan 5, Turkey 3) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Betio (Tarawa Atoll), Canton Island, English Harbor"
 	},
 	"military": {
 		"Military branches": "no regular military forces (establishment prevented by the constitution); Police Force (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 25190
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 18364,
+			"females age 16-49:": 20302
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1132,
+			"female:": 1120
 		},
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "Kiribati does not have military forces; defense assistance is provided by Australia and NZ"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

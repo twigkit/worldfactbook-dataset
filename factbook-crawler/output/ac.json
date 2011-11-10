@@ -7,15 +7,15 @@
 		"Location": "Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 17,
-				"seconds": 3
+				"deg": 17,
+				"min": 3
 			},
 			"W": {
-				"minutes": 61,
-				"seconds": 48
+				"deg": 61,
+				"min": 48
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 442.6,
@@ -100,13 +100,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "Antigua has a deeply indented shoreline with many natural harbors and beaches; Barbuda has a large western harbor"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 87884,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 25.8,
@@ -133,32 +130,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.289,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.289,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.31,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.31,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.73,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.73,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.32,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.32,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -224,11 +209,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.05,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.05,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -265,7 +247,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.7,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -277,12 +262,12 @@
 			"name:": "Saint John's",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 17,
-					"seconds": 7
+					"deg": 17,
+					"min": 7
 				},
 				"W": {
-					"minutes": 61,
-					"seconds": 51
+					"deg": 61,
+					"min": 51
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -290,7 +275,6 @@
 		"Administrative divisions": "6 parishes and 2 dependencies*; Barbuda*, Redonda*, Saint George, Saint John, Saint Mary, Saint Paul, Saint Peter, Saint Philip",
 		"Independence": "1 November 1981 (from the UK)",
 		"National holiday": "Independence Day (National Day), 1 November (1981)",
-		"Constitution": "1 November 1981",
 		"Legal system": "common law based on the English model",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -318,7 +302,10 @@
 		},
 		"Diplomatic representation from the US": "the US does not have an embassy in Antigua and Barbuda; the US Ambassador to Barbados is accredited to Antigua and Barbuda",
 		"Flag description": "red, with an inverted isosceles triangle based on the top edge of the flag; the triangle contains three horizontal bands of black (top), light blue, and white, with a yellow rising sun in the black band; the sun symbolizes the dawn of a new era, black represents the African heritage of most of the population, blue is for hope, and red is for the dynamism of the people; the \"V\" stands for victory; the successive yellow, blue, and white coloring is also meant to evoke the country's tourist attractions of sun, sea, and sand",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Fair Antigua, We Salute Thee\"",
+			"lyrics/music:": "Novelle Hamilton RICHARDS/Walter Garnet Picart CHAMBERS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism continues to dominate Antigua and Barbuda's economy, accounting for nearly 60% of GDP and 40% of investment. The dual-island nation's agricultural production is focused on the domestic market and constrained by a limited water supply and a labor shortage stemming from the lure of higher wages in tourism and construction. Manufacturing comprises enclave-type assembly for export with major products being bedding, handicrafts, and electronic components. Prospects for economic growth in the medium term will continue to depend on tourist arrivals from the US, Canada, and Europe and potential damages from natural disasters. After taking office in 2004, the SPENCER government adopted an ambitious fiscal reform program, and was successful in reducing its public debt-to-GDP ratio from 120% to about 90% in 2008. However, the global financial crisis that began in 2008, has led to a significant increase in the national debt, which topped 130% at the end of 2010. The Antiguan economy experienced solid growth from 2003 to 2007, reaching over 12% in 2006 driven by a construction boom in hotels and housing associated with the Cricket World Cup, but growth dropped off in 2008 with the end of the boom. In 2009, Antigua's economy was severely hit by the global economic crisis, suffering from the collapse of its largest financial institution and a steep decline in tourism. This decline continued in 2010 as the country struggled with a yawning budget deficit.",
@@ -331,10 +318,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 1105000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-4.1% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-4.1% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -355,10 +339,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 30000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 7,
@@ -374,11 +355,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 11,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -394,60 +372,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.07,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.07,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 233500000
-			},
-			"country comparison to the world:": ""
+			"usd": 233500000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1186000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1186000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1130000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1130000000
 		},
 		"Agriculture - products": "cotton, fruits, vegetables, bananas, coconuts, cucumbers, mangoes, sugarcane; livestock",
 		"Industries": "tourism, construction, light manufacturing (clothing, alcohol, household appliances)",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 110000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 110000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 102300000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 102300000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -458,110 +412,62 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 5000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 219,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 219,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 4690,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4690,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-211 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-211 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 84300000
-			},
-			"country comparison to the world:": ""
+			"usd": 84300000
 		},
 		"Exports - commodities": "petroleum products, bedding, handicrafts, electronic components, transport equipment, food and live animals",
 		"Imports": {
-			"Imports": {
-				"usd": 522799999.99999994
-			},
-			"country comparison to the world:": ""
+			"usd": 522799999.99999994
 		},
 		"Imports - commodities": "food and live animals, machinery and transport equipment, manufactures, chemicals, oil",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 359800000
-			},
-			"country comparison to the world:": ""
+			"usd": 359800000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "East Caribbean dollars (XCD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 37400,
+		"Telephones - mobile cellular": 134900,
 		"Telephone system": {
 			"general assessment:": "good automatic telephone system",
 			"domestic:": "fixed-line teledensity roughly 40 per 100 persons; mobile-cellular teledensity is some 150 per 100 persons",
@@ -569,25 +475,19 @@
 		},
 		"Broadcast media": "state-controlled Antigua and Barbuda Broadcasting Service (ABS) operates 1 TV station; multi-channel cable TV subscription services are available; 1 radio station operated by ABS;  roughly 15 radio stations, some broadcasting on multiple frequencies (2007)",
 		"Internet country code": ".ag",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 9795,
+		"Internet users": 65000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 3,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"2,438 to 3,047 m:": 1,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 1,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -605,32 +505,35 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1219,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 53, cargo 703, carrier 6, chemical tanker 4, container 412, liquefied gas 12, petroleum tanker 1, refrigerated cargo 9, roll on/roll off 16, vehicle carrier 2",
 			"foreign-owned:": "1,186 (Albania 1, Colombia 1, Denmark 20, Estonia 20, Germany 1050, Greece 5, Iceland 9, Isle of Man 2, Latvia 16, Lithuania 4, Mexico 2, Netherlands 18, Norway 9, NZ 2, Poland 2, Russia 3, Slovenia 1, Sweden 1, Switzerland 7, Turkey 7, US 6)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Saint John's"
 	},
 	"military": {
 		"Military branches": "Royal Antigua and Barbuda Defense Force (includes Antigua and Barbuda Coast Guard) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 21141,
+			"females age 16-49:": 24056
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 17676,
+			"females age 16-49:": 19960
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 806,
+			"female:": 799
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "considered a minor transshipment point for narcotics bound for the US and Europe; more significant as an offshore financial center"
 	}
 }

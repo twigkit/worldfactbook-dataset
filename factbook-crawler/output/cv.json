@@ -7,15 +7,15 @@
 		"Location": "Western Africa, group of islands in the North Atlantic Ocean, west of Senegal",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 16,
-				"seconds": 0
+				"deg": 16,
+				"min": 0
 			},
 			"W": {
-				"minutes": 24,
-				"seconds": 0
+				"deg": 24,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 4033,
@@ -103,13 +103,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location 500 km from west coast of Africa near major north-south sea routes; important communications station; important sea and air refueling site"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 516100,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 32.6,
@@ -136,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.446,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.446,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 21.47,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.47,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.34,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.34,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.66 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.66 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 61,
@@ -224,27 +209,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.49,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.49,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.04,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 775,
+		"HIV/AIDS - deaths": 225,
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -283,7 +256,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -297,12 +273,12 @@
 			"name:": "Praia",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 55
+					"deg": 14,
+					"min": 55
 				},
 				"W": {
-					"minutes": 23,
-					"seconds": 31
+					"deg": 23,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC-1 (4 hours ahead of Washington, DC during Standard Time)"
@@ -310,7 +286,6 @@
 		"Administrative divisions": "17 municipalities (concelhos, singular - concelho); Boa Vista, Brava, Maio, Mosteiros, Paul, Praia, Porto Novo, Ribeira Grande, Sal, Santa Catarina, Santa Cruz, Sao Domingos, Sao Filipe, Sao Miguel, Sao Nicolau, Sao Vicente, Tarrafal",
 		"Independence": "5 July 1975 (from Portugal)",
 		"National holiday": "Independence Day, 5 July (1975)",
-		"Constitution": "25 September 1992; a major revision on 23 November 1995 substantially increased the powers of the president; a 1999 revision created the position of national ombudsman (Provedor de Justica)",
 		"Legal system": "civil law system of Portugal",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -347,7 +322,10 @@
 			"FAX:": "[238] 2-61-13-55"
 		},
 		"Flag description": "five unequal horizontal bands; the top-most band of blue - equal to one half the width of the flag - is followed by three bands of white, red, and white, each equal to 1/12 of the width, and a bottom stripe of blue equal to one quarter of the flag width; a circle of 10, yellow, five-pointed stars is centered on the red stripe and positioned 3/8 of the length of the flag from the hoist side; blue stands for the sea and the sky, the circle of stars represents the 10 major islands united into a nation, the stripes symbolize the road to formation of the country through peace (white) and effort (red)",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Cantico da Liberdade\" (Song of Freedom)",
+			"lyrics/music:": "Amilcar Spencer LOPES/Adalberto Higino Tavares SILVA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "This island economy suffers from a poor natural resource base, including serious water shortages exacerbated by cycles of long-term drought and poor soil for agriculture on several of the islands. The economy is service oriented with commerce, transport, tourism, and public services accounting for about three-fourths of GDP. Although about 40% of the population lives in rural areas, the share of food production in GDP is low. About 82% of food must be imported. The fishing potential, mostly lobster and tuna, is not fully exploited. Cape Verde annually runs a high trade deficit financed by foreign aid and remittances from its large pool of emigrants; remittances supplement GDP by more than 20%. Despite the lack of resources, sound economic management has produced steadily improving incomes. Continued economic reforms are aimed at developing the private sector and attracting foreign investment to diversify the economy. Future prospects depend heavily on the maintenance of aid flows, the encouragement of tourism, remittances, and the momentum of the government's development program. Cape Verde became a member of the WTO in July 2008.",
@@ -361,11 +339,8 @@
 			"usd": 1651000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -387,16 +362,10 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 196100,
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 21,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 30,
@@ -413,11 +382,8 @@
 			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 36.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -428,66 +394,39 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.98,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.98,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 585000000
-			},
-			"country comparison to the world:": ""
+			"usd": 585000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1314000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1314000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1179000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1179000000
 		},
 		"Agriculture - products": "bananas, corn, beans, sweet potatoes, sugarcane, coffee, peanuts; fish",
 		"Industries": "food and beverages, fish processing, shoes and garments, salt mining, ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 250000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 250000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 232500000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 232500000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -498,118 +437,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1619,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1619,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-286 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-286 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 114000000
-			},
-			"country comparison to the world:": ""
+			"usd": 114000000
 		},
 		"Exports - commodities": "fuel, shoes, garments, fish, hides",
 		"Exports - partners": "Spain 53.98%, Portugal 22.23%, Morocco 7.13% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 858000000
-			},
-			"country comparison to the world:": ""
+			"usd": 858000000
 		},
 		"Imports - commodities": "foodstuffs, industrial products, transport equipment, fuels",
 		"Imports - partners": "Portugal 44.86%, Netherlands 15.51%, Spain 6.1%, Italy 4.46%, Brazil 4.21% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 296000000
-			},
-			"country comparison to the world:": ""
+			"usd": 296000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 325000000
-			},
-			"country comparison to the world:": ""
+			"usd": 325000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Cape Verdean escudos (CVE) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 72200,
+		"Telephones - mobile cellular": 392000,
 		"Telephone system": {
 			"general assessment:": "effective system, extensive modernization from 1996-2000 following partial privatization in 1995",
 			"domestic:": "major service provider is Cabo Verde Telecom (CVT); fiber-optic ring, completed in 2001, links all islands providing Internet access and ISDN services; cellular service introduced in 1998; broadband services launched in 2004",
@@ -617,27 +505,21 @@
 		},
 		"Broadcast media": "state-run TV and radio broadcast network plus a growing number of private broadcasters; Portuguese public TV and radio services for Africa are available; transmissions of a few international broadcasters are obtainable (2007)",
 		"Internet country code": ".cv",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 26,
+		"Internet users": 150000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 10,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 9,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 1,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -655,32 +537,35 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 13,
 			"country comparison to the world:": "",
 			"by type:": "cargo 3, chemical tanker 3, passenger/cargo 7",
 			"foreign-owned:": "3 (Spain 1, UK 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Porto Grande"
 	},
 	"military": {
 		"Military branches": "Armed Forces: Army (also called the National Guard), Cape Verde Coast Guard (Guardia Costeira de Cabo Verde, GCCV; includes Air Force (Forca Aerea Caboverdaine), naval infantry) (2011)",
 		"Military service age and obligation": "18 years of age (est.) for selective compulsory military service; 14-month conscript service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 132087,
+			"females age 16-49:": 136956
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 106864,
+			"females age 16-49:": 117518
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 6029,
+			"female:": 6026
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "used as a transshipment point for Latin American cocaine destined for Western Europe, particularly because of Lusophone links to Brazil, Portugal, and Guinea-Bissau; has taken steps to deter drug money laundering, including a 2002 anti-money laundering reform that criminalizes laundering the proceeds of narcotics trafficking and other crimes and the establishment in 2008 of a Financial Intelligence Unit (2008)"
 	}
 }

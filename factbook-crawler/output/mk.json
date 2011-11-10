@@ -7,15 +7,15 @@
 		"Location": "Southeastern Europe, north of Greece",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 41,
-				"seconds": 50
+				"deg": 41,
+				"min": 50
 			},
 			"E": {
-				"minutes": 22,
-				"seconds": 0
+				"deg": 22,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 25713,
@@ -74,7 +74,7 @@
 			"unit": "cu km"
 		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": null,
+			"total:": 2.27,
 			"per capita:": {
 				"quantity": 1118,
 				"unit": "cu m/yr"
@@ -86,13 +86,10 @@
 			"party to:": "Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; major transportation corridor from Western and Central Europe to Aegean Sea and Southern Europe to Western Europe"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 2077,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18.5,
@@ -119,30 +116,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.248,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.248,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.87,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.87,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.91,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.91,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.48 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.48 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 59,
@@ -207,24 +192,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.58,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.58,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2007 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2007 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2003 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2007 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2007 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2003 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -263,7 +236,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -277,12 +250,12 @@
 			"name:": "Skopje",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 42,
-					"seconds": 0
+					"deg": 42,
+					"min": 0
 				},
 				"E": {
-					"minutes": 21,
-					"seconds": 26
+					"deg": 21,
+					"min": 26
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -293,9 +266,6 @@
 		},
 		"Independence": "8 September 1991 (referendum by registered voters endorsed independence from Yugoslavia)",
 		"National holiday": "Independence Day, 8 September (1991); also known as National Day",
-		"Constitution": {
-			"Constitution": "adopted 17 November 1991, effective 20 November 1991; amended November 2001, 2005 and in 2009"
-		},
 		"Legal system": "civil law system; judicial review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -332,7 +302,10 @@
 			"FAX:": "[389] 2 310-2499"
 		},
 		"Flag description": "a yellow sun (the Sun of Liberty) with eight broadening rays extending to the edges of the red field; the red and yellow colors have long been associated with Macedonia",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Denes Nad Makedonija\" (Today Over Macedonia)",
+			"lyrics/music:": "Vlado MALESKI/Todor SKALOVSKI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Having a small, open economy makes Macedonia vulnerable to economic developments in Europe and dependent on regional integration and progress toward EU membership for continued economic growth. At independence in September 1991, Macedonia was the least developed of the Yugoslav republics, producing a mere 5% of the total federal output of goods and services. The collapse of Yugoslavia ended transfer payments from the central government and eliminated advantages from inclusion in a de facto free trade area. An absence of infrastructure, UN sanctions on the downsized Yugoslavia, and a Greek economic embargo over a dispute about the country's constitutional name and flag hindered economic growth until 1996. Since then, Macedonia has maintained macroeconomic stability with low inflation, but it has so far lagged the region in attracting foreign investment and creating jobs, despite making extensive fiscal and business sector reforms. Official unemployment remains high at 31.7%, but may be overstated based on the existence of an extensive gray market, estimated to be more than 20% of GDP, that is not captured by official statistics. In the wake of the global economic downturn, Macedonia has experienced decreased foreign direct investment, lowered credit, and a large trade deficit. However, as a result of conservative fiscal policies and a sound financial system, in 2010 the country received slightly improved credit ratings. Macroeconomic stability also was maintained by a prudent monetary policy, which kept the domestic currency at the pegged level against the euro, while interest rates were falling. As a result, GDP growth was modest, but positive, in 2010.",
@@ -346,11 +319,8 @@
 			"usd": 9108000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -372,10 +342,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 949300,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 19.9,
@@ -391,11 +358,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 31.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 31.7,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 28.7,
@@ -411,16 +375,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 23.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -431,18 +389,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 34.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34.2,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -452,58 +404,34 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 8.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.2,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1146000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1146000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 4134000000.0000005
-			},
-			"country comparison to the world:": ""
+			"usd": 4134000000.0000005
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 4001000000.0000005
-			},
-			"country comparison to the world:": ""
+			"usd": 4001000000.0000005
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 2647000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2647000000
 		},
 		"Agriculture - products": "grapes, tobacco, vegetables, fruits; milk, eggs",
 		"Industries": "food processing, beverages, textiles, chemicals, iron, steel, cement, energy, pharmaceuticals",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 6819000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6819000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 8189000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8189000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -514,125 +442,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 18200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18200,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 8594,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8594,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 18200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18200,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 117400000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 117400000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 117400000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 117400000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-328 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-328 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 3171000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3171000000
 		},
 		"Exports - commodities": "food, beverages, tobacco; textiles, miscellaneous manufactures, iron and steel",
 		"Exports - partners": "Germany 20.31%, Greece 13.09%, Italy 11.08%, Bulgaria 10.61%, Croatia 7.74% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 5113000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5113000000
 		},
 		"Imports - commodities": "machinery and equipment, automobiles, chemicals, fuels, food products",
 		"Imports - partners": "Germany 15.11%, Greece 14.88%, Bulgaria 9.08%, Italy 7.68%, Turkey 7.59%, Slovenia 6.26%, Hungary 4.31% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 2217000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2217000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 5485000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5485000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 3739000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3739000000
 		},
 		"Stock of direct foreign investment - abroad": "$NA (31 December 2010)",
-		"Exchange rates": {}
+		"Exchange rates": "Macedonian denars (MKD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1943000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 442200,
+		"Telephones - mobile cellular": 1943000,
 		"Telephone system": {
 			"general assessment:": "competition from the mobile-cellular segment of the telecommunications market has led to a drop in fixed-line telephone subscriptions",
 			"domestic:": "combined fixed-line and mobile-cellular telephone subscribership about 115 per 100 persons",
@@ -640,26 +514,20 @@
 		},
 		"Broadcast media": "public television broadcaster operates 3 national channels and a satellite network; 5 privately-owned TV channels broadcast nationally using terrestrial transmitters and about 15 broadcast on national level via satellite; roughly 75 local commercial TV stations broadcasting; large number of cable operators offering domestic and international programming; public radio broadcaster operates over multiple stations; 3 privately-owned radio stations broadcast nationally; about 70 local commercial radio stations functioning (2010)",
 		"Internet country code": ".mk",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 60533,
+		"Internet users": 1057000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 14,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"under 914 m:": null
+			"total:": 10,
+			"2,438 to 3,047 m:": 2,
+			"under 914 m:": 8
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 3
 		},
 		"Pipelines": "gas 268 km; oil 120 km (2010)",
 		"Railways": {
@@ -670,30 +538,36 @@
 			"country comparison to the world:": "",
 			"standard gauge:": "699 km 1.435-m gauge (234 km electrified) (2010)"
 		},
-		"Roadways": {}
+		"Roadways": {
+			"total:": "13,736 km (includes 216 km of expressways) (2010)",
+			"country comparison to the world:": ""
+		}
 	},
 	"military": {
 		"Military branches": "Army of the Republic of Macedonia (ARM): Joint Operational Command, with subordinate Air Wing (Makedonsko Voeno Vozduhoplovstvo, MVV); Special Operations Regiment; Logistic Support Command; Training Command (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 532196,
+			"females age 16-49:": 511964
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 443843,
+			"females age 16-49:": 426251
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 16144,
+			"female:": 14920
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Kosovo and Macedonia completed demarcation of their boundary in September 2008; Greece continues to reject the use of the name Macedonia or Republic of Macedonia",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "fewer than 1,000 (ethnic conflict in 2001) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "major transshipment point for Southwest Asian heroin and hashish; minor transit point for South American cocaine destined for Europe; although not a financial center and most criminal activity is thought to be domestic, money laundering is a problem due to a mostly cash-based economy and weak enforcement"
 	}
 }

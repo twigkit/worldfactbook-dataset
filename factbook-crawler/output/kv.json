@@ -7,15 +7,15 @@
 		"Location": "Southeast Europe, between Serbia and Macedonia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 42,
-				"seconds": 35
+				"deg": 42,
+				"min": 35
 			},
 			"E": {
-				"minutes": 21,
-				"seconds": 0
+				"deg": 21,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 10887,
@@ -50,13 +50,10 @@
 			"lowest point:": "Drini i Bardhe/Beli Drim 297 m (located on the border with Albania)",
 			"highest point:": "Gjeravica/Deravica 2,656 m"
 		},
-		"Natural resources": {}
+		"Natural resources": "nickel, lead, zinc, magnesium, lignite, kaolin, chrome, bauxite"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1825,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 27.2,
@@ -127,7 +124,10 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -141,12 +141,12 @@
 			"name:": "Pristina (Prishtine, Prishtina)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 42,
-					"seconds": 40
+					"deg": 42,
+					"min": 40
 				},
 				"E": {
-					"minutes": 21,
-					"seconds": 10
+					"deg": 21,
+					"min": 10
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -155,7 +155,6 @@
 		"Administrative divisions": "30 municipalities (komunat, singular - komuna in Albanian; opstine, singular - opstina in Serbian); Decan (Decani), Dragash (Dragas), Ferizaj (Urosevac), Fushe Kosove (Kosovo Polje), Gjakove (Dakovica), Gjilan (Gnjilane), Gllogovc/Drenas (Glogovac), Istog (Istok), Kacanik, Kamenice/Dardana (Kamenica), Kline (Klina), Leposaviq (Leposavic), Lipjan (Lipljan), Malisheve (Malisevo), Mitrovice (Mitrovica), Novoberde (Novo Brdo), Obiliq (Obilic), Peje (Pec), Podujeve (Podujevo), Prishtine (Pristina), Prizren, Rahovec (Orahovac), Shterpce (Strpce), Shtime (Stimlje), Skenderaj (Srbica), Suhareke (Suva Reka), Viti (Vitina), Vushtrri (Vucitrn), Zubin Potok, Zvecan",
 		"Independence": "17 February 2008 (from Serbia)",
 		"National holiday": "Independence Day, 17 February (2008)",
-		"Constitution": "adopted by the Kosovo Assembly 9 April 2008; effective 15 June 2008",
 		"Legal system": "evolving legal system; mixture of applicable Kosovo law, UNMIK laws and regulations, and applicable laws of the Former Socialist Republic of Yugoslavia that were in effect in Kosovo as of 22 March 1989",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -192,31 +191,25 @@
 			"FAX:": "[381] 38 549 890"
 		},
 		"Flag description": "centered on a dark blue field is the geographical shape of Kosovo in a gold color surmounted by six white, five-pointed stars arrayed in a slight arc; each star represents one of the major ethnic groups of Kosovo: Albanians, Serbs, Turks, Gorani, Roma, and Bosniaks",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Europe\"",
+			"lyrics/music:": "none/Mendi MENGJIQI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Over the past few years Kosovo's economy has shown significant progress in transitioning to a market-based system and maintaining macroeconomic stability, but it is still highly dependent on the international community and the diaspora for financial and technical assistance. Remittances from the diaspora - located mainly in Germany, Switzerland, and the Nordic countries - are estimated to account for about 13-15% of GDP, and donor-financed activities and aid for another 7.5%. Kosovo's citizens are the poorest in Europe with an average annual per capita income of only $2,800. Unemployment, around 40% of the population, is a significant problem that encourages outward migration and black market activity. Most of Kosovo's population lives in rural towns outside of the capital, Pristina. Inefficient, near-subsistence farming is common - the result of small plots, limited mechanization, and lack of technical expertise. With international assistance, Kosovo has been able to privatize 50% of its state-owned enterprises (SOEs) by number, and over 90% of SOEs by value. Minerals and metals - including lignite, lead, zinc, nickel, chrome, aluminum, magnesium, and a wide variety of construction materials - once formed the backbone of industry, but output has declined because of ageing equipment and insufficient investment. A limited and unreliable electricity supply due to technical and financial problems is a major impediment to economic development, but Kosovo has received technical assistance to help improve accounting and controls. The US Government is cooperating with the Ministry for Energy and Mines and the World Bank to prepare a commercial tender for a project to include construction of a new power plant and the development of a coal mine to supply the new power plant as well as two existing plants. Privatization of the distribution and supply divisions of Kosovo Energy Corporation is also planned. The official currency of Kosovo is the euro, but the Serbian dinar is also used in Serb enclaves. Kosovo's tie to the euro has helped keep core inflation low. Kosovo has one of the most open economies in the region, and continues to work with the international community on measures to improve the business environment and attract foreign investment. Kosovo has maintained a budget surplus as a result of efficient value added tax (VAT) collection at the borders and inefficient budget execution. In order to help integrate Kosovo into regional economic structures, UNMIK signed (on behalf of Kosovo) its accession to the Central Europe Free Trade Area (CEFTA) in 2006. However, Serbia and Bosnia have refused to recognize Kosovo's customs stamp or extend reduced tariff privileges for Kosovo products under CEFTA. In July 2008, Kosovo received pledges of $1.9 billion from 37 countries in support of its reform priorities. In June 2009, Kosovo joined the World Bank and International Monetary Fund, and Kosovo began servicing its share of the former Yugoslavia's debt.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 11970000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11970000000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 5601000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -232,10 +225,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 310000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 23.6,
@@ -245,26 +235,17 @@
 			"services:": "NA (2010)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 45,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 45,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 30,
 			"unit": "%"
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 30,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 35,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -276,108 +257,69 @@
 		},
 		"Public debt": "NA% of GDP (2010)",
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 14.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.4,
+			"unit": "%"
 		},
 		"Agriculture - products": "wheat, corn, berries, potatoes, peppers",
 		"Industries": "mineral mining, construction materials, base metals, leather, machinery, appliances",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 4777000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4777000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 5388000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5388000000,
+			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": "NA bbl/day",
 		"Oil - proved reserves": "NA bbl",
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": "NA cu m",
-		"Current account balance": {
-			"Current account balance": "$-2.716 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.716 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 527000000
-			},
-			"country comparison to the world:": ""
+			"usd": 527000000
 		},
 		"Exports - commodities": "mining and processed metal products, scrap metals, leather products, machinery, appliances",
-		"Imports": {
-			"Imports": "$2.6 billion (2007 est.) (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Imports": "$2.6 billion (2007 est.) (2007 est.)",
 		"Imports - commodities": "foodstuffs, wood, petroleum, chemicals, machinery and electrical equipment",
 		"Reserves of foreign exchange and gold": "$NA",
 		"Debt - external": "$NA",
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 21200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 21200000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {}
+	"communications": {
+		"Telephones - main lines in use": 106300,
+		"Telephones - mobile cellular": 562000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 8,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"under 914 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"under 914 m:": 4
 		},
-		"Heliports": null,
+		"Heliports": 2,
 		"Railways": {
 			"total:": {
 				"quantity": 430,
@@ -386,14 +328,33 @@
 			"country comparison to the world:": "",
 			"standard gauge:": "430 km 1.435-m gauge (2007)"
 		},
-		"Roadways": {}
+		"Roadways": {
+			"total:": {
+				"quantity": 1926,
+				"unit": "km"
+			},
+			"country comparison to the world:": "",
+			"paved:": {
+				"quantity": 1668,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 258,
+				"unit": "km"
+			}
+		}
 	},
 	"military": {
 		"Military branches": "Kosovo Security Force (2010)",
-		"Manpower fit for military service": {}
+		"Manpower fit for military service": {
+			"males age 16-49:": 430926,
+			"females age 16-49:": 389614
+		}
 	},
 	"issues": {
 		"Disputes - international": "Serbia with several other states protest the US and other states' recognition of Kosovo's declaring itself as a sovereign and independent state in February 2008; ethnic Serbian municipalities along Kosovo's northern border challenge final status of Kosovo-Serbia boundary; several thousand NATO-led KFOR peacekeepers under UNMIK authority continue to keep the peace within Kosovo between the ethnic Albanian majority and the Serb minority in Kosovo; Kosovo and Macedonia completed demarcation of their boundary in September 2008",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"IDP's:": 21000
+		}
 	}
 }

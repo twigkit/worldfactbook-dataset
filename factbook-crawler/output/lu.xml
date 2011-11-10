@@ -1,0 +1,307 @@
+<country>
+	<code>lu</code>
+	<name>Luxembourg</name>
+	<region>Europe</region>
+	<background>Founded in 963, Luxembourg became a grand duchy in 1815 and an independent state under the Netherlands. It lost more than half of its territory to Belgium in 1839 but gained a larger measure of autonomy. Full independence was attained in 1867. Overrun by Germany in both world wars, it ended its neutrality in 1948 when it entered into the Benelux Customs Union and when it joined NATO the following year. In 1957, Luxembourg became one of the six founding countries of the European Economic Community (later the European Union), and in 1999 it joined the euro currency area.</background>
+	<geo>
+		<note>landlocked; the only Grand Duchy in the world</note>
+		<location>
+			<desc>Western Europe, between France and Germany</desc>
+			<coordinates>TO DO</coordinates>
+		</location>
+		<area>
+			<total unit="sq km">2586</total>
+			<land unit="sq km">2586</land>
+			<water unit="sq km">0</water>
+			<comparison>slightly smaller than Rhode Island</comparison>
+		</area>
+		<boundaries>
+			<borders unit=""></borders>
+			<coastline unit="km">0</coastline>
+		</boundaries>
+		<maritime-claims>
+			<territorial unit=""></territorial>
+			<contiguous unit=""></contiguous>
+			<economic unit=""></economic>
+			<continental-shelf></continental-shelf>
+		</maritime-claims>
+		<climate>modified continental with mild winters, cool summers</climate>
+		<terrain>mostly gently rolling uplands with broad, shallow valleys; uplands to slightly mountainous in the north; steep slope down to Moselle flood plain in the southeast</terrain>
+		<elevation>
+			<high>Buurgplaatz 559 m</high>
+			<low>Moselle River 133 m</low>
+		</elevation>
+		<resources>iron ore (no longer exploited), arable land</resources>
+		<land-use>
+			<arable unit="%">27.42</arable>
+			<crops unit="%">0.69</crops>
+			<other unit=""></other>
+		</land-use>
+		<hazards>NA</hazards>
+		<issues>air and water pollution in urban areas, soil pollution of farmland</issues>
+		<water>
+			<irrigated-land unit=""></irrigated-land>
+			<renewable-water unit="cu km">1.6</renewable-water>
+			<freshwater-withdrawal>
+				<total unit="cu km/yr">0.06</total>
+				<per-capita unit="cu m/yr">121</per-capita>
+			</freshwater-withdrawal>
+		</water>
+		<!--
+"geo": {
+
+		"Natural hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
+		"Environment - current issues": "air pollution, principally from vehicle and power plant emissions; nitrogen and phosphorus pollution of the North Sea; drinking and surface water becoming polluted from animal wastes and pesticides",
+		"Environment - international agreements": {
+			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
+			"signed, but not ratified:": "none of the selected agreements"
+		},
+		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
+
+		-->
+	</geo>
+	<people>
+		<population>
+			<total>503302</total>
+			<birth unit="births/1,000 population">11.69</birth>
+			<death unit="deaths/1,000 population">8.48</birth>
+			<migration unit="migrant(s)/1,000 population">8.24</migration>
+			<growth unit="%">1.145</growth>
+		</population>
+		<age-distribution unit="percent">
+			<group min="0" max="14">18.2</group>
+			<group min="15" max="64">66.9</group>
+			<group min="65"></group>
+		</age-distribution>
+		<median-age unit="years">
+			<total>39.4</total>
+			<male>38.4</male>
+			<female>40.4</female>
+		</median-age>
+		<urbanization>
+			<urban unit="% of total population">85</urban>
+			<rate unit="% annual rate of change">1.4</urban>
+			<cities>LUXEMBOURG (capital) 90,000 (2009)</cities>
+		</urbanization>
+		<sex unit="male(s)/female">
+			<group name="at birth" max="0">1.066</group>
+			<group name="0 to 14" min="0" max="14">1.07</group>
+			<group name="15 to 64" min="15" max="64">1.01</group>
+			<group name="65 and over" min="65" max="0">0.7</group>
+			<group name="total" min="0">0.97</group>
+		</sex>
+		<infant-mortality>
+			<total unit="deaths/1,000 live births">4.44</total>
+			<male unit="deaths/1,000 live births">4.46</male>
+			<female unit="deaths/1,000 live births">4.42</female>
+		</infant-mortality>
+		<life-expectancy-at-birth>
+			<total unit="years">79.61</total>
+			<male unit="years">76.36</male>
+			<female unit="years">83.08</female>
+		</life-expectancy-at-birth>
+		<fertility-rate unit="1.77">children born/woman</fertility-rate>
+		<hiv>
+			<prevalence>[object Object]</prevalence>
+			<total>fewer than 1,000 (2009 est.)</total>
+			<deaths>fewer than 100 (2009 est.)</deaths>
+		</hiv>
+		<infectious-disease risk="">
+			<food-or-waterborne></food-or-waterborne>
+			<vectorborne></vectorborne>
+			<water-contact></water-contact>
+		</infectious-disease>
+		<drinking-water-source>[object Object]</drinking-water-source>
+		<sanitation-access>[object Object]</sanitation-access>
+		<nationality>
+			<noun>Luxembourger(s)</noun>
+			<adjective>Luxembourg</adjective>
+		</nationality>
+		<ethnic-groups>Luxembourger 63.1%, Portuguese 13.3%, French 4.5%, Italian 4.3%, German 2.3%, other EU 7.3%, other 5.2% (2000 census)</ethnic-groups>
+		<religions>Roman Catholic 87%, other (includes Protestant, Jewish, and Muslim) 13% (2000)</religions>
+		<languages>Luxembourgish (national language), German (administrative language), French (administrative language)</languages>
+		<literacy>
+			<definition>age 15 and over can read and write</definition>
+			<total unit="%">100</total>
+			<male unit="%">100</male>
+			<female unit="%">100</female>
+		</literacy>
+		<school-expectancy unit="years">13</school-expectancy>
+		<education-expenditure unit=""></school-expectancy>
+	</people>
+	<government>
+		<country-name>
+			<long>Grand Duchy of Luxembourg</long>
+			<short>Luxembourg</short>
+		</country-name>
+		<dependency></dependency>
+		<government-type>constitutional monarchy</government-type>
+		<capital>
+			<name>Luxembourg</name>
+			<coordinates>[object Object]</coordinates>
+			<time-difference>UTC+1 (6 hours ahead of Washington, DC during Standard Time)</time-difference>
+		</capital>
+		<administrative-divisions>3 districts; Diekirch, Grevenmacher, Luxembourg</administrative-divisions>
+		<independence>1839</independence>
+		<national-holiday>National Day (Birthday of Grand Duchess Charlotte) 23 June; note - the actual date of birth was 23 January 1896, but the festivities were shifted by five months to allow observance during a more favorable time of year</national-holiday>
+		<legal-system>civil law system</legal-system>
+		<suffrage>18 years of age; universal and compulsory</suffrage>
+		<executive>
+			<head-of-state>Grand Duke HENRI (since 7 October 2000); Heir Apparent Prince GUILLAUME (son of the monarch, born 11 November 1981)</head-of-state>
+			<head-of-government>Prime Minister Jean-Claude JUNCKER (since 20 January 1995); Deputy Prime Minister Jean ASSELBORN (since 31 July 2004)</head-of-government>
+			<cabinet>Council of Ministers recommended by the prime minister and appointed by the monarch</cabinet>
+			<elections>the monarchy is hereditary; following popular elections to the Chamber of Deputies, the leader of the majority party or the leader of the majority coalition usually appointed prime minister by the monarch; the deputy prime minister appointed by the monarch; they are responsible to the Chamber of Deputies</elections>
+			<election-results></election-results>
+		</executive>
+		<legislative>
+			<description>unicameral Chamber of Deputies or Chambre des Deputes (60 seats; members elected by popular vote to serve five-year terms)</description>
+			<elections>last held on 7 June 2009 (next to be held by June 2014)</elections>
+			<election-results>percent of vote by party - CSV 38%, LSAP 21.6%, DP 15%, Green Party 11.7%, ADR 8.1%, The Left 3.3%, other 2.3%; seats by party - CSV 26, LSAP 13, DP 9, Green Party 7, ADR 4, The Left 1</election-results>
+		</legislative>
+		<judicial>judicial courts and tribunals (three Justices of the Peace, two district courts, and one Supreme Court of Appeals); administrative courts and tribunals (State Prosecutor's Office, administrative courts and tribunals, and the Constitutional Court); judges for all courts are appointed for life by the monarch</judicial>
+		<parties>Alternative Democratic Reform Party or ADR [Robert MEHLEN]; Christian Social People's Party or CSV [Michel WOLTER]; dei Lenk/la Gauche (the Left); Democratic Party or DP [Claude MEISCH]; Green Party [Francois BAUSCH]; Luxembourg Socialist Workers' Party or LSAP [Alex BODRY]; other minor parties</parties>
+		<pressure-groups>TO DO</pressure-groups>
+		<membership>ADB (nonregional member), Australia Group, Benelux, CE, EAPC, EBRD, EIB, EMU, ESA, EU, FAO, FATF, IAEA, IBRD, ICAO, ICC, ICRM, IDA, IEA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIF, OPCW, OSCE, PCA, Schengen Convention, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UPU, WCO, WHO, WIPO, WMO, WTO, ZC</membership>
+		<representation-in-usa>
+			<chief>Ambassador Jean-Paul SENNINGER</chief>
+			<chancery>2200 Massachusetts Avenue NW, Washington, DC 20008</chancery>
+			<telephone>[1] (202) 265-4171 through 72</telephone>
+			<FAX>[1] (202) 328-8270</FAX>
+			<consulates>New York, San Francisco</consulates>
+		</representation-in-usa>
+		<representation-from-usa>
+			<chief>Ambassador Cynthia STROUM</chief>
+			<embassy>22 Boulevard Emmanuel Servais, L-2535 Luxembourg City</embassy>
+			<mailing-address>American Embassy Luxembourg, Unit 1410, APO AE 09126-1410 (official mail); American Embassy Luxembourg, PSC 9, Box 9500, APO AE 09123 (personal mail)</mailing-address>
+			<telephone>[352] 46 01 23</telephone>
+			<FAX>[352] 46 14 01</FAX>
+		</representation-from-usa>
+		<flag>three equal horizontal bands of red (top), white, and light blue; similar to the flag of the Netherlands, which uses a darker blue and is shorter; the coloring is derived from the Grand Duke's coat of arms (a red lion on a white and blue striped field)</flag>
+		<anthem>
+			<name>&quot;Ons Heemecht&quot; (Our Motherland); &quot;De Wilhelmus&quot; (The William)</name>
+			<by>Michel LENTZ/Jean-Antoine ZINNEN; Nikolaus WELTER/unknown</by>
+		</anthem>
+	</government>
+	<economy>
+		<overview>This small, stable, high-income economy - benefiting from its proximity to France, Belgium, and Germany - has historically featured solid growth, low inflation, and low unemployment. The industrial sector, initially dominated by steel, has become increasingly diversified to include chemicals, rubber, and other products. Growth in the financial sector, which now accounts for about 28% of GDP, has more than compensated for the decline in steel. Most banks are foreign owned and have extensive foreign dealings, but Luxembourg has lost some of its advantages as a tax haven because of OECD and EU pressure. The economy depends on foreign and cross-border workers for about 60% of its labor force. Luxembourg, like all EU members, suffered from the global economic crisis that began in late 2008, but unemployment has trended below the EU average. Following strong expansion from 2004 to 2007, Luxembourg's economy contracted and 3.7% in 2009, but rebounded 3.2% in 2010. The country continues to enjoy an extraordinarily high standard of living - GDP per capita ranks third in the world, after Liechtenstein and Qatar, and is the highest in the EU. Turmoil in the world financial markets and lower global demand during 2008-09 prompted the government to inject capital into the banking sector and implement stimulus measures to boost the economy. Government stimulus measures and support for the banking sector, however, led to a 5% government budget deficit in 2009. Nevertheless, the deficit was cut below 3% in 2010.</overview>
+		<gdp>
+			<purchasing-power-parity>[object Object]</purchasing-power-parity>
+			<official-exchange-rate>[object Object]</official-exchange-rate>
+			<real-growth-rate>[object Object]</real-growth-rate>
+			<per-capita>[object Object]</per-capita>
+			<sector unit="%">
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+		</gdp>
+		<labour>
+			<force>[object Object]</force>
+			<sector>
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+			<unemployment unit="%">5.5</unemployment>
+		</labour>
+		<poverty>NA%</poverty>
+		<household-income>TO DO</household-income>
+		<budget>
+			<revenue unit="USD"></revenue>
+			<expenditure unit="USD"></expenditure>
+		</budget>
+		<public-debt unit="% of GDP">16.2</public-debt>
+		<consumer-inflation unit="%">2.1</consumer-inflation>
+		<central-bank-discount-rate unit="%"></central-bank-discount-rate>
+		<commercial-prime-lending-rate unit="%"></commercial-prime-lending-rate>
+		<narrow-money-stock unit="USD"></narrow-money-stock>
+		<broad-money-stock unit="USD">255500000000</broad-money-stock>
+		<domestic-credit-stock unit="USD">395100000000</domestic-credit-stock>
+		<agriculture-products>grapes, barley, oats, potatoes, wheat, fruits; dairy and livestock products</agriculture-products>
+		<industries>banking and financial services, iron and steel, information technology, telecommunications, cargo transportation, food processing, chemicals, metal products, engineering, tires, glass, aluminum, tourism</industries>
+		<industrial-production-growth>[object Object]</industrial-production-growth>
+		<electricity unit="kWh">
+			<production>2696000000</production>
+			<consumption>6525000000</consumption>
+			<exports>2483000000</exports>
+			<imports>6830000000</imports>
+		</electricity>
+		<oil>
+			<production unit="bbl/day">0</production>
+			<consumption unit="bbl/day">50720</consumption>
+			<exports unit="bbl/day">63</exports>
+			<imports unit="bbl/day">59210</imports>
+			<reserves unit="bbl">0</reserves>
+		</oil>
+		<natural-gas>
+			<production unit="cu m">0</production>
+			<consumption unit="cu m">1268000000</consumption>
+			<exports unit="cu m">0</exports>
+			<imports unit="cu m">1263000000</imports>
+			<reserves unit="cu m">0</reserves>
+		</natural-gas>
+		<exports>
+			<total unit="USD"></total>
+			<commodities>machinery and equipment, steel products, chemicals, rubber products, glass</commodities>
+			<partners>Germany 19.78%, France 15.87%, Belgium 11.07%, UK 7.96%, Italy 7.49%, Netherlands 4.31% (2009)</partners>
+		</exports>
+		<imports>
+			<total unit="USD">23670000000</total>
+			<commodities>minerals, metals, foodstuffs, quality consumer goods</commodities>
+			<partners>Belgium 27.22%, Germany 23.14%, China 18.62%, France 8.85%, Netherlands 5.06% (2009)</partners>
+		</imports>
+		<external-debt unit="USD">1892000000000</external-debt>
+		<exchange-rates>euros (EUR) per US dollar -</exchange-rates>
+	</economy>
+	<communications>
+		<telephones>
+			<assessment>highly developed, completely automated and efficient system, mainly buried cables</assessment>
+			<domestic>fixed line teledensity over 50 per 100 persons; nationwide mobile-cellular telephone system with market for mobile-cellular phones virtually saturated</domestic>
+			<international>country code - 352 (2008)</international>
+			<land-lines>273600</land-lines>
+			<mobile>719000</mobile>
+		</telephones>
+		<broadcast>Luxembourg has a long tradition of  operating radio and TV services to pan-European audiences and is home to Europe's largest privately-owned broadcast media group, the RTL group, which operates 45 television stations and 31 radio stations in Europe; also home to Europe's largest satellite operator, Societe Europeenne des Satellites (SES); domestically, the RTL group operates TV and radio networks; other domestic private radio and TV operators and French and German stations are available; satellite and cable TV services are accessible (2008)</broadcast>
+		<internet>
+			<tld>.lu</tld>
+			<hosts>244225</hosts>
+			<users>424500</users>
+		</internet>
+	</communications>
+	<transport>
+		<airports>
+			<total>2</total>
+			<paved>
+				<altitude min="*" max="*"></altitude>
+				<altitude min="3047m" max="*">1</altitude>
+				<altitude min="2438m" max="3047m"></altitude>
+				<altitude min="1524m" max="2437m"></altitude>
+				<altitude min="914m" max="1524m"></altitude>
+				<altitude min="*" max="914m"></altitude>
+			</paved>
+		</airports>
+		<ports-and-terminals>Mertert</ports-and-terminals>
+	</transport>
+	<military>
+		<branches>Army (2010)</branches>
+		<manpower>
+			<population-available>
+				<male>118665</male>
+				<female>117456</female>
+			</population-available>
+			<fit-for-service>
+				<male>97290</male>
+				<female>96361</female>
+			</fit-for-service>
+			<reaching-maturity>
+				<male>3263</male>
+				<female>3084</female>
+			</reaching-maturity>
+			<notes></notes>
+		</manpower>
+	</military>
+	<issues>
+		<disputes>none</disputes>
+		<drugs></drugs>
+	</issues>
+</country>

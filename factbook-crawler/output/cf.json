@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 1,
-				"seconds": 0
+				"deg": 1,
+				"min": 0
 			},
 			"E": {
-				"minutes": 15,
-				"seconds": 0
+				"deg": 15,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 342000,
@@ -94,11 +94,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "about 70% of the population lives in Brazzaville, Pointe-Noire, or along the railroad between them"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 4243,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -127,30 +127,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.835,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.835,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 40.55,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40.55,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.49,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.49,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.71 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.71 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 62,
@@ -215,27 +203,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.68,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.68,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 77000,
+		"HIV/AIDS - deaths": 5100,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -281,7 +257,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 1.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -296,12 +275,12 @@
 			"name:": "Brazzaville",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 4,
-					"seconds": 15
+					"deg": 4,
+					"min": 15
 				},
 				"E": {
-					"minutes": 15,
-					"seconds": 17
+					"deg": 15,
+					"min": 17
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -309,7 +288,6 @@
 		"Administrative divisions": "10 regions (regions, singular - region) and 1 commune*; Bouenza, Brazzaville*, Cuvette, Cuvette-Ouest, Kouilou, Lekoumou, Likouala, Niari, Plateaux, Pool, Sangha",
 		"Independence": "15 August 1960 (from France)",
 		"National holiday": "Independence Day, 15 August (1960)",
-		"Constitution": "approved by referendum 20 January 2002",
 		"Legal system": "mixed legal system of French civil law and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -344,7 +322,10 @@
 		"Flag description": {
 			"Flag description": "divided diagonally from the lower hoist side by a yellow band; the upper triangle (hoist side) is green and the lower triangle is red; green symbolizes agriculture and forests, yellow the friendship and nobility of the people, red is unexplained but has been associated with the struggle for independence"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"La Congolaise\" (The Congolese)",
+			"lyrics/music:": "Jacques TONDRA and Georges KIBANGHI/Jean ROYER and Joseph SPADILIERE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy is a mixture of subsistence agriculture, an industrial sector based largely on oil and support services, and government spending. Oil has supplanted forestry as the mainstay of the economy, providing a major share of government revenues and exports. In the early 1980s, rapidly rising oil revenues enabled the government to finance large-scale development projects with GDP growth averaging 5% annually, one of the highest rates in Africa. Characterized by budget problems and overstaffing, the government has mortgaged a substantial portion of its oil earnings through oil-backed loans that have contributed to a growing debt burden and chronic revenue shortfalls. Economic reform efforts have been undertaken with the support of international organizations, notably the World Bank and the IMF. However, the reform program came to a halt in June 1997 when civil war erupted. Denis SASSOU-Nguesso, who returned to power when the war ended in October 1997, publicly expressed interest in moving forward on economic reforms and privatization and in renewing cooperation with international financial institutions. Economic progress was badly hurt by slumping oil prices and the resumption of armed conflict in December 1998, which worsened the republic's budget deficit. The current administration presides over an uneasy internal peace and faces difficult economic challenges of stimulating recovery and reducing poverty. The drop in oil prices during the global crisis reduced oil revenue by about 30%, but the subsequent recovery of oil prices has boosted the economy's GDP and near-term prospects. In March 2006, the World Bank and the International Monetary Fund (IMF) approved Heavily Indebted Poor Countries (HIPC) treatment for Congo, receiving $1.9 billion in debt relief under the program in 2010.",
@@ -358,11 +339,8 @@
 			"usd": 11530000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 9.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -384,10 +362,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1514000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1514000,
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -401,11 +376,8 @@
 			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 41.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -416,61 +388,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 2403000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2403000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2746000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2746000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1580000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1580000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cassava (tapioca), sugar, rice, corn, peanuts, vegetables, coffee, cocoa; forest products",
 		"Industries": "petroleum extraction, cement, lumber, brewing, sugar, palm oil, soap, flour, cigarettes",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 12,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 400000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 400000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 471000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 471000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -481,118 +429,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 274400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 274400,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 10000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 241100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 241100,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2136,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2136,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1600000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1600000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 180000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 180000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 180000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 180000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 90610000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 90610000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-569 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-569 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 9200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9200000000
 		},
 		"Exports - commodities": "petroleum, lumber, plywood, sugar, cocoa, coffee, diamonds",
 		"Exports - partners": "US 40.08%, China 30.18%, France 8.17%, Taiwan 6.4%, India 4.2% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 3607000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3607000000
 		},
 		"Imports - commodities": "capital equipment, construction materials, foodstuffs",
 		"Imports - partners": "France 20.64%, China 14.54%, Italy 9.56%, US 9.02%, India 5.55%, Belgium 4.51% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 4123000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4123000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 5000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Cooperation Financiere en Afrique Centrale francs per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2171000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 24300,
+		"Telephones - mobile cellular": 2171000,
 		"Telephone system": {
 			"general assessment:": "primary network consists of microwave radio relay and coaxial cable with services barely adequate for government use; key exchanges are in Brazzaville, Pointe-Noire, and Loubomo; intercity lines frequently out of order",
 			"domestic:": "fixed-line infrastructure inadequate providing less than 1 connection per 100 persons; in the absence of an adequate fixed line infrastructure, mobile-cellular subscribership has surged and now exceeds 50 per 100 persons",
@@ -600,28 +497,22 @@
 		},
 		"Broadcast media": "1 state-owned TV and 3 state-owned radio stations; several privately-owned TV and radio stations; satellite TV service is available; rebroadcasts of several international broadcasters are available (2007)",
 		"Internet country code": ".cg",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 42,
+		"Internet users": 245200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 25,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 6,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 19,
+			"1,524 to 2,437 m:": 8,
+			"914 to 1,523 m:": 10,
+			"under 914 m:": 1
 		},
 		"Pipelines": "gas 65 km; oil 273 km (2010)",
 		"Railways": {
@@ -647,32 +538,32 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,120 km (commercially navigable on Congo and Oubanqui rivers above Brazzaville; there are many ferries across the river to Kinshasa; the Congo south of Brazzaville-Kinshasa to the coast is not navigable because of rapids, thereby necessitating a rail connection to Pointe Noire; other rivers are used for local traffic only) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "1,120 km (commercially navigable on Congo and Oubanqui rivers above Brazzaville; there are many ferries across the river to Kinshasa; the Congo south of Brazzaville-Kinshasa to the coast is not navigable because of rapids, thereby necessitating a rail connection to Pointe Noire; other rivers are used for local traffic only) (2010)",
 		"Merchant marine": {
 			"registered in other countries:": "1 (Democratic Republic of the Congo 1) (2010)",
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Brazzaville, Djeno, Impfondo, Ouesso, Oyo, Pointe-Noire"
 	},
 	"military": {
 		"Military branches": "Congolese Armed Forces (Forces Armees Congolaises, FAC): Army (Armee de Terre), Navy, Congolese Air Force (Armee de l'Air Congolaise); Gendarmerie; Special Presidential Security Guard (GSSP) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; women allowed to serve (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 928664,
+			"females age 16-49:": 914265
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 577944,
+			"females age 16-49:": 566587
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 50000,
+			"female:": 49641
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "the location of the boundary in the broad Congo River with the Democratic Republic of the Congo is indefinite except in the Pool Malebo/Stanley Pool area",
@@ -680,6 +571,9 @@
 			"refugees (country of origin):": "46,341 (Democratic Republic of Congo); 6,564 (Rwanda)",
 			"IDPs:": "48,000 (multiple civil wars since 1992; most IDPs are ethnic Lari) (2007)"
 		},
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Republic of the Congo is a source and destination country for children trafficked for the purposes of forced labor and commercial sexual exploitation; girls are trafficked from rural areas within the country for commercial sexual exploitation, forced street vending, and domestic servitude; children are trafficked from other African countries for domestic servitude, forced market vending, and forced labor in the fishing industry",
+			"tier rating:": "Tier 2 Watch List - Republic of the Congo is on the Tier 2 Watch List for its failure to show evidence of increasing efforts to combat trafficking in persons in 2007; struggling to recover from six years of civil conflict that ended in 2003, the Republic of the Congo's capacity to address trafficking is handicapped; the government neither monitors its borders for trafficking activity nor provides specialized anti-trafficking training for law enforcement officials; the government does not encourage victims to assist in trafficking investigations or prosecutions, and has not taken measures to reduce demand for commercial sex acts in the Republic of the Congo (2008)"
+		}
 	}
 }

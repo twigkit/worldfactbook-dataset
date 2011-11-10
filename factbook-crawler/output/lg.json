@@ -7,15 +7,15 @@
 		"Location": "Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 57,
-				"seconds": 0
+				"deg": 57,
+				"min": 0
 			},
 			"E": {
-				"minutes": 25,
-				"seconds": 0
+				"deg": 25,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 64589,
@@ -101,13 +101,10 @@
 			"party to:": "Air Pollution, Air Pollution-Persistent Organic Pollutants, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "most of the country is composed of fertile low-lying plains with some hills in the east"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 2204,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.5,
@@ -133,28 +130,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.597% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.597% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.96,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.96,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13.6,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.6,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.33 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.33 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 68,
@@ -216,27 +201,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.32,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.32,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.7,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 8600,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -280,7 +253,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -295,12 +271,12 @@
 			"name:": "Riga",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 56,
-					"seconds": 57
+					"deg": 56,
+					"min": 57
 				},
 				"E": {
-					"minutes": 24,
-					"seconds": 6
+					"deg": 24,
+					"min": 6
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -313,7 +289,6 @@
 		},
 		"Independence": "4 May 1990 (declared); 6 September 1991 (recognized by the Soviet Union)",
 		"National holiday": "Independence Day, 18 November (1918); note - 18 November 1918 was the date Latvia declared independence from Soviet Russia and established its statehood; 4 May 1990 was the date it declared its independence from the Soviet Union",
-		"Constitution": "15 February 1922; restored to force by the Constitutional Law of the Republic of Latvia adopted by the Supreme Council 21 August 1991; multiple amendments since",
 		"Legal system": "civil law system with traces of socialist legal traditions and practices",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal for Latvian citizens",
@@ -347,7 +322,10 @@
 			"FAX:": "[371] 678-20047"
 		},
 		"Flag description": "three horizontal bands of maroon (top), white (half-width), and maroon; the flag is one of the older banners in the world; a medieval chronicle mentions a red standard with a white stripe being used by Latvian tribes in about 1280",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Dievs, sveti Latviju!\" (God Bless Latvia)",
+			"lyrics/music:": "Karlis BAUMANIS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Latvia is a small, open economy with exports contributing significantly to its GDP. Due to its geographical location, transit services are highly-developed, along with timber and wood-processing, agriculture and food products, and manufacturing of machinery and electronic devices. The bulk of the country's economic activity, however, is in the services sector. Corruption continues to be an impediment to attracting FDI flows and Latvia's low birth rate and decreasing population are major challenges to its long-term economic vitality. Latvia's economy experienced GDP growth of more than 10% per year during 2006-07, but entered a severe recession in 2008 as a result of an unsustainable current account deficit and large debt exposure amid the softening world economy. GDP plunged 18% in 2009 - the three Baltic states had the world's worst declines that year. Thanks to strong export growth in 2009 and 2010, the economy experienced its first real quarterly GDP growth in over two years (2.9%) in the third quarter of 2010. The IMF, EU, and other international donors provided substantial financial assistance to Latvia as part of an agreement to defend the currency's peg to the euro. This agreement calls for reduction of Latvia's fiscal deficit to below 3% of GDP by 2012, in order to meet the Maastricht Treaty criteria for euro adoption. DOMBROVSKIS' government enacted major spending cuts to reduce the fiscal deficit to a maximum of 8.5% of GDP in 2010, and Latvia has approved a 2011 budget with a projected deficit of 5.4% of GDP. The majority of companies, banks, and real estate have been privatized, although the state still holds sizable stakes in a few large enterprises. Latvia officially joined the World Trade Organization in February, 1999. EU membership, a top foreign policy goal, came in May 2004. Latvia's current major financial policy goal, entrance into the euro zone, is targeted for 2014.",
@@ -360,10 +338,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 24050000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-0.3% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-0.3% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -384,10 +359,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1178000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1178000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 12.1,
@@ -403,11 +375,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 14.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.3,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -420,16 +389,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 36,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 15.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -440,73 +403,40 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 46.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46.2,
+			"unit": "% of GDP"
 		},
-		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "-1.2% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Inflation rate (consumer prices)": "-1.2% (2010 est.)",
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 16.23,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.23,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 5769000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5769000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 11170000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11170000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 27590000000
-			},
-			"country comparison to the world:": ""
+			"usd": 27590000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1824000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1824000000
 		},
 		"Agriculture - products": "grain, rapeseed, potatoes, vegetables; pork, poultry, milk, eggs; fish",
 		"Industries": "processed foods, processed wood products, textiles, processed metals, pharmaceuticals, railroad cars, synthetic fibers, electronics",
-		"Industrial production growth rate": {
-			"Industrial production growth rate": "-1.8% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Industrial production growth rate": "-1.8% (2010 est.)",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 4620000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4620000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 6822000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6822000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 2123000000.0000002,
@@ -517,125 +447,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 40000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 5873,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5873,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 43400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 43400,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1527000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1527000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 1743000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1743000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 1620000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1620000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 7894000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7894000000
 		},
 		"Exports - commodities": "food products, wood and wood products, metals, machinery and equipment, textiles",
 		"Exports - partners": "Lithuania 15.19%, Estonia 13.57%, Russia 13.17%, Germany 8.13%, Sweden 5.7% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 9153000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9153000000
 		},
 		"Imports - commodities": "machinery and equipment, consumer goods, chemicals, fuels, vehicles",
 		"Imports - partners": "Lithuania 16.36%, Germany 11.34%, Russia 10.68%, Poland 8.11%, Estonia 7.69% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 7170000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7170000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 37280000000
-			},
-			"country comparison to the world:": ""
+			"usd": 37280000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 11710000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11710000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1097000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1097000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "lati (LVL) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2243000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 644000,
+		"Telephones - mobile cellular": 2243000,
 		"Telephone system": {
 			"general assessment:": "recent efforts focused on bringing competition to the telecommunications sector; the number of fixed lines is decreasing as mobile-cellular telephone service expands",
 			"domestic:": "number of telecommunications operators has grown rapidly since the fixed-line market opened to competition in 2003; combined fixed-line and mobile-cellular subscribership exceeds 125 per 100 persons",
@@ -643,27 +519,21 @@
 		},
 		"Broadcast media": "several national and regional commercial TV stations are foreign-owned, 2 national TV stations are publicly-owned; system supplemented by privately-owned regional and local TV stations; cable and satellite multi-channel TV services with domestic and foreign broadcasts are available; publicly-owned broadcaster operates 4 radio networks with dozens of stations throughout the country; dozens of private broadcasters also operate radio stations (2007)",
 		"Internet country code": ".lv",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 289478,
+		"Internet users": 1504000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 42,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 19,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 23,
+			"under 914 m:": 23
 		},
 		"Pipelines": "gas 948 km; refined products 415 km (2010)",
 		"Railways": {
@@ -690,38 +560,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "300 km (navigable year round) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "300 km (navigable year round) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 13,
 			"country comparison to the world:": "",
 			"by type:": "cargo 3, chemical tanker 1, passenger/cargo 5, petroleum tanker 3, roll on/roll off 1",
-			"foreign-owned:": null,
+			"foreign-owned:": 4,
 			"registered in other countries:": "90 (Antigua and Barbuda 16, Belize 10, Cambodia 1, Comoros 1, Cook Islands 1, Dominica 1, Georgia 1, Liberia 9, Malta 11, Marshall Islands 18, Panama 4, Saint Kitts and Nevis 2, Saint Vincent and the Grenadines 15) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Riga, Ventspils"
 	},
 	"military": {
 		"Military branches": "National Armed Forces (Nacionalo Brunoto Speku): Land Forces, Navy (Latvijas Juras Speki; includes Coast Guard (Latvijas Kara Flotes)), Latvian Air Force (Latvijas Gaisa Speki), Latvian Home Guard (Latvijas Zemessardze) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary male and female military service; conscription abolished January 2007; under current law, every citizen is entitled to serve in the armed forces for life (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 546090,
+			"females age 16-49:": 540810
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 401691,
+			"females age 16-49:": 447638
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 10482,
+			"female:": 9858
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Russia demands better Latvian treatment of ethnic Russians in Latvia; boundary demarcated with Latvia and Lithuania; the Latvian parliament has not ratified its 1998 maritime boundary treaty with Lithuania, primarily due to concerns over oil exploration rights; as a member state that forms part of the EU's external border, Latvia has implemented the strict Schengen border rules with Russia",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment and destination point for cocaine, synthetic drugs, opiates, and cannabis from Southwest Asia, Western Europe, Latin America, and neighboring Balkan countries; despite improved legislation, vulnerable to money laundering due to nascent enforcement capabilities and comparatively weak regulation of offshore companies and the gaming industry; CIS organized crime (including counterfeiting, corruption, extortion, stolen cars, and prostitution) accounts for most laundered proceeds"
 	}
 }

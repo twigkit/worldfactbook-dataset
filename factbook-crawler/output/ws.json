@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 13,
-				"seconds": 35
+				"deg": 13,
+				"min": 35
 			},
 			"W": {
-				"minutes": 172,
-				"seconds": 20
+				"deg": 172,
+				"min": 20
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2831,
@@ -85,11 +85,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "occupies an almost central position within Polynesia"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 193161,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -118,30 +118,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.6,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 22.5,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.5,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.34,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.34,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-11.16 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-11.16 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 20,
@@ -206,11 +194,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.22,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.22,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -253,7 +238,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.7,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -268,12 +256,12 @@
 			"name:": "Apia",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 13,
-					"seconds": 50
+					"deg": 13,
+					"min": 50
 				},
 				"W": {
-					"minutes": 171,
-					"seconds": 44
+					"deg": 171,
+					"min": 44
 				}
 			},
 			"time difference:": "UTC-11 (6 hours behind Washington, DC during Standard Time)"
@@ -281,7 +269,6 @@
 		"Administrative divisions": "11 districts; A'ana, Aiga-i-le-Tai, Atua, Fa'asaleleaga, Gaga'emauga, Gagaifomauga, Palauli, Satupa'itea, Tuamasaga, Va'a-o-Fonoti, Vaisigano",
 		"Independence": "1 January 1962 (from New Zealand-administered UN trusteeship)",
 		"National holiday": "Independence Day Celebration, 1 June (1962); note - 1 January 1962 is the date of independence from the New Zealand-administered UN trusteeship; it is observed in June",
-		"Constitution": "1 January 1962",
 		"Legal system": "mixed legal system of English common law and customary law; judicial review of legislative acts with respect to fundamental rights of the citizen",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "21 years of age; universal",
@@ -316,7 +303,10 @@
 			"FAX:": "[685] 22030"
 		},
 		"Flag description": "red with a blue rectangle in the upper hoist-side quadrant bearing five white five-pointed stars representing the Southern Cross constellation; red stands for courage, blue represents freedom, and white signifies purity",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"O le Fu\"a o le Sa\"olotoga o Samoa\" (The Banner of Freedom)",
+			"lyrics/music:": "Sauni Iiga KURESA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy of Samoa has traditionally been dependent on development aid, family remittances from overseas, agriculture, and fishing. The country is vulnerable to devastating storms. Agriculture employs two-thirds of the labor force and furnishes 90% of exports, featuring coconut cream, coconut oil, and copra. The manufacturing sector mainly processes agricultural products. One factory in the Foreign Trade Zone employs 3,000 people to make automobile electrical harnesses for an assembly plant in Australia. Tourism is an expanding sector accounting for 25% of GDP; 122,000 tourists visited the islands in 2007. In late September 2009, an earthquake and the resulting tsunami severely damaged Samoa, and nearby American Samoa, disrupting transportation and power generation, and resulting in about 200 deaths. The Samoan Government has called for deregulation of the financial sector, encouragement of investment, and continued fiscal discipline, while at the same time protecting the environment. Observers point to the flexibility of the labor market as a basic strength for future economic advances. Foreign reserves are in a relatively healthy state, the external debt is stable, and inflation is low.",
@@ -330,11 +320,8 @@
 			"usd": 556000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -356,10 +343,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 66270,
 		"Labor force - by occupation": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
@@ -380,60 +364,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 12.08,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.08,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 80560000
-			},
-			"country comparison to the world:": ""
+			"usd": 80560000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 283200000
-			},
-			"country comparison to the world:": ""
+			"usd": 283200000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 243000000
-			},
-			"country comparison to the world:": ""
+			"usd": 243000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coconuts, bananas, taro, yams, coffee, cocoa",
 		"Industries": "food processing, building materials, auto parts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 109000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 109000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 101400000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 101400000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -444,118 +404,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1105,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1105,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-24 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-24 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 131000000
-			},
-			"country comparison to the world:": ""
+			"usd": 131000000
 		},
 		"Exports - commodities": "fish, coconut oil and cream, copra, taro, automotive parts, garments, beer",
 		"Exports - partners": "American Samoa 41.12%, Australia 24.74%, Taiwan 6.24%, China 5.61%, US 4.07% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 324000000
-			},
-			"country comparison to the world:": ""
+			"usd": 324000000
 		},
 		"Imports - commodities": "machinery and equipment, industrial supplies, foodstuffs",
 		"Imports - partners": "NZ 24.13%, Fiji 17.34%, Singapore 12.54%, China 10.02%, Australia 9.85%, US 5.95% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 70150000
-			},
-			"country comparison to the world:": ""
+			"usd": 70150000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 177000000
-			},
-			"country comparison to the world:": ""
+			"usd": 177000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "tala (SAT) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 31900,
+		"Telephones - mobile cellular": 151000,
 		"Telephone system": {
 			"general assessment:": "adequate",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity roughly 85 telephones per 100 persons; coverage extended to roughly 95 percent of the country",
@@ -563,24 +472,18 @@
 		},
 		"Broadcast media": "state-owned television station privatized in 2008; 4 privately-owned television broadcast stations; about a half dozen privately-owned radio stations and one state-owned radio station; television and radio broadcasts of several stations from American Samoa are available (2009)",
 		"Internet country code": ".ws",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 17044,
+		"Internet users": 9000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 4,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 1,
+			"2,438 to 3,047 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 3,
+			"under 914 m:": 3
 		},
 		"Roadways": {
 			"total:": {
@@ -598,30 +501,30 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 2,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1, cargo 1",
 			"foreign-owned:": "1 (NZ 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Apia"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Samoa Police Force (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 47906
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 38260,
+			"females age 16-49:": 38032
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 2221,
+			"female:": 2062
 		},
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "Samoa has no formal defense structure or regular armed forces; informal defense ties exist with NZ, which is required to consider any Samoan request for assistance under the 1962 Treaty of Friendship"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

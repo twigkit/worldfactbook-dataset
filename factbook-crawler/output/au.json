@@ -7,15 +7,15 @@
 		"Location": "Central Europe, north of Italy and Slovenia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 47,
-				"seconds": 20
+				"deg": 47,
+				"min": 20
 			},
 			"E": {
-				"minutes": 13,
-				"seconds": 20
+				"deg": 13,
+				"min": 20
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 83871,
@@ -89,13 +89,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; strategic location at the crossroads of central Europe with many easily traversable Alpine passes and valleys; major river is the Danube; population is concentrated on eastern lowlands because of steep slopes, poor soils, and low temperatures elsewhere"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 8217,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 14,
@@ -122,32 +119,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.034,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.034,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 8.67,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.67,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.14,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.14,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.81,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.81,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.4,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 15000,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -266,7 +239,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -280,12 +256,12 @@
 			"name:": "Vienna",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 48,
-					"seconds": 12
+					"deg": 48,
+					"min": 12
 				},
 				"E": {
-					"minutes": 16,
-					"seconds": 22
+					"deg": 16,
+					"min": 22
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -294,7 +270,6 @@
 		"Administrative divisions": "9 states (Bundeslaender, singular - Bundesland); Burgenland, Kaernten (Carinthia), Niederoesterreich (Lower Austria), Oberoesterreich (Upper Austria), Salzburg, Steiermark (Styria), Tirol (Tyrol), Vorarlberg, Wien (Vienna)",
 		"Independence": "12 November 1918 (republic proclaimed); notable earlier dates: 976 (Margravate of Austria established); 17 September 1156 (Duchy of Austria founded); 11 August 1804 (Austrian Empire proclaimed)",
 		"National holiday": "National Day, 26 October (1955); note - commemorates the passage of the law on permanent neutrality",
-		"Constitution": "1920; revised 1929; reinstated 1 May 1945; note - during the period 1 May 1934-1 May 1945 there was a fascist (corporative) constitution in place",
 		"Legal system": "civil law system; judicial review of legislative acts by the Constitutional Court",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
 		"Suffrage": "16 years of age; universal; note - reduced from 18 years of age in 2007",
@@ -332,7 +307,10 @@
 			"FAX:": "[43] (1) 3100682"
 		},
 		"Flag description": "three equal horizontal bands of red (top), white, and red; the flag design is certainly one of the oldest - if not the oldest - national banners in the world; according to tradition, in 1191, following a fierce battle in the Third Crusade, Duke Leopold V of Austria's white tunic became completely blood-spattered; upon removal of his wide belt or sash, a white band was revealed; the red-white-red color combination was subsequently adopted as his banner",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Bundeshymne\" (Federal Hymn)",
+			"lyrics/music:": "Paula von PRERADOVIC/Wolfgang Amadeus MOZART or Johann HOLZER (disputed)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Austria, with its well-developed market economy and high standard of living, is closely tied to other EU economies, especially Germany's. Its economy features a large service sector, a sound industrial sector, and a small, but highly developed agricultural sector. Following several years of solid foreign demand for Austrian exports and record employment growth, the international financial crisis and global economic downturn in 2008 led to a sharp but brief recession. Austrian GDP contracted 3.9% in 2009 but saw positive growth of about 2% in 2010. Unemployment has not risen as steeply in Austria as elsewhere in Europe, partly because its government has subsidized reduced working hour schemes to allow companies to retain employees. Stabilization measures, stimulus spending, and an income tax reform pushed the budget deficit to 3.5% of GDP in 2009 and 4.7% in 2010, from only about 1.3% in 2008. The international financial crisis caused difficulties for Austria's largest banks whose extensive operations in central, eastern, and southeastern Europe faced large losses. The government provided bank support - including in some instances, nationalization - to prevent insolvency and possible contagion. In the medium-term all large Austrian banks will need additional capital. Even after the global economic outlook improves, Austria will need to continue restructuring, emphasize knowledge-based sectors of the economy, and encourage greater labor flexibility and labor participation to offset growing unemployment and Austria's aging population and low fertility rate.",
@@ -346,11 +324,8 @@
 			"usd": 376800000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -372,10 +347,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3700000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3700000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 5.5,
@@ -391,11 +363,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 4.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 6,
@@ -411,16 +380,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 26,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -431,25 +394,16 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 70.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 70.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.9,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 4.82,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.82,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -458,45 +412,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 402800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 402800000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 659200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 659200000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 118000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 118000000000
 		},
 		"Agriculture - products": "grains, potatoes, wine, fruit; dairy products, cattle, pigs, poultry; lumber",
 		"Industries": "construction, machinery, vehicles and parts, food, metals, chemicals, lumber and wood processing, paper and paperboard, communications equipment, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 68850000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 68850000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 65670000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 65670000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 18760000000,
@@ -507,132 +443,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 21880,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21880,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 247700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 247700,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 50410,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 50410,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 273000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 273000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 89000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 89000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 1580000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1580000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 8130000000.000001,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8130000000.000001,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 3961000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3961000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 9460000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9460000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 24800000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24800000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 9900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9900000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 157400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 157400000000
 		},
 		"Exports - commodities": "machinery and equipment, motor vehicles and parts, paper and paperboard, metal goods, chemicals, iron and steel, textiles, foodstuffs",
 		"Exports - partners": "Germany 30.96%, Italy 8.17%, Switzerland 4.99%, US 3.99% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 156000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 156000000000
 		},
 		"Imports - commodities": "machinery and equipment, motor vehicles, chemicals, metal goods, oil and oil products; foodstuffs",
 		"Imports - partners": "Germany 45.07%, Switzerland 6.76%, Italy 6.66%, Netherlands 4.03% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 21890000000
-			},
-			"country comparison to the world:": ""
+			"usd": 21890000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 755000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 755000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 154000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 154000000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 154100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 154100000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3253000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 11773000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3253000,
+		"Telephones - mobile cellular": 11773000,
 		"Telephone system": {
 			"general assessment:": "highly developed and efficient",
 			"domestic:": "fixed-line subscribership has been in decline since the mid-1990s with mobile-cellular subscribership eclipsing it by the late 1990s; the fiber-optic net is very extensive; all telephone applications and Internet services are available",
@@ -640,31 +519,25 @@
 		},
 		"Broadcast media": "Austria's public broadcaster, ORF, was the main broadcast source until commercial radio and television service was introduced in the 1990s; cable and satellite TV are available, including German TV stations (2008)",
 		"Internet country code": ".at",
-		"Internet hosts": {
-			"Internet hosts": 3266000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3266000,
+		"Internet users": 6143000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 55,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 25,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 30,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 26
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 3,028 km; oil 663 km; refined products 157 km (2010)",
 		"Railways": {
 			"total:": {
@@ -684,39 +557,39 @@
 			"paved:": "107,262 km (includes 1,696 km of expressways) (2006)"
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 358,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 358,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 2,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2",
 			"registered in other countries:": "4 (Cyprus 1, Malta 1, Saint Vincent and the Grenadines 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Enns, Krems, Linz, Vienna"
 	},
 	"military": {
 		"Military branches": "Land Forces (KdoLdSK), Air Forces (KdoLuSK)",
 		"Military service age and obligation": "18-35 years of age for compulsory military service; 16 years of age for male and female voluntary service; service obligation 6 months of training, followed by an 8-year reserve obligation; conscripts cannot be deployed in military operations outside Austria (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1941,
+			"females age 16-49:": 1910
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1579,
+			"females age 16-49:": 1554
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 48108,
+			"female:": 45752
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for Southwest Asian heroin and South American cocaine destined for Western Europe; increasing consumption of European-produced synthetic drugs"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of islands in the North Pacific Ocean, southeast of the Philippines",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 7,
-				"seconds": 30
+				"deg": 7,
+				"min": 30
 			},
 			"E": {
-				"minutes": 134,
-				"seconds": 30
+				"deg": 134,
+				"min": 30
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 459,
@@ -78,13 +78,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Law of the Sea, Ozone Layer Protection, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "westernmost archipelago in the Caroline chain, consists of six island groups totaling more than 300 islands; includes World War II battleground of Beliliou (Peleliu) and world-famous rock islands"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 20956,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 21.5,
@@ -111,32 +108,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.363,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.363,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.74,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.74,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.87,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.87,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.76,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.76,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -201,11 +186,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.73,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.73,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -250,7 +232,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -265,12 +247,12 @@
 			"name:": "Melekeok",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 7,
-					"seconds": 29
+					"deg": 7,
+					"min": 29
 				},
 				"E": {
-					"minutes": 134,
-					"seconds": 38
+					"deg": 134,
+					"min": 38
 				}
 			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
@@ -278,7 +260,6 @@
 		"Administrative divisions": "16 states; Aimeliik, Airai, Angaur, Hatohobei, Kayangel, Koror, Melekeok, Ngaraard, Ngarchelong, Ngardmau, Ngatpang, Ngchesar, Ngeremlengui, Ngiwal, Peleliu, Sonsorol",
 		"Independence": "1 October 1994 (from the US-administered UN trusteeship)",
 		"National holiday": "Constitution Day, 9 July (1979)",
-		"Constitution": "1 January 1981",
 		"Legal system": "mixed legal system of civil, common, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -313,7 +294,10 @@
 			"FAX:": "[680] 488-2911"
 		},
 		"Flag description": "light blue with a large yellow disk shifted slightly to the hoist side; the blue color represents the ocean, the disk represents the moon; Palauans consider the full moon to be the optimum time for human activity; it is also considered a symbol of peace, love, and tranquility",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Belau rekid\" (Our Palau)",
+			"lyrics/music:": "multiple/Ymesei O. EZEKIEL"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy consists primarily of tourism, subsistence agriculture, and fishing. The government is the major employer of the work force relying heavily on financial assistance from the US. The Compact of Free Association with the US, entered into after the end of the UN trusteeship on 1 October 1994, provided Palau with up to $700 million in US aid for the following 15 years in return for furnishing military facilities. Business and tourist arrivals numbered 85,000 in 2007. The population enjoys a per capita income roughly 50% higher than that of the Philippines and much of Micronesia. Long-run prospects for the key tourist sector have been greatly bolstered by the expansion of air travel in the Pacific, the rising prosperity of leading East Asian countries, and the willingness of foreigners to finance infrastructure development.",
@@ -328,10 +312,7 @@
 		},
 		"GDP - real growth rate": "NA% (2009)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -347,10 +328,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 9777,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 20,
@@ -360,11 +338,8 @@
 			"services:": "NA% (1990)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 4.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.2,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -380,53 +355,32 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.7,
+			"unit": "%"
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coconuts, copra, cassava (tapioca), sweet potatoes; fish",
 		"Industries": "tourism, craft items (from shell, wood, pearls), construction, garment making",
 		"Industrial production growth rate": "NA%",
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 15090000
-			},
-			"country comparison to the world:": ""
+			"usd": 15090000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 5882000
-			},
-			"country comparison to the world:": ""
+			"usd": 5882000
 		},
 		"Exports - commodities": "shellfish, tuna, copra, garments",
 		"Imports": {
-			"Imports": {
-				"usd": 107300000
-			},
-			"country comparison to the world:": ""
+			"usd": 107300000
 		},
 		"Imports - commodities": "machinery and equipment, fuels, metals; foodstuffs",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 7100,
+		"Telephones - mobile cellular": 13200,
 		"Telephone system": {
 			"general assessment:": "NA",
 			"domestic:": "fixed-line and mobile-cellular services available with a combined subscribership of roughly 100 per 100 persons",
@@ -434,40 +388,37 @@
 		},
 		"Broadcast media": "no television broadcast stations; a cable television network covers the major islands and provides access to rebroadcasts, on a delayed basis, of a number of US stations as well as access to a number of real-time satellite TV channels; about a half dozen radio stations with 1 government-owned (2009)",
 		"Internet country code": ".pw",
-		"Internet hosts": {}
+		"Internet hosts": 3
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 3,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 2,
+			"1,524 to 2,437 m:": 2
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Koror"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Palau National Police (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 6987
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5272,
+			"females age 16-49:": 3969
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 216,
+			"female:": 222
 		},
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US; under a Compact of Free Association between Palau and the US, the US military is granted access to the islands for 50 years, but it has not stationed any military forces there (2008)"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "maritime delineation negotiations continue with Philippines, Indonesia"
 	}
 }

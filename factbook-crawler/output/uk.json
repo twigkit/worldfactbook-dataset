@@ -7,15 +7,15 @@
 		"Location": "Western Europe, islands - including the northern one-sixth of the island of Ireland - between the North Atlantic Ocean and the North Sea; northwest of France",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 54,
-				"seconds": 0
+				"deg": 54,
+				"min": 0
 			},
 			"W": {
-				"minutes": 2,
-				"seconds": 0
+				"deg": 2,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 243610,
@@ -99,13 +99,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "lies near vital North Atlantic sea lanes; only 35 km from France and linked by tunnel under the English Channel; because of heavily indented coastline, no location is more than 125 km from tidal waters"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 62698,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 17.3,
@@ -132,32 +129,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.557,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.557,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 12.29,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.29,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.33,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.33,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.6,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -223,27 +208,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.91,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.91,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 85000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -284,7 +257,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -297,12 +273,12 @@
 			"name:": "London",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 51,
-					"seconds": 30
+					"deg": 51,
+					"min": 30
 				},
 				"W": {
-					"minutes": 0,
-					"seconds": 10
+					"deg": 0,
+					"min": 10
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)",
@@ -318,7 +294,6 @@
 		"Dependent areas": "Anguilla, Bermuda, British Indian Ocean Territory, British Virgin Islands, Cayman Islands, Falkland Islands, Gibraltar, Montserrat, Pitcairn Islands, Saint Helena, Ascension, and Tristan da Cunha, South Georgia and the South Sandwich Islands, Turks and Caicos Islands",
 		"Independence": "12 April 1927 (Royal and Parliamentary Titles Act establishes current name of the United Kingdom of Great Britain and Northern Ireland); notable earlier dates: 927 (minor English kingdoms united); 3 March 1284 (enactment of the Statute of Rhuddlan uniting England and Wales); 1536 (Act of Union formally incorporates England and Wales); 1 May 1707 (Acts of Union formally unite England and Scotland as Great Britain); 1 January 1801 (Acts of Union formally unite Great Britain and Ireland as the United Kingdom of Great Britain and Ireland); 6 December 1921 (Anglo-Irish Treaty formalizes partition of Ireland; six counties remain part of the United Kingdom as Northern Ireland)",
 		"National holiday": "the UK does not celebrate one particular national holiday",
-		"Constitution": "unwritten; partly statutes, partly common law and practice",
 		"Legal system": "common law system; has nonbinding judicial review of Acts of Parliament under the Human Rights Act of 1998",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -352,7 +327,10 @@
 			"FAX:": "[44] (0) 20 7629-9124"
 		},
 		"Flag description": "blue field with the red cross of Saint George (patron saint of England) edged in white superimposed on the diagonal red cross of Saint Patrick (patron saint of Ireland), which is superimposed on the diagonal white cross of Saint Andrew (patron saint of Scotland); properly known as the Union Flag, but commonly called the Union Jack; the design and colors (especially the Blue Ensign) have been the basis for a number of other flags including other Commonwealth countries and their constituent states or provinces, and British overseas territories",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"God Save the Queen\"",
+			"lyrics/music:": "unknown"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The UK, a leading trading power and financial center, is the third largest economy in Europe after Germany and France. Over the past two decades, the government has greatly reduced public ownership and contained the growth of social welfare programs. Agriculture is intensive, highly mechanized, and efficient by European standards, producing about 60% of food needs with less than 2% of the labor force. The UK has large coal, natural gas, and oil resources, but its oil and natural gas reserves are declining and the UK became a net importer of energy in 2005. Services, particularly banking, insurance, and business services, account by far for the largest proportion of GDP while industry continues to decline in importance. After emerging from recession in 1992, Britain's economy enjoyed the longest period of expansion on record during which time growth outpaced most of Western Europe. In 2008, however, the global financial crisis hit the economy particularly hard, due to the importance of its financial sector. Sharply declining home prices, high consumer debt, and the global economic slowdown compounded Britain's economic problems, pushing the economy into recession in the latter half of 2008 and prompting the then BROWN government to implement a number of measures to stimulate the economy and stabilize the financial markets; these include nationalizing parts of the banking system, cutting taxes, suspending public sector borrowing rules, and moving forward public spending on capital projects. Facing burgeoning public deficits and debt levels, the CAMERON government in 2010 initiated a five-year austerity program, which aims to lower London's budget deficit from over 11% of GDP in 2010 to nearly 1% by 2015. The Bank of England periodically coordinates interest rate moves with the European Central Bank, but Britain remains outside the European Economic and Monetary Union (EMU).",
@@ -366,11 +344,8 @@
 			"usd": 2247000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -392,10 +367,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 31450000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 31450000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 1.4,
@@ -411,11 +383,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.9,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 14,
@@ -431,16 +400,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 34,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 14.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -451,76 +414,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 76.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 76.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.3,
+			"unit": "%"
 		},
-		"Central bank discount rate": {
-			"Central bank discount rate": "NA% (31 December 2009)",
-			"country comparison to the world:": ""
-		},
+		"Central bank discount rate": "NA% (31 December 2009)",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 0.63,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.63,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 88620000000
-			},
-			"country comparison to the world:": ""
+			"usd": 88620000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 3344000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3344000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 5151000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5151000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 2796000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2796000000000
 		},
 		"Agriculture - products": "cereals, oilseed, potatoes, vegetables; cattle, sheep, poultry; fish",
 		"Industries": "machine tools, electric power equipment, automation equipment, railroad equipment, shipbuilding, aircraft, motor vehicles and parts, electronics and communications equipment, metals, chemicals, coal, petroleum, paper and paper products, food processing, textiles, clothing, other consumer goods",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.9,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 368600000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 368600000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 345800000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 345800000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 1272000000,
@@ -531,125 +461,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1502000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1502000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1669000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1669000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1393000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1393000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1491000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1491000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 3084000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3084000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 58560000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 58560000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 87450000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 87450000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 12170000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12170000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 41060000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41060000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 292000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 292000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-40.34 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-40.34 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 405600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 405600000000
 		},
 		"Exports - commodities": "manufactured goods, fuels, chemicals; food, beverages, tobacco",
 		"Exports - partners": "US 14.71%, Germany 11.06%, France 8%, Netherlands 7.79%, Ireland 6.89%, Belgium 4.65%, Spain 4% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 546500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 546500000000
 		},
 		"Imports - commodities": "manufactured goods, machinery, fuels; foodstuffs",
 		"Imports - partners": "Germany 12.87%, US 9.74%, China 8.88%, Netherlands 6.94%, France 6.64%, Belgium 4.86%, Norway 4.84%, Ireland 4.01%, Italy 3.99% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 8981000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8981000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 1169000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1169000000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1705000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1705000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "British pounds (GBP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 32116999.999999996,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 80375000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 32116999.999999996,
+		"Telephones - mobile cellular": 80375000,
 		"Telephone system": {
 			"general assessment:": "technologically advanced domestic and international system",
 			"domestic:": "equal mix of buried cables, microwave radio relay, and fiber-optic systems",
@@ -657,32 +533,26 @@
 		},
 		"Broadcast media": "public service broadcaster BBC is the largest broadcasting corporation in the world; BBC operates multiple TV networks with regional and local TV service; a mixed system of public and commercial TV broadcasters along with satellite and cable systems provide access to hundreds of TV stations throughout the world; BBC operates multiple national, regional, and local radio networks with multiple transmission sites; a large number of commercial radio stations as well as satellite radio services are available (2008)",
 		"Internet country code": ".uk",
-		"Internet hosts": {
-			"Internet hosts": 7030000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 7030000,
+		"Internet users": 51444000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 505,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 306,
+			"over 3,047 m:": 9,
+			"2,438 to 3,047 m:": 32,
+			"1,524 to 2,437 m:": 124,
+			"914 to 1,523 m:": 77
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 199,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 22,
+			"under 914 m:": 173
 		},
-		"Heliports": null,
+		"Heliports": 11,
 		"Pipelines": "condensate 8 km; gas 14,071 km; liquid petroleum gas 59 km; oil 595 km; refined products 4,907 km (2010)",
 		"Railways": {
 			"total:": {
@@ -701,37 +571,37 @@
 			"country comparison to the world:": "",
 			"paved:": "394,428 km (includes 3,519 km of expressways) (2009)"
 		},
-		"Waterways": {
-			"Waterways": "3,200 km (620 km used for commerce) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "3,200 km (620 km used for commerce) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 527,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 30, cargo 70, carrier 3, chemical tanker 71, container 190, liquefied gas 10, passenger 7, passenger/cargo 67, petroleum tanker 20, refrigerated cargo 6, roll on/roll off 29, vehicle carrier 24",
 			"foreign-owned:": "271 (Australia 1, Bermuda 9, China 15, Denmark 40, France 32, Germany 78, Greece 1, Hong Kong, Italy 4, Japan 4, Netherlands 1, Norway 32, NZ 1, South Africa 5, Spain 7, Sweden 21, Taiwan 1, Turkey 1, UAE 7, United States 11)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Dover, Felixstowe, Immingham, Liverpool, London, Southampton, Teesport (England); Forth Ports, Hound Point (Scotland); Milford Haven (Wales)"
 	},
 	"military": {
 		"Military branches": "Army, Royal Navy (includes Royal Marines), Royal Air Force (2010)",
 		"Military service age and obligation": "16-33 years of age (officers 17-28) for voluntary military service (with parental consent under 18); women serve in military services, but are excluded from ground combat positions and some naval postings; as of October 2009, women comprised 12.1% of officers and 9% of enlisted personnel in the regular forces; must be citizen of the UK, Commonwealth, or Republic of Ireland; reservists serve a minimum of 3 years, to age 45 or 55; 16 years of age for voluntary military service by Nepalese citizens in the Brigade of Gurkhas; 16-34 years of age for voluntary military service by Papua New Guinean citizens (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 14856,
+			"females age 16-49:": 14307
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 12255,
+			"females age 16-49:": 11779
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 383989,
+			"female:": 365491
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement between the UK and Spain; the Government of Gibraltar insists on equal participation in talks between the two countries; Spain disapproves of UK plans to grant Gibraltar greater autonomy; Mauritius and Seychelles claim the Chagos Archipelago (British Indian Ocean Territory); in 2001, the former inhabitants of the archipelago, evicted 1967 - 1973, were granted U.K. citizenship and the right of return, followed by Orders in Council in 2004 that banned rehabitation, a High Court ruling reversing the ban, a Court of Appeal refusal to hear the case, and a Law Lords' decision in 2008 denying the right of return; in addition, the United Kingdom created the world's largest marine protection area around the Chagos islands prohibiting the extraction of any natural resources therein; UK rejects sovereignty talks requested by Argentina, which still claims the Falkland Islands (Islas Malvinas) and South Georgia and the South Sandwich Islands; territorial claim in Antarctica (British Antarctic Territory) overlaps Argentine claim and partially overlaps Chilean claim; Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm",
-		"Illicit drugs": {}
+		"Illicit drugs": "producer of limited amounts of synthetic drugs and synthetic precursor chemicals; major consumer of Southwest Asian heroin, Latin American cocaine, and synthetic drugs; money-laundering center"
 	}
 }

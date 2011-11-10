@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering the Caribbean Sea, between Guatemala and Mexico",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 17,
-				"seconds": 15
+				"deg": 17,
+				"min": 15
 			},
 			"W": {
-				"minutes": 88,
-				"seconds": 45
+				"deg": 88,
+				"min": 45
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 22966,
@@ -95,13 +95,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "only country in Central America without a coastline on the North Pacific Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 321115,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 36.8,
@@ -128,32 +125,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.056,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.056,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 26.43,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.43,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.87,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.87,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -219,27 +204,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.21,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.21,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 2.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 4800,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -284,7 +257,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.7,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -297,12 +273,12 @@
 			"name:": "Belmopan",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 17,
-					"seconds": 15
+					"deg": 17,
+					"min": 15
 				},
 				"W": {
-					"minutes": 88,
-					"seconds": 46
+					"deg": 88,
+					"min": 46
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
@@ -310,7 +286,6 @@
 		"Administrative divisions": "6 districts; Belize, Cayo, Corozal, Orange Walk, Stann Creek, Toledo",
 		"Independence": "21 September 1981 (from the UK)",
 		"National holiday": "Independence Day, 21 September (1981)",
-		"Constitution": "21 September 1981",
 		"Legal system": "English common law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -346,7 +321,10 @@
 		"Flag description": {
 			"Flag description": "blue with a narrow red stripe along the top and the bottom edges; centered is a large white disk bearing the coat of arms; the coat of arms features a shield flanked by two workers in front of a mahogany tree with the related motto SUB UMBRA FLOREO (I Flourish in the Shade) on a scroll at the bottom, all encircled by a green garland of 50 mahogany leaves; the colors are those of the two main political parties: blue for the PUP and red for the UDP; various elements of the coat of arms - the figures, the tools, the mahogany tree, and the garland of leaves - recall the logging industry that led to British settlement of Belize"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Land of the Free\"",
+			"lyrics/music:": "Samuel Alfred HAYNES/Selwyn Walford YOUNG"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism is the number one foreign exchange earner in this small economy, followed by exports of marine products, citrus, cane sugar, bananas, and garments. The government's expansionary monetary and fiscal policies, initiated in September 1998, led to GDP growth averaging nearly 4% in 1999-2007. Oil discoveries in 2006 bolstered this growth. Exploration efforts have continued and production has increased a small amount. In February 2007, the government restructured nearly all of its public external commercial debt, which helped reduce interest payments and relieved some of the country's liquidity concerns. Growth slipped to 0% in 2009 and 1.5% in 2010 as a result of the global slowdown, natural disasters, and the drop in the price of oil. With weak economic growth and a large public debt burden, fiscal spending is likely to be tight. A key government objective remains the reduction of poverty and inequality with the help of international donors. Although Belize has the second highest per capita income in Central America, the average income figure masks a huge income disparity between rich and poor. The 2010 Poverty Assessment shows that more than 4 out of 10 people live in poverty. The sizable trade deficit and heavy foreign debt burden continue to be major concerns.",
@@ -360,11 +338,8 @@
 			"usd": 1396000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -387,7 +362,7 @@
 			}
 		},
 		"Labor force": {
-			"Labor force": null,
+			"Labor force": 120500,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -405,11 +380,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 13.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.1,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 43,
@@ -420,11 +392,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 26.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -435,74 +404,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 80,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 80,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 12,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 14.08,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.08,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 389500000
-			},
-			"country comparison to the world:": ""
+			"usd": 389500000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1351000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1351000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1291000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1291000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "bananas, cacao, citrus, sugar; fish, cultured shrimp; lumber",
 		"Industries": "garment production, food processing, tourism, construction, oil",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 213500000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 213500000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 198500000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 198500000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -513,118 +452,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3990,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3990,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 7000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2260,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2260,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 7204,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7204,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 6700000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6700000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-151 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-151 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 404000000
-			},
-			"country comparison to the world:": ""
+			"usd": 404000000
 		},
 		"Exports - commodities": "sugar, bananas, citrus, clothing, fish products, molasses, wood, crude oil",
 		"Exports - partners": "US 30.7%, UK 29.77%, Nigeria 4.9%, Cote d'Ivoire 4.45% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 740000000
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods; fuels, chemicals, pharmaceuticals; food, beverages, tobacco",
 		"Imports - partners": "US 33.65%, Mexico 14.17%, Cuba 8.51%, Guatemala 6.75%, Spain 6.07%, China 4.12% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 219000000
-			},
-			"country comparison to the world:": ""
+			"usd": 219000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1010000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1010000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Belizean dollars (BZD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 31200,
+		"Telephones - mobile cellular": 161800,
 		"Telephone system": {
 			"general assessment:": "above-average system; trunk network depends primarily on microwave radio relay",
 			"domestic:": "fixed-line teledensity of 10 per 100 persons; mobile-cellular teledensity roughly 55 per 100 persons",
@@ -632,28 +520,22 @@
 		},
 		"Broadcast media": "8 privately-owned TV stations; multi-channel cable TV provides access to foreign stations; about 25 radio stations broadcasting on roughly 50 different frequencies; state-run radio was privatized in 1998 (2007)",
 		"Internet country code": ".bz",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2880,
+		"Internet users": 36000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 45,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"2,438 to 3,047 m:": 1,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 41,
+			"2,438 to 3,047 m:": 1,
+			"914 to 1,523 m:": 13,
+			"under 914 m:": 27
 		},
 		"Roadways": {
 			"total:": {
@@ -670,34 +552,34 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "825 km (navigable only by small craft) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "825 km (navigable only by small craft) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 231,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 37, cargo 146, chemical tanker 1, passenger 1, passenger/cargo 1, petroleum tanker 7, refrigerated cargo 27, roll on/roll off 10",
 			"foreign-owned:": "171 (Chile 1, China 64, Croatia 1, Cyprus 1, Estonia 1, Germany 1, Greece 2, Iceland 2, Italy 3, Japan 1, Latvia 10, Lithuania 2, Netherlands 1, Nigeria 2, Norway 3, Peru 1, Russia 32, Singapore 7, Spain 1, Syria 2, Turkey 18, UAE 5, UK 4, Ukraine 6) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Belize City, Big Creek"
 	},
 	"military": {
 		"Military branches": "Belize Defense Force (BDF): Army, BDF Air Wing (includes Special Boat Unit), BDF Volunteer Guard (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; law allows for conscription only if volunteers are insufficient; conscription has never been implemented; volunteers typically outnumber available positions by 3:1 (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 81284,
+			"females age 16-49:": 79185
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 59431,
+			"females age 16-49:": 57221
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 3723,
+			"female:": 3584
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty",
@@ -705,6 +587,6 @@
 			"current situation:": "Belize is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; the most common form of trafficking in Belize is the internal sex trafficking of minors; some Central American men, women, and children, particularly from Guatemala, Honduras, and El Salvador, migrate voluntarily to Belize in search of work but are subsequently subjected to conditions of forced labor or forced prostitution",
 			"tier rating:": "Belize is placed on Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; despite efforts to raise public awareness of human trafficking and provide protection services for trafficking victims, the government did not show evidence of progress in convicting and sentencing trafficking offenders last year (2009)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for cocaine; small-scale illicit producer of cannabis, primarily for local consumption; offshore sector money-laundering activity related to narcotics trafficking and other crimes\r\n (2008)"
 	}
 }

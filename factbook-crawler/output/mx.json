@@ -7,15 +7,15 @@
 		"Location": "Middle America, bordering the Caribbean Sea and the Gulf of Mexico, between Belize and the United States and bordering the North Pacific Ocean, between Guatemala and the United States",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 23,
-				"seconds": 0
+				"deg": 23,
+				"min": 0
 			},
 			"W": {
-				"minutes": 102,
-				"seconds": 0
+				"deg": 102,
+				"min": 0
 			}
 		},
-		"Map references": "North America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1964,
@@ -108,13 +108,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location on southern border of US; corn (maize), one of the world's major grain crops, is thought to have originated in Mexico"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 113724,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 28.2,
@@ -141,30 +138,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.102,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.102,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.13,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.13,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.86,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.86,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.24 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.24 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 78,
@@ -229,23 +214,14 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.29,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.29,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 220000,
 		"HIV/AIDS - deaths": "NA",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
@@ -293,7 +269,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -307,12 +286,12 @@
 			"name:": "Mexico City (Distrito Federal)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 19,
-					"seconds": 26
+					"deg": 19,
+					"min": 26
 				},
 				"W": {
-					"minutes": 99,
-					"seconds": 8
+					"deg": 99,
+					"min": 8
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)",
@@ -321,7 +300,6 @@
 		"Administrative divisions": "31 states (estados, singular - estado) and 1 federal district* (distrito federal); Aguascalientes, Baja California, Baja California Sur, Campeche, Chiapas, Chihuahua, Coahuila de Zaragoza, Colima, Distrito Federal*, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, Mexico, Michoacan de Ocampo, Morelos, Nayarit, Nuevo Leon, Oaxaca, Puebla, Queretaro de Arteaga, Quintana Roo, San Luis Potosi, Sinaloa, Sonora, Tabasco, Tamaulipas, Tlaxcala, Veracruz-Llave, Yucatan, Zacatecas",
 		"Independence": "16 September 1810 (declared); 27 September 1821 (recognized by Spain)",
 		"National holiday": "Independence Day, 16 September (1810)",
-		"Constitution": "5 February 1917",
 		"Legal system": "civil law system with US constitutional law theory influence; judicial review of legislative acts",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory (but not enforced)",
@@ -358,7 +336,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of green (hoist side), white, and red; Mexico's coat of arms (an eagle with a snake in its beak perched on a cactus) is centered in the white band; green signifies hope, joy, and love; white represents peace and honesty; red stands for hardiness, bravery, strength, and valor; the coat of arms is derived from a legend that the wandering Aztec people were to settle at a location where they would see an eagle on a cactus eating a snake; the city they founded, Tenochtitlan, is now Mexico City"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional Mexicano\" (National Anthem of Mexico)",
+			"lyrics/music:": "Francisco Gonzalez BOCANEGRA/Jaime Nuno ROCA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Mexico has a free market economy in the trillion dollar class. It contains a mixture of modern and outmoded industry and agriculture, increasingly dominated by the private sector. Recent administrations have expanded competition in seaports, railroads, telecommunications, electricity generation, natural gas distribution, and airports. Per capita income is roughly one-third that of the US; income distribution remains highly unequal. Since the implementation of the North American Free Trade Agreement (NAFTA) in 1994, Mexico's share of US imports has increased from 7% to 12%, and its share of Canadian imports has doubled to 5%. Mexico has free trade agreements with over 50 countries including, Guatemala, Honduras, El Salvador, the European Free Trade Area, and Japan, putting more than 90% of trade under free trade agreements. In 2007, during its first year in office, the Felipe CALDERON administration was able to garner support from the opposition to successfully pass pension and fiscal reforms. The administration passed an energy reform measure in 2008 and another fiscal reform in 2009. Mexico's GDP plunged 6.5% in 2009 as world demand for exports dropped, asset prices tumbled, and remittances and investment declined. GDP posted positive growth of 5% in 2010, with exports - particularly to the United States - leading the way, while domestic consumption and investment lagged. The administration continues to face many economic challenges, including improving the public education system, upgrading infrastructure, modernizing labor laws, and fostering private investment in the energy sector. CALDERON has stated that his top economic priorities remain reducing poverty and creating jobs.",
@@ -372,11 +353,8 @@
 			"usd": 1038999999999.9999
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -398,10 +376,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 46990000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 46990000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 13.7,
@@ -439,16 +414,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 48.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -459,73 +428,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 41.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.07,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.07,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 135699999999.99998
-			},
-			"country comparison to the world:": ""
+			"usd": 135699999999.99998
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 583800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 583800000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 342400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 342400000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 340600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 340600000000
 		},
 		"Agriculture - products": "corn, wheat, soybeans, rice, beans, cotton, coffee, fruit, tomatoes; beef, poultry, dairy products; wood products",
 		"Industries": "food and beverages, tobacco, chemicals, iron and steel, petroleum, mining, textiles, clothing, motor vehicles, consumer durables, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 245000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 245000000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 181500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 181500000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 1288000000,
@@ -536,130 +475,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3001000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3001000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2077999.9999999998,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2077999.9999999998,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1225000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1225000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 521100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 521100,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 12420000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12420000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 60350000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60350000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 59800000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 59800000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 688000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 688000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 11840000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11840000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 359700000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 359700000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-7 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-7 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 303000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 303000000000
 		},
 		"Exports - commodities": "manufactured goods, oil and oil products, silver, fruits, vegetables, coffee, cotton",
 		"Exports - partners": "US 80.5%, Canada 3.6%, Germany 1.4% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 306000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 306000000000
 		},
 		"Imports - commodities": "metalworking machines, steel mill products, agricultural machinery, electrical equipment, car parts for assembly, repair parts for motor vehicles, aircraft, and aircraft parts",
 		"Imports - partners": "US 48%, China 13.5%, Japan 4.8%, South Korea 4.6%, Germany 4.1% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 116400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 116400000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 212500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 212500000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 328400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 328400000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 62930000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62930000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Mexican pesos (MXN) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 19425000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 83528000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 19425000,
+		"Telephones - mobile cellular": 83528000,
 		"Telephone system": {
 			"general assessment:": "adequate telephone service for business and government; improving quality and increasing mobile cellular availability, with mobile subscribers far outnumbering fixed-line subscribers; domestic satellite system with 120 earth stations; extensive microwave radio relay network; considerable use of fiber-optic cable and coaxial cable",
 			"domestic:": "despite the opening to competition in January 1997, Telmex remains dominant; Fixed-line teledensity is less than 20 per 100 persons; mobile-cellular teledensity reached 75 per 100 persons in 2009",
@@ -667,32 +549,26 @@
 		},
 		"Broadcast media": "large number of television stations and more than 1,400 radio stations, most are privately owned; the Televisa group once had a virtual monopoly in TV broadcasting, but new broadcasting groups and foreign satellite and cable operators are now available (2007)",
 		"Internet country code": ".mx",
-		"Internet hosts": {
-			"Internet hosts": 12854000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 12854000,
+		"Internet users": 31020000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1819,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 250,
+			"over 3,047 m:": 12,
+			"2,438 to 3,047 m:": 30,
+			"1,524 to 2,437 m:": 85,
+			"914 to 1,523 m:": 83
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 1569,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 66,
+			"914 to 1,523 m:": 438
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 16,594 km; liquid petroleum gas 2,152 km; oil 7,499 km; oil/gas/water 4 km; refined products 7,264 km; water 33 km (2010)",
 		"Railways": {
 			"total:": {
@@ -717,41 +593,41 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,900 km (navigable rivers and coastal canals mostly connected with ports on the country's east coast) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "2,900 km (navigable rivers and coastal canals mostly connected with ports on the country's east coast) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 60,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 3, chemical tanker 12, liquefied gas 4, passenger/cargo 11, petroleum tanker 22, roll on/roll off 4",
-			"foreign-owned:": null,
+			"foreign-owned:": 5,
 			"registered in other countries:": "18 (Antigua and Barbuda 2, Honduras 1, Marshall Islands 4, Panama 6, Portugal 1, Spain 2, Venezuela 1, unknown 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Altamira, Coatzacoalcos, Lazaro Cardenas, Manzanillo, Salina Cruz, Veracruz"
 	},
 	"military": {
 		"Military branches": "Secretariat of National Defense (Secretaria de Defensa Nacional, Sedena): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, Semar): Mexican Navy (Armada de Mexico (ARM), includes Naval Air Force (FAN), Mexican Marine Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM)) (2011)",
 		"Military service age and obligation": "18 years of age for compulsory military service, conscript service obligation - 12 months; 16 years of age with consent for voluntary enlistment; conscripts serve only in the Army; Navy and Air Force service is all voluntary; women are eligible for voluntary military service (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 28815,
+			"females age 16-49:": 30363
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 23239,
+			"females age 16-49:": 25642
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1105,
+			"female:": 1067
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "abundant rainfall in recent years along much of the Mexico-US border region has ameliorated periodically strained water-sharing arrangements; the US has intensified security measures to monitor and control legal and illegal personnel, transport, and commodities across its border with Mexico; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the United States; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "5,500-10,000 (government's quashing of Zapatista uprising in 1994 in eastern Chiapas Region) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "major drug-producing nation; cultivation of opium poppy in 2007 rose to 6,900 hectares yielding a potential production of 18 metric tons of pure heroin, or 50 metric tons of \"black tar\" heroin, the dominant form of Mexican heroin in the western United States; marijuana cultivation increased to 8,900 hectares in 2007 and yielded a potential production of 15,800 metric tons; government conducts the largest independent illicit-crop eradication program in the world; continues as the primary transshipment country for US-bound cocaine from South America, with an estimated 90% of annual cocaine movements toward the US stopping in Mexico; major drug syndicates control the majority of drug trafficking throughout the country; producer and distributor of ecstasy; significant money-laundering center; major supplier of heroin and largest foreign supplier of marijuana and methamphetamine to the US market (2007)"
 	}
 }

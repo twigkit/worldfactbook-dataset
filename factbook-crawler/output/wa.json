@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 22,
-				"seconds": 0
+				"deg": 22,
+				"min": 0
 			},
 			"E": {
-				"minutes": 17,
-				"seconds": 0
+				"deg": 17,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 824292,
@@ -104,11 +104,11 @@
 			"party to:": "Antarctic-Marine Living Resources, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "first country in the world to incorporate the protection of the environment into its constitution; some 14% of the land is protected, including virtually the entire Namib Desert coastal strip"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 2147,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -137,32 +137,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.873,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.873,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 21.48,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.48,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 12.95,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.95,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.2,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -228,27 +216,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.49,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.49,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 13.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 180000,
+		"HIV/AIDS - deaths": 6700,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -295,7 +271,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -310,12 +289,12 @@
 			"name:": "Windhoek",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 22,
-					"seconds": 34
+					"deg": 22,
+					"min": 34
 				},
 				"E": {
-					"minutes": 17,
-					"seconds": 5
+					"deg": 17,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -324,7 +303,6 @@
 		"Administrative divisions": "13 regions; Caprivi, Erongo, Hardap, Karas, Khomas, Kunene, Ohangwena, Okavango, Omaheke, Omusati, Oshana, Oshikoto, Otjozondjupa",
 		"Independence": "21 March 1990 (from South African mandate)",
 		"National holiday": "Independence Day, 21 March (1990)",
-		"Constitution": "ratified 9 February 1990, effective 12 March 1990",
 		"Legal system": "mixed legal system of uncodified civil law based on  Roman-Dutch law and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -358,7 +336,10 @@
 			"FAX:": "[264] (61) 295-8603"
 		},
 		"Flag description": "a wide red stripe edged by narrow white stripes divides the flag diagonally from lower hoist corner to upper fly corner; the upper hoist-side triangle is blue and charged with a yellow, 12-rayed sunburst; the lower fly-side triangle is green; red signifies the heroism of the people and their determination to build a future of equal opportunity for all; white stands for peace, unity, tranquility, and harmony; blue represents the Namibian sky and the Atlantic Ocean, the country's precious water resources and rain; the yellow sun denotes power and existence; green symbolizes vegetation and agricultural resources",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Namibia, Land of the Brave\"",
+			"lyrics/music:": "Axali DOESEB"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy is heavily dependent on the extraction and processing of minerals for export. Mining accounts for 8% of GDP, but provides more than 50% of foreign exchange earnings. Rich alluvial diamond deposits make Namibia a primary source for gem-quality diamonds. Namibia is the world's fourth-largest producer of uranium. It also produces large quantities of zinc and is a small producer of gold and other minerals. The mining sector employs only about 3% of the population while about 35-40% of the population depends on subsistence agriculture for its livelihood. Namibia normally imports about 50% of its cereal requirements; in drought years food shortages are a major problem in rural areas. A high per capita GDP, relative to the region, hides one of the world's most unequal income distributions, as shown by Namibia's 70.7 GINI coefficient. The Namibian economy is closely linked to South Africa with the Namibian dollar pegged one-to-one to the South African rand. Until 2010, Namibia drew 40% of its budget revenues from the Southern African Customs Union (SACU). Increased payments from SACU put Namibia's budget into surplus in 2007 for the first time since independence. SACU allotments to Namibia increased in 2009, but will drop for 2010 and 2011 because South Africa went into recession during the global economic crisis, reducing overall SACU income. Increased fish production and mining of zinc, copper, and uranium spurred growth in 2003-08, but growth in recent years was undercut by poor fish catches, a dramatic decline in demand for diamonds, higher costs of producing metals, and the global recession. A rebound in diamond and uranium prices in 2010 provided a significant boost to Namibia's mining sector. Copper mines, which closed in 2008, are slated to reopen in 2011.",
@@ -372,11 +353,8 @@
 			"usd": 11870000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -398,10 +376,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 729000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 16.3,
@@ -417,11 +392,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 51.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 51.2,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"Population below poverty line": {
@@ -439,16 +411,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 70.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 24,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -459,79 +425,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 20,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.12,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.12,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3049000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3049000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 4756000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4756000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 5122000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5122000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 846300000
-			},
-			"country comparison to the world:": ""
+			"usd": 846300000
 		},
 		"Agriculture - products": "millet, sorghum, peanuts, grapes; livestock; fish",
 		"Industries": "meatpacking, fish processing, dairy products; mining (diamonds, lead, zinc, tin, silver, tungsten, uranium, copper)",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 1491000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1491000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2845000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2845000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 40000000,
@@ -542,118 +475,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 22000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 19120,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19120,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 62290000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 62290000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-187 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-187 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 4277000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4277000000
 		},
 		"Exports - commodities": "diamonds, copper, gold, zinc, lead, uranium; cattle, processed fish, karakul skins",
 		"Imports": {
-			"Imports": {
-				"usd": 5152000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5152000000
 		},
 		"Imports - commodities": "foodstuffs; petroleum products and fuel, machinery and equipment, chemicals",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1961000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1961000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2373000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2373000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Namibian dollars (NAD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1217000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 142100,
+		"Telephones - mobile cellular": 1217000,
 		"Telephone system": {
 			"general assessment:": "good system; core fiber-optic network links most centers and connections are now digital",
 			"domestic:": "multiple mobile-cellular providers with a combined subscribership of nearly 60 telephones per 100 persons; combined fixed-line and mobile-cellular teledensity about 65 per 100 persons",
@@ -661,30 +543,24 @@
 		},
 		"Broadcast media": "1 private and 1 state-run television station; satellite and cable TV service is available; state-run radio service broadcasts in multiple languages; about a dozen private radio stations operating; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".na",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 76020,
+		"Internet users": 127500
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 129,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 21,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 13,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 108,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 25,
+			"914 to 1,523 m:": 71,
+			"under 914 m:": 11
 		},
 		"Railways": {
 			"total:": {
@@ -710,30 +586,35 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Luderitz, Walvis Bay"
 	},
 	"military": {
 		"Military branches": "Namibian Defense Force (NDF): Army, Navy, Air Force (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 568231
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 351431,
+			"females age 16-49:": 311513
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 26413,
+			"female:": 26038
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "concerns from international experts and local populations over the Okavango Delta ecology in Botswana and human displacement scuttled Namibian plans to construct a hydroelectric dam on Popa Falls along the Angola-Namibia border; managed dispute with South Africa over the location of the boundary in the Orange River; Namibia has supported, and in 2004 Zimbabwe dropped objections to, plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "4,700 (Angola) (2007)"
+		}
 	}
 }

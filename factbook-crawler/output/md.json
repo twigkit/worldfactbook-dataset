@@ -7,15 +7,15 @@
 		"Location": "Eastern Europe, northeast of Romania",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 47,
-				"seconds": 0
+				"deg": 47,
+				"min": 0
 			},
 			"E": {
-				"minutes": 29,
-				"seconds": 0
+				"deg": 29,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 33851,
@@ -89,13 +89,10 @@
 			"party to:": "Air Pollution, Air Pollution-Persistent Organic Pollutants, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; well endowed with various sedimentary rocks and minerals including sand, gravel, gypsum, and limestone"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 4314,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.5,
@@ -121,28 +118,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.072% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.072% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.16,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.16,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.74,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.74,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.13 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.13 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 47,
@@ -207,27 +192,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.29,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.29,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 12000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -268,7 +241,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 9.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -283,12 +259,12 @@
 			"name:": "Chisinau in Romanian (Kishinev in Russian)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 47,
-					"seconds": 0
+					"deg": 47,
+					"min": 0
 				},
 				"E": {
-					"minutes": 28,
-					"seconds": 51
+					"deg": 28,
+					"min": 51
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -303,7 +279,6 @@
 		},
 		"Independence": "27 August 1991 (from the Soviet Union)",
 		"National holiday": "Independence Day, 27 August (1991)",
-		"Constitution": "adopted 29 July 1994; effective 27 August 1994; note - replaced 1979 Soviet Constitution",
 		"Legal system": "civil law system with Germanic law influences; Constitutional Court review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -340,7 +315,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of blue (hoist side), yellow, and red; emblem in center of flag is of a Roman eagle of gold outlined in black with a red beak and talons carrying a yellow cross in its beak and a green olive branch in its right talons and a yellow scepter in its left talons; on its breast is a shield divided horizontally red over blue with a stylized aurochs head, star, rose, and crescent all in black-outlined yellow; based on the color scheme of the flag of Romania - with which Moldova shares a history and culture - but Moldova's blue band is lighter; the reverse of the flag does not display any coat of arms"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Limba noastra\" (Our Language)",
+			"lyrics/music:": "Alexei MATEEVICI/Alexandru CRISTEA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Moldova remains one of the poorest countries in Europe despite recent progress from its small economic base. It enjoys a favorable climate and good farmland but has no major mineral deposits. As a result, the economy depends heavily on agriculture, featuring fruits, vegetables, wine, and tobacco. Moldova must import almost all of its energy supplies. Moldova's dependence on Russian energy was underscored at the end of 2005, when a Russian-owned electrical station in Moldova's separatist Transnistria region cut off power to Moldova and Russia's Gazprom cut off natural gas in disputes over pricing. In January 2009, gas supplies were cut during a dispute between Russia and Ukraine. Russia's decision to ban Moldovan wine and agricultural products, coupled with its decision to double the price Moldova paid for Russian natural gas, have hurt growth. The onset of the global financial crisis and poor economic conditions in Moldova's main foreign markets caused GDP to fall 6% in 2009. Unemployment almost doubled and inflation disappeared - at -0.1%, a record low. Moldova's IMF agreement expired in May 2009. In fall 2009, the IMF allocated $186 million to Moldova to cover its immediate budgetary needs, and the government signed a new agreement with the IMF in January 2010 for a program worth $574 million. In 2010, an upturn in the world economy boosted GDP growth to 6.5% and inflation to 7.3%. Economic reforms have been slow because of corruption and strong political forces backing government controls. Nevertheless, the government's primary goal of EU integration has resulted in some market-oriented progress. The granting of EU trade preferences and increased exports to Russia will encourage higher growth rates, but the agreements are unlikely to serve as a panacea, given the extent to which export success depends on higher quality standards and other factors. The economy has made a modest recovery, but remains vulnerable to political uncertainty, weak administrative capacity, vested bureaucratic interests, higher fuel prices, poor agricultural weather, and the skepticism of foreign investors as well as the presence of an illegal separatist regime in Moldova's Transnistria region.",
@@ -354,11 +332,8 @@
 			"usd": 5810000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.9,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -380,10 +355,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1203000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1203000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 40.6,
@@ -399,11 +371,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 26.3,
@@ -419,16 +388,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 37.4,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -439,43 +402,25 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 25,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 20.54,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.54,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1293000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1293000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2037999999.9999998
-			},
-			"country comparison to the world:": ""
+			"usd": 2037999999.9999998
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 2097000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2097000000
 		},
 		"Market value of publicly traded shares": {
 			"usd": 573900000
@@ -483,25 +428,16 @@
 		"Agriculture - products": "vegetables, fruits, grapes, grain, sugar beets, sunflower seed, tobacco; beef, milk; wine",
 		"Industries": "sugar, vegetable oil, food processing, agricultural machinery; foundry equipment, refrigerators and freezers, washing machines; hosiery, shoes, textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3617000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3617000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 4370000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4370000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 240000000,
@@ -512,130 +448,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 19000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 36.49,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36.49,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 14230,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14230,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 60000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 3176000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3176000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 3176000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3176000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-565 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-565 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1450000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1450000000
 		},
 		"Exports - commodities": "foodstuffs, textiles, machinery",
 		"Exports - partners": "Russia 23.77%, Italy 14.11%, Romania 12.74%, Germany 6.92%, Turkey 6.08%, Belarus 5.38% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 3660000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3660000000
 		},
 		"Imports - commodities": "mineral products and fuel, machinery and equipment, chemicals, textiles",
 		"Imports - partners": "Ukraine 19.9%, Romania 15.1%, Russia 14.52%, Germany 8.69%, Italy 5.7%, Belarus 4.38% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1710000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1710000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4618000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4618000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 2649000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2649000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 62440000
-			},
-			"country comparison to the world:": ""
+			"usd": 62440000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Moldovan lei (MDL) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1139000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2785000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1139000,
+		"Telephones - mobile cellular": 2785000,
 		"Telephone system": {
 			"general assessment:": "poor service outside Chisinau; some modernization is under way",
 			"domestic:": "depending on location, new subscribers may face long wait for service; multiple private operators of GSM mobile-cellular telephone service are operating; GPRS system is being introduced; a CDMA mobile telephone network began operations in 2007; combined fixed-line and mobile-cellular teledensity 90 per 100 persons",
@@ -643,27 +522,21 @@
 		},
 		"Broadcast media": "state-owned national radio-TV broadcaster operates 2 television and 2 radio stations; a total of nearly 40 terrestrial TV channels and some 50 radio stations are in operation; Russian and Romanian channels also are available (2007)",
 		"Internet country code": ".md",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 492181,
+		"Internet users": 1333000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 11,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 5,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 6,
+			"1,524 to 2,437 m:": 3,
+			"under 914 m:": 3
 		},
 		"Pipelines": "gas 1,906 km (2010)",
 		"Railways": {
@@ -690,28 +563,33 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "558 km (in public use on Danube, Dniester and Prut rivers) (2008)",
-			"country comparison to the world:": ""
-		},
-		"Merchant marine": {}
+		"Waterways": "558 km (in public use on Danube, Dniester and Prut rivers) (2008)",
+		"Merchant marine": {
+			"total:": 107,
+			"country comparison to the world:": "",
+			"by type:": "bulk carrier 7, cargo 89, chemical tanker 2, passenger/cargo 1, petroleum tanker 1, refrigerated cargo 1, roll on/roll off 6",
+			"foreign-owned:": "63 (Belgium 2, Egypt 5, Greece 4, Israel 4, Lebanon 1, Romania 2, Russia 5, Syria 3, Turkey 18, UK 6, Ukraine 12, Yemen 1) (2010)"
+		}
 	},
 	"military": {
 		"Military branches": "National Army: Land Forces Command (includes special forces), Air Forces Command (includes air defense unit), Logistics Command (2010)",
 		"Military service age and obligation": "18 years of age for compulsory military service; 17 years of age for voluntary service; male registration required at age 16; 12-month service obligation (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1143,
+			"females age 16-49:": 1156
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 875224,
+			"females age 16-49:": 969903
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 28213,
+			"female:": 26614
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Moldova and Ukraine operate joint customs posts to monitor the transit of people and commodities through Moldova's break-away Transnistria region, which remains under OSCE supervision",
@@ -719,6 +597,6 @@
 			"current situation:": "Moldova is a major source and, to a lesser extent, a transit country for women and girls trafficked for the purpose of commercial sexual exploitation; Moldovan women are trafficked to the Middle East, Eastern Europe, and Western Europe; girls and young women are trafficked within the country from rural areas to Chisinau; children are also trafficked to neighboring countries for forced labor and begging; labor trafficking of men to work in the construction, agriculture, and service sectors of Russia is increasingly a problem; according to an ILO report, Moldova's national Bureau of Statistics estimated that there were likely over 25,000 Moldovan victims of trafficking for forced labor in 2008",
 			"tier rating:": "Tier 2 Watch List - The Government of Moldova does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; despite initial efforts to combat trafficking-related complicity since the government's reassessment on the Tier 2 Watch List in September 2008, and increased victim assistance, the government did not demonstrate sufficiently meaningful efforts to curb trafficking-related corruption, which is a government-acknowledged problem in Moldova; the government improved victim protection efforts, deployed more law-enforcement officers in the effort and contributed direct financial assistance toward victim protection and assistance for the first time (2010)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "limited cultivation of opium poppy and cannabis, mostly for CIS consumption; transshipment point for illicit drugs from Southwest Asia via Central Asia to Russia, Western Europe, and possibly the US; widespread crime and underground economic activity"
 	}
 }

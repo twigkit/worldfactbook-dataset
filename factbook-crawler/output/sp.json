@@ -7,15 +7,15 @@
 		"Location": "Southwestern Europe, bordering the Mediterranean Sea, North Atlantic Ocean, Bay of Biscay, and Pyrenees Mountains; southwest of France",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 40,
-				"seconds": 0
+				"deg": 40,
+				"min": 0
 			},
 			"W": {
-				"minutes": 4,
-				"seconds": 0
+				"deg": 4,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 505370,
@@ -105,13 +105,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "Air Pollution-Persistent Organic Pollutants"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location along approaches to Strait of Gibraltar; Spain controls a number of territories in northern Morocco including the enclaves of Ceuta and Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 46754,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.1,
@@ -138,32 +135,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.574,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.574,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.66,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.66,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.8,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.8,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 3.89,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.89,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -229,27 +214,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.47,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.47,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 130000,
+		"HIV/AIDS - deaths": 1600,
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -288,7 +261,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -302,12 +278,12 @@
 			"name:": "Madrid",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 40,
-					"seconds": 24
+					"deg": 40,
+					"min": 24
 				},
 				"W": {
-					"minutes": 3,
-					"seconds": 41
+					"deg": 3,
+					"min": 41
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -318,7 +294,6 @@
 		},
 		"Independence": "1492; the Iberian peninsula was characterized by a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this event completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain",
 		"National holiday": "National Day, 12 October (1492); year when Columbus first set foot in the Americas",
-		"Constitution": "approved by legislature 31 October 1978; passed by referendum 6 December 1978; signed by the king 27 December 1978",
 		"Legal system": "civil law system with regional variations",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -357,7 +332,10 @@
 		"Flag description": {
 			"Flag description": "three horizontal bands of red (top), yellow (double width), and red with the national coat of arms on the hoist side of the yellow band; the coat of arms is quartered to display the emblems of the traditional kingdoms of Spain (clockwise from upper left, Castile, Leon, Navarre, and Aragon) while Granada is represented by the stylized pomegranate at the bottom of the shield; the arms are framed by two columns representing the Pillars of Hercules, which are the two promontories (Gibraltar and Ceuta) on either side of the eastern end of the Strait of Gibraltar; the red scroll across the two columns bears the imperial motto of \"Plus Ultra\" (further beyond) referring to Spanish lands beyond Europe; the triband arrangement with the center stripe twice the width of the outer dates to the 18th century"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional Espanol\" (National Anthem of Spain)",
+			"lyrics/music:": "none/unknown"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Spain's mixed capitalist economy is the 12th largest in the world, and its per capita income roughly matches that of Germany and France. However, after almost 15 years of above average GDP growth, the Spanish economy began to slow in late 2007 and entered into a recession in the second quarter of 2008. GDP contracted by 3.7% in 2009, ending a 16-year growth trend, and by another 0.2% in 2010, making Spain the last major economy to emerge from the global recession. The reversal in Spain's economic growth reflected a significant decline in construction amid an oversupply of housing and falling consumer spending, while exports actually have begun to grow. Government efforts to boost the economy through stimulus spending, extended unemployment benefits, and loan guarantees did not prevent a sharp rise in the unemployment rate, which rose from a low of about 8% in 2007 to 20% in 2010. The government budget deficit worsened from 3.8% of GDP in 2008 to about 9.7% of GDP in 2010, more than three times the euro-zone limit. Spain's large budget deficit and poor economic growth prospects have made it vulnerable to financial contagion from other highly-indebted euro zone members despite the government's efforts to cut spending, privatize industries, and boost competitiveness through labor market reforms. Spanish banks' high exposure to the collapsed domestic construction and real estate market also poses a continued risk for the sector. The government oversaw a restructuring of the savings bank sector in 2010, and provided some $15 billion in capital to various institutions. Investors remain concerned that Madrid may need to bail out more troubled banks. The Bank of Spain, however, is seeking to boost confidence in the financial sector by pressuring banks to come clean about their losses and consolidate into stronger groups.",
@@ -370,10 +348,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 1410000000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-0.1% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-0.1% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -394,10 +369,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 22960000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 22960000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 4.2,
@@ -413,11 +385,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 20,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 19.8,
@@ -433,16 +402,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 32,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -453,18 +416,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 63.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 63.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.3,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -474,11 +431,8 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.72,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.72,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -487,42 +441,24 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2264000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2264000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 3683000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3683000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1297000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1297000000000
 		},
 		"Agriculture - products": "grain, vegetables, olives, wine grapes, sugar beets, citrus; beef, pork, poultry, dairy products; fish",
 		"Industries": "textiles and apparel (including footwear), food and beverages, metals and metal manufactures, chemicals, shipbuilding, automobiles, machine tools, tourism, clay and refractory products, footwear, pharmaceuticals, medical equipment",
-		"Industrial production growth rate": {
-			"Industrial production growth rate": "-2% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Industrial production growth rate": "-2% (2010 est.)",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 300500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 300500000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 276100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 276100000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 16920000000.000002,
@@ -533,125 +469,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 27230,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27230,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1482000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1482000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 218600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 218600,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1716000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1716000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 150000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 150000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 13000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 33880000000.000004,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33880000000.000004,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 975000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 975000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 34670000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34670000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 2548000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2548000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-66.74 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-66.74 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 268300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 268300000000
 		},
 		"Exports - commodities": "machinery, motor vehicles; foodstuffs, pharmaceuticals, medicines, other consumer goods",
 		"Exports - partners": "France 19.27%, Germany 11.11%, Portugal 9.21%, Italy 8.24%, UK 6.18% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 324600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 324600000000
 		},
 		"Imports - commodities": "machinery and equipment, fuels, chemicals, semifinished goods, foodstuffs, consumer goods, measuring and medical control instruments",
 		"Imports - partners": "Germany 15.02%, France 12.82%, Italy 7.17%, China 5.8%, Netherlands 5.22%, UK 4.7% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2166000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2166000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 668500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 668500000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 641000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 641000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 20057000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 50991000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 20057000,
+		"Telephones - mobile cellular": 50991000,
 		"Telephone system": {
 			"general assessment:": "well developed, modern facilities; fixed-line teledensity is roughly 50 per 100 persons",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity is nearly 175 telephones per 100 persons",
@@ -659,31 +541,25 @@
 		},
 		"Broadcast media": "a mixture of both publicly-operated and privately-owned TV and radio stations broadcasting; overall, hundreds of TV channels are available including national, regional, local, public, and international channels; satellite and cable TV systems are accessible; multiple national radio networks, a large number of regional radio networks, and a larger number of local radio stations broadcasting; overall, hundreds of radio stations operating (2008)",
 		"Internet country code": ".es",
-		"Internet hosts": {
-			"Internet hosts": 3822000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3822000,
+		"Internet users": 28119000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 154,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 97,
+			"over 3,047 m:": 18,
+			"2,438 to 3,047 m:": 13,
+			"1,524 to 2,437 m:": 18,
+			"914 to 1,523 m:": 24
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 57,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 16,
+			"under 914 m:": 38
 		},
-		"Heliports": null,
+		"Heliports": 9,
 		"Pipelines": "gas 9,359 km; oil 560 km; refined products 3,441 km (2010)",
 		"Railways": {
 			"total:": {
@@ -704,40 +580,40 @@
 			"paved:": "681,298 km (includes 15,152 km of expressways) (2008)"
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 1000,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 138,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 7, cargo 17, chemical tanker 12, container 8, liquefied gas 13, passenger 1, passenger/cargo 40, petroleum tanker 17, refrigerated cargo 5, roll on/roll off 13, vehicle carrier 5",
-			"foreign-owned:": null,
+			"foreign-owned:": 26,
 			"registered in other countries:": "107 (Angola 1, Argentina 3, Bahamas 9, Belize 1, Brazil 12, Cape Verde 1, Cyprus 7, France 1, Malta 10, Nigeria 1, Panama 40, Portugal 15, Uruguay 5, Venezuela 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Algeciras, Barcelona, Bilbao, Cartagena, Huelva, Tarragona, Valencia (Spain); Las Palmas, Santa Cruz de Tenerife (Canary Islands)"
 	},
 	"military": {
 		"Military branches": "Spanish Armed Forces: Army (Ejercito de Tierra), Spanish Navy (Armada Espanola, AE; includes Marine Corps), Spanish Air Force (Ejercito del Aire Espanola, EdA) (2010)",
 		"Military service age and obligation": "20 years of age (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 11759,
+			"females age 16-49:": 11204
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 9603,
+			"females age 16-49:": 9116
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 217244,
+			"female:": 205278
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement; the government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar greater autonomy; Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas, and surrounding waters; both countries claim Isla Perejil (Leila Island); Morocco serves as the primary launching site of illegal migration into Spain from North Africa; Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz",
-		"Illicit drugs": {}
+		"Illicit drugs": "despite rigorous law enforcement efforts, North African, Latin American, Galician, and other European traffickers take advantage of Spain's long coastline to land large shipments of cocaine and hashish for distribution to the European market; consumer for Latin American cocaine and North African hashish; destination and minor transshipment point for Southwest Asian heroin; money-laundering site for Colombian narcotics trafficking organizations and organized crime"
 	}
 }

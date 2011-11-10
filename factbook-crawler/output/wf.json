@@ -7,15 +7,15 @@
 		"Location": "Oceania, islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 13,
-				"seconds": 18
+				"deg": 13,
+				"min": 18
 			},
 			"W": {
-				"minutes": 176,
-				"seconds": 12
+				"deg": 176,
+				"min": 12
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 142,
@@ -74,13 +74,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "NA",
 		"Environment - current issues": "deforestation (only small portions of the original forests remain) largely as a result of the continued use of wood as the main fuel source; as a consequence of cutting down the forests, the mountainous terrain of Futuna is particularly prone to erosion; there are no permanent settlements on Alofi because of the lack of natural freshwater resources",
-		"Geography - note": {}
+		"Geography - note": "both island groups have fringing reefs"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 15398,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 25.1,
@@ -107,20 +104,11 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.357,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.357,
+			"unit": "%"
 		},
-		"Birth rate": {
-			"Birth rate": "13.96 births/1,000 population NA (2011 est.)",
-			"country comparison to the world:": ""
-		},
-		"Death rate": {
-			"Death rate": "4.68 deaths/1,000 population NA (July 2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Birth rate": "13.96 births/1,000 population NA (2011 est.)",
+		"Death rate": "4.68 deaths/1,000 population NA (July 2011 est.)",
 		"Net migration rate": {
 			"Net migration rate": "-5.72 migrant(s)/1,000 population",
 			"country comparison to the world:": ""
@@ -188,11 +176,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.81,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.81,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -222,7 +207,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -237,12 +222,12 @@
 			"name:": "Mata-Utu (on Ile Uvea)",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 13,
-					"seconds": 57
+					"deg": 13,
+					"min": 57
 				},
 				"W": {
-					"minutes": 171,
-					"seconds": 56
+					"deg": 171,
+					"min": 56
 				}
 			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
@@ -250,7 +235,6 @@
 		"Administrative divisions": "none (overseas territory of France); there are no first-order administrative divisions as defined by the US Government, but there are three kingdoms at the second order named Alo, Sigave, Wallis",
 		"Independence": "none (overseas territory of France)",
 		"National holiday": "Bastille Day, 14 July (1789)",
-		"Constitution": "4 October 1958 (French Constitution)",
 		"Legal system": "French civil law",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -273,33 +257,26 @@
 		"Flag description": {
 			"Flag description": "unofficial, local flag has a red field with four white isosceles triangles in the middle, representing the three native kings of the islands and the French administrator; the apexes of the triangles are oriented inward and at right angles to each other; the flag of France, outlined in white on two sides, is in the upper hoist quadrant"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"note:": "as a territory of France, \"La Marseillaise\" is official (see France)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy is limited to traditional subsistence agriculture, with about 80% of labor force earnings from agriculture (coconuts and vegetables), livestock (mostly pigs), and fishing. About 4% of the population is employed in government. Revenues come from French Government subsidies, licensing of fishing rights to Japan and South Korea, import taxes, and remittances from expatriate workers in New Caledonia.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 60000000
-			},
-			"country comparison to the world:": ""
+			"usd": 60000000
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3104,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 80,
@@ -315,11 +292,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 15.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.2,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -335,18 +309,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 5.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"Agriculture - products": "coconuts, breadfruit, yams, taro, bananas; pigs, goats; fish",
 		"Industries": "copra, handicrafts, fishing, lumber",
@@ -362,32 +330,20 @@
 			"unit": "kWh"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"Exports - commodities": "copra, chemicals, construction materials",
 		"Imports": {
-			"Imports": {
-				"usd": 61170000
-			},
-			"country comparison to the world:": ""
+			"usd": 61170000
 		},
 		"Imports - commodities": "chemicals, machinery, consumer goods",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 3670000
-			},
-			"country comparison to the world:": ""
+			"usd": 3670000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Comptoirs Francais du Pacifique francs (XPF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3000,
 		"Telephones - mobile cellular": "NA",
 		"Telephone system": {
 			"general assessment:": "NA",
@@ -396,42 +352,36 @@
 		},
 		"Broadcast media": "the publicly-owned French Overseas Network (RFO), which broadcasts to France's overseas departments and territories, is carried on the RFO Wallis and Fortuna television and radio stations (2008)",
 		"Internet country code": ".wf",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1734,
+		"Internet users": 1300
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 2,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 8,
 			"country comparison to the world:": "",
 			"by type:": "chemical tanker 2, passenger 6",
 			"foreign-owned:": "8 (France 6, French Polynesia 2) (2008)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Leava, Mata-Utu"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3376,
+			"females age 16-49:": 3314
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 168,
+			"female:": 139
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

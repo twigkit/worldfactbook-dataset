@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, between South Africa and Zambia",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 20,
-				"seconds": 0
+				"deg": 20,
+				"min": 0
 			},
 			"E": {
-				"minutes": 30,
-				"seconds": 0
+				"deg": 30,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 390757,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; the Zambezi forms a natural riverine boundary with Zambia; in full flood (February-April) the massive Victoria Falls on the river forms the world's largest curtain of falling water"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 12084,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,25 +122,16 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 4.31,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.31,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 31.86,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 31.86,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13.58,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.58,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
 			"Net migration rate": {
@@ -213,27 +204,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.63,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.63,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 14.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": 1200000,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 1200000,
+		"HIV/AIDS - deaths": 83000,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +258,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -292,12 +271,12 @@
 			"name:": "Harare",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 17,
-					"seconds": 50
+					"deg": 17,
+					"min": 50
 				},
 				"E": {
-					"minutes": 31,
-					"seconds": 3
+					"deg": 31,
+					"min": 3
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -305,7 +284,6 @@
 		"Administrative divisions": "8 provinces and 2 cities* with provincial status; Bulawayo*, Harare*, Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, Midlands",
 		"Independence": "18 April 1980 (from the UK)",
 		"National holiday": "Independence Day, 18 April (1980)",
-		"Constitution": "21 December 1979",
 		"Legal system": "mixed legal system of English common law, Roman-Dutch civil law, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -339,7 +317,10 @@
 			"FAX:": "[263] (4) 796-488, or 722-618"
 		},
 		"Flag description": "seven equal horizontal bands of green, yellow, red, black, red, yellow, and green with a white isosceles triangle edged in black with its base on the hoist side; a yellow Zimbabwe bird representing the long history of the country is superimposed on a red five-pointed star in the center of the triangle, which symbolizes peace; green represents agriculture, yellow mineral wealth, red the blood shed to achieve independence, and black stands for the native people",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Kalibusiswe Ilizwe leZimbabwe\" [Northern Ndebele language] \"Simudzai Mureza WeZimbabwe\" [Shona] (Blessed Be the Land of Zimbabwe)",
+			"lyrics/music:": "Solomon MUTSWAIRO/Fred Lecture CHANGUNDEGA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Zimbabwe's economy is growing at a brisk pace despite continuing political uncertainty. Following a decade of contraction, Zimbabwe's economy recorded real growth of 5.9% in 2010. But the government of Zimbabwe still faces a number of difficult economic problems, including a large external debt burden and insufficient formal employment. Zimbabwe's 1998-2002 involvement in the war in the Democratic Republic of the Congo drained hundreds of millions of dollars from the economy. The government's land reform program, characterized by chaos and violence, has badly damaged the commercial farming sector, the traditional source of exports and foreign exchange and the provider of 400,000 jobs, turning Zimbabwe into a net importer of food products. The EU and the US provide food aid on humanitarian grounds, though on a smaller scale than before. Until early 2009, the Reserve Bank of Zimbabwe routinely printed money to fund the budget deficit, causing hyperinflation. The power-sharing government formed in February 2009 has led to some economic improvements, including the cessation of hyperinflation by eliminating the use of the Zimbabwe dollar and removing price controls. The economy is registering its first growth in a decade, but will be reliant on further political improvement for greater growth.",
@@ -355,11 +336,8 @@
 			}
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -381,10 +359,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3848000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3848000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 66,
@@ -420,16 +395,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 50.1,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -440,68 +409,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 149,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 149,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.03,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.03,
+			"unit": "%"
 		},
-		"Central bank discount rate": {
-			"Central bank discount rate": "NA% (31 December 2010)",
-			"country comparison to the world:": ""
-		},
+		"Central bank discount rate": "NA% (31 December 2010)",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": "$NA (31 December 2010 est.)"
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 3057000
-			},
-			"country comparison to the world:": ""
+			"usd": 3057000
 		},
 		"Stock of domestic credit": "$NA",
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 4470000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4470000000
 		},
 		"Agriculture - products": "corn, cotton, tobacco, wheat, coffee, sugarcane, peanuts; sheep, goats, pigs",
 		"Industries": "mining (coal, gold, platinum, copper, nickel, tin, diamonds, clay, numerous metallic and nonmetallic ores), steel; wood products, cement, chemicals, fertilizer, clothing and footwear, foodstuffs, beverages",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 8890000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8890000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 10890000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10890000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 32000000,
@@ -512,120 +454,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 11000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 13830,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13830,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.503 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.503 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 2540000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2540000000
 		},
 		"Exports - commodities": "platinum, cotton, tobacco, gold, ferroalloys, textiles/clothing",
 		"Exports - partners": "Democratic Republic of the Congo 14.82%, South Africa 13.39%, Botswana 13.23%, China 7.82%, Zambia 7.3%, Netherlands 5.39%, UK 4.93% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 4043000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4043000000
 		},
 		"Imports - commodities": "machinery and transport equipment, other manufactures, chemicals, fuels, food products",
 		"Imports - partners": "South Africa 62.24%, China 4.2% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 376000000
-			},
-			"country comparison to the world:": ""
+			"usd": 376000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 7662000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7662000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Zimbabwean dollars (ZWD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2991000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 385100,
+		"Telephones - mobile cellular": 2991000,
 		"Telephone system": {
 			"general assessment:": "system was once one of the best in Africa, but now suffers from poor maintenance",
 			"domestic:": "consists of microwave radio relay links, open-wire lines, radiotelephone communication stations, fixed wireless local loop installations, and a substantial mobile-cellular network; Internet connection is available in Harare and planned for all major towns and for some of the smaller ones",
@@ -633,29 +524,23 @@
 		},
 		"Broadcast media": "government owns all local radio and television stations; foreign shortwave broadcasts and satellite television are available to those who can afford antennas and receivers; in rural areas, access to television broadcasts is extremely limited (2007)",
 		"Internet country code": ".zw",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 29866,
+		"Internet users": 1423000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 216,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 19,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 9
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 197,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 120,
+			"under 914 m:": 74
 		},
 		"Pipelines": "refined products 270 km (2010)",
 		"Railways": {
@@ -682,35 +567,38 @@
 			}
 		},
 		"Waterways": "(some navigation possible on Lake Kariba) (2009)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Binga, Kariba"
 	},
 	"military": {
 		"Military branches": "Zimbabwe Defense Forces (ZDF): Zimbabwe National Army (ZNA), Air Force of Zimbabwe (AFZ), Zimbabwe Republic Police (ZRP) (2009)",
 		"Military service age and obligation": "18-24 years of age for compulsory military service; women are eligible to serve (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2616,
+			"females age 16-49:": 2868
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1528,
+			"females age 16-49:": 1646
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 154870,
+			"female:": 152550
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Botswana built electric fences and South Africa has placed military along the border to stem the flow of thousands of Zimbabweans fleeing to find work and escape political persecution; Namibia has supported, and in 2004 Zimbabwe dropped objections to, plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 2500,
 			"IDPs:": "569,685 (MUGABE-led political violence, human rights violations, land reform, and economic collapse) (2007)"
 		},
 		"Trafficking in persons": {
 			"current situation:": "Zimbabwe is a source, transit, and destination country for men, women, and children trafficked for the purposes of forced labor and sexual exploitation; large scale migration of Zimbabweans to surrounding countries - as they flee a progressively more desperate situation at home - has increased; rural Zimbabwean men, women, and children are trafficked internally to farms for agricultural labor and domestic servitude and to cities for domestic labor and commercial sexual exploitation; NGOs believe internal trafficking increased during the year, largely due to the closure of schools, worsening political violence, and a faltering economy; young men and boys are trafficked to South Africa for farm work, often laboring for months in South Africa without pay before \"employers\" have them arrested and deported as illegal immigrants; young women and girls are lured abroad with false employment offers that result in involuntary domestic servitude or commercial sexual exploitation; men, women, and children from neighboring states are trafficked through Zimbabwe en route to South Africa",
 			"tier rating:": "Tier 3 - the Government of Zimbabwe does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government made minimal progress in combating trafficking in 2008, and members of its military and the former ruling party's youth militias perpetrated acts of trafficking on local populations; anti-trafficking efforts were further weakened as it failed to address Zimbabwe's economic and social problems during the reporting period, thus increasing the population's vulnerability to trafficking within and outside of the country (2009)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transit point for cannabis and South Asian heroin, mandrax, and methamphetamines en route to South Africa"
 	}
 }

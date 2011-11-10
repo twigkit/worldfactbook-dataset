@@ -7,15 +7,15 @@
 		"Location": "Eastern South America, bordering the Atlantic Ocean",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			},
 			"W": {
-				"minutes": 55,
-				"seconds": 0
+				"deg": 55,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 8514,
@@ -103,11 +103,11 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "largest country in South America; shares common boundaries with every South American country except Chile and Ecuador"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 203429,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -136,30 +136,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.134,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.134,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.79,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.79,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.36,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.36,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.09 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.09 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 87,
@@ -224,11 +212,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.18,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.18,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -273,7 +258,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.08,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -287,12 +275,12 @@
 			"name:": "Brasilia",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 15,
-					"seconds": 47
+					"deg": 15,
+					"min": 47
 				},
 				"W": {
-					"minutes": 47,
-					"seconds": 55
+					"deg": 47,
+					"min": 55
 				}
 			},
 			"time difference:": "UTC-3 (2 hours ahead of Washington, DC during Standard Time)",
@@ -301,7 +289,6 @@
 		"Administrative divisions": "26 states (estados, singular - estado) and 1 federal district* (distrito federal); Acre, Alagoas, Amapa, Amazonas, Bahia, Ceara, Distrito Federal*, Espirito Santo, Goias, Maranhao, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Para, Paraiba, Parana, Pernambuco, Piaui, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondonia, Roraima, Santa Catarina, Sao Paulo, Sergipe, Tocantins",
 		"Independence": "7 September 1822 (from Portugal)",
 		"National holiday": "Independence Day, 7 September (1822)",
-		"Constitution": "5 October 1988",
 		"Legal system": "civil law; note - a new Brazilian civil law code was enacted in 2002 replacing the 1916 code",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "voluntary between 16 and 18 years of age and over 70; compulsory over 18 and under 70 years of age; note - military conscripts do not vote",
@@ -338,7 +325,10 @@
 			"FAX:": "[55] (61) 3225-9136"
 		},
 		"Flag description": "green with a large yellow diamond in the center bearing a blue celestial globe with 27 white five-pointed stars; the globe has a white equatorial band with the motto ORDEM E PROGRESSO (Order and Progress); the current flag was inspired by the banner of the former Empire of Brazil (1822-1889); on the imperial flag, the green represented the House of Braganza of Pedro I, the first Emperor of Brazil, while the yellow stood for the Habsburg Family of his wife; on the modern flag the green represents the forests of the country and the yellow rhombus its mineral wealth; the blue circle and stars, which replaced the coat of arms of the original flag, depict the sky over Rio de Janeiro on the morning of 15 November 1889 - the day the Republic of Brazil was declared; the number of stars has changed with the creation of new states and has risen from an original 21 to the current 27 (one for each state and the Federal District)",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Hino Nacional Brasileiro\" (Brazilian National Anthem)",
+			"lyrics/music:": "Joaquim Osorio Duque ESTRADA/Francisco Manoel DA SILVA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Characterized by large and well-developed agricultural, mining, manufacturing, and service sectors, Brazil's economy outweighs that of all other South American countries, and Brazil is expanding its presence in world markets. Since 2003, Brazil has steadily improved its macroeconomic stability, building up foreign reserves, and reducing its debt profile by shifting its debt burden toward real denominated and domestically held instruments. In 2008, Brazil became a net external creditor and two ratings agencies awarded investment grade status to its debt. After record growth in 2007 and 2008, the onset of the global financial crisis hit Brazil in September 2008. Brazil experienced two quarters of recession, as global demand for Brazil's commodity-based exports dwindled and external credit dried up. However, Brazil was one of the first emerging markets to begin a recovery. Consumer and investor confidence revived and GDP growth returned to positive in 2010, boosted by an export recovery. Brazil's strong growth and high interest rates make it an attractive destination for foreign investors. Large capital inflows over the past year have contributed to the rapid appreciation of its currency and led the government to raise taxes on some foreign investments. President Dilma ROUSSEFF has pledged to retain the previous administration's commitment to inflation targeting by the Central Bank, a floating exchange rate, and fiscal restraint.",
@@ -352,11 +342,8 @@
 			"usd": 2089999999999.9998
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -378,10 +365,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 103600000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 103600000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 20,
@@ -397,11 +381,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 26,
@@ -417,16 +398,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 56.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -437,79 +412,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 60.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 15.17,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.17,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 44.65,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44.65,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 165800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 165800000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1522000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1522000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 2104000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2104000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1167000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1167000000000
 		},
 		"Agriculture - products": "coffee, soybeans, wheat, rice, corn, sugarcane, cocoa, citrus; beef",
 		"Industries": "textiles, shoes, chemicals, cement, lumber, iron ore, tin, steel, aircraft, motor vehicles and parts, other machinery and equipment",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 11.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 438800000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 438800000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 404300000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 404300000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 2033999999.9999998,
@@ -517,124 +459,70 @@
 		},
 		"Electricity - imports": "42.06 billion kWh; note - supplied by Paraguay (2008 est.)",
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 2572000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2572000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2460000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2460000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 570100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 570100,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 632900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 632900,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 13200000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13200000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 10280000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10280000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 18720000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18720000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": "NA (2009 est.)",
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 8439999999.999999,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8439999999.999999,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 364200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 364200000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-52.73 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-52.73 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 199700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 199700000000
 		},
 		"Exports - commodities": "transport equipment, iron ore, soybeans, footwear, coffee, autos",
 		"Exports - partners": "China 12.49%, US 10.5%, Argentina 8.4%, Netherlands 5.39%, Germany 4.05% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 187700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 187700000000
 		},
 		"Imports - commodities": "machinery, electrical and transport equipment, chemical products, oil, automotive parts, electronics",
 		"Imports - partners": "US 16.12%, China 12.61%, Argentina 8.77%, Germany 7.65%, Japan 4.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 290900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 290900000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 310800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 310800000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 349200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 349200000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 131000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 131000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "reals (BRL) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 41497000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 173959000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 41497000,
+		"Telephones - mobile cellular": 173959000,
 		"Telephone system": {
 			"general assessment:": "good working system including an extensive microwave radio relay system and a domestic satellite system with 64 earth stations; mobile-cellular usage has more than tripled in the past 5 years",
 			"domestic:": "fixed-line connections have remained relatively stable in recent years and stand at about 20 per 100 persons; less expensive mobile-cellular technology has been a major driver in expanding telephone service to the lower-income segments of the population with mobile-cellular teledensity approaching 90 per 100 persons in 2009",
@@ -642,31 +530,25 @@
 		},
 		"Broadcast media": "state-run Radiobras operates a radio and a television network; more than 1,000 radio stations and more than 100 TV channels operating - mostly privately owned; private media ownership highly concentrated (2007)",
 		"Internet country code": ".br",
-		"Internet hosts": {
-			"Internet hosts": 19316000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 19316000,
+		"Internet users": 75982000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 4072,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 726,
+			"over 3,047 m:": 7,
+			"2,438 to 3,047 m:": 28,
+			"1,524 to 2,437 m:": 176,
+			"914 to 1,523 m:": 460
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 3346,
+			"1,524 to 2,437 m:": 87,
+			"914 to 1,523 m:": 1617,
+			"under 914 m:": 1642
 		},
-		"Heliports": null,
+		"Heliports": 13,
 		"Pipelines": "condensate/gas 62 km; gas 13,514 km; liquid petroleum gas 352 km; oil 3,729 km; refined products 4,684 km (2010)",
 		"Railways": {
 			"total:": {
@@ -693,42 +575,42 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "50,000 km (most in areas remote from industry and population) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "50,000 km (most in areas remote from industry and population) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 126,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 19, cargo 18, chemical tanker 6, container 12, liquefied gas 12, passenger/cargo 10, petroleum tanker 42, roll on/roll off 7",
-			"foreign-owned:": null,
+			"foreign-owned:": 26,
 			"registered in other countries:": "27 (Argentina 1, Bahamas 1, Ghana 1, Liberia 20, Marshall Islands 1, Panama 3) (2010)"
 		},
 		"Ports and terminals": {
 			"cargo ports (tonnage):": "Ilha Grande (Gebig), Paranagua, Rio Grande, Santos, Sao Sebastiao, Tubarao",
 			"container ports (TEUs):": "Santos (2,677,839), Itajai (693,580)"
 		},
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports that the territorial and offshore waters in the Atlantic Ocean remain a significant risk for piracy and armed robbery against ships; 2010 saw an 80% increase in attacks over 2009; numerous commercial vessels were attacked and hijacked both at anchor and while underway; crews were robbed and stores or cargoes stolen"
 	},
 	"military": {
 		"Military branches": "Brazilian Army (Exercito Brasileiro, EB), Brazilian Navy (Marinha do Brasil (MB), includes Naval Air and Marine Corps (Corpo de Fuzileiros Navais)), Brazilian Air Force (Forca Aerea Brasileira, FAB) (2011)",
 		"Military service age and obligation": "21-45 years of age for compulsory military service; conscript service obligation - 9 to 12 months; 17-45 years of age for voluntary service; an increasing percentage of the ranks are \"long-service\" volunteer professionals; women were allowed to serve in the armed forces beginning in early 1980s when the Brazilian Army became the first army in South America to accept women into career ranks; women serve in Navy and Air Force only in Women's Reserve Corps (2001)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 53350,
+			"females age 16-49:": 53433
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 38993,
+			"females age 16-49:": 44841
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1733,
+			"female:": 1672
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border; Colombian-organized illegal narcotics and paramilitary activities penetrate Brazil's border region with Venezuela",
-		"Illicit drugs": {}
+		"Illicit drugs": "second-largest consumer of cocaine in the world; illicit producer of cannabis; trace amounts of coca cultivation in the Amazon region, used for domestic consumption; government has a large-scale eradication program to control cannabis; important transshipment country for Bolivian, Colombian, and Peruvian cocaine headed for Europe; also used by traffickers as a way station for narcotics air transshipments between Peru and Colombia; upsurge in drug-related violence and weapons smuggling; important market for Colombian, Bolivian, and Peruvian cocaine; illicit narcotics proceeds are often laundered through the financial system; significant illicit financial activity in the Tri-Border Area (2008)"
 	}
 }

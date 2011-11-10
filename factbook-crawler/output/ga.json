@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the North Atlantic Ocean and Senegal",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 28
+				"deg": 13,
+				"min": 28
 			},
 			"W": {
-				"minutes": 16,
-				"seconds": 34
+				"deg": 16,
+				"min": 34
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 11295,
@@ -103,13 +103,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "almost an enclave of Senegal; smallest country on the continent of Africa"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1797,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 40,
@@ -136,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.396,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.396,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 34.19,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34.19,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.65,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.65,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.58 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.58 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 58,
@@ -224,27 +209,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.23,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.23,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 18000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -290,7 +263,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -302,12 +278,12 @@
 			"name:": "Banjul",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 13,
-					"seconds": 27
+					"deg": 13,
+					"min": 27
 				},
 				"W": {
-					"minutes": 16,
-					"seconds": 34
+					"deg": 16,
+					"min": 34
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
@@ -315,7 +291,6 @@
 		"Administrative divisions": "5 divisions and 1 city*; Banjul*, Central River, Lower River, North Bank, Upper River, Western",
 		"Independence": "18 February 1965 (from the UK)",
 		"National holiday": "Independence Day, 18 February (1965)",
-		"Constitution": "approved by national referendum 8 August 1996; effective 16 January 1997",
 		"Legal system": "mixed legal system of English common law, Islamic law, and customary law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -352,7 +327,10 @@
 			"FAX:": "[220] 439-2475"
 		},
 		"Flag description": "three equal horizontal bands of red (top), blue with white edges, and green; red stands for the sun and the savannah, blue represents the Gambia River, and green symbolizes forests and agriculture; the white stripes denote unity and peace",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"For The Gambia, Our Homeland\"",
+			"lyrics/music:": "Virginia Julie HOWE/adapted by Jeremy Frederick HOWE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Gambia has sparse natural resource deposits and a limited agricultural base, and relies in part on remittances from workers overseas and tourist receipts. About three-quarters of the population depends on the agricultural sector for its livelihood. Small-scale manufacturing activity features the processing of peanuts, fish, and hides. The Gambia's natural beauty and proximity to Europe has made it one of the larger markets for tourism in West Africa, boosted by government and private sector investments in eco-tourism and upscale facilities. In the past few years, The Gambia's re-export trade - traditionally a major segment of economic activity - has declined, but its banking sector has grown rapidly. Unemployment and underemployment rates remain high; economic progress depends on sustained bilateral and multilateral aid, on responsible government economic management, and on continued technical assistance from multilateral and bilateral donors. The quality of fiscal management, however, is weak. The government has promised to raise civil service wages over the next two years and the deficit is projected to worsen.",
@@ -366,11 +344,8 @@
 			"usd": 1067000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -392,10 +367,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 777100,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 75,
@@ -422,16 +394,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 50.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 28,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -442,43 +408,25 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 27,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 222900000
-			},
-			"country comparison to the world:": ""
+			"usd": 222900000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 453900000
-			},
-			"country comparison to the world:": ""
+			"usd": 453900000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 293500000
-			},
-			"country comparison to the world:": ""
+			"usd": 293500000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "rice, millet, sorghum, peanuts, corn, sesame, cassava (tapioca), palm kernels; cattle, sheep, goats",
@@ -491,18 +439,12 @@
 			"country comparison to the world:": ""
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 160000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 160000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 148800000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 148800000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -513,118 +455,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 41.62,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41.62,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2266,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2266,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-90 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-90 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 107000000
-			},
-			"country comparison to the world:": ""
+			"usd": 107000000
 		},
 		"Exports - commodities": "peanut products, fish, cotton lint, palm kernels",
 		"Exports - partners": "India 42.06%, France 15.34%, UK 9.03%, China 7.38%, Hong Kong 4.55%, Belgium 3.97% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 306000000
-			},
-			"country comparison to the world:": ""
+			"usd": 306000000
 		},
 		"Imports - commodities": "foodstuffs, manufactures, fuel, machinery and transport equipment",
 		"Imports - partners": "China 20.45%, Senegal 11.97%, Brazil 8.48%, Cote d'Ivoire 4.71%, Netherlands 4.68%, US 4.49% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 203000000
-			},
-			"country comparison to the world:": ""
+			"usd": 203000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 530000000
-			},
-			"country comparison to the world:": ""
+			"usd": 530000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "dalasis (GMD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1433000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 49000,
+		"Telephones - mobile cellular": 1433000,
 		"Telephone system": {
 			"general assessment:": "adequate microwave radio relay and open-wire network; state-owned Gambia Telecommunications partially privatized in 2007",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity, aided by multiple mobile-cellular providers, approached 85 per 100 persons in 2009",
@@ -632,20 +523,14 @@
 		},
 		"Broadcast media": "state-owned, single-channel TV service; state-owned radio station and 4 privately-owned radio stations; transmissions of multiple international broadcasters are available, some via shortwave radio; foreign cable and satellite TV subscription services are obtainable in some parts of the country (2007)",
 		"Internet country code": ".gm",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1453,
+		"Internet users": 130100
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null
+			"total:": 1,
+			"over 3,047 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -662,36 +547,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "390 km (on River Gambia; small ocean-going vessels can reach 190 km) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "390 km (on River Gambia; small ocean-going vessels can reach 190 km) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 5,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 4, petroleum tanker 1 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Banjul"
 	},
 	"military": {
 		"Military branches": "Office of the Chief of Defense Staff: Gambian National Army (GNA), Gambian Navy (GN) (2010)",
 		"Military service age and obligation": "18 years of age for male and female voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 423306,
+			"females age 16-49:": 438641
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 315176,
+			"females age 16-49:": 347017
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 20508,
+			"female:": 20853
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "attempts to stem refugees, cross-border raids, arms smuggling, and other illegal activities by separatists from southern Senegal's Casamance region, as well as from conflicts in other west African states",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "5,955 (Sierra Leone) (2007)"
+		}
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the Bight of Benin, between Nigeria and Togo",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 9,
-				"seconds": 30
+				"deg": 9,
+				"min": 30
 			},
 			"E": {
-				"minutes": 2,
-				"seconds": 15
+				"deg": 2,
+				"min": 15
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 112622,
@@ -94,11 +94,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "sandbanks create difficult access to a coast with no natural harbors, river mouths, or islands"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 9325,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -127,32 +127,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.911,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.911,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 38.11,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38.11,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -218,27 +206,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.31,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.31,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 60000,
+		"HIV/AIDS - deaths": 2700,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -284,7 +260,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -299,12 +278,12 @@
 			"name:": "Porto-Novo (official capital)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 6,
-					"seconds": 29
+					"deg": 6,
+					"min": 29
 				},
 				"E": {
-					"minutes": 2,
-					"seconds": 37
+					"deg": 2,
+					"min": 37
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -312,7 +291,6 @@
 		"Administrative divisions": "12 departments; Alibori, Atakora, Atlantique, Borgou, Collines, Kouffo, Donga, Littoral, Mono, Oueme, Plateau, Zou",
 		"Independence": "1 August 1960 (from France)",
 		"National holiday": "National Day, 1 August (1960)",
-		"Constitution": "adopted by referendum 2 December 1990",
 		"Legal system": "civil law system modeled largely on the French system and some customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -352,7 +330,10 @@
 		"Flag description": {
 			"Flag description": "two equal horizontal bands of yellow (top) and red (bottom) with a vertical green band on the hoist side; green symbolizes hope and revival, yellow wealth, and red courage"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"L'Aube Nouvelle\" (The Dawn of a New Day)",
+			"lyrics/music:": "Gilbert Jean DAGNON"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy of Benin remains underdeveloped and dependent on subsistence agriculture, cotton production, and regional trade. Growth in real output had averaged about 4% before the global recession, but fell to 2.7% in 2009 and 3% in 2010. Inflation has subsided over the past several years. In order to raise growth, Benin plans to attract more foreign investment, place more emphasis on tourism, facilitate the development of new food processing systems and agricultural products, and encourage new information and communication technology. Specific projects to improve the business climate by reforms to the land tenure system, the commercial justice system, and the financial sector were included in Benin's $307 million Millennium Challenge Account grant signed in February 2006. The 2001 privatization policy continues in telecommunications, water, electricity, and agriculture. As result of these reforms, Benin has become the most competitive country in the West African Economic and Monetary Union, according to the World Economic Forum. The Paris Club and bilateral creditors have eased the external debt situation, with Benin benefiting from a G-8 debt reduction announced in July 2005, while pressing for more rapid structural reforms. An insufficient electrical supply continues to adversely affect Benin's economic growth though the government recently has taken steps to increase domestic power production.",
@@ -366,11 +347,8 @@
 			"usd": 6649000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -392,10 +370,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3662000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3662000,
 		"Unemployment rate": "NA%",
 		"Population below poverty line": {
 			"quantity": 37.4,
@@ -411,16 +386,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 36.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -431,61 +400,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1551000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1551000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2424000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2424000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1222000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1222000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, corn, cassava (tapioca), yams, beans, palm oil, peanuts, cashews; livestock",
 		"Industries": "textiles, food processing, construction materials, cement",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 124000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 124000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 597000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 597000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -496,118 +441,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 23000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 8770,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8770,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 28900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28900,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 8000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 1133000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1133000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-582 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-582 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1125000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1125000000
 		},
 		"Exports - commodities": "cotton, cashews, shea butter, textiles, palm products, seafood",
 		"Exports - partners": "India 19.72%, China 13.18%, Niger 6.94%, Nigeria 6.56%, Indonesia 5.73%, Togo 5.63%, Namibia 4.17% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1812000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1812000000
 		},
 		"Imports - commodities": "foodstuffs, capital goods, petroleum products",
 		"Imports - partners": "China 35.62%, US 7.51%, France 7.38%, Thailand 6.71%, Malaysia 6.13%, Netherlands 4.83%, Belgium 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1254000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1254000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2894000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2894000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Communaute Financiere Africaine francs (XOF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5033000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 127100,
+		"Telephones - mobile cellular": 5033000,
 		"Telephone system": {
 			"general assessment:": "inadequate system of open-wire, microwave radio relay, and cellular connections; fixed-line network characterized by aging, deteriorating equipment",
 			"domestic:": "fixed-line teledensity only about 2 per 100 persons; spurred by the presence of multiple mobile-cellular providers, cellular telephone subscribership has been increasing rapidly",
@@ -615,26 +509,20 @@
 		},
 		"Broadcast media": "state-run Office de Radiodiffusion et de Television du Benin (ORTB) operates a TV station with multiple channels giving it a wide broadcast reach; several privately-owned TV stations broadcast from Cotonou; satellite TV subscription service is available; state-owned radio, under ORTB control, includes a national station supplemented by a number of regional stations; substantial number of privately-owned radio broadcast stations; transmissions of a few international broadcasters are available on FM in Cotonou (2007)",
 		"Internet country code": ".bj",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1286,
+		"Internet users": 200100
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 5,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 4,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 2
 		},
 		"Railways": {
 			"total:": {
@@ -659,34 +547,34 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "150 km (seasonal navigation on River Niger along northern border) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "150 km (seasonal navigation on River Niger along northern border) (2010)",
+		"Ports and terminals": "Cotonou"
 	},
 	"military": {
 		"Military branches": "Benin Armed Forces (Forces Armees Beninoises, FAB): Army (l'Arme de Terre), Benin Navy (Forces Navales Beninois, FNB), Benin Air Force (Force Aerienne du Benin, FAB) (2011)",
 		"Military service age and obligation": "21 years of age for compulsory and voluntary military service; in practice, volunteers eligible at age 18; both sexes are eligible for military service; conscript tour of duty - 18 months (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2095,
+			"females age 16-49:": 2038
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1385,
+			"females age 16-49:": 1400
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 108496,
+			"female:": 104526
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River; Benin retains a border dispute with Burkina Faso around the town of Koualou; location of Benin-Niger-Nigeria tripoint is unresolved",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "9,444 (Togo) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point used by traffickers for cocaine destined for Western Europe; vulnerable to money laundering due to poorly enforced financial regulations\r\n (2008)"
 	}
 }

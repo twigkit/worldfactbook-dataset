@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Mediterranean Sea, between Israel and Syria",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 33,
-				"seconds": 50
+				"deg": 33,
+				"min": 50
 			},
 			"E": {
-				"minutes": 35,
-				"seconds": 50
+				"deg": 35,
+				"min": 50
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 10400,
@@ -94,13 +94,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Environmental Modification, Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "Nahr el Litani is the only major river in Near East not crossing an international boundary; rugged terrain historically helped isolate, protect, and develop numerous factional groups based on religion, clan, and ethnicity"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 4143,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 23,
@@ -127,30 +124,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.244,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.244,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 15.02,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.02,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.54,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.54,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-6.04 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-6.04 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 87,
@@ -215,27 +200,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.77,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.77,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 3600,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -278,7 +251,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 1.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -293,12 +269,12 @@
 			"name:": "Beirut",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 33,
-					"seconds": 52
+					"deg": 33,
+					"min": 52
 				},
 				"E": {
-					"minutes": 35,
-					"seconds": 30
+					"deg": 35,
+					"min": 30
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -309,7 +285,6 @@
 		},
 		"Independence": "22 November 1943 (from League of Nations mandate under French administration)",
 		"National holiday": "Independence Day, 22 November (1943)",
-		"Constitution": "23 May 1926; amended a number of times, most recently in 1990 to include changes necessitated by the Charter of Lebanese National Reconciliation (Ta'if Accord) of October 1989",
 		"Legal system": "mixed legal system of civil law based on the French civil code and religious laws covering personal status, marriage, divorce, and other family relations of the Jewish, Islamic, and Christian communities",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "21 years of age; compulsory for all males; authorized for women at age 21 with elementary education; excludes military personnel",
@@ -351,7 +326,10 @@
 			"FAX:": "[961] (4) 544136"
 		},
 		"Flag description": "three horizontal bands consisting of red (top), white (middle, double width), and red (bottom) with a green cedar tree centered in the white band; the red bands symbolize blood shed for liberation, the white band denotes peace, the snow of the mountains, and purity; the green cedar tree is the symbol of Lebanon and represents eternity, steadiness, happiness, and prosperity",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Kulluna lil-watan\" (All Of Us, For Our Country!)",
+			"lyrics/music:": "Rachid NAKHLE/Wadih SABRA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Lebanon has a free-market economy and a strong laissez-faire commercial tradition. The government does not restrict foreign investment; however, the investment climate suffers from red tape, corruption, arbitrary licensing decisions, high taxes, tariffs, and fees, archaic legislation, and weak intellectual property rights. The Lebanese economy is service-oriented; main growth sectors include banking and tourism. The 1975-90 civil war seriously damaged Lebanon's economic infrastructure, cut national output by half, and all but ended Lebanon's position as a Middle Eastern entrepot and banking hub. In the years since, Lebanon has rebuilt much of its war-torn physical and financial infrastructure by borrowing heavily - mostly from domestic banks. In an attempt to reduce the ballooning national debt, the Rafiq HARIRI government in 2000 began an austerity program, reining in government expenditures, increasing revenue collection, and passing legislation to privatize state enterprises, but economic and financial reform initiatives stalled and public debt continued to grow despite receipt of more than $2 billion in bilateral assistance at the 2002 Paris II Donors Conference. The Israeli-Hizballah conflict in July-August 2006 caused an estimated $3.6 billion in infrastructure damage, and prompted international donors to pledge nearly $1 billion in recovery and reconstruction assistance. Donors met again in January 2007 at the Paris III Donor Conference and pledged more than $7.5 billion to Lebanon for development projects and budget support, conditioned on progress on Beirut's fiscal reform and privatization program. An 18-month political stalemate and sporadic sectarian and political violence hampered economic activity, particularly tourism, retail sales, and investment, until the new government was formed in July 2008. Political stability following the Doha Accord of May 2008 helped boost tourism and, together with a strong banking sector, enabled real GDP growth of 7% per year in 2009-10 despite a slowdown in the region.",
@@ -365,11 +343,8 @@
 			"usd": 39250000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -410,11 +385,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 30.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -425,79 +397,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 150.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 150.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 10,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 9.57,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.57,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3692000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3692000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 92010000000
-			},
-			"country comparison to the world:": ""
+			"usd": 92010000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 62680000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62680000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 12890000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12890000000
 		},
 		"Agriculture - products": "citrus, grapes, tomatoes, apples, vegetables, potatoes, olives, tobacco; sheep, goats",
 		"Industries": "banking, tourism, food processing, wine, jewelry, cement, textiles, mineral and chemical products, wood and furniture products, oil refining, metal fabricating",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 10410000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10410000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 9793000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9793000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -508,120 +447,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 90000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 90000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 86750,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 86750,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-6.972 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-6.972 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 5187000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5187000000
 		},
 		"Exports - commodities": "jewelry, base metals, chemicals, miscellaneous consumer goods, fruit and vegetables, tobacco, construction minerals, electric power machinery and switchgear, textile fibers, paper",
 		"Exports - partners": "Switzerland 22%, UAE 10%, Iraq 8%, Saudi Arabia 7%, Syria 6% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 17970000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17970000000
 		},
 		"Imports - commodities": "petroleum products, cars, medicinal products, clothing, meat and live animals, consumer goods, paper, textile fabrics, tobacco, electrical machinery and equipment, chemicals",
 		"Imports - partners": "US 11%, France 10%, China 9%, Italy 8%, Germany 8%, Turkey 4% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 41570000000
-			},
-			"country comparison to the world:": ""
+			"usd": 41570000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 34450000000
-			},
-			"country comparison to the world:": ""
+			"usd": 34450000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Lebanese pounds (LBP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1526000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 750000,
+		"Telephones - mobile cellular": 1526000,
 		"Telephone system": {
 			"general assessment:": "repair of the telecommunications system, severely damaged during the civil war, now complete",
 			"domestic:": "two mobile-cellular networks provide good service; combined fixed-line and mobile-cellular subscribership exceeds 55 per 100 persons",
@@ -629,27 +517,21 @@
 		},
 		"Broadcast media": "7 TV stations in operation, 1 of which is state-owned; more than 30 radio stations, 1 of which is state-owned; satellite and cable TV services are available; transmissions of at least 2 international broadcasters are accessible through partner stations (2007)",
 		"Internet country code": ".lb",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 51451,
+		"Internet users": 1000000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 7,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 5,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 2,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"914 to 1,523 m:": 2
 		},
 		"Pipelines": "gas 102 km (2010)",
 		"Railways": {
@@ -666,30 +548,33 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 29,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, cargo 12, carrier 11, refrigerated cargo 1, vehicle carrier 2",
-			"foreign-owned:": null,
+			"foreign-owned:": 3,
 			"registered in other countries:": "40 (Barbados 2, Cambodia 6, Comoros 3, Egypt 1, Georgia 1, Honduras 2, Liberia 1, Malta 7, Moldova 1, Panama 2, Saint Vincent and the Grenadines 4, Syria 2, Togo 6, unknown 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Beirut, Tripoli"
 	},
 	"military": {
 		"Military branches": "Lebanese Armed Forces (LAF): Army ((Al Jaysh al Lubnaniya) includes Navy (Al Quwwat al Bahiriyya al Lubnaniya), Air Force (Al Quwwat al Jawwiya al Lubnaniya)) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; no conscription (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1081,
+			"females age 16-49:": 1115
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 920825,
+			"females age 16-49:": 941806
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 36856,
+			"female:": 35121
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute; since 2000, Lebanon has claimed Shab'a Farms area in the Israeli-occupied Golan Heights; the roughly 2,000-strong UN Interim Force in Lebanon (UNIFIL) has been in place since 1978",
@@ -697,6 +582,6 @@
 			"refugees (country of origin):": "405,425 (Palestinian refugees (UNRWA)); 50,000-60,000 (Iraq)",
 			"IDPs:": "17,000 (1975-90 civil war, Israeli invasions); 200,000 (July-August 2006 war) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "cannabis cultivation dramatically reduced to 2,500 hectares in 2002 despite continued significant cannabis consumption; opium poppy cultivation minimal; small amounts of Latin American cocaine and Southwest Asian heroin transit country on way to European markets and for Middle Eastern consumption; money laundering of drug proceeds fuels concern that extremists are benefiting from drug trafficking"
 	}
 }

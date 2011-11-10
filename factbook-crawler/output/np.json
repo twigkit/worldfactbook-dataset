@@ -7,15 +7,15 @@
 		"Location": "Southern Asia, between China and India",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 28,
-				"seconds": 0
+				"deg": 28,
+				"min": 0
 			},
 			"E": {
-				"minutes": 84,
-				"seconds": 0
+				"deg": 84,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 147181,
@@ -89,13 +89,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; strategic location between China and India; contains eight of world's 10 highest peaks, including Mount Everest and Kanchenjunga - the world's tallest and third tallest - on the borders with China and India respectively"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 29391,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 34.6,
@@ -122,32 +119,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.596,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.596,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 22.17,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.17,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.81,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.81,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.61,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.61,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.47,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.47,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 64000,
+		"HIV/AIDS - deaths": 4700,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +252,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -293,20 +269,19 @@
 			"name:": "Kathmandu",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 27,
-					"seconds": 43
+					"deg": 27,
+					"min": 43
 				},
 				"E": {
-					"minutes": 85,
-					"seconds": 19
+					"deg": 85,
+					"min": 19
 				}
 			},
 			"time difference:": "UTC+5.75 (10.75 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "14 zones (anchal, singular and plural); Bagmati, Bheri, Dhawalagiri, Gandaki, Janakpur, Karnali, Kosi, Lumbini, Mahakali, Mechi, Narayani, Rapti, Sagarmatha, Seti",
-		"Independence": null,
+		"Independence": 1768,
 		"National holiday": "Republic Day, 29 May; Democracy Day, 24 April",
-		"Constitution": "15 January 2007 (interim Constitution); note - in April 2008, a Constituent Assembly was elected to draft and promulgate a new constitution by May 2010, but the deadline has been extended to May 2011",
 		"Legal system": "English common law and Hindu legal concepts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -345,7 +320,10 @@
 		"Flag description": {
 			"Flag description": "red with a blue border around the unique shape of two overlapping right triangles; the smaller, upper triangle bears a white stylized moon and the larger, lower triangle displays a white 12-pointed sun; the color red represents the rhododendron (Nepal's national flower) and is a sign of victory and bravery, the blue border signifies peace and harmony; the two right triangles are a combination of two single pennons (pennants) that originally symbolized the Himalaya Mountains while their charges represented the families of the king (upper) and the prime minister, but today they are understood to denote Hinduism and Buddhism, the country's two main religions; the moon represents the serenity of the Nepalese people and the shade and cool weather in the Himalayas, while the sun depicts the heat and higher temperatures of the lower parts of Nepal; the moon and the sun are also said to express the hope that the nation will endure as long as these heavenly bodies"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Sayaun Thunga Phool Ka\" (Hundreds of Flowers)",
+			"lyrics/music:": "Pradeep Kumar RAI/Ambar GURUNG"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Nepal is among the poorest and least developed countries in the world, with almost one-quarter of its population living below the poverty line. Agriculture is the mainstay of the economy, providing a livelihood for three-fourths of the population and accounting for about one-third of GDP. Industrial activity mainly involves the processing of agricultural products, including pulses, jute, sugarcane, tobacco, and grain. Nepal has considerable scope for exploiting its potential in hydropower, with an estimated 42,000 MW of feasible capacity, but political instability hampers foreign investment. Additional challenges to Nepal's growth include its landlocked geographic location, civil strife and labor unrest, and its susceptibility to natural disaster.",
@@ -359,11 +337,8 @@
 			"usd": 15840000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -404,11 +379,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 46,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 24.7,
@@ -421,10 +393,7 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 47.2,
 		"Budget": {
 			"revenues:": {
 				"usd": 3000000000
@@ -434,72 +403,42 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 8.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3030000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3030000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 9000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 6110000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6110000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 5200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5200000000
 		},
 		"Agriculture - products": "pulses, rice, corn, wheat, sugarcane, jute, root crops; milk, water buffalo meat",
 		"Industries": "tourism, carpets, textiles; small rice, jute, sugar, and oilseed mills; cigarettes, cement and brick production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 2600000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2600000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2243000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2243000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -510,114 +449,66 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 18000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 16920,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16920,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-449 million (2010)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-449 million (2010)",
 		"Exports": {
-			"Exports": {
-				"usd": 849000000
-			},
-			"country comparison to the world:": ""
+			"usd": 849000000
 		},
 		"Exports - commodities": "clothing, pulses, carpets, textiles, juice, pashima, jute goods",
 		"Exports - partners": "India 65.6%, US 8%, Bangladesh 6.04%, Germany 5% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 5260000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5260000000
 		},
 		"Imports - commodities": "petroleum products, machinery and equipment, gold, electrical goods, medicine",
 		"Imports - partners": "India 57%, China 13% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4500000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Nepalese rupees (NPR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 7618000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 820500,
+		"Telephones - mobile cellular": 7618000,
 		"Telephone system": {
 			"general assessment:": "poor telephone and telegraph service; fair radiotelephone communication service and mobile-cellular telephone network",
 			"domestic:": "combined fixed-line and mobile-cellular telephone service subscribership base only about 30 per 100 persons",
@@ -625,28 +516,22 @@
 		},
 		"Broadcast media": "state operates 2 television stations as well as national and regional radio stations; more than 60 independent radio stations and a small number of independent television stations (2007)",
 		"Internet country code": ".np",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 43928,
+		"Internet users": 577800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 47,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 11,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 9,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 36,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 31
 		},
 		"Railways": {
 			"total:": {
@@ -656,24 +541,41 @@
 			"country comparison to the world:": "",
 			"narrow gauge:": "59 km 0.762-m gauge (2010)"
 		},
-		"Roadways": {}
+		"Roadways": {
+			"total:": {
+				"quantity": 17282,
+				"unit": "km"
+			},
+			"country comparison to the world:": "",
+			"paved:": {
+				"quantity": 10142,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 7140,
+				"unit": "km"
+			}
+		}
 	},
 	"military": {
 		"Military branches": "Nepal Army (2010)",
 		"Military service age and obligation": "18 years of age for voluntary military service; 15 years of age for military training; no conscription (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6941,
+			"females age 16-49:": 7618
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5260,
+			"females age 16-49:": 5947
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 380172,
+			"female:": 367103
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "joint border commission continues to work on contested sections of boundary with India, including the 400 square kilometer dispute over the source of the Kalapani River; India has instituted a stricter border regime to restrict transit of Maoist insurgents and illegal cross-border activities; approximately 106,000 Bhutanese Lhotshampas (Hindus) have been confined in refugee camps in southeastern Nepal since 1990",
@@ -681,6 +583,6 @@
 			"refugees (country of origin):": "107,803 (Bhutan); 20,153 (Tibet/China)",
 			"IDPs:": "50,000-70,000 (remaining from ten-year Maoist insurgency that officially ended in 2006; displacement spread across the country) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "illicit producer of cannabis and hashish for the domestic and international drug markets; transit point for opiates from Southeast Asia to the West"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Eastern Asia, island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 36,
-				"seconds": 0
+				"deg": 36,
+				"min": 0
 			},
 			"E": {
-				"minutes": 138,
-				"seconds": 0
+				"deg": 138,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 377915,
@@ -101,13 +101,10 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location in northeast Asia"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 126475,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.1,
@@ -133,30 +130,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.278% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.278% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 7.31,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.31,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.09,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.09,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -222,24 +207,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.21,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.21,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 8100,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -282,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -296,12 +272,12 @@
 			"name:": "Tokyo",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 35,
-					"seconds": 41
+					"deg": 35,
+					"min": 41
 				},
 				"E": {
-					"minutes": 139,
-					"seconds": 45
+					"deg": 139,
+					"min": 45
 				}
 			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
@@ -309,7 +285,6 @@
 		"Administrative divisions": "47 prefectures; Aichi, Akita, Aomori, Chiba, Ehime, Fukui, Fukuoka, Fukushima, Gifu, Gunma, Hiroshima, Hokkaido, Hyogo, Ibaraki, Ishikawa, Iwate, Kagawa, Kagoshima, Kanagawa, Kochi, Kumamoto, Kyoto, Mie, Miyagi, Miyazaki, Nagano, Nagasaki, Nara, Niigata, Oita, Okayama, Okinawa, Osaka, Saga, Saitama, Shiga, Shimane, Shizuoka, Tochigi, Tokushima, Tokyo, Tottori, Toyama, Wakayama, Yamagata, Yamaguchi, Yamanashi",
 		"Independence": "3 May 1947 (current constitution adopted as amendment to Meiji Constitution); notable earlier dates: 660 B.C. (traditional date of the founding of the nation by Emperor JIMMU); 29 November 1890 (Meiji Constitution provides for constitutional monarchy)",
 		"National holiday": "Birthday of Emperor AKIHITO, 23 December (1933)",
-		"Constitution": "3 May 1947",
 		"Legal system": "civil law system based on German model;  system also reflects Anglo-American influence and Japanese traditions; judicial review of legislative acts in the Supreme Court",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "20 years of age; universal",
@@ -345,7 +320,10 @@
 			"FAX:": "[81] (03) 3505-1862"
 		},
 		"Flag description": "white with a large red disk (representing the sun without rays) in the center",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Kimigayo\" (The Emperor\"s Reign)",
+			"lyrics/music:": "unknown/Hiromori HAYASHI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "In the years following World War II, government-industry cooperation, a strong work ethic, mastery of high technology, and a comparatively small defense allocation (1% of GDP) helped Japan develop a technologically advanced economy. Two notable characteristics of the post-war economy were the close interlocking structures of manufacturers, suppliers, and distributors, known as keiretsu, and the guarantee of lifetime employment for a substantial portion of the urban labor force. Both features are now eroding under the dual pressures of global competition and domestic demographic change. Japan's industrial sector is heavily dependent on imported raw materials and fuels. A tiny agricultural sector is highly subsidized and protected, with crop yields among the highest in the world. Usually self sufficient in rice, Japan imports about 60% of its food on a caloric basis. Japan maintains one of the world's largest fishing fleets and accounts for nearly 15% of the global catch. For three decades, overall real economic growth had been spectacular - a 10% average in the 1960s, a 5% average in the 1970s, and a 4% average in the 1980s. Growth slowed markedly in the 1990s, averaging just 1.7%, largely because of the after effects of inefficient investment and an asset price bubble in the late 1980s that required a protracted period of time for firms to reduce excess debt, capital, and labor. Measured on a purchasing power parity (PPP) basis that adjusts for price differences, Japan in 2010 stood as the third-largest economy in the world after China, which surpassed Japan in 2001. The Japanese financial sector was not heavily exposed to sub-prime mortgages or their derivative instruments and weathered the initial effect of the recent global credit crunch, but a sharp downturn in business investment and global demand for Japan's exports in late 2008 pushed Japan further into recession. Government stimulus spending helped the economy recover in late 2009 and 2010. Prime Minister KAN's government has proposed opening the agricultural and services sectors to greater foreign competition and boosting exports through free-trade agreements, but debate continues on restructuring the economy and funding new stimulus programs in the face of a tight fiscal situation. Japan's huge government debt, which exceeds 200% of GDP, persistent deflation, reliance on exports to drive growth, and an aging and shrinking population are major long-term challenges for the economy. A 9.0-magnitude earthquake and an ensuing tsunami devastated the northeast coast of Honshu Island on 11 March 2011, washing away buildings and infrastructure as much as 6 miles inland, killing thousands, severely damaging several nuclear power plants, displacing and leaving homeless more than 320,000 people, and leaving a million households without running water. Radiation leaks at the Fukushima Daiichai nuclear power plant prompted mass evacuations and the declaration of a no-fly zone - initially for people and planes within 12.5 miles of the plant but later expanded to 19 miles. Radioactive iodine-131 has been found as far as 100 miles from the plant in samples of water, milk, fish, beef, and certain vegetables, at levels that make these foods unfit for consumption and create uncertainty regarding possible long-term contamination of the area. Energy-cutting efforts by electric companies and train lines slowed the pace of business throughout Honshu Island, and the stock market gyrated, dropping as much as 10% in a single day. In order to stabilize financial markets and retard appreciation of the yen, the Bank of Japan injected more than $325 billion in yen into the economy. Estimates of the direct costs of the damage - rebuilding homes and factories - range from $235 billion to $310 billion. Some economic forecasters, who previously had anticipated slower growth for Japan in 2011, now believe GDP may decline as much as 1% for the year.",
@@ -359,11 +337,8 @@
 			"usd": 5459000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -385,10 +360,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 65700000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 65700000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.9,
@@ -404,11 +376,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 5.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.1,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"Population below poverty line": {
@@ -426,16 +395,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 37.6,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 20.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.3,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -446,76 +409,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 225.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 225.8,
+			"unit": "% of GDP"
 		},
-		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "-0.7% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Inflation rate (consumer prices)": "-0.7% (2010 est.)",
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 5712000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5712000000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 16460000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 16460000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 16390000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 16390000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 3537000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3537000000000
 		},
 		"Agriculture - products": "rice, sugar beets, vegetables, fruit; pork, poultry, dairy products, eggs; fish",
 		"Industries": "among world's largest and technologically advanced producers of motor vehicles, electronic equipment, machine tools, steel and nonferrous metals, ships, chemicals, textiles, processed foods",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 15.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 956500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 956500000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 858500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 858500000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -526,132 +456,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 132700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 132700,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 4363000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4363000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 380900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 380900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 5033000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5033000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 44120000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44120000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 3539000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3539000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 94670000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 94670000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 90290000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 90290000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 20900000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20900000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 166500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 166500000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 765200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 765200000000
 		},
 		"Exports - commodities": "transport equipment, motor vehicles, semiconductors, electrical machinery, chemicals",
 		"Exports - partners": "China 18.88%, US 16.42%, South Korea 8.13%, Taiwan 6.27%, Hong Kong 5.49% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 636800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 636800000000
 		},
 		"Imports - commodities": "machinery and equipment, fuels, foodstuffs, chemicals, textiles, raw materials",
 		"Imports - partners": "China 22.2%, US 10.96%, Australia 6.29%, Saudi Arabia 5.29%, UAE 4.12%, South Korea 3.98%, Indonesia 3.95% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1096000000000.0001
-			},
-			"country comparison to the world:": ""
+			"usd": 1096000000000.0001
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2441000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2441000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 199400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 199400000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 719900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 719900000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "yen (JPY) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 44364000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 114917000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 44364000,
+		"Telephones - mobile cellular": 114917000,
 		"Telephone system": {
 			"general assessment:": "excellent domestic and international service",
 			"domestic:": "high level of modern technology and excellent service of every kind",
@@ -659,30 +532,24 @@
 		},
 		"Broadcast media": "a mixture of public and commercial broadcast TV and radio stations; 5 national terrestrial television networks including 1 public broadcaster; the large number of radio and TV stations available provide a wide range of choices; satellite and cable services provide access to international channels (2008)",
 		"Internet country code": ".jp",
-		"Internet hosts": {
-			"Internet hosts": 54846000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 54846000,
+		"Internet users": 99182000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 176,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 144,
+			"over 3,047 m:": 7,
+			"2,438 to 3,047 m:": 44,
+			"1,524 to 2,437 m:": 38,
+			"914 to 1,523 m:": 28
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 32,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 28
 		},
-		"Heliports": null,
+		"Heliports": 15,
 		"Pipelines": "gas 4,135 km; oil 171 km; oil/gas/water 53 km (2010)",
 		"Railways": {
 			"total:": {
@@ -708,37 +575,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,770 km (seagoing vessels use inland seas) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "1,770 km (seagoing vessels use inland seas) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 673,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 152, cargo 31, carrier 3, chemical tanker 28, container 2, liquefied gas 63, passenger 12, passenger/cargo 120, petroleum tanker 152, refrigerated cargo 4, roll on/roll off 52, vehicle carrier 54",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "3,064 (Bahamas 93, Belize 1, Bermuda 2, Burma 1, Cambodia 2, Cayman Islands 19, China 2, Cyprus 19, Honduras 4, Hong Kong 84, Indonesia 7, Isle of Man 15, Liberia 102, Malaysia 4, Malta 5, Marshall Islands 41, Netherlands 1, Panama 2347, Philippines 82, Portugal 9, Saint Kitts and Nevis 3, Saint Vincent and the Grenadines 3, Sierra Leone 3, Singapore 146, South Korea 15, Thailand 2, UK 4, Vanuatu 44, unknown 4) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Chiba, Kawasaki, Kobe, Mizushima, Moji, Nagoya, Osaka, Tokyo, Tomakomai, Yokohama"
 	},
 	"military": {
 		"Military branches": "Japanese Ministry of Defense (MOD): Ground Self-Defense Force (Rikujou Jietai, GSDF), Maritime Self-Defense Force (Kaijou Jietai, MSDF), Air Self-Defense Force (Koukuu Jieitai, ASDF) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; Maritime Self-Defense Force mandatory retirement at age 54 (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 27301,
+			"females age 16-49:": 26307
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 22390,
+			"females age 16-49:": 21540
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 623365,
+			"female:": 591253
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "the sovereignty dispute over the islands of Etorofu, Kunashiri, and Shikotan, and the Habomai group, known in Japan as the \"Northern Territories\" and in Russia as the \"Southern Kuril Islands,\" occupied by the Soviet Union in 1945, now administered by Russia and claimed by Japan, remains the primary sticking point to signing a peace treaty formally ending World War II hostilities; Japan and South Korea claim Liancourt Rocks (Take-shima/Tok-do) occupied by South Korea since 1954; China and Taiwan dispute both Japan's claims to the uninhabited islands of the Senkaku-shoto (Diaoyu Tai) and Japan's unilaterally declared exclusive economic zone in the East China Sea, the site of intensive hydrocarbon prospecting"
 	}
 }

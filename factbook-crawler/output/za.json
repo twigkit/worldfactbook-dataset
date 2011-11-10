@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, east of Angola, south of the Democratic Republic of the Congo",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 15,
-				"seconds": 0
+				"deg": 15,
+				"min": 0
 			},
 			"E": {
-				"minutes": 30,
-				"seconds": 0
+				"deg": 30,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 752618,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; the Zambezi forms a natural riverine boundary with Zimbabwe"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 13881,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,30 +122,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.062,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.062,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 44.08,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44.08,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 12.61,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.61,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.84 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.84 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 36,
@@ -210,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.98,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.98,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 13.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 980000,
+		"HIV/AIDS - deaths": 45000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -276,7 +252,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 1.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -289,12 +268,12 @@
 			"name:": "Lusaka",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 15,
-					"seconds": 25
+					"deg": 15,
+					"min": 25
 				},
 				"E": {
-					"minutes": 28,
-					"seconds": 17
+					"deg": 28,
+					"min": 17
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -302,7 +281,6 @@
 		"Administrative divisions": "9 provinces; Central, Copperbelt, Eastern, Luapula, Lusaka, Northern, North-Western, Southern, Western",
 		"Independence": "24 October 1964 (from the UK)",
 		"National holiday": "Independence Day, 24 October (1964)",
-		"Constitution": "24 August 1991; amended in 1996 to establish presidential term limits",
 		"Legal system": "mixed legal system of English common law and customary law; judicial review of legislative acts in an ad hoc constitutional council",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -336,7 +314,10 @@
 			"FAX:": "[260] (211) 357-224"
 		},
 		"Flag description": "green field with a panel of three vertical bands of red (hoist side), black, and orange below a soaring orange eagle, on the outer edge of the flag; green stands for the country's natural resources and vegetation, red symbolizes the struggle for freedom, black the people of Zambia, and orange the country's mineral wealth; the eagle represents the people's ability to rise above the nation's problems",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Lumbanyeni Zambia\" (Stand and Sing of Zambia, Proud and Free)",
+			"lyrics/music:": "multiple/Enoch Mankayi SONTONGA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Zambia's economy has experienced strong growth in recent years, with real GDP growth in 2005-10 about 6% per year. Privatization of government-owned copper mines in the 1990s relieved the government from covering mammoth losses generated by the industry and greatly increased copper mining output and profitability to spur economic growth. Copper output has increased steadily since 2004, due to higher copper prices and foreign investment. In 2005, Zambia qualified for debt relief under the Highly Indebted Poor Country Initiative, consisting of approximately USD 6 billion in debt relief. Poverty remains a significant problem in Zambia, despite a stronger economy. Zambia's dependency on copper makes it vulnerable to depressed commodity prices, but record high copper prices and a bumper maize crop in 2010 helped Zambia rebound quickly from the world economic slowdown that began in 2008. A high birth rate, relatively high HIV/AIDS burden, and market distorting agricultural policies have meant that Zambia's economic growth has not dramatically decreased the stubbornly high poverty rates.",
@@ -350,11 +331,8 @@
 			"usd": 16190000000.000002
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -376,10 +354,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5524000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5524000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 85,
@@ -395,11 +370,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 14,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 64,
@@ -415,16 +387,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 50.8,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 20.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -435,77 +401,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 24.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24.1,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 8.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 8.39,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.39,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 22.06,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.06,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1234000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1234000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 3573000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3573000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 2992000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2992000000
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2010)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2010)",
 		"Agriculture - products": "corn, sorghum, rice, peanuts, sunflower seed, vegetables, flowers, tobacco, cotton, sugarcane, cassava (tapioca), coffee; cattle, goats, pigs, poultry, milk, eggs, hides",
 		"Industries": "copper mining and processing, construction, foodstuffs, beverages, chemicals, textiles, fertilizer, horticulture",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 12.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 9752000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9752000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 8838000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8838000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 268000000,
@@ -516,120 +449,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 159.5,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 159.5,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 16000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 275.3,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 275.3,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 14730,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14730,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-99 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-99 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 6463000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6463000000
 		},
 		"Exports - commodities": "copper/cobalt 64%, cobalt, electricity; tobacco, flowers, cotton",
 		"Exports - partners": "China 21.37%, Saudi Arabia 8.93%, Democratic Republic of the Congo 8.55%, South Korea 8.32%, Egypt 8.08%, South Africa 6.96%, India 5% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 4949000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4949000000
 		},
 		"Imports - commodities": "machinery, transportation equipment, petroleum products, electricity, fertilizer, foodstuffs, clothing",
 		"Imports - partners": "South Africa 51.78%, UAE 7.7%, China 5.85%, Democratic Republic of the Congo 4.22% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 2287000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2287000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 3495000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3495000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Zambian kwacha (ZMK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 4407000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 90300,
+		"Telephones - mobile cellular": 4407000,
 		"Telephone system": {
 			"general assessment:": "among the best in Sub-Saharan Africa",
 			"domestic:": "high-capacity microwave radio relay connects most larger towns and cities; several cellular telephone services in operation and network coverage is improving; domestic satellite system being installed to improve telephone service in rural areas; Internet service is widely available; very small aperture terminal (VSAT) networks are operated by private firms",
@@ -637,30 +519,24 @@
 		},
 		"Broadcast media": "state-owned Zambia National Broadcasting Corporation (ZNBC) operates 1 TV station and is the principal local-content provider; several private TV stations are available; multi-channel subscription TV services are obtainable; ZNBC operates 3 radio networks; about 2 dozen private radio stations also broadcasting; relays of at least 2 international broadcasters are accessible in Lusaka and Kitwe (2007)",
 		"Internet country code": ".zm",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 14771,
+		"Internet users": 816200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 94,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 8,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 86,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 63,
+			"under 914 m:": 18
 		},
 		"Pipelines": "oil 771 km (2010)",
 		"Railways": {
@@ -686,34 +562,34 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,250 km (includes Lake Tanganyika and the Zambezi and Luapula rivers) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "2,250 km (includes Lake Tanganyika and the Zambezi and Luapula rivers) (2010)",
+		"Ports and terminals": "Mpulungu"
 	},
 	"military": {
 		"Military branches": "Zambian National Defense Force (ZNDF): Zambian Army, Zambian Air Force, National Service (2009)",
 		"Military service age and obligation": "18-27 years of age for male and female voluntary military service (16 years of age with parental consent); no conscription; Zambian citizenship required; mandatory HIV testing upon enlistment; mandatory retirement for officers at age 65 (Army, Air Force) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3041,
+			"females age 16-49:": 2948
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1745,
+			"females age 16-49:": 1688
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 158592,
+			"female:": 158805
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2004, Zimbabwe dropped objections to plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "42,565 (Angola); 60,874 (Democratic Republic of the Congo); 4,100 (Rwanda) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for moderate amounts of methaqualone, small amounts of heroin, and cocaine bound for southern Africa and possibly Europe; a poorly developed financial infrastructure coupled with a government commitment to combating money laundering make it an unattractive venue for money launderers; major consumer of cannabis"
 	}
 }

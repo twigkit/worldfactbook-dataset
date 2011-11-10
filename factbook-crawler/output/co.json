@@ -7,15 +7,15 @@
 		"Location": "Northern South America, bordering the Caribbean Sea, between Panama and Venezuela, and bordering the North Pacific Ocean, between Ecuador and Panama",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 4,
-				"seconds": 0
+				"deg": 4,
+				"min": 0
 			},
 			"W": {
-				"minutes": 72,
-				"seconds": 0
+				"deg": 72,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1138,
@@ -102,13 +102,10 @@
 			"party to:": "Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "only South American country with coastlines on both the North Pacific Ocean and Caribbean Sea"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 44725,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 26.7,
@@ -135,30 +132,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.156,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.156,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.49,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.49,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.26,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.26,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.67 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.67 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 75,
@@ -223,27 +208,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.15,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.15,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 160000,
+		"HIV/AIDS - deaths": 14000,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -288,7 +261,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -302,12 +278,12 @@
 			"name:": "Bogota",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 4,
-					"seconds": 36
+					"deg": 4,
+					"min": 36
 				},
 				"W": {
-					"minutes": 74,
-					"seconds": 5
+					"deg": 74,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
@@ -315,7 +291,6 @@
 		"Administrative divisions": "32 departments (departamentos, singular - departamento) and 1 capital district* (distrito capital); Amazonas, Antioquia, Arauca, Atlantico, Bogota*, Bolivar, Boyaca, Caldas, Caqueta, Casanare, Cauca, Cesar, Choco, Cordoba, Cundinamarca, Guainia, Guaviare, Huila, La Guajira, Magdalena, Meta, Narino, Norte de Santander, Putumayo, Quindio, Risaralda, San Andres y Providencia, Santander, Sucre, Tolima, Valle del Cauca, Vaupes, Vichada",
 		"Independence": "20 July 1810 (from Spain)",
 		"National holiday": "Independence Day, 20 July (1810)",
-		"Constitution": "5 July 1991; amended many times",
 		"Legal system": "civil law system influenced by the Spanish and French civil codes",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -356,7 +331,10 @@
 		"Flag description": {
 			"Flag description": "three horizontal bands of yellow (top, double-width), blue, and red; the flag retains the three main colors of the banner of Gran Columbia, the short-lived South American republic that broke up in 1830; various interpretations of the colors exist and include: yellow for the gold in Colombia's land, blue for the seas on its shores, and red for the blood spilled in attaining freedom; alternatively, the colors have been described as representing more elemental concepts such as sovereignty and justice (yellow), loyalty and vigilance (blue), and valor and generosity (red); or simply the principles of liberty, equality, and fraternity"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional de la Republica de Colombia\" (National Anthem of the Republic of Colombia)",
+			"lyrics/music:": "Rafael NUNEZ/Oreste SINDICI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The SANTOS administration has highlighted five \"locomotives\" to stimulate economic growth: extractive industries; agriculture; infrastructure; housing; and innovation. Colombia is third largest exporter of oil to the United States. President SANTOS, inaugurated in August 2010, introduced unprecedented legislation to better distribute extractive industry royalties and compensate Colombians who lost their land due to decades of violence. He also seeks to build on improvements in domestic security and on President URIBE's promarket economic policies. Foreign direct investment reached a record $10 billion in 2008, but dropped to $7.2 billion in 2009, before beginning to recover in 2010, notably in the oil sector. Pro-business reforms in the oil and gas sectors and export-led growth, fueled mainly by the Andean Trade Promotion and Drug Eradication Act, have enhanced Colombia's investment climate. Inequality, underemployment, and narcotrafficking remain significant challenges, and Colombia's infrastructure requires major improvements to sustain economic expansion. Because of the global financial crisis and weakening demand for Colombia's exports, Colombia's economy grew only 2.7% in 2008, and 0.8% in 2009 but rebounded to around 4.4% in 2010. In late 2010, Colombia experienced its most severe flooding in decades, with damages estimated to exceed $6 billion. The government has encouraged exporters to diversify their customer base beyond the United States and Venezuela, traditionally Colombia's largest trading partners; the SANTOS administration continues to pursue free trade agreements with Asian and South American partners and a trade accord with Canada is expected to go into effect in 2011, while a negotiated trade agreement with the EU has yet to be approved by the EU parliament. Improved relations with Venezuela have eased worries about restrictions on bilateral trade, but the business sector remains concerned about the pending US Congressional approval of the US-Colombia Trade Promotion Agreement.",
@@ -370,11 +348,8 @@
 			"usd": 285500000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -396,10 +371,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 21270000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 21270000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 18,
@@ -415,11 +387,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 11.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.8,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 45.5,
@@ -435,16 +404,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 58.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -455,79 +418,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 44.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 12.98,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.98,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 31830000000
-			},
-			"country comparison to the world:": ""
+			"usd": 31830000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 104900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 104900000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 123000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 123000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 217300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 217300000000
 		},
 		"Agriculture - products": "coffee, cut flowers, bananas, rice, tobacco, corn, sugarcane, cocoa beans, oilseed, vegetables; forest products; shrimp",
 		"Industries": "textiles, food processing, oil, clothing and footwear, beverages, chemicals, cement; gold, coal, emeralds",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 50580000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 50580000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 38590000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38590000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 876700000,
@@ -538,130 +468,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 785000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 785000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 288000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 288000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 294000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 294000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 16540,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16540,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1900000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1900000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 9000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 8100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 900000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 900000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 112000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 112000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-5.946 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-5.946 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 40240000000
-			},
-			"country comparison to the world:": ""
+			"usd": 40240000000
 		},
 		"Exports - commodities": "petroleum, coffee, coal, nickel, emeralds, apparel, bananas, cut flowers",
 		"Exports - partners": "US 42%, EU 12.6%, China 5.2%, Ecuador 4.5% (2010 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 36260000000
-			},
-			"country comparison to the world:": ""
+			"usd": 36260000000
 		},
 		"Imports - commodities": "industrial equipment, transportation equipment, consumer goods, chemicals, paper products, fuels, electricity",
 		"Imports - partners": "US 25.5%, China 13.4%, Mexico 9.4%, Brazil 5.9%, Germany 4.1% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 28500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 28500000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 57740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 57740000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 84620000000
-			},
-			"country comparison to the world:": ""
+			"usd": 84620000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 19200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19200000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Colombian pesos (COP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 7500000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 42160000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 7500000,
+		"Telephones - mobile cellular": 42160000,
 		"Telephone system": {
 			"general assessment:": "modern system in many respects with a nationwide microwave radio relay system, a domestic satellite system with 41 earth stations, and a fiber-optic network linking 50 cities; telecommunications sector liberalized during the 1990s; multiple providers of both fixed-line and mobile-cellular services",
 			"domestic:": "fixed-line connections stand at about 15 per 100 persons; mobile cellular telephone subscribership is about 90 per 100 persons; competition among cellular service providers is resulting in falling local and international calling rates and contributing to the steep decline in the market share of fixed line services",
@@ -669,32 +542,26 @@
 		},
 		"Broadcast media": "combination of state-owned and privately-owned broadcast media provide service; more than 500 radio stations and large number of national, regional, and local TV stations (2007)",
 		"Internet country code": ".co",
-		"Internet hosts": {
-			"Internet hosts": 2527000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2527000,
+		"Internet users": 22538000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 990,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 116,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 8,
+			"1,524 to 2,437 m:": 41,
+			"914 to 1,523 m:": 50
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 874,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 35,
+			"914 to 1,523 m:": 228,
+			"under 914 m:": 610
 		},
-		"Heliports": null,
+		"Heliports": 2,
 		"Pipelines": "gas 4,801 km; oil 6,334 km; refined products 3,309 km (2010)",
 		"Railways": {
 			"total:": {
@@ -713,42 +580,42 @@
 			"country comparison to the world:": ""
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 18000,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18000,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 13,
 			"country comparison to the world:": "",
 			"by type:": "cargo 11, petroleum tanker 1, specialized tanker 1",
 			"registered in other countries:": "3 (Antigua and Barbuda 1, Panama 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Barranquilla, Buenaventura, Cartagena, Puerto Bolivar, Santa Marta, Turbo"
 	},
 	"military": {
 		"Military branches": "National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, includes Naval Aviation, Naval Infantry (Infanteria de Marina, IM), and Coast Guard), Colombian Air Force (Fuerza Aerea de Colombia, FAC) (2011)",
 		"Military service age and obligation": "18-24 years of age for compulsory and voluntary military service; service obligation - 18 months (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 11692,
+			"females age 16-49:": 11727
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 9150,
+			"females age 16-49:": 9861
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 430634,
+			"female:": 413974
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in December 2007, ICJ allocates San Andres, Providencia, and Santa Catalina islands to Colombia under 1928 Treaty but does not rule on 82 degrees W meridian as maritime boundary with Nicaragua; managed dispute with Venezuela over maritime boundary and Venezuelan-administered Los Monjes Islands near the Gulf of Venezuela; Colombian-organized illegal narcotics, guerrilla, and paramilitary activities penetrate all neighboring borders and have caused Colombian citizens to flee mostly into neighboring countries; Colombia, Honduras, Nicaragua, Jamaica, and the US assert various claims to Bajo Nuevo and Serranilla Bank",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "1.8-3.5 million (conflict between government and illegal armed groups and drug traffickers) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "illicit producer of coca, opium poppy, and cannabis; world's leading coca cultivator with 167,000 hectares in coca cultivation in 2007, a 6% increase over 2006, producing a potential of 535 mt of pure cocaine; the world's largest producer of coca derivatives; supplies cocaine to nearly all of the US market and the great majority of other international drug markets; in 2005, aerial eradication dispensed herbicide to treat over 130,000 hectares but aggressive replanting on the part of coca growers means Colombia remains a key producer; a significant portion of narcotics proceeds are either laundered or invested in Colombia through the black market peso exchange; important supplier of heroin to the US market; opium poppy cultivation is estimated to have fallen 25% between 2006 and 2007; most Colombian heroin is destined for the US market (2008)"
 	}
 }

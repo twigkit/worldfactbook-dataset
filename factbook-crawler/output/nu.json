@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 0
+				"deg": 13,
+				"min": 0
 			},
 			"W": {
-				"minutes": 85,
-				"seconds": 0
+				"deg": 85,
+				"min": 0
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 130370,
@@ -102,13 +102,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "largest country in Central America; contains the largest freshwater body in Central America, Lago de Nicaragua"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 5666,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 31.7,
@@ -135,30 +132,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.088,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.088,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.46,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.46,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.03,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.03,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.54 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.54 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 57,
@@ -223,27 +208,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.12,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.12,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 6900,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -290,7 +263,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.1,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -304,12 +280,12 @@
 			"name:": "Managua",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 12,
-					"seconds": 9
+					"deg": 12,
+					"min": 9
 				},
 				"W": {
-					"minutes": 86,
-					"seconds": 17
+					"deg": 86,
+					"min": 17
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
@@ -317,7 +293,6 @@
 		"Administrative divisions": "15 departments (departamentos, singular - departamento) and 2 autonomous regions* (regiones autonomistas, singular - region autonoma); Atlantico Norte*, Atlantico Sur*, Boaco, Carazo, Chinandega, Chontales, Esteli, Granada, Jinotega, Leon, Madriz, Managua, Masaya, Matagalpa, Nueva Segovia, Rio San Juan, Rivas",
 		"Independence": "15 September 1821 (from Spain)",
 		"National holiday": "Independence Day, 15 September (1821)",
-		"Constitution": "9 January 1987; revised in 1995, 2000, and 2005",
 		"Legal system": "civil law system; Supreme Court may review administrative acts",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; non-party state to the ICCt",
 		"Suffrage": "16 years of age; universal",
@@ -354,7 +329,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of blue (top), white, and blue with the national coat of arms centered in the white band; the coat of arms features a triangle encircled by the words REPUBLICA DE NICARAGUA on the top and AMERICA CENTRAL on the bottom; the banner is based on the former blue-white-blue flag of the Federal Republic of Central America; the blue bands symbolize the Pacific Ocean and the Caribbean Sea, while the white band represents the land between the two bodies of water"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Salve a ti, Nicaragua\" (Hail to Thee, Nicaragua)",
+			"lyrics/music:": "Salomon Ibarra MAYORGA/traditional, arranged by Luis Abraham DELGADILLO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Nicaragua, the poorest country in Central America and the second poorest in the Hemisphere, has widespread underemployment and poverty. The US-Central America Free Trade Agreement (CAFTA) has been in effect since April 2006 and has expanded export opportunities for many agricultural and manufactured goods. Textiles and apparel account for nearly 60% of Nicaragua's exports, but increases in the minimum wage during the ORTEGA administration will likely erode its comparative advantage in this industry. ORTEGA's promotion of mixed business initiatives, owned by the Nicaraguan and Venezuelan state oil firms, together with the weak rule of law, could undermine the investment climate for domestic and international private firms in the near-term. Nicaragua relies on international economic assistance to meet internal- and external-debt financing obligations. Foreign donors have curtailed this funding, however, in response to November 2008 electoral fraud. Managua has an IMF extended Credit Facility program, which could help keep the government's fiscal deficit on target during the 2011 election year and encourage transparency in the use of Venezuelan off-budget loans and assistance. In early 2004, Nicaragua secured some $4.5 billion in foreign debt reduction under the Heavily Indebted Poor Countries (HIPC) initiative, however, Managua still struggles with a high public debt burden. Nicaragua is gradually recovering from the global economic crisis as increased exports drove positive growth in 2010. The economy is expected to grow at a rate of about 3% in 2011.",
@@ -368,11 +346,8 @@
 			"usd": 6551000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -394,10 +369,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 2343000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 2343000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 28,
@@ -433,16 +405,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 43.1,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -453,68 +419,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 78,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 78,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA% (31 December 2009)",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 14.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.04,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1273000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1273000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2900000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 4083000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4083000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, bananas, sugarcane, cotton, rice, corn, tobacco, sesame, soya, beans; beef, veal, pork, poultry, dairy products; shrimp, lobsters",
 		"Industries": "food processing, chemicals, machinery and metal products, knit and woven apparel, petroleum refining and distribution, beverages, footwear, wood",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3286000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3286000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2569000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2569000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -525,118 +464,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 29000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 212.5,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 212.5,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 29570,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29570,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-819 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-819 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 3182000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3182000000
 		},
 		"Exports - commodities": "coffee, beef, shrimp and lobster, tobacco, sugar, gold, peanuts; textiles and apparel",
 		"Exports - partners": "US 61.98%, El Salvador 7.74%, Costa Rica 3.67% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 4700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4700000000
 		},
 		"Imports - commodities": "consumer goods, machinery and equipment, raw materials, petroleum products",
 		"Imports - partners": "US 22.63%, Venezuela 12.27%, Mexico 9.05%, Costa Rica 8.66%, China 7.16%, Guatemala 6.59%, El Salvador 5.63% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1580000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1580000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4030000000.0000005
-			},
-			"country comparison to the world:": ""
+			"usd": 4030000000.0000005
 		},
-		"Exchange rates": {}
+		"Exchange rates": "cordobas (NIO) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 3204000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 255000,
+		"Telephones - mobile cellular": 3204000,
 		"Telephone system": {
 			"general assessment:": "system being upgraded by foreign investment; nearly all installed telecommunications capacity now uses digital technology, owing to investments since privatization of the formerly state-owned telecommunications company",
 			"domestic:": "since privatization, access to fixed-line and mobile-cellular services has improved but teledensity still lags behind other Central American countries; fixed-line teledensity roughly 5 per 100 persons; mobile-cellular telephone subscribership is increasing and reached 55 per 100 persons in 2009; connected to Central American Microwave System",
@@ -644,29 +532,23 @@
 		},
 		"Broadcast media": "multiple privately-owned terrestrial television networks, supplemented by cable TV in most urban areas; of more than 100 radio broadcast stations, nearly all are privately owned; Radio Nicaragua is government-owned and Radio Sandino is controlled by the Sandinista National Liberation Front (FSLN) (2007)",
 		"Internet country code": ".ni",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 157162,
+		"Internet users": 199800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 143,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 11,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 132,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 16,
+			"under 914 m:": 115
 		},
 		"Pipelines": "oil 54 km (2010)",
 		"Roadways": {
@@ -684,31 +566,31 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,220 km (navigable waterways as well as the use of the large Lake Managua and Lake Nicaragua; rivers serve only the sparsely populated eastern part of the country) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "2,220 km (navigable waterways as well as the use of the large Lake Managua and Lake Nicaragua; rivers serve only the sparsely populated eastern part of the country) (2010)",
+		"Ports and terminals": "Bluefields, Corinto"
 	},
 	"military": {
 		"Military branches": "National Army of Nicaragua (Ejercito Nacional de Nicaragua, ENN; includes Navy, Air Force) (2010)",
 		"Military service age and obligation": "17 years of age for voluntary military service; tour of duty 18-36 months (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1452,
+			"females age 16-49:": 1552
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1227,
+			"females age 16-49:": 1335
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 69093,
+			"female:": 67522
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "memorials and countermemorials were filed by the parties in Nicaragua's 1999 and 2001 proceedings against Honduras and Colombia at the ICJ over the maritime boundary and territorial claims in the western Caribbean Sea, final public hearings are scheduled for 2007; the 1992 ICJ ruling for El Salvador and Honduras advised a tripartite resolution to establish a maritime boundary in the Gulf of Fonseca, which considers Honduran access to the Pacific; legal dispute over navigational rights of San Juan River on border with Costa Rica",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for cocaine destined for the US and transshipment point for arms-for-drugs dealing"
 	}
 }

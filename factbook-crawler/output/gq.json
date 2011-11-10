@@ -7,15 +7,15 @@
 		"Location": "Oceania, island in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 28
+				"deg": 13,
+				"min": 28
 			},
 			"E": {
-				"minutes": 144,
-				"seconds": 47
+				"deg": 144,
+				"min": 47
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 544,
@@ -76,10 +76,10 @@
 		},
 		"Natural hazards": "frequent squalls during rainy season; relatively rare but potentially destructive typhoons (June - December)",
 		"Environment - current issues": "extirpation of native bird population by the rapid proliferation of the brown tree snake, an exotic, invasive species",
-		"Geography - note": {}
+		"Geography - note": "largest and southernmost island in the Mariana Islands archipelago; strategic location in western North Pacific Ocean"
 	},
 	"people": {
-		"Population": null,
+		"Population": 183286,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 27,
@@ -214,7 +214,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -229,12 +229,12 @@
 			"name:": "Hagatna (Agana)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 13,
-					"seconds": 28
+					"deg": 13,
+					"min": 28
 				},
 				"E": {
-					"minutes": 144,
-					"seconds": 44
+					"deg": 144,
+					"min": 44
 				}
 			},
 			"time difference:": "UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
@@ -242,7 +242,6 @@
 		"Administrative divisions": "none (territory of the US)",
 		"Independence": "none (territory of the US)",
 		"National holiday": "Discovery Day, first Monday in March (1521)",
-		"Constitution": "Organic Act of Guam, 1 August 1950",
 		"Legal system": "common law modeled on US system; US federal laws apply",
 		"Suffrage": "18 years of age; universal; US citizens but do not vote in US presidential elections",
 		"Executive branch": {
@@ -269,7 +268,10 @@
 		"Flag description": {
 			"Flag description": "territorial flag is dark blue with a narrow red border on all four sides; centered is a red-bordered, pointed, vertical ellipse containing a beach scene, a proa or outrigger canoe with sail, and a palm tree with the word GUAM superimposed in bold red letters; the proa is sailing in Agana Bay with the promontory of Punta Dos Amantes, near the capital, in the background; blue represents the sea and red the blood shed in the struggle against oppression"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Fanohge Chamoru\" (Stand Ye Guamanians)",
+			"lyrics/music:": "Ramon Manalisay SABLAN [English], Lagrimas UNTALAN [Chamoru]/Ramon Manalisay SABLAN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy depends largely on US military spending and tourism. Total US grants, wage payments, and procurement outlays amounted to $1.3 billion in 2004. Over the past 30 years, the tourist industry has grown to become the largest income source following national defense. The Guam economy continues to experience expansion in both its tourism and military sectors.",
@@ -288,7 +290,7 @@
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": null,
+		"Labor force": 82950,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 26,
@@ -395,11 +397,11 @@
 		},
 		"Imports - commodities": "petroleum and petroleum products, food, manufactured goods",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": null,
-		"Telephones - mobile cellular": null,
+	"communications": {
+		"Telephones - main lines in use": 65500,
+		"Telephones - mobile cellular": 98000,
 		"Telephone system": {
 			"general assessment:": "modern system, integrated with US facilities for direct dialing, including free use of 800 numbers",
 			"domestic:": "digital system, including mobile-cellular service and local access to the Internet",
@@ -407,20 +409,20 @@
 		},
 		"Broadcast media": "about a dozen TV broadcast channels, including digital channels; multi-channel cable TV services are available; roughly 20 radio stations broadcasting (2009)",
 		"Internet country code": ".gu",
-		"Internet hosts": null,
-		"Internet users": {}
+		"Internet hosts": 24,
+		"Internet users": 90000
 	},
 	"transport": {
 		"Airports": "5; note - 2 serviceable (2010)",
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 4,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 1,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -428,20 +430,20 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Apra Harbor"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 38358,
+			"females age 16-49:": 36869
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1701,
+			"female:": 1608
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

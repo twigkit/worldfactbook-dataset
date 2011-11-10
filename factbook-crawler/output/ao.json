@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, bordering the South Atlantic Ocean, between Namibia and Democratic Republic of the Congo",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 12,
-				"seconds": 30
+				"deg": 12,
+				"min": 30
 			},
 			"E": {
-				"minutes": 18,
-				"seconds": 30
+				"deg": 18,
+				"min": 30
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1246,
@@ -102,13 +102,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the province of Cabinda is an exclave, separated from the rest of the country by the Democratic Republic of the Congo"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 13338,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 43.2,
@@ -135,32 +132,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.034,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.034,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 42.91,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42.91,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 23.4,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.4,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.82,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.82,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -226,27 +211,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.97,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.97,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 200000,
+		"HIV/AIDS - deaths": 11000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, typhoid fever",
@@ -283,7 +256,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -298,12 +274,12 @@
 			"name:": "Luanda",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 8,
-					"seconds": 50
+					"deg": 8,
+					"min": 50
 				},
 				"E": {
-					"minutes": 13,
-					"seconds": 14
+					"deg": 13,
+					"min": 14
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -311,7 +287,6 @@
 		"Administrative divisions": "18 provinces (provincias, singular - provincia); Bengo, Benguela, Bie, Cabinda, Cuando Cubango, Cuanza Norte, Cuanza Sul, Cunene, Huambo, Huila, Luanda, Lunda Norte, Lunda Sul, Malanje, Moxico, Namibe, Uige, Zaire",
 		"Independence": "11 November 1975 (from Portugal)",
 		"National holiday": "Independence Day, 11 November (1975)",
-		"Constitution": "adopted by National Assembly 5 February 2010",
 		"Legal system": "civil legal system based on Portuguese civil law; no judicial review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -350,7 +325,10 @@
 			"FAX:": "[244] (222) 64-1232"
 		},
 		"Flag description": "two equal horizontal bands of red (top) and black with a centered yellow emblem consisting of a five-pointed star within half a cogwheel crossed by a machete (in the style of a hammer and sickle); red represents liberty, black the African continent, the symbols characterize workers and peasants",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Angola Avante\" (Forward Angola)",
+			"lyrics/music:": "Manuel Rui Alves MONTEIRO/Rui Alberto Vieira Dias MINGAO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Angola's high growth rate in recent years was driven by high international prices for its oil. Angola became a member of OPEC in late 2006 and in late 2007 was assigned a production quota of 1.9 million barrels a day (bbl/day), somewhat less than the 2-2.5 million bbl/day Angola's government had wanted. Oil production and its supporting activities contribute about 85% of GDP. Diamond exports contribute an additional 5%. Subsistence agriculture provides the main livelihood for most of the people, but half of the country's food is still imported. Increased oil production supported growth averaging more than 15% per year from 2004 to 2008. A postwar reconstruction boom and resettlement of displaced persons has led to high rates of growth in construction and agriculture as well. Much of the country's infrastructure is still damaged or undeveloped from the 27-year-long civil war. Land mines left from the war still mar the countryside, even though peace was established after the death of rebel leader Jonas SAVIMBI in February 2002. Since 2005, the government has used billions of dollars in credit lines from China, Brazil, Portugal, Germany, Spain, and the EU to rebuild Angola's public infrastructure. The global recession temporarily stalled economic growth. Lower prices for oil and diamonds during the global recession led to a contraction in GDP in 2009, and many construction projects stopped because Luanda accrued $9 billion in arrears to foreign construction companies when government revenue fell in 2008 and 2009. Angola abandoned its currency peg in 2009, and in November 2009 signed onto an IMF Stand-By Arrangement loan of $1.4 billion to rebuild international reserves. Although consumer inflation declined from 325% in 2000 to under 14% in 2010, Luanda has been unable to reduce inflation below 10%. The Angolan kwanza depreciated again in mid 2010, which, along with higher oil prices, should boost economic growth in all sectors. Corruption, especially in the extractive sectors, also is a major challenge.",
@@ -364,11 +342,8 @@
 			"usd": 85310000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -390,10 +365,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 7977000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 7977000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 85,
@@ -420,11 +392,8 @@
 			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 15.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -435,73 +404,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 20.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 13.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.3,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 30,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 15.68,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.68,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 8740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8740000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 24920000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24920000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 17520000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17520000000
 		},
 		"Agriculture - products": "bananas, sugarcane, coffee, sisal, corn, cotton, manioc (tapioca), tobacco, vegetables, plantains; livestock; forest products; fish",
 		"Industries": "petroleum; diamonds, iron ore, phosphates, feldspar, bauxite, uranium, and gold; cement; basic metal products; fish processing; food processing, brewing, tobacco products, sugar; textiles; ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3722000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3722000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 3173000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3173000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -512,132 +451,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1948000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1948000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 70000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 70000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1407000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1407000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 28090,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28090,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 13500000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13500000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 680000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 680000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 680000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 680000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 271800000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 271800000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 2089000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2089000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 51650000000
-			},
-			"country comparison to the world:": ""
+			"usd": 51650000000
 		},
 		"Exports - commodities": "crude oil, diamonds, refined petroleum products, coffee, sisal, fish and fish products, timber, cotton",
 		"Exports - partners": "China 35.65%, US 25.98%, France 8.83%, South Africa 4.13% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 18100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 18100000000
 		},
 		"Imports - commodities": "machinery and electrical equipment, vehicles and spare parts; medicines, food, textiles, military goods",
 		"Imports - partners": "Portugal 18.71%, China 17.39%, US 8.51%, Brazil 8.22%, South Korea 6.72%, France 4.51%, Italy 4.28%, South Africa 4.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 16890000000
-			},
-			"country comparison to the world:": ""
+			"usd": 16890000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 17980000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17980000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 91550000000
-			},
-			"country comparison to the world:": ""
+			"usd": 91550000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 4883000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4883000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "kwanza (AOA) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 8109000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 303200,
+		"Telephones - mobile cellular": 8109000,
 		"Telephone system": {
 			"general assessment:": "limited system; state-owned telecom had monopoly for fixed-lines until 2005; demand outstripped capacity, prices were high, and services poor; Telecom Namibia, through an Angolan company, became the first private licensed operator in Angola's fixed-line telephone network; by 2010, the number of fixed-line providers had expanded to 5; Angola Telecom established mobile-cellular service in Luanda in 1993 and the network has been extended to larger towns; a privately-owned, mobile-cellular service provider began operations in 2001",
 			"domestic:": "only about two fixed-lines per 100 persons; combined fixed-line and mobile-cellular teledensity about 65 telephones per 100 persons in 2009",
@@ -645,30 +527,24 @@
 		},
 		"Broadcast media": "state controls all broadcast media with nationwide reach; state-owned Televisao Popular de Angola (TPA) provides terrestrial TV service on 2 channels; a third TPA channel is available via cable and satellite; TV subscription services are available; state-owned Radio Nacional de Angola (RNA) broadcasts on 5 stations; about a half dozen private radio stations broadcast locally (2008)",
 		"Internet country code": ".ao",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3717,
+		"Internet users": 606700
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 193,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 31,
+			"over 3,047 m:": 5,
+			"2,438 to 3,047 m:": 9,
+			"1,524 to 2,437 m:": 13,
+			"914 to 1,523 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 162,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 4,
+			"1,524 to 2,437 m:": 31,
+			"914 to 1,523 m:": 78
 		},
 		"Pipelines": "gas 2 km; oil 87 km (2010)",
 		"Railways": {
@@ -695,44 +571,44 @@
 			}
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 1300,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1300,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 7,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, passenger/cargo 2, petroleum tanker 3, roll on/roll off 1",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "15 (Bahamas 5, Liberia 1, Malta 7, former Netherlands Antilles 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Cabinda, Lobito, Luanda, Namibe"
 	},
 	"military": {
 		"Military branches": "Angolan Armed Forces (Forcas Armadas Angolanas, FAA): Army, Navy (Marinha de Guerra Angola, MGA), Angolan National Air Force (Forca Aerea Nacional Angolana, FANA) (2011)",
 		"Military service age and obligation": "20-45 years of age for compulsory and 18-45 years for voluntary military service; conscript service obligation - 2 years; Angolan citizenship required; minimum age for women volunteers is 20; the Marinha de Guerra Angola (Navy) is entirely staffed with volunteers (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3062,
+			"females age 16-49:": 2964
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1546,
+			"females age 16-49:": 1492
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 155476,
+			"female:": 152054
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "DROC accuses Angola of shifting monuments",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 12615,
 			"IDPs:": "61,700 (27-year civil war ending in 2002; 4 million IDPs already have returned) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "used as a transshipment point for cocaine destined for Western Europe and other African states, particularly South Africa"
 	}
 }

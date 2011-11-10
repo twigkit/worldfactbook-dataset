@@ -7,15 +7,15 @@
 		"Location": "Southwestern Asia, bordering the Caspian Sea, between Iran and Russia, with a small European portion north of the Caucasus range",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 40,
-				"seconds": 30
+				"deg": 40,
+				"min": 30
 			},
 			"E": {
-				"minutes": 47,
-				"seconds": 30
+				"deg": 47,
+				"min": 30
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 86600,
@@ -86,13 +86,10 @@
 			"party to:": "Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "both the main area of the country and the Naxcivan exclave are landlocked"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 8372,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 23.2,
@@ -119,30 +116,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.846,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.846,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.85,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.85,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.25,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.25,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.14 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.14 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 52,
@@ -207,27 +192,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.02,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.02,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 3600,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -270,7 +243,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -285,12 +261,12 @@
 			"name:": "Baku (Baki, Baky)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 40,
-					"seconds": 23
+					"deg": 40,
+					"min": 23
 				},
 				"E": {
-					"minutes": 49,
-					"seconds": 52
+					"deg": 49,
+					"min": 52
 				}
 			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)",
@@ -304,7 +280,6 @@
 		},
 		"Independence": "30 August 1991 (declared from the Soviet Union); 18 October 1991 (adopted by the Supreme Council of Azerbaijan)",
 		"National holiday": "Founding of the Democratic Republic of Azerbaijan, 28 May (1918)",
-		"Constitution": "adopted 12 November 1995; modified by referendum 24 August 2002",
 		"Legal system": "civil law system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -341,7 +316,10 @@
 			"FAX:": "[994] (12) 4656-671"
 		},
 		"Flag description": "three equal horizontal bands of blue (top), red, and green; a crescent and eight-pointed star in white are centered in the red band; the blue band recalls Azerbaijan's Turkic heritage, red stands for modernization and progress, and green refers to Islam; the crescent moon is an Islamic symbol, while the eight-pointed star represents the eight Turkic peoples of the world",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Azerbaijan Marsi\" (March of Azerbaijan)",
+			"lyrics/music:": "Ahmed JAVAD/Uzeyir HAJIBEYOV"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Azerbaijan's high economic growth during 2006-08 was attributable to large and growing oil exports, but some non-export sectors also featured double-digit growth, spurred by growth in the construction, banking, and real estate sectors. In 2009, economic growth remained above 9% even as oil prices moderated and growth in the construction sector cooled. In 2010, economic growth slowed to 3.7%, although the impact of the global financial crisis was less severe than in many other countries in the region. The current global economic slowdown presents some challenges for the Azerbaijani economy as oil prices remain below their mid-2008 highs, highlighting Azerbaijan's reliance on energy exports and lackluster attempts to diversify its economy. Azerbaijan's oil production increased dramatically in 1997, when Azerbaijan signed the first production-sharing arrangement (PSA) with the Azerbaijan International Operating Company. Oil exports through the Baku-Tbilisi-Ceyhan Pipeline remain the main economic driver while efforts to boost Azerbaijan's gas production are underway. However, Azerbaijan has made only limited progress on instituting market-based economic reforms. Pervasive public and private sector corruption and structural economic inefficiencies remain a drag on long-term growth, particularly in non-energy sectors. Several other obstacles impede Azerbaijan's economic progress: the need for stepped up foreign investment in the non-energy sector and the continuing conflict with Armenia over the Nagorno-Karabakh region. Trade with Russia and the other former Soviet republics is declining in importance, while trade is building with Turkey and the nations of Europe. Long-term prospects will depend on world oil prices, the location of new oil and gas pipelines in the region, and Azerbaijan's ability to manage its energy wealth to promote sustainable growth in non-energy sectors of the economy and spur employment.",
@@ -355,11 +333,8 @@
 			"usd": 54370000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -381,10 +356,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5874000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5874000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 38.3,
@@ -400,11 +372,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 0.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.9,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 11,
@@ -420,16 +389,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 36.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 17.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.3,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -440,18 +403,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 4.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -461,53 +418,32 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 20.03,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.03,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 7340000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7340000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 11640000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11640000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 8135000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8135000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, grain, rice, grapes, fruit, vegetables, tea, tobacco; cattle, pigs, sheep, goats",
 		"Industries": "petroleum and natural gas, petroleum products, oilfield equipment; steel, iron ore; cement; chemicals and petrochemicals; textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 18600000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18600000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 18000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18000000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 786000000,
@@ -518,132 +454,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1010999.9999999999,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1010999.9999999999,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 136000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 136000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 528900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 528900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2848,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2848,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 7000000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7000000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 23000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 10120000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10120000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 5564000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5564000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 849500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 849500000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 15960000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15960000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 28070000000
-			},
-			"country comparison to the world:": ""
+			"usd": 28070000000
 		},
 		"Exports - commodities": "oil and gas 90%, machinery, cotton, foodstuffs",
 		"Exports - partners": "Italy 20.69%, India 10.67%, US 9.24%, France 8.15%, Germany 7.62%, Indonesia 6.63%, Canada 5.13% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 7035000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7035000000
 		},
 		"Imports - commodities": "machinery and equipment, oil products, foodstuffs, metals, chemicals",
 		"Imports - partners": "Turkey 18.69%, Russia 16.98%, Germany 7.87%, Ukraine 7.3%, China 6.18%, UK 5.73% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 6330000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6330000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 3221000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3221000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 8918000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8918000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 6058000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6058000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Azerbaijani manats (AZN) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1397000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 7757000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1397000,
+		"Telephones - mobile cellular": 7757000,
 		"Telephone system": {
 			"general assessment:": "requires considerable expansion and modernization; fixed-line telephony and a broad range of other telecom services are controlled by a state-owned telecommunications monopoly and growth has been stagnant; more competition exists in the mobile-cellular market with four providers in 2009",
 			"domestic:": "teledensity of 17 fixed lines per 100 persons; mobile-cellular teledensity has increased and is rapidly approaching 100 telephones per 100 persons; satellite service connects Baku to a modern switch in its exclave of Nakhchivan",
@@ -651,29 +530,23 @@
 		},
 		"Broadcast media": "1 state-run and 1 public television channel; 4 domestic commercial TV stations and about 15 regional TV stations; Turkish, Russian, and Iranian TV and radio broadcasts are available, especially in border regions; cable TV services are available in Baku; 1 state-run and 1 public radio network operating; a small number of private commercial radio stations broadcasting; local FM relays of Baku commercial stations are available in many localities; local relays of several international broadcasters had been available until late 2008 when their broadcasts were banned from FM frequencies (2008)",
 		"Internet country code": ".az",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 22737,
+		"Internet users": 2420000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 35,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 27,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 6,
+			"1,524 to 2,437 m:": 13,
+			"914 to 1,523 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 8,
+			"under 914 m:": 8
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "condensate 1 km; gas 3,361 km; oil 1,424 km (2010)",
 		"Railways": {
 			"total:": {
@@ -699,41 +572,44 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 92,
 			"country comparison to the world:": "",
 			"by type:": "cargo 27, passenger 2, passenger/cargo 9, petroleum tanker 48, roll on/roll off 3, specialized tanker 3",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "2 (Malta 1, Panama 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Baku (Baki)"
 	},
 	"military": {
 		"Military branches": "Army, Navy, Air and Air Defense Forces (2010)",
 		"Military service age and obligation": "men between 18 and 35 are liable for military service; 18 years of age for voluntary military service; length of military service is 18 months and 12 months for university graduates (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2354,
+			"females age 16-49:": 2334
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1773,
+			"females age 16-49:": 1964
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 76923,
+			"female:": 71024
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the lake; the dispute over the break-away Nagorno-Karabakh region and the Armenian military occupation of surrounding lands in Azerbaijan remains the primary focus of regional instability; residents have evacuated the former Soviet-era small ethnic enclaves in Armenia and Azerbaijan; local border forces struggle to control the illegal transit of goods and people across the porous, undemarcated Armenian, Azerbaijani, and Georgian borders; bilateral talks continue with Turkmenistan on dividing the seabed and contested oilfields in the middle of the Caspian",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 2400,
 			"IDPs:": "580,000-690,000 (conflict with Armenia over Nagorno-Karabakh) (2007)"
 		},
 		"Trafficking in persons": {
 			"current situation:": "Azerbaijan is primarily a source and transit country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; women and some children from Azerbaijan are trafficked to Turkey and the UAE for the purpose of sexual exploitation; men and boys are trafficked to Russia for the purpose of forced labor; Azerbaijan serves as a transit country for victims from Uzbekistan, Kyrgyzstan, Kazakhstan, and Moldova trafficked to Turkey and the UAE for sexual exploitation",
 			"tier rating:": "Tier 2 Watch List - Azerbaijan is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat trafficking in persons, particularly efforts to investigate, prosecute, and punish traffickers; to address complicity among law enforcement personnel; and to adequately identify and protect victims in Azerbaijan; the government has yet to develop a much-needed mechanism to identify potential trafficking victims and refer them to safety and care; poor treatment of trafficking victims in courtrooms continues to be a problem (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "limited illicit cultivation of cannabis and opium poppy, mostly for CIS consumption; small government eradication program; transit point for Southwest Asian opiates bound for Russia and to a lesser extent the rest of Europe"
 	}
 }

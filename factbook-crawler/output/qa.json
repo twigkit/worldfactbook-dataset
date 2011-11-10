@@ -7,15 +7,15 @@
 		"Location": "Middle East, peninsula bordering the Persian Gulf and Saudi Arabia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 25,
-				"seconds": 30
+				"deg": 25,
+				"min": 30
 			},
 			"E": {
-				"minutes": 51,
-				"seconds": 15
+				"deg": 51,
+				"min": 15
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 11586,
@@ -99,13 +99,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location in central Persian Gulf near major petroleum deposits"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 848016,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 21.8,
@@ -132,30 +129,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.81,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.81,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 15.48,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.48,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 2.43,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.43,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-4.94 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-4.94 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 96,
@@ -220,24 +205,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.43,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.43,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2009 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -276,7 +249,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -290,12 +266,12 @@
 			"name:": "Doha",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 25,
-					"seconds": 17
+					"deg": 25,
+					"min": 17
 				},
 				"E": {
-					"minutes": 51,
-					"seconds": 32
+					"deg": 51,
+					"min": 32
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -303,7 +279,6 @@
 		"Administrative divisions": "7 municipalities (baladiyat, singular - baladiyah); Ad Dawhah, Al Khawr wa adh Dhakhirah, Al Wakrah, Ar Rayyan, Ash Shamal, Az Za'ayin, Umm Salal",
 		"Independence": "3 September 1971 (from the UK)",
 		"National holiday": "Independence Day, 3 September (1971); also observed is National Day, 18 December (anniversary of Al Thani family accession to the throne)",
-		"Constitution": "ratified by public referendum 29 April 2003; endorsed by the Amir 8 June 2004, effective 9 June 2005",
 		"Legal system": "mixed legal system of civil law and Islamic law (in family and personal matters)",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -337,7 +312,10 @@
 		"Flag description": {
 			"Flag description": "maroon with a broad white serrated band (nine white points) on the hoist side; maroon represents the blood shed in Qatari wars, white stands for peace; the nine-pointed serrated edge signifies Qatar as the ninth member of the \"reconciled emirates\" in the wake of the Qatari-British treaty of 1916"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Al-Salam Al-Amiri\" (The Peace for the Anthem)",
+			"lyrics/music:": "Sheikh MUBARAK bin Saif al-Thani/Abdul Aziz Nasser OBAIDAN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Despite the global financial crisis, Qatar has prospered in the last several years - in 2010 Qatar had the world's highest growth rate. Qatari authorities throughout the crisis sought to protect the local banking sector with direct investments into domestic banks. GDP rebounded in 2010 largely due to the increase in oil prices. Economic policy is focused on developing Qatar's nonassociated natural gas reserves and increasing private and foreign investment in non-energy sectors, but oil and gas still account for more than 50% of GDP, roughly 85% of export earnings, and 70% of government revenues. Oil and gas likely have made Qatar the highest per-capita income country - ahead of Liechtenstein - and the country with the lowest unemployment. Proved oil reserves of 25 billion barrels should enable continued output at current levels for 57 years. Qatar's proved reserves of natural gas exceed 25 trillion cubic meters, about 14% of the world total and third largest in the world. Qatar's successful 2022 world cup bid will likely accelerate large-scale infrastructure projects such as Qatar's metro system and the Qatar-Bahrain causeway.",
@@ -351,11 +329,8 @@
 			"usd": 129500000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 16.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -377,16 +352,10 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 1254000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1254000,
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 0.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -394,11 +363,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 33,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -409,79 +375,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 10.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.04,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 15980000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15980000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 65950000000
-			},
-			"country comparison to the world:": ""
+			"usd": 65950000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 70900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 70900000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 87860000000
-			},
-			"country comparison to the world:": ""
+			"usd": 87860000000
 		},
 		"Agriculture - products": "fruits, vegetables; poultry, dairy products, beef; fish",
 		"Industries": "liquefied natural gas, crude oil production and refining, ammonia, fertilizers, petrochemicals, steel reinforcing bars, cement, commercial ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 27.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 15110000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15110000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 13730000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13730000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -492,132 +425,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1213000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1213000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 142000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 142000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 753000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 753000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 25410000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25410000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 76980000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 76980000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 20200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 56780000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 56780000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 25470000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25470000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 20110000000
-			},
-			"country comparison to the world:": ""
+			"usd": 20110000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 57820000000
-			},
-			"country comparison to the world:": ""
+			"usd": 57820000000
 		},
 		"Exports - commodities": "liquefied natural gas (LNG), petroleum products, fertilizers, steel",
 		"Exports - partners": "Japan 34.68%, South Korea 22.44%, Singapore 10.03%, India 4.86% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 23380000000
-			},
-			"country comparison to the world:": ""
+			"usd": 23380000000
 		},
 		"Imports - commodities": "machinery and transport equipment, food, chemicals",
 		"Imports - partners": "US 13.43%, Italy 8.34%, South Korea 8.33%, Japan 8.04%, Germany 7.31%, France 6.26%, UK 5.59%, China 5%, UAE 4.67%, Saudi Arabia 3.96% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 22410000000
-			},
-			"country comparison to the world:": ""
+			"usd": 22410000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 71380000000
-			},
-			"country comparison to the world:": ""
+			"usd": 71380000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 26380000000
-			},
-			"country comparison to the world:": ""
+			"usd": 26380000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 19490000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19490000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Qatari rials (QAR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2472000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 285300,
+		"Telephones - mobile cellular": 2472000,
 		"Telephone system": {
 			"general assessment:": "modern system centered in Doha",
 			"domestic:": "combined fixed and mobile-cellular telephone subscribership exceeds 300 telephones per 100 persons",
@@ -625,28 +501,22 @@
 		},
 		"Broadcast media": "television and radio broadcast media are state controlled; home of the satellite TV channel Al-Jazeera, which was originally owned and financed by the Qatari Government; Al-Jazeera claims editorial independence in broadcasting; transmissions of several international broadcasters are accessible on FM in Doha (2007)",
 		"Internet country code": ".qa",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 822,
+		"Internet users": 563800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 6,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 4,
+			"over 3,047 m:": 3,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 1
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "condensate 145 km; condensate/gas 132 km; gas 980 km; liquid petroleum gas 90 km; oil 382 km (2010)",
 		"Roadways": {
 			"total:": {
@@ -656,33 +526,39 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 29,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 3, chemical tanker 2, container 14, liquefied gas 6, petroleum tanker 4",
-			"foreign-owned:": null,
+			"foreign-owned:": 7,
 			"registered in other countries:": "30 (Liberia 5, Marshall Islands 24, Panama 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Doha, Mesaieed (Umaieed), Ra's Laffan"
 	},
 	"military": {
 		"Military branches": "Qatari Amiri Land Force (QALF), Qatari Amiri Navy (QAN), Qatari Amiri Air Force (QAAF) (2009)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 389487,
+			"females age 16-49:": 165572
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 321974,
+			"females age 16-49:": 140176
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 6429,
+			"female:": 5162
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 10,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Qatar is a destination country for men and women from South and Southeast Asia who migrate willingly, but are subsequently trafficked into involuntary servitude as domestic workers and laborers, and, to a lesser extent, commercial sexual exploitation; the most common offense was forcing workers to accept worse contract terms than those under which they were recruited; other conditions include bonded labor, withholding of pay, restrictions on movement, arbitrary detention, and physical, mental, and sexual abuse",
+			"tier rating:": "Tier 2 Watch List - the Government of Qatar does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; in February 2009, Qatar enacted a new migrant worker sponsorship law that criminalizes some practices commonly used by trafficking offenders, and it announced plans to use that law effectively to prevent human trafficking; punishment for offenses related to trafficking in persons remains lower than that for crimes such as rape and kidnapping, and the Qatari government has yet to take significant action to investigate, prosecute, and punish trafficking offenses; the government continues to lack formal victim identification procedures and, as a result, victims of trafficking are likely punished for acts committed as a direct result of being trafficked (2009)"
+		}
 	}
 }

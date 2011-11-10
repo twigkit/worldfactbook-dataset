@@ -7,15 +7,15 @@
 		"Location": "Southeastern Asia, island in the Indian Ocean, south of Indonesia",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 10,
-				"seconds": 30
+				"deg": 10,
+				"min": 30
 			},
 			"E": {
-				"minutes": 105,
-				"seconds": 40
+				"deg": 105,
+				"min": 40
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 135,
@@ -75,24 +75,18 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "the narrow fringing reef surrounding the island can be a maritime hazard",
 		"Environment - current issues": "loss of rainforest; impact of phosphate mining",
-		"Geography - note": {}
+		"Geography - note": "located along major sea lanes of Indian Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1402,
 		"Age structure": {
 			"0-14 years:": "NA",
 			"15-64 years:": "NA",
 			"65 years and over:": "NA"
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "%"
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
@@ -123,7 +117,7 @@
 		"Languages": "English (official), Chinese, Malay",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -136,12 +130,12 @@
 			"name:": "The Settlement",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 10,
-					"seconds": 25
+					"deg": 10,
+					"min": 25
 				},
 				"E": {
-					"minutes": 105,
-					"seconds": 43
+					"deg": 105,
+					"min": 43
 				}
 			},
 			"time difference:": "UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
@@ -149,7 +143,6 @@
 		"Administrative divisions": "none (territory of Australia)",
 		"Independence": "none (territory of Australia)",
 		"National holiday": "Australia Day, 26 January (1788)",
-		"Constitution": "Christmas Island Act of 1958-59 (1 October 1958) as amended by the Territories Law Reform Act of 1992",
 		"Legal system": "legal system is under the authority of the governor general of Australia and Australian law",
 		"Suffrage": "18 years of age",
 		"Executive branch": {
@@ -171,7 +164,9 @@
 		"Flag description": {
 			"Flag description": "territorial flag; divided diagonally from upper hoist to lower fly; the upper triangle is green with a yellow image of the Golden Bosun Bird superimposed, the lower triangle is blue with the Southern Cross constellation, representing Australia, superimposed; a centered yellow disk displays a green map of the island"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"note:": "as a territory of Australia, \"Advance Australia Fair\" remains official as the national anthem, while \"God Save the Queen\" serves as the royal anthem (see Australia)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Phosphate mining had been the only significant economic activity, but in December 1987 the Australian government closed the mine. In 1991, the mine was reopened. With the support of the government, a $34 million casino opened in 1993, but closed in 1998.",
@@ -187,9 +182,9 @@
 		"Exports - commodities": "phosphate",
 		"Imports": "$NA",
 		"Imports - commodities": "consumer goods",
-		"Exchange rates": {}
+		"Exchange rates": "Australian dollars (AUD) per US dollar -"
 	},
-	"commerce": {
+	"communications": {
 		"Telephones - main lines in use": "NA",
 		"Telephone system": {
 			"general assessment:": "service provided by the Australian network",
@@ -198,20 +193,14 @@
 		},
 		"Broadcast media": "1 community radio station; broadcasts of several Australian radio and television stations are received via satellite (2009)",
 		"Internet country code": ".cx",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2542,
+		"Internet users": 464
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Railways": {
 			"total:": {
@@ -236,12 +225,12 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Flying Fish Cove"
 	},
 	"military": {
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of Australia"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

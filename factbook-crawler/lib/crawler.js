@@ -17,7 +17,7 @@ exports.run = function( originRoot, outputRoot, format ){
 	}
 	
 	async.forEachSeries( matchingFiles, function( item, callback ){
-		console.log("processing country code",item);
+		console.log("--",item);
 		fs.readFile( originRoot+item+'.html', "utf-8", function( err, rawData ){
 			if ( err ) throw err;
 			scraper.bite( item, rawData, function( err, structuredData ){

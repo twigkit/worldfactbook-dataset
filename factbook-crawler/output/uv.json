@@ -7,15 +7,15 @@
 		"Location": "Western Africa, north of Ghana",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 0
+				"deg": 13,
+				"min": 0
 			},
 			"W": {
-				"minutes": 2,
-				"seconds": 0
+				"deg": 2,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 274200,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked savanna cut by the three principal rivers of the Black, Red, and White Voltas"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 16751,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,32 +122,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.085,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.085,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 43.59,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 43.59,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 12.74,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.74,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +201,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 6.14,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.14,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 110000,
+		"HIV/AIDS - deaths": 7100,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -294,12 +273,12 @@
 			"name:": "Ouagadougou",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 12,
-					"seconds": 22
+					"deg": 12,
+					"min": 22
 				},
 				"W": {
-					"minutes": 1,
-					"seconds": 31
+					"deg": 1,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
@@ -307,7 +286,6 @@
 		"Administrative divisions": "45 provinces; Bale, Bam, Banwa, Bazega, Bougouriba, Boulgou, Boulkiemde, Comoe, Ganzourgou, Gnagna, Gourma, Houet, Ioba, Kadiogo, Kenedougou, Komondjari, Kompienga, Kossi, Koulpelogo, Kouritenga, Kourweogo, Leraba, Loroum, Mouhoun, Nahouri, Namentenga, Nayala, Noumbiel, Oubritenga, Oudalan, Passore, Poni, Sanguie, Sanmatenga, Seno, Sissili, Soum, Sourou, Tapoa, Tuy, Yagha, Yatenga, Ziro, Zondoma, Zoundweogo",
 		"Independence": "5 August 1960 (from France)",
 		"National holiday": "Republic Day, 11 December (1958); note - commemorates the day that Upper Volta became an autonomous republic in the French Community",
-		"Constitution": "approved by referendum 2 June 1991; formally adopted 11 June 1991; last amended January 2002",
 		"Legal system": "civil law based on the French model and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -346,7 +324,10 @@
 		"Flag description": {
 			"Flag description": "two equal horizontal bands of red (top) and green with a yellow five-pointed star in the center; red recalls the country's struggle for independence, green is for hope and abundance, and yellow represents the country's mineral wealth"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Le Ditanye\" (Anthem of Victory)",
+			"lyrics/music:": "Thomas SANKARA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Burkina Faso is a poor, landlocked country that relies heavily on cotton and gold exports for revenue. The country has few natural resources and a weak industrial base. About 90% of the population is engaged in subsistence agriculture, which is vulnerable to periodic drought. Cotton is the main cash crop. Since 1998, Burkina Faso has embarked upon a gradual privatization of state-owned enterprises and in 2004 revised its investment code to attract foreign investment. As a result of this new code and other legislation favoring the mining sector, the country has seen an upswing in gold exploration and production. By 2010, gold had become the main source of export revenue.",
@@ -360,11 +341,8 @@
 			"usd": 8781000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -401,11 +379,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 77,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 46.4,
@@ -421,16 +396,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39.5,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -441,61 +410,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1416000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1416000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2406000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2406000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1373000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1373000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, peanuts, shea nuts, sesame, sorghum, millet, corn, rice; livestock",
 		"Industries": "cotton lint, beverages, agricultural processing, soap, cigarettes, textiles, gold",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 611600000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 611600000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 568800000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 568800000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -506,118 +451,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 9000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 8283,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8283,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-486 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-486 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 991000000
-			},
-			"country comparison to the world:": ""
+			"usd": 991000000
 		},
 		"Exports - commodities": "cotton, livestock, gold",
 		"Exports - partners": "Singapore 16.76%, Belgium 12.78%, China 7.59%, Ghana 6.89%, India 6.36%, Denmark 5.76%, Niger 5.13%, Thailand 4.52% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1480000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1480000000
 		},
 		"Imports - commodities": "capital goods, foodstuffs, petroleum",
 		"Imports - partners": "Cote d'Ivoire 24.31%, France 19.48%, Togo 6.42% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1588000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1588000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2001999999.9999998
-			},
-			"country comparison to the world:": ""
+			"usd": 2001999999.9999998
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Communaute Financiere Africaine francs (XOF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 3299000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 167000,
+		"Telephones - mobile cellular": 3299000,
 		"Telephone system": {
 			"general assessment:": "system includes microwave radio relay, open-wire, and radiotelephone communication stations; in 2006 the government sold a 51 percent stake in the national telephone company and ultimately plans to retain only a 23 percent stake in the company",
 			"domestic:": "fixed-line connections stand at less than 1 per 100 persons; mobile-cellular usage, fostered by multiple providers, is increasing rapidly from a low base",
@@ -625,27 +519,21 @@
 		},
 		"Broadcast media": "2 TV stations - 1 state-owned and 1 privately-owned; state-owned radio runs a national and regional network; substantial number of privately-owned radio broadcast stations; transmissions of several international broadcasters available in Ouagadougou (2007)",
 		"Internet country code": ".bf",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1877,
+		"Internet users": 178100
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 24,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 2,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 22,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 12,
+			"under 914 m:": 6
 		},
 		"Railways": {
 			"total:": {
@@ -655,25 +543,42 @@
 			"country comparison to the world:": "",
 			"narrow gauge:": "622 km 1.000-m gauge"
 		},
-		"Roadways": {}
+		"Roadways": {
+			"total:": {
+				"quantity": 92495,
+				"unit": "km"
+			},
+			"country comparison to the world:": "",
+			"paved:": {
+				"quantity": 3857,
+				"unit": "km"
+			},
+			"unpaved:": {
+				"quantity": 88638,
+				"unit": "km"
+			}
+		}
 	},
 	"military": {
 		"Military branches": "Army, Air Force of Burkina Faso (Force Aerienne de Burkina Faso, FABF), National Gendarmerie (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; women may serve in supporting roles (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 3735
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2366,
+			"females age 16-49:": 2367
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 193905,
+			"female:": 191662
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "adding to illicit cross-border activities, Burkina Faso has issues concerning unresolved boundary alignments with its neighbors; demarcation is currently underway with Mali, the dispute with Niger was referred to the ICJ in 2010, and a dispute over several villages with Benin persists; Benin retains a border dispute with Burkina Faso around the town of Koualou"
 	}
 }

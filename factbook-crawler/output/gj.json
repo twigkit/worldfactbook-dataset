@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 12,
-				"seconds": 7
+				"deg": 12,
+				"min": 7
 			},
 			"W": {
-				"minutes": 61,
-				"seconds": 40
+				"deg": 61,
+				"min": 40
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 344,
@@ -82,13 +82,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the administration of the islands of the Grenadines group is divided between Saint Vincent and the Grenadines and Grenada"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 108419,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 25.4,
@@ -115,30 +112,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.551,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.551,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.01,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.01,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.94,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.94,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.56 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.56 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 39,
@@ -203,11 +188,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.18,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.18,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -244,7 +226,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -256,12 +241,12 @@
 			"name:": "Saint George's",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 12,
-					"seconds": 3
+					"deg": 12,
+					"min": 3
 				},
 				"W": {
-					"minutes": 61,
-					"seconds": 45
+					"deg": 61,
+					"min": 45
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -269,7 +254,6 @@
 		"Administrative divisions": "6 parishes and 1 dependency*; Carriacou and Petite Martinique*, Saint Andrew, Saint David, Saint George, Saint John, Saint Mark, Saint Patrick",
 		"Independence": "7 February 1974 (from the UK)",
 		"National holiday": "Independence Day, 7 February (1974)",
-		"Constitution": "19 December 1973",
 		"Legal system": "common law based on English model",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -303,7 +287,10 @@
 			"FAX:": "[1] (473) 444-4820"
 		},
 		"Flag description": "a rectangle divided diagonally into yellow triangles (top and bottom) and green triangles (hoist side and outer side), with a red border around the flag; there are seven yellow, five-pointed stars with three centered in the top red border, three centered in the bottom red border, and one on a red disk superimposed at the center of the flag; there is also a symbolic nutmeg pod on the hoist-side triangle (Grenada is the world's second-largest producer of nutmeg, after Indonesia); the seven stars stand for the seven administrative divisions, with the central star denoting the capital, St. George; yellow represents the sun and the warmth of the people, green stands for vegetation and agriculture, and red symbolizes harmony, unity, and courage",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Hail Grenada\"",
+			"lyrics/music:": "Irva Merle BAPTISTE/Louis Arnold MASANTO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Grenada relies on tourism as its main source of foreign exchange especially since the construction of an international airport in 1985. Hurricanes Ivan (2004) and Emily (2005) severely damaged the agricultural sector - particularly nutmeg and cocoa cultivation - which had been a key driver of economic growth. Grenada has rebounded from the devastating effects of the hurricanes but is now saddled with the debt burden from the rebuilding process. Public debt-to-GDP is nearly 110%, leaving the THOMAS administration limited room to engage in public investments and social spending. Strong performances in construction and manufacturing, together with the development of tourism and an offshore financial industry, have also contributed to growth in national output; however, economic growth was stagnant in 2010 after a sizeable contraction in 2009, because of the global economic slowdown's effects on tourism and remittances.",
@@ -316,10 +303,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 674000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-1.4% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-1.4% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -340,10 +324,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 42300,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 24,
@@ -359,11 +340,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 12.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 32,
@@ -382,60 +360,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.06,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.06,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 123100000
-			},
-			"country comparison to the world:": ""
+			"usd": 123100000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 743500000
-			},
-			"country comparison to the world:": ""
+			"usd": 743500000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 658000000
-			},
-			"country comparison to the world:": ""
+			"usd": 658000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "bananas, cocoa, nutmeg, mace, citrus, avocados, root crops, sugarcane, corn, vegetables",
 		"Industries": "food and beverages, textiles, light assembly operations, tourism, construction",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 178700000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 178700000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 155700000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 155700000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -446,112 +400,64 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 3000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1923,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1923,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-138 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-138 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 38000000
-			},
-			"country comparison to the world:": ""
+			"usd": 38000000
 		},
 		"Exports - commodities": "bananas, cocoa, nutmeg, fruit and vegetables, clothing, mace",
 		"Exports - partners": "Saint Lucia 19.73%, Antigua and Barbuda 13.41%, US 12.21%, Saint Kitts and Nevis 12.03%, Dominica 12% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 343000000
-			},
-			"country comparison to the world:": ""
+			"usd": 343000000
 		},
 		"Imports - commodities": "food, manufactured goods, machinery, chemicals, fuel",
 		"Imports - partners": "Trinidad and Tobago 39.76%, US 18.11% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 347000000
-			},
-			"country comparison to the world:": ""
+			"usd": 347000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "East Caribbean dollars (XCD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 28600,
+		"Telephones - mobile cellular": 64000,
 		"Telephone system": {
 			"general assessment:": "automatic, island-wide telephone system",
 			"domestic:": "interisland VHF and UHF radiotelephone links",
@@ -559,22 +465,16 @@
 		},
 		"Broadcast media": "the Grenada Broadcasting Network, jointly owned by the government and the Caribbean Communications Network of Trinidad and Tobago, operates a television station and 2 radio stations; multi-channel cable TV subscription service is available; a dozen private radio stations also broadcast (2007)",
 		"Internet country code": ".gd",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 52,
+		"Internet users": 25000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 3,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 3,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -591,25 +491,25 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Saint George's"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Royal Grenada Police Force (includes Coast Guard) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 27468
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 22596,
+			"females age 16-49:": 22588
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 995,
+			"female:": 1002
 		},
-		"Military expenditures": {}
+		"Military expenditures": "NA"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "small-scale cannabis cultivation; lesser transshipment point for marijuana and cocaine to US"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Central Africa, east of Democratic Republic of the Congo",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 3,
-				"seconds": 30
+				"deg": 3,
+				"min": 30
 			},
 			"E": {
-				"minutes": 30,
-				"seconds": 0
+				"deg": 30,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 27830,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; straddles crest of the Nile-Congo watershed; the Kagera, which drains into Lake Victoria, is the most remote headstream of the White Nile"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 10216,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,32 +122,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.462,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.462,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 41.01,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41.01,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.61,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.61,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 3.22,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.22,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +201,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 6.16,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.16,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 180000,
+		"HIV/AIDS - deaths": 15000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 8.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -294,12 +273,12 @@
 			"name:": "Bujumbura",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 3,
-					"seconds": 22
+					"deg": 3,
+					"min": 22
 				},
 				"E": {
-					"minutes": 29,
-					"seconds": 21
+					"deg": 29,
+					"min": 21
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -307,7 +286,6 @@
 		"Administrative divisions": "17 provinces; Bubanza, Bujumbura Mairie, Bujumbura Rural, Bururi, Cankuzo, Cibitoke, Gitega, Karuzi, Kayanza, Kirundo, Makamba, Muramvya, Muyinga, Mwaro, Ngozi, Rutana, Ruyigi",
 		"Independence": "1 July 1962 (from UN trusteeship under Belgian administration)",
 		"National holiday": "Independence Day, 1 July (1962)",
-		"Constitution": "ratified by popular referendum 28 February 2005",
 		"Legal system": "mixed legal system of Belgian civil law and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -346,7 +324,10 @@
 			"FAX:": "[257] 222926"
 		},
 		"Flag description": "divided by a white diagonal cross into red panels (top and bottom) and green panels (hoist side and fly side) with a white disk superimposed at the center bearing three red six-pointed stars outlined in green arranged in a triangular design (one star above, two stars below); green symbolizes hope and optimism, white purity and peace, and red the blood shed in the struggle for independence; the three stars in the disk represent the three major ethnic groups: Hutu, Twa, Tutsi, as well as the three elements in the national motto: unity, work, progress",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Burundi Bwacu\" (Our Beloved Burundi)",
+			"lyrics/music:": "Jean-Baptiste NTAHOKAJA/Marc BARENGAYABO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Burundi is a landlocked, resource-poor country with an underdeveloped manufacturing sector. The economy is predominantly agricultural which accounts for just over 30% of GDP and employs more than 90% of the population. Burundi's primary exports are coffee and tea, which account for 90% of foreign exchange earnings, though exports are a relatively small share of GDP. Burundi's export earnings - and its ability to pay for imports - rests primarily on weather conditions and international coffee and tea prices. The Tutsi minority, 14% of the population, dominates the coffee trade. An ethnic-based war that lasted for over a decade resulted in more than 200,000 deaths, forced more than 48,000 refugees into Tanzania, and displaced 140,000 others internally. Only one in two children go to school, and approximately one in 15 adults has HIV/AIDS. Food, medicine, and electricity remain in short supply. Less than 2% of the population has electricity in its homes. Burundi's GDP grew around 4% annually in 2006-10. Political stability and the end of the civil war have improved aid flows and economic activity has increased, but underlying weaknesses - a high poverty rate, poor education rates, a weak legal system, a poor transportation network, overburdened utilities, and low administrative capacity - risk undermining planned economic reforms. The purchasing power of most Burundians has decreased as wage increases have not kept up with inflation. Burundi will continue to remain heavily dependent on aid from bilateral and multilateral donors; the delay of funds after a corruption scandal cut off bilateral aid in 2007 reduced government's revenues and its ability to pay salaries. Burundi joined the East African Community, which should boost Burundi's regional trade ties, and received $700 million in debt relief in 2009. Government corruption is also hindering the development of a healthy private sector as companies seek to navigate an environment with ever-changing rules.",
@@ -360,11 +341,8 @@
 			"usd": 1489000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -386,10 +364,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4245000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4245000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 93.6,
@@ -419,16 +394,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 42.4,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 25.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -439,67 +408,40 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 9.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 10,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 14.08,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.08,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 329300000
-			},
-			"country comparison to the world:": ""
+			"usd": 329300000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 568300000
-			},
-			"country comparison to the world:": ""
+			"usd": 568300000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 465700000
-			},
-			"country comparison to the world:": ""
+			"usd": 465700000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, cotton, tea, corn, sorghum, sweet potatoes, bananas, manioc (tapioca); beef, milk, hides",
 		"Industries": "light consumer goods such as blankets, shoes, soap; assembly of imported components; public works construction; food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 92000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 92000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 125600000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 125600000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -507,118 +449,67 @@
 		},
 		"Electricity - imports": "40 million kWh; note - supplied by the Democratic Republic of the Congo (2007 est.)",
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 3000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2495,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2495,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-136 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-136 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 71000000
-			},
-			"country comparison to the world:": ""
+			"usd": 71000000
 		},
 		"Exports - commodities": "coffee, tea, sugar, cotton, hides",
 		"Exports - partners": "Germany 21.6%, Switzerland 14.86%, Belgium 9.32%, Sweden 8.94%, Pakistan 5.82% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 336000000
-			},
-			"country comparison to the world:": ""
+			"usd": 336000000
 		},
 		"Imports - commodities": "capital goods, petroleum products, foodstuffs",
 		"Imports - partners": "Saudi Arabia 16.87%, Belgium 11.17%, Uganda 8.62%, Kenya 7.57%, China 5.66%, France 5.35%, Germany 4.46%, India 4.24%, Tanzania 4.21% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 320000000
-			},
-			"country comparison to the world:": ""
+			"usd": 320000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1200000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Burundi francs (BIF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 31500,
+		"Telephones - mobile cellular": 838400,
 		"Telephone system": {
 			"general assessment:": "sparse system of open-wire, radiotelephone communications, and low-capacity microwave radio relays",
 			"domestic:": "telephone density one of the lowest in the world; fixed-line connections stand at well less than 1 per 100 persons; mobile-cellular usage is increasing but remains at a meager 10 per 100 persons",
@@ -626,27 +517,21 @@
 		},
 		"Broadcast media": "state-controlled La Radiodiffusion et Television Nationale de Burundi (RTNB) operates the lone TV broadcast station and the only national radio network; about 10 privately-owned radio broadcast stations; transmissions of several international broadcasters are available in Bujumbura (2007)",
 		"Internet country code": ".bi",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 201,
+		"Internet users": 157800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 8,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null
+			"total:": 1,
+			"over 3,047 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 7,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 3
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Roadways": {
 			"total:": {
 				"quantity": 12322,
@@ -663,27 +548,33 @@
 			}
 		},
 		"Waterways": "(mainly on Lake Tanganyika between Bujumbura, Burundi's principal port, and lake ports in Tanzania, Zambia, and the Democratic Republic of Congo) (2010)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Bujumbura"
 	},
 	"military": {
 		"Military branches": "National Defense Forces (Forces de Defense Nationale, FDN): Army (includes naval detachment, Air Wing, and Coast Guard), National Gendarmerie (2011)",
 		"Military service age and obligation": "military service is voluntary; the armed forces law of 31 December 2004 did not specify a minimum age for enlistment, but the government had previously said each recruit must have a primary school-leaving certificate; mandatory retirement age 45 (enlisted), 50 (NCOs), and 55 (officers) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2182,
+			"females age 16-49:": 2202
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1398,
+			"females age 16-49:": 1481
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 117956,
+			"female:": 116956
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 5.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; cross-border conflicts among Tutsi, Hutu, other ethnic groups, associated political rebels, armed gangs, and various government forces persist in the Great Lakes region",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": 9849,
+			"IDPs:": "100,000 (armed conflict between government and rebels; most IDPs in northern and western Burundi) (2007)"
+		}
 	}
 }

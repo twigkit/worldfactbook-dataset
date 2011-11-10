@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 14,
-				"seconds": 20
+				"deg": 14,
+				"min": 20
 			},
 			"W": {
-				"minutes": 170,
-				"seconds": 0
+				"deg": 170,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 199,
@@ -77,13 +77,10 @@
 			"volcanism:": "American Samoa experiences limited volcanic activity on the Ofu and Olosega Islands, neither has erupted since the 19th century"
 		},
 		"Environment - current issues": "limited natural freshwater resources; the water division of the government has spent substantial funds in the past few years to improve water catchments and pipelines",
-		"Geography - note": {}
+		"Geography - note": "Pago Pago has one of the best natural deepwater harbors in the South Pacific Ocean, sheltered by shape from rough seas and protected by peripheral mountains from high winds; strategic location in the South Pacific Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 67242,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 31.9,
@@ -110,30 +107,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.211,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.211,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 22.84,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.84,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.1,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-6.63 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-6.63 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 93,
@@ -198,11 +183,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.16,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.16,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -232,7 +214,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -246,12 +228,12 @@
 			"name:": "Pago Pago",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 14,
-					"seconds": 16
+					"deg": 14,
+					"min": 16
 				},
 				"W": {
-					"minutes": 170,
-					"seconds": 42
+					"deg": 170,
+					"min": 42
 				}
 			},
 			"time difference:": "UTC-11 (6 hours behind Washington, DC during Standard Time)"
@@ -259,7 +241,6 @@
 		"Administrative divisions": "none (territory of the US); there are no first-order administrative divisions as defined by the US Government, but there are three districts and two islands* at the second order; Eastern, Manu'a, Rose Island*, Swains Island*, Western",
 		"Independence": "none (territory of the US)",
 		"National holiday": "Flag Day, 17 April (1900)",
-		"Constitution": "ratified 2 June 1966; effective 1 July 1967",
 		"Legal system": "mixed legal system of US common law and customary law",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -281,41 +262,32 @@
 		"Diplomatic representation in the US": "none (territory of the US)",
 		"Diplomatic representation from the US": "none (territory of the US)",
 		"Flag description": "blue, with a white triangle edged in red that is based on the fly side and extends to the hoist side; a brown and white American bald eagle flying toward the hoist side is carrying two traditional Samoan symbols of authority, a war club known as a \"Fa'alaufa'i\" (upper; left talon), and a coconut fiber fly whisk known as a \"Fue\" (lower; right talon); the combination of symbols broadly mimics that seen on the US Great Seal and reflects the relationship between the United States and American Samoa",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Amerika Samoa\" (American Samoa)",
+			"lyrics/music:": "Mariota Tiumalu TUIASOSOPO/Napoleon Andrew TUITELELEAPAGA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "American Samoa has a traditional Polynesian economy in which more than 90% of the land is communally owned. Economic activity is strongly linked to the US with which American Samoa conducts most of its commerce. Tuna fishing and tuna processing plants are the backbone of the private sector, with canned tuna the primary export. The two tuna canneries account for 80% of employment. In late September 2009, an earthquake and the resulting tsunami devastated American Samoa and nearby Samoa, disrupting transportation and power generation, and resulting in about 200 deaths. The US Federal Emergency Management Agency is overseeing a relief program of nearly $25 million. Transfers from the US Government add substantially to American Samoa's economic well being. Attempts by the government to develop a larger and broader economy are restrained by Samoa's remote location, its limited transportation, and its devastating hurricanes. Tourism is a promising developing sector.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 575300000
-			},
-			"country comparison to the world:": ""
+			"usd": 575300000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 462200000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 17630,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 34,
@@ -331,11 +303,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 29.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29.8,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -355,18 +324,12 @@
 		"Industries": "tuna canneries (largely supplied by foreign fishing vessels), handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 185000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 185000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 172100000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 172100000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -377,101 +340,59 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 4000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 4140,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4140,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 445600000
-			},
-			"country comparison to the world:": ""
+			"usd": 445600000
 		},
 		"Exports - commodities": "canned tuna 93%",
 		"Imports": {
-			"Imports": {
-				"usd": 308800000
-			},
-			"country comparison to the world:": ""
+			"usd": 308800000
 		},
 		"Imports - commodities": "raw materials for canneries 56%, food, petroleum products, machinery and parts",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 10400,
+		"Telephones - mobile cellular": 2200,
 		"Telephone system": {
 			"general assessment:": "NA",
 			"domestic:": "good telex, telegraph, facsimile, and cellular telephone services; domestic satellite system with 1 Comsat earth station",
@@ -479,22 +400,16 @@
 		},
 		"Broadcast media": "3 television stations broadcasting; multi-channel pay-per-view television services are available; about a dozen radio stations, some of which are repeater stations (2009)",
 		"Internet country code": ".as",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1676,
+		"Internet users": "NA"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 3,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 3,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -503,20 +418,20 @@
 			},
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Pago Pago"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 14562,
+			"females age 16-49:": 14129
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 775,
+			"female:": 762
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Tokelau included American Samoa's Swains Island (Olohega) in its 2006 draft independence constitution"
 	}
 }

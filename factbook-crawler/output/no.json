@@ -7,15 +7,15 @@
 		"Location": "Northern Europe, bordering the North Sea and the North Atlantic Ocean, west of Sweden",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 62,
-				"seconds": 0
+				"deg": 62,
+				"min": 0
 			},
 			"E": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 323802,
@@ -109,13 +109,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "about two-thirds mountains; some 50,000 islands off its much-indented coastline; strategic location adjacent to sea lanes and air routes in North Atlantic; one of the most rugged and longest coastlines in the world"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 4691,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18,
@@ -142,32 +139,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.329,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.329,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.84,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.84,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.24,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.24,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.7,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.7,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -233,27 +218,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.77,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.77,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 4000,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -294,7 +267,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -308,12 +284,12 @@
 			"name:": "Oslo",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 59,
-					"seconds": 55
+					"deg": 59,
+					"min": 55
 				},
 				"E": {
-					"minutes": 10,
-					"seconds": 45
+					"deg": 10,
+					"min": 45
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -323,7 +299,6 @@
 		"Dependent areas": "Bouvet Island, Jan Mayen, Svalbard",
 		"Independence": "7 June 1905 (Norway declared the union with Sweden dissolved); 26 October 1905 (Sweden agreed to the repeal of the union)",
 		"National holiday": "Constitution Day, 17 May (1814)",
-		"Constitution": "17 May 1814; amended many times",
 		"Legal system": "mixed legal system of civil, common, and customary law; Supreme Court can advise on legislative acts",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -360,7 +335,10 @@
 			"FAX:": "[47] 22 44 33 63, 22 56 27 51"
 		},
 		"Flag description": "red with a blue cross outlined in white that extends to the edges of the flag; the vertical part of the cross is shifted to the hoist side in the style of the Dannebrog (Danish flag); the colors recall Norway's past political unions with Denmark (red and white) and Sweden (blue)",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Ja, vi elsker dette landet\" (Yes, We Love This Country)",
+			"lyrics/music:": "Bjornstjerne BJORNSON/Rikard NORDRAAK"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Norwegian economy is a prosperous bastion of welfare capitalism, featuring a combination of free market activity and government intervention. The government controls key areas, such as the vital petroleum sector, through large-scale state-majority-owned enterprises. The country is richly endowed with natural resources - petroleum, hydropower, fish, forests, and minerals - and is highly dependent on the petroleum sector, which accounts for nearly half of exports and over 30% of state revenue. Norway is the world's second-largest gas exporter; its position as an oil exporter has slipped to ninth-largest as production has begun to decline. Norway opted to stay out of the EU during a referendum in November 1994; nonetheless, as a member of the European Economic Area, it contributes sizably to the EU budget. In anticipation of eventual declines in oil and gas production, Norway saves state revenue from the petroleum sector in the world's second largest sovereign wealth fund, valued at over $500 billion in 2010. After solid GDP growth in 2004-07, the economy slowed in 2008, and contracted in 2009, before returning to positive growth in 2010.",
@@ -374,11 +352,8 @@
 			"usd": 414500000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -400,10 +375,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 2590000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 2590000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.9,
@@ -419,11 +391,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.6,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -436,16 +405,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 25,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.6,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -456,79 +419,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 47.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 47.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 4.28,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.28,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 122200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 122200000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 256300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 256300000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 414500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 414500000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 227200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 227200000000
 		},
 		"Agriculture - products": "barley, wheat, potatoes; pork, beef, veal, milk; fish",
 		"Industries": "petroleum and gas, food processing, shipbuilding, pulp and paper products, metals, chemicals, timber, mining, textiles, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 142700000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 142700000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 128800000000.00002,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 128800000000.00002,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 17290000000,
@@ -539,94 +469,55 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 2350000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2350000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 204100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 204100,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2150000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2150000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 107500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 107500,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 6680000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6680000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 103500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 103500000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 4620000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4620000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 98850000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 98850000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 2313000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2313000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 60230000000
-			},
-			"country comparison to the world:": ""
+			"usd": 60230000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 137000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 137000000000
 		},
 		"Exports - commodities": "petroleum and petroleum products, machinery and equipment, metals, chemicals, ships, fish",
 		"Exports - partners": "UK 24.28%, Germany 13.4%, Netherlands 10.87%, France 8.55%, Sweden 5.76%, US 4.82% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 74020000000
-			},
-			"country comparison to the world:": ""
+			"usd": 74020000000
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, metals, foodstuffs",
 		"Imports - partners": "Sweden 13.86%, Germany 12.89%, China 7.8%, Denmark 6.78%, US 6.16%, UK 6.01% (2009)",
@@ -638,28 +529,16 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 132800000000.00002
-			},
-			"country comparison to the world:": ""
+			"usd": 132800000000.00002
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 226600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 226600000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Norwegian kroner (NOK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1900000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5336000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1900000,
+		"Telephones - mobile cellular": 5336000,
 		"Telephone system": {
 			"general assessment:": "modern in all respects; one of the most advanced telecommunications networks in Europe",
 			"domestic:": "Norway has a domestic satellite system; the prevalence of rural areas encourages the wide use of mobile-cellular systems",
@@ -667,30 +546,24 @@
 		},
 		"Broadcast media": "state-owned public radio-TV broadcaster operates 3 nationwide television stations, 3 nationwide radio stations, and 16 regional radio stations; roughly a dozen privately-owned television stations broadcast nationally and roughly another 25 local TV stations are available; nearly 75% of households have access to multi-channel cable or satellite TV systems; 2 privately-owned radio stations broadcast nationwide and another 240 stations operate locally (2008)",
 		"Internet country code": ".no",
-		"Internet hosts": {
-			"Internet hosts": 3352000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3352000,
+		"Internet users": 4431000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 98,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 67,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 12,
+			"1,524 to 2,437 m:": 11,
+			"914 to 1,523 m:": 18
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 31,
+			"914 to 1,523 m:": 6,
+			"under 914 m:": 25
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "condensate 31 km; gas 64 km (2010)",
 		"Railways": {
 			"total:": {
@@ -716,39 +589,39 @@
 			}
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 1577,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1577,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 632,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 43, cargo 133, carrier 5, chemical tanker 139, combination ore/oil 12, container 1, liquefied gas 53, passenger 3, passenger/cargo 116, petroleum tanker 58, refrigerated cargo 14, roll on/roll off 9, vehicle carrier 46",
-			"foreign-owned:": null,
+			"foreign-owned:": 104,
 			"registered in other countries:": "940 (Antigua and Barbuda 9, Australia 1, Bahamas 198, Barbados 41, Belize 3, Bermuda 5, Brazil 3, Canada 4, Chile 1, Comoros 2, Cook Islands 6, Croatia 2, Cyprus 12, Denmark 2, Dominica 1, Equatorial Guinea 1, Estonia 2, Faroe Islands 6, Finland 2, France 1, Gibraltar 42, Hong Kong 49, Indonesia 4, Ireland 3, Isle of Man 26, Italy 6, Japan 1, Liberia 42, Libya 1, Malta 84, Marshall Islands 57, Netherlands 18, former Netherlands Antilles 2, Panama 89, Portugal 1, Saint Kitts and Nevis 1, Saint Vincent and the Grenadines 12, Singapore 132, Spain 10, Sweden 3, UK 39, US 10, Vanuatu 1, Venezuela 1, unknown 4) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Bergen, Haugesund, Maaloy, Mongstad, Narvik, Sture"
 	},
 	"military": {
 		"Military branches": "Norwegian Army (Haeren), Royal Norwegian Navy (Kongelige Norske Sjoeforsvaret, RNoN; includes Coastal Rangers and Coast Guard (Kystvakt)), Royal Norwegian Air Force (Kongelige Norske Luftforsvaret, RNoAF), Home Guard (Heimevernet, HV) (2010)",
 		"Military service age and obligation": "18-44 years of age for male compulsory military service; 16 years of age in wartime; 17 years of age for male volunteers; 18 years of age for women; 12-month service obligation, in practice shortened to 8 to 9 months; although all males between ages of 18 and 44 are liable for service, in practice they are seldom called to duty after age 30; reserve obligation to age 35-60; 16 years of age for volunteers to the Home Guard, who serve 6-month duty tours (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1079,
+			"females age 16-49:": 1051
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 888761,
+			"females age 16-49:": 865697
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 32290,
+			"female:": 30777
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Norway asserts a territorial claim in Antarctica (Queen Maud Land and its continental shelf); Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission; Norway and Russia signed a comprehensive maritime boundary agreement in 2010"
 	}
 }

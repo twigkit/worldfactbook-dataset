@@ -7,15 +7,15 @@
 		"Location": "Northern Europe, bordering the Baltic Sea and the North Sea, on a peninsula north of Germany (Jutland); also includes several major islands (Sjaelland, Fyn, and Bornholm)",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 56,
-				"seconds": 0
+				"deg": 56,
+				"min": 0
 			},
 			"E": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 43094,
@@ -103,13 +103,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 5529,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 17.6,
@@ -136,32 +133,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.251,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.251,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.29,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.29,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.19,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.19,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.41,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.41,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -227,27 +212,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.74,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.74,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 5300,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -288,7 +261,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 7.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -302,12 +278,12 @@
 			"name:": "Copenhagen",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 55,
-					"seconds": 40
+					"deg": 55,
+					"min": 40
 				},
 				"E": {
-					"minutes": 12,
-					"seconds": 35
+					"deg": 12,
+					"min": 35
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -318,7 +294,6 @@
 		},
 		"Independence": "ca. 965 (unified and Christianized under HARALD I Gormson); 5 June 1849 (became a constitutional monarchy)",
 		"National holiday": "none designated; Constitution Day, 5 June (1849) is generally viewed as the National Day",
-		"Constitution": "5 June 1953; note - constitution allowed for a unicameral legislature and a female chief of state",
 		"Legal system": "civil law; judicial review of legislative acts",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -357,7 +332,10 @@
 		"Flag description": {
 			"Flag description": "red with a white cross that extends to the edges of the flag; the vertical part of the cross is shifted to the hoist side; the banner is referred to as the Dannebrog (Danish flag) and is one of the oldest national flags in the world; traditions as to the origin of the flag design vary, but the best known is a legend that the banner fell from the sky during an early-13th century battle; caught up by the Danish king before it ever touched the earth, this heavenly talisman inspired the royal army to victory; in actuality, the flag may derive from a crusade banner or ensign"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Der er et yndigt land\" (There is a Lovely Land); \"Kong Christian\" (King Christian)",
+			"lyrics/music:": "Adam Gottlob OEHLENSCHLAGER/Hans Ernst KROYER; Johannes EWALD/unknown"
+		}
 	},
 	"economy": {
 		"Economy - overview": "This thoroughly modern market economy features a high-tech agricultural sector, state-of-the-art industry with world-leading firms in pharmaceuticals, maritime shipping and renewable energy, and a high dependence on foreign trade. Denmark is a member of the European Union (EU); Danish legislation and regulations conform to EU standards on almost all issues. Danes enjoy among the highest standards of living in the world and the Danish economy is characterized by extensive government welfare measures and an equitable distribution of income. Denmark is a net exporter of food and energy and enjoys a comfortable balance of payments surplus, but depends on imports of raw materials for the manufacturing sector. Within the EU, Denmark is among the strongest supporters of trade liberalization. After a long consumption-driven upswing, Denmark's economy began slowing in 2007 with the end of a housing boom. Housing prices dropped markedly in 2008-09. The global financial crisis has exacerbated this cyclical slowdown through increased borrowing costs and lower export demand, consumer confidence, and investment. The global financial crises cut Danish GDP by 0.9% in 2008 and 5.2% in 2009. Historically low levels of unemployment rose sharply with the recession but remain below 5%, based on the national measure, about half the level of the EU; harmonized to OECD standards the unemployment rate was about 8% at the end of 2010. Denmark made a modest recovery in 2010 in part because of increased government spending. An impending decline in the ratio of workers to retirees will be a major long-term issue. Denmark maintained a healthy budget surplus for many years up to 2008, but the budget balance swung into deficit during 2009-10. Nonetheless, Denmark's fiscal position remains among the strongest in the EU. Despite previously meeting the criteria to join the European Economic and Monetary Union (EMU), so far Denmark has decided not to join, although the Danish krone remains pegged to the euro.",
@@ -371,11 +349,8 @@
 			"usd": 310800000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -397,10 +372,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 2820000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 2820000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.5,
@@ -416,11 +388,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 4.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.2,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 12.1,
@@ -436,16 +405,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 29,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 17.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -456,73 +419,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 46.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 1.75,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.75,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 148100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 148100000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 209000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 209000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 636500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 636500000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 186900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 186900000000
 		},
 		"Agriculture - products": "barley, wheat, potatoes, sugar beets; pork, dairy products; fish",
 		"Industries": "iron, steel, nonferrous metals, chemicals, food processing, machinery and transportation equipment, textiles and clothing, electronics, construction, furniture and other wood products, shipbuilding and refurbishment, windmills, pharmaceuticals, medical equipment",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 36400000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36400000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 34299999999.999996,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34299999999.999996,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 11360000000,
@@ -533,127 +466,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 262100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 262100,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 166500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 166500,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 268500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 268500,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 173100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 173100,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1060000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1060000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 8398000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8398000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 4410000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4410000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 3980000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3980000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 61300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 61300000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 14350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 14350000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 99370000000
-			},
-			"country comparison to the world:": ""
+			"usd": 99370000000
 		},
 		"Exports - commodities": "machinery and instruments, meat and meat products, dairy products, fish, pharmaceuticals, furniture, windmills",
 		"Exports - partners": "Germany 17.53%, Sweden 12.68%, UK 8.49%, US 6.05%, Norway 6.01%, Netherlands 4.84%, France 4.57% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 90830000000
-			},
-			"country comparison to the world:": ""
+			"usd": 90830000000
 		},
 		"Imports - commodities": "machinery and equipment, raw materials and semimanufactures for industry, chemicals, grain and foodstuffs, consumer goods",
 		"Imports - partners": "Germany 21.07%, Sweden 13.18%, Norway 7%, Netherlands 6.97%, China 6.22%, UK 5.53% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 559500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 559500000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 149600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 149600000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 199800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 199800000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Danish kroner (DKK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 2061999.9999999998,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 7406000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2061999.9999999998,
+		"Telephones - mobile cellular": 7406000,
 		"Telephone system": {
 			"general assessment:": "excellent telephone and telegraph services",
 			"domestic:": "buried and submarine cables and microwave radio relay form trunk network, multiple cellular mobile communications systems",
@@ -661,28 +540,22 @@
 		},
 		"Broadcast media": "strong public-sector television presence with state-owned Danmarks Radio (DR) operating 4 channels and publicly-owned TV2 operating roughly a half dozen channels; broadcasts of privately-owned stations are available via satellite and cable feed; DR operates 4 nationwide FM radio stations, 15 digital audio broadcasting stations, and about 15 web-based radio stations; approximately 250 commercial and community radio stations are operational (2007)",
 		"Internet country code": ".dk",
-		"Internet hosts": {
-			"Internet hosts": 4144999.9999999995,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 4144999.9999999995,
+		"Internet users": 4750000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 92,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 28,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 7,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 12
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 64,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 61
 		},
 		"Pipelines": "gas 2,858 km; oil 107 km (2010)",
 		"Railways": {
@@ -702,39 +575,39 @@
 			"paved:": "73,197 km (includes 1,111 km of expressways) (2008)"
 		},
 		"Waterways": {
-			"Waterways": {
-				"quantity": 400,
-				"unit": "km"
-			},
-			"country comparison to the world:": ""
+			"quantity": 400,
+			"unit": "km"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 347,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 4, cargo 56, carrier 1, chemical tanker 104, container 87, liquefied gas 4, passenger/cargo 40, petroleum tanker 38, refrigerated cargo 4, roll on/roll off 6, specialized tanker 3",
-			"foreign-owned:": null,
+			"foreign-owned:": 32,
 			"registered in other countries:": "592 (Antigua and Barbuda 20, Bahamas 59, Belgium 4, Brazil 3, Cyprus 6, Egypt 1, France 12, Georgia 1, Gibraltar 6, Hong Kong 41, Isle of Man 26, Italy 4, Jamaica 1, Liberia 4, Lithuania 8, Malaysia 1, Malta 41, Marshall Islands 7, Mexico 2, Netherlands 36, former Netherlands Antilles 1, Norway 11, Panama 46, Portugal 4, Saint Vincent and the Grenadines 19, Singapore 125, South Africa 1, Spain 2, Sweden 15, UK 46, Uruguay 1, US 34, Venezuela 1, unknown 3) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Aalborg, Aarhus, Copenhagen, Ensted, Esbjerg, Fredericia, Kalundborg"
 	},
 	"military": {
 		"Military branches": "Defense Command: Army Operational Command, Admiral Danish Fleet, Arctic Command, Tactical Air Command, Home Guard (2010)",
 		"Military service age and obligation": "18 years of age for compulsory and voluntary military service; conscripts serve an initial training period that varies from 4 to 12 months according to specialization; reservists are assigned to mobilization units following completion of their conscript service; women eligible to volunteer for military service (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1236,
+			"females age 16-49:": 1224
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1014,
+			"females age 16-49:": 1003
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 37913,
+			"female:": 35865
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm; Faroese continue to study proposals for full independence; sovereignty dispute with Canada over Hans Island in the Kennedy Channel between Ellesmere Island and Greenland; Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission"
 	}
 }

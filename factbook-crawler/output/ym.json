@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 15,
-				"seconds": 0
+				"deg": 15,
+				"min": 0
 			},
 			"E": {
-				"minutes": 48,
-				"seconds": 0
+				"deg": 48,
+				"min": 0
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 527968,
@@ -106,13 +106,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location on Bab el Mandeb, the strait linking the Red Sea and the Gulf of Aden, one of world's most active shipping lanes"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 24133,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 43,
@@ -139,32 +136,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.647,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.647,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 33.49,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33.49,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.02,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.02,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -230,23 +215,14 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.63,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.63,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 12000,
 		"HIV/AIDS - deaths": "NA",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
@@ -292,7 +268,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -307,12 +286,12 @@
 			"name:": "Sanaa",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 15,
-					"seconds": 21
+					"deg": 15,
+					"min": 21
 				},
 				"E": {
-					"minutes": 44,
-					"seconds": 12
+					"deg": 44,
+					"min": 12
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -320,7 +299,6 @@
 		"Administrative divisions": "21 governorates (muhafazat, singular - muhafazah); Abyan, 'Adan (Aden), Ad Dali', Al Bayda', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat al 'Asimah, 'Amran, Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib, Raymah, Sa'dah, San'a' (Sanaa), Shabwah, Ta'izz",
 		"Independence": "22 May 1990 (Republic of Yemen was established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the Marxist-dominated People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); note - previously North Yemen became independent in November 1918 (from the Ottoman Empire) and became a republic with the overthrow of the theocratic Imamate in 1962; South Yemen became independent on 30 November 1967 (from the UK)",
 		"National holiday": "Unification Day, 22 May (1990)",
-		"Constitution": "16 May 1991; amended 29 September 1994 and February 2001",
 		"Legal system": "mixed legal system of Islamic law, English common law, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -359,7 +337,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of red (top), white, and black; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white)"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"al-qumhuriyatu l-muttahida\" (United Republic)",
+			"lyrics/music:": "Abdullah Abdulwahab NOA'MAN/Ayyoab Tarish ABSI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Yemen is a low income country that is highly dependent on declining oil resources for revenue. Petroleum accounts for roughly 25% of GDP and 70% of government revenue. Yemen has tried to counter the effects of its declining oil resources by diversifying its economy through an economic reform program initiated in 2006 that is designed to bolster non-oil sectors of the economy and foreign investment. In October 2009, Yemen exported its first liquefied natural gas as part of this diversification effort. In January 2010, the international community established the Friends of Yemen group that aims to support Yemen's efforts towards economic and political reform, and in August 2010 the IMF approved a three-year $370 million program to further this effort. Despite these ambitious endeavors, Yemen continues to face difficult long term challenges, including declining water resources and a high population growth rate.",
@@ -373,11 +354,8 @@
 			"usd": 31270000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -399,19 +377,13 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 6832000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 6832000,
 		"Labor force - by occupation": {
 			"note:": "most people are employed in agriculture and herding; services, construction, industry, and commerce account for less than one-fourth of the labor force"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 35,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 45.2,
@@ -427,16 +399,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 37.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -447,68 +413,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 39.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39.1,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 12.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 18,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3551000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3551000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 9739000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9739000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 5297000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5297000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "grain, fruits, vegetables, pulses, qat, coffee, cotton; dairy products, livestock (sheep, goats, cattle, camels), poultry; fish",
 		"Industries": "crude oil production and petroleum refining; small-scale production of cotton textiles and leather goods; food processing; handicrafts; small aluminum products factory; cement; commercial ship repair; natural gas production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 5665000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5665000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 4133000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4133000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -519,119 +458,68 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 288400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 288400,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 155000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 155000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 274400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 274400,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 65860,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 65860,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 3160000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3160000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 454700,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 454700,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 454700,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 454700,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 478500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 478500000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.181 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.181 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 7462000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7462000000
 		},
 		"Exports - commodities": "crude oil, coffee, dried and salted fish, liquefied natural gas",
 		"Exports - partners": "China 36%, Thailand 17.63%, India 13.54%, South Africa 6.16%, Japan 5.49%, UAE 4.99% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 8350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8350000000
 		},
 		"Imports - commodities": "food and live animals, machinery and equipment, chemicals",
 		"Imports - partners": "China 13.98%, UAE 12.3%, India 8.63%, Saudi Arabia 5.8%, US 4.52%, Brazil 4.51%, Turkey 4.51%, Kuwait 4.33%, France 4.24% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 5744000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5744000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 7147000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7147000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Yemeni rials (YER) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 8313000.000000001,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 997000,
+		"Telephones - mobile cellular": 8313000.000000001,
 		"Telephone system": {
 			"general assessment:": "since unification in 1990, efforts have been made to create a national telecommunications network",
 			"domestic:": "the national network consists of microwave radio relay, cable, tropospheric scatter, GSM and CDMA mobile-cellular telephone systems; fixed-line and mobile-cellular teledensity remains low by regional standards",
@@ -639,30 +527,24 @@
 		},
 		"Broadcast media": "state-run TV with 2 stations; state-run radio with 2 national radio stations and 5 local stations; stations from Oman and Saudi Arabia can be accessed (2007)",
 		"Internet country code": ".ye",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 255,
+		"Internet users": 2349000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 55,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 17,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 9,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 38,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 6,
+			"914 to 1,523 m:": 14
 		},
 		"Pipelines": "gas 423 km; liquid petroleum gas 22 km; oil 1,367 km (2010)",
 		"Roadways": {
@@ -681,40 +563,39 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 6,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, chemical tanker 2, petroleum tanker 2, roll on/roll off 1",
 			"registered in other countries:": "14 (Moldova 1, Panama 4, Saint Kitts and Nevis 1, Sierra Leone 2, unknown 6) (2010)"
 		},
 		"Ports and terminals": "Aden, Al Hudaydah, Al Mukalla",
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports offshore waters in the Gulf of Aden are high risk for piracy; numerous vessels, including commercial shipping and pleasure craft, have been attacked and hijacked both at anchor and while underway; crew, passengers, and cargo are held for ransom; the presence of several naval task forces in the Gulf of Aden and additional anti-piracy measures on the part of ship operators reduced the incidence of piracy in that body of water by more than half in 2010"
 	},
 	"military": {
 		"Military branches": "Army, Navy (includes Marines), Yemen Air Force (Al Quwwat al Jawwiya al Jamahiriya al Yemeniya; includes Air Defense Force), Republican Guard (2010)",
 		"Military service age and obligation": "voluntary military service program authorized in 2001; 2-year service obligation (2006)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5652,
+			"females age 16-49:": 5387
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4056,
+			"females age 16-49:": 4116
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 287141,
+			"female:": 277612
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 6.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.6,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "a Coast Guard was established in 2002"
 	},
 	"issues": {
 		"Disputes - international": "Saudi Arabia has reinforced its concrete-filled security barrier along sections of the fully demarcated border with Yemen to stem illegal cross-border activities",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "91,587 (Somalia) (2007)"
+		}
 	}
 }

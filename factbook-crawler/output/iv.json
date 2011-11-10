@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the North Atlantic Ocean, between Ghana and Liberia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 8,
-				"seconds": 0
+				"deg": 8,
+				"min": 0
 			},
 			"W": {
-				"minutes": 5,
-				"seconds": 0
+				"deg": 5,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 322463,
@@ -102,11 +102,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "most of the inhabitants live along the sandy coastal region; apart from the capital area, the forested interior is sparsely populated"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 21504,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -135,30 +135,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.078,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.078,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 30.95,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30.95,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.16,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.16,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "0 migrant(s)/1,000 population NA (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "0 migrant(s)/1,000 population NA (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 51,
@@ -223,27 +211,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.92,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.92,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 450000,
+		"HIV/AIDS - deaths": 36000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -291,7 +267,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -307,12 +286,12 @@
 			"name:": "Yamoussoukro",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 6,
-					"seconds": 49
+					"deg": 6,
+					"min": 49
 				},
 				"W": {
-					"minutes": 5,
-					"seconds": 17
+					"deg": 5,
+					"min": 17
 				}
 			},
 			"time difference:": "UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
@@ -320,7 +299,6 @@
 		"Administrative divisions": "19 regions; Agneby, Bafing, Bas-Sassandra, Denguele, Dix-Huit Montagnes, Fromager, Haut-Sassandra, Lacs, Lagunes, Marahoue, Moyen-Cavally, Moyen-Comoe, N'zi-Comoe, Savanes, Sud-Bandama, Sud-Comoe, Vallee du Bandama, Worodougou, Zanzan",
 		"Independence": "7 August 1960 (from France)",
 		"National holiday": "Independence Day, 7 August (1960)",
-		"Constitution": "approved by referendum 23 July 2000",
 		"Legal system": "civil law system based on the French civil code; judicial review in the Constitutional Chamber of the Supreme Court",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction under Article 12(3)of the Rome Statute",
 		"Suffrage": "18 years of age; universal",
@@ -356,7 +334,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of orange (hoist side), white, and green; orange symbolizes the land (savannah) of the north and fertility, white stands for peace and unity, green represents the forests of the south and the hope for a bright future"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"L'Abidjanaise\" (Song of Abidjan)",
+			"lyrics/music:": "Mathieu EKRA, Joachim BONY, and Pierre Marie COTY/Pierre Marie COTY and Pierre Michel PANGO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Cote d'Ivoire is heavily dependent on agriculture and related activities, which engage roughly 68% of the population. Cote d'Ivoire is the world's largest producer and exporter of cocoa beans and a significant producer and exporter of coffee and palm oil. Consequently, the economy is highly sensitive to fluctuations in international prices for these products, and, to a lesser extent, in climatic conditions. Cocoa, oil, and coffee are the country's top export revenue earners, but the country is also producing gold. Since the end of the civil war in 2003, political turmoil has continued to damage the economy, resulting in the loss of foreign investment and slow economic growth. GDP grew by more than 2% in 2008 and around 4% per year in 2009-10. Per capita income has declined by 15% since 1999, but registered a slight improvement in 2009-10. Power cuts caused by a turbine failure in early 2010 slowed economic activity. Cote d'Ivoire in 2010 signed agreements to restructure its Paris Club bilateral, other bilateral, and London Club debt. Cote d'Ivoire's long term challenges include political instability and degrading infrastructure.",
@@ -370,11 +351,8 @@
 			"usd": 22820000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -396,10 +374,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 7617000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 7617000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 68,
@@ -424,16 +399,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 44.6,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 9.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -444,73 +413,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 63.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 63.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 5094000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5094000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 7653000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7653000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 5448000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5448000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 6141000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6141000000
 		},
 		"Agriculture - products": "coffee, cocoa beans, bananas, palm kernels, corn, rice, manioc (tapioca), sweet potatoes, sugar, cotton, rubber; timber",
 		"Industries": "foodstuffs, beverages; wood products, oil refining, truck and bus assembly, textiles, fertilizer, building materials, electricity, ship construction and repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 5275000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5275000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 3231000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3231000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 772000000,
@@ -521,122 +460,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 58950,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 58950,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 24000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 115700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 115700,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 80960,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 80960,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 250000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 250000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 1300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1300000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1300000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 28320000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28320000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 534000000
-			},
-			"country comparison to the world:": ""
+			"usd": 534000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 10250000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10250000000
 		},
 		"Exports - commodities": "cocoa, coffee, timber, petroleum, cotton, bananas, pineapples, palm oil, fish",
 		"Exports - partners": "Netherlands 13.92%, France 10.75%, US 7.79%, Germany 7.2%, Nigeria 6.99%, Ghana 5.56% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 7015000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7015000000
 		},
 		"Imports - commodities": "fuel, capital equipment, foodstuffs",
 		"Imports - partners": "Nigeria 20.75%, France 14.19%, China 7.18%, Thailand 5.09% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 3985000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3985000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 11600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11600000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Communaute Financiere Africaine francs (XOF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 13346000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 282100,
+		"Telephones - mobile cellular": 13346000,
 		"Telephone system": {
 			"general assessment:": "well developed by African standards; telecommunications sector privatized in late 1990s and operational fixed-lines have increased since that time with two fixed-line providers operating over open-wire lines, microwave radio relay, and fiber-optics; 90% digitalized",
 			"domestic:": "with multiple mobile-cellular service providers competing in the market, usage has increased sharply to roughly 65 per 100 persons",
@@ -644,28 +532,22 @@
 		},
 		"Broadcast media": "state-owned television operates 2 stations; no private terrestrial TV stations, but satellite TV subscription service is available; state-owned radio operates 2 stations; some private radio stations; transmissions of several international broadcasters are available (2007)",
 		"Internet country code": ".ci",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 9865,
+		"Internet users": 967300
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 27,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 7,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 20,
+			"1,524 to 2,437 m:": 6,
+			"914 to 1,523 m:": 11,
+			"under 914 m:": 3
 		},
 		"Pipelines": "condensate 86 km; gas 180 km; oil 92 km (2010)",
 		"Railways": {
@@ -691,11 +573,8 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "980 km (navigable rivers, canals, and numerous coastal lagoons) (2009)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "980 km (navigable rivers, canals, and numerous coastal lagoons) (2009)",
+		"Ports and terminals": "Abidjan, Espoir, San-Pedro"
 	},
 	"military": {
 		"Military branches": {
@@ -703,29 +582,32 @@
 		},
 		"Military service age and obligation": "18-25 years of age for compulsory and voluntary male and female military service; voluntary recruitment of former rebels into the new national army is restricted to ages 22-29 (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5247,
+			"females age 16-49:": 5047
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3360,
+			"females age 16-49:": 3196
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 247011,
+			"female:": 242958
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "despite the presence of over 9,000 UN forces (UNOCI) in Cote d'Ivoire since 2004, ethnic conflict still leaves displaced hundreds of thousands of Ivoirians in and out of the country as well as driven out migrants from neighboring states who worked in Ivorian cocoa plantations; the March 2007 peace deal between Ivorian rebels and the government brought significant numbers of rebels out of hiding in neighboring states",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 25615,
 			"IDPs:": "709,000 (2002 coup; most IDPs are in western regions) (2007)"
 		},
 		"Trafficking in persons": {
 			"Trafficking in persons": "Cote d'Ivoire is a source, transit, and destination country for women and children trafficked for forced labor and commercial sexual exploitation; trafficking within the country is more prevalent than international trafficking and the majority of victims are children; women and girls are trafficked from northern areas to southern cities for domestic servitude, restaurant labor, and sexual exploitation; boys are trafficked internally for agricultural and service labor and transnationally for forced labor in agriculture, mining, construction, and in the fishing industry; women and girls are trafficked to and from other West and Central African countries for domestic servitude and forced street vending",
 			"tier rating:": "Tier 2 Watch List - Cote d'Ivoire is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to eliminate trafficking in 2007, particularly with regard to its law enforcement efforts and protection of sex trafficking victims; in addition, Ivoirian law does not prohibit all forms of trafficking, and Cote d'Ivoire has not ratified the 2000 UN TIP Protocol (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "illicit producer of cannabis, mostly for local consumption; utility as a narcotic transshipment point to Europe reduced by ongoing political instability; while rampant corruption and inadequate supervision leave the banking system vulnerable to money laundering, the lack of a developed financial system limits the country's utility as a major money-laundering center (2008)"
 	}
 }

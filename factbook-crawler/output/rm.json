@@ -7,15 +7,15 @@
 		"Location": "Oceania, two archipelagic island chains of 29 atolls, each made up of many small islets, and five single islands in the North Pacific Ocean, about half way between Hawaii and Australia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 9,
-				"seconds": 0
+				"deg": 9,
+				"min": 0
 			},
 			"E": {
-				"minutes": 168,
-				"seconds": 0
+				"deg": 168,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 181,
@@ -85,13 +85,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the islands of Bikini and Enewetak are former US nuclear test sites; Kwajalein atoll, famous as a World War II battleground, surrounds the world's largest lagoon and is used as a US missile test range; the island city of Ebeye is the second largest settlement in the Marshall Islands, after the capital of Majuro, and one of the most densely populated locations in the Pacific"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 67182,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 38.2,
@@ -118,30 +115,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.954,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.954,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 29.11,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29.11,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.38,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.38,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-5.19 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-5.19 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 72,
@@ -206,11 +191,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.44,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.44,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -255,7 +237,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 12,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -270,12 +255,12 @@
 			"name:": "Majuro",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 7,
-					"seconds": 6
+					"deg": 7,
+					"min": 6
 				},
 				"E": {
-					"minutes": 171,
-					"seconds": 23
+					"deg": 171,
+					"min": 23
 				}
 			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
@@ -283,7 +268,6 @@
 		"Administrative divisions": "33 municipalities; Ailinginae, Ailinglaplap, Ailuk, Arno, Aur, Bikar, Bikini, Bokak, Ebon, Enewetak, Erikub, Jabat, Jaluit, Jemo, Kili, Kwajalein, Lae, Lib, Likiep, Majuro, Maloelap, Mejit, Mili, Namorik, Namu, Rongelap, Rongrik, Toke, Ujae, Ujelang, Utirik, Wotho, Wotje",
 		"Independence": "21 October 1986 (from the US-administered UN trusteeship)",
 		"National holiday": "Constitution Day, 1 May (1979)",
-		"Constitution": "1 May 1979",
 		"Legal system": "mixed legal system of US and English common law, customary law, and local statutes",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -318,7 +302,10 @@
 			"FAX:": "[692] 247-4012"
 		},
 		"Flag description": "blue with two stripes radiating from the lower hoist-side corner - orange (top) and white; a white star with four large rays and 20 small rays appears on the hoist side above the two stripes; blue represents the Pacific Ocean, the orange stripe signifies the Ralik Chain or sunset and courage, while the white stripe signifies the Ratak Chain or sunrise and peace; the star symbolizes the cross of Christianity, each of the 24 rays designates one of the electoral districts in the country and the four larger rays highlight the principal cultural centers of Majuro, Jaluit, Wotje, and Ebeye; the rising diagonal band can also be interpreted as representing the equator, with the star showing the archipelago's position just to the north",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Forever Marshall Islands\"",
+			"lyrics/music:": "Amata KABUA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "US Government assistance is the mainstay of this tiny island economy. The Marshall Islands received more than $1 billion in aid from the US from 1986-2002. Agricultural production, primarily subsistence, is concentrated on small farms; the most important commercial crops are coconuts and breadfruit. Small-scale industry is limited to handicrafts, tuna processing, and copra. The tourist industry, now a small source of foreign exchange employing less than 10% of the labor force, remains the best hope for future added income. The islands have few natural resources, and imports far exceed exports. Under the terms of the Amended Compact of Free Association, the US will provide millions of dollars per year to the Marshall Islands (RMI) through 2023, at which time a Trust Fund made up of US and RMI contributions will begin perpetual annual payouts. Government downsizing, drought, a drop in construction, the decline in tourism, and less income from the renewal of fishing vessel licenses have held GDP growth to an average of 1% over the past decade.",
@@ -331,15 +318,9 @@
 		"GDP (official exchange rate)": {
 			"usd": 161700000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-0.3% (2008 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-0.3% (2008 est.)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -355,10 +336,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 14680,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 21.4,
@@ -374,11 +352,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 36,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -394,46 +369,28 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 12.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.9,
+			"unit": "%"
 		},
 		"Agriculture - products": "coconuts, tomatoes, melons, taro, breadfruit, fruits; pigs, chickens",
 		"Industries": "copra, tuna processing, tourism, craft items (from seashells, wood, and pearls)",
 		"Industrial production growth rate": "NA%",
 		"Exports": {
-			"Exports": {
-				"usd": 19400000
-			},
-			"country comparison to the world:": ""
+			"usd": 19400000
 		},
 		"Exports - commodities": "copra cake, coconut oil, handicrafts, fish",
 		"Imports": {
-			"Imports": {
-				"usd": 79400000
-			},
-			"country comparison to the world:": ""
+			"usd": 79400000
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, fuels, beverages and tobacco",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 87000000
-			},
-			"country comparison to the world:": ""
+			"usd": 87000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 4400,
+		"Telephones - mobile cellular": 1000,
 		"Telephone system": {
 			"general assessment:": "digital switching equipment; modern services include telex, cellular, Internet, international calling, caller ID, and leased data circuits",
 			"domestic:": "Majuro Atoll and Ebeye and Kwajalein islands have regular, seven-digit, direct-dial telephones; other islands interconnected by high frequency radiotelephone (used mostly for government purposes) and mini-satellite telephones",
@@ -441,56 +398,50 @@
 		},
 		"Broadcast media": "no television broadcast station; a cable network is available on Majuro with programming via videotape replay and satellite relays; 4 radio broadcast stations; American Armed Forces Radio and Television Service (AFRTS) provides satellite radio and television service to Kwajalein Atoll (2009)",
 		"Internet country code": ".mh",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3,
+		"Internet users": 2200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 15,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 4,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 11,
+			"914 to 1,523 m:": 10,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": "2,028 km (includes 75 km of expressways) (2007)",
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1381,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 415, cargo 63, chemical tanker 314, combination ore/oil 2, container 206, liquefied gas 83, passenger 7, passenger/cargo 1, petroleum tanker 259, refrigerated cargo 14, roll on/roll off 9, vehicle carrier 7",
 			"foreign-owned:": "1,284 (Australia 1, Bermuda 34, Brazil 1, Canada 4, China 16, Croatia 12, Cyprus 38, Denmark 7, Egypt 1, Germany 247, Greece 358, Hong Kong 3, India 8, Iraq 2, Isle of Man 2, Israel 1, Italy 1, Japan 41, Jersey 9, Latvia 18, Malaysia 11, Mexico 4, Monaco 21, Netherlands 16, Norway 57, Pakistan 1, Qatar 24, Romania 2, Russia 6, Singapore 28, Slovenia 6, South Korea 25, Switzerland 12, Taiwan 2, Turkey 72, UAE 17, UK 7, Ukraine 1, US 168)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Enitwetak Island, Kwajalein, Majuro"
 	},
 	"military": {
 		"Military branches": "no regular military forces; under the 1983 Compact of Free Association, the US has full authority and responsibility for security and defense of the Marshall Islands; Marshall Islands Police (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 16446
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 13568,
+			"females age 16-49:": 13606
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 653,
+			"female:": 631
 		},
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "claims US territory of Wake Island"
 	}
 }

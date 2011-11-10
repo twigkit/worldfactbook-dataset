@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, at the southern tip of the continent of Africa",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 29,
-				"seconds": 0
+				"deg": 29,
+				"min": 0
 			},
 			"E": {
-				"minutes": 24,
-				"seconds": 0
+				"deg": 24,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1219,
@@ -106,11 +106,11 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "South Africa completely surrounds Lesotho and almost completely surrounds Swaziland"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 49004,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -138,23 +138,14 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.38% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.38% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.48,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.48,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 17.09,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.09,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
 			"Net migration rate": "-6.19 migrant(s)/1,000 population",
@@ -224,27 +215,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.3,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.3,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 17.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.8,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": 5600000,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 5600000,
+		"HIV/AIDS - deaths": 310000,
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -288,7 +267,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -302,12 +284,12 @@
 			"name:": "Pretoria (administrative capital)",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 25,
-					"seconds": 42
+					"deg": 25,
+					"min": 42
 				},
 				"E": {
-					"minutes": 28,
-					"seconds": 13
+					"deg": 28,
+					"min": 13
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -315,7 +297,6 @@
 		"Administrative divisions": "9 provinces; Eastern Cape, Free State, Gauteng, KwaZulu-Natal, Limpopo, Mpumalanga, Northern Cape, North-West, Western Cape",
 		"Independence": "31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 31 May 1961 (republic declared); 27 April 1994 (majority rule)",
 		"National holiday": "Freedom Day, 27 April (1994)",
-		"Constitution": "10 December 1996; note - certified by the Constitutional Court 4 December 1996; was signed by then President MANDELA 10 December 1996; and entered into effect 4 February 1997",
 		"Legal system": "mixed legal system of Roman-Dutch civil law, English common law, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -354,7 +335,10 @@
 		"Flag description": {
 			"Flag description": "two equal width horizontal bands of red (top) and blue separated by a central green band that splits into a horizontal Y, the arms of which end at the corners of the hoist side; the Y embraces a black isosceles triangle from which the arms are separated by narrow yellow bands; the red and blue bands are separated from the green band and its arms by narrow white stripes; the flag colors do not have any official symbolism, but the Y stands for the \"convergence of diverse elements within South African society, taking the road ahead in unity\"; black, yellow, and green are found on the flag of the African National Congress, while red, white, and blue are the colors in the flags of the Netherlands and the UK, whose settlers ruled South Africa during the colonial era"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"National Anthem of South Africa\"",
+			"lyrics/music:": "Enoch SONTONGA and Cornelius Jacob LANGENHOVEN/Enoch SONTONGA and Marthinus LOURENS de Villiers"
+		}
 	},
 	"economy": {
 		"Economy - overview": "South Africa is a middle-income, emerging market with an abundant supply of natural resources; well-developed financial, legal, communications, energy, and transport sectors; a stock exchange that is the 18th largest in the world; and modern infrastructure supporting a relatively efficient distribution of goods to major urban centers throughout the region. At the end of 2007, South Africa began to experience an electricity crisis. State power supplier Eskom encountered problems with aged plants, necessitating \"load-shedding\" cuts to residents and businesses in the major cities. Growth was robust from 2004 to 2007 as South Africa reaped the benefits of macroeconomic stability and a global commodities boom, but began to slow in the second half of 2007 due to the electricity crisis and the subsequent global financial crisis' impact on commodity prices and demand. GDP fell nearly 2% in 2009. Unemployment remains high and outdated infrastructure has constrained growth. Daunting economic problems remain from the apartheid era - especially poverty, lack of economic empowerment among the disadvantaged groups, and a shortage of public transportation. South Africa's former economic policy was fiscally conservative, focusing on controlling inflation, and attaining a budget surplus. The current government largely follows the same prudent policies, but must contend with the impact of the global crisis and is facing growing pressure from special interest groups to use state-owned enterprises to deliver basic services to low-income areas and to increase job growth. More than a quarter of South Africa's population currently receives social grants.",
@@ -368,11 +352,8 @@
 			"usd": 357300000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -394,10 +375,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": "17.32 million economically active (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Labor force": "17.32 million economically active (2010 est.)",
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 9,
@@ -413,11 +391,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 23.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.3,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 50,
@@ -433,16 +408,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 65,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -453,79 +422,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 33.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33.2,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.71,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.71,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 65870000000.00001
-			},
-			"country comparison to the world:": ""
+			"usd": 65870000000.00001
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 256200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 256200000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 328300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 328300000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 704800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 704800000000
 		},
 		"Agriculture - products": "corn, wheat, sugarcane, fruits, vegetables; beef, poultry, mutton, wool, dairy products",
 		"Industries": "mining (world's largest producer of platinum, gold, chromium), automobile assembly, metalworking, machinery, textiles, iron and steel, chemicals, fertilizer, foodstuffs, commercial ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 240300000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 240300000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 215100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 215100000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 14160000000,
@@ -536,130 +472,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 191000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 191000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 579000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 579000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 128500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 128500,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 490500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 490500,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 15000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 3250000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3250000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 6450000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6450000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 3200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 27160000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27160000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-16.51 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-16.51 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 76860000000
-			},
-			"country comparison to the world:": ""
+			"usd": 76860000000
 		},
 		"Exports - commodities": "gold, diamonds, platinum, other metals and minerals, machinery and equipment",
 		"Exports - partners": "China 10.34%, US 9.19%, Japan 7.59%, Germany 7.01%, UK 5.54%, Switzerland 4.72% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 77040000000
-			},
-			"country comparison to the world:": ""
+			"usd": 77040000000
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, petroleum products, scientific instruments, foodstuffs",
 		"Imports - partners": "China 17.21%, Germany 11.24%, US 7.38%, Saudi Arabia 4.87%, Japan 4.67%, Iran 3.95% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 45520000000
-			},
-			"country comparison to the world:": ""
+			"usd": 45520000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 80520000000
-			},
-			"country comparison to the world:": ""
+			"usd": 80520000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 83080000000
-			},
-			"country comparison to the world:": ""
+			"usd": 83080000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 53380000000
-			},
-			"country comparison to the world:": ""
+			"usd": 53380000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "rand (ZAR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 4320000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 46436000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 4320000,
+		"Telephones - mobile cellular": 46436000,
 		"Telephone system": {
 			"general assessment:": "the system is the best developed and most modern in Africa",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity roughly 105 telephones per 100 persons; consists of carrier-equipped open-wire lines, coaxial cables, microwave radio relay links, fiber-optic cable, radiotelephone communication stations, and wireless local loops; key centers are Bloemfontein, Cape Town, Durban, Johannesburg, Port Elizabeth, and Pretoria",
@@ -667,32 +546,26 @@
 		},
 		"Broadcast media": "the South African Broadcasting Corporation (SABC) operates 4 TV stations, 3 are free-to-air and 1 is pay TV; e.tv, a private station, is accessible to more than half the population; multiple subscription TV services provide a mix of local and international channels; well developed mix of public and private radio stations at the national, regional, and local levels; the SABC radio network, state-owned and controlled but nominally independent, operates 18 stations, one for each of the 11 official languages, 4 community stations, and 3 commercial stations; more than 100 community-based stations extend coverage to rural areas (2007)",
 		"Internet country code": ".za",
-		"Internet hosts": {
-			"Internet hosts": 3751000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3751000,
+		"Internet users": 4420000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 578,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 147,
+			"over 3,047 m:": 11,
+			"2,438 to 3,047 m:": 6,
+			"1,524 to 2,437 m:": 53,
+			"914 to 1,523 m:": 67
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 431,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 32,
+			"914 to 1,523 m:": 261,
+			"under 914 m:": 137
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "condensate 11 km; gas 908 km; oil 980 km; refined products 1,382 km (2010)",
 		"Railways": {
 			"total:": {
@@ -718,43 +591,40 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 4,
 			"country comparison to the world:": "",
 			"by type:": "container 1, petroleum tanker 3",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "11 (Mexico 1, NZ 1, Seychelles 1, Singapore 3, UK 5) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Cape Town, Durban, Port Elizabeth, Richards Bay, Saldanha Bay"
 	},
 	"military": {
 		"Military branches": "South African National Defense Force (SANDF): South African Army, South African Navy (SAN), South African Air Force (SAAF), Joint Operations Command, Military Intelligence, South African Military Health Services (2009)",
 		"Military service age and obligation": "18 years of age for voluntary military service; women are eligible to serve in noncombat roles; 2-year service obligation (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 13439,
+			"females age 16-49:": 12473
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7617,
+			"females age 16-49:": 6476
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 482122,
+			"female:": 485017
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 1.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.7,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "with the end of apartheid and the establishment of majority rule, former military, black homelands forces, and ex-opposition forces were integrated into the South African National Defense Force (SANDF); as of 2003 the integration process was considered complete"
 	},
 	"issues": {
 		"Disputes - international": "South Africa has placed military along the border to apprehend the thousands of Zimbabweans fleeing economic dysfunction and political persecution; as of January 2007, South Africa also supports large numbers of refugees and asylum seekers from the Democratic Republic of the Congo (33,000), Somalia (20,000), Burundi (6,500), and other states in Africa (26,000); managed dispute with Namibia over the location of the boundary in the Orange River; in 2006, Swazi king advocates resort to ICJ to claim parts of Mpumalanga and KwaZulu-Natal from South Africa",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "10,772 (Democratic Republic of Congo); 7,818 (Somalia); 5,759 (Angola) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment center for heroin, hashish, and cocaine, as well as a major cultivator of marijuana in its own right; cocaine and heroin consumption on the rise; world's largest market for illicit methaqualone, usually imported illegally from India through various east African countries, but increasingly producing its own synthetic drugs for domestic consumption; attractive venue for money launderers given the increasing level of organized criminal and narcotics activity in the region and the size of the South African economy"
 	}
 }

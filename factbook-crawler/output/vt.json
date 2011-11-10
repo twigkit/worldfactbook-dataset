@@ -7,15 +7,15 @@
 		"Location": "Southern Europe, an enclave of Rome (Italy)",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 41,
-				"seconds": 54
+				"deg": 41,
+				"min": 54
 			},
 			"E": {
-				"minutes": 12,
-				"seconds": 27
+				"deg": 12,
+				"min": 27
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 0.44,
@@ -72,19 +72,13 @@
 			"party to:": "Ozone Layer Protection",
 			"signed, but not ratified:": "Air Pollution, Environmental Modification"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; enclave in Rome, Italy; world's smallest state; beyond the territorial boundary of Vatican City, the Lateran Treaty of 1929 grants the Holy See extraterritorial authority over 23 sites in Rome and five outside of Rome, including the Pontifical Palace at Castel Gandolfo (the Pope's summer residence)"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 832,
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.004,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.004,
+			"unit": "%"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -106,7 +100,21 @@
 		"Ethnic groups": "Italians, Swiss, other",
 		"Religions": "Roman Catholic",
 		"Languages": "Italian, Latin, French, various other languages",
-		"Literacy": {}
+		"Literacy": {
+			"[definition:": "age 15 and over can read and write",
+			"total population:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"male:": {
+				"quantity": 100,
+				"unit": "%"
+			},
+			"female:": {
+				"quantity": 100,
+				"unit": "%"
+			}
+		}
 	},
 	"government": {
 		"Country name": {
@@ -120,12 +128,12 @@
 			"name:": "Vatican City",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 41,
-					"seconds": 54
+					"deg": 41,
+					"min": 54
 				},
 				"E": {
-					"minutes": 12,
-					"seconds": 27
+					"deg": 12,
+					"min": 27
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -134,7 +142,6 @@
 		"Administrative divisions": "none",
 		"Independence": "11 February 1929 (from Italy); note - the three treaties signed with Italy on 11 February 1929 acknowledged, among other things, the full sovereignty of the Vatican and established its territorial extent; however, the origin of the Papal States, which over centuries varied considerably in extent, may be traced back to 754",
 		"National holiday": "Election Day of Pope BENEDICT XVI, 19 April (2005)",
-		"Constitution": "Fundamental Law promulgated by Pope JOHN PAUL II 26 November 2000, effective 22 February 2001 (replaced the first Fundamental Law of 1929)",
 		"Legal system": "religious legal system based on canon (religious) law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "limited to cardinals less than 80 years old",
@@ -166,7 +173,10 @@
 			"FAX:": "[39] (06) 575-3411"
 		},
 		"Flag description": "two vertical bands of yellow (hoist side) and white with the arms of the Holy See, consisting of the crossed keys of Saint Peter surmounted by the three-tiered papal tiara, centered in the white band; the yellow color represents the pope's spiritual power, the white his worldly power",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Inno e Marcia Pontificale\" (Hymn and Pontifical March)",
+			"lyrics/music:": "Raffaello LAVAGNA/Charles-Francois GOUNOD"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Holy See is supported financially by a variety of sources, including investments, real estate income, and donations from Catholic individuals, dioceses, and institutions; these help fund the Roman Curia (Vatican bureaucracy), diplomatic missions, and media outlets. The separate Vatican City State budget includes the Vatican museums and post office and is supported financially by the sale of stamps, coins, medals, and tourist mementos; by fees for admission to museums; and by publications sales. Moreover, an annual collection taken up in dioceses and direct donations go to a non-budgetary fund known as Peter's Pence, which is used directly by the Pope for charity, disaster relief, and aid to churches in developing nations. The incomes and living standards of lay workers are comparable to those of counterparts who work in the city of Rome.",
@@ -188,13 +198,10 @@
 		"Electricity - production": "NA kWh",
 		"Electricity - consumption": "NA kWh",
 		"Electricity - imports": "NA kWh; note - electricity supplied by Italy; a small portion of electricity is self-produced from solar panels",
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 5120,
 		"Telephone system": {
 			"general assessment:": "automatic digital exchange",
 			"domestic:": "connected via fiber optic cable to Telecom Italia network",
@@ -202,14 +209,14 @@
 		},
 		"Broadcast media": "the Vatican Television Center (CTV) transmits live broadcasts of the Pope's Sunday and Wednesday audiences, as well as the Pope's public celebrations; CTV also produces documentaries; Vatican Radio is the Holy See's official broadcasting service broadcasting via shortwave, AM and FM frequencies, and via satellite and Internet connections (2008)",
 		"Internet country code": ".va",
-		"Internet hosts": {}
+		"Internet hosts": 68
 	},
 	"transport": {},
 	"military": {
 		"Military branches": "Pontifical Swiss Guard Corps (Corpo della Guardia Svizzera Pontificia) (2010)",
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of Italy; ceremonial and limited security duties performed by Pontifical Swiss Guard"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

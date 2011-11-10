@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island in the Caribbean Sea, north of Venezuela",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 12,
-				"seconds": 30
+				"deg": 12,
+				"min": 30
 			},
 			"W": {
-				"minutes": 69,
-				"seconds": 58
+				"deg": 69,
+				"min": 58
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 180,
@@ -70,11 +70,11 @@
 		"Irrigated land": "NA (2008)",
 		"Natural hazards": "hurricanes; lies outside the Caribbean hurricane belt and is rarely threatened",
 		"Environment - current issues": "NA",
-		"Geography - note": {}
+		"Geography - note": "a flat, riverless island renowned for its white sand beaches; its tropical climate is moderated by constant trade winds from the Atlantic Ocean; the temperature is almost constant at about 27 degrees Celsius (81 degrees Fahrenheit)"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 106113,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -103,32 +103,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.436,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.436,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 12.78,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.78,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.84,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.84,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 9.42,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.42,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -194,11 +182,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.84,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.84,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -240,7 +225,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -253,12 +241,12 @@
 			"name:": "Oranjestad",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 12,
-					"seconds": 31
+					"deg": 12,
+					"min": 31
 				},
 				"W": {
-					"minutes": 70,
-					"seconds": 2
+					"deg": 70,
+					"min": 2
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -266,7 +254,6 @@
 		"Administrative divisions": "none (part of the Kingdom of the Netherlands)",
 		"Independence": "none (part of the Kingdom of the Netherlands)",
 		"National holiday": "Flag Day, 18 March (1976)",
-		"Constitution": "1 January 1986",
 		"Legal system": "civil law system based on the Dutch civil code",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -290,31 +277,25 @@
 		"Diplomatic representation in the US": "none (represented by the Kingdom of the Netherlands); note - Mr. Henry BAARH, Minister Plenipotentiary for Aruba at the Embassy of the Kingdom of the Netherlands",
 		"Diplomatic representation from the US": "the US does not have an embassy in Aruba; the Consul General to Curacao is accredited to Aruba",
 		"Flag description": "blue, with two narrow, horizontal, yellow stripes across the lower portion and a red, four-pointed star outlined in white in the upper hoist-side corner; the star represents Aruba and its red soil and white beaches, its four points the four major languages (Papiamento, Dutch, Spanish, English) as well as the four points of a compass, to indicate that its inhabitants come from all over the world; the blue symbolizes Caribbean waters and skies; the stripes represent the island's two main \"industries\": the flow of tourists to the sun-drenched beaches and the flow of minerals from the earth",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Aruba Deshi Tera\" (Aruba Precious Country)",
+			"lyrics/music:": "Juan Chabaya 'Padu' LAMPE/Rufo Inocencio WEVER"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism is the mainstay of the small open Aruban economy, together with offshore banking. Oil refining and storage ended in 2009. The rapid growth of the tourism sector over the last decade has resulted in a substantial expansion of other activities. Over 1.5 million tourists per year visit Aruba with 75% of those from the US. Construction continues to boom with hotel capacity five times the 1985 level. Tourist arrivals rebounded strongly following a dip after the 11 September 2001 attacks. The government has made cutting the budget and trade deficits a high priority.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 2258000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2258000000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 2258000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -330,21 +311,15 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 41500,
 		"Labor force - by occupation": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.9,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -360,67 +335,40 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 46.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.77,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.77,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 865000000
-			},
-			"country comparison to the world:": ""
+			"usd": 865000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1771000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1771000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1333000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1333000000
 		},
 		"Agriculture - products": "aloes; livestock; fish",
 		"Industries": "tourism, transshipment facilities",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 850000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 850000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 790500000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 790500000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -431,74 +379,44 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 2235,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2235,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 8000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 231100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 231100,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 236400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 236400,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 1,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 1,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 1,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
 			"Exports": {
@@ -509,30 +427,18 @@
 		"Exports - commodities": "live animals and animal products, art and collectibles, machinery and electrical equipment, transport equipment",
 		"Exports - partners": "Panama 23.84%, former Netherlands Antilles 20.49%, Colombia 17.48%, Venezuela 12.61%, US 9.12%, Netherlands 7.5% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1054000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1054000000
 		},
 		"Imports - commodities": "machinery and electrical equipment, crude oil for refining and reexport, chemicals; foodstuffs",
 		"Imports - partners": "US 49.51%, Netherlands 16.15%, UK 4.94% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 478600000
-			},
-			"country comparison to the world:": ""
+			"usd": 478600000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Aruban guilders/florins (AWG) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 38300,
+		"Telephones - mobile cellular": 128000,
 		"Telephone system": {
 			"general assessment:": "modern fully automatic telecommunications system",
 			"domestic:": "increased competition through privatization; 3 mobile-cellular service providers are now licensed",
@@ -540,41 +446,35 @@
 		},
 		"Broadcast media": "2 commercial television stations; cable TV subscription service provides access to foreign channels; about 20 commercial radio stations broadcast (2007)",
 		"Internet country code": ".aw",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 25080,
+		"Internet users": 24000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 1,
+			"2,438 to 3,047 m:": 1
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Barcadera, Oranjestad, Sint Nicolaas"
 	},
 	"military": {
 		"Military branches": "no regular military forces (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 24891,
+			"females age 16-49:": 26202
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 20527,
+			"females age 16-49:": 21493
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 767,
+			"female:": 743
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the Kingdom of the Netherlands"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "transit point for US- and Europe-bound narcotics with some accompanying money-laundering activity; relatively high percentage of population consumes cocaine"
 	}
 }

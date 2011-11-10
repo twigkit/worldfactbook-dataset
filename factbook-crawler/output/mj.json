@@ -7,15 +7,15 @@
 		"Location": "Southeastern Europe, between the Adriatic Sea and Serbia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 42,
-				"seconds": 30
+				"deg": 42,
+				"min": 30
 			},
 			"E": {
-				"minutes": 19,
-				"seconds": 18
+				"deg": 19,
+				"min": 18
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 13812,
@@ -81,13 +81,10 @@
 			"party to:": "Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location along the Adriatic coast"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 661807,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.5,
@@ -113,23 +110,14 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.705% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.705% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.89,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.89,
+			"unit": "deaths/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -179,7 +167,7 @@
 		"Religions": "Orthodox 74.2%, Muslim 17.7%, Catholic 3.5%, other 0.6%, unspecified 3%, atheist 1% (2003 census)",
 		"Languages": "Serbian 63.6%, Montenegrin (official) 22%, Bosnian 5.5%, Albanian 5.3%, unspecified 3.7% (2003 census)",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -194,12 +182,12 @@
 			"name:": "Podgorica",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 42,
-					"seconds": 26
+					"deg": 42,
+					"min": 26
 				},
 				"E": {
-					"minutes": 19,
-					"seconds": 16
+					"deg": 19,
+					"min": 16
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -208,7 +196,6 @@
 		"Administrative divisions": "21 municipalities (opstine, singular - opstina); Andrijevica, Bar, Berane, Bijelo Polje, Budva, Cetinje, Danilovgrad, Herceg Novi, Kolasin, Kotor, Mojkovac, Niksic, Plav, Pljevlja, Pluzine, Podgorica, Rozaje, Savnik, Tivat, Ulcinj, Zabljak",
 		"Independence": "3 June 2006 (from Serbia and Montenegro)",
 		"National holiday": "National Day, 13 July (1878)",
-		"Constitution": "approved 19 October 2007 (by the Assembly)",
 		"Legal system": "civil law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -242,7 +229,10 @@
 			"FAX:": "[382] 81 241 358"
 		},
 		"Flag description": "a red field bordered by a narrow golden-yellow stripe with the Montenegrin coat of arms centered; the arms consist of a double-headed golden eagle - symbolizing the unity of church and state - surmounted by a crown; the eagle holds a golden scepter in its right claw and a blue orb in its left; the breast shield over the eagle shows a golden lion passant on a green field in front of a blue sky; the lion is symbol of episcopal authority and harks back to the three and a half centuries that Montenegro was ruled as a theocracy",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Oj, svijetla majska zoro\" (Oh, Bright Dawn of May)",
+			"lyrics/music:": "Sekula DRLJEVIC/unknown, arranged by Zarko MIKOVIC"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Montenegro severed its economy from federal control and from Serbia during the MILOSEVIC era and maintained its own central bank, adopted the Deutchmark, then the euro - rather than the Yugoslav dinar - as official currency, collected customs tariffs, and managed its own budget. The dissolution of the loose political union between Serbia and Montenegro in 2006 led to separate membership in several international financial institutions, such as the European Bank for Reconstruction and Development. In January 2007, Montenegro joined the World Bank and IMF. Montenegro is pursuing its own membership in the World Trade Organization and signed a Stabilization and Association agreement with the European Union in October 2007. The European Council granted candidate country status to Montenegro at the December 2010 session. Unemployment and regional disparities in development are key political and economic problems. Montenegro has privatized its large aluminum complex - the dominant industry - as well as most of its financial sector, and has begun to attract foreign direct investment in the tourism sector. The global financial crisis has had a significant negative impact on the economy, due to the ongoing credit crunch, a decline in the real estate sector, and a fall in aluminum exports.",
@@ -256,11 +246,8 @@
 			"usd": 4017000000.0000005
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -273,10 +260,7 @@
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 259100,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2,
@@ -292,91 +276,55 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 14.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.7,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 7,
 			"unit": "%"
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 30,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 30.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": "$NA",
 			"expenditures:": "$NA"
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 38,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 9.36,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.36,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 816800000
-			},
-			"country comparison to the world:": ""
+			"usd": 816800000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1406000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1406000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 3290000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3290000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 4288999999.9999995
-			},
-			"country comparison to the world:": ""
+			"usd": 4288999999.9999995
 		},
 		"Agriculture - products": "tobacco, potatoes, citrus fruits, olives, grapes; sheep",
 		"Industries": "steelmaking, aluminum, agricultural processing, consumer goods, tourism",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 2864000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2864000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 18600000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18600000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -384,84 +332,48 @@
 		},
 		"Electricity - imports": "NA kWh (2005)",
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 5000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 313.6,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 313.6,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 6093,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6093,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - consumption": "NA cu m",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.102 billion (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.102 billion (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 171300000
-			},
-			"country comparison to the world:": ""
+			"usd": 171300000
 		},
 		"Exports - partners": "Italy 29.52%, Greece 22.65%, Slovenia 11.83%, Hungary 8.96%, US 7.93% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 601700000
-			},
-			"country comparison to the world:": ""
+			"usd": 601700000
 		},
 		"Imports - partners": "Italy 17.54%, Slovenia 14.62%, Germany 10.5%, Austria 7.82%, China 7.82%, Russia 4.4%, Hungary 4.11%, Greece 4.11%, Netherlands 4% (2009)",
 		"Reserves of foreign exchange and gold": "$NA",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 650000000
-			},
-			"country comparison to the world:": ""
+			"usd": 650000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 366600,
+		"Telephones - mobile cellular": 752000,
 		"Telephone system": {
 			"general assessment:": "modern telecommunications system with access to European satellites",
 			"domestic:": "GSM mobile-cellular service, available through multiple providers with national coverage, is growing",
@@ -469,28 +381,22 @@
 		},
 		"Broadcast media": "state-owned national radio-TV broadcaster operates 2 terrestrial television networks, 1 satellite TV channel, and 2 radio networks; roughly a dozen privately-owned TV broadcasters operate networks nationally, regionally, and locally; in addition to the 2 state-owned national radio networks, roughly 50 privately-owned radio stations and networks broadcast (2007)",
 		"Internet country code": ".me",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 6247,
+		"Internet users": 280000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 5,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 1,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null
+			"total:": 1,
+			"914 to 1,523 m:": 1
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Railways": {
 			"total:": {
 				"quantity": 250,
@@ -515,24 +421,30 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 2,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, passenger/cargo 1",
 			"registered in other countries:": "5 (Bahamas 2, Honduras 2, Slovakia 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Bar"
 	},
 	"military": {
 		"Military branches": "Armed Forces of the Republic of Montenegro: Army of Montenegro (includes Montenegrin Navy (Mornarica Crne Gore, MCG)), Air Force (2011)",
 		"Military service age and obligation": "compulsory national military service abolished August 2006",
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 149159,
+			"females age 16-49:": 131823
 		},
-		"Manpower reaching militarily significant age annually": {}
+		"Manpower reaching militarily significant age annually": {
+			"male:": 3120,
+			"female:": 3677
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "7,000 (Kosovo); note - mostly ethnic Serbs and Roma who fled Kosovo in 1999",
+			"IDPs:": "16,192 (ethnic conflict in 1999 and riots in 2004) (2007)"
+		}
 	}
 }

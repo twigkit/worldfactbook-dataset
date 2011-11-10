@@ -7,15 +7,15 @@
 		"Location": "Middle East, island in the Mediterranean Sea, south of Turkey",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 35,
-				"seconds": 0
+				"deg": 35,
+				"min": 0
 			},
 			"E": {
-				"minutes": 33,
-				"seconds": 0
+				"deg": 33,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 9251,
@@ -99,13 +99,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 94, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the third largest island in the Mediterranean Sea (after Sicily and Sardinia)"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1120,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 16.2,
@@ -132,32 +129,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.617,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.617,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.41,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.41,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.45,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.45,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 11.21,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.21,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -223,23 +208,14 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.45,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.45,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2007 est.)",
 		"HIV/AIDS - deaths": "NA",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
@@ -279,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.1,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -295,12 +274,12 @@
 			"name:": "Nicosia (Lefkosia)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 35,
-					"seconds": 10
+					"deg": 35,
+					"min": 10
 				},
 				"E": {
-					"minutes": 33,
-					"seconds": 22
+					"deg": 33,
+					"min": 22
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -309,9 +288,6 @@
 		"Administrative divisions": "6 districts; Famagusta, Kyrenia, Larnaca, Limassol, Nicosia, Paphos; note - Turkish Cypriot area's administrative divisions include Kyrenia, all but a small part of Famagusta, and small parts of Nicosia (Lefkosia) and Larnaca",
 		"Independence": "16 August 1960 (from the UK); note - Turkish Cypriots proclaimed self-rule on 13 February 1975 and independence in 1983, but these proclamations are only recognized by Turkey",
 		"National holiday": "Independence Day, 1 October (1960); note - Turkish Cypriots celebrate 15 November (1983) as \"Independence Day\"",
-		"Constitution": {
-			"Constitution": "16 August 1960"
-		},
 		"Legal system": "mixed legal system of English common law and civil law with Greek Orthodox religious law influence",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -353,7 +329,10 @@
 		"Flag description": {
 			"Flag description": "white with a copper-colored silhouette of the island (the name Cyprus is derived from the Greek word for copper) above two green crossed olive branches in the center of the flag; the branches symbolize the hope for peace and reconciliation between the Greek and Turkish communities"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Ymnos eis tin Eleftherian\" (Hymn to Liberty)",
+			"lyrics/music:": "Dionysios SOLOMOS/Nikolaos MANTZAROS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The area of the Republic of Cyprus under government control has a market economy dominated by the service sector, which accounts for nearly four-fifths of GDP. Tourism, financial services, and real estate are the most important sectors. Erratic growth rates over the past decade reflect the economy's reliance on tourism, the profitability of which often fluctuates with political instability in the region and economic conditions in Western Europe. Nevertheless, the economy in the area under government control has grown at a rate well above the EU average since 2000. Cyprus joined the European Exchange Rate Mechanism (ERM2) in May 2005 and adopted the euro as its national currency on 1 January 2008. An aggressive austerity program in the preceding years, aimed at paving the way for the euro, helped turn a soaring fiscal deficit (6.3% in 2003) into a surplus of 1.2% in 2008, and reduced inflation to 4.7%. This prosperity came under pressure in 2009, as construction and tourism slowed in the face of reduced foreign demand triggered by the ongoing global financial crisis. Although Cyprus lagged behind its EU peers in showing signs of stress from the global crisis, the economy tipped into recession in 2009, contracting by 1.8%, and has been slow to bounce back since, posting an anemic growth rate of 0.6% in 2010. In addition, the budget deficit is on the rise and reached 5.7% of GDP in 2010, a violation of the EU's budget deficit criteria of no more than 3% of GDP. In response to the country's deteriorating finances, Nicosia is promising to implement measures to cut the cost of the state payroll, curb tax evasion, and revamp social benefits. However, it has been slow to act, lacking a consensus in parliament and among the social partners for its proposed measures.",
@@ -367,11 +346,8 @@
 			"usd": 23170000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -393,10 +369,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 400000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 8.5,
@@ -412,27 +385,18 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 5.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.6,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 29,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues::": {
@@ -443,18 +407,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 61.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 61.1,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -464,11 +422,8 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.49,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.49,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -477,45 +432,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 50500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 50500000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 101200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 101200000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 4993000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4993000000
 		},
 		"Agriculture - products": "citrus, vegetables, barley, grapes, olives, vegetables; poultry, pork, lamb; dairy, cheese",
 		"Industries": "tourism, food and beverage processing, cement and gypsum production, ship repair and refurbishment, textiles, light chemicals, metal products, wood, paper, stone, and clay products",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 4502000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4502000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 4277000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4277000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -526,121 +463,80 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 59000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 59000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 58930,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 58930,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.5 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.5 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 2232000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2232000000
 		},
 		"Exports - commodities": "citrus, potatoes, pharmaceuticals, cement, clothing",
 		"Exports - partners": "Greece 23.83%, Germany 9.2%, UK 8.78% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 7962000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7962000000
 		},
 		"Imports - commodities": "consumer goods, petroleum and lubricants, machinery, transport equipment",
 		"Imports - partners": "Greece 20.18%, Italy 10.67%, UK 8.95%, Germany 8.79%, Israel 6.99%, China 5.52%, Netherlands 4.85%, France 4.01% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": "$NA (31 December 2010 est.)",
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 29360000000
-			},
-			"country comparison to the world:": ""
+			"usd": 29360000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 16570000000
-			},
-			"country comparison to the world:": ""
+			"usd": 16570000000
 		},
 		"Exchange rates": "euros (EUR) per US dollar -",
-		"Economy of the area administered by Turkish Cypriots": {}
+		"Economy of the area administered by Turkish Cypriots": {
+			"Economy - overview:": "The Turkish Cypriot economy has roughly half the per capita GDP of the south, and economic growth tends to be volatile, given the north's relative isolation, bloated public sector, reliance on the Turkish lira, and small market size. The Turkish Cypriots are heavily dependent on transfers from the Turkish Government. Ankara directly finances about one-third of the Turkish Cypriot \"administration's\" budget. Aid from Turkey has exceeded $400 million annually in recent years. The Turkish Cypriot economy experienced a sharp slowdown in 2008-09 due to the global financial crisis and to its reliance on British and Turkish tourism, both of which declined due to the recession. The Turkish Cypriot budget deficit also deteriorated in 2009 due to decreased state revenues and increased government expenditures on public sector salaries and social services. The Turkish Cypriot economy declined about 0.6% in 2010.",
+			"GDP (purchasing power parity):": {
+				"usd": 1829000000
+			},
+			"GDP - real growth rate:": "-0.6% (2010 est.)",
+			"GDP - per capita:": {
+				"usd": null
+			},
+			"GDP - composition by sector:": "agriculture: 8.6%, industry: 22.5%, services: 69.1% (2006 est.)"
+		}
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "area under government control: 414,500 (2009); area administered by Turkish Cypriots: 86,228 (2002)",
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "area under government control: 977,500 (2009); area administered by Turkish Cypriots: 147,522 (2002)",
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": "area under government control: 414,500 (2009); area administered by Turkish Cypriots: 86,228 (2002)",
+		"Telephones - mobile cellular": "area under government control: 977,500 (2009); area administered by Turkish Cypriots: 147,522 (2002)",
 		"Telephone system": {
 			"general assessment:": "excellent in both area under government control and area administered by Turkish Cypriots",
 			"domestic:": "open-wire, fiber-optic cable, and microwave radio relay",
@@ -648,29 +544,23 @@
 		},
 		"Broadcast media": "mixture of state and privately-run television and radio services; the public broadcaster operates 2 TV channels and 4 radio stations; 6 private TV broadcasters, satellite and cable TV services including telecasts from Greece and Turkey, and a number of private radio stations are available; in areas administered by Turkish Cypriots, there are 2 public TV stations, 4 public radio stations, and privately-owned TV and radio broadcast stations (2007)",
 		"Internet country code": ".cy",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 187881,
+		"Internet users": 433900
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 15,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 13,
+			"2,438 to 3,047 m:": 6,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"under 914 m:": 2
 		},
-		"Heliports": null,
+		"Heliports": 9,
 		"Pipelines": "oil 0 km",
 		"Roadways": {
 			"total:": {
@@ -680,35 +570,35 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 839,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 267, cargo 173, chemical tanker 77, container 193, liquefied gas 10, passenger 3, passenger/cargo 24, petroleum tanker 69, refrigerated cargo 6, roll on/roll off 13, vehicle carrier 4",
 			"foreign-owned:": "637 (Austria 1, Belgium 2, Bermuda 1, Canada 2, Chile 1, China 6, Cuba 1, Denmark 6, Estonia 7, France 16, Germany 189, Greece 216, Hong Kong 2, India 2, Iran 10, Ireland 3, Israel 1, Italy 6, Japan 19, Monaco 1, Netherlands 24, Norway 12, Philippines 1, Poland 20, Portugal 2, Russia 47, Singapore 1, Slovenia 4, Spain 7, Sweden 5, Syria 1, UAE 5, UK 7, Ukraine 2, US 7)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "area under government control: Larnaca, Limassol, Vasilikos; area administered by Turkish Cypriots: Famagusta, Kyrenia"
 	},
 	"military": {
 		"Military branches": "Republic of Cyprus: Greek Cypriot National Guard (Ethniki Forea, EF; includes naval and air elements); northern Cyprus: Turkish Cypriot Security Force (GKK) (2009)",
 		"Military service age and obligation": "Greek Cypriot National Guard (GCNG): 18-50 years of age for compulsory military service for all Greek Cypriot males; 17 years of age for voluntary service; women may volunteer for a 3-year term; length of service is 25 months (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 327875,
+			"females age 16-49:": 287891
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 275842,
+			"females age 16-49:": 239862
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 8167,
+			"female:": 7398
 		},
-		"Military expenditures": {}
+		"Military expenditures": "3.8% of GDP (2005 est.) (U)"
 	},
 	"issues": {
 		"Disputes - international": "hostilities in 1974 divided the island into two de facto autonomous entities, the internationally recognized Cypriot Government and a Turkish-Cypriot community (north Cyprus); the 1,000-strong UN Peacekeeping Force in Cyprus (UNFICYP) has served in Cyprus since 1964 and maintains the buffer zone between north and south; on 1 May 2004, Cyprus entered the European Union still divided, with the EU's body of legislation and standards (acquis communitaire) suspended in the north; Turkey protests Cypriot Government creating hydrocarbon blocks and maritime boundary with Lebanon in March 2007",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "210,000 (both Turkish and Greek Cypriots; many displaced for over 30 years) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "minor transit point for heroin and hashish via air routes and container traffic to Europe, especially from Lebanon and Turkey; some cocaine transits as well; despite a strengthening of anti-money-laundering legislation, remains vulnerable to money laundering; reporting of suspicious transactions in offshore sector remains weak (2008)"
 	}
 }

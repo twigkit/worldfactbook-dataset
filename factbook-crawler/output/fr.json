@@ -14,52 +14,52 @@
 		"Geographic coordinates": {
 			"metropolitan France:": {
 				"N": {
-					"minutes": 46,
-					"seconds": 0
+					"deg": 46,
+					"min": 0
 				},
 				"E": {
-					"minutes": 2,
-					"seconds": 0
+					"deg": 2,
+					"min": 0
 				}
 			},
 			"French Guiana:": {
 				"N": {
-					"minutes": 4,
-					"seconds": 0
+					"deg": 4,
+					"min": 0
 				},
 				"W": {
-					"minutes": 53,
-					"seconds": 0
+					"deg": 53,
+					"min": 0
 				}
 			},
 			"Guadeloupe:": {
 				"N": {
-					"minutes": 16,
-					"seconds": 15
+					"deg": 16,
+					"min": 15
 				},
 				"W": {
-					"minutes": 61,
-					"seconds": 35
+					"deg": 61,
+					"min": 35
 				}
 			},
 			"Martinique:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 40
+					"deg": 14,
+					"min": 40
 				},
 				"W": {
-					"minutes": 61,
-					"seconds": 0
+					"deg": 61,
+					"min": 0
 				}
 			},
 			"Mayotte:": {
 				"S": {
-					"minutes": 12,
-					"seconds": 50
+					"deg": 12,
+					"min": 50
 				},
 				"E": {
-					"minutes": 45,
-					"seconds": 10
+					"deg": 45,
+					"min": 10
 				}
 			}
 		},
@@ -179,11 +179,11 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "largest West European nation"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 65312,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -212,32 +212,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 12.29,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.29,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.76,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.76,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.46,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.46,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -303,27 +291,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.96,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.96,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 150000,
+		"HIV/AIDS - deaths": 1700,
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -371,7 +347,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -385,12 +364,12 @@
 			"name:": "Paris",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 48,
-					"seconds": 52
+					"deg": 48,
+					"min": 52
 				},
 				"E": {
-					"minutes": 2,
-					"seconds": 20
+					"deg": 2,
+					"min": 20
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -404,9 +383,6 @@
 		},
 		"Independence": "no official date of independence: 486 (Frankish tribes unified under Merovingian kingship); 10 August 843 (Western Francia established from the division of the Carolingian Empire); 14 July 1789 (French monarchy overthrown); 22 September 1792 (First French Republic founded); 4 October 1958 (Fifth French Republic established)",
 		"National holiday": "Fete de la Federation, 14 July (1790); note - although often incorrectly referred to as Bastille Day, the celebration actually commemorates the holiday held on the first anniversary of the storming of the Bastille (on 14 July 1789) and the establishment of a constitutional monarchy; other names for the holiday are Fete Nationale (National Holiday) and quatorze juillet (14th of July)",
-		"Constitution": {
-			"Constitution": "adopted by referendum 28 September 1958; effective 4 October 1958; amended many times"
-		},
 		"Legal system": "civil law; review of administrative but not legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -449,7 +425,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of blue (hoist side), white, and red; known as the \"Le drapeau tricolore\" (French Tricolor), the origin of the flag dates to 1790 and the French Revolution when the \"ancient French color\" of white was combined with the blue and red colors of the Parisian militia; the official flag for all French dependent areas"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"La Marseillaise\" (The Song of Marseille)",
+			"lyrics/music:": "Claude-Joseph ROUGET de Lisle"
+		}
 	},
 	"economy": {
 		"Economy - overview": "France is in the midst of transition from a well-to-do modern economy that has featured extensive government ownership and intervention to one that relies more on market mechanisms. The government has partially or fully privatized many large companies, banks, and insurers, and has ceded stakes in such leading firms as Air France, France Telecom, Renault, and Thales. It maintains a strong presence in some sectors, particularly power, public transport, and defense industries. With at least 75 million foreign tourists per year, France is the most visited country in the world and maintains the third largest income in the world from tourism. France's leaders remain committed to a capitalism in which they maintain social equity by means of laws, tax policies, and social spending that reduce income disparity and the impact of free markets on public health and welfare. France has weathered the global economic crisis better than most other big EU economies because of the relative resilience of domestic consumer spending, a large public sector, and less exposure to the downturn in global demand than in some other countries. Nonetheless, France's real GDP contracted 2.5% in 2009, but recovered somewhat in 2010, while the unemployment rate increased from 7.4% in 2008 to 9.5% in 2010. The government pursuit of aggressive stimulus and investment measures in response to the economic crisis, however, are contributing to a deterioration of France's public finances. The government budget deficit rose sharply from 3.4% of GDP in 2008 to 7.8% of GDP in 2010, while France's public debt rose from 68% of GDP to 84% over the same period. Paris is terminating stimulus measures, eliminating tax credits, and freezing most government spending to bring the budget deficit under the 3% euro-zone ceiling by 2013, and to highlight France's commitment to fiscal discipline at a time of intense financial market scrutiny of euro zone debt levels. President SARKOZY - who secured passage of pension reform in 2010 - is expected to seek passage of some tax reforms in 2011, but he may delay additional, more costly, reforms until after the 2012 election.",
@@ -463,11 +442,8 @@
 			"usd": 2583000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -489,10 +465,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 28210000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 28210000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.8,
@@ -508,11 +481,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 9.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 6.2,
@@ -528,16 +498,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 32.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -548,18 +512,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 83.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 83.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -569,11 +527,8 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.46,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.46,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -582,45 +537,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2292000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2292000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 4319000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4319000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1972000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1972000000000
 		},
 		"Agriculture - products": "wheat, cereals, sugar beets, potatoes, wine grapes; beef, dairy products; fish",
 		"Industries": "machinery, chemicals, automobiles, metallurgy, aircraft, electronics; textiles, food processing; tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 535700000000.00006,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 535700000000.00006,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 447200000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 447200000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 58690000000,
@@ -631,125 +568,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 70820,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 70820,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1875000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1875000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 597800,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 597800,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 2386000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2386000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 101200000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 101200000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 877000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 877000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 44840000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44840000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 1931000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1931000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 45850000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 45850000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 7079000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7079000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-53.29 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-53.29 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 508700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 508700000000
 		},
 		"Exports - commodities": "machinery and transportation equipment, aircraft, plastics, chemicals, pharmaceutical products, iron and steel, beverages",
 		"Exports - partners": "Germany 15.88%, Italy 8.16%, Spain 7.8%, Belgium 7.44%, UK 7.04%, US 5.65%, Netherlands 3.99% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 577700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 577700000000
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, crude oil, aircraft, plastics, chemicals",
 		"Imports - partners": "Germany 19.41%, Belgium 11.61%, Italy 7.97%, Netherlands 7.15%, Spain 6.68%, UK 4.9%, US 4.72%, China 4.44% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4698000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4698000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 1207000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1207000000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1837000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1837000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "36.441 million; 35.5 million (metropolitan France) (2009)",
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": "60.95 million; 59.543 million (metropolitan France) (2009)",
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": "36.441 million; 35.5 million (metropolitan France) (2009)",
+		"Telephones - mobile cellular": "60.95 million; 59.543 million (metropolitan France) (2009)",
 		"Telephone system": {
 			"general assessment:": "highly developed",
 			"domestic:": "extensive cable and microwave radio relay; extensive use of fiber-optic cable; domestic satellite system",
@@ -758,30 +641,24 @@
 		},
 		"Broadcast media": "a mix of both publicly-operated and privately-owned TV stations; state-owned France Televisions operates 4 networks, one of which is a network of regional stations, and has part-interest in several thematic cable/satellite channels and international channels; a large number of privately-owned regional and local TV stations; multi-channel satellite and cable services provide a large number of channels; public broadcaster Radio France operates 7 national networks, a series of regional networks, and operates services for overseas territories and foreign audiences; Radio France Internationale (RFI), under the Ministry of Foreign Affairs, is a leading international broadcaster; a large number of commercial FM stations, with many of them consolidating into commercial networks (2008)",
 		"Internet country code": "metropolitan France - .fr; French Guiana - .gf; Guadeloupe - .gp; Martinique - .mq; Mayotte - .yt; Reunion - .re",
-		"Internet hosts": {
-			"Internet hosts": "15,182,001; 15.161 million (metropolitan France) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": "15,182,001; 15.161 million (metropolitan France) (2010)",
+		"Internet users": "45.262 million; 44.625 million (metropolitan France) (2009)"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 475,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 297,
+			"over 3,047 m:": 14,
+			"2,438 to 3,047 m:": 27,
+			"1,524 to 2,437 m:": 98,
+			"914 to 1,523 m:": 83
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 177,
+			"914 to 1,523 m:": 69,
+			"under 914 m:": 108
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 15,276 km; oil 2,939 km; refined products 5,084 km (2010)",
 		"Railways": {
 			"total:": {
@@ -804,33 +681,40 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 167,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 2, cargo 8, chemical tanker 36, container 25, liquefied gas 12, passenger 11, passenger/cargo 44, petroleum tanker 17, refrigerated cargo 1, roll on/roll off 11",
-			"foreign-owned:": null,
+			"foreign-owned:": 57,
 			"registered in other countries:": "146 (Bahamas 19, Belgium 5, Bermuda 1, Canada 1, Cyprus 16, Egypt 1, Hong Kong 3, Indonesia 1, Italy 2, Luxembourg 16, Malta 13, Morocco 4, Netherlands 2, Norway 4, Panama 13, Saint Vincent and the Grenadines 2, Singapore 3, South Korea 1, Taiwan 1, UK 33, US 4, unknown 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Calais, Dunkerque, Le Havre, Marseille, Nantes, Paris, Rouen"
 	},
 	"military": {
 		"Military branches": "Army (Armee de Terre; includes Marines, Foreign Legion, Army Light Aviation), Navy (Marine Nationale, includes Naval Air, Maritime Gendarmerie (Coast Guard)), Air Force (Armee de l'Air (AdlA), includes Air Defense), National Gendarmerie (2011)",
 		"Military service age and obligation": "17-40 years of age for male and female voluntary military service (with parental consent); no conscription; 12-month service obligation; women serve in noncombat posts (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 14563,
+			"females age 16-49:": 14238
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 12025,
+			"females age 16-49:": 11721
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 396050,
+			"female:": 377839
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Madagascar claims the French territories of Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island; Comoros claims Mayotte; Mauritius claims Tromelin Island; territorial dispute between Suriname and the French overseas department of French Guiana; France asserts a territorial claim in Antarctica (Adelie Land); France and Vanuatu claim Matthew and Hunter Islands, east of New Caledonia",
-		"Illicit drugs": {}
+		"Illicit drugs": {
+			"metropolitan France:": "transshipment point for South American cocaine, Southwest Asian heroin, and European synthetics",
+			"French Guiana:": "small amount of marijuana grown for local consumption; minor transshipment point to Europe",
+			"Martinique:": "transshipment point for cocaine and marijuana bound for the US and Europe"
+		}
 	}
 }

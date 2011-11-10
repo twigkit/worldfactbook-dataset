@@ -7,15 +7,15 @@
 		"Location": "Eastern Africa, west of Kenya, east of the Democratic Republic of the Congo",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 1,
-				"seconds": 0
+				"deg": 1,
+				"min": 0
 			},
 			"E": {
-				"minutes": 32,
-				"seconds": 0
+				"deg": 32,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 241038,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "Environmental Modification"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; fertile, well-watered country with many lakes and rivers"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 34612,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,30 +122,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.576,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.576,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 47.49,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 47.49,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.71,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.71,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.02 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.02 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 13,
@@ -210,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 6.69,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.69,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": 1200000,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 1200000,
+		"HIV/AIDS - deaths": 64000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -276,7 +252,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +267,12 @@
 			"name:": "Kampala",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 0,
-					"seconds": 19
+					"deg": 0,
+					"min": 19
 				},
 				"E": {
-					"minutes": 32,
-					"seconds": 25
+					"deg": 32,
+					"min": 25
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -301,9 +280,6 @@
 		"Administrative divisions": "80 districts; Abim, Adjumani, Amolatar, Amuria, Amuru, Apac, Arua, Budaka, Bududa, Bugiri, Bukedea, Bukwa, Bulisa, Bundibugyo, Bushenyi, Busia, Butaleja, Dokolo, Gulu, Hoima, Ibanda, Iganga, Isingiro, Jinja, Kaabong, Kabale, Kabarole, Kaberamaido, Kalangala, Kaliro, Kampala, Kamuli, Kamwenge, Kanungu, Kapchorwa, Kasese, Katakwi, Kayunga, Kibale, Kiboga, Kiruhara, Kisoro, Kitgum, Koboko, Kotido, Kumi, Kyenjojo, Lira, Luwero, Lyantonde, Manafwa, Maracha, Masaka, Masindi, Mayuge, Mbale, Mbarara, Mityana, Moroto, Moyo, Mpigi, Mubende, Mukono, Nakapiripirit, Nakaseke, Nakasongola, Namutumba, Nebbi, Ntungamo, Oyam, Pader, Pallisa, Rakai, Rukungiri, Sembabule, Sironko, Soroti, Tororo, Wakiso, Yumbe",
 		"Independence": "9 October 1962 (from the UK)",
 		"National holiday": "Independence Day, 9 October (1962)",
-		"Constitution": {
-			"Constitution": "8 October 1995; amended 2005"
-		},
 		"Legal system": "mixed legal system of English common law and customary law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -339,7 +315,10 @@
 			"FAX:": "[256] (414) 258-794"
 		},
 		"Flag description": "six equal horizontal bands of black (top), yellow, red, black, yellow, and red; a white disk is superimposed at the center and depicts a red-crested crane (the national symbol) facing the hoist side; black symbolizes the African people, yellow sunshine and vitality, red African brotherhood; the crane was the military badge of Ugandan soldiers under the UK",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Oh Uganda, Land of Beauty!\"",
+			"lyrics/music:": "George Wilberforce KAKOMOA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Uganda has substantial natural resources, including fertile soils, regular rainfall, small deposits of copper, gold, and other minerals, and recently discovered oil. Uganda has never conducted a national minerals survey. Agriculture is the most important sector of the economy, employing over 80% of the work force. Coffee accounts for the bulk of export revenues. Since 1986, the government - with the support of foreign countries and international agencies - has acted to rehabilitate and stabilize the economy by undertaking currency reform, raising producer prices on export crops, increasing prices of petroleum products, and improving civil service wages. The policy changes are especially aimed at dampening inflation and boosting production and export earnings. Since 1990 economic reforms ushered in an era of solid economic growth based on continued investment in infrastructure, improved incentives for production and exports, lower inflation, better domestic security, and the return of exiled Indian-Ugandan entrepreneurs. Uganda has received about $2 billion in multilateral and bilateral debt relief. In 2007 Uganda received $10 million for a Millennium Challenge Account Threshold Program. The global economic downturn has hurt Uganda's exports; however, Uganda's GDP growth is still relatively strong due to past reforms and sound management of the downturn. Oil revenues and taxes will become a larger source of government funding as oil comes on line in the next few years. Instability in southern Sudan is the biggest risk for the Ugandan economy in 2011 because Uganda's main export partner is Sudan, and Uganda is a key destination for Sudanese refugees.",
@@ -353,11 +332,8 @@
 			"usd": 17010000000.000002
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +355,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 15510000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 15510000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 82,
@@ -412,16 +385,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 45.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 20.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -432,77 +399,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 20.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 9.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 9.65,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.65,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 20.96,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.96,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1997000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1997000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 3905000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3905000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1882000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1882000000
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2010)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2010)",
 		"Agriculture - products": "coffee, tea, cotton, tobacco, cassava (tapioca), potatoes, corn, millet, pulses, cut flowers; beef, goat meat, milk, poultry",
 		"Industries": "sugar, brewing, tobacco, cotton textiles; cement, steel production",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 2256000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2256000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2068000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2068000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 30000000,
@@ -513,92 +447,53 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 13000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 13090,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13090,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1500000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1500000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-784 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-784 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 2941000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2941000000
 		},
 		"Exports - commodities": "coffee, fish and fish products, tea, cotton, flowers, horticultural products; gold",
 		"Exports - partners": "Sudan 13.47%, Kenya 8.98%, UAE 7.52%, Rwanda 7.5%, Switzerland 7.42%, Democratic Republic of the Congo 6.85%, Netherlands 5.67%, Belgium 5.66%, Germany 5.18%, Italy 4.33% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 4474000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4474000000
 		},
 		"Imports - commodities": "capital equipment, vehicles, petroleum, medical supplies; cereals",
 		"Imports - partners": "Kenya 13.9%, India 12.79%, UAE 11.16%, China 8.91%, South Africa 5.08%, France 4.6%, Japan 4.37%, US 4.07% (2009)",
@@ -609,24 +504,15 @@
 			"country comparison to the world:": ""
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2888000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2888000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Ugandan shillings (UGX) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 9384000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 233500,
+		"Telephones - mobile cellular": 9384000,
 		"Telephone system": {
 			"general assessment:": "mobile cellular service is increasing rapidly, but the number of main lines is still deficient; work underway on a national backbone information and communications technology infrastructure; international phone networks and Internet connectivity provided through satellite and VSAT applications",
 			"domestic:": "intercity traffic by wire, microwave radio relay, and radiotelephone communication stations, fixed and mobile-cellular systems for short-range traffic; mobile-cellular teledensity about 30 per 100 persons in 2009",
@@ -634,29 +520,23 @@
 		},
 		"Broadcast media": "public broadcaster, Uganda Broadcasting Corporation (UBC), operates radio and television networks; Uganda first began licensing privately-owned stations in the 1990s; by 2007 there were nearly 150 radio and 35 TV stations, mostly based in and around Kampala; transmissions of multiple international broadcasters are available in Kampala (2007)",
 		"Internet country code": ".ug",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 19927,
+		"Internet users": 3200000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 46,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 5,
+			"over 3,047 m:": 3,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 41,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 7,
+			"914 to 1,523 m:": 25,
+			"under 914 m:": 8
 		},
 		"Railways": {
 			"total:": {
@@ -682,27 +562,33 @@
 			}
 		},
 		"Waterways": "(there are no long navigable stretches of river in Uganda; parts of the Albert Nile that flow out of Lake Albert in the northwestern part of the country are navigable; several lakes including Lake Victoria and Lake Kyoga have substantial traffic; Lake Albert is navigable along a 200-km stretch from its northern tip to its southern shores) (2009)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Entebbe, Jinja, Port Bell"
 	},
 	"military": {
 		"Military branches": "Uganda Peoples Defense Force (UPDF): Army (includes Marine Unit), Uganda Air Force (2010)",
 		"Military service age and obligation": "18-26 years of age for voluntary military duty; 18-30 years of age for professionals; no conscription; 9-year service obligation; the government has stated that recruitment under 18 years of age could occur with proper consent and that \"no person under the apparent age of 13 years shall be enrolled in the armed forces\"; Ugandan citizenship and secondary education required (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7249,
+			"females age 16-49:": 7025
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4313,
+			"females age 16-49:": 4200
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 423923,
+			"female:": 420236
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Uganda is subject to armed fighting among hostile ethnic groups, rebels, armed gangs, militias, and various government forces that extend across its borders; Uganda hosts 209,860 Sudanese, 27,560 Congolese, and 19,710 Rwandan refugees, while Ugandan refugees as well as members of the Lord's Resistance Army (LRA) seek shelter in southern Sudan and the Democratic Republic of the Congo's Garamba National Park; LRA forces have also attacked Kenyan villages across the border",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "215,700 (Sudan); 28,880 (Democratic Republic of Congo); 24,900 (Rwanda)",
+			"IDPs:": "1.27 million (350,000 IDPs returned in 2006 following ongoing peace talks between the Lord's Resistance Army (LRA) and the Government of Uganda) (2007)"
+		}
 	}
 }

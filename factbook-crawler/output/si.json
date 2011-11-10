@@ -7,15 +7,15 @@
 		"Location": "south Central Europe, Julian Alps between Austria and Croatia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 46,
-				"seconds": 7
+				"deg": 46,
+				"min": 7
 			},
 			"E": {
-				"minutes": 14,
-				"seconds": 49
+				"deg": 14,
+				"min": 49
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 20273,
@@ -79,7 +79,7 @@
 			"unit": "cu km"
 		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": null,
+			"total:": 0.9,
 			"per capita:": {
 				"quantity": 457,
 				"unit": "cu m/yr"
@@ -91,13 +91,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 94, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "despite its small size, this eastern Alpine country controls some of Europe's major transit routes"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 2000,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.4,
@@ -123,30 +120,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.163% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.163% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 8.85,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.85,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.87,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.87,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.39,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.39,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -212,24 +197,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.3,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.3,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2009 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -268,7 +241,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -283,12 +259,12 @@
 			"name:": "Ljubljana",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 46,
-					"seconds": 3
+					"deg": 46,
+					"min": 3
 				},
 				"E": {
-					"minutes": 14,
-					"seconds": 31
+					"deg": 14,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -301,7 +277,6 @@
 		},
 		"Independence": "25 June 1991 (from Yugoslavia)",
 		"National holiday": "Independence Day/Statehood Day, 25 June (1991)",
-		"Constitution": "adopted 23 December 1991, amended 14 July 1997 and 25 July 2000",
 		"Legal system": "civil law system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age, 16 if employed; universal",
@@ -339,7 +314,10 @@
 			"FAX:": "[386] (1) 200-5555"
 		},
 		"Flag description": "three equal horizontal bands of white (top), blue, and red, derive from the medieval coat of arms of the Duchy of Carniola; the Slovenian seal (a shield with the image of Triglav, Slovenia's highest peak, in white against a blue background at the center; beneath it are two wavy blue lines depicting seas and rivers, and above it are three six-pointed stars arranged in an inverted triangle, which are taken from the coat of arms of the Counts of Celje, the great Slovene dynastic house of the late 14th and early 15th centuries) appears in the upper hoist side of the flag centered on the white and blue bands",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Zdravljica\" (A Toast)",
+			"lyrics/music:": "France PRESEREN/Stanko PREMRL"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Slovenia became the first 2004 European Union entrant to adopt the euro (on 1 January 2007) and has become a model of economic success and stability for the region. With the highest per capita GDP in Central Europe, Slovenia has excellent infrastructure, a well-educated work force, and a strategic location between the Balkans and Western Europe. Privatization has lagged since 2002, and the economy has one of highest levels of state control in the EU. Structural reforms to improve the business environment have allowed for somewhat greater foreign participation in Slovenia's economy and have helped to lower unemployment. In March 2004, Slovenia became the first transition country to graduate from borrower status to donor partner at the World Bank. In December 2007, Slovenia was invited to begin the accession process for joining the OECD. Despite its economic success, foreign direct investment (FDI) in Slovenia has lagged behind the region average, and taxes remain relatively high. Furthermore, the labor market is often seen as inflexible, and legacy industries are losing sales to more competitive firms in China, India, and elsewhere. In 2009, the world recession caused the economy to contract - through falling exports and industrial production - by more than 8%, and unemployment to rise above 9%. Although growth resumed in 2010, the unemployment rate continued to rise, topping 10%.",
@@ -353,11 +331,8 @@
 			"usd": 47850000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +354,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 930000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.2,
@@ -398,11 +370,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 10.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.6,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 12.3,
@@ -418,16 +387,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 28.4,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -438,18 +401,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 35.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -459,11 +416,8 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.47,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.47,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -472,45 +426,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 24030000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24030000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 52670000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52670000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 11770000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11770000000
 		},
 		"Agriculture - products": "potatoes, hops, wheat, sugar beets, corn, grapes; cattle, sheep, poultry",
 		"Industries": "ferrous metallurgy and aluminum products, lead and zinc smelting; electronics (including military electronics), trucks, automobiles, electric power equipment, wood products, textiles, chemicals, machine tools",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 13000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13000000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 14700000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14700000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 7820000000,
@@ -521,125 +457,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 5,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 60000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 57000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 57000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1050000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1050000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 1050000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1050000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-598 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-598 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 24970000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24970000000
 		},
 		"Exports - commodities": "manufactured goods, machinery and transport equipment, chemicals, food",
 		"Exports - partners": "Germany 19.36%, Italy 11.31%, Croatia 7.75%, Austria 7.42%, France 7.35% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 25960000000
-			},
-			"country comparison to the world:": ""
+			"usd": 25960000000
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, chemicals, fuels and lubricants, food",
 		"Imports - partners": "Germany 16.46%, Italy 15.89%, Austria 11.81%, France 4.98%, Croatia 4.32% (2009)",
 		"Reserves of foreign exchange and gold": "$NA (31 December 2010 est.)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 51570000000
-			},
-			"country comparison to the world:": ""
+			"usd": 51570000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 15730000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15730000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 9001000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9001000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1034000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2100000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1034000,
+		"Telephones - mobile cellular": 2100000,
 		"Telephone system": {
 			"general assessment:": "well-developed telecommunications infrastructure",
 			"domestic:": "combined fixed-line and mobile-cellular teledensity roughly 150 telephones per 100 persons",
@@ -647,29 +529,23 @@
 		},
 		"Broadcast media": "public television broadcaster, Radiotelevizija Slovenija (RTV), operates a system of national and regional TV stations; 35 domestic commercial television stations operating nationally, regionally, and locally; about 60% of households are connected to multi-channel cable TV systems; public radio broadcaster operates 3 national and 4 regional stations; more than 75 regional and local commercial and non-commercial radio stations (2007)",
 		"Internet country code": ".si",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 137494,
+		"Internet users": 1298000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 16,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 7,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 9,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 3,
+			"under 914 m:": 5
 		},
 		"Pipelines": "gas 840 km; oil 5 km (2010)",
 		"Railways": {
@@ -693,27 +569,30 @@
 			"registered in other countries:": "25 (Antigua and Barbuda 1, Bahamas 1, Cyprus 4, Liberia 5, Malta 4, Marshall Islands 6, Saint Vincent and the Grenadines 2, Singapore 1, Slovakia 1) (2010)",
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Koper"
 	},
 	"military": {
 		"Military branches": "Slovenian Army (includes air and naval forces)",
 		"Military service age and obligation": "18-25 years of age for voluntary military service; conscription abolished in 2003 (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 477592,
+			"females age 16-49:": 464301
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 392075,
+			"females age 16-49:": 380077
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 9818,
+			"female:": 9395
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "the Croatia-Slovenia land and maritime boundary agreement, which would have ceded most of Piran Bay and maritime access to Slovenia and several villages to Croatia, remains unratified and in dispute; Slovenia also protests Croatia's 2003 claim to an exclusive economic zone in the Adriatic; as a member state that forms part of the EU's external border, Slovenia has implemented the strict Schengen border rules to curb illegal migration and commerce through southeastern Europe while encouraging close cross-border ties with Croatia",
-		"Illicit drugs": {}
+		"Illicit drugs": "minor transit point for cocaine and Southwest Asian heroin bound for Western Europe, and for precursor chemicals"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Western South America, bordering the South Pacific Ocean, between Chile and Ecuador",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			},
 			"W": {
-				"minutes": 76,
-				"seconds": 0
+				"deg": 76,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1285,
@@ -101,13 +101,10 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "shares control of Lago Titicaca, world's highest navigable lake, with Bolivia; a remote slope of Nevado Mismi, a 5,316 m peak, is the ultimate source of the Amazon River"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 29248,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 28.5,
@@ -134,30 +131,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.029,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.029,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.41,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.41,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.93,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.93,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.2 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.2 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 77,
@@ -222,27 +207,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.32,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.32,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 75000,
+		"HIV/AIDS - deaths": 5000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial, hepatitis A, and typhoid fever",
@@ -287,7 +260,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.7,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -301,12 +277,12 @@
 			"name:": "Lima",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 12,
-					"seconds": 3
+					"deg": 12,
+					"min": 3
 				},
 				"W": {
-					"minutes": 77,
-					"seconds": 3
+					"deg": 77,
+					"min": 3
 				}
 			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
@@ -314,7 +290,6 @@
 		"Administrative divisions": "25 regions (regiones, singular - region) and 1 province* (provincia); Amazonas, Ancash, Apurimac, Arequipa, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin, La Libertad, Lambayeque, Lima, Lima*, Loreto, Madre de Dios, Moquegua, Pasco, Piura, Puno, San Martin, Tacna, Tumbes, Ucayali",
 		"Independence": "28 July 1821 (from Spain)",
 		"National holiday": "Independence Day, 28 July (1821)",
-		"Constitution": "29 December 1993",
 		"Legal system": "civil law system",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory until the age of 70",
@@ -348,7 +323,10 @@
 			"FAX:": "[51] (1) 618-2397"
 		},
 		"Flag description": "three equal, vertical bands of red (hoist side), white, and red with the coat of arms centered in the white band; the coat of arms features a shield bearing a vicuna (representing fauna), a cinchona tree (the source of quinine, signifying flora), and a yellow cornucopia spilling out coins (denoting mineral wealth); red recalls blood shed for independence, white symbolizes peace",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional del Peru\" (National Anthem of Peru)",
+			"lyrics/music:": "Jose DE LA TORRE Ugarte/Jose Bernardo ALZEDO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Peru's economy reflects its varied geography - an arid coastal region, the Andes further inland, and tropical lands bordering Colombia and Brazil. Abundant mineral resources are found in the mountainous areas, and Peru's coastal waters provide excellent fishing grounds. The Peruvian economy grew by almost 6% per year during the period 2002-06, with a stable exchange rate and low inflation. Growth jumped to nearly 9% per year in 2007 and 10% in 2008, driven by private investment and government spending, but then fell to less than 1% in 2009 in the face of the world recession, a sharp fall of private investment, and a substantial increase in counter-cyclical government spending. Growth resumed in 2010 at above 8%, due partly to a leap in private investment and continued high government spending. Peru's rapid expansion coupled with the government's conditional cash transfers and other programs have helped to reduce the national poverty rate by over 19 percentage points since 2002, though underemployment remains high. Inflation in 2010 was within the Central Bank's 1%-3% target range. Despite Peru's strong macroeconomic performance, dependence on minerals and metals exports and imported foodstuffs subjects the economy to fluctuations in world prices. Poor infrastructure hinders the spread of growth to Peru's non-coastal areas. A growing number of Peruvians are sharing in the benefits of growth but despite President GARCIA's pursuit of sound trade and macroeconomic policies, inequality persists. Nevertheless, he remains committed to Peru's free-trade path. Since 2006, Peru has signed trade deals with the United States, Canada, Singapore, China, Korea, and Japan, concluded negotiations with the European Free Trade Association (EFTA) and Chile, and begun trade talks with Central American countries and others. The US-Peru Trade Promotion Agreement (PTPA) entered into force 1 February 2009, opening the way to greater trade and investment between the two economies. Rising world prices of foodstuffs and fuel, coupled with strong domestic demand, are immediate concerns for 2011. Peru has continued to attract foreign investment. However, political disputes may impede development of some projects related to natural resource extraction.",
@@ -362,11 +340,8 @@
 			"usd": 152800000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -388,10 +363,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 15680000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 15680000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 0.7,
@@ -427,16 +399,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 49.6,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 25.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -447,11 +413,8 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 23.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.9,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
 			"Inflation rate (consumer prices)": {
@@ -461,11 +424,8 @@
 			"country comparison to the world:": ""
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.8,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
 			"Commercial bank prime lending rate": {
@@ -475,51 +435,30 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 15260000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15260000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 55200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 55200000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 44200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 44200000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 160900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 160900000000
 		},
 		"Agriculture - products": "asparagus, coffee, cocoa, cotton, sugarcane, rice, potatoes, corn, plantains, grapes, oranges, pineapples, guavas, bananas, apples, lemons, pears, coca, tomatoes, mango, barley, medicinal plants, palm oil, marigold, onion, wheat, dry beans; poultry, beef, dairy products; fish; guinea pigs",
 		"Industries": "mining and refining of minerals; steel, metal fabrication; petroleum extraction and refining, natural gas and natural gas liquefaction; fishing and fish processing, cement, textiles, clothing, food processing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 8.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 35790000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35790000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 31740000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 31740000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 111900000,
@@ -530,53 +469,32 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 157200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 157200,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 150700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 150700,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 68640,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 68640,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 88080,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 88080,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1163000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1163000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 7240000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7240000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 3650000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3650000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
 			"Natural gas - exports": {
@@ -586,44 +504,26 @@
 			"country comparison to the world:": ""
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 453000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 453000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.315 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.315 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 35560000000
-			},
-			"country comparison to the world:": ""
+			"usd": 35560000000
 		},
 		"Exports - commodities": "copper, gold, zinc, tin, iron ore, molybdenum; crude petroleum and petroleum products, natural gas; coffee, potatoes, asparagus and other vegetables, fruit, apparel and textiles, fishmeal",
 		"Exports - partners": "US 16.98%, China 15.3%, Switzerland 14.85%, Canada 8.67%, Japan 5.14% (2010 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 25740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 25740000000
 		},
 		"Imports - commodities": "petroleum and petroleum products, chemicals, plastics, machinery, vehicles, color TV sets, power shovels, front-end loaders, telephones and telecommunication equipment, iron and steel, wheat, corn, soybean products, paper, cotton, vaccines and medicines",
 		"Imports - partners": "US 19.72%, China 15%, Brazil 7.77%, Ecuador 4.9%, Chile 4.6%, Colombia 4.4%, Japan 4.1% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 44110000000
-			},
-			"country comparison to the world:": ""
+			"usd": 44110000000
 		},
 		"Debt - external": {
 			"Debt - external": {
@@ -632,28 +532,16 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 43470000000
-			},
-			"country comparison to the world:": ""
+			"usd": 43470000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 2120000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2120000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "nuevo sol (PEN) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 2965000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 24700000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2965000,
+		"Telephones - mobile cellular": 24700000,
 		"Telephone system": {
 			"general assessment:": "adequate for most requirements; nationwide microwave radio relay system and a domestic satellite system with 12 earth stations",
 			"domestic:": "fixed-line teledensity is only about 10 per 100 persons; mobile-cellular teledensity, spurred by competition among multiple providers, has increased to roughly 85 telephones per 100 persons",
@@ -661,32 +549,26 @@
 		},
 		"Broadcast media": "10 major television networks of which only one, Television Nacional de Peru, is state-owned; multi-channel cable TV services are available; in excess of 2,000 radio stations including a substantial number of indigenous language stations (2010)",
 		"Internet country code": ".pe",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 268225,
+		"Internet users": 9158000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 211,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 58,
+			"over 3,047 m:": 6,
+			"2,438 to 3,047 m:": 20,
+			"1,524 to 2,437 m:": 15,
+			"914 to 1,523 m:": 13
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 153,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 24,
+			"914 to 1,523 m:": 40,
+			"under 914 m:": 87
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "extra heavy crude 533 km; gas 1,526 km; liquid petroleum gas 679 km; oil 1,033 km; refined products 15 km (2010)",
 		"Railways": {
 			"total:": {
@@ -704,41 +586,41 @@
 			},
 			"country comparison to the world:": ""
 		},
-		"Waterways": {
-			"Waterways": "8,808 km (there are 8,600 km of navigable tributaries on the Amazon system and 208 km on Lago Titicaca) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "8,808 km (there are 8,600 km of navigable tributaries on the Amazon system and 208 km on Lago Titicaca) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 13,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, chemical tanker 2, liquefied gas 2, petroleum tanker 7",
-			"foreign-owned:": null,
+			"foreign-owned:": 1,
 			"registered in other countries:": "13 (Belize 1, Panama 12) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Callao, Iquitos, Matarani, Paita, Pucallpa, Yurimaguas; note - Iquitos, Pucallpa, and Yurimaguas are on the upper reaches of the Amazon and its tributaries"
 	},
 	"military": {
 		"Military branches": "Army of Peru (Ejercito Peruano), Navy of Peru (Marina de Guerra del Peru, MGP (includes naval air, naval infantry, and Coast Guard)), Air Force of Peru (Fuerza Aerea del Peru, FAP) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary male and female military service; no conscription (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7385,
+			"females age 16-49:": 7727
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5788,
+			"females age 16-49:": 6565
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 304094,
+			"female:": 298447
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Chile and Ecuador rejected Peru's November 2005 unilateral legislation to shift the axis of their joint treaty-defined maritime boundaries along the parallels of latitude to equidistance lines which favor Peru; organized illegal narcotics operations in Colombia have penetrated Peru's shared border; Peru rejects Bolivia's claim to restore maritime access through a sovereign corridor through Chile along the Peruvian border",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "60,000-150,000 (civil war from 1980-2000; most IDPs are indigenous peasants in Andean and Amazonian regions) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "until 1996 the world's largest coca leaf producer, Peru is now the world's second largest producer of coca leaf, though it lags far behind Colombia; cultivation of coca in Peru declined to 36,000 hectares in 2007; second largest producer of cocaine, estimated at 210 metric tons of potential pure cocaine in 2007; finished cocaine is shipped out from Pacific ports to the international drug market; increasing amounts of base and finished cocaine, however, are being moved to Brazil, Chile, Argentina, and Bolivia for use in the Southern Cone or transshipment to Europe and Africa; increasing domestic drug consumption"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Caribbean, islands between the Caribbean Sea and North Atlantic Ocean, east of Puerto Rico",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 18,
-				"seconds": 15
+				"deg": 18,
+				"min": 15
 			},
 			"W": {
-				"minutes": 63,
-				"seconds": 10
+				"deg": 63,
+				"min": 10
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 91,
@@ -71,13 +71,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "frequent hurricanes and other tropical storms (July to October)",
 		"Environment - current issues": "supplies of potable water sometimes cannot meet increasing demand largely because of poor distribution system",
-		"Geography - note": {}
+		"Geography - note": "the most northerly of the Leeward Islands in the Lesser Antilles"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 15094,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 24,
@@ -104,32 +101,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.173,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.173,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 12.92,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.92,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.44,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.44,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 13.25,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.25,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -195,11 +180,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.75,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.75,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -242,7 +224,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -255,12 +240,12 @@
 			"name:": "The Valley",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 18,
-					"seconds": 13
+					"deg": 18,
+					"min": 13
 				},
 				"W": {
-					"minutes": 63,
-					"seconds": 3
+					"deg": 63,
+					"min": 3
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -268,7 +253,6 @@
 		"Administrative divisions": "none (overseas territory of the UK)",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "Anguilla Day, 30 May (1967)",
-		"Constitution": "Anguilla Constitutional Order 1 April 1982; amended 1990",
 		"Legal system": "common law based on the English model",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -289,28 +273,22 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK)",
 		"Flag description": "blue, with the flag of the UK in the upper hoist-side quadrant and the Anguillan coat of arms centered in the outer half of the flag; the coat of arms depicts three orange dolphins in an interlocking circular design on a white background with a turquoise-blue field below; the white in the background represents peace; the blue base symbolizes the surrounding sea, as well as faith, youth, and hope; the three dolphins stand for endurance, unity, and strength",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"God Bless Anguilla\"",
+			"lyrics/music:": "Alex RICHARDSON"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Anguilla has few natural resources, and the economy depends heavily on luxury tourism, offshore banking, lobster fishing, and remittances from emigrants. Increased activity in the tourism industry has spurred the growth of the construction sector contributing to economic growth. Anguillan officials have put substantial effort into developing the offshore financial sector, which is small but growing. In the medium term, prospects for the economy will depend largely on the tourism sector and, therefore, on revived income growth in the industrialized nations as well as on favorable weather conditions.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 175400000
-			},
-			"country comparison to the world:": ""
+			"usd": 175400000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 175400000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-8.5% (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-8.5% (2009 est.)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -326,10 +304,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 6049,
 		"Labor force - by occupation": {
 			"agriculture/fishing/forestry/mining:": {
 				"quantity": 4,
@@ -353,11 +328,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 23,
@@ -376,83 +348,47 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.3,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 9.27,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.27,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 19030000
-			},
-			"country comparison to the world:": ""
+			"usd": 19030000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 458900000
-			},
-			"country comparison to the world:": ""
+			"usd": 458900000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 529600000
-			},
-			"country comparison to the world:": ""
+			"usd": 529600000
 		},
 		"Agriculture - products": "small quantities of tobacco, vegetables; cattle raising",
 		"Industries": "tourism, boat building, offshore financial services",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": "NA kWh",
-		"Current account balance": {
-			"Current account balance": "$-42.87 million (2003 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-42.87 million (2003 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 119500000
-			},
-			"country comparison to the world:": ""
+			"usd": 119500000
 		},
 		"Exports - commodities": "lobster, fish, livestock, salt, concrete blocks, rum",
 		"Imports": {
-			"Imports": {
-				"usd": 143000000
-			},
-			"country comparison to the world:": ""
+			"usd": 143000000
 		},
 		"Imports - commodities": "fuels, foodstuffs, manufactures, chemicals, trucks, textiles",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 8800000
-			},
-			"country comparison to the world:": ""
+			"usd": 8800000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "East Caribbean dollars (XCD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 6300,
+		"Telephones - mobile cellular": 27000,
 		"Telephone system": {
 			"general assessment:": "modern internal telephone system",
 			"domestic:": "fixed-line teledensity is roughly 40 per 100 persons; mobile-cellular teledensity is roughly 180 per 100 persons",
@@ -460,24 +396,18 @@
 		},
 		"Broadcast media": "1 private television station; multi-channel cable TV subscription services are available; about 10 radio stations, one of which is government-owned (2007)",
 		"Internet country code": ".ai",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 271,
+		"Internet users": 3700
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 3,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"under 914 m:": 2
 		},
 		"Roadways": {
 			"total:": {
@@ -494,24 +424,24 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Blowing Point, Road Bay"
 	},
 	"military": {
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 3641
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3009,
+			"females age 16-49:": 3397
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 111,
+			"female:": 113
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for South American narcotics destined for the US and Europe"
 	}
 }

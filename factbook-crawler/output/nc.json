@@ -7,15 +7,15 @@
 		"Location": "Oceania, islands in the South Pacific Ocean, east of Australia",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 21,
-				"seconds": 30
+				"deg": 21,
+				"min": 30
 			},
 			"E": {
-				"minutes": 165,
-				"seconds": 30
+				"deg": 165,
+				"min": 30
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 18575,
@@ -80,13 +80,10 @@
 			"volcanism:": "Matthew and Hunter Islands are historically active"
 		},
 		"Environment - current issues": "erosion caused by mining exploitation and forest fires",
-		"Geography - note": {}
+		"Geography - note": "consists of the main island of New Caledonia (one of the largest in the Pacific Ocean), the archipelago of Iles Loyaute, and numerous small, sparsely populated islands and atolls"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 256275,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 24.9,
@@ -113,25 +110,16 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.524,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.524,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.28,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.28,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.28,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.28,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
 			"Net migration rate": {
@@ -204,11 +192,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.07,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.07,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -236,7 +221,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -251,12 +236,12 @@
 			"name:": "Noumea",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 22,
-					"seconds": 16
+					"deg": 22,
+					"min": 16
 				},
 				"E": {
-					"minutes": 166,
-					"seconds": 27
+					"deg": 166,
+					"min": 27
 				}
 			},
 			"time difference:": "UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
@@ -264,7 +249,6 @@
 		"Administrative divisions": "none (overseas territory of France); there are no first-order administrative divisions as defined by the US Government, but there are 3 provinces named Province des Iles, Province Nord, and Province Sud",
 		"Independence": "none (overseas territory of France); note - a referendum on independence was held in 1998 but did not pass; a new referendum is scheduled to take place between 2014 and 2019",
 		"National holiday": "Bastille Day, 14 July (1789); note - the local holiday is New Caledonia Day, 24 September (1853)",
-		"Constitution": "4 October 1958 (French Constitution)",
 		"Legal system": "civil law system based on French law; the 1988 Matignon Accords grant substantial autonomy to the islands",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -284,25 +268,22 @@
 		"Diplomatic representation in the US": "none (overseas territory of France)",
 		"Diplomatic representation from the US": "none (overseas territory of France)",
 		"Flag description": "the flag of France is used",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Soyons unis, devenons freres\" (Let Us Be United, Let Us Become Brothers)",
+			"lyrics/music:": "Chorale Melodia (a local choir)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "New Caledonia has about 25% of the world's known nickel resources. Only a small amount of the land is suitable for cultivation, and food accounts for about 20% of imports. In addition to nickel, substantial financial support from France - equal to more than 15% of GDP - and tourism are keys to the health of the economy. Substantial new investment in the nickel industry, combined with the recovery of global nickel prices, brightens the economic outlook for the next several years.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 3158000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3158000000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 3300000000
 		},
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -318,10 +299,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 102600,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 20,
@@ -337,11 +315,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 17.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.1,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -357,28 +332,19 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.4,
+			"unit": "%"
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "vegetables; beef, deer, other livestock products; fish",
 		"Industries": "nickel mining and smelting",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 1825000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1825000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 1697000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1697000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -389,108 +355,63 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 13000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 645.3,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 645.3,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 14430,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14430,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 1341000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1341000000
 		},
 		"Exports - commodities": "ferronickels, nickel ore, fish",
 		"Exports - partners": "France 27.52%, Japan 14.87%, Taiwan 10.51%, Spain 7.74%, China 7.31%, Australia 6.64%, Belgium 5.13%, South Korea 4.2% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1998000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1998000000
 		},
 		"Imports - commodities": "machinery and equipment, fuels, chemicals, foodstuffs",
 		"Imports - partners": "France 39.89%, Singapore 14.12%, Australia 12.5%, NZ 5.42% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 79000000
-			},
-			"country comparison to the world:": ""
+			"usd": 79000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Comptoirs Francais du Pacifique francs (XPF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 65900,
+		"Telephones - mobile cellular": 208000,
 		"Telephone system": {
 			"general assessment:": "a submarine cable network connection between New Caledonia and Australia, completed in 2007, is expected to significantly increase network capacity and improve high-speed connectivity and access to international networks",
 			"domestic:": "combined fixed-line and mobile-cellular telephone subscribership exceeds 100 per 100 persons",
@@ -498,29 +419,23 @@
 		},
 		"Broadcast media": "the publicly-owned French Overseas Network (RFO), which operates in France's overseas departments and territories, broadcasts over the RFO Nouvelle Caledonie television and radio stations; a small number of privately-owned radio stations also broadcast (2008)",
 		"Internet country code": ".nc",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 22456,
+		"Internet users": 85000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 25,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 12,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 10,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 13,
+			"914 to 1,523 m:": 5,
+			"under 914 m:": 8
 		},
-		"Heliports": null,
+		"Heliports": 8,
 		"Roadways": {
 			"total:": {
 				"quantity": 5622,
@@ -532,25 +447,25 @@
 			"registered in other countries:": "3 (France 3) (2010)",
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Noumea"
 	},
 	"military": {
 		"Military branches": "no regular military forces; French military, police, and gendarmerie (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 68219
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 56233,
+			"females age 16-49:": 55983
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 2272,
+			"female:": 2167
 		},
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Matthew and Hunter Islands east of New Caledonia claimed by France and Vanuatu"
 	}
 }

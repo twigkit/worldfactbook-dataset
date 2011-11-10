@@ -7,15 +7,15 @@
 		"Location": "Southeastern Asia, islands between Malaysia and Indonesia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 1,
-				"seconds": 22
+				"deg": 1,
+				"min": 22
 			},
 			"E": {
-				"minutes": 103,
-				"seconds": 48
+				"deg": 103,
+				"min": 48
 			}
 		},
-		"Map references": "Southeast Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 697,
@@ -89,13 +89,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "focal point for Southeast Asian sea routes"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 4740,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.8,
@@ -122,32 +119,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.817,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.817,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 8.5,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.5,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.95,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.95,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 4.63,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.63,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -212,27 +197,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.11,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.11,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 3400,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -258,7 +231,10 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -272,12 +248,12 @@
 			"name:": "Singapore",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 1,
-					"seconds": 17
+					"deg": 1,
+					"min": 17
 				},
 				"E": {
-					"minutes": 103,
-					"seconds": 51
+					"deg": 103,
+					"min": 51
 				}
 			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
@@ -285,7 +261,6 @@
 		"Administrative divisions": "none",
 		"Independence": "9 August 1965 (from Malaysian Federation)",
 		"National holiday": "National Day, 9 August (1965)",
-		"Constitution": "3 June 1959; amended 1965 (based on pre-independence State of Singapore Constitution)",
 		"Legal system": "English common law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "21 years of age; universal and compulsory",
@@ -321,7 +296,10 @@
 			"FAX:": "[65] 6476-9340"
 		},
 		"Flag description": "two equal horizontal bands of red (top) and white; near the hoist side of the red band, there is a vertical, white crescent (closed portion is toward the hoist side) partially enclosing five white five-pointed stars arranged in a circle; red denotes brotherhood and equality; white signifies purity and virtue; the waxing crescent moon symbolizes a young nation on the ascendancy; the five stars represent the nation's ideals of democracy, peace, progress, justice, and equality",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Majulah Singapura\" (Onward Singapore)",
+			"lyrics/music:": "ZUBIR Said"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Singapore has a highly developed and successful free-market economy. It enjoys a remarkably open and corruption-free environment, stable prices, and a per capita GDP higher than that of most developed countries. The economy depends heavily on exports, particularly in consumer electronics, information technology products, pharmaceuticals, and on a growing financial services sector. Real GDP growth averaged 7.1% between 2004 and 2007. The economy contracted 1.3% in 2009 as a result of the global financial crisis, but rebounded nearly 14.7% in 2010, on the strength of renewed exports. Over the longer term, the government hopes to establish a new growth path that focuses on raising productivity, which has sunk to 1% growth per year in the last decade. Singapore has attracted major investments in pharmaceuticals and medical technology production and will continue efforts to establish Singapore as Southeast Asia's financial and high-tech hub.",
@@ -335,11 +313,8 @@
 			"usd": 222700000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 14.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -361,10 +336,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3075000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3075000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 0.1,
@@ -380,11 +352,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -397,16 +366,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 47.8,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 27.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -424,65 +387,38 @@
 			"country comparison to the world:": ""
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.38,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.38,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 82130000000
-			},
-			"country comparison to the world:": ""
+			"usd": 82130000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 294400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 294400000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 199800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 199800000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 620500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 620500000000
 		},
 		"Agriculture - products": "orchids, vegetables; poultry, eggs; fish, ornamental fish",
 		"Industries": "electronics, chemicals, financial services, oil drilling equipment, petroleum refining, rubber processing and rubber products, processed food and beverages, ship repair, offshore platform construction, life sciences, entrepot trade",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 39210000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39210000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 37110000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 37110000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -493,132 +429,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 10910,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10910,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 927000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 927000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1374000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1374000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1195000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1195000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 8340999999.999999,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8340999999.999999,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 8340999999.999999,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8340999999.999999,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 44080000000
-			},
-			"country comparison to the world:": ""
+			"usd": 44080000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 351200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 351200000000
 		},
 		"Exports - commodities": "machinery and equipment (including electronics), consumer goods, pharmaceuticals and other chemicals, mineral fuels",
 		"Exports - partners": "Hong Kong 11.6%, Malaysia 11.5%, US 11.2%, Indonesia 9.7%, China 9.7%, Japan 4.6%, Hong Kong 11.6% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 310400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 310400000000
 		},
 		"Imports - commodities": "machinery and equipment, mineral fuels, chemicals, foodstuffs, consumer goods",
 		"Imports - partners": "US 14.7%, Malaysia 11.6%, China 10.5%, Japan 7.6%, Indonesia 5.8%, South Korea 5.7% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 225800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 225800000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 21660000000
-			},
-			"country comparison to the world:": ""
+			"usd": 21660000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 274600000000.00003
-			},
-			"country comparison to the world:": ""
+			"usd": 274600000000.00003
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 172100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 172100000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Singapore dollars (SGD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1852000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 6652000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1852000,
+		"Telephones - mobile cellular": 6652000,
 		"Telephone system": {
 			"general assessment:": "excellent service",
 			"domestic:": "excellent domestic facilities; launched 3G wireless service in February 2005; combined fixed-line and mobile-cellular teledensity is more than 180 telephones per 100 persons",
@@ -626,23 +505,17 @@
 		},
 		"Broadcast media": "state controls broadcast media; 8 domestic TV stations operated by MediaCorp, wholly owned by a state investment company; broadcasts from Malaysian and Indonesian stations available; satellite dishes banned; multi-channel cable TV service is accessible; a total of 18 domestic radio stations broadcasting with MediaCorp operating more than a dozen and another 4 stations are closely linked to the ruling party or controlled by the Singapore Armed Forces Reservists Association; large number of Malaysian and Indonesian radio stations are available (2008)",
 		"Internet country code": ".sg",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 992786,
+		"Internet users": 3235000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 8,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 8,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 1
 		},
 		"Pipelines": "gas 111 km (2010)",
 		"Roadways": {
@@ -654,32 +527,35 @@
 			"paved:": "3,356 km (includes 161 km of expressways) (2009)"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1422,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 183, cargo 88, carrier 6, chemical tanker 233, container 321, liquefied gas 117, petroleum tanker 404, refrigerated cargo 5, roll on/roll off 13, vehicle carrier 52",
 			"foreign-owned:": "850 (Australia 11, Bangladesh 2, Bermuda 21, Chile 7, China 26, Cyprus 3, Denmark 125, France 3, Germany 30, Greece 19, Hong Kong 38, India 19, Indonesia 53, Italy 3, Japan 146, Malaysia 27, Netherlands 1, Norway 132, Slovenia 1, South Africa 3, South Korea 9, Sweden 9, Switzerland 4, Taiwan 79, Thailand 30, UAE 10, UK 6, US 33)"
 		},
 		"Ports and terminals": "Singapore",
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports the territorial and offshore waters in the South China Sea as high risk for piracy and armed robbery against ships; numerous commercial vessels have been attacked and hijacked both at anchor and while underway; hijacked vessels are often disguised and cargo diverted to ports in East Asia; crews have been murdered or cast adrift"
 	},
 	"military": {
 		"Military branches": "Singapore Armed Forces: Army, Navy, Air Force (includes Air Defense) (2010)",
 		"Military service age and obligation": "18-21 years of age for male compulsory military service; 16 years of age for volunteers; 2-year conscript service obligation, with a reserve obligation to age 40 (enlisted) or age 50 (officers) (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 1255
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1018,
+			"females age 16-49:": 1087
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 27098,
+			"female:": 25368
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "disputes persist with Malaysia over deliveries of fresh water to Singapore, Singapore's extensive land reclamation works, bridge construction, and maritime boundaries in the Johor and Singapore Straits; in 2008, ICJ awards sovereignty of Pedra Branca (Pulau Batu Puteh/Horsburgh Island) to Singapore, and Middle Rocks to Malaysia, but does not rule on maritime regimes, boundaries, or disposition of South Ledge; Indonesia and Singapore continue to work on finalization of their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; piracy remains a problem in the Malacca Strait",
-		"Illicit drugs": {}
+		"Illicit drugs": "drug abuse limited because of aggressive law enforcement efforts; as a transportation and financial services hub, Singapore is vulnerable, despite strict laws and enforcement, as a venue for money laundering"
 	}
 }

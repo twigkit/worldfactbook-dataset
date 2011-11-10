@@ -7,15 +7,15 @@
 		"Location": "Central Europe, east of France, north of Italy",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 47,
-				"seconds": 0
+				"deg": 47,
+				"min": 0
 			},
 			"E": {
-				"minutes": 8,
-				"seconds": 0
+				"deg": 8,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 41277,
@@ -89,13 +89,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; crossroads of northern and southern Europe; along with southeastern France, northern Italy, and southwestern Austria, has the highest elevations in the Alps"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 7639,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.2,
@@ -122,32 +119,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.21,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.21,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.53,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.53,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.72,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.72,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.29,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.29,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.46,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.46,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 18000,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -274,7 +247,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +264,12 @@
 			"name:": "Bern",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 46,
-					"seconds": 57
+					"deg": 46,
+					"min": 57
 				},
 				"E": {
-					"minutes": 7,
-					"seconds": 26
+					"deg": 7,
+					"min": 26
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -304,7 +280,6 @@
 		},
 		"Independence": "1 August 1291 (founding of the Swiss Confederation)",
 		"National holiday": "Founding of the Swiss Confederation, 1 August (1291)",
-		"Constitution": "revision of Constitution of 1874 approved by the Federal Parliament 18 December 1998, adopted by referendum 18 April 1999, officially entered into force 1 January 2000",
 		"Legal system": "civil law system; judicial review of legislative acts, except for federal decrees of a general obligatory character",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -339,7 +314,10 @@
 			"FAX:": "[41] (031) 357 73 44"
 		},
 		"Flag description": "red square with a bold, equilateral white cross in the center that does not extend to the edges of the flag; various medieval legends purport to describe the origin of the flag; a white cross used as identification for troops of the Swiss Confederation is first attested at the Battle of Laupen (1339)",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Schweizerpsalm\" [German] \"Cantique Suisse\" [French] \"Salmo svizzero,\" [Italian] \"Psalm svizzer\" [Romansch] (Swiss Psalm)",
+			"lyrics/music:": "Leonhard WIDMER [German], Charles CHATELANAT [French], Camillo VALSANGIACOMO [Italian], and Flurin CAMATHIAS [Romansch]/Alberik ZWYSSIG"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Switzerland is a peaceful, prosperous, and modern market economy with low unemployment, a highly skilled labor force, and a per capita GDP among the highest in the world. Switzerland's economy benefits from a highly developed service sector, led by financial services, and a manufacturing industry that specializes in high-technology, knowledge-based production. The Swiss have brought their economic practices largely into conformity with the EU's, in order to enhance their international competitiveness, but some trade protectionism remains, particularly for its small agricultural sector. The global financial crisis and resulting economic downturn put Switzerland in a recession in 2009 as global export demand stalled. The Swiss National Bank during this period effectively implemented a zero-interest rate policy in a bid to boost the economy and prevent appreciation of the franc. Switzerland's economy grew by 2.7% in 2010, when Bern implemented a third fiscal stimulus program, but its prized banking sector has recently faced significant challenges. The country's largest banks suffered sizable losses in 2008-09, leading its largest bank to accept a government rescue deal in late 2008. Switzerland has also come under increasing pressure from individual neighboring countries, the EU, the US, and international institutions to reform its banking secrecy laws. Consequently, the government agreed to conform to OECD regulations on administrative assistance in tax matters, including tax evasion. The government has renegotiated its double taxation agreements with numerous countries, including the US, to incorporate the OECD standard, and it is working with Germany and the UK to resolve outstanding issues, particularly the possibility of imposing taxes on bank deposits held by foreigners. Parliament passed the first five double-taxation agreements, including that with the US, in March 2010. The agreement with the US awaits US Senate approval. In 2009, Swiss financial regulators ordered the country's largest bank to reveal at Washington's behest the names of US account-holders suspected of using the bank to commit tax fraud. These steps will have a lasting impact on Switzerland's long history of bank secrecy.",
@@ -353,11 +331,8 @@
 			"usd": 523799999999.99994
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +354,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4620000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4620000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.4,
@@ -398,11 +370,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 6.9,
@@ -418,16 +387,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 33.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -438,79 +401,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 38.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38.2,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 0.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 0.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.04,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 0.54,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.54,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 384200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 384200000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 834600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 834600000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 879700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 879700000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1071000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1071000000000
 		},
 		"Agriculture - products": "grains, fruits, vegetables; meat, eggs",
 		"Industries": "machinery, chemicals, watches, textiles, precision instruments, tourism, banking, and insurance",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 66500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 66500000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 57500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 57500000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 54200000000,
@@ -521,132 +451,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 3488,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3488,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 280000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 280000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 10680,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10680,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 263600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 263600,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 3042000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3042000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 3042000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3042000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 49350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 49350000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 232600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 232600000000
 		},
 		"Exports - commodities": "machinery, chemicals, metals, watches, agricultural products",
 		"Exports - partners": "Germany 20.98%, US 9.09%, France 8.62%, Italy 8.08%, Austria 5.38% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 226300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 226300000000
 		},
 		"Imports - commodities": "machinery, chemicals, vehicles, metals; agricultural products, textiles",
 		"Imports - partners": "Germany 27.19%, Italy 10.42%, US 9.61%, France 7.69%, Netherlands 4.35% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 236600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 236600000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1200000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1200000000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 514000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 514000000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 814600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 814600000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Swiss francs (CHF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 4650000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 9255000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 4650000,
+		"Telephones - mobile cellular": 9255000,
 		"Telephone system": {
 			"general assessment:": "highly developed telecommunications infrastructure with excellent domestic and international services",
 			"domestic:": "ranked among leading countries for fixed-line teledensity and infrastructure; mobile-cellular subscribership roughly 120 per 100 persons; extensive cable and microwave radio relay networks",
@@ -654,29 +527,23 @@
 		},
 		"Broadcast media": "the publicly-owned radio and television broadcaster, Swiss Broadcasting Corporation (SRG/SSR), operates 7 national television networks, 3 broadcasting in German, 2 in Italian, and 2 in French; private commercial television stations broadcast regionally and locally; television broadcasts from stations in Germany, Italy, and France are widely accessed using multi-channel cable and satellite TV services; SRG/SSR operates 18 radio stations that, along with private broadcasters, provide national to local coverage (2009)",
 		"Internet country code": ".ch",
-		"Internet hosts": {
-			"Internet hosts": 4816000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 4816000,
+		"Internet users": 6152000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 65,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 42,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 14,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 23,
+			"under 914 m:": 23
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 1,681 km; oil 94 km; refined products 7 km (2010)",
 		"Railways": {
 			"total:": {
@@ -695,37 +562,37 @@
 			"country comparison to the world:": "",
 			"paved:": "71,454 km (includes 1,790 of expressways) (2010)"
 		},
-		"Waterways": {
-			"Waterways": "1,299 km (there are 1,227 km of waterways on lakes and rivers for public transport and another 65 km on the Rhine River between Basel-Rheinfelden and Schaffhausen-Bodensee used for the transport of commercial goods) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "1,299 km (there are 1,227 km of waterways on lakes and rivers for public transport and another 65 km on the Rhine River between Basel-Rheinfelden and Schaffhausen-Bodensee used for the transport of commercial goods) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 35,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 15, cargo 9, chemical tanker 6, container 4, petroleum tanker 1",
 			"registered in other countries:": "109 (Antigua and Barbuda 7, Bahamas 2, Cayman Islands 1, France 5, Germany 1, Italy 6, Liberia 17, Luxembourg 1, Malta 14, Marshall Islands 12, NZ 2, Panama 22, Portugal 3, Russia 4, Saint Vincent and the Grenadines 5, Singapore 4, Spain 1, Tonga 1, Tuvalu 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Basel"
 	},
 	"military": {
 		"Military branches": "Swiss Armed Forces: Land Forces, Swiss Air Force (Schweizer Luftwaffe) (2010)",
 		"Military service age and obligation": "19-26 years of age for male compulsory military service; 18 years of age for voluntary male and female military service; every Swiss male has to serve at least 260 days in the armed forces; conscripts receive 18 weeks of mandatory training, followed by seven 3-week intermittent recalls for training during the next 10 years (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1828,
+			"females age 16-49:": 1786
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1493,
+			"females age 16-49:": 1459
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 46562,
+			"female:": 42585
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "a major international financial center vulnerable to the layering and integration stages of money laundering; despite significant legislation and reporting requirements, secrecy rules persist and nonresidents are permitted to conduct business through offshore entities and various intermediaries; transit country for and consumer of South American cocaine, Southwest Asian heroin, and Western European synthetics; domestic cannabis cultivation and limited ecstasy production"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about three-quarters of the way from Hawaii to Australia",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 16,
-				"seconds": 0
+				"deg": 16,
+				"min": 0
 			},
 			"E": {
-				"minutes": 167,
-				"seconds": 0
+				"deg": 167,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 12189,
@@ -87,13 +87,10 @@
 			"party to:": "Antarctic-Marine Living Resources, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 94",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "a Y-shaped chain of four main islands and 80 smaller islands; several of the islands have active volcanoes"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 224564,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 29.6,
@@ -120,32 +117,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.343,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.343,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 20.86,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.86,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.43,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.43,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -210,11 +195,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.39,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.39,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -251,7 +233,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -266,12 +251,12 @@
 			"name:": "Port-Vila (on Efate)",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 17,
-					"seconds": 44
+					"deg": 17,
+					"min": 44
 				},
 				"E": {
-					"minutes": 168,
-					"seconds": 19
+					"deg": 168,
+					"min": 19
 				}
 			},
 			"time difference:": "UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
@@ -279,7 +264,6 @@
 		"Administrative divisions": "6 provinces; Malampa, Penama, Sanma, Shefa, Tafea, Torba",
 		"Independence": "30 July 1980 (from France and the UK)",
 		"National holiday": "Independence Day, 30 July (1980)",
-		"Constitution": "30 July 1980",
 		"Legal system": "mixed legal system of English common law, French law, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -302,7 +286,10 @@
 		"Diplomatic representation in the US": "Vanuatu does not have an embassy in the US; it does, however, have a Permanent Mission to the UN",
 		"Diplomatic representation from the US": "the US does not have an embassy in Vanuatu; the US ambassador to Papua New Guinea is accredited to Vanuatu",
 		"Flag description": "two equal horizontal bands of red (top) and green with a black isosceles triangle (based on the hoist side) all separated by a black-edged yellow stripe in the shape of a horizontal Y (the two points of the Y face the hoist side and enclose the triangle); centered in the triangle is a boar's tusk encircling two crossed namele fern fronds, all in yellow; red represents the blood of boars and men, green the richness of the islands, and black the ni-Vanuatu people; the yellow Y-shape - which reflects the pattern of the islands in the Pacific Ocean - symbolizes the light of the Gospel spreading through the islands; the boar's tusk is a symbol of prosperity frequently worn as a pendant on the islands; the fern fronds represent peace",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Yumi, Yumi, Yumi\" (We, We, We)",
+			"lyrics/music:": "Francois Vincent AYSSAV"
+		}
 	},
 	"economy": {
 		"Economy - overview": "This South Pacific island economy is based primarily on small-scale agriculture, which provides a living for about two-thirds of the population. Fishing, offshore financial services, and tourism, with nearly 197,000 visitors in 2008, are other mainstays of the economy. Mineral deposits are negligible; the country has no known petroleum deposits. A small light industry sector caters to the local market. Tax revenues come mainly from import duties. Economic development is hindered by dependence on relatively few commodity exports, vulnerability to natural disasters, and long distances from main markets and between constituent islands. In response to foreign concerns, the government has promised to tighten regulation of its offshore financial center. In mid-2002, the government stepped up efforts to boost tourism through improved air connections, resort development, and cruise ship facilities. Agriculture, especially livestock farming, is a second target for growth. Australia and New Zealand are the main suppliers of tourists and foreign aid.",
@@ -316,11 +303,8 @@
 			"usd": 693000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -342,10 +326,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 115900,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 65,
@@ -361,11 +342,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 1.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.7,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -381,60 +359,36 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 229200000
-			},
-			"country comparison to the world:": ""
+			"usd": 229200000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 614200000
-			},
-			"country comparison to the world:": ""
+			"usd": 614200000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 274000000
-			},
-			"country comparison to the world:": ""
+			"usd": 274000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "copra, coconuts, cocoa, coffee, taro, yams, fruits, vegetables; beef; fish",
 		"Industries": "food and fish freezing, wood processing, meat canning",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 42000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 39060000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39060000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -445,118 +399,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 653.6,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 653.6,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-60 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-60 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 40000000
-			},
-			"country comparison to the world:": ""
+			"usd": 40000000
 		},
 		"Exports - commodities": "copra, beef, cocoa, timber, kava, coffee",
 		"Exports - partners": "Thailand 53.15%, Japan 12.22%, Poland 11.78% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 156000000
-			},
-			"country comparison to the world:": ""
+			"usd": 156000000
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, fuels",
 		"Imports - partners": "Japan 17.3%, Australia 13.46%, China 12.26%, Singapore 12%, NZ 6.88%, Poland 6.61%, France 5.86%, Fiji 5.52% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 40540000
-			},
-			"country comparison to the world:": ""
+			"usd": 40540000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 81200000
-			},
-			"country comparison to the world:": ""
+			"usd": 81200000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "vatu (VUV) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 7200,
+		"Telephones - mobile cellular": 126500,
 		"Telephone system": {
 			"general assessment:": "NA",
 			"domestic:": "NA",
@@ -564,27 +467,21 @@
 		},
 		"Broadcast media": "1 state-owned television station; multi-channel pay TV is available; state-owned Radio Vanuatu operates 2 radio stations; 2 privately-owned radio broadcasters; programming from multiple international broadcasters is accessible (2008)",
 		"Internet country code": ".vu",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1347,
+		"Internet users": 17000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 31,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 3,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 28,
+			"914 to 1,523 m:": 5,
+			"under 914 m:": 23
 		},
 		"Roadways": {
 			"total:": {
@@ -602,29 +499,29 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 72,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 35, cargo 5, container 1, liquefied gas 2, passenger 2, refrigerated cargo 26, vehicle carrier 1",
 			"foreign-owned:": "70 (Australia 2, Belgium 1, Canada 5, Greece 4, Japan 44, Monaco 1, Norway 1, Poland 7, Russia 1, UAE 1, Ukraine 3) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Forari Bay, Luganville (Santo, Espiritu Santo), Port-Vila"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Vanuatu Police Force (VPF), Vanuatu Mobile Force (VMF; includes Police Maritime Wing (PMW)) (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 62216
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 43331,
+			"females age 16-49:": 44927
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 2323,
+			"female:": 2230
 		},
-		"Military expenditures": {}
+		"Military expenditures": "NA"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Matthew and Hunter Islands east of New Caledonia claimed by Vanuatu and France"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Eastern Africa, west of Somalia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 8,
-				"seconds": 0
+				"deg": 8,
+				"min": 0
 			},
 			"E": {
-				"minutes": 38,
-				"seconds": 0
+				"deg": 38,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1104,
@@ -92,11 +92,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection",
 			"signed, but not ratified:": "Environmental Modification, Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked - entire coastline along the Red Sea was lost with the de jure independence of Eritrea on 24 May 1993; the Blue Nile, the chief headstream of the Nile by water volume, rises in T'ana Hayk (Lake Tana) in northwest Ethiopia; three major crops are believed to have originated in Ethiopia: coffee, grain sorghum, and castor bean"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 90873,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -125,25 +125,16 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 3.194,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.194,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 42.99,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42.99,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.04,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.04,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
 			"Net migration rate": "-0.01 migrant(s)/1,000 population",
@@ -213,11 +204,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 6.02,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.02,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -267,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -282,12 +273,12 @@
 			"name:": "Addis Ababa",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 9,
-					"seconds": 2
+					"deg": 9,
+					"min": 2
 				},
 				"E": {
-					"minutes": 38,
-					"seconds": 42
+					"deg": 38,
+					"min": 42
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -295,7 +286,6 @@
 		"Administrative divisions": "9 ethnically based states (kililoch, singular - kilil) and 2 self-governing administrations* (astedaderoch, singular - astedader); Adis Abeba* (Addis Ababa), Afar, Amara (Amhara), Binshangul Gumuz, Dire Dawa*, Gambela Hizboch (Gambela Peoples), Hareri Hizb (Harari People), Oromiya (Oromia), Sumale (Somali), Tigray, Ye Debub Biheroch Bihereseboch na Hizboch (Southern Nations, Nationalities and Peoples)",
 		"Independence": "oldest independent country in Africa and one of the oldest in the world - at least 2,000 years (may be traced to the Aksumite Kingdom, which coalesced in the first century B.C.)",
 		"National holiday": "National Day (defeat of MENGISTU regime), 28 May (1991)",
-		"Constitution": "ratified 8 December 1994, effective 22 August 1995",
 		"Legal system": "civil law system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -332,7 +322,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of green (top), yellow, and red, with a yellow pentagram and single yellow rays emanating from the angles between the points on a light blue disk centered on the three bands; green represents hope and the fertility of the land, yellow symbolizes justice and harmony, while red stands for sacrifice and heroism in the defense of the land; the blue of the disk symbolizes peace and the pentagram represents the unity and equality of the nationalities and peoples of Ethiopia"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Whedefit Gesgeshi Woude Henate Ethiopia\" (March Forward, Dear Mother Ethiopia)",
+			"lyrics/music:": "DEREJE Melaku Mengesha/SOLOMON Lulu"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Ethiopia's poverty-stricken economy is based on agriculture, accounting for almost 45% of GDP, and 85% of total employment. The agricultural sector suffers from frequent drought and poor cultivation practices. Coffee is critical to the Ethiopian economy with exports of some $350 million in 2006, but historically low prices have seen many farmers switching to qat to supplement income. Under Ethiopia's constitution, the state owns all land and provides long-term leases to the tenants; the system continues to hamper growth in the industrial sector as entrepreneurs are unable to use land as collateral for loans. In November 2001, Ethiopia qualified for debt relief from the Highly Indebted Poor Countries (HIPC) initiative, and in December 2005 the IMF forgave Ethiopia's debt. The global economic downturn led to balance of payments pressures, partially alleviated by recent emergency funding from the IMF. While GDP growth has remained high, per capita income is among the lowest in the world.",
@@ -346,11 +339,8 @@
 			"usd": 29720000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -372,10 +362,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 37900000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 37900000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 85,
@@ -405,16 +392,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 30,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 25.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -425,68 +406,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 39.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 4764000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4764000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 8247999999.999999
-			},
-			"country comparison to the world:": ""
+			"usd": 8247999999.999999
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 8661000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8661000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cereals, pulses, coffee, oilseed, cotton, sugarcane, potatoes, qat, cut flowers; hides, cattle, sheep, goats; fish",
 		"Industries": "food processing, beverages, textiles, leather, chemicals, metals processing, cement",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 9.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3460000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3460000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 3130000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3130000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -497,118 +451,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 38000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 38000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 33590,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33590,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 430000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 430000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 24920000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24920000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.232 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.232 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1729000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1729000000
 		},
 		"Exports - commodities": "coffee, qat, gold, leather products, live animals, oilseeds",
 		"Exports - partners": "China 10.87%, Germany 9.75%, Saudi Arabia 7.39%, US 7.21%, Netherlands 6.38%, Switzerland 5.33%, Sudan 4.35%, Belgium 4% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 7517000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7517000000
 		},
 		"Imports - commodities": "food and live animals, petroleum and petroleum products, chemicals, machinery, motor vehicles, cereals, textiles",
 		"Imports - partners": "China 14.73%, Saudi Arabia 8.41%, India 7.65%, US 4.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1880000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1880000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4288999999.9999995
-			},
-			"country comparison to the world:": ""
+			"usd": 4288999999.9999995
 		},
-		"Exchange rates": {}
+		"Exchange rates": "birr (ETB) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 4051999.9999999995,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 915100,
+		"Telephones - mobile cellular": 4051999.9999999995,
 		"Telephone system": {
 			"general assessment:": "inadequate telephone system with the Ethiopian Telecommunications Corporation (ETC) maintaining a monopoly over telecommunication services; open-wire, microwave radio relay; radio communication in the HF, VHF, and UHF frequencies; 2 domestic satellites provide the national trunk service",
 			"domestic:": "the number of fixed lines and mobile telephones is increasing from a small base; combined fixed and mobile-cellular teledensity is only about 5 per 100 persons",
@@ -616,30 +519,24 @@
 		},
 		"Broadcast media": "1 public TV broadcast station broadcasting nationally and 1 public radio broadcaster with stations in each of the 13 administrative districts; a few commercial radio stations and roughly a dozen community radio stations (2009)",
 		"Internet country code": ".et",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 151,
+		"Internet users": 447300
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 61,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 17,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 8,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 44,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 12,
+			"914 to 1,523 m:": 22,
+			"under 914 m:": 7
 		},
 		"Railways": {
 			"total:": {
@@ -665,11 +562,11 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 9,
 			"country comparison to the world:": "",
 			"by type:": "cargo 8, roll on/roll off 1 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Ethiopia is landlocked and uses ports of Djibouti in Djibouti and Berbera in Somalia"
 	},
 	"military": {
 		"Military branches": {
@@ -677,18 +574,21 @@
 		},
 		"Military service age and obligation": "18 years of age for voluntary military service; no compulsory military service, but the military can conduct callups when necessary and compliance is compulsory (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 19067,
+			"females age 16-49:": 19726
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 11868,
+			"females age 16-49:": 12889
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 967411,
+			"female:": 981714
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Eritrea and Ethiopia agreed to abide by the 2002 Eritrea-Ethiopia Boundary Commission's (EEBC) delimitation decision, but neither party responded to the revised line detailed in the November 2006 EEBC Demarcation Statement; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Ethiopian forces invaded southern Somalia and routed Islamist Courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera and trade ties to landlocked Ethiopia; civil unrest in eastern Sudan has hampered efforts to demarcate the porous boundary with Ethiopia",
@@ -696,6 +596,6 @@
 			"refugees (country of origin):": "66,980 (Sudan); 16,576 (Somalia); 13,078 (Eritrea)",
 			"IDPs:": "200,000 (border war with Eritrea from 1998-2000, ethnic clashes in Gambela, and ongoing Ethiopian military counterinsurgency in Somali region; most IDPs are in Tigray and Gambela Provinces) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transit hub for heroin originating in Southwest and Southeast Asia and destined for Europe, as well as cocaine destined for markets in southern Africa; cultivates qat (khat) for local use and regional export, principally to Djibouti and Somalia (legal in all three countries); the lack of a well-developed financial system limits the country's utility as a money laundering center"
 	}
 }

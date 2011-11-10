@@ -7,15 +7,15 @@
 		"Location": "Central Europe, south of Poland",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 48,
-				"seconds": 40
+				"deg": 48,
+				"min": 40
 			},
 			"E": {
-				"minutes": 19,
-				"seconds": 30
+				"deg": 19,
+				"min": 30
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 49035,
@@ -74,7 +74,7 @@
 			"unit": "cu km"
 		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": null,
+			"total:": 1.04,
 			"per capita:": {
 				"quantity": 193,
 				"unit": "cu m/yr"
@@ -86,13 +86,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; most of the country is rugged and mountainous; the Tatra Mountains in the north are interspersed with many scenic lakes and valleys"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 5477,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.6,
@@ -119,32 +116,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.117,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.117,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.48,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.48,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.6,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.6,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.29,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.29,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -210,24 +195,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.37,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.37,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 500 (2009 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -266,7 +239,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -280,12 +256,12 @@
 			"name:": "Bratislava",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 48,
-					"seconds": 9
+					"deg": 48,
+					"min": 9
 				},
 				"E": {
-					"minutes": 17,
-					"seconds": 7
+					"deg": 17,
+					"min": 7
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -294,9 +270,6 @@
 		"Administrative divisions": "8 regions (kraje, singular - kraj); Banskobystricky, Bratislavsky, Kosicky, Nitriansky, Presovsky, Trenciansky, Trnavsky, Zilinsky",
 		"Independence": "1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia)",
 		"National holiday": "Constitution Day, 1 September (1992)",
-		"Constitution": {
-			"Constitution": "ratified 1 September 1992, effective 1 January 1993; changed September 1998; amended February 2001"
-		},
 		"Legal system": "civil law system based on Austro-Hungarian codes; note - legal code modified to comply with the obligations of Organization on Security and Cooperation in Europe and to expunge Marxist-Leninist legal system",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -336,7 +309,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of white (top), blue, and red derive from the Pan-Slav colors; the Slovakian coat of arms (consisting of a red shield bordered in white and bearing a white Cross of Lorraine surmounting three blue hills) is centered over the bands but offset slightly to the hoist side"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Nad Tatrou sa blyska\" (Storm Over the Tatras)",
+			"lyrics/music:": "Janko MATUSKA/traditional"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Slovakia has made significant economic reforms since its separation from the Czech Republic in 1993. Reforms to the taxation, healthcare, pension, and social welfare systems helped Slovakia consolidate its budget and get on track to join the EU in 2004 and to adopt the euro in January 2009. Major privatizations are nearly complete, the banking sector is almost entirely in foreign hands, and the government has helped facilitate a foreign investment boom with business friendly policies. Slovakia's economic growth exceeded expectations in 2001-08 despite a general European slowdown. Unemployment, at an unacceptable 18% in 2003-04, dropped to 7.7% in 2008 but remains the economy's Achilles heel. Foreign direct investment (FDI) accounted for much of the growth until 2008. Cheap and skilled labor, low taxes, a 19% flat tax for corporations and individuals, no dividend taxes, a relatively liberal labor code and a favorable geographical location are Slovakia's main advantages for foreign investors. Foreign investment in the automotive and electronic sectors has been especially strong. To maintain a stable operating environment for investors, the European Bank for Reconstruction and Development advised the Slovak government to refrain from intervening in important sectors of the economy. However, Bratislava's approach to mitigating the economic slowdown has included substantial government intervention and the option to nationalize strategic companies. RADICOVA's government, in power since July 2010, has allowed the budget deficit to rise slightly, to 7.4% of GDP in 2010. GDP fell nearly 5% in 2009 before gaining back 4% in 2010, and unemployment rose above 12% in 2010, as the global recession impacted many segments of the economy.",
@@ -350,11 +326,8 @@
 			"usd": 87450000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -376,10 +349,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 2673000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 2673000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.5,
@@ -395,11 +365,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 13.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 21,
@@ -415,16 +382,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 26,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -435,18 +396,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 41,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -463,45 +418,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 52630000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52630000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 65090000000
-			},
-			"country comparison to the world:": ""
+			"usd": 65090000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 4672000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4672000000
 		},
 		"Agriculture - products": "grains, potatoes, sugar beets, hops, fruit; pigs, cattle, poultry; forest products",
 		"Industries": "metal and metal products; food and beverages; electricity, gas, coke, oil, nuclear fuel; chemicals and manmade fibers; machinery; paper and printing; earthenware and ceramics; transport vehicles; textiles; electrical and optical apparatus; rubber products",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 25900000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25900000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 28750000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28750000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 8891000000,
@@ -512,130 +449,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 4114,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4114,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 79930,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 79930,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 75110,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 75110,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 144000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 144000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 9000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 103000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 103000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 6493000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6493000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 15000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 6974000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6974000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 14160000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14160000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.93 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.93 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 64180000000.00001
-			},
-			"country comparison to the world:": ""
+			"usd": 64180000000.00001
 		},
 		"Exports - commodities": "machinery and electrical equipment 35.9%, vehicles 21%, base metals 11.3%, chemicals and minerals 8.1%, plastics 4.9% (2009 est.)",
 		"Exports - partners": "Germany 20.1%, Czech Republic 12.9%, France 7.8%, Poland 7.2%, Hungary 6.3%, Italy 6.1%, Austria 5.8%, UK 4.8% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 62430000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62430000000
 		},
 		"Imports - commodities": "machinery and transport equipment 31%, mineral products 13%, vehicles 12%, base metals 9%, chemicals 8%, plastics 6% (2009 est.)",
 		"Imports - partners": "Germany 16.8%, Czech Republic 12.3%, Russia 9%, South Korea 6.8%, China 5.8%, Hungary 5.3%, Poland 4% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1160000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1160000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 59330000000
-			},
-			"country comparison to the world:": ""
+			"usd": 59330000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 52200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52200000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 2643000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2643000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Slovak koruny (SKK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1022000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5498000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1022000,
+		"Telephones - mobile cellular": 5498000,
 		"Telephone system": {
 			"general assessment:": "Slovakia has a modern telecommunications system that has expanded dramatically in recent years with the growth in cellular services",
 			"domestic:": "analog system is now receiving digital equipment and is being enlarged with fiber-optic cable, especially in the larger cities; 3 companies provide nationwide cellular services",
@@ -643,30 +523,24 @@
 		},
 		"Broadcast media": "state-owned public broadcaster, Slovak Television (STV), operates 3 national TV stations; roughly 35 privately-owned television broadcast stations operating nationally, regionally, and locally; about 40% of households are connected to multi-channel cable or satellite TV systems; channels from the Czech Republic and Hungary are widely viewed; state-owned public radio operates multiple national and regional networks; more than 20 privately-owned radio stations (2008)",
 		"Internet country code": ".sk",
-		"Internet hosts": {
-			"Internet hosts": 1133000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1133000,
+		"Internet users": 4062999.9999999995
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 36,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 20,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 16,
+			"914 to 1,523 m:": 9,
+			"under 914 m:": 7
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 6,769 km; oil 416 km (2010)",
 		"Railways": {
 			"total:": {
@@ -693,37 +567,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "172 km (on Danube River) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "172 km (on Danube River) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 23,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 19, refrigerated cargo 3",
 			"foreign-owned:": "21 (Germany 4, Greece 1, Ireland 1, Italy 2, Montenegro 1, Poland 2, Slovenia 1, Turkey 2, Ukraine 7) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Bratislava, Komarno"
 	},
 	"military": {
 		"Military branches": "Armed Forces of the Slovak Republic (Ozbrojene Sily Slovenskej Republiky): Land Forces (Pozemne Sily), Air Forces (Vzdusne Sily) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; conscription abolished in 2006; women are eligible to serve (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1405,
+			"females age 16-49:": 1369
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1156,
+			"females age 16-49:": 1139
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 31646,
+			"female:": 30219
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.87,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "bilateral government, legal, technical and economic working group negotiations continued in 2006 between Slovakia and Hungary over Hungary's completion of its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Slovakia has implemented the strict Schengen border rules",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for Southwest Asian heroin bound for Western Europe; producer of synthetic drugs for regional market; consumer of ecstasy"
 	}
 }

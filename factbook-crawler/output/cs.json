@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Nicaragua and Panama",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			},
 			"W": {
-				"minutes": 84,
-				"seconds": 0
+				"deg": 84,
+				"min": 0
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 51100,
@@ -105,13 +105,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Wetlands, Whaling",
 			"signed, but not ratified:": "Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "four volcanoes, two of them active, rise near the capital of San Jose in the center of the country; one of the volcanoes, Irazu, erupted destructively in 1963-65"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 4576,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 24.6,
@@ -138,32 +135,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.308,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.308,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.54,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.54,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.33,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.33,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.87,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.87,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -229,27 +214,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.93,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.93,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 9800,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -293,7 +266,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -307,12 +283,12 @@
 			"name:": "San Jose",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 9,
-					"seconds": 56
+					"deg": 9,
+					"min": 56
 				},
 				"W": {
-					"minutes": 84,
-					"seconds": 5
+					"deg": 84,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
@@ -320,7 +296,6 @@
 		"Administrative divisions": "7 provinces (provincias, singular - provincia); Alajuela, Cartago, Guanacaste, Heredia, Limon, Puntarenas, San Jose",
 		"Independence": "15 September 1821 (from Spain)",
 		"National holiday": "Independence Day, 15 September (1821)",
-		"Constitution": "7 November 1949",
 		"Legal system": "civil law system based on Spanish civil code; judicial review of legislative acts in the Supreme Court",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -357,7 +332,10 @@
 		"Flag description": {
 			"Flag description": "five horizontal bands of blue (top), white, red (double width), white, and blue, with the coat of arms in a white elliptical disk toward the hoist side of the red band; Costa Rica retained the earlier blue-white-blue flag of Central America until 1848 when, in response to revolutionary activity in Europe, it was decided to incorporate the French colors into the national flag and a central red stripe was added; today the blue color is said to stand for the sky, opportunity, and perseverance, white denotes peace, happiness, and wisdom, while red represents the blood shed for freedom, as well as the generosity and vibrancy of the people"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional de Costa Rica\" (National Anthem of Costa Rica)",
+			"lyrics/music:": "Jose Maria ZELEDON Brenes/Manuel Maria GUTIERREZ"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Prior to the global economic crisis, Costa Rica enjoyed stable economic growth. The economy contracted 0.7% in 2009, but resumed growth at more than 3% in 2010. While the traditional agricultural exports of bananas, coffee, sugar, and beef are still the backbone of commodity export trade, a variety of industrial and specialized agricultural products have broadened export trade in recent years. High value added goods and services, including microchips, have further bolstered exports. Tourism continues to bring in foreign exchange, as Costa Rica's impressive biodiversity makes it a key destination for ecotourism. Foreign investors remain attracted by the country's political stability and relatively high education levels, as well as the fiscal incentives offered in the free-trade zones; and Costa Rica has attracted one of the highest levels of foreign direct investment per capita in Latin America. However, many business impediments, such as high levels of bureaucracy, difficulty of enforcing contracts, and weak investor protection, remain. Poverty has remained around 15-20% for nearly 20 years, and the strong social safety net that had been put into place by the government has eroded due to increased financial constraints on government expenditures. Unlike the rest of Central America, Costa Rica is not highly dependent on remittances as they only represent about 2% of GDP. Immigration from Nicaragua has increasingly become a concern for the government. The estimated 300,000-500,000 Nicaraguans in Costa Rica legally and illegally are an important source of - mostly unskilled - labor, but also place heavy demands on the social welfare system. The US-Central American-Dominican Republic Free Trade Agreement (CAFTA-DR) entered into force on 1 January 2009, after significant delays within the Costa Rican legislature. CAFTA-DR will likely lead to increased foreign direct investment in key sectors of the economy, including the insurance and telecommunications sectors recently opened to private investors. President CHINCHILLA is likely to push for fiscal reform in the coming year, seeking to boost revenue, possibly through revised tax legislation, to fund an increase in security services and education.",
@@ -371,11 +349,8 @@
 			"usd": 35780000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -416,11 +391,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 16,
@@ -436,16 +408,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 48,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 20.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -456,79 +422,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 42.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 23,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 17.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.4,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 4504000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4504000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 16809999999.999998
-			},
-			"country comparison to the world:": ""
+			"usd": 16809999999.999998
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 15820000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15820000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1452000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1452000000
 		},
 		"Agriculture - products": "bananas, pineapples, coffee, melons, ornamental plants, sugar, corn, rice, beans, potatoes; beef, poultry, dairy; timber",
 		"Industries": "microprocessors, food processing, medical equipment, textiles and clothing, construction materials, fertilizer, plastic products",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 9290000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9290000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 8250000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8250000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 77160000,
@@ -539,130 +472,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 44000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 44000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2117,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2117,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 46260,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 46260,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.349 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.349 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 10010000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10010000000
 		},
 		"Exports - commodities": "bananas, pineapples, coffee, melons, ornamental plants, sugar; beef; seafood; electronic components, medical equipment",
 		"Exports - partners": "US 32.61%, Netherlands 12.82%, China 11.81%, Mexico 4.2% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 13320000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13320000000
 		},
 		"Imports - commodities": "raw materials, consumer goods, capital equipment, petroleum, construction materials",
 		"Imports - partners": "US 44.72%, Mexico 7.65%, Venezuela 5.56%, China 5.15%, Japan 4.36% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 4584000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4584000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 8550000000.000001
-			},
-			"country comparison to the world:": ""
+			"usd": 8550000000.000001
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 13920000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13920000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 547000000
-			},
-			"country comparison to the world:": ""
+			"usd": 547000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Costa Rican colones (CRC) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1493000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1950000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1493000,
+		"Telephones - mobile cellular": 1950000,
 		"Telephone system": {
 			"general assessment:": "good domestic telephone service in terms of breadth of coverage; under the terms of CAFTA-DR, the state-run telecommunications monopoly scheduled to be opened to competition from domestic and international firms, has been delayed by the nation's telecommunications regulator.",
 			"domestic:": "point-to-point and point-to-multi-point microwave, fiber-optic, and coaxial cable link rural areas; Internet service is available",
@@ -670,28 +546,22 @@
 		},
 		"Broadcast media": "multiple privately-owned television stations and 1 publicly-owned television station; cable network services are widely available; more than 100 privately-owned radio stations and a public radio network (2007)",
 		"Internet country code": ".cr",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 34024,
+		"Internet users": 1485000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 151,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 39,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 23,
+			"under 914 m:": 12
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 112,
+			"914 to 1,523 m:": 18,
+			"under 914 m:": 94
 		},
 		"Pipelines": "refined products 662 km (2010)",
 		"Railways": {
@@ -717,38 +587,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "730 km (seasonally navigable by small craft) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "730 km (seasonally navigable by small craft) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 1 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Caldera, Puerto Limon"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Ministry of Public Security, Government, and Police (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1255,
+			"females age 16-49:": 1230
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1058,
+			"females age 16-49:": 1037
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 42201,
+			"female:": 40444
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.6,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "the ICJ has given Costa Rica until January 2008 to reply and Nicaragua until July 2008 to rejoin before rendering its decision on the navigation, security, and commercial rights of Costa Rican vessels on the Rio San Juan over which Nicaragua retains sovereignty",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "9,699-11,500 (Colombia) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment country for cocaine and heroin from South America; illicit production of cannabis in remote areas; domestic cocaine consumption, particularly crack cocaine, is rising; significant consumption of amphetamines; seizures of smuggled cash in Costa Rica and at the main border crossing to enter Costa Rica from Nicaragua have risen in recent years (2008)"
 	}
 }

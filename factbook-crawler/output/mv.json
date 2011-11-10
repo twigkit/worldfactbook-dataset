@@ -7,15 +7,15 @@
 		"Location": "Southern Asia, group of atolls in the Indian Ocean, south-southwest of India",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 3,
-				"seconds": 15
+				"deg": 3,
+				"min": 15
 			},
 			"E": {
-				"minutes": 73,
-				"seconds": 0
+				"deg": 73,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 298,
@@ -97,13 +97,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "1,190 coral islands grouped into 26 atolls (200 inhabited islands, plus 80 islands with tourist resorts); archipelago with strategic location astride and along major sea lanes in Indian Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 394999,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 21.5,
@@ -129,28 +126,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.151% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.151% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 14.83,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.83,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.71,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.71,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-12.62 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-12.62 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 40,
@@ -215,24 +200,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.81,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.81,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 100 (2009 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -271,7 +244,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 11.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -285,12 +261,12 @@
 			"name:": "Male",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 4,
-					"seconds": 10
+					"deg": 4,
+					"min": 10
 				},
 				"E": {
-					"minutes": 73,
-					"seconds": 30
+					"deg": 73,
+					"min": 30
 				}
 			},
 			"time difference:": "UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
@@ -298,7 +274,6 @@
 		"Administrative divisions": "19 atolls (atholhu, singular and plural) and the capital city*; Alifu, Baa, Dhaalu, Faafu, Gaafu Alifu, Gaafu Dhaalu, Gnaviyani, Haa Alifu, Haa Dhaalu, Kaafu, Laamu, Lhaviyani, Maale (Male)*, Meemu, Noonu, Raa, Seenu, Shaviyani, Thaa, Vaavu",
 		"Independence": "26 July 1965 (from the UK)",
 		"National holiday": "Independence Day, 26 July (1965)",
-		"Constitution": "new constitution ratified 7 August 2008",
 		"Legal system": "Islamic religious legal system with English common law influences, primarily in commercial matters",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -328,7 +303,10 @@
 		},
 		"Diplomatic representation from the US": "the US does not have an embassy in Maldives; the US Ambassador to Sri Lanka, Ambassador Patricia A. BUTENIS, is accredited to Maldives and makes periodic visits",
 		"Flag description": "red with a large green rectangle in the center bearing a vertical white crescent moon; the closed side of the crescent is on the hoist side of the flag; red recalls those who have sacrificed their lives in defense of their country, the green rectangle represents peace and prosperity, and the white crescent signifies Islam",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Gaumee Salaam\" (National Salute)",
+			"lyrics/music:": "Mohamed Jameel DIDI/Wannakuwattawaduge DON AMARADEVA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tourism, Maldives' largest economic activity, accounts for 28% of GDP and more than 60% of foreign exchange receipts. Over 90% of government tax revenue comes from import duties and tourism-related taxes. Fishing is the second leading sector, but the fish catch has dropped sharply in recent years. Agriculture and manufacturing continue to play a lesser role in the economy, constrained by the limited availability of cultivable land and the shortage of domestic labor. Most staple foods must be imported. In the last decade, real GDP growth averaged around 6% per year except for 2005, when GDP declined following the Indian Ocean tsunami, and in 2009, when GDP shrank by 3% as tourist arrivals declined and capital flows plunged in the wake of the global financial crisis. Falling tourist arrivals and fish exports, combined with high government spending on social needs, subsidies, and civil servant salaries contributed to a balance of payments crisis, which was eased with a December 2009, $79.3 million dollar IMF standby agreement. However, after the first two disbursements, the IMF withheld subsequent disbursements due to concerns over Maldives' growing budget deficit. Maldives has had chronic budget deficits in recent years and the government's plans to cut expenditures have not progressed well. A new Goods and Services Tax on Tourism (GST) was introduced in January 2011 and a new Business Profit Tax is to be introduced during the year. These taxes are expected to increase government revenue by about 25%. The government has privatized the main airport and is partially privatizing the energy sector. Tourism will remain the engine of the economy. The Government of the Maldives has aggressively promoted building new island resorts. Due to increasing tourist arrivals, the government expects GDP growth around 4.0% in 2011. Diversifying the economy beyond tourism and fishing, reforming public finance, and increasing employment opportunities are major challenges facing the government. Over the longer term Maldivian authorities worry about the impact of erosion and possible global warming on their low-lying country; 80% of the area is 1 meter or less above sea level.",
@@ -342,11 +320,8 @@
 			"usd": 1870000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -368,10 +343,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 110000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 11,
@@ -387,11 +359,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 14.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 16,
@@ -410,64 +379,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 13,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 13,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 588000000
-			},
-			"country comparison to the world:": ""
+			"usd": 588000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1239000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1239000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1548000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1548000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coconuts, corn, sweet potatoes; fish",
 		"Industries": "tourism, fish processing, shipping, boat building, coconut processing, garments, woven mats, rope, handicrafts, coral and sand mining",
-		"Industrial production growth rate": {
-			"Industrial production growth rate": "-0.9% (2004 est.)",
-			"country comparison to the world:": ""
-		},
+		"Industrial production growth rate": "-0.9% (2004 est.)",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 542000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 542000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 542000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 542000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -478,112 +420,64 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 6000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 5490,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5490,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-463 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-463 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 163000000
-			},
-			"country comparison to the world:": ""
+			"usd": 163000000
 		},
 		"Exports - commodities": "fish",
 		"Exports - partners": "France 17.01%, Thailand 15.16%, Italy 13.49%, UK 13.13%, Sri Lanka 12.38% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 967000000
-			},
-			"country comparison to the world:": ""
+			"usd": 967000000
 		},
 		"Imports - commodities": "petroleum products, ships, foodstuffs, clothing, intermediate and capital goods",
 		"Imports - partners": "Singapore 24.62%, UAE 15.7%, India 11.02%, Malaysia 8.98%, Sri Lanka 5.4%, Thailand 5.36% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 943000000
-			},
-			"country comparison to the world:": ""
+			"usd": 943000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "rufiyaa (MVR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 49913,
+		"Telephones - mobile cellular": 461149,
 		"Telephone system": {
 			"general assessment:": "telephone services have improved; interatoll communication through microwave links; all inhabited islands and resorts are connected with telephone and fax service",
 			"domestic:": "each island now has at least 1 public telephone, and there are mobile-cellular networks with a rapidly expanding subscribership that exceeds 100 per 100 persons",
@@ -591,26 +485,20 @@
 		},
 		"Broadcast media": "state-owned radio and television monopoly until recently; state-owned TV operates 2 channels; 2 privately-owned TV stations; state owns Voice of Maldives and operates both an entertainment and a music-based station; there are 5 privately-owned radio broadcast stations operating (2009)",
 		"Internet country code": ".mv",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2164,
+		"Internet users": 86400
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 5,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 3,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"914 to 1,523 m:": 2
 		},
 		"Roadways": {
 			"total:": {
@@ -621,39 +509,38 @@
 			"paved roads:": "88 km - 60 km in Male; 14 km on Addu Atolis; 14 km on Laamu"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 24,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 20, petroleum tanker 1, refrigerated cargo 2",
 			"registered in other countries:": "4 (Panama 3, Tuvalu 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Male"
 	},
 	"military": {
 		"Military branches": "Maldives National Defense Force (MNDF): Marine Corps, Security Protection Group, Coast Guard (2010)",
 		"Military service age and obligation": "18-28 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 156319,
+			"females age 16-49:": 98815
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 135374,
+			"females age 16-49:": 85181
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 4167,
+			"female:": 3595
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 5.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "the Maldives National Defense Force (MNDF), with its small size and with little serviceable equipment, is inadequate to prevent external aggression and is primarily tasked to reinforce the Maldives Police Service (MPS) and ensure security in the exclusive economic zone (2008)"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"IDPs:": "1,000-10,000 (December 2004 tsunami victims) (2007)"
+		}
 	}
 }

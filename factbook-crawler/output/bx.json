@@ -7,15 +7,15 @@
 		"Location": "Southeastern Asia, bordering the South China Sea and Malaysia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 4,
-				"seconds": 30
+				"deg": 4,
+				"min": 30
 			},
 			"E": {
-				"minutes": 114,
-				"seconds": 40
+				"deg": 114,
+				"min": 40
 			}
 		},
-		"Map references": "Southeast Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 5765,
@@ -80,7 +80,7 @@
 			"unit": "cu km"
 		},
 		"Freshwater withdrawal (domestic/industrial/agricultural)": {
-			"total:": null,
+			"total:": 0.09,
 			"per capita:": {
 				"quantity": 243,
 				"unit": "cu m/yr"
@@ -92,13 +92,10 @@
 			"party to:": "Biodiversity, Climate Change, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "close to vital sea lanes through South China Sea linking Indian and Pacific Oceans; two parts physically separated by Malaysia; almost an enclave within Malaysia"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 401890,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 25.5,
@@ -125,32 +122,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.712,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.712,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.87,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.87,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.35,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.35,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.6,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -216,24 +201,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.86,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.86,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2003 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2003 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2003 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2003 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 200 (2003 est.)",
+		"HIV/AIDS - deaths": "fewer than 200 (2003 est.)",
 		"Nationality": {
 			"noun:": "Bruneian(s)",
 			"adjective:": "Bruneian"
@@ -270,7 +243,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -284,12 +257,12 @@
 			"name:": "Bandar Seri Begawan",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 4,
-					"seconds": 53
+					"deg": 4,
+					"min": 53
 				},
 				"E": {
-					"minutes": 114,
-					"seconds": 56
+					"deg": 114,
+					"min": 56
 				}
 			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
@@ -297,7 +270,6 @@
 		"Administrative divisions": "4 districts (daerah-daerah, singular - daerah); Belait, Brunei-Muara, Temburong, Tutong",
 		"Independence": "1 January 1984 (from the UK)",
 		"National holiday": "National Day, 23 February (1984); note - 1 January 1984 was the date of independence from the UK, 23 February 1984 was the date of independence from British protection",
-		"Constitution": "29 September 1959 (some provisions suspended under a State of Emergency since December 1962, others since independence on 1 January 1984)",
 		"Legal system": "mixed legal system based on English common law and Islamic law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age for village elections; universal",
@@ -331,7 +303,10 @@
 			"FAX:": "[673] 238-4604"
 		},
 		"Flag description": "yellow with two diagonal bands of white (top, almost double width) and black starting from the upper hoist side; the national emblem in red is superimposed at the center; yellow is the color of royalty and symbolizes the sultanate; the white and black bands denote Brunei's chief ministers; the emblem includes five main components: a swallow-tailed flag, the royal umbrella representing the monarchy, the wings of four feathers symbolizing justice, tranquility, prosperity, and peace, the two upraised hands signifying the government's pledge to preserve and promote the welfare of the people, and the crescent moon denoting Islam, the state religion; the state motto \"Always render service with God's guidance\" appears in yellow Arabic script on the crescent; a ribbon below the crescent reads \"Brunei, the Abode of Peace\"",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Allah Peliharakan Sultan\" (God Bless His Majesty)",
+			"lyrics/music:": "Pengiran Haji Mohamed YUSUF bin Abdul Rahim/Awang Haji BESAR bin Sagap"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Brunei has a small well-to-do economy that encompasses a mixture of foreign and domestic entrepreneurship, government regulation, welfare measures, and village tradition. Crude oil and natural gas production account for just over half of GDP and more than 90% of exports. Per capita GDP is among the highest in Asia, and substantial income from overseas investment supplements income from domestic production. The government provides for all medical services and free education through the university level and subsidizes rice and housing. A new monetary authority was established in January 2011 with responsibilities that include monetary policy, monitoring of financial institutions, and currency trading activities.",
@@ -345,11 +320,8 @@
 			"usd": 13020000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -371,10 +343,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 188800,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 4.2,
@@ -390,11 +359,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.7,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -410,57 +376,33 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.7,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3374000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3374000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 8569000000.000001
-			},
-			"country comparison to the world:": ""
+			"usd": 8569000000.000001
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1274000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1274000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "rice, vegetables, fruits; chickens, water buffalo, cattle, goats, eggs",
 		"Industries": "petroleum, petroleum refining, liquefied natural gas, construction",
-		"Industrial production growth rate": {
-			"Industrial production growth rate": "-5.4% (2008 est.)",
-			"country comparison to the world:": ""
-		},
+		"Industrial production growth rate": "-5.4% (2008 est.)",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 3069000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3069000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2980000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2980000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -471,114 +413,66 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 146000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 146000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 16000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 152900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 152900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 237.6,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 237.6,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1100000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1100000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 13400000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13400000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 4200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 9200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 390800000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 390800000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 7024000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7024000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 10670000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10670000000
 		},
 		"Exports - commodities": "crude oil, natural gas, garments",
 		"Exports - partners": "Japan 38.04%, Indonesia 25.95%, South Korea 14.17%, Australia 7.24% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 2610000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2610000000
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, food, chemicals",
 		"Imports - partners": "Singapore 38.4%, Malaysia 18.7%, Japan 7.2%, China 5.42%, Thailand 5.19%, US 4.45%, UK 4.25% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Bruneian dollars (BND) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 80500,
+		"Telephones - mobile cellular": 425000,
 		"Telephone system": {
 			"general assessment:": "service throughout the country is good; international service is good to Southeast Asia, Middle East, Western Europe, and the US",
 			"domestic:": "every service available",
@@ -586,23 +480,17 @@
 		},
 		"Broadcast media": "state-controlled Radio Television Brunei (RTB) operates 4 channels; 3 Malaysian TV stations are available; foreign TV broadcasts are available via satellite and cable systems; RTB operates 5 radio networks broadcasting on multiple frequencies; British Forces Broadcast Service (BFBS) provides radio broadcasts on 2 FM stations; some radio broadcast stations from Malaysia are available via repeaters (2009)",
 		"Internet country code": ".bn",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 50997,
+		"Internet users": 314900
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 2,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 1
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "condensate 33 km; gas 37 km; oil 18 km (2010)",
 		"Roadways": {
 			"total:": {
@@ -619,36 +507,36 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "209 km (navigable by craft drawing less than 1.2 m; the Belait, Brunei, and Tutong rivers are major transport links) (2011)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "209 km (navigable by craft drawing less than 1.2 m; the Belait, Brunei, and Tutong rivers are major transport links) (2011)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 9,
 			"country comparison to the world:": "",
 			"by type:": "chemical tanker 1, liquefied gas 8 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Lumut, Muara, Seria"
 	},
 	"military": {
 		"Military branches": "Royal Brunei Armed Forces: Royal Brunei Land Forces, Royal Brunei Navy, Royal Brunei Air Force (Tentera Udara Diraja Brunei) (2010)",
 		"Military service age and obligation": "18 years of age (est.) for voluntary military service; non-Malays are ineligible to serve (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 112688,
+			"females age 16-49:": 117536
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 95141,
+			"females age 16-49:": 99386
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 3572,
+			"female:": 3465
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 4.5,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "per Letters of Exchange signed in 2009, Malaysia in 2010 ceded two hydrocarbon concession blocks to Brunei in exchange for Brunei's sultan dropping claims to the Limbang corridor, which divides Brunei; nonetheless, Brunei claims a maritime boundary extending as far as a median with Vietnam, thus asserting an implicit claim to Lousia Reef",
-		"Illicit drugs": {}
+		"Illicit drugs": "drug trafficking and illegally importing controlled substances are serious offenses in Brunei and carry a mandatory death penalty"
 	}
 }

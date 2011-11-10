@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, east of Zambia, west and north of Mozambique",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 13,
-				"seconds": 30
+				"deg": 13,
+				"min": 30
 			},
 			"E": {
-				"minutes": 34,
-				"seconds": 0
+				"deg": 34,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 118484,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; Lake Nyasa, some 580 km long, is the country's most prominent physical feature"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 15879,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,32 +122,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.763,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.763,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 40.85,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40.85,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13.22,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.22,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,27 +201,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.43,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.43,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 11,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 920000,
+		"HIV/AIDS - deaths": 51000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +255,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -294,12 +273,12 @@
 			"name:": "Lilongwe",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 13,
-					"seconds": 59
+					"deg": 13,
+					"min": 59
 				},
 				"E": {
-					"minutes": 33,
-					"seconds": 47
+					"deg": 33,
+					"min": 47
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -307,7 +286,6 @@
 		"Administrative divisions": "28 districts; Balaka, Blantyre, Chikwawa, Chiradzulu, Chitipa, Dedza, Dowa, Karonga, Kasungu, Likoma, Lilongwe, Machinga (Kasupe), Mangochi, Mchinji, Mulanje, Mwanza, Mzimba, Neno, Ntcheu, Nkhata Bay, Nkhotakota, Nsanje, Ntchisi, Phalombe, Rumphi, Salima, Thyolo, Zomba",
 		"Independence": "6 July 1964 (from the UK)",
 		"National holiday": "Independence Day (Republic Day), 6 July (1964)",
-		"Constitution": "18 May 1994",
 		"Legal system": "mixed legal system of English common law and customary law; judicial review of legislative acts in the Supreme Court of Appeal",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -341,7 +319,10 @@
 			"FAX:": "[265] (1) 770 471"
 		},
 		"Flag description": "three equal horizontal bands of red (top), black, and green; a white sun disc is centered on the black band, its surrounding 45 white rays extend partially into the red and green bands; black represents the native peoples, red the blood shed in their struggle for freedom, and green the color of nature; the sun represents Malawi's economic progress since attaining independence",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Mulungu dalitsa Malawi\" (Oh God Bless Our Land of Malawi)",
+			"lyrics/music:": "Michael-Fredrick Paul SAUKA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Landlocked Malawi ranks among the world's most densely populated and least developed countries. The economy is predominately agricultural with about 80% of the population living in rural areas. Agriculture, which has benefited from fertilizer subsidies since 2006, accounts for more than one-third of GDP and 90% of export revenues. The performance of the tobacco sector is key to short-term growth as tobacco accounts for more than half of exports. The economy depends on substantial inflows of economic assistance from the IMF, the World Bank, and individual donor nations. In 2006, Malawi was approved for relief under the Heavily Indebted Poor Countries (HIPC) program. In December 2007, the US granted Malawi eligibility status to receive financial support within the Millennium Challenge Corporation (MCC) initiative. The government faces many challenges including developing a market economy, improving educational facilities, facing up to environmental problems, dealing with the rapidly growing problem of HIV/AIDS, and satisfying foreign donors that fiscal discipline is being tightened. Since 2005 President MUTHARIKA'S government has exhibited improved financial discipline under the guidance of Finance Minister Goodall GONDWE and signed a three year Poverty Reduction and Growth Facility worth $56 million with the IMF. Improved relations with the IMF lead other international donors to resume aid as well. The government has announced infrastructure projects that could yield improvements, such as a new oil pipeline, for better fuel access, and the potential for a waterway link through Mozambican rivers to the ocean, for better transportation options. Since 2009, however, Malawi has experienced some setbacks, including a general shortage of foreign exchange, which has damaged its ability to pay for imports, and fuel shortages that hinder transportation and productivity. Investment fell 23% in 2009, and continued to decline in 2010. The government has failed to address barriers to investment such as unreliable power, water shortages, poor telecommunications infrastructure, and the high costs of services.",
@@ -355,11 +336,8 @@
 			"usd": 5053000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -381,10 +359,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5747000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5747000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 90,
@@ -410,16 +385,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 27.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -430,79 +399,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 40.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 15,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 25.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.25,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 626500000
-			},
-			"country comparison to the world:": ""
+			"usd": 626500000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1434000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1434000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1720000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1720000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1771000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1771000000
 		},
 		"Agriculture - products": "tobacco, sugarcane, cotton, tea, corn, potatoes, cassava (tapioca), sorghum, pulses, groundnuts, Macadamia nuts; cattle, goats",
 		"Industries": "tobacco, tea, sugar, sawmill products, cement, consumer goods",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 17.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 1690000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1690000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 1572000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1572000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -513,120 +449,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 8000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 6960,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6960,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-315 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-315 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1189000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1189000000
 		},
 		"Exports - commodities": "tobacco 53%, tea, sugar, cotton, coffee, peanuts, wood products, apparel",
 		"Exports - partners": "Germany 12.37%, Egypt 8.52%, South Africa 7.67%, Zimbabwe 7.55%, US 7.4%, Russia 6.79%, Netherlands 6.64%, Japan 4.1% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1675000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1675000000
 		},
 		"Imports - commodities": "food, petroleum products, semi-manufactures, consumer goods, transportation equipment",
 		"Imports - partners": "South Africa 40.15%, China 6.79%, India 6.73%, France 5.03%, Tanzania 4.81%, Mozambique 4.03% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 301000000
-			},
-			"country comparison to the world:": ""
+			"usd": 301000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 1213000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1213000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Malawian kwachas (MWK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2400000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 175000,
+		"Telephones - mobile cellular": 2400000,
 		"Telephone system": {
 			"general assessment:": "rudimentary; privatization of Malawi Telecommunications (MTL), a necessary step in bringing improvement to telecommunications services, completed in 2006",
 			"domestic:": "limited fixed-line subscribership of about 1 per 100 persons; mobile-cellular services are expanding but network coverage is limited and is based around the main urban areas; mobile-cellular subscribership about 15 per 100 persons",
@@ -634,28 +519,22 @@
 		},
 		"Broadcast media": "radio is the main broadcast medium; state-run radio has the widest geographic broadcasting reach, but about a dozen privately-owned radio stations broadcast in major urban areas; the single television network is government-owned; relays of multiple international broadcasters are available (2007)",
 		"Internet country code": ".mw",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 870,
+		"Internet users": 716400
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 32,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 6,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 26,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 13,
+			"under 914 m:": 12
 		},
 		"Railways": {
 			"total:": {
@@ -680,29 +559,29 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "700 km (on Lake Nyasa [Lake Malawi] and Shire River) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "700 km (on Lake Nyasa [Lake Malawi] and Shire River) (2010)",
+		"Ports and terminals": "Chipoka, Monkey Bay, Nkhata Bay, Nkhotakota, Chilumba"
 	},
 	"military": {
 		"Military branches": "Malawi Defense Forces (MDF): Army (includes Air Wing, Naval Detachment) (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; standard obligation is 2 years of active duty and 5 years reserve service (2007)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 3514
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2132,
+			"females age 16-49:": 2043
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 183683,
+			"female:": 183028
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "disputes with Tanzania over the boundary in Lake Nyasa (Lake Malawi) and the meandering Songwe River remain dormant"
 	}
 }

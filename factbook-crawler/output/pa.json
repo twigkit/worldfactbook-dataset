@@ -7,15 +7,15 @@
 		"Location": "Central South America, northeast of Argentina, southwest of Brazil",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 23,
-				"seconds": 0
+				"deg": 23,
+				"min": 0
 			},
 			"W": {
-				"minutes": 58,
-				"seconds": 0
+				"deg": 58,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 406752,
@@ -89,13 +89,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; lies between Argentina, Bolivia, and Brazil; population concentrated in southern part of country"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 6459,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 28.5,
@@ -122,30 +119,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.284,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.284,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.48,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.48,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.57,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.57,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.08 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.08 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 61,
@@ -210,27 +195,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.11,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.11,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 13000,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -274,7 +247,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +264,12 @@
 			"name:": "Asuncion",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 25,
-					"seconds": 16
+					"deg": 25,
+					"min": 16
 				},
 				"W": {
-					"minutes": 57,
-					"seconds": 40
+					"deg": 57,
+					"min": 40
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
@@ -302,7 +278,6 @@
 		"Administrative divisions": "17 departments (departamentos, singular - departamento) and 1 capital city*; Alto Paraguay, Alto Parana, Amambay, Asuncion*, Boqueron, Caaguazu, Caazapa, Canindeyu, Central, Concepcion, Cordillera, Guaira, Itapua, Misiones, Neembucu, Paraguari, Presidente Hayes, San Pedro",
 		"Independence": "14 May 1811 (from Spain)",
 		"National holiday": "Independence Day, 14 May 1811 (observed 15 May)",
-		"Constitution": "promulgated 20 June 1992",
 		"Legal system": "civil law system with influences from Argentine, Spanish, Roman, and French civil law models; judicial review of legislative acts in Supreme Court of Justice",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory up to age 75",
@@ -339,7 +314,10 @@
 		"Flag description": {
 			"Flag description": "three equal, horizontal bands of red (top), white, and blue with an emblem centered in the white band; unusual flag in that the emblem is different on each side; the obverse (hoist side at the left) bears the national coat of arms (a yellow five-pointed star within a green wreath capped by the words REPUBLICA DEL PARAGUAY, all within two circles); the reverse (hoist side at the right) bears a circular seal of the treasury (a yellow lion below a red Cap of Liberty and the words PAZ Y JUSTICIA (Peace and Justice)); red symbolizes bravery and patriotism, white represents integrity and peace, and blue denotes liberty and generosity"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Paraguayos, Republica o muerte!\" (Paraguayans, The Republic or Death!)",
+			"lyrics/music:": "Francisco Esteban ACUNA de Figueroa/disputed"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Landlocked Paraguay has a market economy distinguished by a large informal sector, featuring re-export of imported consumer goods to neighboring countries, as well as the activities of thousands of microenterprises and urban street vendors. A large percentage of the population, especially in rural areas, derives its living from agricultural activity, often on a subsistence basis. Because of the importance of the informal sector, accurate economic measures are difficult to obtain. On a per capita basis, real income has stagnated at 1980 levels. The economy grew rapidly between 2003 and 2008 as growing world demand for commodities combined with high prices and favorable weather to support Paraguay's commodity-based export expansion. Paraguay is the sixth largest soy producer in the world. Drought hit in 2008, reducing agricultural exports and slowing the economy even before the onset of the global recession. The economy fell 3.8% in 2009, as lower world demand and commodity prices caused exports to contract. The government reacted by introducing fiscal and monetary stimulus packages. Growth resumed at a 14.5% level in 2010, the highest in South America. Political uncertainty, corruption, limited progress on structural reform, and deficient infrastructure are the main obstacles to growth.",
@@ -353,11 +331,8 @@
 			"usd": 18480000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 15.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +354,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3038000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3038000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 26.5,
@@ -398,11 +370,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 5.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.7,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 18.8,
@@ -418,16 +387,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 53.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 17.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -438,77 +401,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 22.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 20,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 28.26,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28.26,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 2600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2600000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 5030000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5030000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 4395000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4395000000
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2010)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2010)",
 		"Agriculture - products": "cotton, sugarcane, soybeans, corn, wheat, tobacco, cassava (tapioca), fruits, vegetables; beef, pork, eggs, milk; timber",
 		"Industries": "sugar, cement, textiles, beverages, wood products, steel, metallurgic, electric power",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 53190000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 53190000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 8500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8500000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 45140000000,
@@ -519,125 +449,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 30.96,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30.96,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 27000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 25100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25100,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-391 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-391 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 7972000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7972000000
 		},
 		"Exports - commodities": "soybeans, feed, cotton, meat, edible oils, electricity, wood, leather",
 		"Exports - partners": "Brazil 21%, Uruguay 17%, Chile 12%, Argentina 11%, Russia 4% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 9567000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9567000000
 		},
 		"Imports - commodities": "road vehicles, consumer goods, tobacco, petroleum products, electrical machinery, tractors, chemicals, vehicle parts",
 		"Imports - partners": "China 30%, Brazil 23%, Argentina 16%, US 5% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 4130000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4130000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2445000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2445000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 3393000
-			},
-			"country comparison to the world:": ""
+			"usd": 3393000
 		},
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "guarani (PYG) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5619000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 387300,
+		"Telephones - mobile cellular": 5619000,
 		"Telephone system": {
 			"general assessment:": "the fixed-line market is a state monopoly and fixed-line telephone service is meager; principal switching center is in Asuncion",
 			"domestic:": "deficiencies in provision of fixed-line service have resulted in a rapid expansion of mobile-cellular services fostered by competition among multiple providers",
@@ -645,28 +521,22 @@
 		},
 		"Broadcast media": "6 privately-owned TV stations; about 75 commercial and community radio stations broadcasting; 1 state-owned radio network (2010)",
 		"Internet country code": ".py",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 167281,
+		"Internet users": 1105000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 800,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 15,
+			"over 3,047 m:": 3,
+			"1,524 to 2,437 m:": 7,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 785,
+			"1,524 to 2,437 m:": 25,
+			"914 to 1,523 m:": 290,
+			"under 914 m:": 470
 		},
 		"Railways": {
 			"total:": {
@@ -691,37 +561,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "3,100 km (primarily on the Paraguay and Paran� river systems) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "3,100 km (primarily on the Paraguay and Paran� river systems) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 23,
 			"country comparison to the world:": "",
 			"by type:": "cargo 15, carrier 1, container 2, passenger 1, petroleum tanker 3, roll on/roll off 1",
 			"foreign-owned:": "6 (Argentina 5, Netherlands 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Asuncion, Villeta, San Antonio, Encarnacion"
 	},
 	"military": {
 		"Military branches": "Army, National Navy (Armada Nacional, includes Marine Corps, Naval Aviation), Air Force (Fuerza Aerea Paraguay, FAP) (2010)",
 		"Military service age and obligation": "18 years of age for compulsory and voluntary military service; conscript service obligation - 12 months for Army, 24 months for Navy; volunteers for the Air Force must be younger than 22 years of age with a secondary school diploma (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1678,
+			"females age 16-49:": 1675
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1409,
+			"females age 16-49:": 1433
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 73367,
+			"female:": 71801
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "unruly region at convergence of Argentina-Brazil-Paraguay borders is locus of money laundering, smuggling, arms and illegal narcotics trafficking, and fundraising for extremist organizations",
-		"Illicit drugs": {}
+		"Illicit drugs": "major illicit producer of cannabis, most or all of which is consumed in Brazil, Argentina, and Chile; transshipment country for Andean cocaine headed for Brazil, other Southern Cone markets, and Europe; weak border controls, extensive corruption and money-laundering activity, especially in the Tri-Border Area; weak anti-money-laundering laws and enforcement"
 	}
 }

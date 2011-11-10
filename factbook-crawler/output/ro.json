@@ -7,15 +7,15 @@
 		"Location": "Southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 46,
-				"seconds": 0
+				"deg": 46,
+				"min": 0
 			},
 			"E": {
-				"minutes": 25,
-				"seconds": 0
+				"deg": 25,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 238391,
@@ -103,13 +103,10 @@
 			"party to:": "Air Pollution, Air Pollution-Persistent Organic Pollutants, Antarctic-Environmental Protocol, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "controls most easily traversable land route between the Balkans, Moldova, and Ukraine"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 21904,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 14.8,
@@ -135,28 +132,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.252% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.252% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.55,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.55,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.81,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.81,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.26 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.26 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 57,
@@ -221,27 +206,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.29,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.29,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 16000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Sanitation facility access": {},
 		"Nationality": {
 			"noun:": "Romanian(s)",
@@ -279,7 +252,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -293,12 +269,12 @@
 			"name:": "Bucharest",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 44,
-					"seconds": 26
+					"deg": 44,
+					"min": 26
 				},
 				"E": {
-					"minutes": 26,
-					"seconds": 6
+					"deg": 26,
+					"min": 6
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -307,7 +283,6 @@
 		"Administrative divisions": "41 counties (judete, singular - judet) and 1 municipality* (municipiu); Alba, Arad, Arges, Bacau, Bihor, Bistrita-Nasaud, Botosani, Braila, Brasov, Bucuresti (Bucharest)*, Buzau, Calarasi, Caras-Severin, Cluj, Constanta, Covasna, Dimbovita, Dolj, Galati, Gorj, Giurgiu, Harghita, Hunedoara, Ialomita, Iasi, Ilfov, Maramures, Mehedinti, Mures, Neamt, Olt, Prahova, Salaj, Satu Mare, Sibiu, Suceava, Teleorman, Timis, Tulcea, Vaslui, Vilcea, Vrancea",
 		"Independence": "9 May 1877 (independence proclaimed from the Ottoman Empire; independence recognized on 13 July 1878 by the Treaty of Berlin); 26 March 1881 (kingdom proclaimed); 30 December 1947 (republic proclaimed)",
 		"National holiday": "Unification Day (of Romania and Transylvania), 1 December (1918)",
-		"Constitution": "8 December 1991; revised 29 October 2003",
 		"Legal system": "civil law system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -346,7 +321,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France, the colors are those of the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Desteapta-te romane!\" (Wake up, Romanian!)",
+			"lyrics/music:": "Andrei MURESIANU/Anton PANN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Romania, which joined the European Union on 1 January 2007, began the transition from Communism in 1989 with a largely obsolete industrial base and a pattern of output unsuited to the country's needs. The country emerged in 2000 from a punishing three-year recession thanks to strong demand in EU export markets. Domestic consumption and investment have fueled strong GDP growth in recent years, but have led to large current account imbalances. Romania's macroeconomic gains have only recently started to spur creation of a middle class and address Romania's widespread poverty. Corruption and red tape continue to handicap its business environment. Inflation rose in 2007-08, driven in part by strong consumer demand and high wage growth, rising energy costs, a nation-wide drought affecting food prices, and a relaxation of fiscal discipline. Romania's GDP contracted markedly in the last quarter of 2008 as the country began to feel the effects of a global downturn in financial markets and trade, and GDP fell more than 7% in 2009, prompting Bucharest to seek a $26 billion emergency assistance package from the IMF, the EU, and other international lenders. Drastic austerity measures, as part of Romania's IMF-led agreement led to a further 1.9% GDP contraction in 2010. The economy is expected to return to positive growth in 2011.",
@@ -359,10 +337,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 161600000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-1.3% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-1.3% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -383,10 +358,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 9350000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 9350000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 29.7,
@@ -402,11 +374,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 8.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.2,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 25,
@@ -422,16 +391,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 32,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -442,73 +405,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 34.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 17.28,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.28,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 24390000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24390000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 63670000000
-			},
-			"country comparison to the world:": ""
+			"usd": 63670000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 77460000000
-			},
-			"country comparison to the world:": ""
+			"usd": 77460000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 30320000000
-			},
-			"country comparison to the world:": ""
+			"usd": 30320000000
 		},
 		"Agriculture - products": "wheat, corn, barley, sugar beets, sunflower seed, potatoes, grapes; eggs, sheep",
 		"Industries": "electric machinery and equipment, textiles and footwear, light machinery and auto assembly, mining, timber, construction materials, metallurgy, chemicals, food processing, petroleum refining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 58280000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 58280000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 49440000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 49440000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 5169000000,
@@ -519,130 +452,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 117000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 117000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 214000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 214000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 115600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 115600,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 217000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 217000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 600000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 600000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 11420000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11420000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 16920000000.000002,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16920000000.000002,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 5500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5500000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 63000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 63000000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-7.934 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-7.934 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 51910000000
-			},
-			"country comparison to the world:": ""
+			"usd": 51910000000
 		},
 		"Exports - commodities": "machinery and equipment, textiles and footwear, metals and metal products, machinery and equipment, minerals and fuels, chemicals, agricultural products",
 		"Exports - partners": "Germany 18.76%, Italy 15.42%, France 8.2%, Turkey 4.99%, Hungary 4.33% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 59840000000
-			},
-			"country comparison to the world:": ""
+			"usd": 59840000000
 		},
 		"Imports - commodities": "machinery and equipment, fuels and minerals, chemicals, textile and products, metals, agricultural products",
 		"Imports - partners": "Germany 17.3%, Italy 11.78%, Hungary 8.36%, France 6.14%, China 4.91%, Austria 4.75% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 50510000000
-			},
-			"country comparison to the world:": ""
+			"usd": 50510000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 108900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 108900000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 80160000000
-			},
-			"country comparison to the world:": ""
+			"usd": 80160000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 1831000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1831000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "lei (RON) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 5313000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 25377000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 5313000,
+		"Telephones - mobile cellular": 25377000,
 		"Telephone system": {
 			"general assessment:": "the telecommunications sector is being expanded and modernized; domestic and international service improving rapidly, especially mobile-cellular services",
 			"domestic:": "more than 90 percent of telephone network is automatic; fixed-line teledensity exceeds 20 telephones per 100 persons; mobile-cellular teledensity, expanding rapidly, roughly 115 telephones per 100 persons",
@@ -650,30 +526,24 @@
 		},
 		"Broadcast media": "a mixture of public and private TV stations; the public broadcaster operates multiple stations; roughly 100 private national, regional, and local stations operating; more than 75% of households are connected to multi-channel cable or satellite TV systems that provide access to Romanian, European, and international stations; state-owned public radio broadcaster operates 4 national networks and regional and local stations; more than 100 private radio stations broadcasting (2008)",
 		"Internet country code": ".ro",
-		"Internet hosts": {
-			"Internet hosts": 2464000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2464000,
+		"Internet users": 7787000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 54,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 26,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 10,
+			"1,524 to 2,437 m:": 11,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 28,
+			"914 to 1,523 m:": 7,
+			"under 914 m:": 21
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "gas 3,652 km; oil 2,424 km (2010)",
 		"Railways": {
 			"total:": {
@@ -700,37 +570,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,731 km (includes 1,075 km on the Danube River, 524 km on secondary branches, and 132 km on canals) (2006)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "1,731 km (includes 1,075 km on the Danube River, 524 km on secondary branches, and 132 km on canals) (2006)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 15,
 			"country comparison to the world:": "",
 			"by type:": "cargo 10, passenger/cargo 2, petroleum tanker 2, roll on/roll off 1",
 			"registered in other countries:": "35 (Cambodia 1, Georgia 7, Liberia 3, Malta 8, Marshall Islands 2, Moldova 2, North Korea 1, Panama 2, Saint Vincent and the Grenadines 1, Sierra Leone 4, Syria 1, Togo 1, unknown 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Braila, Constanta, Galati (Galatz), Mancanului (Giurgiu), Midia, Tulcea"
 	},
 	"military": {
 		"Military branches": "Land Forces, Naval Forces, Romanian Air Force (Fortele Aeriene Romane, FAR), Special Operations (2010)",
 		"Military service age and obligation": "18-35 years of age for male and female voluntary military service; conscription officially ended October 2006; all military inductees (including women) contract for an initial 5-year term of service, with subsequent successive contracts for 3-year terms until age 36 (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5601,
+			"females age 16-49:": 5428
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4550,
+			"females age 16-49:": 4507
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 117798,
+			"female:": 111607
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "the ICJ gave Ukraine until December 2006 to reply, and Romania until June 2007 to issue a rejoinder, in their dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania also opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
-		"Illicit drugs": {}
+		"Illicit drugs": "major transshipment point for Southwest Asian heroin transiting the Balkan route and small amounts of Latin American cocaine bound for Western Europe; although not a significant financial center, role as a narcotics conduit leaves it vulnerable to laundering, which occurs via the banking system, currency exchange houses, and casinos"
 	}
 }

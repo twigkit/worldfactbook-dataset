@@ -7,15 +7,15 @@
 		"Location": "Central Europe, between Germany, Poland, Slovakia, and Austria",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 49,
-				"seconds": 45
+				"deg": 49,
+				"min": 45
 			},
 			"E": {
-				"minutes": 15,
-				"seconds": 30
+				"deg": 15,
+				"min": 30
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 78867,
@@ -89,13 +89,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic-Environmental Protocol, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; strategically located astride some of oldest and most significant land routes in Europe; Moravian Gate is a traditional military corridor between the North European Plain and the Danube in central Europe"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 10190,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 13.5,
@@ -121,30 +118,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.12% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.12% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 8.7,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.7,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.86,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.86,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.97,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.97,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -210,24 +195,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.26,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.26,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 2000,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -266,7 +239,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -280,12 +256,12 @@
 			"name:": "Prague",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 50,
-					"seconds": 5
+					"deg": 50,
+					"min": 5
 				},
 				"E": {
-					"minutes": 14,
-					"seconds": 28
+					"deg": 14,
+					"min": 28
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -294,7 +270,6 @@
 		"Administrative divisions": "13 regions (kraje, singular - kraj) and 1 capital city* (hlavni mesto); Jihocesky (South Bohemia), Jihomoravsky (South Moravia), Karlovarsky, Kralovehradecky, Liberecky, Moravskoslezsky (Moravia-Silesia), Olomoucky, Pardubicky, Plzensky (Pilsen), Praha (Prague)*, Stredocesky (Central Bohemia), Ustecky, Vysocina, Zlinsky",
 		"Independence": "1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia); note - although 1 January is the day the Czech Republic came into being, the Czechs generally consider 28 October 1918, the day the former Czechoslovakia declared its independence from the Austro-Hungarian Empire, as their independence day",
 		"National holiday": "Czechoslovak Founding Day, 28 October (1918)",
-		"Constitution": "ratified 16 December 1992, effective 1 January 1993; amended several times",
 		"Legal system": "civil law system based on former Austro-Hungarian civil codes and socialist theory; note - legislation is actively modernizing the legal system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -331,7 +306,10 @@
 		"Flag description": {
 			"Flag description": "two equal horizontal bands of white (top) and red with a blue isosceles triangle based on the hoist side"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Kde domov muj?\" (Where is My Home?)",
+			"lyrics/music:": "Josef Kajetan TYL/Frantisek Jan SKROUP"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Czech Republic is a stable and prosperous market economy, which harmonized its laws and regulations with those of the EU prior to its EU accession in 2004. While the conservative, inward looking Czech financial system has remained relative healthy, the small, open, export-driven Czech economy remains very sensitive to changes in the economic performance of its main export markets, especially Germany. When Western Europe and Germany fell into recession in late 2008, demand for Czech goods plunged, leading to double digit drops in industrial production and exports. As a result, real GDP fell 4.1% in 2009, with most of the decline occurring during the first quarter. Real GDP, however, has slowly recovered with positive quarter-on-quarter growth starting in the second half of 2009 and continuing throughout 2010. The auto industry remains the largest single industry and, together with its suppliers, accounts for as much as 20% of Czech manufacturing. The Czech Republic produced more than a million cars for the first time in 2010, over 80% of which were exported. Foreign and domestic businesses alike voice concerns about corruption, especially in public procurement. Other long term challenges include dealing with a rapidly aging population, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.",
@@ -345,11 +323,8 @@
 			"usd": 192200000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -371,10 +346,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5370000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5370000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 3.1,
@@ -390,11 +362,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.1,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -404,16 +373,10 @@
 			},
 			"highest 10%:": "NA (2009)"
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 26,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -424,18 +387,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 40,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"Central bank discount rate": {
@@ -445,58 +402,34 @@
 			"country comparison to the world:": ""
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 96820000000
-			},
-			"country comparison to the world:": ""
+			"usd": 96820000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 138600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 138600000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 119500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 119500000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 73100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 73100000000
 		},
 		"Agriculture - products": "wheat, potatoes, sugar beets, hops, fruit; pigs, poultry",
 		"Industries": "motor vehicles, metallurgy, machinery and equipment, glass, armaments",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 15.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.9,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 82250000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 82250000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 53420000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 53420000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 22230000000,
@@ -507,130 +440,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 10970,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10970,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 207600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 207600,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 29670,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29670,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 219900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 219900,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 15000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 178000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 178000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 8164000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8164000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 1111000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1111000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 9683000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9683000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 3072000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3072000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-5.956 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-5.956 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 116500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 116500000000
 		},
 		"Exports - commodities": "machinery and transport equipment, raw materials and fuel, chemicals",
 		"Exports - partners": "Germany 31.7%, Slovakia 8.7%, Poland 6.2%, France 5.5%, UK 4.9%, Austria 4.7%, Italy 4.5% (2010 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 109200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 109200000000
 		},
 		"Imports - commodities": "machinery and transport equipment, raw materials and fuels, chemicals",
 		"Imports - partners": "Germany 25.6%, China 11.9%, Poland 6.5%, Russia 5.4%, Slovakia 5.2% (2010 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 42340000000
-			},
-			"country comparison to the world:": ""
+			"usd": 42340000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 86790000000
-			},
-			"country comparison to the world:": ""
+			"usd": 86790000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 130400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 130400000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 14670000000
-			},
-			"country comparison to the world:": ""
+			"usd": 14670000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "koruny (CZK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 2092000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 14258000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2092000,
+		"Telephones - mobile cellular": 14258000,
 		"Telephone system": {
 			"general assessment:": "privatization and modernization of the Czech telecommunication system got a late start but is advancing steadily; virtually all exchanges now digital; existing copper subscriber systems enhanced with Asymmetric Digital Subscriber Line (ADSL) equipment to accommodate Internet and other digital signals; trunk systems include fiber-optic cable and microwave radio relay",
 			"domestic:": "access to the fixed-line telephone network expanded throughout the 1990s but the number of fixed line connections has been dropping since then; mobile telephone usage increased sharply beginning in the mid-1990s and the number of cellular telephone subscriptions now greatly exceeds the population",
@@ -638,31 +514,25 @@
 		},
 		"Broadcast media": "roughly 130 television broadcasters operating some 350 television channels with 4 publicly operated and the remainder in private hands; 13 television stations have national coverage with 4 being publicly operated; cable and satellite TV subscription services are available; about 70 radio broadcasters are registered operating roughly 85 radio stations with 15 stations publicly operated; 16 radio stations provide national coverage with the remainder local or regional (2008)",
 		"Internet country code": ".cz",
-		"Internet hosts": {
-			"Internet hosts": 3494000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 3494000,
+		"Internet users": 6681000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 122,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 44,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 9,
+			"1,524 to 2,437 m:": 12,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 78,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 27,
+			"under 914 m:": 50
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 7,010 km; oil 547 km; refined products 94 km (2010)",
 		"Railways": {
 			"total:": {
@@ -681,35 +551,35 @@
 			"country comparison to the world:": "",
 			"paved:": "127,719 km (includes 729 km of expressways) (2009)"
 		},
-		"Waterways": {
-			"Waterways": "664 km (principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "664 km (principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals) (2010)",
 		"Merchant marine": {
 			"registered in other countries:": "1 (Saint Vincent and the Grenadines 1) (2010)",
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Decin, Prague, Usti nad Labem"
 	},
 	"military": {
 		"Military branches": "Army of the Czech Republic (ACR): Joint Forces Command (includes Land Forces and Air Forces), Support and Training Forces Command (2011)",
 		"Military service age and obligation": "18-28 years of age for male and female voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2506,
+			"females age 16-49:": 2407
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2072,
+			"females age 16-49:": 1988
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 49999,
+			"female:": 47501
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.46,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "while threats of international legal action never materialized in 2007, 915,220 Austrians, with the support of the popular Freedom Party, signed a petition in January 2008, demanding that Austria block the Czech Republic's accession to the EU unless Prague closes its controversial Soviet-style nuclear plant in Temelin, bordering Austria",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy (2008)"
 	}
 }

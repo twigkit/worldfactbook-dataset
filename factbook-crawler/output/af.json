@@ -7,15 +7,15 @@
 		"Location": "Southern Asia, north and west of Pakistan, east of Iran",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 33,
-				"seconds": 0
+				"deg": 33,
+				"min": 0
 			},
 			"E": {
-				"minutes": 65,
-				"seconds": 0
+				"deg": 65,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 652230,
@@ -89,11 +89,11 @@
 			"party to:": "Biodiversity, Climate Change, Desertification, Endangered Species, Environmental Modification, Marine Dumping, Ozone Layer Protection",
 			"signed, but not ratified:": "Hazardous Wastes, Law of the Sea, Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; the Hindu Kush mountains that run northeast to southwest divide the northern provinces from the rest of the country; the highest peaks are in the northern Vakhan (Wakhan Corridor)"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 29835,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -122,32 +122,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.375,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.375,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 37.83,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 37.83,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 17.39,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.39,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 3.31,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.31,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -213,18 +201,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.39,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.39,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.01,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.01,
+			"unit": "%"
 		},
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
 		"HIV/AIDS - deaths": "NA",
@@ -272,7 +254,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -287,12 +269,12 @@
 			"name:": "Kabul",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 34,
-					"seconds": 31
+					"deg": 34,
+					"min": 31
 				},
 				"E": {
-					"minutes": 69,
-					"seconds": 11
+					"deg": 69,
+					"min": 11
 				}
 			},
 			"time difference:": "UTC+4.5 (9.5 hours ahead of Washington, DC during Standard Time)"
@@ -300,7 +282,6 @@
 		"Administrative divisions": "34 provinces (welayat, singular - welayat); Badakhshan, Badghis, Baghlan, Balkh, Bamyan, Daykundi, Farah, Faryab, Ghazni, Ghor, Helmand, Herat, Jowzjan, Kabul, Kandahar, Kapisa, Khost, Kunar, Kunduz, Laghman, Logar, Nangarhar, Nimroz, Nuristan, Paktika, Paktiya, Panjshir, Parwan, Samangan, Sar-e Pul, Takhar, Uruzgan, Wardak, Zabul",
 		"Independence": "19 August 1919 (from UK control over Afghan foreign affairs)",
 		"National holiday": "Independence Day, 19 August (1919)",
-		"Constitution": "constitution drafted 14 December 2003-4 January 2004; signed 16 January 2004; ratified 26 January 2004",
 		"Legal system": "mixed legal system of civil, customary, and Islamic law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -339,7 +320,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of black (hoist side), red, and green, with the national emblem in white centered on the red band and slightly overlapping the other two bands; the center of the emblem features a mosque with pulpit and flags on either side, below the mosque are numerals for the solar year 1298 (1919 in the Gregorian calendar, the year of Afghan independence from the UK); this central image is circled by a border consisting of sheaves of wheat on the left and right, in the upper-center is an Arabic inscription of the Shahada (Muslim creed) below which are rays of the rising sun over the Takbir (Arabic expression meaning \"God is great\"), and at bottom center is a scroll bearing the name Afghanistan; black signifies the past, red is for the blood shed for independence, and green can represent either hope for the future, agricultural prosperity, or Islam"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Milli Surood\" (National Anthem)",
+			"lyrics/music:": "Abdul Bari JAHANI/Babrak WASA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Afghanistan's economy is recovering from decades of conflict. The economy has improved significantly since the fall of the Taliban regime in 2001 largely because of the infusion of international assistance, the recovery of the agricultural sector, and service sector growth. Despite the progress of the past few years, Afghanistan is extremely poor, landlocked, and highly dependent on foreign aid, agriculture, and trade with neighboring countries. Much of the population continues to suffer from shortages of housing, clean water, electricity, medical care, and jobs. Criminality, insecurity, weak governance, and the Afghan Government's inability to extend rule of law to all parts of the country pose challenges to future economic growth. Afghanistan's living standards are among the lowest in the world. While the international community remains committed to Afghanistan's development, pledging over $67 billion at four donors' conferences since 2002, the Government of Afghanistan will need to overcome a number of challenges, including low revenue collection, anemic job creation, high levels of corruption, weak government capacity, and poor public infrastructure.",
@@ -353,11 +337,8 @@
 			"usd": 15610000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 8.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +360,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 15000000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 15000000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 78.6,
@@ -398,11 +376,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 35,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 36,
@@ -421,54 +396,33 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 13.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 15,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 3943000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3943000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 4149000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4149000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 363600000
-			},
-			"country comparison to the world:": ""
+			"usd": 363600000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "opium, wheat, fruits, nuts; wool, mutton, sheepskins, lambskins",
 		"Industries": "small-scale production of textiles, soap, furniture, shoes, fertilizer, apparel, food-products, non-alcoholic beverages, mineral water, cement; handwoven carpets; natural gas, coal, copper",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 285500000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 285500000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 231100000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 231100000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -479,79 +433,46 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 5000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 4404,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4404,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 30000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 30000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 49550000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 49550000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.475 billion (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.475 billion (2009 est.)",
 		"Exports": {
 			"Exports": {
 				"usd": 547000000
@@ -561,30 +482,18 @@
 		"Exports - commodities": "opium, fruits and nuts, handwoven carpets, wool, cotton, hides and pelts, precious and semi-precious gems",
 		"Exports - partners": "US 26.47%, India 23.09%, Pakistan 17.36%, Tajikistan 12.51% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 5300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5300000000
 		},
 		"Imports - commodities": "machinery and other capital goods, food, textiles, petroleum products",
 		"Imports - partners": "Pakistan 26.78%, US 24.81%, India 5.15%, Germany 5.06%, Russia 4.04% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 2700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2700000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "afghanis (AFA) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 12000000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 129300,
+		"Telephones - mobile cellular": 12000000,
 		"Telephone system": {
 			"general assessment:": "limited fixed-line telephone service; an increasing number of Afghans utilize mobile-cellular phone networks",
 			"domestic:": "aided by the presence of multiple providers, mobile-cellular telephone service continues to improve rapidly",
@@ -592,36 +501,27 @@
 		},
 		"Broadcast media": "state-owned broadcaster, Radio Television Afghanistan (RTA), operates a series of radio and television stations in Kabul and the provinces; an estimated 50 private radio stations, 8 TV networks, and about a dozen international broadcasters are available; more than 30 community-based radio stations broadcasting (2007)",
 		"Internet country code": ".af",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {
-			"Internet users": 1000000,
-			"country comparison to the world:": ""
-		},
-		"Communications - note": {}
+		"Internet hosts": 46,
+		"Internet users": 1000000,
+		"Communications - note": "Internet access is growing through Internet cafes as well as public \"telekiosks\" in Kabul (2005)"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 53,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 19,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 8,
+			"914 to 1,523 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 34,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 14,
+			"914 to 1,523 m:": 6,
+			"under 914 m:": 9
 		},
-		"Heliports": null,
+		"Heliports": 11,
 		"Pipelines": "gas 466 km (2010)",
 		"Roadways": {
 			"total:": {
@@ -638,34 +538,34 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,200 km; (chiefly Amu Darya, which handles vessels up to 500 DWT) (2008)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "1,200 km; (chiefly Amu Darya, which handles vessels up to 500 DWT) (2008)",
+		"Ports and terminals": "Kheyrabad, Shir Khan"
 	},
 	"military": {
 		"Military branches": "Afghan Armed Forces: Afghan National Army (ANA, includes Afghan Air Force (AAF)) (2011)",
 		"Military service age and obligation": "22 years of age; inductees are contracted into service for a 4-year term (2005)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7056,
+			"females age 16-49:": 6653
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4050,
+			"females age 16-49:": 3797
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 392116,
+			"female:": 370295
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey; Iran protests Afghanistan's restricting flow of dammed Helmand River tributaries during drought; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan which serve as bases for foreign terrorists and other illegal activities; Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "132,246 (mostly Pashtuns and Kuchis displaced in south and west due to drought and instability) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "world's largest producer of opium; poppy cultivation decreased 22% to 157,000 hectares in 2008 but remains at a historically high level; less favorable growing conditions in 2008 reduced potential opium production to 5,500 metric tons, down 31 percent from 2007; if the entire opium crop were processed, 648 metric tons of pure heroin potentially could be produced; the Taliban and other antigovernment groups participate in and profit from the opiate trade, which is a key source of revenue for the Taliban inside Afghanistan; widespread corruption and instability impede counterdrug efforts; most of the heroin consumed in Europe and Eurasia is derived from Afghan opium; vulnerable to drug money laundering through informal financial networks; regional source of hashish (2008)"
 	}
 }

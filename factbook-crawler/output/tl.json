@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of three atolls in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 9,
-				"seconds": 0
+				"deg": 9,
+				"min": 0
 			},
 			"W": {
-				"minutes": 172,
-				"seconds": 0
+				"deg": 172,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 12,
@@ -74,13 +74,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "lies in Pacific typhoon belt",
 		"Environment - current issues": "limited natural resources and overcrowding are contributing to emigration to New Zealand",
-		"Geography - note": {}
+		"Geography - note": "consists of three atolls (Atafu, Fakaofo, Nukunonu), each with a lagoon surrounded by a number of reef-bound islets of varying length and rising to over 3 m above sea level"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1384,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 42,
@@ -95,10 +92,7 @@
 				"unit": "%"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.011% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.011% (2011 est.)",
 		"Birth rate": "NA",
 		"Death rate": "NA",
 		"Net migration rate": "NA",
@@ -153,7 +147,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -169,7 +163,6 @@
 		"Administrative divisions": "none (territory of New Zealand)",
 		"Independence": "none (territory of New Zealand)",
 		"National holiday": "Waitangi Day (Treaty of Waitangi established British sovereignty over New Zealand), 6 February (1840)",
-		"Constitution": "administered under the Tokelau Islands Act of 1948; amended in 1970",
 		"Legal system": "common law system of New Zealand",
 		"Suffrage": "21 years of age; universal",
 		"Executive branch": {
@@ -190,33 +183,27 @@
 		"Diplomatic representation in the US": "none (territory of New Zealand)",
 		"Diplomatic representation from the US": "none (territory of New Zealand)",
 		"Flag description": "a yellow stylized Tokelauan canoe on a dark blue field sails toward the manu - the Southern Cross constellation of four, white, five-pointed stars at the hoist side; the Southern Cross represents the role of Christianity in Tokelauan culture and symbolizes the country's navigating into the future, the color yellow indicates happiness and peace, and the blue field represents the ocean on which the community relies",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Te Atua\" (For the Almighty)",
+			"lyrics/music:": "unknown/Falani KALOLO"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Tokelau's small size (three villages), isolation, and lack of resources greatly restrain economic development and confine agriculture to the subsistence level. The people rely heavily on aid from New Zealand - about $10 million annually in 2008 and 2009 - to maintain public services. New Zealand's support amounts to 80% of Tokelau's recurrent government budget. An international trust fund, currently worth nearly US$32 million, was established in 2004 to provide Tokelau an independent source of revenue. The principal sources of revenue come from sales of copra, postage stamps, souvenir coins, and handicrafts. Money is also remitted to families from relatives in New Zealand.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 1500000
-			},
-			"country comparison to the world:": ""
+			"usd": 1500000
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": "NA%",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 440,
 		"Unemployment rate": "NA%",
 		"Population below poverty line": "NA%",
 		"Budget": {
@@ -233,26 +220,17 @@
 		"Electricity - production": "NA kWh",
 		"Electricity - consumption": "NA kWh",
 		"Exports": {
-			"Exports": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"Exports - commodities": "stamps, copra, handicrafts",
 		"Imports": {
-			"Imports": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"Imports - commodities": "foodstuffs, building materials, fuel",
-		"Exchange rates": {}
+		"Exchange rates": "New Zealand dollars (NZD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 300,
 		"Telephone system": {
 			"general assessment:": "modern satellite-based communications system",
 			"domestic:": "radiotelephone service between islands",
@@ -260,19 +238,16 @@
 		},
 		"Broadcast media": "no broadcast television stations; each atoll operates a radio service that provides shipping news and weather reports (2009)",
 		"Internet country code": ".tk",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 526,
+		"Internet users": 800
 	},
 	"transport": {
-		"Ports and terminals": {}
+		"Ports and terminals": "none; offshore anchorage only"
 	},
 	"military": {
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of New Zealand"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Tokelau included American Samoa's Swains Island (Olohega) in its 2006 draft independence constitution"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 25,
-				"seconds": 0
+				"deg": 25,
+				"min": 0
 			},
 			"E": {
-				"minutes": 45,
-				"seconds": 0
+				"deg": 45,
+				"min": 0
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2149,
@@ -102,11 +102,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "extensive coastlines on Persian Gulf and Red Sea provide great leverage on shipping (especially crude oil) through Persian Gulf and Suez Canal"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 26131,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -135,30 +135,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.536,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.536,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.34,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.34,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.33,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.33,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.64 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.64 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 82,
@@ -223,18 +211,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.31,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.31,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.01,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.01,
+			"unit": "%"
 		},
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
 		"HIV/AIDS - deaths": "NA",
@@ -275,7 +257,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -289,12 +274,12 @@
 			"name:": "Riyadh",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 24,
-					"seconds": 38
+					"deg": 24,
+					"min": 38
 				},
 				"E": {
-					"minutes": 46,
-					"seconds": 43
+					"deg": 46,
+					"min": 43
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
@@ -302,7 +287,6 @@
 		"Administrative divisions": "13 provinces (mintaqat, singular - mintaqah); Al Bahah, Al Hudud ash Shamaliyah (Northern Border), Al Jawf, Al Madinah (Medina), Al Qasim, Ar Riyad (Riyadh), Ash Sharqiyah (Eastern), 'Asir, Ha'il, Jizan, Makkah (Mecca), Najran, Tabuk",
 		"Independence": "23 September 1932 (unification of the kingdom)",
 		"National holiday": "Unification of the Kingdom, 23 September (1932)",
-		"Constitution": "governed according to Islamic law; the Basic Law that articulates the government's rights and responsibilities was promulgated by royal decree in 1992",
 		"Legal system": "Islamic (sharia) legal system with some elements of Egyptian, French, and customary law; note - several secular codes have been introduced; commercial disputes handled by special committees",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "21 years of age; male",
@@ -337,7 +321,10 @@
 		"Flag description": {
 			"Flag description": "green, a traditional color in Islamic flags, with the Shahada or Muslim creed in large white Arabic script (translated as \"There is no god but God; Muhammad is the Messenger of God\") above a white horizontal saber (the tip points to the hoist side); design dates to the early twentieth century and is closely associated with the Al Saud family which established the kingdom in 1932; the flag is manufactured with differing obverse and reverse sides so that the Shahada reads - and the sword points - correctly from right to left on both sides"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Aash Al Maleek\" (Long Live Our Beloved King)",
+			"lyrics/music:": "Ibrahim KHAFAJI/Abdul Rahman al-KHATEEB"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Saudi Arabia has an oil-based economy with strong government controls over major economic activities. It possesses about 20% of the world's proven petroleum reserves, ranks as the largest exporter of petroleum, and plays a leading role in OPEC. The petroleum sector accounts for roughly 80% of budget revenues, 45% of GDP, and 90% of export earnings. Saudi Arabia is encouraging the growth of the private sector in order to diversify its economy and to employ more Saudi nationals. Diversification efforts are focusing on power generation, telecommunications, natural gas exploration, and petrochemical sectors. Almost 6 million foreign workers play an important role in the Saudi economy, particularly in the oil and service sectors, while Riyadh is struggling to reduce unemployment among its own nationals. Saudi officials are particularly focused on employing its large youth population, which generally lacks the education and technical skills the private sector needs. Riyadh has substantially boosted spending on job training and education, most recently with the opening of the King Abdallah University of Science and Technology - Saudi Arabia's first co-educational university. As part of its effort to attract foreign investment, Saudi Arabia acceded to the WTO in December 2005 after many years of negotiations. The government has begun establishing six \"economic cities\" in different regions of the country to promote foreign investment and plans to spend $373 billion between 2010 and 2014 on social development and infrastructure projects to advance Saudi Arabia's economic development.",
@@ -351,11 +338,8 @@
 			"usd": 443700000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -408,11 +392,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 24.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -423,18 +404,12 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 16.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
 			"quantity": 2.5,
@@ -442,51 +417,30 @@
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 166900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 166900000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 286900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 286900000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 11240000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11240000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 318800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 318800000000
 		},
 		"Agriculture - products": "wheat, barley, tomatoes, melons, dates, citrus; mutton, chickens, eggs, milk",
 		"Industries": "crude oil production, petroleum refining, basic petrochemicals, ammonia, industrial gases, sodium hydroxide (caustic soda), cement, fertilizer, plastics, metals, commercial ship repair, commercial aircraft repair, construction",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 179100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 179100000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 165100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 165100000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -497,132 +451,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 9764000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9764000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2430000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2430000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 8728000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8728000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 79250,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 79250,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 264600000000.00003,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 264600000000.00003,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 77100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 77100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 7461000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7461000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 52030000000
-			},
-			"country comparison to the world:": ""
+			"usd": 52030000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 235300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 235300000000
 		},
 		"Exports - commodities": "petroleum and petroleum products 90%",
 		"Exports - partners": "Japan 15.33%, South Korea 12.71%, US 12.2%, China 10.38%, India 7.12%, Taiwan 4.54%, Singapore 4.25% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 99170000000
-			},
-			"country comparison to the world:": ""
+			"usd": 99170000000
 		},
 		"Imports - commodities": "machinery and equipment, foodstuffs, chemicals, motor vehicles, textiles",
 		"Imports - partners": "US 12.32%, China 12.06%, Germany 7.67%, Japan 6.15%, South Korea 5.32%, India 4.99%, UK 4.72%, France 4.05% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 456200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 456200000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 82920000000
-			},
-			"country comparison to the world:": ""
+			"usd": 82920000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 204300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 204300000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 18000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 18000000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Saudi riyals (SAR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 4171000.0000000005,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 44864000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 4171000.0000000005,
+		"Telephones - mobile cellular": 44864000,
 		"Telephone system": {
 			"general assessment:": "modern system including a combination of extensive microwave radio relays, coaxial cables, and fiber-optic cables",
 			"domestic:": "mobile-cellular subscribership has been increasing rapidly",
@@ -630,32 +527,26 @@
 		},
 		"Broadcast media": "broadcast media are state-controlled; state-run TV operates 4 networks; Saudi Arabia is a major market for pan-Arab satellite TV broadcasters; state-run radio operates several networks; multiple international broadcasters are available (2007)",
 		"Internet country code": ".sa",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 488598,
+		"Internet users": 9774000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 217,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 81,
+			"over 3,047 m:": 33,
+			"2,438 to 3,047 m:": 15,
+			"1,524 to 2,437 m:": 27,
+			"914 to 1,523 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 136,
+			"2,438 to 3,047 m:": 8,
+			"1,524 to 2,437 m:": 71,
+			"914 to 1,523 m:": 41,
+			"under 914 m:": 16
 		},
-		"Heliports": null,
+		"Heliports": 9,
 		"Pipelines": "condensate 212 km; gas 2,846 km; liquid petroleum gas 1,183 km; oil 4,232 km; refined products 1,151 km (2010)",
 		"Railways": {
 			"total:": {
@@ -681,30 +572,33 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 74,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2, chemical tanker 22, container 4, liquefied gas 2, passenger/cargo 11, petroleum tanker 22, refrigerated cargo 3, roll on/roll off 8",
-			"foreign-owned:": null,
+			"foreign-owned:": 15,
 			"registered in other countries:": "55 (Bahamas 16, Dominica 3, Liberia 24, Norway 3, Panama 8) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Ad Dammam, Al Jubayl, Jeddah, Yanbu al Bahr"
 	},
 	"military": {
 		"Military branches": "Ministry of Defense and Aviation Forces: Royal Saudi Land Forces, Royal Saudi Naval Forces (includes Marine Forces and Special Forces), Royal Saudi Air Force (Al-Quwwat al-Jawwiya al-Malakiya as-Sa'udiya), Royal Saudi Air Defense Forces, Royal Saudi Strategic Rocket Forces, Saudi Arabian National Guard (SANG)",
 		"Military service age and obligation": "18 years of age (est.); no conscription (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 8644,
+			"females age 16-49:": 6601
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7365,
+			"females age 16-49:": 5677
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 261105,
+			"female:": 244763
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 10,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Saudi Arabia has reinforced its concrete-filled security barrier along sections of the now fully demarcated border with Yemen to stem illegal cross-border activities; Kuwait and Saudi Arabia continue discussions on a maritime boundary with Iran; Saudi Arabia claims Egyptian-administered islands of Tiran and Sanafir",
@@ -715,6 +609,6 @@
 			"current situation:": "Saudi Arabia is a destination country for workers from South and Southeast Asia who are subjected to conditions that constitute involuntary servitude including being subjected to physical and sexual abuse, non-payment of wages, confinement, and withholding of passports as a restriction on their movement; domestic workers are particularly vulnerable because some are confined to the house in which they work unable to seek help; Saudi Arabia is also a destination country for Nigerian, Yemeni, Pakistani, Afghan, Somali, Malian, and Sudanese children trafficked for forced begging and involuntary servitude as street vendors; some Nigerian women were reportedly trafficked into Saudi Arabia for commercial sexual exploitation",
 			"tier rating:": "Tier 3 - Saudi Arabia does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government continues to lack adequate anti-trafficking laws and, despite evidence of widespread trafficking abuses, did not report any criminal prosecutions, convictions, or prison sentences for trafficking crimes committed against foreign domestic workers (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "death penalty for traffickers; improving anti-money-laundering legislation and enforcement"
 	}
 }

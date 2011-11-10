@@ -7,15 +7,15 @@
 		"Location": "Southern Asia, bordering the Bay of Bengal, between Burma and India",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 24,
-				"seconds": 0
+				"deg": 24,
+				"min": 0
 			},
 			"E": {
-				"minutes": 90,
-				"seconds": 0
+				"deg": 90,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 143998,
@@ -103,13 +103,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "most of the country is situated on deltas of large rivers flowing from the Himalayas: the Ganges unites with the Jamuna (main channel of the Brahmaputra) and later joins the Meghna to eventually empty into the Bay of Bengal"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 158570,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 34.3,
@@ -136,30 +133,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.566,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.566,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 22.98,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.98,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.75,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.75,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.57 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.57 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 28,
@@ -224,24 +209,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.6,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 6300,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
@@ -287,7 +260,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.4,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -301,12 +277,12 @@
 			"name:": "Dhaka",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 23,
-					"seconds": 43
+					"deg": 23,
+					"min": 43
 				},
 				"E": {
-					"minutes": 90,
-					"seconds": 24
+					"deg": 90,
+					"min": 24
 				}
 			},
 			"time difference:": "UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
@@ -314,7 +290,6 @@
 		"Administrative divisions": "7 divisions; Barisal, Chittagong, Dhaka, Khulna, Rajshahi, Rangpur, Sylhet",
 		"Independence": "16 December 1971 (from West Pakistan); note - 26 March 1971 is the date of independence from West Pakistan, 16 December 1971 is known as Victory Day and commemorates the official creation of the state of Bangladesh",
 		"National holiday": "Independence Day, 26 March (1971); note - 26 March 1971 is the date of independence from West Pakistan, 16 December 1971 is Victory Day and commemorates the official creation of the state of Bangladesh",
-		"Constitution": "4 November 1972; effective 16 December 1972; suspended following coup of 24 March 1982; restored 10 November 1986; amended many times",
 		"Legal system": "mixed legal system of mostly English common law and Islamic law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -352,7 +327,10 @@
 			"FAX:": "[880] (2) 882-3744"
 		},
 		"Flag description": "green field with a large red disk shifted slightly to the hoist side of center; the red disk represents the rising sun and the sacrifice to achieve independence; the green field symbolizes the lush vegetation of Bangladesh",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Amar Shonar Bangla\" (My Golden Bengal)",
+			"lyrics/music:": "Rabindranath TAGORE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy has grown 5-6% per year since 1996 despite political instability, poor infrastructure, corruption, insufficient power supplies, and slow implementation of economic reforms. Bangladesh remains a poor, overpopulated, and inefficiently-governed nation. Although more than half of GDP is generated through the service sector, 45% of Bangladeshis are employed in the agriculture sector, with rice as the single-most-important product. Bangladesh's growth was resilient during the 2008-09 global financial crisis and recession. Garment exports, totaling $12.3 billion in FY09 and remittances from overseas Bangladeshis, totaling $11 billion in FY10, accounted for almost 25% of GDP.",
@@ -366,11 +344,8 @@
 			"usd": 104900000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -428,16 +403,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 33.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 24.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24.4,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -448,79 +417,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 39.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39.3,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 8.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.1,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.18,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.18,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 13980000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13980000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 57210000000
-			},
-			"country comparison to the world:": ""
+			"usd": 57210000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 62200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62200000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 7068000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7068000000
 		},
 		"Agriculture - products": "rice, jute, tea, wheat, sugarcane, potatoes, tobacco, pulses, oilseeds, spices, fruit; beef, milk, poultry",
 		"Industries": "cotton textiles, jute, garments, tea processing, paper newsprint, cement, chemical fertilizer, light engineering, sugar",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 25620000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25620000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 23940000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23940000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -531,132 +467,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 5733,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5733,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 82340,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 82340,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2612,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2612,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 77340,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77340,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 28000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 19910000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19910000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 20100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 195400000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 195400000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 3734000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3734000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 16239999999.999998
-			},
-			"country comparison to the world:": ""
+			"usd": 16239999999.999998
 		},
 		"Exports - commodities": "garments, frozen fish and seafood, jute and jute goods, leather",
 		"Exports - partners": "US 22.5%, Germany 14.2%, UK 9.6%, France 7%, Netherlands 6.4% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 21340000000
-			},
-			"country comparison to the world:": ""
+			"usd": 21340000000
 		},
 		"Imports - commodities": "machinery and equipment, chemicals, iron and steel, textiles, foodstuffs, petroleum products, cement",
 		"Imports - partners": "China 16.16%, India 12.61%, Singapore 7.55%, Japan 4.63%, Malaysia 4.46% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 10790000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10790000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 24460000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24460000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 6720000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6720000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 82000000
-			},
-			"country comparison to the world:": ""
+			"usd": 82000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "taka (BDT) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1522000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 50400000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1522000,
+		"Telephones - mobile cellular": 50400000,
 		"Telephone system": {
 			"general assessment:": "inadequate for a modern country; introducing digital systems; trunk systems include VHF and UHF microwave radio relay links, and some fiber-optic cable in cities",
 			"domestic:": "fixed-line teledensity remains only about 1 per 100 persons; mobile-cellular telephone subscribership has been increasing rapidly and now exceeds 30 telephones per 100 persons",
@@ -664,28 +543,22 @@
 		},
 		"Broadcast media": "state-owned broadcaster (BTV) operates 1 terrestrial TV station, 3 radio networks, and about 10 local stations; 8 private satellite TV stations and 3 private radio stations also broadcasting; foreign satellite TV stations are gaining audience share in the large cities; several international radio broadcasters are available (2007)",
 		"Internet country code": ".bd",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 68224,
+		"Internet users": 617300
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 17,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 15,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 6,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"1,524 to 2,437 m:": 1,
+			"under 914 m:": 1
 		},
 		"Pipelines": "gas 2,714 km (2010)",
 		"Railways": {
@@ -712,46 +585,46 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "8,370 km (includes up to 3,060 km of main cargo routes; the network is reduced to 5,200 km in the dry season) (2007)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "8,370 km (includes up to 3,060 km of main cargo routes; the network is reduced to 5,200 km in the dry season) (2007)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 50,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 16, cargo 25, container 5, petroleum tanker 4",
-			"foreign-owned:": null,
+			"foreign-owned:": 4,
 			"registered in other countries:": "9 (Comoros 1, Malta 1, Panama 3, Saint Vincent and the Grenadines 1, Sierra Leone 1, Singapore 2) (2010)"
 		},
 		"Ports and terminals": "Chittagong, Mongla Port",
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports the territorial waters of Bangladesh remain a high risk for armed robbery against ships; attacks against vessels increased in 2010 for the second consecutive year; 23 commercial vessels were attacked both at anchor and while underway; crews were robbed and stores or cargoes stolen"
 	},
 	"military": {
 		"Military branches": "Bangladesh Defense Force: Bangladesh Army (Sena Bahini), Bangladesh Navy (Noh Bahini, BN), Bangladesh Air Force (Biman Bahini, BAF) (2010)",
 		"Military service age and obligation": "16 years of age for voluntary enlisted military service (Air Force); 17 years of age (Army and Navy); conscription is by law possible in times of emergency, but has never been implemented (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 36520
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 30486,
+			"females age 16-49:": 35616
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1606,
+			"female:": 1689
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; discussions with India remain stalled to delimit a small section of river boundary, exchange territory for 51 small Bangladeshi exclaves in India and 111 small Indian exclaves in Bangladesh, allocate divided villages, and stop illegal cross-border trade, migration, violence, and transit of terrorists through the porous border; Bangladesh protests India's fencing and walling-off high-traffic sections of the porous boundary; a joint Bangladesh-India boundary commission agreed to fully demarcate the Bangladesh-India boundary in the Dhubri-Kruigram sector; the Naf river on the border with Burma serves as a smuggling and illegal transit route; Bangladesh struggles to accommodate 29,000 Rohingya, Burmese Muslim minority from Arakan State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border",
 		"Refugees and internally displaced persons": {
-			"refugees (country of origin):": null,
+			"refugees (country of origin):": 26268,
 			"IDPs:": "65,000 (land conflicts, religious persecution) (2007)"
 		},
 		"Trafficking in persons": {
 			"current situation:": "Bangladesh is a source and transit country for men, women, and children trafficked for the purposes of forced labor and commercial sexual exploitation; a significant share of Bangladesh's trafficking victims are men recruited for work overseas with fraudulent employment offers who are subsequently exploited under conditions of forced labor or debt bondage; children are trafficked within Bangladesh for commercial sexual exploitation, bonded labor, and forced labor; women and children from Bangladesh are also trafficked to India and Pakistan for sexual exploitation",
 			"tier rating:": "Bangladesh is placed on Tier 2 Watch List because it does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so, including some progress in addressing sex trafficking; the government did not demonstrate sufficient progress in criminally prosecuting and convicting labor trafficking offenders, particularly those responsible for the recruitment of Bangladeshi workers for the purpose of labor trafficking (2009)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transit country for illegal drugs produced in neighboring countries"
 	}
 }

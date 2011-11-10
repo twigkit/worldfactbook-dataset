@@ -7,15 +7,15 @@
 		"Location": "Central Asia, northwest of China; a small portion west of the Ural (Zhayyq) River in eastern-most Europe",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 48,
-				"seconds": 0
+				"deg": 48,
+				"min": 0
 			},
 			"E": {
-				"minutes": 68,
-				"seconds": 0
+				"deg": 68,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2724,
@@ -86,13 +86,10 @@
 			"party to:": "Air Pollution, Biodiversity, Climate Change, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Climate Change-Kyoto Protocol"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; Russia leases approximately 6,000 sq km of territory enclosing the Baykonur Cosmodrome; in January 2004, Kazakhstan and Russia extended the lease to 2050"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 15522,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 21.6,
@@ -119,30 +116,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.4,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.65,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.65,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.38,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.38,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.27 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.27 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 59,
@@ -207,27 +192,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.87,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.87,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 13000,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -266,7 +239,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -281,12 +257,12 @@
 			"name:": "Astana",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 51,
-					"seconds": 10
+					"deg": 51,
+					"min": 10
 				},
 				"E": {
-					"minutes": 71,
-					"seconds": 25
+					"deg": 71,
+					"min": 25
 				}
 			},
 			"time difference:": "UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
@@ -296,7 +272,6 @@
 		},
 		"Independence": "16 December 1991 (from the Soviet Union)",
 		"National holiday": "Independence Day, 16 December (1991)",
-		"Constitution": "first post-independence constitution adopted 28 January 1993; new constitution adopted by national referendum 30 August 1995",
 		"Legal system": "civil law system influenced by Roman-Germanic law and by the theory and practice of the Russian Federation",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -330,7 +305,10 @@
 			"FAX:": "[7] (7172) 34-08-90"
 		},
 		"Flag description": "a gold sun with 32 rays above a soaring golden steppe eagle, both centered on a sky blue background; the hoist side displays a national ornamental pattern \"koshkar-muiz\" (the horns of the ram) in gold; the blue color is of religious significance to the Turkic peoples of the country, and so symbolizes cultural and ethnic unity; it also represents the endless sky as well as water; the sun, a source of life and energy, exemplifies wealth and plenitude; the sun's rays are shaped like grain, which is the basis of abundance and prosperity; the eagle has appeared on the flags of Kazakh tribes for centuries and represents freedom, power, and the flight to the future",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Menin Qazaqstanim\" (My Kazakhstan)",
+			"lyrics/music:": "Zhumeken NAZHIMEDENOV and Nursultan NAZARBAYEV/Shamshi KALDAYAKOV"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Kazakhstan, geographically the largest of the former Soviet republics, excluding Russia, possesses enormous fossil fuel reserves and plentiful supplies of other minerals and metals, such as uranium, copper, and zinc. It also has a large agricultural sector featuring livestock and grain. In 2002 Kazakhstan became the first country in the former Soviet Union to receive an investment-grade credit rating, and from 2000 through 2007, Kazakhstan's economy grew more than 9% per year. Extractive industries, particularly hydrocarbons and mining, have been the engines of this growth. However, geographic limitations and decaying infrastructure present serious obstacles. Landlocked, with restricted access to the high seas, Kazakhstan relies on its neighbors to export its products, especially oil and gas. Although its Caspian Sea ports and rail lines carrying oil have been upgraded, civil aviation has been neglected. Telecoms are improving, but require considerable investment, as does the information technology base. Supply and distribution of electricity can be erratic. At the end of 2007, global financial markets froze up and the loss of capital inflows to Kazakhstani banks caused a credit crunch. The subsequent and sharp fall of oil and commodity prices in 2008 aggravated the economic situation, and Kazakhstan plunged into recession. While the global financial crisis took a significant toll on Kazakhstan's economy, it has rebounded well. In response to the crisis, Kazakhstan's government devalued the tenge (Kazakhstan's currency) to stabilize market pressures and injected $19 billion in economic stimulus. Rising commodity prices have helped revive Kazakhstan's economy, which registered 7% growth in 2010. Barring a dramatic decline in oil prices, strong growth is expected to continue in 2011. Despite solid macroeconomic indicators, the government realizes that its economy suffers from an overreliance on oil and extractive industries, the so-called \"Dutch disease.\" In response, Kazakhstan has embarked on an ambitious diversification program, aimed at developing targeted sectors like transport, pharmaceuticals, telecommunications, petrochemicals and food processing.",
@@ -344,11 +322,8 @@
 			"usd": 138400000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -370,10 +345,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 8718000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 8718000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 28.2,
@@ -389,11 +361,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 8.2,
@@ -409,16 +378,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 26.7,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 24.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -429,73 +392,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 16.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.2,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 15000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15000000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 58000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 58000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 44530000000
-			},
-			"country comparison to the world:": ""
+			"usd": 44530000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 57660000000
-			},
-			"country comparison to the world:": ""
+			"usd": 57660000000
 		},
 		"Agriculture - products": "grain (mostly spring wheat), cotton; livestock",
 		"Industries": "oil, coal, iron ore, manganese, chromite, lead, zinc, copper, titanium, bauxite, gold, silver, phosphates, sulfur, uranium, iron and steel; tractors and other agricultural machinery, electric motors, construction materials",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 78400000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 78400000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 77900000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77900000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 3617000000,
@@ -506,132 +439,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 1540000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1540000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 241000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 241000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 1345000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1345000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 164000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 164000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 30000000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30000000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 35610000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35610000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 33680000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33680000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 17660000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17660000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 3720000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3720000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 2407000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2407000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 6993000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6993000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 59230000000
-			},
-			"country comparison to the world:": ""
+			"usd": 59230000000
 		},
 		"Exports - commodities": "oil and oil products 59%, ferrous metals 19%, chemicals 5%, machinery 3%, grain, wool, meat, coal",
 		"Exports - partners": "China 16.34%, France 9.23%, Germany 8.32%, Russia 6.9%, Ukraine 5.52%, Romania 5.25%, Italy 5.12%, US 4.34% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 30110000000
-			},
-			"country comparison to the world:": ""
+			"usd": 30110000000
 		},
 		"Imports - commodities": "machinery and equipment, metal products, foodstuffs",
 		"Imports - partners": "Russia 28.5%, China 26.72%, Germany 6.59%, Italy 5.58%, Ukraine 4.8% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 32439999999.999996
-			},
-			"country comparison to the world:": ""
+			"usd": 32439999999.999996
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 94440000000
-			},
-			"country comparison to the world:": ""
+			"usd": 94440000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 83300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 83300000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 7208000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7208000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "tenge (KZT) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3763000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 14995000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3763000,
+		"Telephones - mobile cellular": 14995000,
 		"Telephone system": {
 			"general assessment:": "inherited an outdated telecommunications network from the Soviet era requiring modernization",
 			"domestic:": "intercity by landline and microwave radio relay; number of fixed-line connections is gradually increasing and fixed-line teledensity now roughly 25 per 100 persons; mobile-cellular usage is increasing and the subscriber base now is roughly 100 per 100 persons",
@@ -639,32 +515,26 @@
 		},
 		"Broadcast media": "state owns nearly all radio and TV transmission facilities and operates national TV and radio networks; nearly all nationwide TV networks are wholly or partly owned by the government; some former state-owned media outlets have been privatized and are controlled by the president's daughter, who heads the Khabar Agency that runs multiple TV and radio stations;  a number of privately-owned TV stations; households with satellite dishes have access to foreign media; a small number of  commercial radio stations operating along with state-run radio stations (2008)",
 		"Internet country code": ".kz",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 53984,
+		"Internet users": 5299000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 97,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 65,
+			"over 3,047 m:": 10,
+			"2,438 to 3,047 m:": 26,
+			"1,524 to 2,437 m:": 16,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 32,
+			"over 3,047 m:": 5,
+			"2,438 to 3,047 m:": 6,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 5
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "condensate 658 km; gas 12,317 km; oil 11,201 km; refined products 1,095 km; water 1,465 km (2010)",
 		"Railways": {
 			"total:": {
@@ -689,40 +559,40 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "4,000 km (on the Ertis (Irtysh) River (80%) and Syr Darya (Syrdariya) River) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "4,000 km (on the Ertis (Irtysh) River (80%) and Syr Darya (Syrdariya) River) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 8,
 			"country comparison to the world:": "",
 			"by type:": "petroleum tanker 6, refrigerated cargo 1, specialized tanker 1",
 			"foreign-owned:": "1 (Ireland 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Aqtau (Shevchenko), Atyrau (Gur'yev), Oskemen (Ust-Kamenogorsk), Pavlodar, Semey (Semipalatinsk)"
 	},
 	"military": {
 		"Military branches": "Kazakhstan Armed Forces: Ground Forces, Navy, Air Mobile Forces, Air Defense Forces (2010)",
 		"Military service age and obligation": "18 years of age for compulsory military service; conscript service obligation - 2 years; minimum age for volunteers NA (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4163,
+			"females age 16-49:": 4179
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2909,
+			"females age 16-49:": 3528
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 125322,
+			"female:": 119541
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Kyrgyzstan has yet to ratify the 2001 boundary delimitation with Kazakhstan; field demarcation of the boundaries with Turkmenistan commenced in 2005, and with Uzbekistan in 2004; demarcation is scheduled to get underway with Russia in 2007; demarcation with China was completed in 2002; creation of a seabed boundary with Turkmenistan in the Caspian Sea remains under discussion; Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the lake",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "3,700 (Russia); 508 (Afghanistan) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "significant illicit cultivation of cannabis for CIS markets, as well as limited cultivation of opium poppy and ephedra (for the drug ephedrine); limited government eradication of illicit crops; transit point for Southwest Asian narcotics bound for Russia and the rest of Europe; significant consumer of opiates"
 	}
 }

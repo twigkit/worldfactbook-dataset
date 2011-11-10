@@ -52,7 +52,7 @@ var fields = {
 		//var input = val.split(';');
 		//var pattern = /([^,]+),([0-9]+) ([a-z]+);/i;
 		
-		console.log(val);
+		//console.log(val);
 	}
 };
 

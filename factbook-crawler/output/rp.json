@@ -7,15 +7,15 @@
 		"Location": "Southeastern Asia, archipelago between the Philippine Sea and the South China Sea, east of Vietnam",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 13,
-				"seconds": 0
+				"deg": 13,
+				"min": 0
 			},
 			"E": {
-				"minutes": 122,
-				"seconds": 0
+				"deg": 122,
+				"min": 0
 			}
 		},
-		"Map references": "Southeast Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 300000,
@@ -96,13 +96,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "Air Pollution-Persistent Organic Pollutants"
 		},
-		"Geography - note": {}
+		"Geography - note": "the Philippine archipelago is made up of 7,107 islands; favorably located in relation to many of Southeast Asia's main water bodies: the South China Sea, Philippine Sea, Sulu Sea, Celebes Sea, and Luzon Strait"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 101833,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 34.6,
@@ -129,30 +126,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.903,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.903,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 25.34,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25.34,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.02,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.02,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.29 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.29 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 49,
@@ -217,24 +202,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.19,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.19,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 8700,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -279,7 +252,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -293,12 +269,12 @@
 			"name:": "Manila",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 35
+					"deg": 14,
+					"min": 35
 				},
 				"E": {
-					"minutes": 121,
-					"seconds": 0
+					"deg": 121,
+					"min": 0
 				}
 			},
 			"time difference:": "UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
@@ -310,7 +286,6 @@
 		},
 		"Independence": "12 June 1898 (independence proclaimed from Spain); 4 July 1946 (from the US)",
 		"National holiday": "Independence Day, 12 June (1898); note - 12 June 1898 was date of declaration of independence from Spain; 4 July 1946 was date of independence from US",
-		"Constitution": "2 February 1987, effective 11 February 1987",
 		"Legal system": "mixed legal system of civil, common, Islamic, and customary law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -347,7 +322,10 @@
 		"Flag description": {
 			"Flag description": "two equal horizontal bands of blue (top) and red; a white equilateral triangle is based on the hoist side; the center of the triangle displays a yellow sun with eight primary rays; each corner of the triangle contains a small, yellow, five-pointed star; blue stands for peace and justice, red symbolizes courage, the white equal-sided triangle represents equality; the rays recall the first eight provinces that sought independence from Spain, while the stars represent the three major geographical divisions of the country: Luzon, Visayas, and Mindanao; the design of the flag dates to 1897"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Lupang Hinirang\" (Chosen Land)",
+			"lyrics/music:": "Jose PALMA (revised by Felipe PADILLA de Leon)/Julian FELIPE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Philippine GDP grew 7.3% in 2010, spurred by consumer demand, a rebound in exports and investments, and election-related spending. The economy weathered the 2008-09 global recession better than its regional peers due to minimal exposure to troubled international securities, lower dependence on exports, relatively resilient domestic consumption, large remittances from four- to five-million overseas Filipino workers, and a growing business process outsourcing industry. Economic growth in the Philippines averaged 4.5% during the MACAPAGAL-ARROYO administration. Despite this growth, poverty worsened, because of a high population growth rate and inequitable distribution of income. The AQUINO administration is working to reduce the government deficit from 3.9% of GDP, when it took office, to 2% of GDP by 2013. The government has had little difficulty issuing debt both locally and internationally to finance the deficits. AQUINO's first budget emphasizes education, health, conditional cash transfers for the poor, and other social spending programs, relying on the private sector to finance important infrastructure projects. Weak tax collection, exacerbated by new tax breaks and incentives, has limited the government's ability to address major challenges. The AQUINO administration has vowed to focus on improving tax collection efficiency - rather than imposing new taxes - as a part of its good governance platform.",
@@ -361,11 +339,8 @@
 			"usd": 188700000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -387,10 +362,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 38900000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 38900000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 33,
@@ -406,11 +378,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.3,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 32.9,
@@ -426,16 +395,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 45.8,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 16,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -446,79 +409,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 56.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 56.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.39,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.39,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 30650000000
-			},
-			"country comparison to the world:": ""
+			"usd": 30650000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 97350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 97350000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 97630000000
-			},
-			"country comparison to the world:": ""
+			"usd": 97630000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 202300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 202300000000
 		},
 		"Agriculture - products": "sugarcane, coconuts, rice, corn, bananas, cassavas, pineapples, mangoes; pork, eggs, beef; fish",
 		"Industries": "electronics assembly, garments, footwear, pharmaceuticals, chemicals, wood products, food processing, petroleum refining, fishing",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 12.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 61930000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 61930000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 54400000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 54400000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -529,132 +459,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 9671,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9671,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 307200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 307200,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 28900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 338400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 338400,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 168000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 168000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 2940000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2940000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 2940000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2940000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 108700000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 108700000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 9510000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9510000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 50720000000
-			},
-			"country comparison to the world:": ""
+			"usd": 50720000000
 		},
 		"Exports - commodities": "semiconductors and electronic products, transport equipment, garments, copper products, petroleum products, coconut oil, fruits",
 		"Exports - partners": "US 17.6%, Japan 16.2%, Netherlands 9.8%, Hong Kong 8.6%, China 7.7%, Germany 6.5%, Singapore 6.2%, South Korea 4.8% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 59900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 59900000000
 		},
 		"Imports - commodities": "electronic products, mineral fuels, machinery and transport equipment, iron and steel, textile fabrics, grains, chemicals, plastic",
 		"Imports - partners": "Japan 12.5%, US 12%, China 8.8%, Singapore 8.7%, South Korea 7.9%, Taiwan 7.1%, Thailand 5.7% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 62370000000
-			},
-			"country comparison to the world:": ""
+			"usd": 62370000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 59770000000
-			},
-			"country comparison to the world:": ""
+			"usd": 59770000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 24500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24500000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 6495000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6495000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Philippine pesos (PHP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 6783000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 92227000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 6783000,
+		"Telephones - mobile cellular": 92227000,
 		"Telephone system": {
 			"general assessment:": "good international radiotelephone and submarine cable services; domestic and interisland service adequate",
 			"domestic:": "telecommunications infrastructure includes the following platforms: fixed line, mobile cellular, cable TV, over-the-air TV, radio and Very Small Aperture Terminal (VSAT), fiber optic cable, and satellite; mobile-cellular communications now dominate the industry",
@@ -662,31 +535,25 @@
 		},
 		"Broadcast media": "multiple national private TV and radio networks; multi-channel satellite and cable TV systems available; five national or major TV networks; three government-owned networks; five major cable TV networks and a government-operated national TV and radio network; about 300 analog television stations; more than 1,000 radio stations (2010)",
 		"Internet country code": ".ph",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 394990,
+		"Internet users": 8278000.000000001
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 254,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 85,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 8,
+			"1,524 to 2,437 m:": 29,
+			"914 to 1,523 m:": 34
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 169,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 66,
+			"under 914 m:": 99
 		},
-		"Heliports": null,
+		"Heliports": 2,
 		"Pipelines": "gas 7 km; oil 107 km; refined products 181 km (2010)",
 		"Railways": {
 			"total:": {
@@ -711,42 +578,42 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "3,219 km (limited to vessels with draft less than 1.5 m) (2011)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "3,219 km (limited to vessels with draft less than 1.5 m) (2011)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 428,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 75, cargo 135, carrier 16, chemical tanker 26, container 13, liquefied gas 5, passenger 7, passenger/cargo 68, petroleum tanker 45, refrigerated cargo 17, roll on/roll off 12, vehicle carrier 9",
-			"foreign-owned:": null,
+			"foreign-owned:": 156,
 			"registered in other countries:": "7 (Cyprus 1, Panama 6) (2010)"
 		},
 		"Ports and terminals": "Batangas, Cagayan de Oro, Cebu, Davao, Liman, Manila",
-		"Transportation - note": {}
+		"Transportation - note": "the International Maritime Bureau reports the territorial and offshore waters in the South China Sea as high risk for piracy and armed robbery against ships; numerous commercial vessels have been attacked and hijacked both at anchor and while underway; hijacked vessels are often disguised and cargo diverted to ports in East Asia; crews have been murdered or cast adrift"
 	},
 	"military": {
 		"Military branches": "Armed Forces of the Philippines (AFP): Army, Navy (includes Marine Corps and Coast Guard), Air Force (2011)",
 		"Military service age and obligation": "18-25 years of age (officers 21-29) for compulsory and voluntary military service; applicants must be single male or female Philippine citizens (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 25614,
+			"females age 16-49:": 25035
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 20142,
+			"females age 16-49:": 21427
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 1060,
+			"female:": 1021
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Philippines claims sovereignty over Scarborough Reef (also claimed by China together with Taiwan) and over certain of the Spratly Islands, known locally as the Kalayaan (Freedom) Islands, also claimed by China, Malaysia, Taiwan, and Vietnam; the 2002 \"Declaration on the Conduct of Parties in the South China Sea,\" has eased tensions in the Spratly Islands but falls short of a legally binding \"code of conduct\" desired by several of the disputants; in March 2005, the national oil companies of China, the Philippines, and Vietnam signed a joint accord to conduct marine seismic activities in the Spratly Islands; Philippines retains a dormant claim to Malaysia's Sabah State in northern Borneo based on the Sultanate of Sulu's granting the Philippines Government power of attorney to pursue a sovereignty claim on his behalf; maritime delimitation negotiations continue with Palau",
 		"Refugees and internally displaced persons": {
 			"IDPs:": "300,000 (fighting between government troops and MILF and Abu Sayyaf groups) (2007)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "domestic methamphetamine production has been a growing problem in recent years despite government crackdowns; major consumer of amphetamines; longstanding marijuana producer mainly in rural areas where Manila's control is limited"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Southeastern Asia, northeast of Thailand, west of Vietnam",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 18,
-				"seconds": 0
+				"deg": 18,
+				"min": 0
 			},
 			"E": {
-				"minutes": 105,
-				"seconds": 0
+				"deg": 105,
+				"min": 0
 			}
 		},
-		"Map references": "Southeast Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 236800,
@@ -89,13 +89,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Law of the Sea, Ozone Layer Protection",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; most of the country is mountainous and thickly forested; the Mekong River forms a large part of the western boundary with Thailand"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 6477,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 36.7,
@@ -122,30 +119,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.684,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.684,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 26.13,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.13,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.13,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.13,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-1.16 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-1.16 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 33,
@@ -210,27 +195,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.14,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.14,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 8500,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -274,7 +247,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.3,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -288,12 +264,12 @@
 			"name:": "Vientiane (Viangchan)",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 17,
-					"seconds": 58
+					"deg": 17,
+					"min": 58
 				},
 				"E": {
-					"minutes": 102,
-					"seconds": 36
+					"deg": 102,
+					"min": 36
 				}
 			},
 			"time difference:": "UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
@@ -301,7 +277,6 @@
 		"Administrative divisions": "16 provinces (khoueng, singular and plural) and 1 capital city* (nakhon luang, singular and plural); Attapu, Bokeo, Bolikhamxai, Champasak, Houaphan, Khammouan, Louangnamtha, Louangphrabang, Oudomxai, Phongsali, Salavan, Savannakhet, Viangchan (Vientiane)*, Viangchan, Xaignabouli, Xekong, Xiangkhoang",
 		"Independence": "19 July 1949 (from France)",
 		"National holiday": "Republic Day, 2 December (1975)",
-		"Constitution": "promulgated 14 August 1991; amended in 2003",
 		"Legal system": "civil law system similar in form to the French system",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -335,7 +310,10 @@
 			"FAX:": "[856] 21-26-7190"
 		},
 		"Flag description": "three horizontal bands of red (top), blue (double width), and red with a large white disk centered in the blue band; the red bands recall the blood shed for liberation; the blue band represents the Mekong River and prosperity; the white disk symbolizes the full moon against the Mekong River, but also signifies the unity of the people under the Pathet Lao, as well as the country's bright future",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Pheng Xat Lao\" (Hymn of the Lao People)",
+			"lyrics/music:": "SISANA Sisane/THONGDY Sounthonevichit"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The government of Laos, one of the few remaining one-party Communist states, began decentralizing control and encouraging private enterprise in 1986. The results, starting from an extremely low base, were striking - growth averaged 6% per year from 1988-2008 except during the short-lived drop caused by the Asian financial crisis that began in 1997. Despite this high growth rate, Laos remains a country with an underdeveloped infrastructure, particularly in rural areas. It has a rudimentary, but improving, road system, and limited external and internal telecommunications. China has signed a deal with the Lao to build a high speed rail system in the country. Construction on the $7 billion project is slated to begin in April 2011 and will take five years. Electricity is available in urban areas and in many rural districts. Subsistence agriculture, dominated by rice cultivation in lowland areas, accounts for about 30% of GDP and 75% of total employment. The government in FY09/10 received $586 million from international donors. Economic growth has reduced official poverty rates from 46% in 1992 to 26% in 2010. The economy has benefited from high foreign investment in hydropower, mining, and construction. Laos gained Normal Trade Relations status with the US in 2004, and is taking steps required to join the World Trade Organization, such as reforming import licensing. Related trade policy reforms will improve the business environment. On the fiscal side, Laos initiated a VAT tax system in 2010. Simplified investment procedures and expanded bank credits for small farmers and small entrepreneurs will improve Lao's economic prospects. The government appears committed to raising the country's profile among investors. The World Bank has declared that Laos's goal of graduating from the UN Development Program's list of least-developed countries by 2020 is achievable. According Laotian officials, the 7th Socio-Economic Development Plan for 2011-15 will outline efforts to achieve Millennium Development Goals.",
@@ -349,11 +327,8 @@
 			"usd": 6341000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -375,10 +350,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 3690000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 3690000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 75.1,
@@ -387,11 +359,8 @@
 			"industry and services:": "NA (2010 est.)"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 2.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 26,
@@ -407,10 +376,7 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 34.6,
 		"Budget": {
 			"revenues:": {
 				"usd": 1137000000
@@ -420,66 +386,39 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 26,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 630000000
-			},
-			"country comparison to the world:": ""
+			"usd": 630000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1818000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1818000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1562000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1562000000
 		},
 		"Agriculture - products": "sweet potatoes, vegetables, corn, coffee, sugarcane, tobacco, cotton, tea, peanuts, rice; water buffalo, pigs, cattle, poultry",
 		"Industries": "copper, tin, gold, and gypsum mining; timber, electric power, agricultural processing, construction, garments, cement, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 17.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.7,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 1553000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1553000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2230000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2230000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 341000000,
@@ -490,106 +429,61 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1918,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1918,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1918,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1918,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": "NA cu m (2008 est.)",
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": "NA cu m (2008 est.)",
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-195 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-195 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1950000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1950000000
 		},
 		"Exports - commodities": "wood products, coffee, electricity, tin, copper, gold",
 		"Exports - partners": "Thailand 29.18%, China 15.04%, Vietnam 14.96%, UK 4.29% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1504000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1504000000
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, fuel, consumer goods",
 		"Imports - partners": "Thailand 66.2%, China 11.45%, Vietnam 5.3% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 756000000
-			},
-			"country comparison to the world:": ""
+			"usd": 756000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 5797000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5797000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "kips (LAK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 3235000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 132200,
+		"Telephones - mobile cellular": 3235000,
 		"Telephone system": {
 			"general assessment:": "service to general public is poor but improving; the government relies on a radiotelephone network to communicate with remote areas",
 			"domestic:": "multiple service providers; mobile cellular usage growing very rapidly",
@@ -597,28 +491,22 @@
 		},
 		"Broadcast media": "2 television stations operating out of Vientiane - 1 government-operated and the other jointly-owned by the government and a Thai company; roughly 15 provincial stations operating with nearly all programming relayed via satellite from the government-operated station in Vientiane; relays from Hanoi provide access to a Vietnamese television station; broadcasts available from stations in Thailand and Vietnam in border areas; multi-channel satellite and cable TV systems provide access to a wide range of foreign stations; state-controlled radio with state-operated Lao National Radio (LNR) broadcasting on 5 frequencies - 1 AM, 2 SW, and 2 FM; LNR's AM and FM programs are relayed via satellite constituting a large part of the programming schedules of the provincial radio stations; Thai radio broadcasts available in border areas and transmissions of multiple international broadcasters are also accessible (2008)",
 		"Internet country code": ".la",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 1468,
+		"Internet users": 300000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 41,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 9,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 4,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 32,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 9,
+			"under 914 m:": 21
 		},
 		"Pipelines": "refined products 540 km (2010)",
 		"Roadways": {
@@ -636,38 +524,36 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "4,600 km (primarily on the Mekong River and its tributaries; 2,900 additional km are intermittently navigable by craft drawing less than 0.5 m) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Merchant marine": {}
+		"Waterways": "4,600 km (primarily on the Mekong River and its tributaries; 2,900 additional km are intermittently navigable by craft drawing less than 0.5 m) (2010)",
+		"Merchant marine": {
+			"total:": 1,
+			"country comparison to the world:": "",
+			"by type:": "cargo 1 (2008)"
+		}
 	},
 	"military": {
 		"Military branches": "Lao People's Armed Forces (LPAF): Lao People's Army (LPA; includes Riverine Force), Air Force (2011)",
 		"Military service age and obligation": "18 years of age for compulsory military service; minimum 18-month service obligation (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1574,
+			"females age 16-49:": 1607
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1111,
+			"females age 16-49:": 1190
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 71400,
+			"female:": 73038
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 0.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "serving one of the world's least developed countries, the Lao People's Armed Forces (LPAF) is small, poorly funded, and ineffectively resourced; its mission focus is border and internal security, primarily in countering ethnic Hmong insurgent groups; together with the Lao People's Revolutionary Party and the government, the Lao People's Army (LPA) is the third pillar of state machinery, and as such is expected to suppress political and civil unrest and similar national emergencies, but the LPA also has upgraded skills to respond to avian influenza outbreaks; there is no perceived external threat to the state and the LPA maintains strong ties with the neighboring Vietnamese military (2008)"
 	},
 	"issues": {
 		"Disputes - international": "Southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Thailand but disputes remain over islands in the Mekong River; concern among Mekong Commission members that China's construction of dams on the Mekong River will affect water levels; Cambodia is concerned about Laos' extensive upstream dam construction",
-		"Illicit drugs": {}
+		"Illicit drugs": "estimated opium poppy cultivation in 2008 was 1,900 hectares, about a 73% increase from 2007; estimated potential opium production in 2008 more than tripled to 17 metric tons; unsubstantiated reports of domestic methamphetamine production; growing domestic methamphetamine problem (2007)"
 	}
 }

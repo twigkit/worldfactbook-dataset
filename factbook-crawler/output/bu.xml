@@ -1,0 +1,307 @@
+<country>
+	<code>bu</code>
+	<name>Bulgaria</name>
+	<region>Europe</region>
+	<background>The Bulgars, a Central Asian Turkic tribe, merged with the local Slavic inhabitants in the late 7th century to form the first Bulgarian state. In succeeding centuries, Bulgaria struggled with the Byzantine Empire to assert its place in the Balkans, but by the end of the 14th century the country was overrun by the Ottoman Turks. Northern Bulgaria attained autonomy in 1878 and all of Bulgaria became independent from the Ottoman Empire in 1908. Having fought on the losing side in both World Wars, Bulgaria fell within the Soviet sphere of influence and became a People's Republic in 1946. Communist domination ended in 1990, when Bulgaria held its first multiparty election since World War II and began the contentious process of moving toward political democracy and a market economy while combating inflation, unemployment, corruption, and crime. The country joined NATO in 2004 and the EU in 2007.</background>
+	<geo>
+		<note>strategic location near Turkish Straits; controls key land routes from Europe to Middle East and Asia</note>
+		<location>
+			<desc>Southeastern Europe, bordering the Black Sea, between Romania and Turkey</desc>
+			<coordinates>TO DO</coordinates>
+		</location>
+		<area>
+			<total unit="sq km">110879</total>
+			<land unit="sq km">108489</land>
+			<water unit="sq km">2390</water>
+			<comparison>slightly larger than Tennessee</comparison>
+		</area>
+		<boundaries>
+			<borders unit=""></borders>
+			<coastline unit="km">354</coastline>
+		</boundaries>
+		<maritime-claims>
+			<territorial unit="nm">12</territorial>
+			<contiguous unit="nm">24</contiguous>
+			<economic unit="nm">200</economic>
+			<continental-shelf></continental-shelf>
+		</maritime-claims>
+		<climate>temperate; cold, damp winters; hot, dry summers</climate>
+		<terrain>mostly mountains with lowlands in north and southeast</terrain>
+		<elevation>
+			<high>Musala 2,925 m</high>
+			<low>Black Sea 0 m</low>
+		</elevation>
+		<resources>bauxite, copper, lead, zinc, coal, timber, arable land</resources>
+		<land-use>
+			<arable unit="%">29.94</arable>
+			<crops unit="%">1.9</crops>
+			<other unit="%">68.16</other>
+		</land-use>
+		<hazards>earthquakes; landslides</hazards>
+		<issues>air pollution from industrial emissions; rivers polluted from raw sewage, heavy metals, detergents; deforestation; forest damage from air pollution and resulting acid rain; soil contamination from heavy metals from metallurgical plants and industrial wastes</issues>
+		<water>
+			<irrigated-land unit="sq km">1020</irrigated-land>
+			<renewable-water unit="cu km">19.4</renewable-water>
+			<freshwater-withdrawal>
+				<total unit="cu km/yr">6.92</total>
+				<per-capita unit="cu m/yr">895</per-capita>
+			</freshwater-withdrawal>
+		</water>
+		<!--
+"geo": {
+
+		"Natural hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
+		"Environment - current issues": "air pollution, principally from vehicle and power plant emissions; nitrogen and phosphorus pollution of the North Sea; drinking and surface water becoming polluted from animal wastes and pesticides",
+		"Environment - international agreements": {
+			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
+			"signed, but not ratified:": "none of the selected agreements"
+		},
+		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
+
+		-->
+	</geo>
+	<people>
+		<population>
+			<total>7093</total>
+			<birth unit="births/1,000 population">9.32</birth>
+			<death unit="deaths/1,000 population">14.32</birth>
+			<migration unit=""></migration>
+			<growth unit=""></growth>
+		</population>
+		<age-distribution unit="percent">
+			<group min="0" max="14">13.9</group>
+			<group min="15" max="64">67.9</group>
+			<group min="65"></group>
+		</age-distribution>
+		<median-age unit="years">
+			<total>41.9</total>
+			<male>39.6</male>
+			<female>44</female>
+		</median-age>
+		<urbanization>
+			<urban unit="% of total population">71</urban>
+			<rate unit=""></urban>
+			<cities>SOFIA (capital) 1.192 million (2009)</cities>
+		</urbanization>
+		<sex unit="male(s)/female">
+			<group name="at birth" max="0">1.06</group>
+			<group name="0 to 14" min="0" max="14">1.05</group>
+			<group name="15 to 64" min="15" max="64">0.97</group>
+			<group name="65 and over" min="65" max="0">0.68</group>
+			<group name="total" min="0">0.92</group>
+		</sex>
+		<infant-mortality>
+			<total unit="deaths/1,000 live births">16.68</total>
+			<male unit="deaths/1,000 live births">19.93</male>
+			<female unit="deaths/1,000 live births">13.25</female>
+		</infant-mortality>
+		<life-expectancy-at-birth>
+			<total unit="years">73.59</total>
+			<male unit="years">69.99</male>
+			<female unit="years">77.41</female>
+		</life-expectancy-at-birth>
+		<fertility-rate unit="1.42">children born/woman</fertility-rate>
+		<hiv>
+			<prevalence>[object Object]</prevalence>
+			<total>3800</total>
+			<deaths>fewer than 200 (2009 est.)</deaths>
+		</hiv>
+		<infectious-disease risk="">
+			<food-or-waterborne></food-or-waterborne>
+			<vectorborne></vectorborne>
+			<water-contact></water-contact>
+		</infectious-disease>
+		<drinking-water-source>[object Object]</drinking-water-source>
+		<sanitation-access>[object Object]</sanitation-access>
+		<nationality>
+			<noun>Bulgarian(s)</noun>
+			<adjective>Bulgarian</adjective>
+		</nationality>
+		<ethnic-groups>Bulgarian 83.9%, Turk 9.4%, Roma 4.7%, other 2% (including Macedonian, Armenian, Tatar, Circassian) (2001 census)</ethnic-groups>
+		<religions>Bulgarian Orthodox 82.6%, Muslim 12.2%, other Christian 1.2%, other 4% (2001 census)</religions>
+		<languages>Bulgarian (official) 84.5%, Turkish 9.6%, Roma 4.1%, other and unspecified 1.8% (2001 census)</languages>
+		<literacy>
+			<definition>age 15 and over can read and write</definition>
+			<total unit="%">98.2</total>
+			<male unit="%">98.7</male>
+			<female unit="%">97.7</female>
+		</literacy>
+		<school-expectancy unit="years">14</school-expectancy>
+		<education-expenditure unit="% of GDP">4.1</school-expectancy>
+	</people>
+	<government>
+		<country-name>
+			<long>Republic of Bulgaria</long>
+			<short>Bulgaria</short>
+		</country-name>
+		<dependency></dependency>
+		<government-type>parliamentary democracy</government-type>
+		<capital>
+			<name>Sofia</name>
+			<coordinates>[object Object]</coordinates>
+			<time-difference>UTC+2 (7 hours ahead of Washington, DC during Standard Time)</time-difference>
+		</capital>
+		<administrative-divisions>28 provinces (oblasti, singular - oblast); Blagoevgrad, Burgas, Dobrich, Gabrovo, Khaskovo, Kurdzhali, Kyustendil, Lovech, Montana, Pazardzhik, Pernik, Pleven, Plovdiv, Razgrad, Ruse, Shumen, Silistra, Sliven, Smolyan, Sofiya (Sofia), Sofiya-Grad (Sofia City), Stara Zagora, Turgovishte, Varna, Veliko Turnovo, Vidin, Vratsa, Yambol</administrative-divisions>
+		<independence>3 March 1878 (as an autonomous principality within the Ottoman Empire); 22 September 1908 (complete independence from the Ottoman Empire)</independence>
+		<national-holiday>Liberation Day, 3 March (1878)</national-holiday>
+		<legal-system>civil law</legal-system>
+		<suffrage>18 years of age; universal</suffrage>
+		<executive>
+			<head-of-state>President Georgi PARVANOV (since 22 January 2002); Vice President Angel MARIN (since 22 January 2002)</head-of-state>
+			<head-of-government>Prime Minister Boyko BORISSOV (since 27 July 2009); Deputy Prime Ministers Simeon DJANKOV and Tsvetan TSVETANOV (since 27 July 2009)</head-of-government>
+			<cabinet>Council of Ministers nominated by the prime minister and elected by the National Assembly</cabinet>
+			<elections>president and vice president elected on the same ticket by popular vote for a five-year term (eligible for a second term); election last held on 22 and 29 October 2006 (next to be held in 2011); chairman of the Council of Ministers (prime minister) elected by the National Assembly; deputy prime ministers nominated by the prime minister and elected by the National Assembly</elections>
+			<election-results>Georgi PARVANOV reelected president; percent of vote - Georgi PARVANOV 77.3%, Volen SIDEROV 22.7%; Boyko BORISSOV elected prime minister; result of legislative vote - 162 to 77 with 1 abstention</election-results>
+		</executive>
+		<legislative>
+			<description>unicameral National Assembly or Narodno Sabranie (240 seats; members elected by popular vote to serve four-year terms)</description>
+			<elections>last held on 5 July 2009 (next to be held in mid-2013)</elections>
+			<election-results>percent of vote by party - GERB 39.7%, BSP 17.7%, MRF 14.4%, ATAKA 9.4%, Blue Coalition 6.8%, RZS 4.1%, other 7.9%; seats by party - GERB 117, BSP 40, MRF 37, ATAKA 21, Blue Coalition 15, RZS 8, independents 2</election-results>
+		</legislative>
+		<judicial>independent judiciary comprised of judges, prosecutors and investigating magistrates who are appointed, promoted, demoted, and dismissed by a 25-member Supreme Judicial Council (consists of the chairmen of the two Supreme Courts, the Chief Prosecutor, and 22 members, half of whom are elected by the National Assembly and the other half by the bodies of the judiciary for a 5-year term in office); three levels of case review; 182 courts of which two Supreme Courts act as the last instance on civil and criminal cases (the Supreme Court of Cassation) and appeals of government decisions (the Supreme Administrative Court)</judicial>
+		<parties>Agrarian National Union or ANU [Stefan LICHEV]; National Union Attack (Ataka) [Volen SIDEROV]; Blue Coalition [Ivan KOSTOV and Martin DIMITROV] (a coalition of center-right parties dominated by UDF and DSB); Bulgarian New Democracy [Borislav RALCHEV]; Bulgarian Socialist Party or BSP [Sergei STANISHEV]; Citizens for the European Development of Bulgaria or GERB [Boyko BORISSOV]; Coalition for Bulgaria or CfB [Sergei STANISHEV] (coalition of parties dominated by BSP); Democrats for a Strong Bulgaria or DSB [Ivan KOSTOV]; Gergyovden [Petar STOYANOVICH]; Internal Macedonian Revolutionary Organization or IMRO [Krasimir KARAKACHANOV]; Liberal Initiative for Democratic European Development or LIDER [Khristo KOVACHKI]; Movement for Rights and Freedoms or MRF [Ahmed DOGAN]; National Movement for Stability and Progress or NDSV [Hristina HRISTOVA] (formerly National Movement Simeon II or NMS2); New Time [Emil KOSHLUKOV]; Order, Law, Justice or RZS [Yane YANEV]; Union of Democratic Forces or UDF [Martin DIMITROV]; Union of Free Democrats or UFD [Stefan SOFIYANSKI]; United Agrarians [Anastasia MOZER]</parties>
+		<pressure-groups>TO DO</pressure-groups>
+		<membership>Australia Group, BIS, BSEC, CE, CEI, CERN, EAPC, EBRD, EIB, EU, FAO, G- 9, IAEA, IBRD, ICAO, ICC, ICRM, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, NATO, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, SECI, UN, UNCTAD, UNESCO, UNIDO, UNMIL, UNWTO, UPU, WCO, WFTU, WHO, WIPO, WMO, WTO, ZC</membership>
+		<representation-in-usa>
+			<chief>Ambassador Elena POPTODOROVA</chief>
+			<chancery>1621 22nd Street NW, Washington, DC 20008</chancery>
+			<telephone>[1] (202) 387-0174</telephone>
+			<FAX>[1] (202) 234-7973</FAX>
+			<consulates>Chicago, Los Angeles, New York</consulates>
+		</representation-in-usa>
+		<representation-from-usa>
+			<chief>Ambassador James B. WARLICK, Jr</chief>
+			<embassy>16 Kozyak Street, Sofia 1407</embassy>
+			<mailing-address>American Embassy Sofia, US Department of State, 5740 Sofia Place, Washington, DC 20521-5740</mailing-address>
+			<telephone>[359] (2) 937-5100</telephone>
+			<FAX>[359] (2) 937-5320</FAX>
+		</representation-from-usa>
+		<flag>[object Object]</flag>
+		<anthem>
+			<name>&quot;Mila Rodino&quot; (Dear Homeland)</name>
+			<by>Tsvetan Tsvetkov RADOSLAVOV</by>
+		</anthem>
+	</government>
+	<economy>
+		<overview>Bulgaria, a former Communist country that entered the EU on 1 January 2007, averaged more than 6% annual growth from 2004 to 2008, driven by significant amounts of foreign direct investment and consumption. Successive governments have demonstrated a commitment to economic reforms and responsible fiscal planning, but the global downturn sharply reduced domestic demand, exports, capital inflows, and industrial production. GDP contracted by approximately 5% in 2009, and stagnated in 2010, despite a significant recovery in exports. The economy is expected to grow modestly in 2011, however. Corruption in the public administration, a weak judiciary, and the presence of organized crime remain significant challenges.</overview>
+		<gdp>
+			<purchasing-power-parity>[object Object]</purchasing-power-parity>
+			<official-exchange-rate>[object Object]</official-exchange-rate>
+			<real-growth-rate>[object Object]</real-growth-rate>
+			<per-capita>[object Object]</per-capita>
+			<sector unit="%">
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+		</gdp>
+		<labour>
+			<force>3400000</force>
+			<sector>
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+			<unemployment unit="%">9.2</unemployment>
+		</labour>
+		<poverty>[object Object]</poverty>
+		<household-income>TO DO</household-income>
+		<budget>
+			<revenue unit="USD"></revenue>
+			<expenditure unit="USD"></expenditure>
+		</budget>
+		<public-debt unit="% of GDP">16.2</public-debt>
+		<consumer-inflation unit="%">4.4</consumer-inflation>
+		<central-bank-discount-rate unit="%"></central-bank-discount-rate>
+		<commercial-prime-lending-rate unit="%">11.34</commercial-prime-lending-rate>
+		<narrow-money-stock unit="USD">12700000000</narrow-money-stock>
+		<broad-money-stock unit="USD">35370000000</broad-money-stock>
+		<domestic-credit-stock unit="USD">34540000000</domestic-credit-stock>
+		<agriculture-products>vegetables, fruits, tobacco, wine, wheat, barley, sunflowers, sugar beets; livestock</agriculture-products>
+		<industries>electricity, gas, water; food, beverages, tobacco; machinery and equipment, base metals, chemical products, coke, refined petroleum, nuclear fuel</industries>
+		<industrial-production-growth>[object Object]</industrial-production-growth>
+		<electricity unit="kWh">
+			<production>4309000000</production>
+			<consumption>28300000000</consumption>
+			<exports>7073000000</exports>
+			<imports>2660000000</imports>
+		</electricity>
+		<oil>
+			<production unit="bbl/day">3227</production>
+			<consumption unit="bbl/day">125000</consumption>
+			<exports unit="bbl/day">76570</exports>
+			<imports unit="bbl/day">189000</imports>
+			<reserves unit="bbl">15000000</reserves>
+		</oil>
+		<natural-gas>
+			<production unit="cu m">54000000</production>
+			<consumption unit="cu m">2620000000</consumption>
+			<exports unit="cu m">0</exports>
+			<imports unit="cu m">2480000000</imports>
+			<reserves unit="cu m">5663000000</reserves>
+		</natural-gas>
+		<exports>
+			<total unit="USD"></total>
+			<commodities>clothing, footwear, iron and steel, machinery and equipment, fuels</commodities>
+			<partners>Germany 11.21%, Greece 9.43%, Italy 9.24%, Romania 8.52%, Turkey 7.33%, Belgium 5.61%, France 4.44% (2009)</partners>
+		</exports>
+		<imports>
+			<total unit="USD">22780000000</total>
+			<commodities>machinery and equipment; metals and ores; chemicals and plastics; fuels, minerals, and raw materials</commodities>
+			<partners>Russia 13.14%, Germany 12.23%, Italy 7.78%, Greece 6.17%, Romania 5.65%, Turkey 5.48%, Ukraine 4.81%, Austria 4.08% (2009)</partners>
+		</imports>
+		<external-debt unit="USD">47150000000</external-debt>
+		<exchange-rates>leva (BGN) per US dollar -</exchange-rates>
+	</economy>
+	<communications>
+		<telephones>
+			<assessment>inherited an extensive but antiquated telecommunications network from the Soviet era; quality has improved with a modern digital trunk line now connecting switching centers in most of the regions; remaining areas are connected by digital microwave radio relay</assessment>
+			<domestic>the Bulgaria Telecommunications Company's fixed-line monopoly terminated in 2005 in an effort to upgrade fixed-line services; mobile-cellular teledensity, fostered by multiple service providers, approached 150 telephones per 100 persons in 2009</domestic>
+			<international>country code - 359; submarine cable provides connectivity to Ukraine and Russia; a combination submarine cable and land fiber-optic system provides connectivity to Italy, Albania, and Macedonia; satellite earth stations - 3 (1 Intersputnik in the Atlantic Ocean region, 2 Intelsat in the Atlantic and Indian Ocean regions) (2009)</international>
+			<land-lines>2164000</land-lines>
+			<mobile>10617000</mobile>
+		</telephones>
+		<broadcast>4 national terrestrial television stations with 1 state-owned and 3 privately-owned; a vast array of TV stations are available from cable and satellite TV providers; state-owned national radio broadcasts over 3 networks; large number of private radio stations broadcasting, especially in urban areas (2010)</broadcast>
+		<internet>
+			<tld>.bg</tld>
+			<hosts>785546</hosts>
+			<users>3395000</users>
+		</internet>
+	</communications>
+	<transport>
+		<airports>
+			<total>210</total>
+			<paved>
+				<altitude min="*" max="*"></altitude>
+				<altitude min="3047m" max="*">2</altitude>
+				<altitude min="2438m" max="3047m">17</altitude>
+				<altitude min="1524m" max="2437m">15</altitude>
+				<altitude min="914m" max="1524m"></altitude>
+				<altitude min="*" max="914m">96</altitude>
+			</paved>
+		</airports>
+		<ports-and-terminals>Burgas, Varna</ports-and-terminals>
+	</transport>
+	<military>
+		<branches>Bulgarian Armed Forces: Ground Forces, Naval Forces, Bulgarian Air Forces (Bulgarski Voennovazdyshni Sily, BVVS) (2011)</branches>
+		<manpower>
+			<population-available>
+				<male>1637</male>
+				<female>1621</female>
+			</population-available>
+			<fit-for-service>
+				<male>1320</male>
+				<female>1337</female>
+			</fit-for-service>
+			<reaching-maturity>
+				<male>33444</male>
+				<female>32075</female>
+			</reaching-maturity>
+			<notes></notes>
+		</manpower>
+	</military>
+	<issues>
+		<disputes>none</disputes>
+		<drugs>major European transshipment point for Southwest Asian heroin and, to a lesser degree, South American cocaine for the European market; limited producer of precursor chemicals; vulnerable to money laundering because of corruption, organized crime; some money laundering of drug-related proceeds through financial institutions (2008)</drugs>
+	</issues>
+</country>

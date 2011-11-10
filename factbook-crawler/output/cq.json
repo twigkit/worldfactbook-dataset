@@ -7,15 +7,15 @@
 		"Location": "Oceania, islands in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 15,
-				"seconds": 12
+				"deg": 15,
+				"min": 12
 			},
 			"E": {
-				"minutes": 145,
-				"seconds": 45
+				"deg": 145,
+				"min": 45
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 464,
@@ -77,13 +77,10 @@
 		},
 		"Natural hazards": "active volcanoes on Pagan and Agrihan; typhoons (especially August to November)",
 		"Environment - current issues": "contamination of groundwater on Saipan may contribute to disease; clean-up of landfill; protection of endangered species conflicts with development",
-		"Geography - note": {}
+		"Geography - note": "strategic location in the North Pacific Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 46050,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 26,
@@ -109,28 +106,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-4.004% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-4.004% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 20.69,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20.69,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.28,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.28,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-57.46 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-57.46 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 91,
@@ -195,11 +180,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.13,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.13,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -229,7 +211,7 @@
 			}
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -244,12 +226,12 @@
 			"name:": "Saipan",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 15,
-					"seconds": 12
+					"deg": 15,
+					"min": 12
 				},
 				"E": {
-					"minutes": 145,
-					"seconds": 45
+					"deg": 145,
+					"min": 45
 				}
 			},
 			"time difference:": "UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
@@ -257,7 +239,6 @@
 		"Administrative divisions": "none (commonwealth in political union with the US); there are no first-order administrative divisions as defined by the US Government, but there are four municipalities at the second order: Northern Islands, Rota, Saipan, Tinian",
 		"Independence": "none (commonwealth in political union with the US)",
 		"National holiday": "Commonwealth Day, 8 January (1978)",
-		"Constitution": "Constitution of the Commonwealth of the Northern Mariana Islands effective 1 January 1978; Covenant Agreement fully effective 4 November 1986",
 		"Legal system": "US system applies, except for customs, wages, immigration laws, and taxation",
 		"Suffrage": "18 years of age; universal; indigenous inhabitants are US citizens but do not vote in US presidential elections",
 		"Executive branch": {
@@ -277,7 +258,10 @@
 		"Political pressure groups and leaders": "NA",
 		"International organization participation": "SPC, UPU",
 		"Flag description": "blue, with a white, five-pointed star superimposed on a gray latte stone (the traditional foundation stone used in building) in the center, surrounded by a wreath; blue symbolizes the Pacific Ocean, the star represents the Commonwealth; the latte stone and the floral head wreath display elements of the native Chamorro culture",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Gi Talo Gi Halom Tasi\" (In the Middle of the Sea)",
+			"lyrics/music:": "Jose S. PANGELINAN [Chamoru], David PETER [Carolinian]/Wilhelm GANZHORN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy benefits substantially from financial assistance from the US. The rate of funding has declined as locally generated government revenues have grown. The key tourist industry employs about 50% of the work force and accounts for roughly one-fourth of GDP. Japanese tourists predominate. Annual tourist entries have exceeded one-half million in recent years, but financial difficulties in Japan have caused a temporary slowdown. The agricultural sector is made up of cattle ranches and small farms producing coconuts, breadfruit, tomatoes, and melons. Garment production is by far the most important industry with the employment of 17,500 mostly Chinese workers and sizable shipments to the US under duty and quota exemptions.",
@@ -291,10 +275,7 @@
 			"usd": 633400000
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": "NA%",
@@ -302,7 +283,7 @@
 			"services:": "NA%"
 		},
 		"Labor force": {
-			"Labor force": null,
+			"Labor force": 38450,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -311,11 +292,8 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -330,26 +308,17 @@
 				"usd": 223000000
 			}
 		},
-		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": "-0.8% (2000)",
-			"country comparison to the world:": ""
-		},
+		"Inflation rate (consumer prices)": "-0.8% (2000)",
 		"Agriculture - products": "vegetables and melons, fruits and nuts; ornamental plants; livestock, poultry and eggs; fish and aquaculture products",
 		"Industries": "banking, construction, fishing, garment, tourism, handicrafts",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 60600,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60600,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 48300,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 48300,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -360,31 +329,19 @@
 			"unit": "kWh"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 98200000
-			},
-			"country comparison to the world:": ""
+			"usd": 98200000
 		},
 		"Exports - commodities": "garments",
 		"Imports": {
-			"Imports": {
-				"usd": 214400000
-			},
-			"country comparison to the world:": ""
+			"usd": 214400000
 		},
 		"Imports - commodities": "food, construction equipment and materials, petroleum products",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 25100,
+		"Telephones - mobile cellular": 20500,
 		"Telephone system": {
 			"general assessment:": "NA",
 			"domestic:": "NA",
@@ -392,24 +349,21 @@
 		},
 		"Broadcast media": "1 TV broadcast station on Saipan; multi-channel cable TV services are available on Saipan; 9 licensed radio broadcast stations (2009)",
 		"Internet country code": ".mp",
-		"Internet hosts": {}
+		"Internet hosts": 9
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 5,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 3,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"2,438 to 3,047 m:": 1,
+			"under 914 m:": 1
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Roadways": {
 			"total:": {
 				"quantity": 536,
@@ -417,20 +371,20 @@
 			},
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Saipan, Tinian, Rota"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 8793,
+			"females age 16-49:": 11569
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 410,
+			"female:": 306
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the US"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

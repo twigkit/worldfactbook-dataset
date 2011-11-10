@@ -7,15 +7,15 @@
 		"Location": "Caribbean, island between the Caribbean Sea and the North Atlantic Ocean; located in the Leeward Islands (northern) group; Saint Barthelemy lies east of the US Virgin Islands",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 17,
-				"seconds": 90
+				"deg": 17,
+				"min": 90
 			},
 			"W": {
-				"minutes": 62,
-				"seconds": 85
+				"deg": 62,
+				"min": 85
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"quantity": 21,
 			"unit": "sq km"
@@ -32,13 +32,10 @@
 			"highest point:": "Morne du Vitet 286 m"
 		},
 		"Natural resources": "has few natural resources, its beaches being the most important",
-		"Environment - current issues": {}
+		"Environment - current issues": "with no natural rivers or streams, fresh water is in short supply, especially in summer, and provided by desalinization of sea water, collection of rain water, or imported via water tanker"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 7367,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18.8,
@@ -90,7 +87,7 @@
 		"Religions": "Roman Catholic, Protestant, Jehovah's Witness",
 		"Languages": "French (primary), English",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -104,19 +101,18 @@
 			"name:": "Gustavia",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 17,
-					"seconds": 53
+					"deg": 17,
+					"min": 53
 				},
 				"W": {
-					"minutes": 62,
-					"seconds": 51
+					"deg": 62,
+					"min": 51
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC, during Standard Time)"
 		},
 		"Independence": "none (overseas collectivity of France)",
 		"National holiday": "Bastille Day, 14 July (1789); note - local holiday is St. Barthelemy Day, 24 August",
-		"Constitution": "4 October 1958 (French Constitution)",
 		"Legal system": "French civil law",
 		"Suffrage": "18 years of age, universal",
 		"Executive branch": {
@@ -137,43 +133,43 @@
 		"Diplomatic representation in the US": "none (overseas collectivity of France)",
 		"Diplomatic representation from the US": "none (overseas collectivity of France)",
 		"Flag description": "the flag of France is used",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"L'Hymne a St. Barthelemy\" (Hymn to St. Barthelemy)",
+			"lyrics/music:": "Isabelle Massart DERAVIN/Michael VALENTI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy of Saint Barthelemy is based upon high-end tourism and duty-free luxury commerce, serving visitors primarily from North America. The luxury hotels and villas host 70,000 visitors each year with another 130,000 arriving by boat. The relative isolation and high cost of living inhibits mass tourism. The construction and public sectors also enjoy significant investment in support of tourism. With limited fresh water resources, all food must be imported, as must all energy resources and most manufactured goods. Employment is strong and attracts labor from Brazil and Portugal.",
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
+	"communications": {
 		"Telephone system": {
 			"general assessment:": "fully integrated access",
 			"domestic:": "direct dial capability with both fixed and wireless systems",
 			"international:": "country code - 590; undersea fiber-optic cable provides voice and data connectivity to Puerto Rico and Guadeloupe"
 		},
 		"Broadcast media": "no local TV broadcasters; 3 FM radio channels (2 via repeater)",
-		"Internet country code": {}
+		"Internet country code": ".bl; note - .gp, the Internet country code for Guadeloupe, and .fr, the Internet country code for France, might also be encountered"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 1,
+			"under 914 m:": 1
 		},
 		"Ports and terminals": "Gustavia",
-		"Transportation - note": {}
+		"Transportation - note": "nearest airport for international flights is Princess Juliana International Airport (SXM) located in Sint Maarten"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1495,
+			"females age 16-49:": 1263
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 23,
+			"female:": 21
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France"
 	},
 	"issues": {}
 }

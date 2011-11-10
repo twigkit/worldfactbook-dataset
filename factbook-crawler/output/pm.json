@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Colombia and Costa Rica",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 9,
-				"seconds": 0
+				"deg": 9,
+				"min": 0
 			},
 			"W": {
-				"minutes": 80,
-				"seconds": 0
+				"deg": 80,
+				"min": 0
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 75420,
@@ -99,13 +99,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "Marine Life Conservation"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location on eastern end of isthmus forming land bridge connecting North and South America; controls Panama Canal that links North Atlantic Ocean via Caribbean Sea with North Pacific Ocean"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 3460,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 28.6,
@@ -132,30 +129,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.435,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.435,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 19.43,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.43,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.65,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.65,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.42 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.42 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 75,
@@ -220,27 +205,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.45,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.45,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.9,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 20000,
+		"HIV/AIDS - deaths": 1500,
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -286,7 +259,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.8,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -300,12 +276,12 @@
 			"name:": "Panama City",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 8,
-					"seconds": 58
+					"deg": 8,
+					"min": 58
 				},
 				"W": {
-					"minutes": 79,
-					"seconds": 32
+					"deg": 79,
+					"min": 32
 				}
 			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)"
@@ -313,7 +289,6 @@
 		"Administrative divisions": "9 provinces (provincias, singular - provincia) and 3 indigenous territories* (comarcas); Bocas del Toro, Chiriqui, Cocle, Colon, Darien, Embera-Wounaan*, Herrera, Kuna Yala*, Los Santos, Ngobe-Bugle*, Panama, Veraguas",
 		"Independence": "3 November 1903 (from Colombia; became independent from Spain on 28 November 1821)",
 		"National holiday": "Independence Day, 3 November (1903)",
-		"Constitution": "11 October 1972; revised several times",
 		"Legal system": "civil law system; judicial review of legislative acts in the Supreme Court of Justice",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal and compulsory",
@@ -348,7 +323,10 @@
 			"FAX:": "[507] 317-5568"
 		},
 		"Flag description": "divided into four, equal rectangles; the top quadrants are white (hoist side) with a blue five-pointed star in the center and plain red; the bottom quadrants are plain blue (hoist side) and white with a red five-pointed star in the center; the blue and red colors are those of the main political parties (Conservatives and Liberals respectively) and the white denotes peace between them; the blue star stands for the civic virtues of purity and honesty, the red star signifies authority and law",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Istemno\" (Isthmus Hymn)",
+			"lyrics/music:": "Jeronimo DE LA OSSA/Santos A. JORGE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Panama's dollar-based economy rests primarily on a well-developed services sector that accounts for three-quarters of GDP. Services include operating the Panama Canal, logistics, banking, the Colon Free Zone, insurance, container ports, flagship registry, and tourism. Economic growth will be bolstered by the Panama Canal expansion project that began in 2007 and is scheduled to be completed by 2014 at a cost of $5.3 billion - about 25% of current GDP. The expansion project will more than double the Canal's capacity, enabling it to accommodate ships that are too large to traverse the existing canal. The United States and China are the top users of the Canal. Panama also plans to construct a metro system in Panama City, valued at $1.2 billion and scheduled to be completed by 2014. Panama's booming transportation and logistics services sectors, along with aggressive infrastructure development projects, will likely lead the economy to continued growth in 2011. Strong economic performance has not translated into broadly shared prosperity, as Panama has the second worst income distribution in Latin America. About 30% of the population lives in poverty; however, from 2006 to 2010 poverty was reduced by 10 percentage points, while unemployment dropped from 12% to 6% of the labor force. Panama and the United States signed a Trade Promotion Agreement in June 2007, which, when implemented, will help promote the country's economic growth. Seeking removal from the Organization of Economic Development's gray-list of tax havens, Panama has also recently signed various double taxation treaties with other nations.",
@@ -362,11 +340,8 @@
 			"usd": 26780000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -407,11 +382,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 25.6,
@@ -427,16 +399,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 51,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 26.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -447,69 +413,39 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 40,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 8.302,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.302,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 5040000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5040000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 24170000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24170000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 23200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 23200000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 8048000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8048000000
 		},
 		"Agriculture - products": "bananas, rice, corn, coffee, sugarcane, vegetables; livestock; shrimp",
 		"Industries": "construction, brewing, cement and other construction materials, sugar milling",
-		"Industrial production growth rate": {
-			"Industrial production growth rate": "-1% (September 2010, year-over-year)",
-			"country comparison to the world:": ""
-		},
+		"Industrial production growth rate": "-1% (September 2010, year-over-year)",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 6546000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6546000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 5805000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5805000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 124900000,
@@ -520,79 +456,46 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 93000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 93000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 4803,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4803,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 87100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 87100,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.523 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.523 billion (2010 est.)",
 		"Exports": {
 			"Exports": {
 				"usd": 12520000000
@@ -610,30 +513,20 @@
 		"Imports - commodities": "capital goods, foodstuffs, consumer goods, chemicals",
 		"Imports - partners": "Japan 36.21%, Singapore 16.86%, US 12.3%, China 7.84% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 3525000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3525000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 13850000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13850000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": {
+			"Exchange rates": "balboas (PAB) per US dollar -"
+		}
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5677000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 537100,
+		"Telephones - mobile cellular": 5677000,
 		"Telephone system": {
 			"general assessment:": "domestic and international facilities well developed",
 			"domestic:": "mobile-cellular telephone subscribership has increased rapidly",
@@ -641,31 +534,25 @@
 		},
 		"Broadcast media": "multiple privately-owned television networks and a government-owned educational TV station; multi-channel cable and satellite TV subscription services are available; more than 100 commercial radio stations (2007)",
 		"Internet country code": ".pa",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 9585,
+		"Internet users": 959800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 118,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 54,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 17
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 64,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 11,
+			"under 914 m:": 52
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "oil 128 km",
 		"Railways": {
 			"total:": {
@@ -690,42 +577,36 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "800 km (includes the 82-km Panama Canal that is being widened) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "800 km (includes the 82-km Panama Canal that is being widened) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 6379,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 2,383, cargo 1,129, carrier 18, chemical tanker 626, combination ore/oil 3, container 751, liquefied gas 192, passenger 42, passenger/cargo 61, petroleum tanker 576, refrigerated cargo 212, roll on/roll off 100, specialized tanker 3, vehicle carrier 282",
 			"foreign-owned:": "5,244 (Albania 3, Argentina 7, Australia 5, Azerbaijan 1, Bahamas 7, Bangladesh 3, Belgium 2, Bermuda 15, Brazil 3, Bulgaria 6, Burma 3, Canada 5, Chile 17, China 574, Colombia 2, Croatia 2, Cuba 4, Cyprus 8, Denmark 46, Ecuador 6, Egypt 11, Finland 2, France 13, Gabon 1, Germany 27, Gibraltar 1, Greece 402, Hong Kong 125, India 17, Indonesia 14, Iran 5, Ireland 1, Isle of Man 11, Israel 1, Italy 23, Japan 2347, Jordan 13, Kuwait 12, Latvia 4, Lebanon 2, Lithuania 4, Luxembourg 1, Malaysia 12, Maldives 3, Malta 2, Mexico 6, Monaco 14, Morocco 1, Netherlands 8, Nigeria 7, Norway 89, Oman 8, Pakistan 5, Peru 12, Philippines 6, Poland 3, Portugal 9, Qatar 1, Romania 2, Russia 39, Saudi Arabia 8, Singapore 79, South Korea 366, Spain 40, Sweden 1, Switzerland 22, Syria 42, Taiwan 337, Tanzania 2, Thailand 6, Tunisia 1, Turkey 79, UAE 83, UK 33, Ukraine 11, US 102, Venezuela 8, Vietnam 37, Yemen 4)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Balboa, Colon, Cristobal"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Panamanian public forces include: Panamanian National Police (PNP), National Air-Naval Service (SENAN), National Border Service (SENAFRONT) (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 890006
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 731254,
+			"females age 16-49:": 728329
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 32142,
+			"female:": 30879
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "on 10 February 1990, the government of then President ENDARA abolished Panama's military and reformed the security apparatus by creating the Panamanian Public Forces; in October 1994, Panama's Legislative Assembly approved a constitutional amendment prohibiting the creation of a standing military force but allowing the temporary establishment of special police units to counter acts of \"external aggression\""
 	},
 	"issues": {
 		"Disputes - international": "organized illegal narcotics operations in Colombia operate within the remote border region with Panama",
-		"Illicit drugs": {}
+		"Illicit drugs": "major cocaine transshipment point and primary money-laundering center for narcotics revenue; money-laundering activity is especially heavy in the Colon Free Zone; offshore financial center; negligible signs of coca cultivation; monitoring of financial transactions is improving; official corruption remains a major problem"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Eastern Asia, southern half of the Korean Peninsula bordering the Sea of Japan and the Yellow Sea",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 37,
-				"seconds": 0
+				"deg": 37,
+				"min": 0
 			},
 			"E": {
-				"minutes": 127,
-				"seconds": 30
+				"deg": 127,
+				"min": 30
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 99720,
@@ -103,13 +103,10 @@
 			"party to:": "Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location on Korea Strait"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 48754,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.7,
@@ -136,32 +133,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.23,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.23,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 8.55,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.55,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.26,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.26,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -227,24 +212,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.23,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.23,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 9500,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -283,7 +256,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -298,12 +274,12 @@
 			"name:": "Seoul",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 37,
-					"seconds": 33
+					"deg": 37,
+					"min": 33
 				},
 				"E": {
-					"minutes": 126,
-					"seconds": 59
+					"deg": 126,
+					"min": 59
 				}
 			},
 			"time difference:": "UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
@@ -315,7 +291,6 @@
 		},
 		"Independence": "15 August 1945 (from Japan)",
 		"National holiday": "Liberation Day, 15 August (1945)",
-		"Constitution": "17 July 1948; note - amended or rewritten many times; current constitution approved 29 October 1987",
 		"Legal system": "mixed legal system combining European civil law, Anglo-American law, and Chinese classical thought",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "19 years of age; universal",
@@ -350,7 +325,10 @@
 			"FAX:": "[82] (2) 738-8845"
 		},
 		"Flag description": "white with a red (top) and blue yin-yang symbol in the center; there is a different black trigram from the ancient I Ching (Book of Changes) in each corner of the white field; the Korean national flag is called Taegukki; white is a traditional Korean color and represents peace and purity; the blue section represents the negative cosmic forces of the yin, while the red symbolizes the opposite positive forces of the yang; each trigram (kwae) denotes one of the four universal elements, which together express the principle of movement and harmony",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Aegukga\" (Patriotic Song)",
+			"lyrics/music:": "YUN Ch'i-Ho or AN Ch'ang-Ho/AHN Eaktay"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Since the 1960s, South Korea has achieved an incredible record of growth and global integration to become a high-tech industrialized economy. Four decades ago, GDP per capita was comparable with levels in the poorer countries of Africa and Asia. In 2004, South Korea joined the trillion dollar club of world economies, and currently is among the world's 20 largest economies. Initially, a system of close government and business ties, including directed credit and import restrictions, made this success possible. The government promoted the import of raw materials and technology at the expense of consumer goods, and encouraged savings and investment over consumption. The Asian financial crisis of 1997-98 exposed longstanding weaknesses in South Korea's development model including high debt/equity ratios and massive short-term foreign borrowing. GDP plunged by 6.9% in 1998, and then recovered by 9% in 1999-2000. Korea adopted numerous economic reforms following the crisis, including greater openness to foreign investment and imports. Growth moderated to about 4-5% annually between 2003 and 2007. With the global economic downturn in late 2008, South Korean GDP growth slowed to 0.2% in 2009. In the third quarter of 2009, the economy began to recover, in large part due to export growth, low interest rates, and an expansionary fiscal policy, and growth exceeded 6% in 2010. The South Korean economy's long term challenges include a rapidly aging population, inflexible labor market, and overdependence on manufacturing exports to drive economic growth.",
@@ -364,11 +342,8 @@
 			"usd": 1006999999999.9999
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -390,10 +365,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 24620000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 24620000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 7.3,
@@ -409,11 +381,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.3,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 15,
@@ -429,16 +398,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 31.4,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 28.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28.7,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -449,79 +412,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 23.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 1.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.65,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.65,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 101900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 101900000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1346000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1346000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1057000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1057000000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 836500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 836500000000
 		},
 		"Agriculture - products": "rice, root crops, barley, vegetables, fruit; cattle, pigs, chickens, milk, eggs; fish",
 		"Industries": "electronics, telecommunications, automobile production, chemicals, shipbuilding, steel",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 12.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 12.1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 417000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 417000000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 402000000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 402000000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -532,18 +462,12 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 48180,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 48180,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2185000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2185000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
 			"Oil - exports": {
@@ -553,111 +477,63 @@
 			"country comparison to the world:": ""
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 3074000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3074000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 651000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 651000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 34090000000.000004,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34090000000.000004,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 32689999999.999996,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 32689999999.999996,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 50000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 50000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 36350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 36350000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 466300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 466300000000
 		},
 		"Exports - commodities": "semiconductors, wireless telecommunications equipment, motor vehicles, computers, steel, ships, petrochemicals",
 		"Exports - partners": "China 23.2%, US 10.1%, Japan 5.8%, Hong Kong 5.3% (2009 est.)",
 		"Imports": {
-			"Imports": {
-				"usd": 417900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 417900000000
 		},
 		"Imports - commodities": "machinery, electronics and electronic equipment, oil, steel, transport equipment, organic chemicals, plastics",
 		"Imports - partners": "China 16.8%, Japan 15.3%, US 9%, Saudi Arabia 6.1%, Australia 4.6% (2009 est.)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 274600000000.00003
-			},
-			"country comparison to the world:": ""
+			"usd": 274600000000.00003
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 370100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 370100000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 112100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 112100000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 115600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 115600000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "South Korean won (KRW) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 19289000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 47944000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 19289000,
+		"Telephones - mobile cellular": 47944000,
 		"Telephone system": {
 			"general assessment:": "excellent domestic and international services featuring rapid incorporation of new technologies",
 			"domestic:": "fixed-line and mobile-cellular services widely available with a combined telephone subscribership of roughly 140 per 100 persons; rapid assimilation of a full range of telecommunications technologies leading to a boom in e-commerce",
@@ -665,30 +541,24 @@
 		},
 		"Broadcast media": "multiple national television networks with 2 of the 3 largest networks publicly operated; the largest privately-owned network, Seoul Broadcasting Service (SBS), has ties with other commercial TV networks; cable and satellite TV subscription services are available; publicly-operated radio broadcast networks and a large number of privately-owned radio broadcasting networks, each with multiple affiliates, and independent local stations (2010)",
 		"Internet country code": ".kr",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 291329,
+		"Internet users": 39400000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 116,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 72,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 21,
+			"1,524 to 2,437 m:": 13,
+			"914 to 1,523 m:": 12
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 44,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 42
 		},
-		"Heliports": null,
+		"Heliports": 510,
 		"Pipelines": "gas 2,139 km; refined products 864 km (2010)",
 		"Railways": {
 			"total:": {
@@ -713,37 +583,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "1,608 km (most navigable only by small craft) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "1,608 km (most navigable only by small craft) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 819,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 201, cargo 246, carrier 5, chemical tanker 132, container 69, liquefied gas 40, passenger 5, passenger/cargo 21, petroleum tanker 67, refrigerated cargo 15, roll on/roll off 9, vehicle carrier 9",
-			"foreign-owned:": null,
+			"foreign-owned:": 33,
 			"registered in other countries:": "438 (Cambodia 11, Ghana 1, Honduras 6, Hong Kong 3, Indonesia 1, Kiribati 2, Liberia 1, Malta 3, Marshall Islands 25, North Korea 1, Panama 366, Philippines 1, Russia 1, Singapore 9, Tuvalu 1, unknown 6) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Incheon (Inch'on), Pohang (P'ohang), Busan (Pusan), Ulsan, Yeosu (Yosu)"
 	},
 	"military": {
 		"Military branches": "Republic of Korea Army, Navy (includes Marine Corps), Air Force (2011)",
 		"Military service age and obligation": "20-30 years of age for compulsory military service, with middle school education required; conscript service obligation - 21 months (Army, Marines), 23 months (Navy), 24 months (Air Force); 18-26 years of age for voluntary military service; women, in service since 1950, admitted to 7 service branches, including infantry, but excluded from artillery, armor, anti-air, and chaplaincy corps; some 4,000 women serve as commissioned and noncommissioned officers, approx. 2.3% of all officers; HIV-positive individuals are exempt from military service (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 13185,
+			"females age 16-49:": 12423
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 10864,
+			"females age 16-49:": 10168
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 365760,
+			"female:": 321225
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Military Demarcation Line within the 4-km wide Demilitarized Zone has separated North from South Korea since 1953; periodic incidents with North Korea in the Yellow Sea over the Northern Limit Line, which South Korea claims as a maritime boundary; South Korea and Japan claim Liancourt Rocks (Tok-do/Take-shima), occupied by South Korea since 1954"
 	}
 }

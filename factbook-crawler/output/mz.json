@@ -7,15 +7,15 @@
 		"Location": "Southeastern Africa, bordering the Mozambique Channel, between South Africa and Tanzania",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 18,
-				"seconds": 15
+				"deg": 18,
+				"min": 15
 			},
 			"E": {
-				"minutes": 35,
-				"seconds": 0
+				"deg": 35,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 799380,
@@ -98,11 +98,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the Zambezi flows through the north-central and most fertile part of the country"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 22948,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -131,30 +131,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.444,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.444,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 39.62,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39.62,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.18 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.18 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 38,
@@ -219,27 +207,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.46,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.46,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 11.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": 1400000,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 1400000,
+		"HIV/AIDS - deaths": 74000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -285,7 +261,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -300,12 +279,12 @@
 			"name:": "Maputo",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 25,
-					"seconds": 57
+					"deg": 25,
+					"min": 57
 				},
 				"E": {
-					"minutes": 32,
-					"seconds": 35
+					"deg": 32,
+					"min": 35
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -313,7 +292,6 @@
 		"Administrative divisions": "10 provinces (provincias, singular - provincia), 1 city (cidade)*; Cabo Delgado, Gaza, Inhambane, Manica, Maputo, Cidade de Maputo*, Nampula, Niassa, Sofala, Tete, Zambezia",
 		"Independence": "25 June 1975 (from Portugal)",
 		"National holiday": "Independence Day, 25 June (1975)",
-		"Constitution": "30 November 1990",
 		"Legal system": "mixed legal system of Portuguese civil law, Islamic law, and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -347,7 +325,10 @@
 			"FAX:": "[258] (21) 490114"
 		},
 		"Flag description": "three equal horizontal bands of green (top), black, and yellow with a red isosceles triangle based on the hoist side; the black band is edged in white; centered in the triangle is a yellow five-pointed star bearing a crossed rifle and hoe in black superimposed on an open white book; green represents the riches of the land, white peace, black the African continent, yellow the country's minerals, and red the struggle for independence; the rifle symbolizes defense and vigilance, the hoe refers to the country's agriculture, the open book stresses the importance of education, and the star represents Marxism and internationalism",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Patria Amada\" (Lovely Fatherland)",
+			"lyrics/music:": "Salomao J. MANHICA/unknown"
+		}
 	},
 	"economy": {
 		"Economy - overview": "At independence in 1975, Mozambique was one of the world's poorest countries. Socialist mismanagement and a brutal civil war from 1977-92 exacerbated the situation. In 1987, the government embarked on a series of macroeconomic reforms designed to stabilize the economy. These steps, combined with donor assistance and with political stability since the multi-party elections in 1994, have led to dramatic improvements in the country's growth rate. Fiscal reforms, including the introduction of a value-added tax and reform of the customs service, have improved the government's revenue collection abilities. In spite of these gains, Mozambique remains dependent upon foreign assistance for more than half of its annual budget, and the majority of the population remains below the poverty line. Subsistence agriculture continues to employ the vast majority of the country's work force and smallholder agricultural productivity and productivity growth is weak. A substantial trade imbalance persists although the opening of the Mozal aluminum smelter, the country's largest foreign investment project to date, has increased export earnings. At the end of 2007, and after years of negotiations, the government took over Portugal's majority share of the Cahora Bassa Hydroelectricity (HCB) company, a dam that was not transferred to Mozambique at independence because of the ensuing civil war and unpaid debts. More electrical power capacity is needed for additional investment projects in titanium extraction and processing and garment manufacturing that could further close the import/export gap. Mozambique's once substantial foreign debt has been reduced through forgiveness and rescheduling under the IMF's Heavily Indebted Poor Countries (HIPC) and Enhanced HIPC initiatives, and is now at a manageable level. In July 2007 the Millennium Challenge Corporation (MCC) signed a compact with Mozambique; the compact entered into force in September 2008 and will continue for five years. Compact projects will focus on improving sanitation, roads, agriculture, and the business regulation environment in an effort to spur economic growth in the four northern provinces of the country. Mozambique grew at an average annual rate of 9% in the decade up to 2007, one of Africa's strongest performances. However, heavy reliance on aluminum, which accounts for about one-third of exports, subjects the economy to volatile international prices. The sharp decline in aluminum prices during the global economic crisis lowered GDP growth by several percentage points. Despite 8.3% GDP growth in 2010, the increasing cost of living prompted citizens to riot in September 2010, after fuel, water, electricity, and bread price increases were announced. In an attempt to contain the cost of living, the government implemented subsidies, decreased taxes and tariffs, and instituted other fiscal measures.",
@@ -361,11 +342,8 @@
 			"usd": 9893000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -387,10 +365,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 9870000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 9870000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 81,
@@ -406,11 +381,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 21,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 70,
@@ -426,16 +398,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 47.3,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 17.2,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.2,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -446,74 +412,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 40.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 13.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.5,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 9.95,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.95,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 15.68,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.68,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 2657000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2657000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 3803000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3803000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 2740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2740000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, cashew nuts, sugarcane, tea, cassava (tapioca), corn, coconuts, sisal, citrus and tropical fruits, potatoes, sunflowers; beef, poultry",
 		"Industries": "food, beverages, chemicals (fertilizer, soap, paints), aluminum, petroleum products, textiles, cement, glass, asbestos, tobacco",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 15910000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15910000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 10160000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10160000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 11820000000,
@@ -524,118 +460,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 18000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 13760,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13760,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 3300000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3300000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 3200000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3200000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 127400000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 127400000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.028 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.028 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 2517000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2517000000
 		},
 		"Exports - commodities": "aluminum, prawns, cashews, cotton, sugar, citrus, timber; bulk electricity",
 		"Exports - partners": "Netherlands 47.62%, South Africa 11.6% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 3527000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3527000000
 		},
 		"Imports - commodities": "machinery and equipment, vehicles, fuel, chemicals, metal products, foodstuffs, textiles",
 		"Imports - partners": "South Africa 33.54%, Netherlands 8.42%, India 5.93%, China 4.24% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 1982000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1982000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 4990000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4990000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "meticais (MZM) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 5971000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 82400,
+		"Telephones - mobile cellular": 5971000,
 		"Telephone system": {
 			"general assessment:": "a fair telecommunications system that is shackled with a heavy state presence, lack of competition, and high operating costs and charges",
 			"domestic:": "stagnation in the fixed-line network contrasts with rapid growth in the mobile-cellular network; mobile-cellular coverage now includes all the main cities and key roads, including those from Maputo to the South African and Swaziland borders, the national highway through Gaza and Inhambane provinces, the Beira corridor, and from Nampula to Nacala; extremely low fixed-line teledensity; despite significant growth in mobile-cellular services, teledensity remains low at about 25 per 100 persons",
@@ -643,30 +528,24 @@
 		},
 		"Broadcast media": "1 state-run TV station supplemented by private TV station; Portuguese state TV's African service, RTP Africa, and Brazilian-owned TV Miramar are available; state-run radio provides nearly 100% territorial coverage and broadcasts in multiple languages; a number of privately-owned and community-operated stations also broadcast; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".mz",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 21172,
+		"Internet users": 613600
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 106,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 23,
+			"over 3,047 m:": 1,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 10,
+			"914 to 1,523 m:": 4
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 83,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 9,
+			"914 to 1,523 m:": 34,
+			"under 914 m:": 39
 		},
 		"Pipelines": "gas 918 km; refined products 278 km (2010)",
 		"Railways": {
@@ -692,36 +571,36 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "460 km (Zambezi River navigable to Tete and along Cahora Bassa Lake) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "460 km (Zambezi River navigable to Tete and along Cahora Bassa Lake) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 2,
 			"country comparison to the world:": "",
 			"by type:": "cargo 2",
 			"foreign-owned:": "2 (Belgium 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Beira, Maputo, Nacala"
 	},
 	"military": {
 		"Military branches": "Mozambique Armed Defense Forces (Forcas Armadas de Defesa de Mocambique, FADM): Mozambique Army, Mozambique Navy (Marinha de Guerra de Mocambique, MGM), Mozambique Air Force (Forca Aerea de Mocambique, FAM) (2011)",
 		"Military service age and obligation": "registration for military service is mandatory for all males and females at 18 years of age; 18-35 years of age for selective compulsory military service; 18 years of age for voluntary service; 2-year service obligation; women may serve as officers or enlisted (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 4613
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2677,
+			"females age 16-49:": 2941
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 274602,
+			"female:": 280008
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "southern African transit point for South Asian hashish and heroin, and South American cocaine probably destined for the European and South African markets; producer of cannabis (for local consumption) and methaqualone (for export to South Africa); corruption and poor regulatory capability make the banking system vulnerable to money laundering, but the lack of a well-developed financial infrastructure limits the country's utility as a money-laundering center"
 	}
 }

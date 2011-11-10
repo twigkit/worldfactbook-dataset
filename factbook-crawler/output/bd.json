@@ -7,15 +7,15 @@
 		"Location": "North America, group of islands in the North Atlantic Ocean, east of South Carolina (US)",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 32,
-				"seconds": 20
+				"deg": 32,
+				"min": 20
 			},
 			"W": {
-				"minutes": 64,
-				"seconds": 45
+				"deg": 64,
+				"min": 45
 			}
 		},
-		"Map references": "North America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 54,
@@ -71,13 +71,10 @@
 		"Irrigated land": "NA (2008)",
 		"Natural hazards": "hurricanes (June to November)",
 		"Environment - current issues": "sustainable development",
-		"Geography - note": {}
+		"Geography - note": "consists of about 138 coral islands and islets with ample rainfall, but no rivers or freshwater lakes; some land was leased by the US Government from 1941 to 1995"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 68679,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 18,
@@ -104,32 +101,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.594,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.594,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.42,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.42,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.57,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.57,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 2.1,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -195,27 +180,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.97,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.97,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 163,
+		"HIV/AIDS - deaths": 392,
 		"Nationality": {
 			"noun:": "Bermudian(s)",
 			"adjective:": "Bermudian"
@@ -252,7 +225,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 2.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -266,12 +242,12 @@
 			"name:": "Hamilton",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 32,
-					"seconds": 17
+					"deg": 32,
+					"min": 17
 				},
 				"W": {
-					"minutes": 64,
-					"seconds": 47
+					"deg": 64,
+					"min": 47
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
@@ -280,7 +256,6 @@
 		"Administrative divisions": "9 parishes and 2 municipalities*; Devonshire, Hamilton, Hamilton*, Paget, Pembroke, Saint George*, Saint George's, Sandys, Smith's, Southampton, Warwick",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "Bermuda Day, 24 May",
-		"Constitution": "8 June 1968; amended 1989 and 2003",
 		"Legal system": "English common law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -310,29 +285,23 @@
 		"Flag description": {
 			"Flag description": "red, with the flag of the UK in the upper hoist-side quadrant and the Bermudian coat of arms (a white shield with a red lion standing on a green grassy field holding a scrolled shield showing the sinking of the ship Sea Venture off Bermuda in 1609) centered on the outer half of the flag; it was the shipwreck of the vessel, filled with English colonists originally bound for Virginia, that led to settling of Bermuda"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Hail to Bermuda\"",
+			"lyrics/music:": "Bette JOHNS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Bermuda enjoys the third highest per capita income in the world, more than 50% higher than that of the US; the average cost of a house by the mid-2000s exceeded $1,000,000. Its economy is primarily based on providing financial services for international business and luxury facilities for tourists. A number of reinsurance companies relocated to the island following the 11 September 2001 attacks and again after Hurricane Katrina in August 2005 contributing to the expansion of an already robust international business sector. Bermuda's tourism industry - which derives over 80% of its visitors from the US - continues to struggle but remains the island's number two industry. Most capital equipment and food must be imported. Bermuda's industrial sector is largely focused on construction and agriculture is limited, with only 20% of the land being arable.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 4500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4500000000
 		},
 		"GDP (official exchange rate)": "$NA",
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -348,10 +317,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 38360,
 		"Labor force - by occupation": {
 			"agriculture and fishing:": {
 				"quantity": 3,
@@ -375,11 +341,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 19,
@@ -398,34 +361,22 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 1360000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1360000000
 		},
 		"Agriculture - products": "bananas, vegetables, citrus, flowers; dairy products, honey",
 		"Industries": "international business, tourism, light manufacturing",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 675600000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 675600000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 628300000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 628300000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -436,110 +387,65 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 5000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 4500,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4500,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 763000000
-			},
-			"country comparison to the world:": ""
+			"usd": 763000000
 		},
 		"Exports - commodities": "reexports of pharmaceuticals",
 		"Exports - partners": "Spain 16.91%, India 10.15%, Brazil 9.55%, Germany 7.4% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1162000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1162000000
 		},
 		"Imports - commodities": "clothing, fuels, machinery and transport equipment, construction materials, chemicals, food and live animals",
 		"Imports - partners": "US 31.2%, South Korea 26.71%, Brazil 6.77%, Ireland 6.11%, Singapore 5.35% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 160000000
-			},
-			"country comparison to the world:": ""
+			"usd": 160000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Bermudian dollars (BMD) per US dollar - 1.000 (fixed rate pegged to the US dollar)"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 57700,
+		"Telephones - mobile cellular": 85000,
 		"Telephone system": {
 			"general assessment:": "a good, fully automatic digital telephone system with fiber-optic trunk lines",
 			"domestic:": "the system has a high fixed-line teledensity coupled with a mobile-cellular teledensity of roughly 125 per 100 persons",
@@ -547,20 +453,14 @@
 		},
 		"Broadcast media": "3 television stations; cable and satellite TV subscription services are available; roughly 10 radio stations operating (2007)",
 		"Internet country code": ".bm",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 19855,
+		"Internet users": 54000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 1,
+			"2,438 to 3,047 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -574,38 +474,35 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 139,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 22, chemical tanker 3, container 15, liquefied gas 38, passenger 26, passenger/cargo 6, petroleum tanker 20, refrigerated cargo 9",
-			"foreign-owned:": null,
+			"foreign-owned:": 114,
 			"registered in other countries:": "180 (Bahamas 12, Cyprus 1, Greece 3, Hong Kong 12, Isle of Man 7, Liberia 4, Malta 8, Marshall Islands 34, Norway 5, Panama 15, Philippines 43, Saint Vincent and the Grenadines 1, Singapore 21, UK 9, US 5) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Hamilton, Ireland Island, Saint George"
 	},
 	"military": {
 		"Military branches": "Bermuda Regiment (2009)",
 		"Military service age and obligation": "18-30 years of age for voluntary or compulsory enlistment in the Bermuda Regiment; males must register at age 18; term of service is 38 months (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 15081
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 12323,
+			"females age 16-49:": 12174
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 433,
+			"female:": 410
 		},
 		"Military expenditures": {
-			"Military expenditures": {
-				"quantity": 0.11,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.11,
+			"unit": "% of GDP"
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

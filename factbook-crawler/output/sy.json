@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 35,
-				"seconds": 0
+				"deg": 35,
+				"min": 0
 			},
 			"E": {
-				"minutes": 38,
-				"seconds": 0
+				"deg": 38,
+				"min": 0
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 185180,
@@ -101,11 +101,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Environmental Modification"
 		},
-		"Geography - note": {}
+		"Geography - note": "there are 41 Israeli settlements and civilian land use sites in the Israeli-occupied Golan Heights (2010 est.)"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 22517,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -134,30 +134,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.913,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.913,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 23.99,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.99,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.68,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.68,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-11.18 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-11.18 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 56,
@@ -222,24 +210,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.94,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.94,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "less than 0.1% (2001 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 500 (2003 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2003 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "less than 0.1% (2001 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 500 (2003 est.)",
+		"HIV/AIDS - deaths": "fewer than 200 (2003 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -278,7 +254,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -293,12 +272,12 @@
 			"name:": "Damascus",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 33,
-					"seconds": 30
+					"deg": 33,
+					"min": 30
 				},
 				"E": {
-					"minutes": 36,
-					"seconds": 18
+					"deg": 36,
+					"min": 18
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -307,7 +286,6 @@
 		"Administrative divisions": "14 provinces (muhafazat, singular - muhafazah); Al Hasakah, Al Ladhiqiyah (Latakia), Al Qunaytirah, Ar Raqqah, As Suwayda', Dar'a, Dayr az Zawr, Dimashq (Damascus), Halab, Hamah, Hims, Idlib, Rif Dimashq, Tartus",
 		"Independence": "17 April 1946 (from League of Nations mandate under French administration)",
 		"National holiday": "Independence Day, 17 April (1946)",
-		"Constitution": "13 March 1973",
 		"Legal system": "mixed legal system of civil and Islamic law (for family courts)",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -348,7 +326,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of red (top), white, and black; two small, green, five-pointed stars in a horizontal line centered in the white band; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white); identical to the former flag of the United Arab Republic (1958-1961) where the two stars represented the constituent states of Syria and Egypt; the current design dates to 1980"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Humat ad-Diyar\" (Guardians of the Homeland)",
+			"lyrics/music:": "Khalil Mardam BEY/Mohammad Salim FLAYFEL and Ahmad Salim FLAYFEL"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Syrian economic growth remained in the 4-5% range in 2008-10 even though the global economic crisis affected oil prices and the economies of Syria's key export partners and sources of investment. Damascus has implemented modest economic reforms in the past few years, including cutting lending interest rates, opening private banks, consolidating all of the multiple exchange rates, raising prices on some subsidized items, most notably gasoline and cement, and establishing the Damascus Stock Exchange - which began operations in 2009. In addition, President ASAD signed legislative decrees to encourage corporate ownership reform, and to allow the Central Bank to issue Treasury bills and bonds for government debt. Nevertheless, the economy remains highly controlled by the government. Long-run economic constraints include declining oil production, high unemployment, rising budget deficits, and increasing pressure on water supplies caused by heavy use in agriculture, rapid population growth, industrial expansion, and water pollution.",
@@ -362,11 +343,8 @@
 			"usd": 59330000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -388,10 +366,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5527000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5527000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 17,
@@ -407,11 +382,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 8.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.3,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 11.9,
@@ -422,11 +394,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 16.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.6,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -437,74 +406,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 29.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29.8,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 5.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 10.04,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.04,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 21600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 21600000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 161000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 161000000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 27140000000
-			},
-			"country comparison to the world:": ""
+			"usd": 27140000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "wheat, barley, cotton, lentils, chickpeas, olives, sugar beets; beef, mutton, eggs, poultry, milk",
 		"Industries": "petroleum, textiles, food processing, beverages, tobacco, phosphate rock mining, cement, oil seeds crushing, car assembly",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 36500000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36500000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 27350000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 27350000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -515,120 +454,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 400400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 400400,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 252000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 252000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 155000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 155000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 58710,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 58710,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 2500000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2500000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 6040000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6040000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 6180000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6180000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 140000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 140000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 240700000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 240700000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 649000000
-			},
-			"country comparison to the world:": ""
+			"usd": 649000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 12840000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12840000000
 		},
 		"Exports - commodities": "crude oil, minerals, petroleum products, fruits and vegetables, cotton fiber, textiles, clothing, meat and live animals, wheat",
 		"Exports - partners": "Iraq 30.22%, Lebanon 12.21%, Germany 8.89%, Egypt 6.8%, Saudi Arabia 5.04%, Italy 4.55% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 13570000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13570000000
 		},
 		"Imports - commodities": "machinery and transport equipment, electric power machinery, food and livestock, metal and metal products, chemicals and chemical products, plastics, yarn, paper",
 		"Imports - partners": "Saudi Arabia 10.1%, China 9.95%, Turkey 6.97%, Egypt 6.44%, UAE 4.97%, Italy 4.93%, Russia 4.92%, Germany 4.38%, Lebanon 4.12% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 17960000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17960000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 7682000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7682000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Syrian pounds (SYP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3871000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 9697000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3871000,
+		"Telephones - mobile cellular": 9697000,
 		"Telephone system": {
 			"general assessment:": "fair system currently undergoing significant improvement and digital upgrades, including fiber-optic technology and expansion of the network to rural areas",
 			"domestic:": "the number of fixed-line connections has increased markedly since 2000; mobile-cellular service growing with telephone subscribership reaching nearly 50 per 100 persons in 2009",
@@ -636,31 +524,25 @@
 		},
 		"Broadcast media": "state-run television and radio broadcast networks; state operates 2 TV networks and a satellite channel; roughly two-thirds of Syrian homes have a satellite dish providing access to foreign TV broadcasts; 3 state-run radio channels; first private radio station launched in 2005; private radio broadcasters prohibited from transmitting news or political content (2007)",
 		"Internet country code": ".sy",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 8114,
+		"Internet users": 4469000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 104,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 29,
+			"over 3,047 m:": 5,
+			"2,438 to 3,047 m:": 15,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 75,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 15,
+			"under 914 m:": 59
 		},
-		"Heliports": null,
+		"Heliports": 7,
 		"Pipelines": "gas 3,161 km; oil 1,997 km (2010)",
 		"Railways": {
 			"total:": {
@@ -686,35 +568,35 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "900 km (navigable but not economically significant) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "900 km (navigable but not economically significant) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 41,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 7, cargo 30, carrier 3, container 1",
-			"foreign-owned:": null,
+			"foreign-owned:": 5,
 			"registered in other countries:": "199 (Barbados 1, Belize 2, Bolivia 4, Cambodia 22, Comoros 6, Cyprus 1, Dominica 2, Georgia 35, Lebanon 3, Liberia 1, Libya 2, Malta 5, Moldova 3, North Korea 6, Panama 42, Saint Kitts and Nevis 5, Saint Vincent and the Grenadines 13, Sierra Leone 20, Togo 5, unknown 8) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Baniyas, Latakia, Tartus"
 	},
 	"military": {
 		"Military branches": "Syrian Armed Forces: Syrian Arab Army, Syrian Arab Navy, Syrian Arab Air and Air Defense Forces (includes Air Defense Command) (2008)",
 		"Military service age and obligation": "18 years of age for compulsory military service; conscript service obligation - 21 months (18 months in the Syrian Arab Navy); women are not conscripted but may volunteer to serve (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5889,
+			"females age 16-49:": 5660
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 5055,
+			"females age 16-49:": 4884
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 256698,
+			"female:": 244712
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 5.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Golan Heights is Israeli-occupied with the almost 1,000-strong UN Disengagement Observer Force (UNDOF) patrolling a buffer zone since 1964; lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute; since 2000, Lebanon has claimed Shab'a Farms in the Golan Heights; 2004 Agreement and pending demarcation settles border dispute with Jordan; approximately two million Iraqis have fled the conflict in Iraq with the majority taking refuge in Syria and Jordan",
@@ -726,6 +608,6 @@
 			"current situation:": "Syria is a destination and transit country for women and children trafficked for commercial sexual exploitation and forced labor; a significant number of women and children in the large and expanding Iraqi refugee community in Syria are reportedly forced into commercial sexual exploitation by Iraqi gangs or, in some cases, their families; women from Indonesia, Sri Lanka, the Philippines, Ethiopia, and Sierra Leone are recruited for work in Syria as domestic servants, but some face conditions of involuntary servitude, including long hours, non-payment of wages, withholding of passports, restrictions on movement, threats, and physical or sexual abuse",
 			"tier rating:": "Tier 2 Watch List - Syria again failed to report any law enforcement efforts to punish trafficking offenses in 2007; in addition, the government did not offer protection services to victims of trafficking and may have arrested, prosecuted, or deported some victims for prostitution or immigration violations; Syria has not ratified the 2000 UN TIP Protocol (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "a transit point for opiates, hashish, and cocaine bound for regional and Western markets; weak anti-money-laundering controls and bank privatization may leave it vulnerable to money laundering"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and UAE",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 21,
-				"seconds": 0
+				"deg": 21,
+				"min": 0
 			},
 			"E": {
-				"minutes": 57,
-				"seconds": 0
+				"deg": 57,
+				"min": 0
 			}
 		},
-		"Map references": "Middle East",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 309500,
@@ -102,11 +102,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location on Musandam Peninsula adjacent to Strait of Hormuz, a vital transit point for world crude oil"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 3027,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -135,30 +135,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.023,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.023,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 24.15,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24.15,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 3.45,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.45,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.48 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.48 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 73,
@@ -223,27 +211,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.87,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.87,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 1100,
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -282,7 +258,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -297,20 +276,19 @@
 			"name:": "Muscat",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 23,
-					"seconds": 37
+					"deg": 23,
+					"min": 37
 				},
 				"E": {
-					"minutes": 58,
-					"seconds": 35
+					"deg": 58,
+					"min": 35
 				}
 			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
 		},
 		"Administrative divisions": "5 regions (manatiq, singular - mintaqat) and 4 governorates* (muhafazat, singular - muhafazat) Ad Dakhiliyah, Al Batinah, Al Buraymi*, Al Wusta, Ash Sharqiyah, Az Zahirah, Masqat (Muscat)*, Musandam*, Zufar (Dhofar)*",
-		"Independence": null,
+		"Independence": 1650,
 		"National holiday": "Birthday of Sultan QABOOS, 18 November (1940)",
-		"Constitution": "none; note - on 6 November 1996, Sultan QABOOS issued a royal decree promulgating a basic law considered by the government to be a constitution which, among other things, clarifies the royal succession, provides for a prime minister, bars ministers from holding interests in companies doing business with the government, establishes a bicameral legislature, and guarantees basic civil liberties for Omani citizens",
 		"Legal system": "mixed legal system of Anglo-Saxon law and Islamic law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "21 years of age; universal; note - members of the military and security forces are not allowed to vote",
@@ -345,7 +323,10 @@
 			"FAX:": "[968] 24-699771"
 		},
 		"Flag description": "three horizontal bands of white, red, and green of equal width with a broad, vertical, red band on the hoist side; the national emblem (a khanjar dagger in its sheath superimposed on two crossed swords in scabbards) in white is centered near the top of the vertical band; white represents peace and prosperity, red recalls battles against foreign invaders, and green symbolizes the Jebel Akhdar (Green Mountains) and fertility",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Nashid as-Salaam as-Sultani\" (The Sultan's Anthem)",
+			"lyrics/music:": "Rashid bin Uzayyiz al KHUSAIDI/James Frederick MILLS, arranged by Bernard EBBINGHAUS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Oman is a middle-income economy that is heavily dependent on dwindling oil resources. Because of declining reserves, Muscat has actively pursued a development plan that focuses on diversification, industrialization, and privatization, with the objective of reducing the oil sector's contribution to GDP to 9% by 2020. Tourism and gas-based industries are key components of the government's diversification strategy. By using enhanced oil recovery techniques, Oman succeeded in increasing oil production, giving the country more time to diversify, and the increase in global oil prices throughout 2010 provides the government greater financial resources to invest in non-oil sectors.",
@@ -359,11 +340,8 @@
 			"usd": 55620000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.2,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -386,7 +364,7 @@
 			}
 		},
 		"Labor force": {
-			"Labor force": null,
+			"Labor force": 968800,
 			"country comparison to the world:": ""
 		},
 		"Labor force - by occupation": {
@@ -395,11 +373,8 @@
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 15,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -407,11 +382,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 26.3,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.3,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -422,79 +394,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 4.4,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.4,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 0.05,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.05,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.44,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.44,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 7257000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7257000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 22350000000
-			},
-			"country comparison to the world:": ""
+			"usd": 22350000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 22050000000
-			},
-			"country comparison to the world:": ""
+			"usd": 22050000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 17300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17300000000
 		},
 		"Agriculture - products": "dates, limes, bananas, alfalfa, vegetables; camels, cattle; fish",
 		"Industries": "crude oil production and refining, natural and liquefied natural gas (LNG) production; construction, cement, copper, steel, chemicals, optic fiber",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 13580000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13580000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 11360000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11360000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -505,122 +444,71 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 816000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 816000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 84000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 84000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 593700,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 593700,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 17290,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17290,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 5500000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5500000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 24000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 24000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 13460000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13460000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 10890000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10890000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 350000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 350000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 849500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 849500000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 2724000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2724000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 36120000000
-			},
-			"country comparison to the world:": ""
+			"usd": 36120000000
 		},
 		"Exports - commodities": "petroleum, reexports, fish, metals, textiles",
 		"Exports - partners": "China 26.98%, South Korea 17.19%, Japan 12.12%, UAE 11.23%, Thailand 7.64% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 19300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19300000000
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactured goods, food, livestock, lubricants",
 		"Imports - partners": "UAE 22.9%, Japan 13.99%, US 6.46%, China 5.64%, India 5.27%, France 5.19%, South Korea 4.65% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 14000000000
-			},
-			"country comparison to the world:": ""
+			"usd": 14000000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 8829000000
-			},
-			"country comparison to the world:": ""
+			"usd": 8829000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Omani rials (OMR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 3971000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 300100,
+		"Telephones - mobile cellular": 3971000,
 		"Telephone system": {
 			"general assessment:": "modern system consisting of open-wire, microwave, and radiotelephone communication stations; limited coaxial cable; domestic satellite system with 8 earth stations",
 			"domestic:": "fixed-line and mobile-cellular subscribership both increasing with fixed-line phone service gradually being introduced to remote villages using wireless local loop systems",
@@ -628,31 +516,25 @@
 		},
 		"Broadcast media": "1 state-run TV broadcaster; TV stations transmitting from Saudi Arabia, the UAE, and Yemen are accessible via satellite TV; state-run radio operates multiple stations; first private radio station began operation in 2007 and 2 additional stations now operating (2007)",
 		"Internet country code": ".om",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 9114,
+		"Internet users": 1465000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 130,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 11,
+			"over 3,047 m:": 6,
+			"2,438 to 3,047 m:": 4,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 119,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 7,
+			"1,524 to 2,437 m:": 51,
+			"914 to 1,523 m:": 33
 		},
-		"Heliports": null,
+		"Heliports": 3,
 		"Pipelines": "condensate 107 km; gas 4,209 km; oil 3,558 km; refined products 263 km (2010)",
 		"Roadways": {
 			"total:": {
@@ -670,31 +552,34 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 4,
 			"country comparison to the world:": "",
 			"by type:": "chemical tanker 1, passenger 1, passenger/cargo 2",
 			"registered in other countries:": "9 (Panama 8, Saint Vincent and the Grenadines 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Mina' Qabus, Salalah, Suhar"
 	},
 	"military": {
 		"Military branches": "Sultan's Armed Forces (SAF): Royal Army of Oman, Royal Navy of Oman, Royal Air Force of Oman (al-Quwwat al-Jawwiya al-Sultanat) (2010)",
 		"Military service age and obligation": "18-30 years of age for voluntary military service; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 985957,
+			"females age 16-49:": 737812
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 837886,
+			"females age 16-49:": 642427
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 31959,
+			"female:": 30264
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 11.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "boundary agreement reportedly signed and ratified with UAE in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah exclave, but details of the alignment have not been made public"
 	}
 }

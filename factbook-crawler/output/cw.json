@@ -7,15 +7,15 @@
 		"Location": "Oceania, group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 21,
-				"seconds": 14
+				"deg": 21,
+				"min": 14
 			},
 			"W": {
-				"minutes": 159,
-				"seconds": 46
+				"deg": 159,
+				"min": 46
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 236,
@@ -78,13 +78,10 @@
 		"Environment - international agreements": {
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection"
 		},
-		"Geography - note": {}
+		"Geography - note": "the northern Cook Islands are seven low-lying, sparsely populated, coral atolls; the southern Cook Islands, where most of the population lives, consist of eight elevated, fertile, volcanic isles, including the largest, Rarotonga, at 67 sq km"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 11124,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 25.1,
@@ -110,21 +107,12 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-3.2% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-3.2% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 15.37,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.37,
+			"unit": "births/1,000 population"
 		},
-		"Death rate": {
-			"Death rate": "7.37 deaths/1,000 population NA (July 2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Death rate": "7.37 deaths/1,000 population NA (July 2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 75,
@@ -188,11 +176,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.39,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.39,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -230,7 +215,7 @@
 			}
 		},
 		"Education expenditures": "NA",
-		"People - note": {}
+		"People - note": "2001 census counted a resident population of 15,017"
 	},
 	"government": {
 		"Country name": {
@@ -244,12 +229,12 @@
 			"name:": "Avarua",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 21,
-					"seconds": 12
+					"deg": 21,
+					"min": 12
 				},
 				"W": {
-					"minutes": 159,
-					"seconds": 46
+					"deg": 159,
+					"min": 46
 				}
 			},
 			"time difference:": "UTC-10 (5 hours behind Washington, DC during Standard Time)"
@@ -257,7 +242,6 @@
 		"Administrative divisions": "none",
 		"Independence": "none (became self-governing in free association with New Zealand on 4 August 1965 and has the right at any time to move to full independence by unilateral action)",
 		"National holiday": "Constitution Day, first Monday in August (1965)",
-		"Constitution": "4 August 1965",
 		"Legal system": "common law similar to New Zealand common law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration (New Zealand normally retains responsibility for external affairs); accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -282,31 +266,25 @@
 		"Diplomatic representation in the US": "none (self-governing in free association with New Zealand)",
 		"Diplomatic representation from the US": "none (self-governing in free association with New Zealand)",
 		"Flag description": "blue, with the flag of the UK in the upper hoist-side quadrant and a large circle of 15 white five-pointed stars (one for every island) centered in the outer half of the flag",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Te Atua Mou E\" (To God Almighty)",
+			"lyrics/music:": "Tepaeru Te RITO/Thomas DAVIS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Like many other South Pacific island nations, the Cook Islands' economic development is hindered by the isolation of the country from foreign markets, the limited size of domestic markets, lack of natural resources, periodic devastation from natural disasters, and inadequate infrastructure. Agriculture, employing more than one-quarter of the working population, provides the economic base with major exports made up of copra and citrus fruit. Black pearls are the Cook Islands' leading export. Manufacturing activities are limited to fruit processing, clothing, and handicrafts. Trade deficits are offset by remittances from emigrants and by foreign aid overwhelmingly from New Zealand. In the 1980s and 1990s, the country lived beyond its means, maintaining a bloated public service and accumulating a large foreign debt. Subsequent reforms, including the sale of state assets, the strengthening of economic management, the encouragement of tourism, and a debt restructuring agreement, have rekindled investment and growth.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 183200000
-			},
-			"country comparison to the world:": ""
+			"usd": 183200000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 183200000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -322,10 +300,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 6820,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 29,
@@ -341,11 +316,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 13.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.1,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -361,34 +333,22 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.1,
+			"unit": "%"
 		},
 		"Agriculture - products": "copra, citrus, pineapples, tomatoes, beans, pawpaws, bananas, yams, taro, coffee; pigs, poultry",
 		"Industries": "fruit processing, tourism, fishing, clothing, handicrafts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 31000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 31000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 28830000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28830000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -399,112 +359,64 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 495,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 495,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 26670000
-			},
-			"country comparison to the world:": ""
+			"usd": 26670000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 5222000
-			},
-			"country comparison to the world:": ""
+			"usd": 5222000
 		},
 		"Exports - commodities": "copra, papayas, fresh and canned citrus fruit, coffee; fish; pearls and pearl shells; clothing",
 		"Imports": {
-			"Imports": {
-				"usd": 81040000
-			},
-			"country comparison to the world:": ""
+			"usd": 81040000
 		},
 		"Imports - commodities": "foodstuffs, textiles, fuels, timber, capital goods",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 141000000
-			},
-			"country comparison to the world:": ""
+			"usd": 141000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "NZ dollars (NZD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 6900,
+		"Telephones - mobile cellular": 7000,
 		"Telephone system": {
 			"general assessment:": "Telecom Cook Islands offers international direct dialing, Internet, email, fax, and Telex",
 			"domestic:": "individual islands are connected by a combination of satellite earth stations, microwave systems, and VHF and HF radiotelephone; within the islands, service is provided by small exchanges connected to subscribers by open-wire, cable, and fiber-optic cable",
@@ -512,26 +424,20 @@
 		},
 		"Broadcast media": "1 privately-owned TV station broadcasts from Rarotonga providing a mix of local news and overseas-sourced programs; a satellite program package is available; 6 radio stations broadcast with 1 reportedly reaching all of the islands (2009)",
 		"Internet country code": ".ck",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2521,
+		"Internet users": 6000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 10,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 9,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 5,
+			"under 914 m:": 2
 		},
 		"Roadways": {
 			"total:": {
@@ -549,26 +455,26 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 34,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 27, passenger 1, refrigerated cargo 5",
 			"foreign-owned:": "23 (Egypt 1, Germany 1, Latvia 1, Lithuania 2, former Netherlands Antilles 1, Norway 6, NZ 1, Russia 1, Sweden 3, Turkey 4, UK 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Avatiu"
 	},
 	"military": {
 		"Military branches": "no regular military forces; National Police Department (2009)",
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2198,
+			"females age 16-49:": 2156
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 127,
+			"female:": 107
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of New Zealand in consultation with the Cook Islands and at its request"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

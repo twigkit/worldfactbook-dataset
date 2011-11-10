@@ -7,15 +7,15 @@
 		"Location": "Northern Asia (the area west of the Urals is considered part of Europe), bordering the Arctic Ocean, between Europe and the North Pacific Ocean",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 60,
-				"seconds": 0
+				"deg": 60,
+				"min": 0
 			},
 			"E": {
-				"minutes": 100,
-				"seconds": 0
+				"deg": 100,
+				"min": 0
 			}
 		},
-		"Map references": "Asia",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 17098,
@@ -108,13 +108,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Sulfur 85, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Wetlands, Whaling",
 			"signed, but not ratified:": "Air Pollution-Sulfur 94"
 		},
-		"Geography - note": {}
+		"Geography - note": "largest country in the world in terms of area but unfavorably located in relation to major sea lanes of the world; despite its size, much of the country lacks proper soils and climates (either too cold or too dry) for agriculture; Mount El'brus is Europe's tallest peak"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 138739,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.2,
@@ -140,30 +137,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.47% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.47% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 11.05,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.05,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 16.04,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.04,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.29,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.29,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -226,23 +211,14 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.42,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.42,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 980000,
 		"HIV/AIDS - deaths": "NA",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
@@ -289,7 +265,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -304,12 +283,12 @@
 			"name:": "Moscow",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 55,
-					"seconds": 45
+					"deg": 55,
+					"min": 45
 				},
 				"E": {
-					"minutes": 37,
-					"seconds": 35
+					"deg": 37,
+					"min": 35
 				}
 			},
 			"time difference:": "UTC+3 (8 hours ahead of Washington, DC during Standard Time)",
@@ -325,7 +304,6 @@
 		},
 		"Independence": "24 August 1991 (from the Soviet Union); notable earlier dates: 1157 (Principality of Vladimir-Suzdal created); 16 January 1547 (Tsardom of Muscovy established); 22 October 1721 (Russian Empire proclaimed); 30 December 1922 (Soviet Union established)",
 		"National holiday": "Russia Day, 12 June (1990)",
-		"Constitution": "adopted 12 December 1993",
 		"Legal system": "civil law system; judicial review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -361,7 +339,10 @@
 		"Flag description": {
 			"Flag description": "three equal horizontal bands of white (top), blue, and red"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Gimn Rossiyskoy Federatsii\" (National Anthem of the Russian Federation)",
+			"lyrics/music:": "Sergei Vladimirovich MIKHALKOV/Alexandr Vasilievich ALEXANDROV"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Russia has undergone significant changes since the collapse of the Soviet Union, moving from a globally-isolated, centrally-planned economy to a more market-based and globally-integrated economy. Economic reforms in the 1990s privatized most industry, with notable exceptions in the energy and defense-related sectors. The protection of property rights is still weak and the private sector remains subject to heavy state interference. Russian industry is primarily split between globally-competitive commodity producers - in 2009 Russia was the world's largest exporter of natural gas, the second largest exporter of oil, and the third largest exporter of steel and primary aluminum - and other less competitive heavy industries that remain dependent on the Russian domestic market. This reliance on commodity exports makes Russia vulnerable to boom and bust cycles that follow the highly volatile swings in global commodity prices. The government since 2007 has embarked on an ambitious program to reduce this dependency and build up the country's high technology sectors, but with few results so far. The economy had averaged 7% growth since the 1998 Russian financial crisis, resulting in a doubling of real disposable incomes and the emergence of a middle class. The Russian economy, however, was one of the hardest hit by the 2008-09 global economic crisis as oil prices plummeted and the foreign credits that Russian banks and firms relied on dried up. The Central Bank of Russia spent one-third of its $600 billion international reserves, the world's third largest, in late 2008 to slow the devaluation of the ruble. The government also devoted $200 billion in a rescue plan to increase liquidity in the banking sector and aid Russian firms unable to roll over large foreign debts coming due. The economic decline bottomed out in mid-2009 and the economy began to grow in the first quarter of 2010. However, a severe drought and fires in central Russia reduced agricultural output, prompting a ban on grain exports for part of the year, and slowed growth in other sectors such as manufacturing and retail trade. High oil prices buoyed Russian growth in the first quarter of 2011 and could help Russia reduce the budget deficit inherited from the lean years of 2008-09, but inflation and increased government expenditures may limit the positive impact of these revenues. Russia's long-term challenges include a shrinking workforce, a high level of corruption, difficulty in accessing capital for smaller, non-energy companies, and poor infrastructure in need of large investments.",
@@ -375,11 +356,8 @@
 			"usd": 1465000000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -401,10 +379,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 75550000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 75550000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 10,
@@ -420,11 +395,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.6,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 13.1,
@@ -440,16 +412,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 42.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 18.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 18.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -460,79 +426,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 9.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6.7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 8.75,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.75,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 15.31,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.31,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 269100000000.00003
-			},
-			"country comparison to the world:": ""
+			"usd": 269100000000.00003
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 650700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 650700000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 549900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 549900000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 861400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 861400000000
 		},
 		"Agriculture - products": "grain, sugar beets, sunflower seed, vegetables, fruits; beef, milk",
 		"Industries": "complete range of mining and extractive industries producing coal, oil, gas, chemicals, and metals; all forms of machine building from rolling mills to high-performance aircraft and space vehicles; defense industries including radar, missile production, and advanced electronic components, shipbuilding; road and rail transportation equipment; communications equipment; agricultural machinery, tractors, and construction equipment; electric power generating and transmitting equipment; medical and scientific instruments; consumer durables, textiles, foodstuffs, handicrafts",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 8.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 925900000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 925900000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 857600000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 857600000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 17700000000,
@@ -543,132 +476,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 10120000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10120000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 2740000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2740000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 5430000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5430000,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 42000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 42000,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 74200000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 74200000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 583600000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 583600000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 439600000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 439600000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 179100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 179100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 35100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35100000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 47570000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 47570000000000,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 68850000000
-			},
-			"country comparison to the world:": ""
+			"usd": 68850000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 376700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 376700000000
 		},
 		"Exports - commodities": "petroleum and petroleum products, natural gas, metals, wood and wood products, chemicals, and a wide variety of civilian and military manufactures",
 		"Exports - partners": "Netherlands 10.62%, Italy 6.46%, Germany 6.24%, China 5.69%, Turkey 4.3%, Ukraine 4.01% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 237300000000
-			},
-			"country comparison to the world:": ""
+			"usd": 237300000000
 		},
 		"Imports - commodities": "machinery, vehicles, pharmaceutical products, plastic, semi-finished metal products, meat, fruits and nuts, optical and medical instruments, iron, steel",
 		"Imports - partners": "Germany 14.39%, China 13.98%, Ukraine 5.48%, Italy 4.84%, US 4.46% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 483100000000
-			},
-			"country comparison to the world:": ""
+			"usd": 483100000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 480200000000
-			},
-			"country comparison to the world:": ""
+			"usd": 480200000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 306800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 306800000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 260500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 260500000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Russian rubles (RUB) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 44802000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 230500000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 44802000,
+		"Telephones - mobile cellular": 230500000,
 		"Telephone system": {
 			"general assessment:": "the telephone system is experiencing significant changes; there are more than 1,000 companies licensed to offer communication services; access to digital lines has improved, particularly in urban centers; Internet and e-mail services are improving; Russia has made progress toward building the telecommunications infrastructure necessary for a market economy; the estimated number of mobile subscribers jumped from fewer than 1 million in 1998 to some 230 million in 2009; a large demand for fixed line service remains unsatisfied",
 			"domestic:": "cross-country digital trunk lines run from Saint Petersburg to Khabarovsk, and from Moscow to Novorossiysk; the telephone systems in 60 regional capitals have modern digital infrastructures; cellular services, both analog and digital, are available in many areas; in rural areas, the telephone services are still outdated, inadequate, and low density",
@@ -676,32 +552,26 @@
 		},
 		"Broadcast media": "6 national TV stations with the federal government owning 1 and holding a controlling interest in a second; state-owned Gazprom maintains a controlling interest in a third national channel; government-affiliated Bank Rossiya owns controlling interest in a fourth and fifth, while the sixth national channel is owned by the Moscow city administration; roughly 3,300 national, regional, and local TV stations operating with over two-thirds completely or partially controlled by the federal or local governments; satellite TV services are available; 2 state-run national radio networks with a third majority-owned by Gazprom; roughly 2,400 public and commercial radio stations (2007)",
 		"Internet country code": ".ru; note - Russia also has responsibility for a legacy domain \".su\" that was allocated to the Soviet Union and is being phased out",
-		"Internet hosts": {
-			"Internet hosts": 10382000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 10382000,
+		"Internet users": 40853000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1213,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 593,
+			"over 3,047 m:": 51,
+			"2,438 to 3,047 m:": 201,
+			"1,524 to 2,437 m:": 126,
+			"914 to 1,523 m:": 98
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 620,
+			"over 3,047 m:": 3,
+			"2,438 to 3,047 m:": 13,
+			"1,524 to 2,437 m:": 68,
+			"914 to 1,523 m:": 84
 		},
-		"Heliports": null,
+		"Heliports": 50,
 		"Pipelines": "condensate 122 km; gas 160,952 km; liquid petroleum gas 127 km; oil 77,630 km; oil/gas/water 38 km; refined products 13,658 km (2010)",
 		"Railways": {
 			"total:": {
@@ -727,18 +597,15 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "102,000 km (including 48,000 km with guaranteed depth; the 72,000 km system in European Russia links Baltic Sea, White Sea, Caspian Sea, Sea of Azov, and Black Sea) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "102,000 km (including 48,000 km with guaranteed depth; the 72,000 km system in European Russia links Baltic Sea, White Sea, Caspian Sea, Sea of Azov, and Black Sea) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1097,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 22, cargo 634, carrier 2, chemical tanker 38, combination ore/oil 39, container 13, passenger 15, passenger/cargo 6, petroleum tanker 236, refrigerated cargo 77, roll on/roll off 11, specialized tanker 4",
-			"foreign-owned:": null,
+			"foreign-owned:": 145,
 			"registered in other countries:": "443 (Antigua and Barbuda 3, Belize 32, Bulgaria 2, Cambodia 60, Comoros 21, Cook Islands 1, Cyprus 47, Dominica 6, Georgia 7, Hong Kong 1, Liberia 108, Malaysia 2, Malta 47, Marshall Islands 6, Moldova 5, Mongolia 4, Panama 39, Saint Kitts and Nevis 11, Saint Vincent and the Grenadines 15, Sierra Leone 6, Vanuatu 1, unknown 19) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Kaliningrad, Kavkaz, Nakhodka, Novorossiysk, Primorsk, Saint Petersburg, Vostochnyy"
 	},
 	"military": {
 		"Military branches": "Ground Forces (Sukhoputnyye Voyskia, SV), Navy (Voyenno-Morskoy Flot, VMF), Air Forces (Voyenno-Vozdushniye Sily, VVS); Airborne Troops (VDV), Strategic Rocket Forces (Raketnyye Voyska Strategicheskogo Naznacheniya, RVSN), and Space Troops (Kosmicheskiye Voyska, KV) are independent \"combat arms,\" not subordinate to any of the three branches; Russian Ground Forces include the following combat arms: motorized-rifle troops, tank troops, missile and artillery troops, air defense of the ground troops (2010)",
@@ -746,18 +613,21 @@
 			"Military service age and obligation": "18-27 years of age for compulsory or voluntary military service; males are registered for the draft at 17 years of age; service obligation - 1 year (conscripts can only be sent to combat zones after 6 months training); reserve obligation to age 50"
 		},
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 34132,
+			"females age 16-49:": 34985
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 20431,
+			"females age 16-49:": 26381
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 693843,
+			"female:": 660359
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 3.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries; China and Russia have demarcated the once disputed islands at the Amur and Ussuri confluence and in the Argun River in accordance with the 2004 Agreement, ending their centuries-long border disputes; the sovereignty dispute over the islands of Etorofu, Kunashiri, Shikotan, and the Habomai group, known in Japan as the \"Northern Territories\" and in Russia as the \"Southern Kurils,\" occupied by the Soviet Union in 1945, now administered by Russia, and claimed by Japan, remains the primary sticking point to signing a peace treaty formally ending World War II hostilities; Russia's military support and subsequent recognition of Abkhazia and South Ossetia independence in 2008 continue to sour relations with Georgia; Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the lake; Norway and Russia signed a comprehensive maritime boundary agreement in 2010; various groups in Finland advocate restoration of Karelia (Kareliya) and other areas ceded to the Soviet Union following the Second World War but the Finnish Government asserts no territorial demands; in May 2005, Russia recalled its signatures to the 1996 border agreements with Estonia (1996) and Latvia (1997), when the two Baltic states announced issuance of unilateral declarations referencing Soviet occupation and ensuing territorial losses; Russia demands better treatment of ethnic Russians in Estonia and Latvia; Estonian citizen groups continue to press for realignment of the boundary based on the 1920 Tartu Peace Treaty that would bring the now divided ethnic Setu people and parts of the Narva region within Estonia; Lithuania and Russia committed to demarcating their boundary in 2006 in accordance with the land and maritime treaty ratified by Russia in May 2003 and by Lithuania in 1999; Lithuania operates a simplified transit regime for Russian nationals traveling from the Kaliningrad coastal exclave into Russia, while still conforming, as an EU member state with an EU external border, where strict Schengen border rules apply; preparations for the demarcation delimitation of land boundary with Ukraine have commenced; the dispute over the boundary between Russia and Ukraine through the Kerch Strait and Sea of Azov remains unresolved despite a December 2003 framework agreement and on-going expert-level discussions; Kazakhstan and Russia boundary delimitation was ratified on November 2005 and field demarcation should commence in 2007; Russian Duma has not yet ratified 1990 Bering Sea Maritime Boundary Agreement with the US; Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission",
@@ -768,6 +638,6 @@
 			"current situation:": "Russia is a source, transit, and destination country for men, women, and children trafficked for various purposes; it remains a significant source of women trafficked to over 50 countries for commercial sexual exploitation; Russia is also a transit and destination country for men and women trafficked from Central Asia, Eastern Europe, and North Korea to Central and Western Europe and the Middle East for purposes of forced labor and sexual exploitation; internal trafficking remains a problem in Russia with women trafficked from rural areas to urban centers for commercial sexual exploitation, and men trafficked internally and from Central Asia for forced labor in the construction and agricultural industries; debt bondage is common among trafficking victims, and child sex tourism remains a concern",
 			"tier rating:": "Tier 2 Watch List - Russia is on the Tier 2 Watch List for a fifth consecutive year for its failure to show evidence of increasing efforts to combat trafficking over the previous year, particularly in providing assistance to victims of trafficking; comprehensive trafficking victim assistance legislation, which would address key deficiencies, has been pending before the Duma since 2003 and was neither passed nor enacted in 2007 (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "limited cultivation of illicit cannabis and opium poppy and producer of methamphetamine, mostly for domestic consumption; government has active illicit crop eradication program; used as transshipment point for Asian opiates, cannabis, and Latin American cocaine bound for growing domestic markets, to a lesser extent Western and Central Europe, and occasionally to the US; major source of heroin precursor chemicals; corruption and organized crime are key concerns; major consumer of opiates"
 	}
 }

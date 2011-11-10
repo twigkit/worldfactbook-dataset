@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the Bight of Biafra, between Cameroon and Gabon",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 2,
-				"seconds": 0
+				"deg": 2,
+				"min": 0
 			},
 			"E": {
-				"minutes": 10,
-				"seconds": 0
+				"deg": 10,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 28051,
@@ -98,13 +98,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "insular and continental regions widely separated"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 668225,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 41.5,
@@ -131,32 +128,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.641,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.641,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 35.43,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 35.43,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.03,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.03,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -222,27 +207,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.91,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.91,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 20000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -286,7 +259,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 0.6,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -301,12 +277,12 @@
 			"name:": "Malabo",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 3,
-					"seconds": 45
+					"deg": 3,
+					"min": 45
 				},
 				"E": {
-					"minutes": 8,
-					"seconds": 47
+					"deg": 8,
+					"min": 47
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -314,7 +290,6 @@
 		"Administrative divisions": "7 provinces (provincias, singular - provincia); Annobon, Bioko Norte, Bioko Sur, Centro Sur, Kie-Ntem, Litoral, Wele-Nzas",
 		"Independence": "12 October 1968 (from Spain)",
 		"National holiday": "Independence Day, 12 October (1968)",
-		"Constitution": "approved by national referendum 17 November 1991; amended January 1995",
 		"Legal system": "mixed system of civil and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -348,7 +323,10 @@
 			"FAX:": "[237] 2220-1572"
 		},
 		"Flag description": "three equal horizontal bands of green (top), white, and red, with a blue isosceles triangle based on the hoist side and the coat of arms centered in the white band; the coat of arms has six yellow six-pointed stars (representing the mainland and five offshore islands) above a gray shield bearing a silk-cotton tree and below which is a scroll with the motto UNIDAD, PAZ, JUSTICIA (Unity, Peace, Justice); green symbolizes the jungle and natural resources, blue represents the sea that connects the mainland to the islands, white stands for peace, and red recalls the fight for independence",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Caminemos pisando la senda\" (Let Us Tread the Path)",
+			"lyrics/music:": "Atanasio Ndongo MIYONO/Atanasio Ndongo MIYONO or Ramiro Sanchez LOPEZ (disputed)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The discovery and exploitation of large oil and gas reserves have contributed to dramatic economic growth but fluctuating oil prices have produced huge swings in GDP growth in recent years. Forestry and farming are also minor components of GDP. Subsistence farming is the dominate form of livelihood. Although pre-independence Equatorial Guinea counted on cocoa production for hard currency earnings, the neglect of the rural economy under successive regimes has diminished potential for agriculture-led growth (the government has stated its intention to reinvest some oil revenue into agriculture). A number of aid programs sponsored by the World Bank and the IMF have been cut off since 1993 because of corruption and mismanagement. The government has been widely criticized for its lack of transparency and misuse of oil revenues; however, in 2010, under Equatorial Guinea's candidacy in the Extractive Industries Transparency Initiative, the government published oil revenue figures for the first time. Undeveloped natural resources include gold, zinc, diamonds, columbite-tantalite, and other base metals. Growth remained strong in 2008, when oil production peaked, but slowed in 2009-10, as the price of oil and the production level fell.",
@@ -361,10 +339,7 @@
 		"GDP (official exchange rate)": {
 			"usd": 14490000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-0.8% (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-0.8% (2010 est.)",
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
 				"usd": null
@@ -385,16 +360,10 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 195200,
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 22.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.3,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -402,11 +371,8 @@
 			"highest 10%:": "NA%"
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 29.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -417,67 +383,40 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 4.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 8.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.2,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1860000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1860000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 2207000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2207000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1534000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1534000000
 		},
 		"Agriculture - products": "coffee, cocoa, rice, yams, cassava (tapioca), bananas, palm oil nuts; livestock; timber",
 		"Industries": "petroleum, natural gas, sawmilling",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 1.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.8,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 28000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 28000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 26040000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26040000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -488,118 +427,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 346000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 346000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 362900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 362900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1114,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1114,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1100000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1100000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 6670000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6670000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1500000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1500000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 5170000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5170000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 36810000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36810000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.477 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.477 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 10240000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10240000000
 		},
 		"Exports - commodities": "petroleum products, timber",
 		"Exports - partners": "US 30.31%, China 12.54%, Japan 9.21%, Spain 7.5%, South Korea 7.01%, Taiwan 5.63%, Italy 5.38%, Netherlands 4.09% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 5743000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5743000000
 		},
 		"Imports - commodities": "petroleum sector equipment, other equipment, construction materials, vehicles",
 		"Imports - partners": "China 19.97%, US 17.28%, Spain 14.94%, France 9.49%, Cote d'Ivoire 6.34%, Italy 5.02% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 4086000000.0000005
-			},
-			"country comparison to the world:": ""
+			"usd": 4086000000.0000005
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 832000000
-			},
-			"country comparison to the world:": ""
+			"usd": 832000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Cooperation Financiere en Afrique Centrale francs per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 10000,
+		"Telephones - mobile cellular": 445000,
 		"Telephone system": {
 			"general assessment:": "digital fixed-line network in most major urban areas and good mobile coverage",
 			"domestic:": "fixed-line density is about 2 per 100 persons; mobile-cellular subscribership has been increasing and in 2009 stood at about 70 percent of the population",
@@ -607,27 +495,21 @@
 		},
 		"Broadcast media": "state maintains control of broadcast media with domestic broadcast media limited to 1 state-owned TV station, 1 state-owned radio station, and 1 private radio station owned by the president's eldest son; satellite TV service is available; transmissions of multiple international broadcasters are accessible (2007)",
 		"Internet country code": ".gq",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 9,
+		"Internet users": 14400
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 7,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 6,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null
+			"total:": 1,
+			"2,438 to 3,047 m:": 1
 		},
 		"Pipelines": "gas 37 km (2010)",
 		"Roadways": {
@@ -638,32 +520,38 @@
 			"country comparison to the world:": ""
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 4,
 			"country comparison to the world:": "",
 			"by type:": "cargo 1, chemical tanker 1, petroleum tanker 2",
 			"foreign-owned:": "1 (Norway 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Bata, Luba, Malabo (2010)"
 	},
 	"military": {
 		"Military branches": "National Guard (Guardia Nacional de Guinea Ecuatoria, GNGE (Army), with Coast Guard (Navy) and Air Wing) (2010)",
 		"Military service age and obligation": "18 years of age for selective compulsory military service; service obligation 2 years; women hold only administrative positions in the Coast Guard (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 151147,
+			"females age 16-49:": 150345
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 113277,
+			"females age 16-49:": 115320
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 7398,
+			"female:": 7126
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.1,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "in 2002, ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but a dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River and imprecisely defined maritime coordinates in the ICJ decision delay final delimitation; UN urges Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane and lesser islands and to create a maritime boundary in the hydrocarbon-rich Corisco Bay",
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Equatorial Guinea is primarily a destination country for children trafficked for the purpose of forced labor and possibly for the purpose of sexual exploitation; children have been trafficked from nearby countries for domestic servitude, market labor, ambulant vending, and possibly sexual exploitation; women may also be trafficked to Equatorial Guinea from Cameroon, Benin, other neighboring countries, and China for sexual exploitation",
+			"tier rating:": "Tier 2 Watch List - Equatorial Guinea is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to eliminate trafficking, particularly in the areas of prosecuting and convicting trafficking offenders and failing to formalize mechanisms to provide assistance to victims; although the government made some effort to enforce laws against child labor exploitation, it failed to report any trafficking prosecutions or convictions in 2007; the government continued to lack shelters or formal procedures for providing care to victims (2008)"
+		}
 	}
 }

@@ -1,0 +1,307 @@
+<country>
+	<code>fp</code>
+	<name>French Polynesia</name>
+	<region>Australia-Oceania</region>
+	<background>The French annexed various Polynesian island groups during the 19th century. In September 1995, France stirred up widespread protests by resuming nuclear testing on the Mururoa atoll after a three-year moratorium. The tests were suspended in January 1996. In recent years, French Polynesia's autonomy has been considerably expanded.</background>
+	<geo>
+		<note>includes five archipelagoes (four volcanic, one coral); Makatea in French Polynesia is one of the three great phosphate rock islands in the Pacific Ocean - the others are Banaba (Ocean Island) in Kiribati and Nauru</note>
+		<location>
+			<desc>Oceania, archipelagoes in the South Pacific Ocean about half way between South America and Australia</desc>
+			<coordinates>TO DO</coordinates>
+		</location>
+		<area>
+			<total unit="sq km">4167</total>
+			<land unit="sq km">3827</land>
+			<water unit="sq km">340</water>
+			<comparison>slightly less than one-third the size of Connecticut</comparison>
+		</area>
+		<boundaries>
+			<borders unit="km">0</borders>
+			<coastline unit="km">2525</coastline>
+		</boundaries>
+		<maritime-claims>
+			<territorial unit="nm">12</territorial>
+			<contiguous unit=""></contiguous>
+			<economic unit="nm">200</economic>
+			<continental-shelf></continental-shelf>
+		</maritime-claims>
+		<climate>tropical, but moderate</climate>
+		<terrain>mixture of rugged high islands and low islands with reefs</terrain>
+		<elevation>
+			<high>Mont Orohena 2,241 m</high>
+			<low>Pacific Ocean 0 m</low>
+		</elevation>
+		<resources>timber, fish, cobalt, hydropower</resources>
+		<land-use>
+			<arable unit="%">0.75</arable>
+			<crops unit="%">5.5</crops>
+			<other unit="%">93.75</other>
+		</land-use>
+		<hazards>occasional cyclonic storms in January</hazards>
+		<issues>NA</issues>
+		<water>
+			<irrigated-land unit="sq km">10</irrigated-land>
+			<renewable-water unit=""></renewable-water>
+			<freshwater-withdrawal>
+				<total unit=""></total>
+				<per-capita unit=""></per-capita>
+			</freshwater-withdrawal>
+		</water>
+		<!--
+"geo": {
+
+		"Natural hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
+		"Environment - current issues": "air pollution, principally from vehicle and power plant emissions; nitrogen and phosphorus pollution of the North Sea; drinking and surface water becoming polluted from animal wastes and pesticides",
+		"Environment - international agreements": {
+			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
+			"signed, but not ratified:": "none of the selected agreements"
+		},
+		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
+
+		-->
+	</geo>
+	<people>
+		<population>
+			<total>294935</total>
+			<birth unit="births/1,000 population">15.53</birth>
+			<death unit="deaths/1,000 population">4.87</birth>
+			<migration unit="migrant(s)/1,000 population">2.65</migration>
+			<growth unit="%">1.331</growth>
+		</population>
+		<age-distribution unit="percent">
+			<group min="0" max="14">23.5</group>
+			<group min="15" max="64">69.3</group>
+			<group min="65"></group>
+		</age-distribution>
+		<median-age unit="years">
+			<total>29.9</total>
+			<male>30.2</male>
+			<female>29.6</female>
+		</median-age>
+		<urbanization>
+			<urban unit="% of total population">51</urban>
+			<rate unit="% annual rate of change">1.3</urban>
+			<cities>PAPEETE (capital) 133,000 (2009)</cities>
+		</urbanization>
+		<sex unit="male(s)/female">
+			<group name="at birth" max="0">1.05</group>
+			<group name="0 to 14" min="0" max="14">1.04</group>
+			<group name="15 to 64" min="15" max="64">1.07</group>
+			<group name="65 and over" min="65" max="0">1.02</group>
+			<group name="total" min="0">1.06</group>
+		</sex>
+		<infant-mortality>
+			<total unit="deaths/1,000 live births">7.27</total>
+			<male unit="deaths/1,000 live births">8.35</male>
+			<female unit="deaths/1,000 live births">6.15</female>
+		</infant-mortality>
+		<life-expectancy-at-birth>
+			<total unit="years">77.1</total>
+			<male unit="years">74.62</male>
+			<female unit="years">79.7</female>
+		</life-expectancy-at-birth>
+		<fertility-rate unit="1.87">children born/woman</fertility-rate>
+		<hiv>
+			<prevalence>NA</prevalence>
+			<total>NA</total>
+			<deaths>NA</deaths>
+		</hiv>
+		<infectious-disease risk="">
+			<food-or-waterborne></food-or-waterborne>
+			<vectorborne></vectorborne>
+			<water-contact></water-contact>
+		</infectious-disease>
+		<drinking-water-source>[object Object]</drinking-water-source>
+		<sanitation-access>[object Object]</sanitation-access>
+		<nationality>
+			<noun>French Polynesian(s)</noun>
+			<adjective>French Polynesian</adjective>
+		</nationality>
+		<ethnic-groups>Polynesian 78%, Chinese 12%, local French 6%, metropolitan French 4%</ethnic-groups>
+		<religions>Protestant 54%, Roman Catholic 30%, other 10%, no religion 6%</religions>
+		<languages>French (official) 61.1%, Polynesian (official) 31.4%, Asian languages 1.2%, other 0.3%, unspecified 6% (2002 census)</languages>
+		<literacy>
+			<definition>age 14 and over can read and write</definition>
+			<total unit="%">98</total>
+			<male unit="%">98</male>
+			<female unit="%">98</female>
+		</literacy>
+		<school-expectancy unit=""></school-expectancy>
+		<education-expenditure unit=""></school-expectancy>
+	</people>
+	<government>
+		<country-name>
+			<long>Overseas Lands of French Polynesia</long>
+			<short>French Polynesia</short>
+		</country-name>
+		<dependency>overseas lands of France; overseas territory of France from 1946-2003; overseas collectivity of France since 2003, though it is often referred to as an overseas country due to its degree of autonomy</dependency>
+		<government-type>NA</government-type>
+		<capital>
+			<name>Papeete</name>
+			<coordinates>[object Object]</coordinates>
+			<time-difference>UTC-10 (5 hours behind Washington, DC during Standard Time)</time-difference>
+		</capital>
+		<administrative-divisions>none (overseas lands of France); there are no first-order administrative divisions as defined by the US Government, but there are five archipelagic divisions named Archipel des Marquises, Archipel des Tuamotu, Archipel des Tubuai, Iles du Vent, Iles Sous-le-Vent</administrative-divisions>
+		<independence>none (overseas lands of France)</independence>
+		<national-holiday>Bastille Day, 14 July (1789); note - the local holiday is Internal Autonomy Day, 29 June (1880)</national-holiday>
+		<legal-system>the laws of France, where applicable, apply</legal-system>
+		<suffrage>18 years of age; universal</suffrage>
+		<executive>
+			<head-of-state>President Nicolas SARKOZY (since 16 May 2007), represented by High Commissioner of the Republic Richard DIDIER (since 24 January 2011)</head-of-state>
+			<head-of-government>President of French Polynesia Oscar TEMARU (since 1 April 2011); President of the Assembly of French Polynesia Jacqui DROLLET (since 14 April 2011)</head-of-government>
+			<cabinet>Council of Ministers; president submits a list of members of the Assembly for approval by them to serve as ministers</cabinet>
+			<elections>French president elected by popular vote for a five-year term; high commissioner appointed by the French president on the advice of the French Ministry of Interior; president of the French Polynesia government and the president of the Assembly of French Polynesia elected by the members of the assembly for five-year terms (no term limits)</elections>
+			<election-results></election-results>
+		</executive>
+		<legislative>
+			<description>unicameral Assembly of French Polynesia or Assemblee de la Polynesia francaise (57 seats; members elected by popular vote to serve five-year terms)</description>
+			<elections>last held on 27 January 2008 (first round) and 10 February 2008 (second round) (next to be held in 2013)</elections>
+			<election-results>percent of vote by party - Our Home alliance 45.2%, Union for Democracy alliance 37.2%, Popular Rally (Tahoeraa Huiraatira) 17.2% other 0.5%; seats by party - Our Home alliance 27, Union for Democracy alliance 20, Popular Rally 10</election-results>
+		</legislative>
+		<judicial>Court of Appeal or Cour d'Appel; Court of the First Instance or Tribunal de Premiere Instance; Court of Administrative Law or Tribunal Administratif</judicial>
+		<parties>Alliance for a New Democracy or ADN (includes the parties The New Star and This Country is Yours); New Fatherland Party (Ai'a Api); Our Home alliance; People's Servant Party (Tavini Huiraatira); Popular Rally (Tahoeraa Huiraatira); Union for Democracy alliance or UPD</parties>
+		<pressure-groups>TO DO</pressure-groups>
+		<membership>ITUC, PIF (associate member), SPC, UPU</membership>
+		<representation-in-usa>
+			<chief></chief>
+			<chancery></chancery>
+			<telephone></telephone>
+			<FAX></FAX>
+			<consulates></consulates>
+		</representation-in-usa>
+		<representation-from-usa>
+			<chief></chief>
+			<embassy></embassy>
+			<mailing-address></mailing-address>
+			<telephone></telephone>
+			<FAX></FAX>
+		</representation-from-usa>
+		<flag>[object Object]</flag>
+		<anthem>
+			<name>&quot;Ia Ora 'O Tahiti Nui&quot; (Long Live Tahiti Nui)</name>
+			<by>Maeva BOUGES, Irmine TEHEI, Angele TEROROTUA, Johanna NOUVEAU, Patrick AMARU, Louis MAMATUI and Jean-Pierre CELESTIN</by>
+		</anthem>
+	</government>
+	<economy>
+		<overview>Since 1962, when France stationed military personnel in the region, French Polynesia has changed from a subsistence agricultural economy to one in which a high proportion of the work force is either employed by the military or supports the tourist industry. With the halt of French nuclear testing in 1996, the military contribution to the economy fell sharply. Tourism accounts for about one-fourth of GDP and is a primary source of hard currency earnings. Other sources of income are pearl farming and deep-sea commercial fishing. The small manufacturing sector primarily processes agricultural products. The territory benefits substantially from development agreements with France aimed principally at creating new businesses and strengthening social services.</overview>
+		<gdp>
+			<purchasing-power-parity>[object Object]</purchasing-power-parity>
+			<official-exchange-rate>[object Object]</official-exchange-rate>
+			<real-growth-rate>[object Object]</real-growth-rate>
+			<per-capita>[object Object]</per-capita>
+			<sector unit="%">
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+		</gdp>
+		<labour>
+			<force>116000</force>
+			<sector>
+				<agriculture></agriculture>
+				<industry></industry>
+				<services></services>
+			</sector>
+			<unemployment unit="%">11.7</unemployment>
+		</labour>
+		<poverty>NA%</poverty>
+		<household-income>TO DO</household-income>
+		<budget>
+			<revenue unit="USD"></revenue>
+			<expenditure unit="USD"></expenditure>
+		</budget>
+		<public-debt unit=""></public-debt>
+		<consumer-inflation unit="%">1.1</consumer-inflation>
+		<central-bank-discount-rate unit="%"></central-bank-discount-rate>
+		<commercial-prime-lending-rate unit="%"></commercial-prime-lending-rate>
+		<narrow-money-stock unit="USD"></narrow-money-stock>
+		<broad-money-stock unit="USD"></broad-money-stock>
+		<domestic-credit-stock unit="USD"></domestic-credit-stock>
+		<agriculture-products>fish; coconuts, vanilla, vegetables, fruits, coffee; poultry, beef, dairy products</agriculture-products>
+		<industries>tourism, pearls, agricultural processing, handicrafts, phosphates</industries>
+		<industrial-production-growth>NA%</industrial-production-growth>
+		<electricity unit="kWh">
+			<production>650000000</production>
+			<consumption>604500000</consumption>
+			<exports>0</exports>
+			<imports>0</imports>
+		</electricity>
+		<oil>
+			<production unit="bbl/day">0</production>
+			<consumption unit="bbl/day">7000</consumption>
+			<exports unit="bbl/day">0</exports>
+			<imports unit="bbl/day">6701</imports>
+			<reserves unit="bbl">0</reserves>
+		</oil>
+		<natural-gas>
+			<production unit="cu m">0</production>
+			<consumption unit="cu m">0</consumption>
+			<exports unit="cu m">0</exports>
+			<imports unit="cu m">0</imports>
+			<reserves unit="cu m">0</reserves>
+		</natural-gas>
+		<exports>
+			<total unit="USD"></total>
+			<commodities>cultured pearls, coconut products, mother-of-pearl, vanilla, shark meat</commodities>
+			<partners></partners>
+		</exports>
+		<imports>
+			<total unit="USD">1706000000</total>
+			<commodities>fuels, foodstuffs, machinery and equipment</commodities>
+			<partners></partners>
+		</imports>
+		<external-debt unit="USD"></external-debt>
+		<exchange-rates>Comptoirs Francais du Pacifique francs (XPF) per US dollar -</exchange-rates>
+	</economy>
+	<communications>
+		<telephones>
+			<assessment>NA</assessment>
+			<domestic>combined fixed and mobile-cellular density is roughly 90 per 100 persons</domestic>
+			<international>country code - 689; satellite earth station - 1 Intelsat (Pacific Ocean) (2009)</international>
+			<land-lines>54300</land-lines>
+			<mobile>208300</mobile>
+		</telephones>
+		<broadcast>the publicly-owned French Overseas Network (RFO), which operates in France's overseas departments and territories, broadcasts on 2 television channels and 1 radio station; a government-owned TV station is operating; a small number of privately-owned radio stations also broadcast (2008)</broadcast>
+		<internet>
+			<tld>.pf</tld>
+			<hosts>36056</hosts>
+			<users>120000</users>
+		</internet>
+	</communications>
+	<transport>
+		<airports>
+			<total>53</total>
+			<paved>
+				<altitude min="*" max="*"></altitude>
+				<altitude min="3047m" max="*">2</altitude>
+				<altitude min="2438m" max="3047m"></altitude>
+				<altitude min="1524m" max="2437m">4</altitude>
+				<altitude min="914m" max="1524m">33</altitude>
+				<altitude min="*" max="914m">7</altitude>
+			</paved>
+		</airports>
+		<ports-and-terminals>Papeete</ports-and-terminals>
+	</transport>
+	<military>
+		<branches>no regular military forces (2011)</branches>
+		<manpower>
+			<population-available>
+				<male>82722</male>
+				<female></female>
+			</population-available>
+			<fit-for-service>
+				<male>67363</male>
+				<female>66053</female>
+			</fit-for-service>
+			<reaching-maturity>
+				<male>2498</male>
+				<female>2390</female>
+			</reaching-maturity>
+			<notes>defense is the responsibility of France</notes>
+		</manpower>
+	</military>
+	<issues>
+		<disputes>none</disputes>
+		<drugs></drugs>
+	</issues>
+</country>

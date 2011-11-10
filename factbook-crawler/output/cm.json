@@ -7,15 +7,15 @@
 		"Location": "Western Africa, bordering the Bight of Biafra, between Equatorial Guinea and Nigeria",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 6,
-				"seconds": 0
+				"deg": 6,
+				"min": 0
 			},
 			"E": {
-				"minutes": 12,
-				"seconds": 0
+				"deg": 12,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 475440,
@@ -101,11 +101,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "sometimes referred to as the hinge of Africa; throughout the country there are areas of thermal springs and indications of current or prior volcanic activity; Mount Cameroon, the highest mountain in Sub-Saharan west Africa, is an active volcano"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 19711,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -134,32 +134,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.121,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.121,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 33.04,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 33.04,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 11.83,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.83,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -225,27 +213,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.17,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.17,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 5.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 610000,
+		"HIV/AIDS - deaths": 37000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
@@ -291,7 +267,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.7,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -306,12 +285,12 @@
 			"name:": "Yaounde",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 3,
-					"seconds": 52
+					"deg": 3,
+					"min": 52
 				},
 				"E": {
-					"minutes": 11,
-					"seconds": 31
+					"deg": 11,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -319,7 +298,6 @@
 		"Administrative divisions": "10 regions (regions, singular - region); Adamaoua, Centre, Est, Extreme-Nord, Littoral, Nord, North-West (Nord-Ouest), Ouest, Sud, South-West (Sud-Ouest)",
 		"Independence": "1 January 1960 (from French-administered UN trusteeship)",
 		"National holiday": "Republic Day (National Day), 20 May (1972)",
-		"Constitution": "approved by referendum 20 May 1972; adopted 2 June 1972; revised January 1996; amended April 2008",
 		"Legal system": "mixed legal system of English common law, French civil law, and customary law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction; non-party state to the ICCt",
 		"Suffrage": "20 years of age; universal",
@@ -355,7 +333,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of green (hoist side), red, and yellow, with a yellow five-pointed star centered in the red band; the vertical tricolor recalls the flag of France; red symbolizes unity, yellow the sun, happiness, and the savannahs in the north, and green hope and the forests in the south; the star is referred to as the \"star of unity\""
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"O Cameroun, Berceau de nos Ancetres\" (O Cameroon, Cradle of Our Forefathers)",
+			"lyrics/music:": "Rene Djam AFAME, Samuel Minkio BAMBA, Moise Nyatte NKO'O [French], Benard Nsokika FONLON [English]/Rene Djam AFAME"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Because of its modest oil resources and favorable agricultural conditions, Cameroon has one of the best-endowed primary commodity economies in sub-Saharan Africa. Still, it faces many of the serious problems confronting other underdeveloped countries, such as stagnant per capita income, a relatively inequitable distribution of income, a top-heavy civil service, endemic corruption, and a generally unfavorable climate for business enterprise. Since 1990, the government has embarked on various IMF and World Bank programs designed to spur business investment, increase efficiency in agriculture, improve trade, and recapitalize the nation's banks. The IMF is pressing for more reforms, including increased budget transparency, privatization, and poverty reduction programs. Weak prices for oil led to the significant slowdown in growth in 2010. The government is under pressure to reduce its budget deficit, which by the government's own forecast will hit 2.8% of GDP, but the presidential election in 2011 may make fiscal austerity difficult.",
@@ -369,11 +350,8 @@
 			"usd": 22480000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -395,10 +373,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 7836000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 7836000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 70,
@@ -414,11 +389,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 30,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 48,
@@ -434,16 +406,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 44.6,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 21.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -454,68 +420,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 9.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 1.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 2888000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2888000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 4831000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4831000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 848800000
-			},
-			"country comparison to the world:": ""
+			"usd": 848800000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, cocoa, cotton, rubber, bananas, oilseed, grains, root starches; livestock; timber",
 		"Industries": "petroleum production and refining, aluminum production, food processing, light consumer goods, textiles, lumber, ship repair",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 5601000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5601000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 4801000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4801000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -526,106 +465,61 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 77310,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 77310,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 26000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 107100,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 107100,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 45520,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 45520,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 200000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 200000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": "NA cu m (2008 est.)",
 		"Natural gas - consumption": "NA cu m (2008 est.)",
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 135100000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 135100000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-826 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-826 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 4371000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4371000000
 		},
 		"Exports - commodities": "crude oil and petroleum products, lumber, cocoa beans, aluminum, coffee, cotton",
 		"Exports - partners": "Netherlands 13.99%, Spain 12.25%, Italy 11.84%, China 9.14%, US 6.16%, France 5.51%, South Korea 4.66%, Belgium 4.33%, UK 4% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 4869000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4869000000
 		},
 		"Imports - commodities": "machinery, electrical equipment, transport equipment, fuel, food",
 		"Imports - partners": "France 21.03%, Nigeria 10.79%, China 10.25%, Belgium 6.62%, US 4.31% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 4022999999.9999995
-			},
-			"country comparison to the world:": ""
+			"usd": 4022999999.9999995
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 3344000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3344000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Cooperation Financiere en Afrique Centrale francs"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 7397000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 323800,
+		"Telephones - mobile cellular": 7397000,
 		"Telephone system": {
 			"general assessment:": "system includes cable, microwave radio relay, and tropospheric scatter; Camtel, the monopoly provider of fixed-line service, provides connections for only about 1 per 100 persons; equipment is old and outdated, and connections with many parts of the country are unreliable",
 			"domestic:": "mobile-cellular usage, in part a reflection of the poor condition and general inadequacy of the fixed-line network, has increased sharply, reaching a subscribership base of 40 per 100 persons",
@@ -633,29 +527,23 @@
 		},
 		"Broadcast media": "government maintains tight control over broadcast media; state-owned Cameroon Radio Television (CRTV), broadcasting on both a television and radio network, was the only officially recognized and fully licensed broadcaster until August 2007 when the government finally issued licenses to 2 private TV broadcasters and 1 private radio broadcaster; about 70 privately-owned unlicensed radio stations operating but are subject to closure at any time; foreign news services required to partner with state-owned national station (2007)",
 		"Internet country code": ".cm",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 90,
+		"Internet users": 749600
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 34,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 11,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 5,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 23,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 14,
+			"under 914 m:": 6
 		},
 		"Pipelines": "oil 886 km (2010)",
 		"Railways": {
@@ -682,30 +570,36 @@
 			}
 		},
 		"Waterways": "(major rivers in the south, such as the Wouri and the Sanaga, are largely non-navigable; in the north, the Benue, which connects through Nigeria to the Niger River, is navigable in the rainy season only to the port of Garoua) (2010)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Douala, Garoua, Limboh Terminal"
 	},
 	"military": {
 		"Military branches": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (includes naval infantry), Air Force (Armee de l'Air du Cameroun, AAC), Fire Fighter Corps, Gendarmerie (2011)",
 		"Military service age and obligation": "18-23 years of age for male and female voluntary military service; no conscription; high school graduation required; service obligation 4 years; the government periodically calls for volunteers (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 4667,
+			"females age 16-49:": 4548
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2794,
+			"females age 16-49:": 2718
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 215248,
+			"female:": 211636
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Joint Border Commission with Nigeria reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately ceded sovereignty of the Bakassi Peninsula to Cameroon with a full phase-out of Nigerian control and patriation of residents in 2008; Cameroon and Nigeria agree on maritime delimitation in March 2008; sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "20,000-30,000 (Chad); 3,000 (Nigeria); 24,000 (Central African Republic) (2007)"
 		},
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Cameroon is a source, transit, and destination country for women and children trafficked for the purposes of forced labor and commercial sexual exploitation; most victims are children trafficked within country, with girls primarily trafficked for domestic servitude and sexual exploitation; both boys and girls are also trafficked within Cameroon for forced labor in sweatshops, bars, restaurants, and on tea and cocoa plantations; children are trafficked into Cameroon from neighboring states for forced labor in agriculture, fishing, street vending, and spare-parts shops; Cameroon is a transit country for children trafficked between Gabon and Nigeria, and from Nigeria to Saudi Arabia; it is a source country for women transported by sex-trafficking rings to Europe",
+			"tier rating:": "Tier 2 Watch List - Cameroon is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat human trafficking in 2007, particularly in terms of efforts to prosecute and convict trafficking offenders; while Cameroon reported some arrests of traffickers, none of them were prosecuted or punished; the government does not identify trafficking victims among vulnerable populations nor does it monitor the number of victims it intercepts (2008)"
+		}
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Oceania, islands in the South Pacific Ocean, about midway between Peru and New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 25,
-				"seconds": 4
+				"deg": 25,
+				"min": 4
 			},
 			"W": {
-				"minutes": 130,
-				"seconds": 6
+				"deg": 130,
+				"min": 6
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 47,
@@ -67,24 +67,18 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "typhoons (especially November to March)",
 		"Environment - current issues": "deforestation (only a small portion of the original forest remains because of burning and clearing for settlement)",
-		"Geography - note": {}
+		"Geography - note": "Britain's most isolated dependency; only the larger island of Pitcairn is inhabited but it has no port or natural harbor; supplies must be transported by rowed longboat from larger ships stationed offshore"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 48,
 		"Age structure": {
 			"0-14 years:": "NA",
 			"15-64 years:": "NA",
 			"65 years and over:": "NA (2009 est.)"
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "%"
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
@@ -123,7 +117,7 @@
 		"Languages": "English (official), Pitkern (mixture of an 18th century English dialect and a Tahitian dialect)",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -136,12 +130,12 @@
 			"name:": "Adamstown",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 25,
-					"seconds": 4
+					"deg": 25,
+					"min": 4
 				},
 				"W": {
-					"minutes": 130,
-					"seconds": 5
+					"deg": 130,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC-9 (4 hours behind Washington, DC during Standard Time)"
@@ -149,7 +143,6 @@
 		"Administrative divisions": "none (overseas territory of the UK)",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "Birthday of Queen ELIZABETH II, second Saturday in June (1926)",
-		"Constitution": "The Pitcairn Constitution Order 2010, effective 4 March 2010",
 		"Legal system": "local island by-laws",
 		"Suffrage": "18 years of age; universal with three years residency",
 		"Executive branch": {
@@ -171,15 +164,15 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK)",
 		"Flag description": "blue with the flag of the UK in the upper hoist-side quadrant and the Pitcairn Islander coat of arms centered on the outer half of the flag; the green, yellow, and blue of the shield represents the island rising from the ocean; the green field features a yellow anchor surmounted by a bible (both the anchor and the bible were items found on the HMS Bounty); sitting on the crest is a Pitcairn Island wheelbarrow from which springs a slip of miro (a local plant)",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"We From Pitcairn Island\"",
+			"lyrics/music:": "unknown/Frederick M. LEHMAN"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The inhabitants of this tiny isolated economy exist on fishing, subsistence farming, handicrafts, and postage stamps. The fertile soil of the valleys produces a wide variety of fruits and vegetables, including citrus, sugarcane, watermelons, bananas, yams, and beans. Bartering is an important part of the economy. The major sources of revenue are the sale of postage stamps to collectors and the sale of handicrafts to passing ships. In October 2004, more than one-quarter of Pitcairn's small labor force was arrested, putting the economy in a bind, since their services were required as lighter crew to load or unload passing ships.",
 		"GDP (purchasing power parity)": "$NA",
-		"Labor force": {
-			"Labor force": "15 able-bodied men (2004)",
-			"country comparison to the world:": ""
-		},
+		"Labor force": "15 able-bodied men (2004)",
 		"Labor force - by occupation": {
 			"note:": "no business community in the usual sense; some public works; subsistence farming and fishing"
 		},
@@ -198,13 +191,10 @@
 		"Exports - commodities": "fruits, vegetables, curios, stamps",
 		"Imports": "$NA",
 		"Imports - commodities": "fuel oil, machinery, building materials, flour, sugar, other foodstuffs",
-		"Exchange rates": {}
+		"Exchange rates": "New Zealand dollars (NZD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": "1 (there are 17 telephones on one party line) (2004)",
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": "1 (there are 17 telephones on one party line) (2004)",
 		"Telephone system": {
 			"general assessment:": "satellite phone services",
 			"domestic:": "domestic communication via radio (CB)",
@@ -212,15 +202,15 @@
 		},
 		"Broadcast media": "no local broadcast television or radio stations (2009)",
 		"Internet country code": ".pn",
-		"Internet hosts": {}
+		"Internet hosts": 20
 	},
 	"transport": {
-		"Ports and terminals": {}
+		"Ports and terminals": "Adamstown (on Bounty Bay)"
 	},
 	"military": {
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "none"
 	}
 }

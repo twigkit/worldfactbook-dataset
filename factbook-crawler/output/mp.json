@@ -7,15 +7,15 @@
 		"Location": "Southern Africa, island in the Indian Ocean, east of Madagascar",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 20,
-				"seconds": 17
+				"deg": 20,
+				"min": 17
 			},
 			"E": {
-				"minutes": 57,
-				"seconds": 33
+				"deg": 57,
+				"min": 33
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 2040,
@@ -97,13 +97,10 @@
 			"party to:": "Antarctic-Marine Living Resources, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the main island, from which the country derives its name, is of volcanic origin and is almost entirely surrounded by coral reefs; home of the dodo, a large flightless bird related to pigeons, driven to extinction by the end of the 17th century through a combination of hunting and the introduction of predatory species"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1303,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 21.8,
@@ -130,32 +127,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.729,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.729,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 13.97,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.97,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.68,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.68,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -221,27 +206,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.79,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.79,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 8800,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -280,7 +253,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -294,12 +270,12 @@
 			"name:": "Port Louis",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 20,
-					"seconds": 9
+					"deg": 20,
+					"min": 9
 				},
 				"E": {
-					"minutes": 57,
-					"seconds": 29
+					"deg": 57,
+					"min": 29
 				}
 			},
 			"time difference:": "UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
@@ -307,7 +283,6 @@
 		"Administrative divisions": "9 districts and 3 dependencies*; Agalega Islands*, Black River, Cargados Carajos Shoals*, Flacq, Grand Port, Moka, Pamplemousses, Plaines Wilhems, Port Louis, Riviere du Rempart, Rodrigues*, Savanne",
 		"Independence": "12 March 1968 (from the UK)",
 		"National holiday": "Independence Day, 12 March (1968)",
-		"Constitution": "12 March 1968; amended 12 March 1992",
 		"Legal system": "civil legal system based on French civil law with some elements of English common law",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -343,7 +318,10 @@
 			"FAX:": "[230] 208-9534"
 		},
 		"Flag description": "four equal horizontal bands of red (top), blue, yellow, and green; red represents the blood shed for independence, blue the Indian Ocean surrounding the island, yellow has been interpreted as the new light of independence, golden sunshine, or the bright future, and green can symbolize either agriculture or the lush vegetation of the island",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Motherland\"",
+			"lyrics/music:": "Jean Georges PROSPER/Philippe GENTIL"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Since independence in 1968, Mauritius has developed from a low-income, agriculturally based economy to a middle-income diversified economy with growing industrial, financial, and tourist sectors. For most of the period, annual growth has been in the order of 5% to 6%. This remarkable achievement has been reflected in more equitable income distribution, increased life expectancy, lowered infant mortality, and a much-improved infrastructure. The economy rests on sugar, tourism, textiles and apparel, and financial services, and is expanding into fish processing, information and communications technology, and hospitality and property development. Sugarcane is grown on about 90% of the cultivated land area and accounts for 15% of export earnings. The government's development strategy centers on creating vertical and horizontal clusters of development in these sectors. Mauritius has attracted more than 32,000 offshore entities, many aimed at commerce in India, South Africa, and China. Investment in the banking sector alone has reached over $1 billion. Mauritius, with its strong textile sector, has been well poised to take advantage of the Africa Growth and Opportunity Act (AGOA). Mauritius' sound economic policies and prudent banking practices helped to mitigate negative effects from the global financial crisis in 2008-09. GDP grew 3.6% in 2010 and the country continues to expand its trade and investment outreach around the globe.",
@@ -357,11 +335,8 @@
 			"usd": 9729000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -383,10 +358,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 597000,
 		"Labor force - by occupation": {
 			"agriculture and fishing:": {
 				"quantity": 9,
@@ -410,11 +382,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 8,
@@ -424,16 +393,10 @@
 			"lowest 10%:": "NA%",
 			"highest 10%:": "NA%"
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 39,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 23.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -444,73 +407,43 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 60.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 60.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 19.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.25,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1889000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1889000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 9605000000
-			},
-			"country comparison to the world:": ""
+			"usd": 9605000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 10230000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10230000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 4740000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4740000000
 		},
 		"Agriculture - products": "sugarcane, tea, corn, potatoes, bananas, pulses; cattle, goats; fish",
 		"Industries": "food processing (largely sugar milling), textiles, clothing, mining, chemicals, metal products, transport equipment, nonelectrical machinery, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 2321000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2321000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 2158000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2158000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -521,120 +454,69 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 23000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 23000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 22200,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22200,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-949 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-949 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 2041000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2041000000
 		},
 		"Exports - commodities": "clothing and textiles, sugar, cut flowers, molasses, fish",
 		"Exports - partners": "UK 25.55%, France 16.89%, US 9.51%, Italy 5.68%, UAE 5.47%, Belgium 4.93%, Madagascar 4.11% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 3935000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3935000000
 		},
 		"Imports - commodities": "manufactured goods, capital equipment, foodstuffs, petroleum products, chemicals",
 		"Imports - partners": "India 24.5%, France 14.02%, South Africa 8.55%, China 8.17% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 2360000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2360000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 5043000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5043000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Mauritian rupees (MUR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 1087000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 379100,
+		"Telephones - mobile cellular": 1087000,
 		"Telephone system": {
 			"general assessment:": "small system with good service",
 			"domestic:": "monopoly over fixed-line services terminated in 2005; fixed-line teledensity roughly 30 per 100 persons; mobile-cellular services launched in 1989 with teledensity in 2009 reaching 85 per 100 persons",
@@ -642,26 +524,20 @@
 		},
 		"Broadcast media": "the government maintains control over TV broadcasting through the Mauritius Broadcasting Corporation (MBC), which operates 3 analog and 10 digital TV stations; MBC is a shareholder in a local company that operates 2 pay TV stations; the state retains the largest radio broadcast network with multiple stations; several private radio broadcasters have entered the market since 2001; transmissions of at least 2 international broadcasters are available (2007)",
 		"Internet country code": ".mu",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 36653,
+		"Internet users": 290000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 5,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 3,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -672,29 +548,32 @@
 			"paved:": "2,066 km (includes 75 km of expressways) (2009)"
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 3,
 			"country comparison to the world:": "",
 			"by type:": "passenger/cargo 2, refrigerated cargo 1 (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Port Louis"
 	},
 	"military": {
 		"Military branches": "no regular military forces; Mauritius Police Force, Special Mobile Force, National Coast Guard (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 343628
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 280596,
+			"females age 16-49:": 283317
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 10193,
+			"female:": 10104
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.3,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Mauritius and Seychelles claim the Chagos Islands; claims French-administered Tromelin Island",
-		"Illicit drugs": {}
+		"Illicit drugs": "consumer and transshipment point for heroin from South Asia; small amounts of cannabis produced and consumed locally; significant offshore financial industry creates potential for money laundering, but corruption levels are relatively low and the government appears generally to be committed to regulating its banking industry"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Central Africa, east of Democratic Republic of the Congo",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 2,
-				"seconds": 0
+				"deg": 2,
+				"min": 0
 			},
 			"E": {
-				"minutes": 30,
-				"seconds": 0
+				"deg": 30,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 26338,
@@ -92,11 +92,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "Law of the Sea"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; most of the country is savanna grassland with the population predominantly rural"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 11370,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -125,32 +125,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.792,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.792,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 36.74,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36.74,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 9.88,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.88,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 1.06,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.06,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -216,27 +204,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 4.9,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.9,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 2.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.9,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 170000,
+		"HIV/AIDS - deaths": 4100,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -282,13 +258,10 @@
 			}
 		},
 		"Education expenditures": {
-			"Education expenditures": {
-				"quantity": 4.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.1,
+			"unit": "% of GDP"
 		},
-		"People - note": {}
+		"People - note": "Rwanda is the most densely populated country in Africa"
 	},
 	"government": {
 		"Country name": {
@@ -303,12 +276,12 @@
 			"name:": "Kigali",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 1,
-					"seconds": 57
+					"deg": 1,
+					"min": 57
 				},
 				"E": {
-					"minutes": 30,
-					"seconds": 4
+					"deg": 30,
+					"min": 4
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
@@ -316,7 +289,6 @@
 		"Administrative divisions": "4 provinces (in French - provinces, singular - province; in Kinyarwanda - intara for singular and plural) and 1 city* (in French - ville; in Kinyarwanda - umujyi); Est (Eastern), Kigali*, Nord (Northern), Ouest (Western), Sud (Southern)",
 		"Independence": "1 July 1962 (from Belgium-administered UN trusteeship)",
 		"National holiday": "Independence Day, 1 July (1962)",
-		"Constitution": "new constitution passed by referendum 26 May 2003",
 		"Legal system": "mixed legal system of civil law, based on German and Belgian models, and customary law; judicial review of legislative acts in the Supreme Court",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -350,7 +322,10 @@
 			"FAX:": "[250] 596-591"
 		},
 		"Flag description": "three horizontal bands of sky blue (top, double width), yellow, and green, with a golden sun with 24 rays near the fly end of the blue band; blue represents happiness and peace, yellow economic development and mineral wealth, green hope of prosperity and natural resources; the sun symbolizes unity, as well as enlightenment and transparency from ignorance",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Rwanda nziza\" (Rwanda, Our Beautiful Country)",
+			"lyrics/music:": "Faustin MURIGO/Jean-Bosco HASHAKAIMANA"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Rwanda is a poor rural country with about 90% of the population engaged in (mainly subsistence) agriculture and some mineral and agro-processing. Tourism is now Rwanda's primary foreign exchange earner and in 2008, minerals overtook coffee and tea as Rwanda's primary export. Minerals exports declined 40% in 2009-10 due to the global economic downturn. The 1994 genocide decimated Rwanda's fragile economic base, severely impoverished the population, particularly women, and temporarily stalled the country's ability to attract private and external investment. However, Rwanda has made substantial progress in stabilizing and rehabilitating its economy to pre-1994 levels. GDP has rebounded with an average annual growth of 7-8% since 2003 and inflation has been reduced to single digits. Nonetheless, a significant percent of the population still live below the official poverty line. Despite Rwanda's fertile ecosystem, food production often does not keep pace with demand, requiring food imports. Agricultural production has increased significantly over the last three years and last year Rwanda was self sufficient in food production. Rwanda continues to receive substantial aid money and obtained IMF-World Bank Heavily Indebted Poor Country (HIPC) initiative debt relief in 2005-06. In recognition of Rwanda's successful management of its macro economy, in 2010, the IMF graduated Rwanda to a Policy Support Instrument (PSI). Rwanda also received a Millennium Challenge Threshold Program in 2008. Africa's most densely populated country is trying to overcome the limitations of its small, landlocked economy by leveraging regional trade. Rwanda joined the East African Community and is aligning its budget, trade, and immigration policies with its regional partners. The government has embraced an expansionary fiscal policy to reduce poverty by improving education, infrastructure, and foreign and domestic investment and pursuing market-oriented reforms. Energy shortages, instability in neighboring states, and lack of adequate transportation linkages to other countries continue to handicap private sector growth. The Rwandan government is seeking to become regional leader in information and communication technologies. In 2010, Rwanda neared completion of the first modern Special Economic Zone (SEZ) in Kigali. The SEZ seeks to attract investment in all sectors, but specifically in agribusiness, information and communications technologies, trade and logistics, mining, and construction. The global downturn hurt export demand and tourism, but economic growth is recovering, driven in large part by the services sector, and inflation has been contained. On the back of this growth, government is gradually ending its fiscal stimulus policy while protecting aid to the poor.",
@@ -364,11 +339,8 @@
 			"usd": 5622000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -390,10 +362,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4446000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4446000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 90,
@@ -419,16 +388,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 46.8,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 20,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -439,64 +402,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 11.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.25,
+			"unit": "%"
 		},
-		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": "NA% (31 December 2010)",
-			"country comparison to the world:": ""
-		},
+		"Commercial bank prime lending rate": "NA% (31 December 2010)",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 602300000
-			},
-			"country comparison to the world:": ""
+			"usd": 602300000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1243000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1243000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 600400000
-			},
-			"country comparison to the world:": ""
+			"usd": 600400000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "coffee, tea, pyrethrum (insecticide made from chrysanthemums), bananas, beans, sorghum, potatoes; livestock",
 		"Industries": "cement, agricultural products, small-scale beverages, soap, furniture, shoes, plastic goods, textiles, cigarettes",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 7.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 120000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 120000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 231600000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 231600000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 10000000,
@@ -507,113 +443,65 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 6000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 5623,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5623,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 56630000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 56630000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-489 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-489 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 226000000
-			},
-			"country comparison to the world:": ""
+			"usd": 226000000
 		},
 		"Exports - commodities": "coffee, tea, hides, tin ore",
 		"Exports - partners": "Kenya 33.88%, Democratic Republic of the Congo 13.56%, Thailand 6.22%, China 5.49%, US 5.47%, Swaziland 5.43%, Belgium 5.19% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1046999999.9999999
-			},
-			"country comparison to the world:": ""
+			"usd": 1046999999.9999999
 		},
 		"Imports - commodities": "foodstuffs, machinery and equipment, steel, petroleum products, cement and construction material",
 		"Imports - partners": "Kenya 16.53%, Uganda 14.92%, China 7.92%, UAE 6.89%, Belgium 5.54%, Germany 5.19%, Tanzania 4.81%, Sweden 4% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 816000000
-			},
-			"country comparison to the world:": ""
+			"usd": 816000000
 		},
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Rwandan francs (RWF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2429000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 33500,
+		"Telephones - mobile cellular": 2429000,
 		"Telephone system": {
 			"general assessment:": "small, inadequate telephone system primarily serves business, education, and government",
 			"domestic:": "the capital, Kigali, is connected to the centers of the provinces by microwave radio relay and, recently, by cellular telephone service; much of the network depends on wire and HF radiotelephone; combined fixed-line and mobile-cellular telephone density has increased to about 25 telephones per 100 persons",
@@ -621,27 +509,21 @@
 		},
 		"Broadcast media": "government owns and operates the only TV station; government-owned and operated Radio Rwanda has a national reach; 9 private radio stations; transmissions of multiple international broadcasters are available (2007)",
 		"Internet country code": ".rw",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 815,
+		"Internet users": 450000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 9,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 4,
+			"over 3,047 m:": 1,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 5,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 3
 		},
 		"Roadways": {
 			"total:": {
@@ -659,27 +541,32 @@
 			}
 		},
 		"Waterways": "(Lac Kivu navigable by shallow-draft barges and native craft) (2009)",
-		"Ports and terminals": {}
+		"Ports and terminals": "Cyangugu, Gisenyi, Kibuye"
 	},
 	"military": {
 		"Military branches": "Rwandan Defense Force (RDF): Rwandan Army (Rwandan Land Force), Rwandan Air Force (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service; no conscription; Rwandan citizenship required (2011)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2625,
+			"females age 16-49:": 2608
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1685,
+			"females age 16-49:": 1749
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 110736,
+			"female:": 110328
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; fighting among ethnic groups - loosely associated political rebels, armed gangs, and various government forces in Great Lakes region transcending the boundaries of Burundi, Democratic Republic of the Congo, Rwanda, and Uganda - abated substantially from a decade ago due largely to UN peacekeeping, international mediation, and efforts by local governments to create civil societies; nonetheless, 57,000 Rwandan refugees still reside in 21 African states, including Zambia, Gabon, and 20,000 who fled to Burundi in 2005 and 2006 to escape drought and recriminations from traditional courts investigating the 1994 massacres; the 2005 DROC and Rwanda border verification mechanism to stem rebel actions on both sides of the border remains in place",
-		"Refugees and internally displaced persons": {}
+		"Refugees and internally displaced persons": {
+			"refugees (country of origin):": "46,272 (Democratic Republic of the Congo); 4,400 (Burundi) (2007)"
+		}
 	}
 }

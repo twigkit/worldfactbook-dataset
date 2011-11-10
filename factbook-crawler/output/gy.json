@@ -7,15 +7,15 @@
 		"Location": "Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 5,
-				"seconds": 0
+				"deg": 5,
+				"min": 0
 			},
 			"W": {
-				"minutes": 59,
-				"seconds": 0
+				"deg": 59,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 214969,
@@ -99,11 +99,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the third-smallest country in South America after Suriname and Uruguay; substantial portions of its western and eastern territories are claimed by Venezuela and Suriname respectively"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 744768,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -131,28 +131,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.44% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.44% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 17.12,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.12,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 7.2,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.2,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-14.32 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-14.32 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 29,
@@ -217,27 +205,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.34,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.34,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 5900,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -282,7 +258,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.1,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -295,12 +274,12 @@
 			"name:": "Georgetown",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 6,
-					"seconds": 48
+					"deg": 6,
+					"min": 48
 				},
 				"W": {
-					"minutes": 58,
-					"seconds": 10
+					"deg": 58,
+					"min": 10
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -308,7 +287,6 @@
 		"Administrative divisions": "10 regions; Barima-Waini, Cuyuni-Mazaruni, Demerara-Mahaica, East Berbice-Corentyne, Essequibo Islands-West Demerara, Mahaica-Berbice, Pomeroon-Supenaam, Potaro-Siparuni, Upper Demerara-Berbice, Upper Takutu-Upper Essequibo",
 		"Independence": "26 May 1966 (from the UK)",
 		"National holiday": "Republic Day, 23 February (1970)",
-		"Constitution": "6 October 1980",
 		"Legal system": "common law system, based on the English model, with some Roman-Dutch civil law influence",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -343,7 +321,10 @@
 			"FAX:": "[592] 225-8497"
 		},
 		"Flag description": "green, with a red isosceles triangle (based on the hoist side) superimposed on a long, yellow arrowhead; there is a narrow, black border between the red and yellow, and a narrow, white border between the yellow and the green; green represents forest and foliage; yellow stands for mineral resources and a bright future; white symbolizes Guyana's rivers; red signifies zeal and the sacrifice of the people; black indicates perseverance",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Dear Land of Guyana, of Rivers and Plains\"",
+			"lyrics/music:": "Archibald Leonard LUKERL/Robert Cyril Gladstone POTTER"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Guyanese economy exhibited moderate economic growth in recent years and is based largely on agriculture and extractive industries. The economy is heavily dependent upon the export of six commodities - sugar, gold, bauxite, shrimp, timber, and rice - which represent nearly 60% of the country's GDP and are highly susceptible to adverse weather conditions and fluctuations in commodity prices. Guyana's entrance into the Caricom Single Market and Economy (CSME) in January 2006 has broadened the country's export market, primarily in the raw materials sector. Economic recovery since a 2005 flood-related contraction was buoyed by increases in remittances and foreign direct investment in the sugar and rice industries as well as the mining sector. Chronic problems include a shortage of skilled labor and a deficient infrastructure. The government is juggling a sizable external debt against the urgent need for expanded public investment. In March 2007, the Inter-American Development Bank, Guyana's principal donor, canceled Guyana's nearly $470 million debt, equivalent to nearly 48% of GDP, which along with other Highly Indebted Poor Country (HIPC) debt forgiveness brought the debt-to-GDP ratio down from 183% in 2006 to 120% in 2007. Guyana became heavily indebted as a result of the inward-looking, state-led development model pursued in the 1970s and 1980s. Growth slowed in 2009-10 as a result of the world recession. The slowdown in the domestic economy and lower import costs helped to narrow the country's current account deficit, despite generally lower earnings from exports.",
@@ -357,11 +338,8 @@
 			"usd": 2215000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -383,21 +361,15 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 333900,
 		"Labor force - by occupation": {
 			"agriculture:": "NA%",
 			"industry:": "NA%",
 			"services:": "NA%"
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 11,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -410,16 +382,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 43.2,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 34.1,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34.1,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -430,77 +396,44 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 57,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 57,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 6.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 6.75,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.75,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 14.54,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.54,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 386900000
-			},
-			"country comparison to the world:": ""
+			"usd": 386900000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1303000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1303000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 754000000
-			},
-			"country comparison to the world:": ""
+			"usd": 754000000
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2009)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2009)",
 		"Agriculture - products": "sugarcane, rice, edible oils; shrimp, fish, beef, pork, poultry",
 		"Industries": "bauxite, sugar, rice milling, timber, textiles, gold mining",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 821000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 821000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 667000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 667000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -511,118 +444,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 10000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 10550,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10550,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-311 million (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-311 million (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 814000000
-			},
-			"country comparison to the world:": ""
+			"usd": 814000000
 		},
 		"Exports - commodities": "sugar, gold, bauxite, alumina, rice, shrimp, molasses, rum, timber",
 		"Exports - partners": "Canada 27.52%, US 16.93%, UK 10.84%, Ukraine 5.54%, Netherlands 5%, Trinidad and Tobago 4.33%, Jamaica 4.12% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 1366000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1366000000
 		},
 		"Imports - commodities": "manufactures, machinery, petroleum, food",
 		"Imports - partners": "US 25.23%, Trinidad and Tobago 23.23%, Cuba 6.41%, China 6.05% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 506000000
-			},
-			"country comparison to the world:": ""
+			"usd": 506000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 804300000
-			},
-			"country comparison to the world:": ""
+			"usd": 804300000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Guyanese dollars (GYD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 130000,
+		"Telephones - mobile cellular": 281400,
 		"Telephone system": {
 			"general assessment:": "fair system for long-distance service; microwave radio relay network for trunk lines; many areas still lack fixed-line telephone services",
 			"domestic:": "fixed-line teledensity is about 15 per 100 persons; mobile-cellular teledensity about 35 per 100 persons in 2005",
@@ -630,27 +512,21 @@
 		},
 		"Broadcast media": "government-dominated broadcast media; the National Communications Network (NCN) TV is state-owned; a few private TV stations relay satellite services; the state owns and operates 2 radio stations broadcasting on multiple frequencies capable of reaching the entire country; government limits on licensing of new private radio stations continue to constrain competition in broadcast media (2007)",
 		"Internet country code": ".gy",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 8840,
+		"Internet users": 189600
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 96,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 10,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 7
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 86,
+			"914 to 1,523 m:": 13,
+			"under 914 m:": 73
 		},
 		"Roadways": {
 			"total:": {
@@ -667,33 +543,33 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "330 km (the Berbice, Demerara, and Essequibo rivers are navigable by oceangoing vessels for 150 km, 100 km, and 80 km respectively) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "330 km (the Berbice, Demerara, and Essequibo rivers are navigable by oceangoing vessels for 150 km, 100 km, and 80 km respectively) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 8,
 			"country comparison to the world:": "",
 			"by type:": "cargo 6, petroleum tanker 1, refrigerated cargo 1",
 			"registered in other countries:": "3 (Saint Vincent and the Grenadines 2, unknown 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Georgetown"
 	},
 	"military": {
 		"Military branches": "Guyana Defense Force: Army (includes Coast Guard, Air Corps) (2009)",
 		"Military service age and obligation": "18-25 years of age for voluntary military service; no conscription (2008)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 189840
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 133239,
+			"females age 16-49:": 147719
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 8849,
+			"female:": 8460
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.8,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "all of the area west of the Essequibo River is claimed by Venezuela preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before UNCLOS that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; Suriname claims a triangle of land between the New and Kutari/Koetari rivers in a historic dispute over the headwaters of the Courantyne; Guyana seeks arbitration under provisions of the UN Convention on the Law of the Sea (UNCLOS) to resolve the long-standing dispute with Suriname over the axis of the territorial sea boundary in potentially oil-rich waters",
@@ -701,6 +577,6 @@
 			"current situation:": "Guyana is a source, transit, and destination country for men, women, and children trafficked for the purposes of commercial sexual exploitation and forced labor; most trafficking appears to take place in remote mining camps in the country's interior; some women and girls are trafficked from northern Brazil; reporting from other nations suggests Guyanese women and girls are trafficked for sexual exploitation to neighboring countries and Guyanese men and boys are subject to labor exploitation in construction and agriculture; trafficking victims from Suriname, Brazil, and Venezuela transit Guyana en route to Caribbean destinations",
 			"tier rating:": "Tier 2 Watch List - for a second consecutive year, Guyana is on the Tier 2 Watch List for failing to provide evidence of increasing efforts to combat trafficking, particularly in the area of law enforcement actions against trafficking offenders; the government has yet to produce an anti-trafficking conviction under the comprehensive Combating of Trafficking in Persons Act, which became law in 2005; the government operates no shelters for trafficking victims, but did include limited funding for anti-trafficking NGOs in its 2008 budget; the government did not make any effort to reduce demand for commercial sex acts during 2007 (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for narcotics from South America - primarily Venezuela - to Europe and the US; producer of cannabis; rising money laundering related to drug trafficking and human smuggling"
 	}
 }

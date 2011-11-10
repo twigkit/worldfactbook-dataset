@@ -8,56 +8,56 @@
 		"Geographic coordinates": {
 			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": {
 				"S": {
-					"minutes": 37,
-					"seconds": 50
+					"deg": 37,
+					"min": 50
 				},
 				"E": {
-					"minutes": 77,
-					"seconds": 32
+					"deg": 77,
+					"min": 32
 				}
 			},
 			"Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul):": {
 				"S": {
-					"minutes": 38,
-					"seconds": 72
+					"deg": 38,
+					"min": 72
 				},
 				"E": {
-					"minutes": 77,
-					"seconds": 53
+					"deg": 77,
+					"min": 53
 				}
 			},
 			"Iles Crozet:": {
 				"S": {
-					"minutes": 46,
-					"seconds": 25
+					"deg": 46,
+					"min": 25
 				},
 				"E": {
-					"minutes": 51,
-					"seconds": 0
+					"deg": 51,
+					"min": 0
 				}
 			},
 			"Iles Kerguelen:": {
 				"S": {
-					"minutes": 49,
-					"seconds": 15
+					"deg": 49,
+					"min": 15
 				},
 				"E": {
-					"minutes": 69,
-					"seconds": 35
+					"deg": 69,
+					"min": 35
 				}
 			},
 			"Bassas da India (Iles Eparses):": {
 				"S": {
-					"minutes": 21,
-					"seconds": 30
+					"deg": 21,
+					"min": 30
 				},
 				"E": {
-					"minutes": 39,
-					"seconds": 50
+					"deg": 39,
+					"min": 50
 				}
 			}
 		},
-		"Map references": "Antarctic Region",
+		"Map references": {},
 		"Area": {
 			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": "total - 55 sq km; land - 55 sq km; water - 0 sq km",
 			"country comparison to the world:": "",
@@ -131,10 +131,23 @@
 			"volcanism:": "Reunion Island - Piton de la Fournaise (elev. 2,632 m, ), which has erupted many times in recent years, including 2010, is one of the world's most active volcanoes; although rare, eruptions outside the volcano's caldera could threaten nearby cities"
 		},
 		"Environment - current issues": "introduction of foreign species on Iles Crozet has caused severe damage to the original ecosystem; overfishing of Patagonian toothfish around Iles Crozet and Iles Kerguelen",
-		"Geography - note": {}
+		"Geography - note": {
+			"Geography - note": "islands component is widely scattered across remote locations in the southern Indian Ocean",
+			"Bassas da India (Iles Eparses):": "the atoll is a circular reef that sits atop a long-extinct, submerged volcano",
+			"Europa Island and Juan de Nova Island (Iles Eparses):": "wildlife sanctuary for seabirds and sea turtles",
+			"Glorioso Island (Iles Eparses):": "the islands and rocks are surrounded by an extensive reef system",
+			"Tromelin Island (Iles Eparses):": "climatologically important location for forecasting cyclones in the western Indian Ocean; wildlife sanctuary (seabirds, tortoises)"
+		}
 	},
 	"people": {
-		"Population": {}
+		"Population": {
+			"Population": "no indigenous inhabitants",
+			"Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul):": "has no permanent residents but has a meteorological station",
+			"Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul):": "is uninhabited but is frequently visited by fishermen and has a scientific research cabin for short stays",
+			"Iles Crozet:": "are uninhabited except for 18 to 30 people staffing the Alfred Faure research station on Ile del la Possession",
+			"Iles Kerguelen:": "50 to 100 scientists are located at the main base at Port-aux-Francais on Ile Kerguelen",
+			"Bassas da India (Iles Eparses):": "uninhabitable"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -154,31 +167,33 @@
 		"Diplomatic representation in the US": "none (overseas territory of France)",
 		"Diplomatic representation from the US": "none (overseas territory of France)",
 		"Flag description": "the flag of France is used",
-		"National anthem": {}
+		"National anthem": {
+			"note:": "as a territory of France, \"La Marseillaise\" is official (see France)"
+		}
 	},
 	"economy": {
-		"Economy - overview": {}
+		"Economy - overview": "Economic activity is limited to servicing meteorological and geophysical research stations, military bases, and French and other fishing fleets. The fish catches landed on Iles Kerguelen by foreign ships are exported to France and Reunion."
 	},
-	"commerce": {
+	"communications": {
 		"Internet country code": ".tf",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Communications - note": {}
+		"Internet hosts": 44,
+		"Communications - note": "one or more meteorological stations on each possession"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": "4; note - one each on Europa Island, Glorioso Islands, Juan de Nova Island, and Tromelin Island in the Iles Eparses district (2010)",
-			"country comparison to the world:": ""
-		},
+		"Airports": "4; note - one each on Europa Island, Glorioso Islands, Juan de Nova Island, and Tromelin Island in the Iles Eparses district (2010)",
 		"Ports and terminals": "none; offshore anchorage only",
-		"Transportation - note": {}
+		"Transportation - note": {
+			"aids to navigation - lighthouses:": "Europa Island 18 m; Juan de Nova Island (W side) 37 m; Tromelin Island (NW point) 11m (all in the Iles Eparses district)"
+		}
 	},
 	"military": {
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": {
+			"Disputes - international": "French claim to \"Adelie Land\" in Antarctica is not recognized by the US",
+			"Bassas da India, Europa Island, Glorioso Islands, Juan de Nova Island (Iles Eparses):": "claimed by Madagascar; the vegetated drying cays of Banc du Geyser, which were claimed by Madagascar in 1976, also fall within the EEZ claims of the Comoros and France (Glorioso Islands)",
+			"Tromelin Island (Iles Eparses):": "claimed by Mauritius"
+		}
 	}
 }

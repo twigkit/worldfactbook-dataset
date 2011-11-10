@@ -7,15 +7,15 @@
 		"Location": "Caribbean, between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 18,
-				"seconds": 30
+				"deg": 18,
+				"min": 30
 			},
 			"W": {
-				"minutes": 64,
-				"seconds": 30
+				"deg": 64,
+				"min": 30
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 151,
@@ -74,13 +74,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "hurricanes and tropical storms (July to October)",
 		"Environment - current issues": "limited natural freshwater resources (except for a few seasonal streams and springs on Tortola, most of the islands' water supply comes from wells and rainwater catchments)",
-		"Geography - note": {}
+		"Geography - note": "strong ties to nearby US Virgin Islands and Puerto Rico"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 25383,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 19.6,
@@ -107,32 +104,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.741,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.741,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 14.5,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.5,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.49,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.49,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 7.41,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.41,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -198,11 +183,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.71,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.71,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -239,7 +221,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -253,12 +238,12 @@
 			"name:": "Road Town",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 18,
-					"seconds": 27
+					"deg": 18,
+					"min": 27
 				},
 				"W": {
-					"minutes": 64,
-					"seconds": 37
+					"deg": 64,
+					"min": 37
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
@@ -266,7 +251,6 @@
 		"Administrative divisions": "none (overseas territory of the UK)",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "Territory Day, 1 July (1956)",
-		"Constitution": "13 June 2007",
 		"Legal system": "English common law",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -290,28 +274,21 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK)",
 		"Flag description": "blue, with the flag of the UK in the upper hoist-side quadrant and the Virgin Islander coat of arms centered in the outer half of the flag; the coat of arms depicts a woman flanked on either side by a vertical column of six oil lamps above a scroll bearing the Latin word VIGILATE (Be Watchful); the islands were named by COLUMBUS in 1493 in honor of Saint Ursula and her 11 virgin followers (some sources say 11,000) who reputedly were martyred by the Huns in the 4th or 5th century; the figure on the banner holding a lamp represents the saint, the other lamps symbolize her followers",
-		"National anthem": {}
+		"National anthem": {
+			"note:": "as a territory of the United Kingdom, \"God Save the Queen\" is official (see United Kingdom)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy, one of the most stable and prosperous in the Caribbean, is highly dependent on tourism generating an estimated 45% of the national income. More than 934,000 tourists, mainly from the US, visited the islands in 2008. In the mid-1980s, the government began offering offshore registration to companies wishing to incorporate in the islands, and incorporation fees now generate substantial revenues. Roughly 400,000 companies were on the offshore registry by yearend 2000. The adoption of a comprehensive insurance law in late 1994, which provides a blanket of confidentiality with regulated statutory gateways for investigation of criminal offenses, made the British Virgin Islands even more attractive to international business. Livestock raising is the most important agricultural activity; poor soils limit the islands' ability to meet domestic food requirements. Because of traditionally close links with the US Virgin Islands, the British Virgin Islands has used the US dollar as its currency since 1959.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 853400000
-			},
-			"country comparison to the world:": ""
+			"usd": 853400000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 1095000000
 		},
-		"GDP - real growth rate": {
-			"GDP - real growth rate": "-0.6% (2008 est.)",
-			"country comparison to the world:": ""
-		},
+		"GDP - real growth rate": "-0.6% (2008 est.)",
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -327,10 +304,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 12770,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 0.6,
@@ -346,11 +320,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.6,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -366,28 +337,19 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.1,
+			"unit": "%"
 		},
 		"Agriculture - products": "fruits, vegetables; livestock, poultry; fish",
 		"Industries": "tourism, light industry, construction, rum, concrete block, offshore financial center",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 45000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 45000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 41850000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 41850000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -398,110 +360,62 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 691.4,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 691.4,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 134300000
-			},
-			"country comparison to the world:": ""
+			"usd": 134300000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 25300000
-			},
-			"country comparison to the world:": ""
+			"usd": 25300000
 		},
 		"Exports - commodities": "rum, fresh fish, fruits, animals; gravel, sand",
-		"Imports": {
-			"Imports": "$187 million (2002 est.) (2002 est.)",
-			"country comparison to the world:": ""
-		},
+		"Imports": "$187 million (2002 est.) (2002 est.)",
 		"Imports - commodities": "building materials, automobiles, foodstuffs, machinery",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 36100000
-			},
-			"country comparison to the world:": ""
+			"usd": 36100000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "the US dollar is used"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 20100,
+		"Telephones - mobile cellular": 24000,
 		"Telephone system": {
 			"general assessment:": "good overall telephone service",
 			"domestic:": "fixed line connections exceed 80 per 100 persons and mobile cellular subscribership is approaching 100 per 100 persons",
@@ -509,25 +423,19 @@
 		},
 		"Broadcast media": "1 private TV station; multi-channel TV is available from cable and satellite subscription services; about a half dozen private radio stations operating (2007)",
 		"Internet country code": ".vg",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 497,
+		"Internet users": 4000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 4,
 		"Airports - with paved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 2,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"914 to 1,523 m:": 2
 		},
 		"Roadways": {
 			"total:": {
@@ -544,24 +452,24 @@
 			"registered in other countries:": "1 (Panama 1) (2008)",
 			"country comparison to the world:": ""
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Road Harbor"
 	},
 	"military": {
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 7266
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6057,
+			"females age 16-49:": 5805
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 168,
+			"female:": 162
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for South American narcotics destined for the US and Europe; large offshore financial center makes it vulnerable to money laundering"
 	}
 }

@@ -7,15 +7,15 @@
 		"Location": "Central America, bordering the North Pacific Ocean, between El Salvador and Mexico, and bordering the Gulf of Honduras (Caribbean Sea) between Honduras and Belize",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 15,
-				"seconds": 30
+				"deg": 15,
+				"min": 30
 			},
 			"W": {
-				"minutes": 90,
-				"seconds": 15
+				"deg": 90,
+				"min": 15
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 108889,
@@ -102,13 +102,10 @@
 			"party to:": "Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "no natural harbors on west coast"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 13824,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 38.1,
@@ -135,30 +132,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 1.986,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.986,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 26.96,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 26.96,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 4.98,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.98,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-2.12 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-2.12 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 49,
@@ -223,27 +208,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 3.27,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.27,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.8,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 62000,
+		"HIV/AIDS - deaths": 2600,
 		"Major infectious diseases": {
 			"degree of risk:": "high",
 			"food or waterborne diseases:": "bacterial diarrhea, hepatitis A, and typhoid fever",
@@ -290,7 +263,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -304,12 +280,12 @@
 			"name:": "Guatemala City",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 14,
-					"seconds": 37
+					"deg": 14,
+					"min": 37
 				},
 				"W": {
-					"minutes": 90,
-					"seconds": 31
+					"deg": 90,
+					"min": 31
 				}
 			},
 			"time difference:": "UTC-6 (1 hour behind Washington, DC during Standard Time)"
@@ -317,7 +293,6 @@
 		"Administrative divisions": "22 departments (departamentos, singular - departamento); Alta Verapaz, Baja Verapaz, Chimaltenango, Chiquimula, El Progreso, Escuintla, Guatemala, Huehuetenango, Izabal, Jalapa, Jutiapa, Peten, Quetzaltenango, Quiche, Retalhuleu, Sacatepequez, San Marcos, Santa Rosa, Solola, Suchitepequez, Totonicapan, Zacapa",
 		"Independence": "15 September 1821 (from Spain)",
 		"National holiday": "Independence Day, 15 September (1821)",
-		"Constitution": "31 May 1985, effective 14 January 1986; suspended 25 May 1993; reinstated 5 June 1993; amended November 1993",
 		"Legal system": "civil law system; judicial review of legislative acts",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal; note - active duty members of the armed forces may not vote and are restricted to their barracks on election day",
@@ -352,7 +327,10 @@
 			"FAX:": "[502] 2326-4654"
 		},
 		"Flag description": "three equal vertical bands of light blue (hoist side), white, and light blue, with the coat of arms centered in the white band; the coat of arms includes a green and red quetzal (the national bird) representing liberty and a scroll bearing the inscription LIBERTAD 15 DE SEPTIEMBRE DE 1821 (the original date of independence from Spain) all superimposed on a pair of crossed rifles signifying Guatemala's willingness to defend itself and a pair of crossed swords representing honor and framed by a laurel wreath symbolizing victory; the blue bands stand for the Pacific Ocean and the Caribbean Sea and the sea and sky; the white band denotes peace and purity",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Himno Nacional de Guatemala\" (National Anthem of Guatemala)",
+			"lyrics/music:": "Jose Joaquin PALMA/Rafael Alvarez OVALLE"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Guatemala is the most populous country in Central America with a GDP per capita roughly one-half that of the average for Latin America and the Caribbean. The agricultural sector accounts for nearly 15% of GDP and half of the labor force; key agricultural exports include coffee, sugar, and bananas. The 1996 peace accords, which ended 36 years of civil war, removed a major obstacle to foreign investment, and since then Guatemala has pursued important reforms and macroeconomic stabilization. The Dominican Republic-Central American Free Trade Agreement (CAFTA-DR) entered into force in July 2006 spurring increased investment and diversification of exports, with the largest increases in ethanol and non-traditional agricultural exports. While CAFTA-DR has helped improve the investment climate, concerns over security, the lack of skilled workers and poor infrastructure continue to hamper foreign direct investment. The distribution of income remains highly unequal with the richest 10% of the population accounting for more than 40% of Guatemala's overall consumption. More than half of the population is below the national poverty line and 15% lives in extreme poverty. Poverty among indigenous groups, which make up 38% of the population, averages 76% and extreme poverty rises to 28%. 43% of children under five are chronically malnourished, one of the highest malnutrition rates in the world. President COLOM entered into office with the promise to increase education, healthcare, and rural development, and in April 2008 he inaugurated a conditional cash transfer program, modeled after programs in Brazil and Mexico, that provide financial incentives for poor families to keep their children in school and get regular health check-ups. Given Guatemala's large expatriate community in the United States, it is the top remittance recipient in Central America, with inflows serving as a primary source of foreign income equivalent to nearly two-thirds of exports or one-tenth of GDP. Economic growth fell in 2009 as export demand from US and other Central American markets fell and foreign investment slowed amid the global recession, but the economy recovered gradually in 2010 and will likely return to more normal growth rates by 2012. President COLOM, in his last year in office, will likely face opposition to economic reform, particularly over a long-delayed tax reform and an IMF-recommended reform to strengthen the banking sector.",
@@ -366,11 +344,8 @@
 			"usd": 41470000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -392,10 +367,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4260000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4260000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 50,
@@ -411,11 +383,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.2,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 56.2,
@@ -431,16 +400,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 55.1,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 13.9,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.9,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -451,68 +414,41 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 29.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.9,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.9,
+			"unit": "%"
 		},
 		"Central bank discount rate": "NA%",
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 13.85,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.85,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 6600000000
-			},
-			"country comparison to the world:": ""
+			"usd": 6600000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 25400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 25400000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 15580000000
-			},
-			"country comparison to the world:": ""
+			"usd": 15580000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "sugarcane, corn, bananas, coffee, beans, cardamom; cattle, sheep, pigs, chickens",
 		"Industries": "sugar, textiles and clothing, furniture, chemicals, petroleum, metals, rubber, tourism",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 8425000000.000001,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8425000000.000001,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 7115000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7115000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 131900000,
@@ -523,118 +459,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 13530,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13530,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 79000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 79000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 21850,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21850,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 72440,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 72440,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 83070000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 83070000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 2960000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2960000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-1.345 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-1.345 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 8470000000.000001
-			},
-			"country comparison to the world:": ""
+			"usd": 8470000000.000001
 		},
 		"Exports - commodities": "coffee, sugar, petroleum, apparel, bananas, fruits and vegetables, cardamom",
 		"Exports - partners": "US 40.41%, El Salvador 11.2%, Honduras 8.48%, Mexico 5.86% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 12650000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12650000000
 		},
 		"Imports - commodities": "fuels, machinery and transport equipment, construction materials, grain, fertilizers, electricity",
 		"Imports - partners": "US 36.46%, Mexico 10.49%, China 5.88%, El Salvador 5.14% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 5709000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5709000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 17470000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17470000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "quetzales (GTQ) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 1413000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 17308000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 1413000,
+		"Telephones - mobile cellular": 17308000,
 		"Telephone system": {
 			"general assessment:": "fairly modern network centered in the city of Guatemala",
 			"domestic:": "state-owned telecommunications company privatized in the late 1990s opening the way for competition; fixed-line teledensity roughly 10 per 100 persons; fixed-line investments are being concentrated on improving rural connectivity; mobile-cellular teledensity exceeds 100 per 100 persons",
@@ -642,30 +527,24 @@
 		},
 		"Broadcast media": "4 privately-owned national terrestrial TV channels dominate TV broadcasting; multi-channel satellite and cable services are available; 1 government-owned radio station and hundreds of privately-owned radio stations (2007)",
 		"Internet country code": ".gt",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 196870,
+		"Internet users": 2279000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 372,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 13,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 4,
+			"under 914 m:": 3
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 359,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 84,
+			"under 914 m:": 271
 		},
 		"Pipelines": "oil 480 km (2010)",
 		"Railways": {
@@ -691,28 +570,28 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "990 km (260 km navigable year round; additional 730 km navigable during high-water season) (2010)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "990 km (260 km navigable year round; additional 730 km navigable during high-water season) (2010)",
+		"Ports and terminals": "Puerto Quetzal, Santo Tomas de Castilla"
 	},
 	"military": {
 		"Military branches": "National Army of Guatemala (Ejercito Nacional de Guatemala, ENG), Guatemalan Navy (Marina Nacional, includes Marines), Guatemalan Air Force (Fuerza Aerea Guatemalteca, FAG) (2009)",
 		"Military service age and obligation": "all male citizens between the ages of 18 and 50 are liable for military service; conscript service obligation varies from 12 to 24 months; women can serve as officers (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 3165,
+			"females age 16-49:": 3371
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2590,
+			"females age 16-49:": 2926
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 171092,
+			"female:": 168151
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "annual ministerial meetings under the OAS-initiated Agreement on the Framework for Negotiations and Confidence Building Measures continue to address Guatemalan land and maritime claims in Belize and the Caribbean Sea; Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the United States",
@@ -723,6 +602,6 @@
 			"current situation:": "Guatemala is a source, transit, and destination country for Guatemalans and Central Americans trafficked for the purposes of commercial sexual exploitation and forced labor; human trafficking is a significant and growing problem in the country; Guatemalan women and children are trafficked within the country for commercial sexual exploitation, primarily to Mexico and the United States; Guatemalan men, women, and children are also trafficked within the country, and to Mexico and the United States, for forced labor",
 			"tier rating:": "Tier 2 Watch List - for a second consecutive year, Guatemala is on the Tier 2 Watch List for its failure to provide evidence of increasing efforts to combat trafficking in persons, particularly with respect to ensuring that trafficking offenders are appropriately prosecuted for their crimes; while prosecutors initiated trafficking prosecutions, they continued to face problems in court with application of Guatemala's comprehensive anti-trafficking law; the government made modest improvements to its protection efforts, but assistance remained inadequate overall in 2007 (2008)"
 		},
-		"Illicit drugs": {}
+		"Illicit drugs": "major transit country for cocaine and heroin; in 2005, cultivated 100 hectares of opium poppy after reemerging as a potential source of opium in 2004; potential production of less than 1 metric ton of pure heroin; marijuana cultivation for mostly domestic consumption; proximity to Mexico makes Guatemala a major staging area for drugs (particularly for cocaine); money laundering is a serious problem; corruption is a major problem"
 	}
 }

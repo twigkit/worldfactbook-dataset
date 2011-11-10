@@ -7,15 +7,15 @@
 		"Location": "Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 18,
-				"seconds": 0
+				"deg": 18,
+				"min": 0
 			},
 			"E": {
-				"minutes": 175,
-				"seconds": 0
+				"deg": 175,
+				"min": 0
 			}
 		},
-		"Map references": "Oceania",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 18274,
@@ -97,13 +97,10 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "includes 332 islands; approximately 110 are inhabited"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 883125,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 28.9,
@@ -130,30 +127,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.798,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.798,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 21.11,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21.11,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 5.9,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.9,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-7.24 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-7.24 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 52,
@@ -218,27 +203,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 2.61,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.61,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": "fewer than 1,000 (2009 est.)",
+		"HIV/AIDS - deaths": "fewer than 100 (2009 est.)",
 		"Nationality": {
 			"noun:": "Fijian(s)",
 			"adjective:": "Fijian"
@@ -275,7 +248,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 6.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -289,12 +265,12 @@
 			"name:": "Suva (on Viti Levu)",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 18,
-					"seconds": 8
+					"deg": 18,
+					"min": 8
 				},
 				"E": {
-					"minutes": 178,
-					"seconds": 25
+					"deg": 178,
+					"min": 25
 				}
 			},
 			"time difference:": "UTC+12 (17 hours ahead of Washington, DC during Standard Time)",
@@ -303,7 +279,6 @@
 		"Administrative divisions": "4 divisions and 1 dependency*; Central, Eastern, Northern, Rotuma*, Western",
 		"Independence": "10 October 1970 (from the UK)",
 		"National holiday": "Independence Day, second Monday of October (1970)",
-		"Constitution": "enacted 25 July 1997; effective 28 July 1998; note - constitution encourages multiculturalism and makes multiparty government mandatory",
 		"Legal system": "common law system based on the English model",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "21 years of age; universal",
@@ -337,7 +312,10 @@
 			"FAX:": "[679] 330-0081"
 		},
 		"Flag description": "light blue with the flag of the UK in the upper hoist-side quadrant and the Fijian shield centered on the outer half of the flag; the blue symbolizes the Pacific ocean and the Union Jack reflects the links with Great Britain; the shield - taken from Fiji's coat of arms - depicts a yellow lion above a white field quartered by the cross of Saint George; the four quarters depict stalks of sugarcane, a palm tree, bananas, and a white dove",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"God Bless Fiji\"",
+			"lyrics/music:": "Michael Francis Alexander PRESCOTT/C. Austin MILES (adapted by Michael Francis Alexander PRESCOTT)"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Fiji, endowed with forest, mineral, and fish resources, is one of the most developed of the Pacific island economies though still with a large subsistence sector. Sugar exports, remittances from Fijians working abroad, and a growing tourist industry - with 400,000 to 500,000 tourists annually - are the major sources of foreign exchange. Fiji's sugar has special access to European Union markets but will be harmed by the EU's decision to cut sugar subsidies. Sugar processing makes up one-third of industrial activity but is not efficient. Fiji's tourism industry was damaged by the December 2006 coup and is facing an uncertain recovery time. In 2007 tourist arrivals were down almost 6%, with substantial job losses in the service sector, and GDP dipped. The coup has created a difficult business climate. The EU has suspended all aid until the interim government takes steps toward new elections. Long-term problems include low investment, uncertain land ownership rights, and the government's inability to manage its budget. Overseas remittances from Fijians working in Kuwait and Iraq have decreased significantly. Fiji's current account deficit reached 23% of GDP in 2006.",
@@ -351,11 +329,8 @@
 			"usd": 3131000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -377,10 +352,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 335000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 70,
@@ -392,11 +364,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.6,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 25.5,
@@ -415,64 +384,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.8,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 7.85,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.85,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 748000000
-			},
-			"country comparison to the world:": ""
+			"usd": 748000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1760000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1760000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 1799000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1799000000
 		},
-		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": "$NA (31 December 2009)",
-			"country comparison to the world:": ""
-		},
+		"Market value of publicly traded shares": "$NA (31 December 2009)",
 		"Agriculture - products": "sugarcane, coconuts, cassava (tapioca), rice, sweet potatoes, bananas; cattle, pigs, horses, goats; fish",
 		"Industries": "tourism, sugar, clothing, copra, gold, silver, lumber, small cottage industries",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 928000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 928000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 863000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 863000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -483,114 +425,66 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 11000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 2455,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2455,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 20340,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20340,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-507 million (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-507 million (2007 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 1202000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1202000000
 		},
 		"Exports - commodities": "sugar, garments, gold, timber, fish, molasses, coconut oil",
 		"Exports - partners": "US 15.21%, Australia 12.11%, UK 11.23%, Samoa 5.39%, Tonga 4.74%, Japan 4.44% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 3120000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3120000000
 		},
 		"Imports - commodities": "manufactured goods, machinery and transport equipment, petroleum products, food, chemicals",
 		"Imports - partners": "Singapore 27.27%, Australia 19.36%, NZ 15.15%, China 6.92%, India 5.23%, Thailand 4.25% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 127000000
-			},
-			"country comparison to the world:": ""
+			"usd": 127000000
 		},
 		"Stock of direct foreign investment - at home": "$NA",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Fijian dollars (FJD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 136800,
+		"Telephones - mobile cellular": 640000,
 		"Telephone system": {
 			"general assessment:": "modern local, interisland, and international (wire/radio integrated) public and special-purpose telephone, telegraph, and teleprinter facilities; regional radio communications center",
 			"domestic:": "telephone or radio telephone links to almost all inhabited islands; most towns and large villages have automatic telephone exchanges and direct dialing; combined fixed and mobile-cellular teledensity is about 80 per 100 persons",
@@ -598,27 +492,21 @@
 		},
 		"Broadcast media": "Fiji TV, a publicly-traded company, operates a free-to-air channel as well as the Sky Fiji and Sky Pacific multi-channel pay-TV services; state-owned commercial company, Fiji Broadcasting Corporation, Ltd, operates 6 radio stations - 2 public broadcasters and 4 commercial broadcasters with multiple repeaters; 5 radio stations with repeaters operated by Communications Fiji, Ltd; transmissions of multiple international broadcasters are available (2009)",
 		"Internet country code": ".fj",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 17088,
+		"Internet users": 114200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 28,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 4,
+			"over 3,047 m:": 1,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 24,
+			"914 to 1,523 m:": 5,
+			"under 914 m:": 19
 		},
 		"Railways": {
 			"total:": {
@@ -643,37 +531,40 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "203 km (122 km are navigable by motorized craft and 200-metric-ton barges) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "203 km (122 km are navigable by motorized craft and 200-metric-ton barges) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 10,
 			"country comparison to the world:": "",
 			"by type:": "passenger 4, passenger/cargo 4, roll on/roll off 2",
 			"foreign-owned:": "2 (Australia 2) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Lautoka, Levuka, Suva"
 	},
 	"military": {
 		"Military branches": "Republic of Fiji Military Forces (RFMF): Land Forces, Naval Forces (2011)",
 		"Military service age and obligation": "18 years of age for voluntary military service (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 233240,
+			"females age 16-49:": 222587
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 183730,
+			"females age 16-49:": 188325
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 8403,
+			"female:": 8039
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.9,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "none",
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Fiji is a source country for children trafficked for the purpose of commercial sexual exploitation and a destination country for a small number of women from China and India trafficked for the purposes of forced labor and commercial sexual exploitation",
+			"tier rating:": "Tier 2 Watch List - Fiji does not fully comply with the minimum standards for the elimination of trafficking and is not making significant efforts to do so; the government has demonstrated no action to investigate or prosecute traffickers, assist victims, take steps to reduce the demand for commercial sex acts, or support any anti-trafficking information or education campaigns; Fiji has not ratified the 2000 UN TIP Protocol (2009)"
+		}
 	}
 }

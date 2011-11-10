@@ -7,15 +7,15 @@
 		"Location": "Eastern Europe, east of Poland",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 53,
-				"seconds": 0
+				"deg": 53,
+				"min": 0
 			},
 			"E": {
-				"minutes": 28,
-				"seconds": 0
+				"deg": 28,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 207600,
@@ -89,13 +89,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Sulfur 85, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; glacial scouring accounts for the flatness of Belarusian terrain and for its 11,000 lakes"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 9577,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 14.2,
@@ -121,30 +118,18 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.363% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.363% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 9.76,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.76,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13.77,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.77,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0.38,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.38,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -210,27 +195,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.26,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.26,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 0.3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.3,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 17000,
+		"HIV/AIDS - deaths": "fewer than 1,000 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -269,7 +242,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.5,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -284,12 +260,12 @@
 			"name:": "Minsk",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 53,
-					"seconds": 54
+					"deg": 53,
+					"min": 54
 				},
 				"E": {
-					"minutes": 27,
-					"seconds": 34
+					"deg": 27,
+					"min": 34
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -300,7 +276,6 @@
 		},
 		"Independence": "25 August 1991 (from the Soviet Union)",
 		"National holiday": "Independence Day, 3 July (1944); note - 3 July 1944 was the date Minsk was liberated from German troops, 25 August 1991 was the date of independence from the Soviet Union",
-		"Constitution": "15 March 1994; revised by national referendum 24 November 1996 giving the presidency greatly expanded powers; became effective 27 November 1996; revised again 17 October 2004 removing presidential term limits",
 		"Legal system": "civil law system; note - nearly all major codes (civil, civil procedure, criminal, criminal procedure, family and labor) have been revised and came into force in 1999 or 2000",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -338,7 +313,10 @@
 			"FAX:": "[375] (17) 334-7853"
 		},
 		"Flag description": "red horizontal band (top) and green horizontal band one-half the width of the red band; a white vertical stripe on the hoist side bears Belarusian national ornamentation in red; the red band color recalls past struggles from oppression, the green band represents hope and the many forests of the country",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"My, Bielarusy\" (We Belarusians)",
+			"lyrics/music:": "Mikhas KLIMKOVICH and Uladzimir KARYZNA/Nester SAKALOUSKI"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Belarus has seen limited structural reform since 1995, when President LUKASHENKO launched the country on the path of \"market socialism.\" In keeping with this policy, LUKASHENKO reimposed administrative controls over prices and currency exchange rates and expanded the state's right to intervene in the management of private enterprises. Since 2005, the government has re-nationalized a number of private companies. In addition, businesses have been subjected to pressure by central and local governments, including arbitrary changes in regulations, numerous rigorous inspections, retroactive application of new business regulations, and arrests of \"disruptive\" businessmen and factory owners. Continued state control over economic operations hampers market entry for businesses, both domestic and foreign. Government statistics indicate GDP growth was strong, surpassing 10% in 2008, despite the roadblocks of a tough, centrally directed economy with a high rate of inflation and a low rate of unemployment. However, the global crisis pushed the country into recession in 2009, and GDP grew only 0.2% for the year. Slumping foreign demand hit the industrial sector hard. Minsk has depended on a standby-agreement with the IMF to assist with balance of payments shortfalls. In line with IMF conditions, in 2009, Belarus devalued the ruble more than 40% and tightened some fiscal and monetary policies. On 1 January 2010, Russia, Kazakhstan and Belarus launched a customs union, with unified trade regulations and customs codes still under negotiation. In late January, Russia and Belarus amended their 2007 oil supply agreement. The new terms raised prices for above quota purchases, increasing Belarus' current account deficit. GDP grew 4.8% in 2010, in part, on the strength of renewed export growth. In December 2010, Belarus, Russia and Kazakhstan signed an agreement to form a Common Economic Space and Russia removed all Belarusian oil duties.",
@@ -352,11 +330,8 @@
 			"usd": 54710000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 7.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -378,10 +353,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 5000000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 5000000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 14,
@@ -417,16 +389,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 27.9,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 36,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -437,67 +403,40 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 7,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 13.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 11.68,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.68,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 4747000000
-			},
-			"country comparison to the world:": ""
+			"usd": 4747000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 13620000000
-			},
-			"country comparison to the world:": ""
+			"usd": 13620000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 19990000000
-			},
-			"country comparison to the world:": ""
+			"usd": 19990000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "grain, potatoes, vegetables, sugar beets, flax; beef, milk",
 		"Industries": "metal-cutting machine tools, tractors, trucks, earthmovers, motorcycles, televisions, synthetic fibers, fertilizer, textiles, radios, refrigerators",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 10.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 29920000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 29920000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 30540000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30540000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 5062000000,
@@ -508,118 +447,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 31400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 31400,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 173000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 173000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 303900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 303900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 444800,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 444800,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 198000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 198000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 152000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 152000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 17000000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17000000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 17600000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17600000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 2832000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2832000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-5.062 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-5.062 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 24490000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24490000000
 		},
 		"Exports - commodities": "machinery and equipment, mineral products, chemicals, metals, textiles, foodstuffs",
 		"Exports - partners": "Russia 33.6%, Netherlands 13.78%, Ukraine 8.68%, Latvia 6.32%, Poland 4.19%, Germany 4.17% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 29790000000
-			},
-			"country comparison to the world:": ""
+			"usd": 29790000000
 		},
 		"Imports - commodities": "mineral products, machinery and equipment, chemicals, foodstuffs, metals",
 		"Imports - partners": "Russia 56.42%, Germany 8.31%, Ukraine 4.79%, China 4.04% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 5755000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5755000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 24800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 24800000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Belarusian rubles (BYB/BYR) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 3969000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 9686000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 3969000,
+		"Telephones - mobile cellular": 9686000,
 		"Telephone system": {
 			"general assessment:": "Belarus lags behind its neighbors in upgrading telecommunications infrastructure; modernization of the network progressing with roughly two-thirds of switching equipment now digital",
 			"domestic:": "state-owned Beltelcom is the sole provider of fixed-line local and long distance service; fixed-line teledensity is improving although rural areas continue to be underserved; multiple GSM mobile-cellular networks are experiencing rapid growth; mobile-cellular teledensity reached 100 telephones per 100 persons in 2009",
@@ -627,32 +515,26 @@
 		},
 		"Broadcast media": "4 state-controlled national TV channels; Polish and Russian TV broadcasts are available in some areas; state-run Belarusian Radio operates 3 national networks and an external service; Russian and Polish radio broadcasts are available (2007)",
 		"Internet country code": ".by",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 147311,
+		"Internet users": 2643000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 67,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 35,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 22,
+			"1,524 to 2,437 m:": 3,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 32,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 1,
+			"914 to 1,523 m:": 2,
+			"under 914 m:": 27
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 5,250 km; oil 1,528 km; refined products 1,730 km (2010)",
 		"Railways": {
 			"total:": {
@@ -678,31 +560,31 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "2,500 km (use limited by its location on the perimeter of the country and by its shallowness) (2003)",
-			"country comparison to the world:": ""
-		},
-		"Ports and terminals": {}
+		"Waterways": "2,500 km (use limited by its location on the perimeter of the country and by its shallowness) (2003)",
+		"Ports and terminals": "Mazyr"
 	},
 	"military": {
 		"Military branches": "Belarus Armed Forces: Land Force, Air and Air Defense Force, Special Operations Force (2011)",
 		"Military service age and obligation": "18-27 years of age for compulsory military service; conscript service obligation - 12-18 months, depending on academic qualifications (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2401,
+			"females age 16-49:": 2429
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1693,
+			"females age 16-49:": 2012
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 51855,
+			"female:": 48760
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.4,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "boundary demarcated with Latvia and Lithuania; Poland seeks enhanced demarcation and security along this Schengen hard border with financial assistance from the EU",
-		"Illicit drugs": {}
+		"Illicit drugs": "limited cultivation of opium poppy and cannabis, mostly for the domestic market; transshipment point for illicit drugs to and via Russia, and to the Baltics and Western Europe; a small and lightly regulated financial center; anti-money-laundering legislation does not meet international standards and was weakened further when know-your-customer requirements were curtailed in 2008; few investigations or prosecutions of money-laundering activities (2008)"
 	}
 }

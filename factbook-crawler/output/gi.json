@@ -7,15 +7,15 @@
 		"Location": "Southwestern Europe, bordering the Strait of Gibraltar, which links the Mediterranean Sea and the North Atlantic Ocean, on the southern coast of Spain",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 36,
-				"seconds": 8
+				"deg": 36,
+				"min": 8
 			},
 			"W": {
-				"minutes": 5,
-				"seconds": 21
+				"deg": 5,
+				"min": 21
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 6.5,
@@ -73,13 +73,10 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "NA",
 		"Environment - current issues": "limited natural freshwater resources: large concrete or natural rock water catchments collect rainwater (no longer used for drinking water) and adequate desalination plant",
-		"Geography - note": {}
+		"Geography - note": "strategic location on Strait of Gibraltar that links the North Atlantic Ocean and Mediterranean Sea"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 28956,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 20.4,
@@ -106,30 +103,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.273,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.273,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 14.23,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.23,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 8.18,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8.18,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.32 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.32 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 100,
@@ -193,11 +178,8 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.96,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.96,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": "NA",
 		"HIV/AIDS - people living with HIV/AIDS": "NA",
@@ -216,7 +198,7 @@
 			"female:": "NA"
 		},
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -229,12 +211,12 @@
 			"name:": "Gibraltar",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 36,
-					"seconds": 8
+					"deg": 36,
+					"min": 8
 				},
 				"W": {
-					"minutes": 5,
-					"seconds": 21
+					"deg": 5,
+					"min": 21
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -243,7 +225,6 @@
 		"Administrative divisions": "none (overseas territory of the UK)",
 		"Independence": "none (overseas territory of the UK)",
 		"National holiday": "National Day, 10 September (1967); note - day of the national referendum to decide whether to remain with the UK or join Spain",
-		"Constitution": "5 June 2006; came into force 2 January 2007",
 		"Legal system": "the laws of the UK, where applicable, apply",
 		"Suffrage": "18 years of age; universal; and British citizens who have been residents six months or more",
 		"Executive branch": {
@@ -264,31 +245,25 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK)",
 		"Flag description": "two horizontal bands of white (top, double width) and red with a three-towered red castle in the center of the white band; hanging from the castle gate is a gold key centered in the red band; the design is that of Gibraltar's coat of arms granted on 10 July 1502 by King Ferdinand and Queen Isabella of Spain; the castle symbolizes Gibraltar as a fortress, while the key represents Gibraltar's strategic importance - the key to the Mediterranean",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Gibraltar Anthem\"",
+			"lyrics/music:": "Peter EMBERLEY"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Self-sufficient Gibraltar benefits from an extensive shipping trade, offshore banking, and its position as an international conference center. Tax rates are low to attract foreign investment. The British military presence has been sharply reduced and now contributes about 7% to the local economy, compared with 60% in 1984. The financial sector, tourism (almost 5 million visitors in 1998), gaming revenues, shipping services fees, and duties on consumer goods also generate revenue. The financial sector, tourism, and the shipping sector contribute 30%, 30%, and 25%, respectively, of GDP. Telecommunications, e-commerce, and e-gaming account for the remaining 15%. In recent years, Gibraltar has seen major structural change from a public to a private sector economy, but changes in government spending still have a major impact on the level of employment.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 1275000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1275000000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 1106000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -304,10 +279,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": "12,690 (including non-Gibraltar laborers) (2001)",
-			"country comparison to the world:": ""
-		},
+		"Labor force": "12,690 (including non-Gibraltar laborers) (2001)",
 		"Labor force - by occupation": {
 			"agriculture:": "negligible",
 			"industry:": {
@@ -320,11 +292,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Population below poverty line": "NA%",
 		"Household income or consumption by percentage share": {
@@ -340,35 +309,23 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 7.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.5,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.8,
+			"unit": "%"
 		},
 		"Agriculture - products": "none",
 		"Industries": "tourism, banking and finance, ship repairing, tobacco",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 146000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 146000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 146000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 146000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -379,101 +336,59 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 21000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 21000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 25610,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 25610,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 271000000
-			},
-			"country comparison to the world:": ""
+			"usd": 271000000
 		},
 		"Exports - commodities": "(principally reexports) petroleum 51%, manufactured goods",
 		"Imports": {
-			"Imports": {
-				"usd": 2967000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2967000000
 		},
 		"Imports - commodities": "fuels, manufactured goods, and foodstuffs",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Gibraltar pounds (GIP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 24000,
+		"Telephones - mobile cellular": 28600,
 		"Telephone system": {
 			"general assessment:": "adequate, automatic domestic system and adequate international facilities",
 			"domestic:": "automatic exchange facilities",
@@ -481,20 +396,14 @@
 		},
 		"Broadcast media": "Gibraltar Broadcasting Corporation (GBC) provides television and radio broadcasting services via 1 television station and 4 radio stations; British Forces Broadcasting Service (BFBS) operates 1 radio station; broadcasts from Spanish radio and TV stations are accessible (2008)",
 		"Internet country code": ".gi",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 2053,
+		"Internet users": 20200
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null
+			"total:": 1,
+			"1,524 to 2,437 m:": 1
 		},
 		"Roadways": {
 			"total:": {
@@ -508,29 +417,29 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 265,
 			"country comparison to the world:": "",
 			"by type:": "bulk carrier 1, cargo 139, chemical tanker 65, container 35, liquefied gas 2, petroleum tanker 11, roll on/roll off 4, vehicle carrier 8",
-			"foreign-owned:": null
+			"foreign-owned:": 250
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Gibraltar"
 	},
 	"military": {
 		"Military branches": "Royal Gibraltar Regiment (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 7037
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6017,
+			"females age 16-49:": 5706
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 228,
+			"female:": 220
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK; the Royal Gibraltar Regiment replaced the last British regular infantry forces in 1992"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement; the government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar even greater autonomy"
 	}
 }

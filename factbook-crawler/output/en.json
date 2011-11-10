@@ -7,15 +7,15 @@
 		"Location": "Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 59,
-				"seconds": 0
+				"deg": 59,
+				"min": 0
 			},
 			"E": {
-				"minutes": 26,
-				"seconds": 0
+				"deg": 26,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 45228,
@@ -95,13 +95,10 @@
 			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "the mainland terrain is flat, boggy, and partly wooded; offshore lie more than 1,500 islands"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 1282,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 15.1,
@@ -127,28 +124,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.641% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.641% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.45,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.45,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 13.55,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 13.55,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.31 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.31 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 69,
@@ -213,27 +198,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.44,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.44,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 1.2,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.2,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 9900,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -277,7 +250,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -292,12 +268,12 @@
 			"name:": "Tallinn",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 59,
-					"seconds": 26
+					"deg": 59,
+					"min": 26
 				},
 				"E": {
-					"minutes": 24,
-					"seconds": 43
+					"deg": 24,
+					"min": 43
 				}
 			},
 			"time difference:": "UTC+2 (7 hours ahead of Washington, DC during Standard Time)",
@@ -308,7 +284,6 @@
 		},
 		"Independence": "20 August 1991 (declared); 6 September 1991 (recognized by the Soviet Union)",
 		"National holiday": "Independence Day, 24 February (1918); note - 24 February 1918 was the date Estonia declared its independence from Soviet Russia and established its statehood; 20 August 1991 was the date it declared its independence from the Soviet Union",
-		"Constitution": "adopted 28 June 1992",
 		"Legal system": "civil law system",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal for all Estonian citizens",
@@ -342,7 +317,10 @@
 			"FAX:": "[372] 668-8265"
 		},
 		"Flag description": "three equal horizontal bands of blue (top), black, and white; various interpretations are linked to the flag colors; blue represents faith, loyalty, and devotion, while also reminiscent of the sky, sea, and lakes of the country; black symbolizes the soil of the country and the dark past and suffering endured by the Estonian people; white refers to the striving towards enlightenment and virtue, and is the color of birch bark and snow, as well as summer nights illuminated by the midnight sun",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Mu isamaa, mu onn ja room\" (My Native Land, My Pride and Joy)",
+			"lyrics/music:": "Johann Voldemar JANNSEN/Fredrik PACIUS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Estonia, a 2004 European Union entrant, has a modern market-based economy and one of the higher per capita income levels in Central Europe and the Baltic region. Estonia's successive governments have pursued a free market, pro-business economic agenda and have wavered little in their commitment to pro-market reforms. The current government has followed relatively sound fiscal policies that have resulted in balanced budgets and very low public debt. The economy benefits from strong electronics and telecommunications sectors and strong trade ties with Finland, Sweden, and Germany. Tallinn's priority has been to sustain high growth rates - on average 8% per year from 2003 to 2007. Estonia's economy slowed down markedly and fell sharply into recession in mid-2008, primarily as a result of an investment and consumption slump following the bursting of the real estate market bubble. GDP dropped nearly 14% in 2009, among the world's highest rates of contraction. Rising exports to Sweden and Finland lead an economic recovery in 2010, but unemployment stands above 17%. Estonia joined the OECD in December 2010 and adopted the euro in January 2011.",
@@ -356,11 +334,8 @@
 			"usd": 19780000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -382,10 +357,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 688000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 2.8,
@@ -401,11 +373,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 17.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 17.5,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 19.7,
@@ -421,16 +390,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 31.4,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 22.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 22.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -441,25 +404,16 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 7.7,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.7,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 9.39,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9.39,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
 			"Stock of narrow money": {
@@ -468,45 +422,27 @@
 			"country comparison to the world:": ""
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 10700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 10700000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 18940000000
-			},
-			"country comparison to the world:": ""
+			"usd": 18940000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 2654000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2654000000
 		},
 		"Agriculture - products": "grain, potatoes, vegetables; livestock and dairy products; fish",
 		"Industries": "engineering, electronics, wood and wood products, textiles; information technology, telecommunications",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 10,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 8779000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 8779000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 7080000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7080000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 2943000000,
@@ -517,132 +453,75 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 7600,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7600,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 30000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 7280,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7280,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 30590,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 30590,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 1020000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1020000000,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 1020000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1020000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Current account balance": {
-			"Current account balance": {
-				"usd": 265000000
-			},
-			"country comparison to the world:": ""
+			"usd": 265000000
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 11500000000
-			},
-			"country comparison to the world:": ""
+			"usd": 11500000000
 		},
 		"Exports - commodities": "machinery and electrical equipment 21%, wood and wood products 9%, metals 9%, furniture 7%, vehicles and parts 5%, food products and beverages 4%, textiles 4%, plastics 3%",
 		"Exports - partners": "Finland 18.57%, Sweden 12.52%, Latvia 9.51%, Russia 9.33%, Germany 6.09%, Lithuania 4.76%, US 4.26% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 12170000000
-			},
-			"country comparison to the world:": ""
+			"usd": 12170000000
 		},
 		"Imports - commodities": "machinery and electrical equipment 22%, mineral fuels 18%, chemical products 3%, foodstuffs 6%, plastics 6%, textiles 5%",
 		"Imports - partners": "Finland 14.52%, Lithuania 10.84%, Latvia 10.47%, Germany 10.33%, Russia 8.59%, Sweden 8.34%, Poland 5.63% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 3641000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3641000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 25130000000
-			},
-			"country comparison to the world:": ""
+			"usd": 25130000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 17530000000
-			},
-			"country comparison to the world:": ""
+			"usd": 17530000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 7134000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7134000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "kroon (EEK) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2720000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 492800,
+		"Telephones - mobile cellular": 2720000,
 		"Telephone system": {
 			"general assessment:": "foreign investment in the form of joint business ventures greatly improved telephone service with a wide range of high quality voice, data, and Internet services available",
 			"domestic:": "substantial fiber-optic cable systems carry telephone, TV, and radio traffic in the digital mode; Internet services are widely available; schools and libraries are connected to the Internet, a large percentage of the population files income-tax returns online, and online voting was used for the first time in the 2005 local elections",
@@ -650,31 +529,25 @@
 		},
 		"Broadcast media": "the publicly-owned broadcaster, Eesti Rahvusringhaaling (ERR), operates 2 television channels; national private TV channels expanding service; a range of channels are aimed at Russian-speaking viewers; high penetration rate for cable TV services with more than half of Estonian households connected; publicly-owned broadcaster, ERR, operates 4 radio networks and there are a growing number of private commercial radio stations broadcasting nationally, regionally, and locally (2008)",
 		"Internet country code": ".ee",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 729534,
+		"Internet users": 971700
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 19,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 13,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 7,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 2
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 6,
+			"1,524 to 2,437 m:": 2,
+			"914 to 1,523 m:": 1,
+			"under 914 m:": 3
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Pipelines": "gas 859 km (2010)",
 		"Railways": {
 			"total:": {
@@ -699,38 +572,38 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "335 km (320 km are navigable year round) (2010)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "335 km (320 km are navigable year round) (2010)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 24,
 			"country comparison to the world:": "",
 			"by type:": "cargo 4, chemical tanker 1, passenger/cargo 17, petroleum tanker 2",
-			"foreign-owned:": null,
+			"foreign-owned:": 3,
 			"registered in other countries:": "77 (Antigua and Barbuda 20, Belize 1, Cambodia 1, Cyprus 7, Dominica 6, Finland 2, Latvia 4, Malta 16, former Netherlands Antilles 1, Norway 1, Saint Kitts and Nevis 3, Saint Vincent and the Grenadines 10, Sierra Leone 1, Sweden 3, Venezuela 1) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Kuivastu, Kunda, Muuga, Parnu Reid, Sillamae, Tallinn"
 	},
 	"military": {
 		"Military branches": "Estonian Defense Forces: Land Force, Navy, Air Force (Eesti Ohuvagi), Defense League (Kaitseliit, KL) (2011)",
 		"Military service age and obligation": "obligation for compulsory service ages 16-60, with conscription \"likely\" ages 18-27; service requirement 8-11 months (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 291801,
+			"females age 16-49:": 302696
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 210854,
+			"females age 16-49:": 251185
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 6668,
+			"female:": 6309
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 2,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "Russia recalled its signature to the 1996 technical border agreement with Estonia in 2005, rather than concede to Estonia's appending a prepared unilateral declaration referencing Soviet occupation and territorial losses; Russia demands better accommodation of Russian-speaking population in Estonia; Estonian citizen groups continue to press for realignment of the boundary based on the 1920 Tartu Peace Treaty that would bring the now divided ethnic Setu people and parts of the Narva region within Estonia; as a member state that forms part of the EU's external border, Estonia must implement the strict Schengen border rules with Russia",
-		"Illicit drugs": {}
+		"Illicit drugs": "growing producer of synthetic drugs; increasingly important transshipment zone for cannabis, cocaine, opiates, and synthetic drugs since joining the European Union and the Schengen Accord; potential money laundering related to organized crime and drug trafficking is a concern, as is possible use of the gambling sector to launder funds; major use of opiates and ecstasy"
 	}
 }

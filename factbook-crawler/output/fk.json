@@ -7,15 +7,15 @@
 		"Location": "Southern South America, islands in the South Atlantic Ocean, east of southern Argentina",
 		"Geographic coordinates": {
 			"S": {
-				"minutes": 51,
-				"seconds": 45
+				"deg": 51,
+				"min": 45
 			},
 			"W": {
-				"minutes": 59,
-				"seconds": 0
+				"deg": 59,
+				"min": 0
 			}
 		},
-		"Map references": "South America",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 12173,
@@ -75,24 +75,18 @@
 		"Irrigated land": "NA",
 		"Natural hazards": "strong winds persist throughout the year",
 		"Environment - current issues": "overfishing by unlicensed vessels is a problem; reindeer were introduced to the islands in 2001 for commercial reasons; this is the only commercial reindeer herd in the world unaffected by the 1986 Chornobyl disaster",
-		"Geography - note": {}
+		"Geography - note": "deeply indented coast provides good natural harbors; short growing season"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 3140,
 		"Age structure": {
 			"0-14 years:": "NA",
 			"15-64 years:": "NA",
 			"65 years and over:": "NA"
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.011,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.011,
+			"unit": "%"
 		},
 		"Birth rate": "NA",
 		"Death rate": "NA",
@@ -131,7 +125,7 @@
 		"Languages": "English",
 		"Literacy": "NA",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -144,12 +138,12 @@
 			"name:": "Stanley",
 			"geographic coordinates:": {
 				"S": {
-					"minutes": 51,
-					"seconds": 42
+					"deg": 51,
+					"min": 42
 				},
 				"W": {
-					"minutes": 57,
-					"seconds": 51
+					"deg": 57,
+					"min": 51
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)",
@@ -158,7 +152,6 @@
 		"Administrative divisions": "none (overseas territory of the UK; also claimed by Argentina)",
 		"Independence": "none (overseas territory of the UK; also claimed by Argentina)",
 		"National holiday": "Liberation Day, 14 June (1982)",
-		"Constitution": "1 January 2009",
 		"Legal system": "English common law and local statutes",
 		"Suffrage": "18 years of age; universal",
 		"Executive branch": {
@@ -179,24 +172,21 @@
 		"Diplomatic representation in the US": "none (overseas territory of the UK; also claimed by Argentina)",
 		"Diplomatic representation from the US": "none (overseas territory of the UK; also claimed by Argentina)",
 		"Flag description": "blue with the flag of the UK in the upper hoist-side quadrant and the Falkland Island coat of arms centered on the outer half of the flag; the coat of arms contains a white ram (sheep raising was once the major economic activity) above the sailing ship Desire (whose crew discovered the islands) with a scroll at the bottom bearing the motto DESIRE THE RIGHT",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Song of the Falklands\"\"",
+			"lyrics/music:": "Christopher LANHAM"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy was formerly based on agriculture, mainly sheep farming, but today fishing contributes the bulk of economic activity. In 1987, the government began selling fishing licenses to foreign trawlers operating within the Falkland Islands' exclusive fishing zone. These license fees total more than $40 million per year, which help support the island's health, education, and welfare system. Squid accounts for 75% of the fish taken. Dairy farming supports domestic consumption; crops furnish winter fodder. Foreign exchange earnings come from shipments of high-grade wool to the UK and the sale of postage stamps and coins. The islands are now self-financing except for defense. The British Geological Survey announced a 200-mile oil exploration zone around the islands in 1993, and early seismic surveys suggest substantial reserves capable of producing 500,000 barrels per day; to date, no exploitable site has been identified. An agreement between Argentina and the UK in 1995 seeks to defuse licensing and sovereignty conflicts that would dampen foreign interest in exploiting potential oil reserves. Political tensions between the UK and Argentina rose in early 2010 after a UK company began oil drilling activities in the waters around the Falkland Islands but abated somewhat when the drilling operation failed to discover commercially exploitable oil reserves. Tourism, especially eco-tourism, is increasing rapidly, with about 30,000 visitors in 2001. Another large source of income is interest paid on money the government has in the bank. The British military presence also provides a sizeable economic boost.",
 		"GDP (purchasing power parity)": {
-			"GDP (purchasing power parity)": {
-				"usd": 105100000
-			},
-			"country comparison to the world:": ""
+			"usd": 105100000
 		},
 		"GDP (official exchange rate)": {
 			"usd": 105100000
 		},
 		"GDP - per capita (PPP)": {
-			"GDP - per capita (PPP)": {
-				"usd": null
-			},
-			"country comparison to the world:": ""
+			"usd": null
 		},
 		"GDP - composition by sector": {
 			"agriculture:": {
@@ -206,10 +196,7 @@
 			"industry:": "NA%",
 			"services:": "NA% (1996)"
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 1724,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 95,
@@ -235,28 +222,19 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 3.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.6,
+			"unit": "%"
 		},
 		"Agriculture - products": "fodder and vegetable crops; sheep, dairy products; fish, squid",
 		"Industries": "fish and wool processing; tourism",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 16000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 14880000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14880000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -267,101 +245,59 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 270.9,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 270.9,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Exports": {
-			"Exports": {
-				"usd": 125000000
-			},
-			"country comparison to the world:": ""
+			"usd": 125000000
 		},
 		"Exports - commodities": "wool, hides, meat, fish, squid",
 		"Imports": {
-			"Imports": {
-				"usd": 90000000
-			},
-			"country comparison to the world:": ""
+			"usd": 90000000
 		},
 		"Imports - commodities": "fuel, food and drink, building materials, clothing",
 		"Debt - external": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Falkland pounds (FKP) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 2000,
+		"Telephones - mobile cellular": 3300,
 		"Telephone system": {
 			"general assessment:": "NA",
 			"domestic:": "government-operated radiotelephone and private VHF/CB radiotelephone networks provide effective service to almost all points on both islands",
@@ -369,25 +305,19 @@
 		},
 		"Broadcast media": "television service provided by a multi-channel service provider; radio services provided by the public broadcaster Falkland Islands Radio Service (FIRS), broadcasting on both AM and FM frequencies, and by the British Forces Broadcasting Service (BFBS) (2007)",
 		"Internet country code": ".fk",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 91,
+		"Internet users": 2900
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 7,
 		"Airports - with paved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 2,
+			"2,438 to 3,047 m:": 1,
+			"914 to 1,523 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"under 914 m:": null
+			"total:": 5,
+			"under 914 m:": 5
 		},
 		"Roadways": {
 			"total:": {
@@ -404,14 +334,14 @@
 				"unit": "km"
 			}
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Stanley"
 	},
 	"military": {
 		"Military branches": "no regular military forces",
 		"Military expenditures": "NA",
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of the UK"
 	},
 	"issues": {
-		"Disputes - international": {}
+		"Disputes - international": "Argentina, which claims the islands in its constitution and briefly occupied them by force in 1982, agreed in 1995 to no longer seek settlement by force; UK continues to reject Argentine requests for sovereignty talks"
 	}
 }

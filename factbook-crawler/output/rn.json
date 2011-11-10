@@ -7,15 +7,15 @@
 		"Location": "Caribbean, located in the Leeward Islands (northern) group; French part of the island of Saint Martin in the Caribbean Sea; Saint Martin lies east of the US Virgin Islands",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 18,
-				"seconds": 5
+				"deg": 18,
+				"min": 5
 			},
 			"W": {
-				"minutes": 63,
-				"seconds": 57
+				"deg": 63,
+				"min": 57
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 54.4,
@@ -48,13 +48,10 @@
 		"Natural resources": "salt",
 		"Natural hazards": "subject to hurricanes from July to November",
 		"Environment - current issues": "freshwater supply is dependent on desalinization of sea water",
-		"Geography - note": {}
+		"Geography - note": "the island of Saint Martin is the smallest landmass in the world shared by two independent states, the French territory of Saint Martin and the Dutch territory of Sint Maarten"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 30615,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 26.9,
@@ -106,7 +103,7 @@
 		"Religions": "Roman Catholic, Jehovah's Witnesses, Protestant, Hindu",
 		"Languages": "French (official), English, Dutch, French Patois, Spanish, Papiamento (dialect of Netherlands Antilles)",
 		"School life expectancy (primary to tertiary education)": "NA",
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -120,19 +117,18 @@
 			"name:": "Marigot",
 			"geographical coordinates:": {
 				"N": {
-					"minutes": 18,
-					"seconds": 4
+					"deg": 18,
+					"min": 4
 				},
 				"W": {
-					"minutes": 63,
-					"seconds": 5
+					"deg": 63,
+					"min": 5
 				}
 			},
 			"time difference:": "UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
 		},
 		"Independence": "none (overseas collectivity of France)",
 		"National holiday": "Bastille Day, 14 July (1789); note - local holiday is Schoalcher Day (Slavery Abolition Day) 12 July (1848)",
-		"Constitution": "4 October 1958 (French Constitution)",
 		"Legal system": "French civil law",
 		"Suffrage": "18 years of age, universal",
 		"Executive branch": {
@@ -153,7 +149,10 @@
 		"Diplomatic representation in the US": "none (overseas collectivity of France)",
 		"Diplomatic representation from the US": "none (overseas collectivity of France)",
 		"Flag description": "the flag of France is used",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"O Sweet Saint Martin's Land\"",
+			"lyrics/music:": "Gerard KEMPS"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The economy of Saint Martin centers around tourism with 85% of the labor force engaged in this sector. Over one million visitors come to the island each year with most arriving through the Princess Juliana International Airport in Sint Maarten. No significant agriculture and limited local fishing means that almost all food must be imported. Energy resources and manufactured goods are also imported, primarily from Mexico and the United States. Saint Martin is reported to have the highest per capita income in the Caribbean.",
@@ -174,38 +173,35 @@
 		"Labor force - by occupation": "85% directly or indirectly employed in tourist industry",
 		"Industries": "tourism, light industry and manufacturing, heavy industry",
 		"Imports - commodities": "crude petroleum, food, manufactured items",
-		"Exchange rates": {}
+		"Exchange rates": "euros (EUR) per US dollar -"
 	},
-	"commerce": {
+	"communications": {
 		"Telephone system": {
 			"general assessment:": "fully integrated access",
 			"domestic:": "direct dial capability with both fixed and wireless systems",
 			"international:": "country code - 590; undersea fiber-optic cable provides voice and data connectivity to Puerto Rico and Guadeloupe"
 		},
 		"Broadcast media": "1 local TV station; receives television broadcasts from the Netherlands Antilles; access to about 20 radio stations, including RFO Guadeloupe radio broadcasts via repeater (2008)",
-		"Internet country code": {}
+		"Internet country code": ".mf; note - .gp, the Internet country code for Guadeloupe, and .fr, the Internet country code for France, might also be encountered"
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 1,
 		"Airports - with paved runways": {
-			"total:": null,
-			"914 to 1,523 m:": null
+			"total:": 1,
+			"914 to 1,523 m:": 1
 		},
-		"Transportation - note": {}
+		"Transportation - note": "nearest airport for international flights is Princess Juliana International Airport (SXM) located in Sint Maarten"
 	},
 	"military": {
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 6435,
+			"females age 16-49:": 6967
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 168,
+			"female:": 168
 		},
-		"Military - note": {}
+		"Military - note": "defense is the responsibility of France"
 	},
 	"issues": {}
 }

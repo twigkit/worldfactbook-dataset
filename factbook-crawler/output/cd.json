@@ -7,15 +7,15 @@
 		"Location": "Central Africa, south of Libya",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 15,
-				"seconds": 0
+				"deg": 15,
+				"min": 0
 			},
 			"E": {
-				"minutes": 19,
-				"seconds": 0
+				"deg": 19,
+				"min": 0
 			}
 		},
-		"Map references": "Africa",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 1284000,
@@ -89,13 +89,10 @@
 			"party to:": "Biodiversity, Climate Change, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
 			"signed, but not ratified:": "Law of the Sea, Marine Dumping"
 		},
-		"Geography - note": {}
+		"Geography - note": "landlocked; Lake Chad is the most significant water body in the Sahel"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 10758,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 46,
@@ -122,30 +119,18 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 2.009,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.009,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 39.4,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 39.4,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 15.47,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 15.47,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-3.84 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-3.84 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 28,
@@ -210,27 +195,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 5.05,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.05,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.4,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": null,
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 210000,
+		"HIV/AIDS - deaths": 11000,
 		"Major infectious diseases": {
 			"degree of risk:": "very high",
 			"food or waterborne diseases:": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
@@ -276,7 +249,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 3.2,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -290,12 +266,12 @@
 			"name:": "N'Djamena",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 12,
-					"seconds": 6
+					"deg": 12,
+					"min": 6
 				},
 				"E": {
-					"minutes": 15,
-					"seconds": 2
+					"deg": 15,
+					"min": 2
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
@@ -303,7 +279,6 @@
 		"Administrative divisions": "22 regions (regions, singular - region); Barh el Gazel, Batha, Borkou, Chari-Baguirmi, Ennedi, Guera, Hadjer-Lamis, Kanem, Lac, Logone Occidental, Logone Oriental, Mandoul, Mayo-Kebbi Est, Mayo-Kebbi Ouest, Moyen-Chari, Ouaddai, Salamat, Sila, Tandjile, Tibesti, Ville de N'Djamena, Wadi Fira",
 		"Independence": "11 August 1960 (from France)",
 		"National holiday": "Independence Day, 11 August (1960)",
-		"Constitution": "passed by referendum 31 March 1996; a June 2005 referendum removed constitutional term limits",
 		"Legal system": "mixed legal system of civil and customary law",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -339,7 +314,10 @@
 		"Flag description": {
 			"Flag description": "three equal vertical bands of blue (hoist side), yellow, and red; the flag combines the blue and red French (former colonial) colors with the red and yellow of the Pan-African colors; blue symbolizes the sky, hope, and the south of the country, which is relatively well-watered; yellow represents the sun, as well as the desert in the north of the country; red stands for progress, unity, and sacrifice"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"La Tchadienne\" (The Chadian)",
+			"lyrics/music:": "Louis GIDROL and his students/Paul VILLARD"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Chad's primarily agricultural economy will continue to be boosted by major foreign direct investment projects in the oil sector that began in 2000. At least 80% of Chad's population relies on subsistence farming and livestock raising for its livelihood. Chad's economy has long been handicapped by its landlocked position, high energy costs, and a history of instability. Chad relies on foreign assistance and foreign capital for most public and private sector investment projects. A consortium led by two US companies has been investing $3.7 billion to develop oil reserves - estimated at 1 billion barrels - in southern Chad. Chinese companies are also expanding exploration efforts and are currently building a 300-km pipeline and the country's first refinery. The nation's total oil reserves are estimated at 1.5 billion barrels. Oil production came on stream in late 2003. Chad began to export oil in 2004. Cotton, cattle, and gum arabic provide the bulk of Chad's non-oil export earnings.",
@@ -353,11 +331,8 @@
 			"usd": 7848000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 5.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.1,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -379,10 +354,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 4293000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 4293000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 80,
@@ -409,11 +381,8 @@
 			}
 		},
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 14.8,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 14.8,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -424,61 +393,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 4.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 4.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": "NA%",
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 920900000
-			},
-			"country comparison to the world:": ""
+			"usd": 920900000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 1257000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1257000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 943800000
-			},
-			"country comparison to the world:": ""
+			"usd": 943800000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "cotton, sorghum, millet, peanuts, rice, potatoes, manioc (tapioca); cattle, sheep, goats, camels",
 		"Industries": "oil, cotton textiles, meatpacking, brewing, natron (sodium carbonate), soap, cigarettes, construction materials",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 3,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 100000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 93000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 93000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -489,115 +434,67 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 115000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 115000,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 1000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1000,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 157900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 157900,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 1571,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1571,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 1500000000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1500000000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-2.6 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-2.6 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 3036000000
-			},
-			"country comparison to the world:": ""
+			"usd": 3036000000
 		},
 		"Exports - commodities": "oil, cattle, cotton, gum arabic",
 		"Exports - partners": "US 90.06%, France 4.81%, China 1.6% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 2631000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2631000000
 		},
 		"Imports - commodities": "machinery and transportation equipment, industrial goods, foodstuffs, textiles",
 		"Imports - partners": "France 17.74%, Cameroon 12.7%, China 11.23%, US 7.59%, Italy 6.54%, Ukraine 5.33%, Netherlands 4.37% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 868000000
-			},
-			"country comparison to the world:": ""
+			"usd": 868000000
 		},
 		"Debt - external": "$NA (31 December 2010 est.)",
 		"Stock of direct foreign investment - at home": "$NA (31 December 2010)",
 		"Stock of direct foreign investment - abroad": "$NA",
-		"Exchange rates": {}
+		"Exchange rates": "Cooperation Financiere en Afrique Centrale francs (XAF) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 2686000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 13000,
+		"Telephones - mobile cellular": 2686000,
 		"Telephone system": {
 			"general assessment:": "inadequate system of radiotelephone communication stations with high costs and low telephone density",
 			"domestic:": "fixed-line connections for only about 1 per 1000 persons coupled with mobile-cellular subscribership base of only about 25 per 100 persons",
@@ -605,30 +502,24 @@
 		},
 		"Broadcast media": "1 state-owned TV broadcast station; state-owned radio network, Radiodiffusion Nationale Tchadienne (RNT), operates national and regional stations; about 10 private radio stations; some stations rebroadcast programs from international broadcasters (2007)",
 		"Internet country code": ".td",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 5,
+		"Internet users": 168100
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 56,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"under 914 m:": null
+			"total:": 8,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 2,
+			"under 914 m:": 1
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 48,
+			"2,438 to 3,047 m:": 2,
+			"1,524 to 2,437 m:": 15,
+			"914 to 1,523 m:": 21,
+			"under 914 m:": 10
 		},
 		"Pipelines": "oil 265 km (2010)",
 		"Roadways": {
@@ -646,31 +537,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {}
+		"Waterways": "(Chari and Legone rivers are navigable only in wet season) (2010)"
 	},
 	"military": {
 		"Military branches": "Armed Forces: Chadian National Army (Armee Nationale du Tchad, ANT), Chadian Air Force (Force Aerienne Tchadienne, FAT), Gendarmerie (2008)",
 		"Military service age and obligation": "20 years of age for conscripts, with 3-year service obligation; 18 years of age for volunteers; no minimum age restriction for volunteers with consent from a parent or guardian; women are subject to 1 year of compulsory military or civic service at age of 21 (2004)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 2090,
+			"females age 16-49:": 2441
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 1183,
+			"females age 16-49:": 1395
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 128723,
+			"female:": 128244
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "since 2003, Janjawid armed militia and the Sudanese military have driven hundreds of thousands of Darfur residents into Chad; Chad remains an important mediator in the Sudanese civil conflict, reducing tensions with Sudan arising from cross-border banditry; Chadian Aozou rebels reside in southern Libya; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
 		"Refugees and internally displaced persons": {
 			"refugees (country of origin):": "234,000 (Sudan); 54,200 (Central African Republic)",
-			"IDPs:": null
+			"IDPs:": 178918
 		},
-		"Trafficking in persons": {}
+		"Trafficking in persons": {
+			"current situation:": "Chad is a source, transit, and destination country for children trafficked for the purposes of forced labor and commercial sexual exploitation; the majority of children are trafficked within Chad for involuntary domestic servitude, forced cattle herding, forced begging, forced labor in petty commerce or the fishing industry, or for commercial sexual exploitation; to a lesser extent, Chadian children are also trafficked to Cameroon, the Central African Republic, and Nigeria for cattle herding; children may also be trafficked from Cameroon and the Central African Republic to Chad's oil producing regions for sexual exploitation",
+			"tier rating:": "Tier 2 Watch List - the Government of Chad does not fully comply with the minimum standards for the elimination of trafficking and is not making any significant efforts to do so; although facing resource constraints, the government has the capacity to conduct basic anti-trafficking law enforcement efforts, yet did not do so during the last year; it showed no results in enforcing government policy prohibiting the recruitment of child soldiers; Chad has not ratified the 2000 UN TIP Protocol (2009)"
+		}
 	}
 }

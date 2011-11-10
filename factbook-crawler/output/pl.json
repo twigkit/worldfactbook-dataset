@@ -7,15 +7,15 @@
 		"Location": "Central Europe, east of Germany",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 52,
-				"seconds": 0
+				"deg": 52,
+				"min": 0
 			},
 			"E": {
-				"minutes": 20,
-				"seconds": 0
+				"deg": 20,
+				"min": 0
 			}
 		},
-		"Map references": "Europe",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 312685,
@@ -95,13 +95,10 @@
 			"party to:": "Air Pollution, Antarctic-Environmental Protocol, Antarctic-Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Kyoto Protocol, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 94"
 		},
-		"Geography - note": {}
+		"Geography - note": "historically, an area of conflict because of flat terrain and the lack of natural barriers on the North European Plain"
 	},
 	"people": {
-		"Population": {
-			"Population": null,
-			"country comparison to the world:": ""
-		},
+		"Population": 38441,
 		"Age structure": {
 			"0-14 years:": {
 				"quantity": 14.7,
@@ -127,28 +124,16 @@
 				"unit": "years"
 			}
 		},
-		"Population growth rate": {
-			"Population growth rate": "-0.062% (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Population growth rate": "-0.062% (2011 est.)",
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 10.01,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.01,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 10.17,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 10.17,
+			"unit": "deaths/1,000 population"
 		},
-		"Net migration rate": {
-			"Net migration rate": "-0.47 migrant(s)/1,000 population (2011 est.)",
-			"country comparison to the world:": ""
-		},
+		"Net migration rate": "-0.47 migrant(s)/1,000 population (2011 est.)",
 		"Urbanization": {
 			"urban population:": {
 				"quantity": 61,
@@ -210,24 +195,12 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.3,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.3,
+			"unit": "children born/woman"
 		},
-		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": "0.1%; 0.1% note - no country specific models provided (2009 est.)",
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - adult prevalence rate": "0.1%; 0.1% note - no country specific models provided (2009 est.)",
+		"HIV/AIDS - people living with HIV/AIDS": 27000,
+		"HIV/AIDS - deaths": "fewer than 200 (2009 est.)",
 		"Major infectious diseases": {
 			"degree of risk:": "intermediate",
 			"food or waterborne diseases:": "bacterial diarrhea",
@@ -271,7 +244,10 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": {
+			"quantity": 4.9,
+			"unit": "% of GDP"
+		}
 	},
 	"government": {
 		"Country name": {
@@ -285,12 +261,12 @@
 			"name:": "Warsaw",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 52,
-					"seconds": 15
+					"deg": 52,
+					"min": 15
 				},
 				"E": {
-					"minutes": 21,
-					"seconds": 0
+					"deg": 21,
+					"min": 0
 				}
 			},
 			"time difference:": "UTC+1 (6 hours ahead of Washington, DC during Standard Time)",
@@ -299,7 +275,6 @@
 		"Administrative divisions": "16 provinces (wojewodztwa, singular - wojewodztwo); Dolnoslaskie (Lower Silesia), Kujawsko-Pomorskie (Kuyavia-Pomerania), Lodzkie, Lubelskie (Lublin), Lubuskie (Lubusz), Malopolskie (Lesser Poland), Mazowieckie (Masovia), Opolskie, Podkarpackie (Subcarpathia), Podlaskie, Pomorskie (Pomerania), Slaskie (Silesia), Swietokrzyskie, Warminsko-Mazurskie (Warmia-Masuria), Wielkopolskie (Greater Poland), Zachodniopomorskie (West Pomerania)",
 		"Independence": "11 November 1918 (republic proclaimed); notable earlier dates: A.D. 966 (adoption of Christianity, traditional founding date), 1 July 1569 (Polish-Lithuanian Commonwealth created)",
 		"National holiday": "Constitution Day, 3 May (1791)",
-		"Constitution": "adopted by the National Assembly 2 April 1997; passed by national referendum 25 May 1997; effective 17 October 1997",
 		"Legal system": "civil law system; changes gradually being introduced as part of broader democratization process; limited judicial review of legislative acts, but rulings of the Constitutional Tribunal are final",
 		"International law organization participation": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
 		"Suffrage": "18 years of age; universal",
@@ -336,7 +311,10 @@
 		"Flag description": {
 			"Flag description": "two equal horizontal bands of white (top) and red; colors derive from the Polish emblem - a white eagle on a red field"
 		},
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"Mazurek Dabrowskiego\" (Dabrowski's Mazurka)",
+			"lyrics/music:": "Jozef WYBICKI/traditional"
+		}
 	},
 	"economy": {
 		"Economy - overview": "Poland has pursued a policy of economic liberalization since 1990 and today stands out as a success story among transition economies. It is the only country in the European Union to maintain positive GDP growth through the 2008-2009 economic downturn. GDP per capita is still much below the EU average, but is similar to that of the three Baltic states. Since 2004, EU membership and access to EU structural funds have provided a major boost to the economy. Unemployment fell rapidly to 6.4% in October 2008, but climbed back to 11.8% for the year 2010, exceeding the EU average by more than 2%. Inflation reached a low of about 2.6% in 2010 due to the global economic slowdown but has since climbed and is expected to remain around 3%, and close to the upper limit of the National Bank of Poland's target rate. Poland's economic performance could improve over the longer term if the country addresses some of the remaining deficiencies in its road and rail infrastructure and its business environment. An inefficient commercial court system, a rigid labor code, bureaucratic red tape, burdensome tax system, and persistent low-level corruption keep the private sector from performing up to its full potential. Rising demands to fund health care, education, and the state pension system caused the public sector budget deficit to rise to 7.9% of GDP in 2010. The PO/PSL coalition government, which came to power in November 2007, has planned to reduce the budget deficit in 2011 and has also announced its intention to enact business-friendly reforms, increase workforce participation, reduce public sector spending growth, lower taxes, and accelerate privatization. The government has moved slowly on most major reforms, but has sped up privatization.",
@@ -350,11 +328,8 @@
 			"usd": 468500000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 3.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.8,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -376,10 +351,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": 17000000,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 17000000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 17.4,
@@ -395,11 +367,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 11.8,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 11.8,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 17,
@@ -415,16 +384,10 @@
 				"unit": "%"
 			}
 		},
-		"Distribution of family income - Gini index": {
-			"Distribution of family income - Gini index": null,
-			"country comparison to the world:": ""
-		},
+		"Distribution of family income - Gini index": 34.9,
 		"Investment (gross fixed)": {
-			"Investment (gross fixed)": {
-				"quantity": 19.5,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 19.5,
+			"unit": "% of GDP"
 		},
 		"Budget": {
 			"revenues:": {
@@ -435,79 +398,46 @@
 			}
 		},
 		"Public debt": {
-			"Public debt": {
-				"quantity": 53.6,
-				"unit": "% of GDP"
-			},
-			"country comparison to the world:": ""
+			"quantity": 53.6,
+			"unit": "% of GDP"
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.6,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 3.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.5,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.99,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.99,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 138700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 138700000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 251900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 251900000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 288700000000
-			},
-			"country comparison to the world:": ""
+			"usd": 288700000000
 		},
 		"Market value of publicly traded shares": {
-			"Market value of publicly traded shares": {
-				"usd": 135300000000.00002
-			},
-			"country comparison to the world:": ""
+			"usd": 135300000000.00002
 		},
 		"Agriculture - products": "potatoes, fruits, vegetables, wheat; poultry, eggs, pork, dairy",
 		"Industries": "machine building, iron and steel, coal mining, chemicals, shipbuilding, food processing, glass, beverages, textiles",
 		"Industrial production growth rate": {
-			"Industrial production growth rate": {
-				"quantity": 6.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.5,
+			"unit": "%"
 		},
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 149100000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 149100000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 129300000000.00002,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 129300000000.00002,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 9703000000,
@@ -518,130 +448,73 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 34140,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 34140,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 545400,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 545400,
+			"unit": "bbl/day"
 		},
 		"Oil - exports": {
-			"Oil - exports": {
-				"quantity": 65280,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 65280,
+			"unit": "bbl/day"
 		},
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 553900,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 553900,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 96380000,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 96380000,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 5842000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5842000000,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 16329999999.999998,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16329999999.999998,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 40000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 40000000,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 9954000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 9954000000,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 164800000000,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 164800000000,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-12.33 billion (2010 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-12.33 billion (2010 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 160800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 160800000000
 		},
 		"Exports - commodities": "machinery and transport equipment 37.8%, intermediate manufactured goods 23.7%, miscellaneous manufactured goods 17.1%, food and live animals 7.6%",
 		"Exports - partners": "Germany 26.06%, Italy 6.84%, France 6.78%, UK 6.38%, Czech Republic 5.85%, Netherlands 4.14% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 167400000000
-			},
-			"country comparison to the world:": ""
+			"usd": 167400000000
 		},
 		"Imports - commodities": "machinery and transport equipment 38%, intermediate manufactured goods 21%, chemicals 15%, minerals, fuels, lubricants, and related materials 9%",
 		"Imports - partners": "Germany 28.08%, Russia 8.65%, Italy 6.5%, Netherlands 5.59%, China 5.27%, France 4.6%, Czech Republic 4.05% (2009)",
 		"Reserves of foreign exchange and gold": {
-			"Reserves of foreign exchange and gold": {
-				"usd": 99760000000
-			},
-			"country comparison to the world:": ""
+			"usd": 99760000000
 		},
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 252900000000
-			},
-			"country comparison to the world:": ""
+			"usd": 252900000000
 		},
 		"Stock of direct foreign investment - at home": {
-			"Stock of direct foreign investment - at home": {
-				"usd": 198800000000
-			},
-			"country comparison to the world:": ""
+			"usd": 198800000000
 		},
 		"Stock of direct foreign investment - abroad": {
-			"Stock of direct foreign investment - abroad": {
-				"usd": 30710000000
-			},
-			"country comparison to the world:": ""
+			"usd": 30710000000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "zlotych (PLN) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": 9556000,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": 44553000,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 9556000,
+		"Telephones - mobile cellular": 44553000,
 		"Telephone system": {
 			"general assessment:": "modernization of the telecommunications network has accelerated with market-based competition; fixed-line service, dominated by the former state-owned company, is dwarfed by the growth in mobile-cellular services",
 			"domestic:": "mobile-cellular service available since 1993 and provided by three nation-wide networks with a fourth provider beginning operations in late 2006; coverage is generally good with some gaps in the east; fixed-line service lags in rural areas",
@@ -649,32 +522,26 @@
 		},
 		"Broadcast media": "state-run public television operates 2 national channels supplemented by 16 regional channels and several niche channels; privately-owned entities operate several national TV broadcast networks and a number of special interest channels; large number of privately-owned channels broadcasting locally; roughly half of all households are linked to either satellite or cable TV systems providing access to foreign television networks; state-run public radio operates 5 national networks and 17 regional radio stations; 2 privately-owned national radio networks, several commercial stations broadcasting to multiple cities, and a large number of privately-owned local radio stations (2007)",
 		"Internet country code": ".pl",
-		"Internet hosts": {
-			"Internet hosts": 10510000,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 10510000,
+		"Internet users": 22452000
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 129,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 86,
+			"over 3,047 m:": 4,
+			"2,438 to 3,047 m:": 30,
+			"1,524 to 2,437 m:": 39,
+			"914 to 1,523 m:": 7
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 43,
+			"2,438 to 3,047 m:": 1,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 16,
+			"under 914 m:": 21
 		},
-		"Heliports": null,
+		"Heliports": 7,
 		"Pipelines": "gas 13,860 km; oil 1,384 km; refined products 777 km; unknown 35 km (2010)",
 		"Railways": {
 			"total:": {
@@ -700,37 +567,37 @@
 				"unit": "km"
 			}
 		},
-		"Waterways": {
-			"Waterways": "3,997 km (navigable rivers and canals) (2009)",
-			"country comparison to the world:": ""
-		},
+		"Waterways": "3,997 km (navigable rivers and canals) (2009)",
 		"Merchant marine": {
-			"total:": null,
+			"total:": 10,
 			"country comparison to the world:": "",
 			"by type:": "cargo 6, chemical tanker 3, passenger/cargo 1",
 			"registered in other countries:": "104 (Antigua and Barbuda 2, Bahamas 32, Cyprus 20, Liberia 13, Malta 22, Norway 2, Panama 3, Saint Vincent and the Grenadines 1, Slovakia 2, Vanuatu 7) (2010)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Gdansk, Gdynia, Swinoujscie, Szczecin"
 	},
 	"military": {
 		"Military branches": "Polish Armed Forces: Land Forces, Navy, Air and Air Defense Aviation Forces, Special Forces (2010)",
 		"Military service age and obligation": "18-28 years of age for male voluntary or compulsory military service; service obligation shortened from 12 to 9 months in 2005; conscription is to end in 2012; only soldiers who have completed their conscript service are allowed to volunteer for professional service; as of April 2004, women are only allowed to serve as officers and noncommissioned officers; reserve obligation to age 50 (2009)",
 		"Manpower available for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 9531,
+			"females age 16-49:": 9298
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 7817,
+			"females age 16-49:": 7766
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 221889,
+			"female:": 211172
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 1.71,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "as a member state that forms part of the EU's external border, Poland has implemented the strict Schengen border rules to restrict illegal immigration and trade along its eastern borders with Belarus and Ukraine",
-		"Illicit drugs": {}
+		"Illicit drugs": "despite diligent counternarcotics measures and international information sharing on cross-border crimes, a major illicit producer of synthetic drugs for the international market; minor transshipment point for Southwest Asian heroin and Latin American cocaine to Western Europe"
 	}
 }

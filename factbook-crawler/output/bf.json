@@ -7,15 +7,15 @@
 		"Location": "Caribbean, chain of islands in the North Atlantic Ocean, southeast of Florida, northeast of Cuba",
 		"Geographic coordinates": {
 			"N": {
-				"minutes": 24,
-				"seconds": 15
+				"deg": 24,
+				"min": 15
 			},
 			"W": {
-				"minutes": 76,
-				"seconds": 0
+				"deg": 76,
+				"min": 0
 			}
 		},
-		"Map references": "Central America and the Caribbean",
+		"Map references": {},
 		"Area": {
 			"total:": {
 				"quantity": 13880,
@@ -82,11 +82,11 @@
 			"party to:": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
 			"signed, but not ratified:": "none of the selected agreements"
 		},
-		"Geography - note": {}
+		"Geography - note": "strategic location adjacent to US and Cuba; extensive island chain of which 30 are inhabited"
 	},
 	"people": {
 		"Population": {
-			"Population": null,
+			"Population": 313312,
 			"country comparison to the world:": ""
 		},
 		"Age structure": {
@@ -115,32 +115,20 @@
 			}
 		},
 		"Population growth rate": {
-			"Population growth rate": {
-				"quantity": 0.922,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.922,
+			"unit": "%"
 		},
 		"Birth rate": {
-			"Birth rate": {
-				"quantity": 16.1,
-				"unit": "births/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 16.1,
+			"unit": "births/1,000 population"
 		},
 		"Death rate": {
-			"Death rate": {
-				"quantity": 6.88,
-				"unit": "deaths/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 6.88,
+			"unit": "deaths/1,000 population"
 		},
 		"Net migration rate": {
-			"Net migration rate": {
-				"quantity": 0,
-				"unit": "migrant(s)/1,000 population"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "migrant(s)/1,000 population"
 		},
 		"Urbanization": {
 			"urban population:": {
@@ -206,27 +194,15 @@
 			}
 		},
 		"Total fertility rate": {
-			"Total fertility rate": {
-				"quantity": 1.99,
-				"unit": "children born/woman"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1.99,
+			"unit": "children born/woman"
 		},
 		"HIV/AIDS - adult prevalence rate": {
-			"HIV/AIDS - adult prevalence rate": {
-				"quantity": 3.1,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 3.1,
+			"unit": "%"
 		},
-		"HIV/AIDS - people living with HIV/AIDS": {
-			"HIV/AIDS - people living with HIV/AIDS": null,
-			"country comparison to the world:": ""
-		},
-		"HIV/AIDS - deaths": {
-			"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"HIV/AIDS - people living with HIV/AIDS": 6600,
+		"HIV/AIDS - deaths": "fewer than 500 (2009 est.)",
 		"Drinking water source": {},
 		"Sanitation facility access": {},
 		"Nationality": {
@@ -265,7 +241,7 @@
 				"unit": "years"
 			}
 		},
-		"Education expenditures": {}
+		"Education expenditures": "NA"
 	},
 	"government": {
 		"Country name": {
@@ -277,12 +253,12 @@
 			"name:": "Nassau",
 			"geographic coordinates:": {
 				"N": {
-					"minutes": 25,
-					"seconds": 5
+					"deg": 25,
+					"min": 5
 				},
 				"W": {
-					"minutes": 77,
-					"seconds": 21
+					"deg": 77,
+					"min": 21
 				}
 			},
 			"time difference:": "UTC-5 (same time as Washington, DC during Standard Time)",
@@ -291,7 +267,6 @@
 		"Administrative divisions": "31 districts; Acklins Islands, Berry Islands, Bimini, Black Point, Cat Island, Central Abaco, Central Andros, Central Eleuthera, City of Freeport, Crooked Island and Long Cay, East Grand Bahama, Exuma, Grand Cay, Harbour Island, Hope Town, Inagua, Long Island, Mangrove Cay, Mayaguana, Moore's Island, North Abaco, North Andros, North Eleuthera, Ragged Island, Rum Cay, San Salvador, South Abaco, South Andros, South Eleuthera, Spanish Wells, West Grand Bahama",
 		"Independence": "10 July 1973 (from the UK)",
 		"National holiday": "Independence Day, 10 July (1973)",
-		"Constitution": "10 July 1973",
 		"Legal system": "common law system based on the English model",
 		"International law organization participation": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
 		"Suffrage": "18 years of age; universal",
@@ -328,7 +303,10 @@
 			"FAX:": "[1] (242) 328-2206"
 		},
 		"Flag description": "three equal horizontal bands of aquamarine (top), gold, and aquamarine, with a black equilateral triangle based on the hoist side; the band colors represent the golden beaches of the islands surrounded by the aquamarine sea; black represents the vigor and force of a united people, while the pointing triangle indicates the enterprise and determination of the Bahamian people to develop the rich resources of land and sea",
-		"National anthem": {}
+		"National anthem": {
+			"name:": "\"March On, Bahamaland!\"",
+			"lyrics/music:": "Timothy GIBSON"
+		}
 	},
 	"economy": {
 		"Economy - overview": "The Bahamas is one of the wealthiest Caribbean countries with an economy heavily dependent on tourism and offshore banking. Tourism together with tourism-driven construction and manufacturing accounts for approximately 60% of GDP and directly or indirectly employs half of the archipelago's labor force. Prior to 2006, a steady growth in tourism receipts and a boom in construction of new hotels, resorts, and residences led to solid GDP growth but since then tourism receipts have begun to drop off. The global recession in 2009 took a sizeable toll on the Bahamas, resulting in a contraction in GDP and a widening budget deficit. The decline continued in 2010 as tourism from the US and sector investment lagged. Financial services constitute the second-most important sector of the Bahamian economy and, when combined with business services, account for about 36% of GDP. However, the financial sector currently is smaller than it has been in the past because of the enactment of new and stricter financial regulations in 2000 that caused many international businesses to relocate elsewhere. Manufacturing and agriculture combined contribute approximately a tenth of GDP and show little growth, despite government incentives aimed at those sectors. Overall growth prospects in the short run rest heavily on the fortunes of the tourism sector.",
@@ -342,11 +320,8 @@
 			"usd": 7538000000
 		},
 		"GDP - real growth rate": {
-			"GDP - real growth rate": {
-				"quantity": 0.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0.5,
+			"unit": "%"
 		},
 		"GDP - per capita (PPP)": {
 			"GDP - per capita (PPP)": {
@@ -368,10 +343,7 @@
 				"unit": "%"
 			}
 		},
-		"Labor force": {
-			"Labor force": null,
-			"country comparison to the world:": ""
-		},
+		"Labor force": 184000,
 		"Labor force - by occupation": {
 			"agriculture:": {
 				"quantity": 5,
@@ -391,11 +363,8 @@
 			}
 		},
 		"Unemployment rate": {
-			"Unemployment rate": {
-				"quantity": 7.6,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 7.6,
+			"unit": "%"
 		},
 		"Population below poverty line": {
 			"quantity": 9.3,
@@ -417,61 +386,37 @@
 			}
 		},
 		"Inflation rate (consumer prices)": {
-			"Inflation rate (consumer prices)": {
-				"quantity": 2.4,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2.4,
+			"unit": "%"
 		},
 		"Central bank discount rate": {
-			"Central bank discount rate": {
-				"quantity": 5.25,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.25,
+			"unit": "%"
 		},
 		"Commercial bank prime lending rate": {
-			"Commercial bank prime lending rate": {
-				"quantity": 5.5,
-				"unit": "%"
-			},
-			"country comparison to the world:": ""
+			"quantity": 5.5,
+			"unit": "%"
 		},
 		"Stock of narrow money": {
-			"Stock of narrow money": {
-				"usd": 1284000000
-			},
-			"country comparison to the world:": ""
+			"usd": 1284000000
 		},
 		"Stock of broad money": {
-			"Stock of broad money": {
-				"usd": 5991000000
-			},
-			"country comparison to the world:": ""
+			"usd": 5991000000
 		},
 		"Stock of domestic credit": {
-			"Stock of domestic credit": {
-				"usd": 7993000000
-			},
-			"country comparison to the world:": ""
+			"usd": 7993000000
 		},
 		"Market value of publicly traded shares": "$NA",
 		"Agriculture - products": "citrus, vegetables; poultry",
 		"Industries": "tourism, banking, cement, oil transshipment, salt, rum, aragonite, pharmaceuticals, spiral-welded steel pipe",
 		"Industrial production growth rate": "NA%",
 		"Electricity - production": {
-			"Electricity - production": {
-				"quantity": 2045000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 2045000000,
+			"unit": "kWh"
 		},
 		"Electricity - consumption": {
-			"Electricity - consumption": {
-				"quantity": 1902000000,
-				"unit": "kWh"
-			},
-			"country comparison to the world:": ""
+			"quantity": 1902000000,
+			"unit": "kWh"
 		},
 		"Electricity - exports": {
 			"quantity": 0,
@@ -482,109 +427,61 @@
 			"unit": "kWh"
 		},
 		"Oil - production": {
-			"Oil - production": {
-				"quantity": 0,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl/day"
 		},
 		"Oil - consumption": {
-			"Oil - consumption": {
-				"quantity": 36000,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 36000,
+			"unit": "bbl/day"
 		},
-		"Oil - exports": {
-			"Oil - exports": "transshipments of 41,570 bbl/day (2007 est.)",
-			"country comparison to the world:": ""
-		},
+		"Oil - exports": "transshipments of 41,570 bbl/day (2007 est.)",
 		"Oil - imports": {
-			"Oil - imports": {
-				"quantity": 20560,
-				"unit": "bbl/day"
-			},
-			"country comparison to the world:": ""
+			"quantity": 20560,
+			"unit": "bbl/day"
 		},
 		"Oil - proved reserves": {
-			"Oil - proved reserves": {
-				"quantity": 0,
-				"unit": "bbl"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "bbl"
 		},
 		"Natural gas - production": {
-			"Natural gas - production": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - consumption": {
-			"Natural gas - consumption": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - exports": {
-			"Natural gas - exports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - imports": {
-			"Natural gas - imports": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
 		"Natural gas - proved reserves": {
-			"Natural gas - proved reserves": {
-				"quantity": 0,
-				"unit": "cu m"
-			},
-			"country comparison to the world:": ""
+			"quantity": 0,
+			"unit": "cu m"
 		},
-		"Current account balance": {
-			"Current account balance": "$-283.2 million (2009 est.)",
-			"country comparison to the world:": ""
-		},
+		"Current account balance": "$-283.2 million (2009 est.)",
 		"Exports": {
-			"Exports": {
-				"usd": 674000000
-			},
-			"country comparison to the world:": ""
+			"usd": 674000000
 		},
 		"Exports - commodities": "mineral products and salt, animal products, rum, chemicals, fruit and vegetables",
 		"Exports - partners": "US 35.99%, Singapore 18.64%, Poland 12.1%, Germany 6.24% (2009)",
 		"Imports": {
-			"Imports": {
-				"usd": 2401000000
-			},
-			"country comparison to the world:": ""
+			"usd": 2401000000
 		},
 		"Imports - commodities": "machinery and transport equipment, manufactures, chemicals, mineral fuels; food and live animals",
 		"Imports - partners": "US 27.23%, South Korea 20.08%, Japan 14.55%, Singapore 5.89%, China 4.75%, Venezuela 4.26%, Italy 4.12% (2009)",
 		"Debt - external": {
-			"Debt - external": {
-				"usd": 342600000
-			},
-			"country comparison to the world:": ""
+			"usd": 342600000
 		},
-		"Exchange rates": {}
+		"Exchange rates": "Bahamian dollars (BSD) per US dollar -"
 	},
-	"commerce": {
-		"Telephones - main lines in use": {
-			"Telephones - main lines in use": null,
-			"country comparison to the world:": ""
-		},
-		"Telephones - mobile cellular": {
-			"Telephones - mobile cellular": null,
-			"country comparison to the world:": ""
-		},
+	"communications": {
+		"Telephones - main lines in use": 129000,
+		"Telephones - mobile cellular": 358800,
 		"Telephone system": {
 			"general assessment:": "modern facilities",
 			"domestic:": "totally automatic system; highly developed; the Bahamas Domestic Submarine Network links 14 of the islands and is designed to satisfy increasing demand for voice and broadband Internet services",
@@ -592,31 +489,25 @@
 		},
 		"Broadcast media": "2 television stations operated by government-owned, commercially run Broadcasting Corporation of the Bahamas (BCB); multi-channel cable TV subscription service is available; about 15 radio stations operating with BCB operating a multi-channel radio broadcasting network alongside privately-owned radio stations (2007)",
 		"Internet country code": ".bs",
-		"Internet hosts": {
-			"Internet hosts": null,
-			"country comparison to the world:": ""
-		},
-		"Internet users": {}
+		"Internet hosts": 21939,
+		"Internet users": 115800
 	},
 	"transport": {
-		"Airports": {
-			"Airports": null,
-			"country comparison to the world:": ""
-		},
+		"Airports": 62,
 		"Airports - with paved runways": {
-			"total:": null,
-			"over 3,047 m:": null,
-			"2,438 to 3,047 m:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null
+			"total:": 23,
+			"over 3,047 m:": 2,
+			"2,438 to 3,047 m:": 3,
+			"1,524 to 2,437 m:": 13,
+			"914 to 1,523 m:": 5
 		},
 		"Airports - with unpaved runways": {
-			"total:": null,
-			"1,524 to 2,437 m:": null,
-			"914 to 1,523 m:": null,
-			"under 914 m:": null
+			"total:": 39,
+			"1,524 to 2,437 m:": 5,
+			"914 to 1,523 m:": 12,
+			"under 914 m:": 22
 		},
-		"Heliports": null,
+		"Heliports": 1,
 		"Roadways": {
 			"total:": {
 				"quantity": 2717,
@@ -633,31 +524,34 @@
 			}
 		},
 		"Merchant marine": {
-			"total:": null,
+			"total:": 1170,
 			"country comparison to the world:": "",
 			"by type:": "barge carrier 1, bulk carrier 229, cargo 191, carrier 2, chemical tanker 80, combination ore/oil 8, container 50, liquefied gas 78, passenger 100, passenger/cargo 29, petroleum tanker 222, refrigerated cargo 106, roll on/roll off 12, specialized tanker 2, vehicle carrier 60",
 			"foreign-owned:": "1,080 (Angola 5, Belgium 9, Bermuda 12, Brazil 1, Canada 102, China 4, Croatia 1, Cyprus 14, Denmark 59, Finland 8, France 19, Germany 39, Greece 209, Guernsey 6, Hong Kong 2, Indonesia 2, Ireland 3, Italy 5, Japan 93, Jordan 2, Kuwait 2, Malaysia 13, Monaco 14, Montenegro 2, Netherlands 22, Nigeria 2, Norway 198, Poland 32, Saudi Arabia 16, Singapore 7, Slovenia 1, Spain 9, Sweden 6, Switzerland 2, Thailand 4, Trinidad and Tobago 1, Turkey 3, UAE 27, UK 24, US 100)"
 		},
-		"Ports and terminals": {}
+		"Ports and terminals": "Freeport, Nassau, South Riding Point"
 	},
 	"military": {
 		"Military branches": "Royal Bahamian Defense Force: Land Force, Navy, Air Wing (2011)",
 		"Military service age and obligation": "18 years of age; no conscription (2010)",
 		"Manpower available for military service": {
-			"males age 16-49:": null
+			"males age 16-49:": 85568
 		},
 		"Manpower fit for military service": {
-			"males age 16-49:": null,
-			"females age 16-49:": null
+			"males age 16-49:": 63429,
+			"females age 16-49:": 64645
 		},
 		"Manpower reaching militarily significant age annually": {
-			"male:": null,
-			"female:": null
+			"male:": 2829,
+			"female:": 2750
 		},
-		"Military expenditures": {}
+		"Military expenditures": {
+			"quantity": 0.7,
+			"unit": "% of GDP"
+		}
 	},
 	"issues": {
 		"Disputes - international": "disagrees with the US on the alignment the northern axis of a potential maritime boundary",
-		"Illicit drugs": {}
+		"Illicit drugs": "transshipment point for cocaine and marijuana bound for US and Europe; offshore financial center"
 	}
 }
