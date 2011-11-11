@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <country>
 	<code><%= doc.code %></code>
 	<name><%= doc.name %></name>
@@ -185,10 +186,10 @@
 	<economy>
 		<overview><%= getField(doc,'economy','Economy - overview') %></overview>
 		<gdp>
-			<purchasing-power-parity><%= getField(doc,'economy','GDP (purchasing power parity)') %></purchasing-power-parity>
-			<official-exchange-rate><%= getField(doc,'economy','GDP (official exchange rate)') %></official-exchange-rate>
-			<real-growth-rate><%= getField(doc,'economy','GDP - real growth rate') %></real-growth-rate>
-			<per-capita><%= getField(doc,'economy','GDP - per capita (PPP)') %></per-capita>
+			<purchasing-power-parity><%= getField(doc,'economy','GDP (purchasing power parity)','usd') %></purchasing-power-parity>
+			<official-exchange-rate><%= getField(doc,'economy','GDP (official exchange rate)','usd') %></official-exchange-rate>
+			<real-growth-rate unit="<%= getField(doc,'economy','GDP - real growth rate','unit') %>"><%= getField(doc,'economy','GDP - real growth rate','quantity') %></real-growth-rate>
+			<per-capita><%= getField(doc,'economy','GDP - per capita (PPP)','usd') %></per-capita>
 			<sector unit="%">
 				<agriculture><%= getField(doc,'economy','GDP - composition by sector','agriculture','quantity') %></agriculture>
 				<industry><%= getField(doc,'economy','GDP - composition by sector','industry','quantity') %></industry>
