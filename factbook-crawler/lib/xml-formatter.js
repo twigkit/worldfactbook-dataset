@@ -7,22 +7,52 @@ exports.spit = function( doc ){
 	return ejs.render( template, {
 		locals:{
 			doc:doc,
-			getField:function(data){
-				var a = arguments, pointer = data;
-				try {
-					//console.log('----');
-					//console.log(a);
-					for ( var i = 1; i < a.length; i++ ){
-						var val = pointer[a[i]];
-						if ( val === undefined || val === "" ) return "";
-						pointer = val;
-					}
-				} catch (e) {
-					console.error("field error:",e);
-					//pointer = "";
-				}
-				return pointer;
-			}
+			getField:getField,
+			getCoordinates:getCoordinates
 		}
 	});
 };
+
+function getField(data){
+	var a = arguments, pointer = data;
+	try {
+		//console.log('----');
+		//console.log(a);
+		for ( var i = 1; i < a.length; i++ ){
+			var val = pointer[a[i]];
+			if ( val === undefined || val === "" ) return "";
+			pointer = val;
+		}
+	} catch (e) {
+		console.error("field error:",e);
+		//pointer = "";
+	}
+	return pointer;
+}
+
+function getCoordinates(){
+	
+	var result = "",
+		value = getField.apply(this,arguments);
+	
+	if ( value ) 
+	{
+		try {
+			if ( value.N ) result += formatAxis(value.N)+" N, ";
+			else result += formatAxis(value.S)+" S, ";
+	
+			if ( value.E ) result += formatAxis(value.E)+" E";
+			else result += formatAxis(value.W)+" W";
+		} catch (e){
+			console.error("Could not format",value,e);
+		}
+	}
+	return result; 
+}
+
+function formatAxis( axis ){
+	var out = axis.deg + "°";
+	if ( axis.min ) out += " "+axis.min+"'";
+	if ( axis.sec ) out += " "+axis.sec+"\"";
+	return out;
+}

@@ -139,7 +139,7 @@
 		<government-type><%= getField(doc,'government','Government type') %></government-type>
 		<capital>
 			<name><%= getField(doc,'government','Capital','name:') %></name>
-			<coordinates><%= getField(doc,'government','Capital','geographic coordinates:') %></coordinates>
+			<coordinates><%= getCoordinates(doc,'government','Capital','geographic coordinates:') %></coordinates>
 			<time-difference><%= getField(doc,'government','Capital','time difference:') %></time-difference>
 		</capital>
 		<administrative-divisions><%= getField(doc,'government','Administrative divisions') %></administrative-divisions>
