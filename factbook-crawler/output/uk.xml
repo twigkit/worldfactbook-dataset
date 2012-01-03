@@ -8,7 +8,7 @@
 		<note>lies near vital North Atlantic sea lanes; only 35 km from France and linked by tunnel under the English Channel; because of heavily indented coastline, no location is more than 125 km from tidal waters</note>
 		<location>
 			<desc>Western Europe, islands - including the northern one-sixth of the island of Ireland - between the North Atlantic Ocean and the North Sea; northwest of France</desc>
-			<coordinates>TO DO</coordinates>
+			<coordinates><lat>54°</lat><long>-2°</long></coordinates>
 		</location>
 		<area>
 			<total unit="sq km">243610</total>
@@ -48,18 +48,6 @@
 				<per-capita unit="cu m/yr">197</per-capita>
 			</freshwater-withdrawal>
 		</water>
-		<!--
-"geo": {
-
-		"Natural hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
-		"Environment - current issues": "air pollution, principally from vehicle and power plant emissions; nitrogen and phosphorus pollution of the North Sea; drinking and surface water becoming polluted from animal wastes and pesticides",
-		"Environment - international agreements": {
-			"party to:": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulfur 85, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-			"signed, but not ratified:": "none of the selected agreements"
-		},
-		"Geography - note": "controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen"
-
-		-->
 	</geo>
 	<people>
 		<population>
@@ -139,7 +127,7 @@
 		<government-type>constitutional monarchy and Commonwealth realm</government-type>
 		<capital>
 			<name>London</name>
-			<coordinates>51° 30' N, 0° 10' W</coordinates>
+			<coordinates>&lt;lat&gt;51° 30'&lt;/lat&gt;&lt;long&gt;-0° 10'&lt;/long&gt;</coordinates>
 			<time-difference>UTC 0 (5 hours ahead of Washington, DC during Standard Time)</time-difference>
 		</capital>
 		<administrative-divisions>[object Object]</administrative-divisions>

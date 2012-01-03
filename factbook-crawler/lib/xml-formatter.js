@@ -38,13 +38,17 @@ function getCoordinates(){
 	if ( value ) 
 	{
 		try {
-			if ( value.N ) result += formatAxis(value.N)+" N, ";
-			else result += formatAxis(value.S)+" S, ";
+			result += "<lat>";
+			if ( value.N ) result += formatAxis(value.N);
+			else result += "-"+formatAxis(value.S);
 	
-			if ( value.E ) result += formatAxis(value.E)+" E";
-			else result += formatAxis(value.W)+" W";
+			result += "</lat><long>";
+			if ( value.E ) result += formatAxis(value.E);
+			else result += "-"+formatAxis(value.W);
+			result += "</long>";
 		} catch (e){
 			console.error("Could not format",value,e);
+			result = "";
 		}
 	}
 	return result; 
