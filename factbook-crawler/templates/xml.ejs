@@ -53,7 +53,7 @@
 		<population>
 			<total><%= getField( doc,'people','Population','Population') || getField( doc,'people','Population')  %></total>
 			<birth unit="<%= getField(doc,'people','Birth rate','unit') %>"><%= getField(doc,'people','Birth rate','quantity') %></birth>
-			<death unit="<%= getField(doc,'people','Death rate','unit') %>"><%= getField(doc,'people','Death rate','quantity') %></birth>
+			<death unit="<%= getField(doc,'people','Death rate','unit') %>"><%= getField(doc,'people','Death rate','quantity') %></death>
 			<migration unit="<%= getField(doc,'people','Net migration rate','unit') %>"><%= getField(doc,'people','Net migration rate','quantity') %></migration>
 			<growth unit="<%= getField(doc,'people','Population growth rate','unit') %>"><%= getField(doc,'people','Population growth rate','quantity') %></growth>
 		</population>
@@ -69,7 +69,7 @@
 		</median-age>
 		<urbanization>
 			<urban unit="<%= getField(doc,'people','Urbanization','urban population:','unit') %>"><%= getField(doc,'people','Urbanization','urban population:','quantity') %></urban>
-			<rate unit="<%= getField(doc,'people','Urbanization','rate of urbanization:','unit') %>"><%= getField(doc,'people','Urbanization','rate of urbanization:','quantity') %></urban>
+			<rate unit="<%= getField(doc,'people','Urbanization','rate of urbanization:','unit') %>"><%= getField(doc,'people','Urbanization','rate of urbanization:','quantity') %></rate>
 			<cities><%= getField(doc,'people','Major cities - population') %></cities>
 		</urbanization>
 		<sex unit="male(s)/female">
@@ -116,7 +116,7 @@
 			<female unit="<%= getField(doc,'people','Literacy','female:','unit') %>"><%= getField(doc,'people','Literacy','female:','quantity') %></female>
 		</literacy>
 		<school-expectancy unit="<%= getField(doc,'people','School life expectancy (primary to tertiary education)','total:','unit') %>"><%= getField(doc,'people','School life expectancy (primary to tertiary education)','total:','quantity') %></school-expectancy>
-		<education-expenditure unit="<%= getField(doc,'people','Education expenditures','unit') %>"><%= getField(doc,'people','Education expenditures','quantity') %></school-expectancy>
+		<education-expenditure unit="<%= getField(doc,'people','Education expenditures','unit') %>"><%= getField(doc,'people','Education expenditures','quantity') %></education-expenditure>
 	</people>
 	<government>
 		<country-name>
